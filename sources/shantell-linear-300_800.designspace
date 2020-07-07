@@ -19,6 +19,50 @@
       </location>
     </source>
   </sources>
+  <instances>
+    <instance familyname="Shantell Linear Wght" stylename="Light" filename="instances/Shantell Linear Wght-Style_1.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Linear Wght" stylename="Regular" filename="instances/Shantell Linear Wght-Style_2.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Linear Wght" stylename="Medium" filename="instances/Shantell Linear Wght-Style_3.ufo">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Linear Wght" stylename="SemiBold" filename="instances/Shantell Linear Wght-Style_4.ufo">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Linear Wght" stylename="Bold" filename="instances/Shantell Linear Wght-Style_5.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Linear Wght" stylename="ExtraBold" filename="instances/Shantell Linear Wght-Style_6.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
   <lib>
     <dict>
       <key>com.letterror.mathModelPref</key>
