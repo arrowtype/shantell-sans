@@ -13,7 +13,7 @@
         <dimension name="Weight" xvalue="300"/>
       </location>
     </source>
-    <source filename="shantell-organic_normalized--extrabold.ufo" familyname="Shantell SemiOrganic Wght" stylename="ExtraBold">
+    <source filename="shantell-semi_organic_normalized--extrabold.ufo" familyname="Shantell SemiOrganic Wght" stylename="ExtraBold">
       <location>
         <dimension name="Weight" xvalue="800"/>
       </location>
@@ -67,6 +67,20 @@
     <dict>
       <key>com.letterror.mathModelPref</key>
       <string>previewVarLib</string>
+      <key>com.letterror.skateboard.interactionSources</key>
+      <dict>
+        <key>vertical</key>
+        <array>
+          <string>Weight</string>
+        </array>
+      </dict>
+      <key>com.letterror.skateboard.previewLocation</key>
+      <dict>
+        <key>Weight</key>
+        <real>600.0</real>
+      </dict>
+      <key>com.letterror.skateboard.previewText</key>
+      <string>ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     </dict>
   </lib>
 </designspace>
