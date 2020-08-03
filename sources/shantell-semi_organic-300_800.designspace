@@ -69,6 +69,10 @@
       <string>previewVarLib</string>
       <key>com.letterror.skateboard.interactionSources</key>
       <dict>
+        <key>horizontal</key>
+        <array/>
+        <key>ignore</key>
+        <array/>
         <key>vertical</key>
         <array>
           <string>Weight</string>
@@ -80,7 +84,7 @@
         <real>600.0</real>
       </dict>
       <key>com.letterror.skateboard.previewText</key>
-      <string>ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+      <string>0123456789</string>
     </dict>
   </lib>
 </designspace>
