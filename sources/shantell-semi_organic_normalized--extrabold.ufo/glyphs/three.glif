@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="three" format="2">
+	<unicode hex="0033"/>
+	<advance width="700"/>
+	<outline>
+		<contour>
+			<point x="372" y="712" type="curve" smooth="yes"/>
+			<point x="536" y="712"/>
+			<point x="614" y="635.1176470588"/>
+			<point x="614" y="518" type="curve" smooth="yes"/>
+			<point x="614" y="453.650273224"/>
+			<point x="569.3847007748" y="424.8941420688"/>
+			<point x="576" y="389" type="curve"/>
+			<point x="581" y="422" type="line"/>
+			<point x="619.9986876942" y="377.999986811"/>
+			<point x="668" y="322.4810126582"/>
+			<point x="668" y="228" type="curve" smooth="yes"/>
+			<point x="668" y="87.1304347826"/>
+			<point x="505" y="-12"/>
+			<point x="257" y="-12" type="curve"/>
+			<point x="47" y="-12"/>
+			<point x="52" y="44"/>
+			<point x="52" y="116" type="curve" smooth="yes"/>
+			<point x="52" y="146.6551724138"/>
+			<point x="65" y="173"/>
+			<point x="97" y="173" type="curve" smooth="yes"/>
+			<point x="143" y="173"/>
+			<point x="174" y="161"/>
+			<point x="230" y="161" type="curve" smooth="yes"/>
+			<point x="373" y="161"/>
+			<point x="495" y="187.9877300613"/>
+			<point x="495" y="228" type="curve" smooth="yes"/>
+			<point x="495" y="267.2857142857"/>
+			<point x="350.9992664149" y="282.000005394"/>
+			<point x="291" y="279" type="curve" smooth="yes"/>
+			<point x="242" y="279"/>
+			<point x="217" y="330"/>
+			<point x="217" y="385" type="curve" smooth="yes"/>
+			<point x="217" y="402"/>
+			<point x="228" y="420"/>
+			<point x="253" y="427" type="curve" smooth="yes"/>
+			<point x="344.0590269212" y="454.7601441172"/>
+			<point x="433" y="467.3475177305"/>
+			<point x="433" y="522" type="curve" smooth="yes"/>
+			<point x="433" y="535.1428571429"/>
+			<point x="401" y="537"/>
+			<point x="372" y="537" type="curve" smooth="yes"/>
+			<point x="251.1224617253" y="537"/>
+			<point x="125.9188415326" y="445"/>
+			<point x="100" y="445" type="curve" smooth="yes"/>
+			<point x="72" y="445"/>
+			<point x="22" y="480"/>
+			<point x="22" y="526" type="curve" smooth="yes"/>
+			<point x="22" y="602"/>
+			<point x="180.8539325843" y="712"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.typemytype.robofont.Image.Sharpness</key>
+			<real>0.400000006</real>
+			<key>public.markColor</key>
+			<string>1,0.65,0.65,1</string>
+		</dict>
+	</lib>
+</glyph>
