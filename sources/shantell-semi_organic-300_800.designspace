@@ -4,7 +4,7 @@
     <axis tag="wght" name="Weight" minimum="300" maximum="800" default="300"/>
   </axes>
   <sources>
-    <source filename="shantell-semi_organic_normalized--light.ufo" familyname="Shantell SemiOrganic Wght" stylename="Light">
+    <source filename="shantell-semi_organic_normalized--light.ufo" familyname="Shantell Sans" stylename="Light">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -13,49 +13,49 @@
         <dimension name="Weight" xvalue="300"/>
       </location>
     </source>
-    <source filename="shantell-semi_organic_normalized--extrabold.ufo" familyname="Shantell SemiOrganic Wght" stylename="ExtraBold">
+    <source filename="shantell-semi_organic_normalized--extrabold.ufo" familyname="Shantell Sans" stylename="ExtraBold">
       <location>
         <dimension name="Weight" xvalue="800"/>
       </location>
     </source>
   </sources>
   <instances>
-    <instance familyname="Shantell SemiOrganic Wght" stylename="Light" filename="instances/Shantell SemiOrganic Wght-Style_1.ufo">
+    <instance familyname="Shantell Sans" stylename="Light" filename="instances/Shantell_Sans-Light.ufo">
       <location>
         <dimension name="Weight" xvalue="300"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell SemiOrganic Wght" stylename="Regular" filename="instances/Shantell SemiOrganic Wght-Style_2.ufo">
+    <instance familyname="Shantell Sans" stylename="Regular" filename="instances/Shantell_Sans-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell SemiOrganic Wght" stylename="Medium" filename="instances/Shantell SemiOrganic Wght-Style_3.ufo">
+    <instance familyname="Shantell Sans" stylename="Medium" filename="instances/Shantell_Sans-Medium.ufo">
       <location>
         <dimension name="Weight" xvalue="500"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell SemiOrganic Wght" stylename="SemiBold" filename="instances/Shantell SemiOrganic Wght-Style_4.ufo">
+    <instance familyname="Shantell Sans" stylename="SemiBold" filename="instances/Shantell_Sans-SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="600"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell SemiOrganic Wght" stylename="Bold" filename="instances/Shantell SemiOrganic Wght-Style_5.ufo">
+    <instance familyname="Shantell Sans" stylename="Bold" filename="instances/Shantell_Sans-Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="700"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell SemiOrganic Wght" stylename="ExtraBold" filename="instances/Shantell SemiOrganic Wght-Style_6.ufo">
+    <instance familyname="Shantell Sans" stylename="ExtraBold" filename="instances/Shantell_Sans-ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="800"/>
       </location>
