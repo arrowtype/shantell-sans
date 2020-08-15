@@ -41,13 +41,13 @@ timestamp = datetime.now().strftime("%Y_%m_%d")
 # startFont = "/Users/stephennixon/type-repos/recursive/src/masters/mono/Recursive Mono-Casual B Slanted.ufo"
 # endFont = "/Users/stephennixon/type-repos/recursive/src/masters/mono/Recursive Mono-Linear A.ufo"
 # glyphScale, yShift = 1.5, 0.93 # baseline to x-height
-glyphToAnimate = 'F'  #'x.italic'
+glyphToAnimate = 'k'  #'x.italic'
 startFont = "/Users/stephennixon/type-repos/shantell/sources/shantell-semi_organic_normalized--light.ufo"
-endFont = "/Users/stephennixon/type-repos/shantell/sources/shantell-organic_normalized--extrabold.ufo"
+endFont = "/Users/stephennixon/type-repos/shantell/sources/shantell-semi_organic_normalized--extrabold.ufo"
 #startFont = "/Users/stephennixon/type-repos/shantell/sources/shantell-linear-normalized--light.ufo"
 #endFont = "/Users/stephennixon/type-repos/shantell/sources/shantell-linear-normalized--extrabold.ufo"
 
-glyphScale, yShift = 1.25, 0.6  #capHeight
+glyphScale, yShift = 1.25, 0.5  #capHeight, 0.9 for /G, 0.7 for capheight
 
 print(startFont)
 print(endFont)
