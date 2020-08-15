@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="question" format="2">
+	<unicode hex="003F"/>
+	<advance width="482"/>
+	<image fileName="question.png" xScale="1.2204119759" yScale="1.2204119759" xOffset="-656.6655425055" yOffset="-393.9357652263" color="0,0,0,0.34121"/>
+	<outline>
+		<contour>
+			<point x="66" y="682" type="curve" smooth="yes"/>
+			<point x="109" y="704"/>
+			<point x="184" y="720"/>
+			<point x="239" y="720" type="curve" smooth="yes"/>
+			<point x="378" y="720"/>
+			<point x="437" y="656"/>
+			<point x="437" y="577" type="curve" smooth="yes"/>
+			<point x="437" y="527"/>
+			<point x="425" y="484"/>
+			<point x="334" y="420" type="curve" smooth="yes"/>
+			<point x="259" y="369"/>
+			<point x="251" y="350"/>
+			<point x="251" y="325" type="curve" smooth="yes"/>
+			<point x="251" y="281"/>
+			<point x="303" y="281"/>
+			<point x="303" y="242" type="curve" smooth="yes"/>
+			<point x="303" y="227"/>
+			<point x="292" y="216"/>
+			<point x="276" y="216" type="curve" smooth="yes"/>
+			<point x="230" y="216"/>
+			<point x="181" y="264"/>
+			<point x="181" y="321" type="curve" smooth="yes"/>
+			<point x="181" y="357"/>
+			<point x="185" y="396"/>
+			<point x="298" y="476" type="curve" smooth="yes"/>
+			<point x="358" y="520"/>
+			<point x="369" y="543"/>
+			<point x="369" y="577" type="curve" smooth="yes"/>
+			<point x="369" y="625"/>
+			<point x="332" y="652"/>
+			<point x="239" y="652" type="curve" smooth="yes"/>
+			<point x="152" y="652"/>
+			<point x="115" y="618"/>
+			<point x="82" y="618" type="curve" smooth="yes"/>
+			<point x="62" y="618"/>
+			<point x="48" y="633"/>
+			<point x="48" y="652" type="curve" smooth="yes"/>
+			<point x="48" y="664"/>
+			<point x="55" y="676"/>
+		</contour>
+		<contour>
+			<point x="270" y="-10" type="curve" smooth="yes"/>
+			<point x="306" y="-10"/>
+			<point x="320" y="16"/>
+			<point x="320" y="41" type="curve" smooth="yes"/>
+			<point x="320" y="78"/>
+			<point x="299" y="113"/>
+			<point x="245" y="113" type="curve" smooth="yes"/>
+			<point x="218" y="113"/>
+			<point x="195" y="91"/>
+			<point x="195" y="61" type="curve" smooth="yes"/>
+			<point x="195" y="16"/>
+			<point x="229" y="-10"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.typemytype.robofont.Image.Brightness</key>
+			<integer>0</integer>
+			<key>com.typemytype.robofont.Image.Contrast</key>
+			<integer>1</integer>
+			<key>com.typemytype.robofont.Image.Saturation</key>
+			<integer>1</integer>
+			<key>com.typemytype.robofont.Image.Sharpness</key>
+			<real>0.400000006</real>
+		</dict>
+	</lib>
+</glyph>
