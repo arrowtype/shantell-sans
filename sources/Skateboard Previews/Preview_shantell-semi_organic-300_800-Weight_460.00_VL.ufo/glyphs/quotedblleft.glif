@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedblleft" format="2">
+	<unicode hex="201C"/>
+	<advance width="443"/>
+	<outline>
+		<contour>
+			<point x="194.36" y="810.28" type="curve" smooth="yes"/>
+			<point x="170.28" y="810.28"/>
+			<point x="153.76" y="802.36"/>
+			<point x="125.72" y="765.04" type="curve" smooth="yes"/>
+			<point x="74.52" y="697.2"/>
+			<point x="42.64" y="607.4"/>
+			<point x="42.64" y="538.2" type="curve" smooth="yes"/>
+			<point x="42.64" y="487.72"/>
+			<point x="65.4" y="442.2"/>
+			<point x="98.72" y="442.2" type="curve" smooth="yes"/>
+			<point x="124.12" y="442.2"/>
+			<point x="137.32" y="461"/>
+			<point x="148.68" y="514.08" type="curve" smooth="yes"/>
+			<point x="160.36" y="569.76"/>
+			<point x="180.4" y="630.64"/>
+			<point x="231.92" y="692.84" type="curve" smooth="yes"/>
+			<point x="251.32" y="716.56"/>
+			<point x="254.96" y="728.08"/>
+			<point x="254.96" y="741.24" type="curve" smooth="yes"/>
+			<point x="255.64" y="771.96"/>
+			<point x="232.92" y="810.28"/>
+		</contour>
+		<contour>
+			<point x="365.96" y="718.68" type="curve" smooth="yes"/>
+			<point x="341.56" y="718.68"/>
+			<point x="324.4" y="710.76"/>
+			<point x="297.72" y="673.44" type="curve" smooth="yes"/>
+			<point x="260.92" y="622.28"/>
+			<point x="241.44" y="547.1866108786"/>
+			<point x="241.44" y="491.84" type="curve" smooth="yes"/>
+			<point x="241.44" y="441.36"/>
+			<point x="264.2" y="395.84"/>
+			<point x="297.52" y="395.84" type="curve" smooth="yes"/>
+			<point x="322.92" y="395.84"/>
+			<point x="336.12" y="414.64"/>
+			<point x="347.48" y="467.72" type="curve" smooth="yes"/>
+			<point x="356.3085364234" y="509.1331699758"/>
+			<point x="367.8" y="553.36"/>
+			<point x="404.6" y="599.88" type="curve" smooth="yes"/>
+			<point x="425.28" y="627.6"/>
+			<point x="429.52" y="640.4314285714"/>
+			<point x="429.52" y="655.28" type="curve" smooth="yes"/>
+			<point x="430.1372026181" y="683.5328628347"/>
+			<point x="406.3655813954" y="718.68"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.typemytype.robofont.Image.Sharpness</key>
+			<real>0.400000006</real>
+			<key>public.markColor</key>
+			<string>0,0.95,0.95,0.25</string>
+		</dict>
+	</lib>
+</glyph>

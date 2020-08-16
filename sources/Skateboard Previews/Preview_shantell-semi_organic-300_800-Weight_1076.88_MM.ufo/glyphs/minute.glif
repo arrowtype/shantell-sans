@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="minute" format="2">
+	<unicode hex="2032"/>
+	<advance width="293"/>
+	<outline>
+		<contour>
+			<point x="91.4623219937" y="306.9136471519" type="curve" smooth="yes"/>
+			<point x="144.1989814082" y="306.9136471519"/>
+			<point x="181.613034019" y="334.0050929589"/>
+			<point x="209.1507120253" y="375.0965387658" type="curve" smooth="yes"/>
+			<point x="255.3496934335" y="441.9729133703"/>
+			<point x="292.5486748418" y="522.7578421677"/>
+			<point x="292.5486748418" y="586.4191455696" type="curve" smooth="yes"/>
+			<point x="292.5486748418" y="663.6020371835"/>
+			<point x="233.7044798259" y="713.8924643987"/>
+			<point x="139.6773931962" y="713.8924643987" type="curve" smooth="yes"/>
+			<point x="62.7417523734" y="713.8924643987"/>
+			<point x="29.4352353639" y="660.4945015823"/>
+			<point x="29.4352353639" y="577.1126285601" type="curve" smooth="yes"/>
+			<point x="29.4352353639" y="471.2633405854"/>
+			<point x="9.9729133703" y="433.5105913766"/>
+			<point x="9.9729133703" y="386.8492879747" type="curve" smooth="yes"/>
+			<point x="9.9729133703" y="341.8814675633"/>
+			<point x="30.2955201741" y="306.9136471519"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0,0.95,0.95,0.25</string>
+		</dict>
+	</lib>
+</glyph>
