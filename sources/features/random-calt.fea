@@ -1,0 +1,61 @@
+@uppercase = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
+
+feature calt {
+    @randomQuantumTrigger1 = [A.alt1    A.alt2    B B.alt2    C C.alt1    C.alt2    D D.alt1    E.alt1    G G.alt2    H H.alt2    I J K.alt1    L.alt2    N.alt1    O O.alt1    P.alt1    P.alt2    Q.alt1    S S.alt1    S.alt2    T T.alt1    U.alt2    V W.alt1    W.alt2    X X.alt1    Y Y.alt1    Y.alt2    Z.alt2   ];
+    @randomQuantumTrigger2 = [A B.alt1    D.alt2    E E.alt2    F F.alt1    F.alt2    G.alt1    H.alt1    I.alt1    I.alt2    J.alt1    J.alt2    K K.alt2    L L.alt1    M M.alt1    M.alt2    N N.alt2    O.alt2    P Q Q.alt2    R R.alt1    R.alt2    T.alt2    U U.alt1    V.alt1    V.alt2    W X.alt2    Z Z.alt1    space];
+
+    @randomQuantumGlyphs1 = [A         B         C         D         E         F         G         H         I         J         K         L         M         N         O         P         Q         R         S         T         U         V         W         X         Y         Z];
+    @randomQuantumGlyphs2 = [A.alt1    B.alt1    C.alt1    D.alt1    E.alt1    F.alt1    G.alt1    H.alt1    I.alt1    J.alt1    K.alt1    L.alt1    M.alt1    N.alt1    O.alt1    P.alt1    Q.alt1    R.alt1    S.alt1    T.alt1    U.alt1    V.alt1    W.alt1    X.alt1    Y.alt1    Z.alt1   ];
+    @randomQuantumGlyphs3 = [A.alt2    B.alt2    C.alt2    D.alt2    E.alt2    F.alt2    G.alt2    H.alt2    I.alt2    J.alt2    K.alt2    L.alt2    M.alt2    N.alt2    O.alt2    P.alt2    Q.alt2    R.alt2    S.alt2    T.alt2    U.alt2    V.alt2    W.alt2    X.alt2    Y.alt2    Z.alt2   ];
+
+    @randomQuantumState1 = [@randomQuantumGlyphs1 @randomQuantumGlyphs3 @randomQuantumGlyphs2];
+    @randomQuantumState2 = [@randomQuantumGlyphs2 @randomQuantumGlyphs1 @randomQuantumGlyphs3];
+    @randomQuantumState3 = [@randomQuantumGlyphs3 @randomQuantumGlyphs2 @randomQuantumGlyphs1];
+
+    @randomQuantumSkip = [@uppercase space];
+
+    lookup RandomQuantum10 {
+        sub @randomQuantumTrigger1 @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumState1' by @randomQuantumState2;
+    } RandomQuantum10;
+
+    lookup RandomQuantum9 {
+        sub @randomQuantumTrigger2 @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumState2' by @randomQuantumState3;
+    } RandomQuantum9;
+
+    lookup RandomQuantum8 {
+        sub @randomQuantumTrigger1 @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumState3' by @randomQuantumState1;
+    } RandomQuantum8;
+
+    lookup RandomQuantum7 {
+        sub @randomQuantumTrigger2 @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumState1' by @randomQuantumState2;
+    } RandomQuantum7;
+
+    lookup RandomQuantum6 {
+        sub @randomQuantumTrigger1 @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumState2' by @randomQuantumState3;
+    } RandomQuantum6;
+
+    lookup RandomQuantum5 {
+        sub @randomQuantumTrigger2 @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumState3' by @randomQuantumState1;
+    } RandomQuantum5;
+
+    lookup RandomQuantum4 {
+        sub @randomQuantumTrigger1 @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumState1' by @randomQuantumState2;
+    } RandomQuantum4;
+
+    lookup RandomQuantum3 {
+        sub @randomQuantumTrigger2 @randomQuantumSkip @randomQuantumSkip @randomQuantumSkip @randomQuantumState2' by @randomQuantumState3;
+    } RandomQuantum3;
+
+    lookup RandomQuantum2 {
+        sub @randomQuantumTrigger1 @randomQuantumSkip @randomQuantumSkip @randomQuantumState3' by @randomQuantumState1;
+    } RandomQuantum2;
+
+    lookup RandomQuantum1 {
+        sub @randomQuantumTrigger2 @randomQuantumState1' by @randomQuantumState2;
+    } RandomQuantum1;
+
+    lookup RandomQuantum0 {
+        sub @randomQuantumTrigger1 @randomQuantumState2' by @randomQuantumState3;
+    } RandomQuantum0;
+
+} calt;

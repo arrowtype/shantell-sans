@@ -1,0 +1,10 @@
+@uppercase = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
+
+feature calt {
+    @randomCycle1 = [@uppercase];
+    @randomCycle2 = [A.alt1 B.alt1 C.alt1 D.alt1 E.alt1 F.alt1 G.alt1 H.alt1 I.alt1 J.alt1 K.alt1 L.alt1 M.alt1 N.alt1 O.alt1 P.alt1 Q.alt1 R.alt1 S.alt1 T.alt1 U.alt1 V.alt1 W.alt1 X.alt1 Y.alt1 Z.alt1];
+    @randomCycle3 = [A.alt2 B.alt2 C.alt2 D.alt2 E.alt2 F.alt2 G.alt2 H.alt2 I.alt2 J.alt2 K.alt2 L.alt2 M.alt2 N.alt2 O.alt2 P.alt2 Q.alt2 R.alt2 S.alt2 T.alt2 U.alt2 V.alt2 W.alt2 X.alt2 Y.alt2 Z.alt2];
+
+    sub @randomCycle1 @randomCycle1' by @randomCycle2;
+    sub @randomCycle2 @randomCycle1' by @randomCycle3;
+} calt;
