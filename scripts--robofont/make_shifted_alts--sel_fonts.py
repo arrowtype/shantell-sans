@@ -64,30 +64,41 @@ for file in files:
     if shiftAlts:
         for g in font:
 
-            # cheat to make it work more quickly
-            # if 'alt' in g.name:
 
-            #     moveY = (randomLimit-minShift) * random() * positiveOrNegative() + minShift
+            # if 'alt1' in g.name:
+
+            #     moveY = ((randomLimit-minShift) * random() + minShift) * -1
 
             #     g.moveBy((0,moveY))
 
             #     print(f"→ {g.name} moved by {moveY}")
 
-            if 'alt1' in g.name:
+            # if 'alt2' in g.name:
 
-                moveY = ((randomLimit-minShift) * random() + minShift) * -1
+            #     moveY = ((randomLimit-minShift) * random() + minShift)
+
+            #     g.moveBy((0,moveY))
+
+            #     print(f"→ {g.name} moved by {moveY}")
+
+            # offset bases, then correct components
+            if 'alt' not in g.name:
+
+                moveY = ((randomLimit-minShift) * random() + minShift) * positiveOrNegative()
 
                 g.moveBy((0,moveY))
 
                 print(f"→ {g.name} moved by {moveY}")
 
-            if 'alt2' in g.name:
+                alt1 = font[g.name + ".alt1"]
+                alt1Moved = alt1.components[0].transformation
+                alt1.components[0].transformation = (alt1Moved[0],alt1Moved[1],alt1Moved[2],alt1Moved[3],alt1Moved[4],alt1Moved[5]-moveY)
 
-                moveY = ((randomLimit-minShift) * random() + minShift)
+                alt2 = font[g.name + ".alt2"]
+                alt2Moved = alt2.components[0].transformation
+                alt2.components[0].transformation = (alt2Moved[0],alt2Moved[1],alt2Moved[2],alt2Moved[3],alt2Moved[4],alt2Moved[5]-moveY)
 
-                g.moveBy((0,moveY))
 
-                print(f"→ {g.name} moved by {moveY}")
 
     # TODO: check for shifted base glyph; offset compenent shifts accordingly
 

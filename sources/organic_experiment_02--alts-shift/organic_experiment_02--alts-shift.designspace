@@ -2,7 +2,7 @@
 <designspace format="4.1">
   <axes>
     <axis tag="wght" name="Weight" minimum="300" maximum="800" default="300"/>
-    <axis tag="ORGN" name="Organic" minimum="25" maximum="75" default="25"/>
+    <axis tag="BNCY" name="Bouncy" minimum="0" maximum="200" default="0"/>
   </axes>
   <sources>
     <source filename="shantell--light.ufo" familyname="Shantell Sans" stylename="Light">
@@ -12,25 +12,25 @@
       <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Organic" xvalue="25"/>
+        <dimension name="Bouncy" xvalue="0"/>
       </location>
     </source>
     <source filename="shantell--extrabold.ufo" familyname="Shantell Sans" stylename="ExtraBold">
       <location>
         <dimension name="Weight" xvalue="800"/>
-        <dimension name="Organic" xvalue="25"/>
+        <dimension name="Bouncy" xvalue="0"/>
       </location>
     </source>
     <source filename="shantell--light--organic.ufo" familyname="Shantell Sans" stylename="Light">
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Organic" xvalue="75"/>
+        <dimension name="Bouncy" xvalue="200"/>
       </location>
     </source>
     <source filename="shantell--extrabold--organic.ufo" familyname="Shantell Sans" stylename="ExtraBold">
       <location>
         <dimension name="Weight" xvalue="800"/>
-        <dimension name="Organic" xvalue="75"/>
+        <dimension name="Bouncy" xvalue="200"/>
       </location>
     </source>
   </sources>
@@ -38,7 +38,7 @@
     <instance familyname="Shantell Sans" stylename="Light" filename="instances/Shantell_Sans-Light.ufo">
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Organic" xvalue="25"/>
+        <dimension name="Bouncy" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -46,7 +46,7 @@
     <instance familyname="Shantell Sans" stylename="Regular" filename="instances/Shantell_Sans-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
-        <dimension name="Organic" xvalue="25"/>
+        <dimension name="Bouncy" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -54,7 +54,7 @@
     <instance familyname="Shantell Sans" stylename="Medium" filename="instances/Shantell_Sans-Medium.ufo">
       <location>
         <dimension name="Weight" xvalue="500"/>
-        <dimension name="Organic" xvalue="25"/>
+        <dimension name="Bouncy" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -62,7 +62,7 @@
     <instance familyname="Shantell Sans" stylename="SemiBold" filename="instances/Shantell_Sans-SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="600"/>
-        <dimension name="Organic" xvalue="25"/>
+        <dimension name="Bouncy" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -70,7 +70,7 @@
     <instance familyname="Shantell Sans" stylename="Bold" filename="instances/Shantell_Sans-Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="700"/>
-        <dimension name="Organic" xvalue="25"/>
+        <dimension name="Bouncy" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -78,7 +78,157 @@
     <instance familyname="Shantell Sans" stylename="ExtraBold" filename="instances/Shantell_Sans-ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="800"/>
-        <dimension name="Organic" xvalue="25"/>
+        <dimension name="Bouncy" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    
+    <!-- semi bouncy -->
+    <instance familyname="Shantell Sans" stylename="SemiBouncy Light" filename="instances/Shantell_Sans-SemiBouncy_Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Bouncy" xvalue="50"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="SemiBouncy Regular" filename="instances/Shantell_Sans-SemiBouncy_Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Bouncy" xvalue="50"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="SemiBouncy Medium" filename="instances/Shantell_Sans-SemiBouncy_Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Bouncy" xvalue="50"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="SemiBouncy SemiBold" filename="instances/Shantell_Sans-SemiBouncy_SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Bouncy" xvalue="50"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="SemiBouncy Bold" filename="instances/Shantell_Sans-SemiBouncy_Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Bouncy" xvalue="50"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="SemiBouncy ExtraBold" filename="instances/Shantell_Sans-SemiBouncy_ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Bouncy" xvalue="50"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    
+    <!-- bouncy -->
+    <instance familyname="Shantell Sans" stylename="Bouncy Light" filename="instances/Shantell_Sans-Bouncy_Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Bouncy" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Bouncy Regular" filename="instances/Shantell_Sans-Bouncy_Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Bouncy" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Bouncy Medium" filename="instances/Shantell_Sans-Bouncy_Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Bouncy" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Bouncy SemiBold" filename="instances/Shantell_Sans-Bouncy_SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Bouncy" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Bouncy Bold" filename="instances/Shantell_Sans-Bouncy_Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Bouncy" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Bouncy ExtraBold" filename="instances/Shantell_Sans-Bouncy_ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Bouncy" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+
+    <!-- super bouncy -->
+    <instance familyname="Shantell Sans" stylename="SuperBouncy Light" filename="instances/Shantell_Sans-SuperBouncy_Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Bouncy" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="SuperBouncy Regular" filename="instances/Shantell_Sans-SuperBouncy_Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Bouncy" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="SuperBouncy Medium" filename="instances/Shantell_Sans-SuperBouncy_Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Bouncy" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="SuperBouncy SemiBold" filename="instances/Shantell_Sans-SuperBouncy_SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Bouncy" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="SuperBouncy Bold" filename="instances/Shantell_Sans-SuperBouncy_Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Bouncy" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="SuperBouncy ExtraBold" filename="instances/Shantell_Sans-SuperBouncy_ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Bouncy" xvalue="200"/>
       </location>
       <kerning/>
       <info/>
