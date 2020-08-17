@@ -65,9 +65,25 @@ for file in files:
         for g in font:
 
             # cheat to make it work more quickly
-            if 'alt' in g.name:
+            # if 'alt' in g.name:
 
-                moveY = (randomLimit-minShift) * random() * positiveOrNegative() + minShift
+            #     moveY = (randomLimit-minShift) * random() * positiveOrNegative() + minShift
+
+            #     g.moveBy((0,moveY))
+
+            #     print(f"→ {g.name} moved by {moveY}")
+
+            if 'alt1' in g.name:
+
+                moveY = ((randomLimit-minShift) * random() + minShift) * -1
+
+                g.moveBy((0,moveY))
+
+                print(f"→ {g.name} moved by {moveY}")
+
+            if 'alt2' in g.name:
+
+                moveY = ((randomLimit-minShift) * random() + minShift)
 
                 g.moveBy((0,moveY))
 
