@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zero" format="2">
+	<unicode hex="0030"/>
+	<advance width="700"/>
+	<image fileName="zero.png" xScale="2.3662938837" yScale="2.3662938837" xOffset="-8471.8248343698" yOffset="-212.644631698" color="0,0,0,0.16492"/>
+	<outline>
+		<contour>
+			<point x="285" y="433.6528632339" type="curve" smooth="yes"/>
+			<point x="213" y="377.6528632339"/>
+			<point x="148" y="268.6528632339"/>
+			<point x="148" y="143.6528632339" type="curve" smooth="yes"/>
+			<point x="148" y="20.6528632339"/>
+			<point x="195" y="-71.3471367661"/>
+			<point x="317" y="-71.3471367661" type="curve" smooth="yes"/>
+			<point x="444" y="-71.3471367661"/>
+			<point x="551" y="55.6528632339"/>
+			<point x="551" y="290.6528632339" type="curve" smooth="yes"/>
+			<point x="551" y="422.6528632339"/>
+			<point x="513.25" y="519.6528632339"/>
+			<point x="400" y="519.6528632339" type="curve" smooth="yes"/>
+			<point x="328.306010929" y="519.6528632339"/>
+			<point x="249.2800206182" y="469.1343219963"/>
+			<point x="195" y="389.6528632339" type="curve" smooth="yes"/>
+			<point x="187" y="378.6528632339"/>
+			<point x="168" y="377.6528632339"/>
+			<point x="151" y="377.6528632339" type="curve" smooth="yes"/>
+			<point x="139" y="377.6528632339"/>
+			<point x="128" y="388.6528632339"/>
+			<point x="128" y="400.6528632339" type="curve" smooth="yes"/>
+			<point x="128" y="447.127090038"/>
+			<point x="265.0381679389" y="584.6528632339"/>
+			<point x="400" y="584.6528632339" type="curve" smooth="yes"/>
+			<point x="552" y="584.6528632339"/>
+			<point x="618" y="472.6528632339"/>
+			<point x="618" y="290.6528632339" type="curve" smooth="yes"/>
+			<point x="618" y="1.6528632339"/>
+			<point x="464.3172205438" y="-137.3471367661"/>
+			<point x="317" y="-137.3471367661" type="curve" smooth="yes"/>
+			<point x="186.5789473684" y="-137.3471367661"/>
+			<point x="81" y="-52.3471367661"/>
+			<point x="81" y="143.6528632339" type="curve" smooth="yes"/>
+			<point x="81" y="348.6185624423"/>
+			<point x="218" y="506.6528632339"/>
+			<point x="285" y="506.6528632339" type="curve" smooth="yes"/>
+			<point x="301.64" y="506.6528632339"/>
+			<point x="311" y="501.6528632339"/>
+			<point x="311" y="477.6528632339" type="curve" smooth="yes"/>
+			<point x="311" y="460.6528632339"/>
+			<point x="302.64996926" y="447.3806171028"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.typemytype.robofont.Image.Brightness</key>
+			<integer>0</integer>
+			<key>com.typemytype.robofont.Image.Contrast</key>
+			<integer>1</integer>
+			<key>com.typemytype.robofont.Image.Saturation</key>
+			<integer>1</integer>
+			<key>com.typemytype.robofont.Image.Sharpness</key>
+			<real>0.400000006</real>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="emdash" format="2">
+	<unicode hex="2014"/>
+	<advance width="1000"/>
+	<outline>
+		<contour>
+			<point x="206" y="209.1026654378" type="curve" smooth="yes"/>
+			<point x="305.8208955224" y="209.1026654378"/>
+			<point x="466.9353233831" y="219.1026654378"/>
+			<point x="910" y="219.1026654378" type="curve" smooth="yes"/>
+			<point x="941" y="219.1026654378"/>
+			<point x="959" y="240.1026654378"/>
+			<point x="959" y="273.1026654378" type="curve" smooth="yes"/>
+			<point x="959" y="313.1026654378"/>
+			<point x="916" y="380.1026654378"/>
+			<point x="797" y="380.1026654378" type="curve" smooth="yes"/>
+			<point x="555.8516746411" y="380.1026654378"/>
+			<point x="324" y="373.1026654378"/>
+			<point x="77" y="356.1026654378" type="curve" smooth="yes"/>
+			<point x="46" y="354.1026654378"/>
+			<point x="41" y="333.1026654378"/>
+			<point x="41" y="309.1026654378" type="curve" smooth="yes"/>
+			<point x="41" y="260.1026654378"/>
+			<point x="100" y="209.1026654378"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0,0.95,0.95,0.25</string>
+		</dict>
+	</lib>
+</glyph>
