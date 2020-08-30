@@ -52,6 +52,8 @@ for file in files:
 
             # transform the layer width
 
+            g.markColor = (0,0.5,1,0.25)
+
     # show 'transform' layer stroke, hide others
 
 
