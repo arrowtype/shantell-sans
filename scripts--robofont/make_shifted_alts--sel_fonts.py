@@ -15,8 +15,8 @@ minShift = 50
 
 makeAlts = False
 shiftAlts = True
-save  = False
-close = False
+save  = True
+close = True
 
 def positiveOrNegative():
     return 1 if random() < 0.5 else -1
@@ -65,21 +65,21 @@ for file in files:
         for g in font:
 
 
-            # if 'alt1' in g.name:
+            if 'alt1' in g.name:
 
-            #     moveY = ((randomLimit-minShift) * random() + minShift) * -1
+                moveY = ((randomLimit-minShift) * random() + minShift) * -1
 
-            #     g.moveBy((0,moveY))
+                g.moveBy((0,moveY))
 
-            #     print(f"→ {g.name} moved by {moveY}")
+                print(f"→ {g.name} moved by {moveY}")
 
-            # if 'alt2' in g.name:
+            if 'alt2' in g.name:
 
-            #     moveY = ((randomLimit-minShift) * random() + minShift)
+                moveY = ((randomLimit-minShift) * random() + minShift)
 
-            #     g.moveBy((0,moveY))
+                g.moveBy((0,moveY))
 
-            #     print(f"→ {g.name} moved by {moveY}")
+                print(f"→ {g.name} moved by {moveY}")
 
             # offset bases, then correct components
             if 'alt' not in g.name:
