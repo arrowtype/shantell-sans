@@ -5,7 +5,6 @@
 from vanilla.dialogs import *
 from glyphConstruction import ParseGlyphConstructionListFromString, GlyphConstructionBuilder
 from random import random
-from glyphConstruction import ParseGlyphConstructionListFromString, GlyphConstructionBuilder
 
 files = getFile("Select UFOs", allowsMultipleSelection=True, fileTypes=["ufo"])
 

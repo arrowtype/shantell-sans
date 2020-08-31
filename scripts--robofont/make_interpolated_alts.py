@@ -7,20 +7,31 @@
     See https://robofont.com/documentation/building-tools/toolspace/scripts/scripts-interpolation/#interpolating-between-two-masters
 """
 
+from vanilla.dialogs import *
+from glyphConstruction import ParseGlyphConstructionListFromString, GlyphConstructionBuilder
+from mojo.UI import OutputWindow
+
+OutputWindow().show()
+OutputWindow().clear()
+
 # get main font, which will remain normal
-mainFontPath = getFile("Select UFOs", allowsMultipleSelection=False, fileTypes=["ufo"])
-f1 = OpenFont(mainFontPath, showInterface=True)
+mainFontPath = getFile("Select Primary/Normal UFO", allowsMultipleSelection=False, fileTypes=["ufo"])
+f1 = OpenFont(mainFontPath[0], showInterface=True)
+
+print(mainFontPath)
+print(f1)
 
 # get secondary font, which will get interpolations
-secondaryFontPath = getFile("Select UFOs", allowsMultipleSelection=False, fileTypes=["ufo"])
-f2 = OpenFont(secondaryFontPath, showInterface=True)
+secondaryFontPath = getFile("Select Secondary/Altered UFO", allowsMultipleSelection=False, fileTypes=["ufo"])
+f2 = OpenFont(secondaryFontPath[0], showInterface=True)
 
 # start by making all the alts
 def makeAlts(font):
+
+    print(font)
     constructionTxt = ''
 
     for g in font:
-
         constructionTxt += f'''
             {g.name}.alt1 = {g.name}
             {g.name}.alt2 = {g.name}\
@@ -68,6 +79,7 @@ for g in f2:
         f2[f'{g.name}.alt2'].interpolate(factor, f1[g.name], f2[g.name])
 
 
+# TODO: decompose all alts?
 
 
 
