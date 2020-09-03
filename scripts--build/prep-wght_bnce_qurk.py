@@ -7,8 +7,10 @@
 
 import os
 import shutil
-# from fontParts.world import *
+import shutil
 from fontParts.fontshell import RFont as Font
+from fontParts.world import *
+from random import random
 
 # start with hardcoded paths; optimize later
 
@@ -21,7 +23,7 @@ sources = {
     "bounceExtrabold": "sources/shantell_bounce--extrabold.ufo",
 }
 
-prepDir = 'sources/wght_bnce_qurk'
+prepDir = 'sources/wght_bnce_qurk--prepped'
 
 # make folder 'wght_bnce_qurk' & copy in sources
 def makePrepDir():
@@ -58,18 +60,8 @@ def makeAlts(fonts, numOfAlts=2):
             glyph.clearImage()
             for i, alt in enumerate(range(numOfAlts)):
                 glyphAltName = f"{glyph.name}.alt{i+1}"
-                # glyphAlt = layer.newGlyph(glyphAltName)
                 glyphAlt = glyph.copy()
-                
-                # glyphAlt.insertGlyph(glyph, name=glyphAltName)
-                # layer[glyphAltName] = glyphAlt
-
-                # newGlyphs[glyphAltName] = glyphAlt
                 newGlyphs[glyphAltName] = layer[glyph.name]
-
-        import pprint
-
-        pprint.pprint(newGlyphs)
 
         for name,glyph in newGlyphs.items():
             layer[name] = glyph.copy()
@@ -77,18 +69,55 @@ def makeAlts(fonts, numOfAlts=2):
 
         font.save()
 
+def positiveOrNegative():
+    return 1 if random() < 0.5 else -1
+
+def shiftAlts(font,randomLimit=200,minShift=50):
+    print(font)
+    print(font.path)
+    for g in font:
+        print(g)
+        if 'alt1' in g.name:
+            moveY = round((randomLimit-minShift) * random() + minShift) * -1
+            g.moveBy((0,moveY))
+            print(f"→ {g.name} moved by {moveY}")
+
+        if 'alt2' in g.name:
+            moveY = round((randomLimit-minShift) * random() + minShift)
+            g.moveBy((0,moveY))
+            print(f"→ {g.name} moved by {moveY}")
+
+        # offset bases, then correct components
+        if 'alt' not in g.name:
+            moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative()
+            g.moveBy((0,moveY))
+            print(f"→ {g.name} moved by {moveY}")
+
+    font.save()
+    print("font saved! (?)")
 
 
+def main():
+    if os.path.exists(prepDir):
+        shutil.rmtree(prepDir,ignore_errors=True)
 
-# shift baseline in bounce fonts
-# def makeBounces():
+    print(f"🤖 Copying fonts to {prepDir}")
+    makePrepDir()
 
+    newFontPaths = [os.path.join(prepDir, path) for path in os.listdir(prepDir) if '.DS_Store' not in path]
 
-# interpolate alts in quirk fonts
-makePrepDir()
+    print("🤖 Opening fonts")
+    fonts = [Font(path) for path in newFontPaths]
 
-newFontPaths = [os.path.join(prepDir, path) for path in os.listdir(prepDir) if '.DS_Store' not in path]
+    print("🤖 Making alts")
+    makeAlts(fonts)
 
-fonts = [Font(path) for path in newFontPaths]
+    # shift alts in bounce fonts
+    for font in fonts:
+        if "bounce" in font.path:
+            shiftAlts(font)
 
-makeAlts(fonts)
+    # interpolate alts in quirk fonts
+
+if __name__ == "__main__":
+    main()
