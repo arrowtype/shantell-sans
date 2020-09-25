@@ -3,16 +3,32 @@
 	<unicode hex="0308"/>
 	<outline>
 		<contour>
-			<point x="-169" y="581" type="line"/>
-			<point x="-169" y="709" type="line"/>
-			<point x="-31" y="709" type="line"/>
-			<point x="-31" y="581" type="line"/>
+			<point x="-123" y="591" type="curve" smooth="yes"/>
+			<point x="-60" y="591"/>
+			<point x="-37" y="631"/>
+			<point x="-37" y="671" type="curve" smooth="yes"/>
+			<point x="-37" y="724"/>
+			<point x="-80" y="792"/>
+			<point x="-154" y="792" type="curve" smooth="yes"/>
+			<point x="-208" y="792"/>
+			<point x="-241" y="757"/>
+			<point x="-241" y="701" type="curve" smooth="yes"/>
+			<point x="-241" y="645"/>
+			<point x="-187" y="591"/>
 		</contour>
 		<contour>
-			<point x="31" y="581" type="line"/>
-			<point x="31" y="709" type="line"/>
-			<point x="170" y="709" type="line"/>
-			<point x="170" y="581" type="line"/>
+			<point x="146" y="613" type="curve" smooth="yes"/>
+			<point x="213" y="613"/>
+			<point x="238" y="655"/>
+			<point x="238" y="698" type="curve" smooth="yes"/>
+			<point x="238" y="751"/>
+			<point x="196" y="818"/>
+			<point x="128" y="818" type="curve" smooth="yes"/>
+			<point x="78" y="818"/>
+			<point x="37" y="782"/>
+			<point x="37" y="732" type="curve" smooth="yes"/>
+			<point x="37" y="662"/>
+			<point x="85" y="613"/>
 		</contour>
 	</outline>
 	<anchor name="_top" x="0" y="515"/>
