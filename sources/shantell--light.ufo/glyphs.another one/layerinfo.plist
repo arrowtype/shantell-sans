@@ -2,11 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 	<dict>
-		<key>at</key>
-		<string>at.glif</string>
-		<key>hookcomb</key>
-		<string>hookcomb.glif</string>
-		<key>numbersign</key>
-		<string>numbersign.glif</string>
+		<key>color</key>
+		<string>0,0.25,1,0.7</string>
+		<key>lib</key>
+		<dict>
+			<key>org.unifiedfontobject.normalizer.imageReferences</key>
+			<dict>
+			</dict>
+		</dict>
 	</dict>
 </plist>

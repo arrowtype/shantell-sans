@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8be222903ef99fa99462642060237436535708181e1882974359ae64f7289c5f"
+            "sha256": "3c208bbbaab02a5e733b2081061ee3abd8c4140b9cec3ba045fb44564d3a2c6b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -96,6 +96,17 @@
             ],
             "version": "==1.6.7"
         },
+        "defcon": {
+            "extras": [
+                "pens"
+            ],
+            "hashes": [
+                "sha256:1967eaa23dcc8e1cbe3bd130aae4d9ddb72027b62d3e23eeb640065cfbd6d8d1",
+                "sha256:d00f91c60c4a411276dab30a9129e34a7a118f41493c4971541ad9287985807f"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==0.7.2"
+        },
         "fontmake": {
             "hashes": [
                 "sha256:57493e673b4d0ed6cb3ee6bd4d04ed2b506958ec732de5c6269367da4e136731",
@@ -110,6 +121,17 @@
                 "sha256:c823e0e607866f0740ba17f1933e7004a472879af1211f6751bda6b532c47c9d"
             ],
             "version": "==0.6.0"
+        },
+        "fontparts": {
+            "git": "https://github.com/robotools/fontParts.git",
+            "ref": "170a2f738db695cee2a9e3ddf369358f55942e1b"
+        },
+        "fontpens": {
+            "hashes": [
+                "sha256:a6d9a14573b3450f3313d69523f9006028c21fc7aef5d35333b87aab7f2b41fd",
+                "sha256:cdef727e49b54ac6228f8fa087ee539258f7b0a6f0accb63cbf31d4bfc437ce7"
+            ],
+            "version": "==0.2.4"
         },
         "fonttools": {
             "extras": [
@@ -239,15 +261,6 @@
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==1.15.0"
-        },
-        "typing-extensions": {
-            "hashes": [
-                "sha256:7cb407020f00f7bfc3cb3e7881628838e69d8f3fcab2f64742a5e76b2f841918",
-                "sha256:99d4073b617d30288f569d3f13d2bd7548c3a7e4c8de87db09a9d29bb3a4a60c",
-                "sha256:dafc7639cde7f1b6e1acc0f457842a83e722ccca8eef5270af2d74792619a89f"
-            ],
-            "markers": "python_version < '3.8'",
-            "version": "==3.7.4.3"
         },
         "ufo2ft": {
             "extras": [
