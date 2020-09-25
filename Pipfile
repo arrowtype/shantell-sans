@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 fontmake = "*"
 pyyaml = "*"
+fontparts = {git = "https://github.com/robotools/fontParts.git", ref = "170a2f73"}
 
 [requires]
 python_version = "3.7"

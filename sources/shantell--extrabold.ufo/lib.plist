@@ -41,9 +41,9 @@
 		<key>com.typemytype.robofont.compileSettings.generateFormat</key>
 		<integer>0</integer>
 		<key>com.typemytype.robofont.compileSettings.layerName</key>
-		<string>public.default</string>
+		<string>foreground</string>
 		<key>com.typemytype.robofont.compileSettings.path</key>
-		<string>/Users/stephennixon/type-repos/shantell/fonts/shantell_marker-semi_organic.otf</string>
+		<string>/Users/stephennixon/Desktop/shantell--extrabold.otf</string>
 		<key>com.typemytype.robofont.compileSettings.releaseMode</key>
 		<false/>
 		<key>com.typemytype.robofont.italicSlantOffset</key>
@@ -162,6 +162,20 @@
 			<string>trademark</string>
 			<string>copyright</string>
 			<string>at.case</string>
+			<string>gravecomb</string>
+			<string>acutecomb</string>
+			<string>circumflexcomb</string>
+			<string>tildecomb</string>
+			<string>macroncomb</string>
+			<string>brevecomb</string>
+			<string>dieresiscomb</string>
+			<string>hookcomb</string>
+			<string>ringcomb</string>
+			<string>caroncomb</string>
+			<string>dotbelowcmb</string>
+			<string>cedillacomb</string>
+			<string>ogonekcmb</string>
+			<string>dotcomb</string>
 		</array>
 		<key>public.postscriptNames</key>
 		<dict>
