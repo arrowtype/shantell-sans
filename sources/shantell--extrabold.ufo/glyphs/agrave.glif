@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="agrave" format="2">
+	<unicode hex="00E0"/>
+	<advance width="704"/>
+	<outline>
+		<component base="a"/>
+		<component base="gravecomb" xOffset="338"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.8708,0.8708,0.8708,0.4845</string>
+		</dict>
+	</lib>
+</glyph>

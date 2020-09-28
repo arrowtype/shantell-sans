@@ -3,39 +3,13 @@
 	<unicode hex="0069"/>
 	<advance width="348"/>
 	<outline>
-		<contour>
-			<point x="182" y="-10" type="curve" smooth="yes"/>
-			<point x="224" y="-10"/>
-			<point x="246" y="17"/>
-			<point x="246" y="62" type="curve" smooth="yes"/>
-			<point x="246" y="131"/>
-			<point x="259" y="351"/>
-			<point x="258" y="415" type="curve" smooth="yes"/>
-			<point x="257" y="488"/>
-			<point x="219" y="526"/>
-			<point x="173" y="526" type="curve" smooth="yes"/>
-			<point x="118" y="526"/>
-			<point x="56" y="460"/>
-			<point x="56" y="386" type="curve" smooth="yes"/>
-			<point x="56" y="305"/>
-			<point x="65" y="258"/>
-			<point x="65" y="98" type="curve" smooth="yes"/>
-			<point x="65" y="41"/>
-			<point x="117" y="-10"/>
-		</contour>
-		<contour>
-			<point x="185" y="589" type="curve" smooth="yes"/>
-			<point x="243" y="589"/>
-			<point x="265" y="626"/>
-			<point x="265" y="663" type="curve" smooth="yes"/>
-			<point x="265" y="732"/>
-			<point x="215" y="817"/>
-			<point x="130" y="817" type="curve" smooth="yes"/>
-			<point x="83" y="817"/>
-			<point x="44" y="777"/>
-			<point x="44" y="722" type="curve" smooth="yes"/>
-			<point x="44" y="653"/>
-			<point x="108" y="589"/>
-		</contour>
+		<component base="idotless"/>
+		<component base="dotcomb" xOffset="162"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.8708,0.8708,0.8708,0.4845</string>
+		</dict>
+	</lib>
 </glyph>
