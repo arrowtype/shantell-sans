@@ -1,0 +1,130 @@
+Aacute = A+acutecomb@top
+Agrave = A+gravecomb@top
+Abreve = A+brevecomb@top
+Acircumflex = A+circumflexcomb@top
+Atilde = A+tildecomb@top
+Adieresis = A+dieresiscomb@top
+Amacron = A+macroncomb@top
+Aring = A+ringcomb@ring
+
+Ccedilla = C+cedillacomb@bottom
+
+Egrave = E+gravecomb@top
+Eacute = E+acutecomb@top
+Ecircumflex = E+circumflexcomb@top
+Edieresis = E+dieresiscomb@top
+Ebreve = E+brevecomb@top
+Emacron = E+macroncomb@top
+
+
+Igrave = I+gravecomb@top
+Iacute = I+acutecomb@top
+Icircumflex = I+circumflexcomb@top
+Idieresis = I+dieresiscomb@top
+Imacron = I+macroncomb@top
+Ibreve = I+brevecomb@top
+?IJ = I + J
+
+Ntilde = N+tildecomb@top
+
+Ograve = O+gravecomb@top
+Oacute = O+acutecomb@top
+Ocircumflex = O+circumflexcomb@top
+Odieresis = O+dieresiscomb@top
+Omacron = O+macroncomb@top
+Obreve = O+brevecomb@top
+?Oslash = O+slash
+?OE = O & E
+
+
+
+Ugrave = U+gravecomb@top
+Uacute = U+acutecomb@top
+Ucircumflex = U+circumflexcomb@top
+Udieresis = U+dieresiscomb@top
+Umacron = U+macroncomb@top
+Ubreve = U+brevecomb@top
+
+
+Ydieresis = Y+dieresiscomb@top
+
+agrave = a+gravecomb@top
+aacute = a+acutecomb@top
+acircumflex = a+circumflexcomb@top
+atilde = a+tildecomb@top
+adieresis = a+dieresiscomb@top
+aring = a+ringcomb@top
+amacron = a+macroncomb@top
+abreve = a+brevecomb@top
+?ae = a & e
+
+ccedilla = c+cedillacomb@bottom
+
+egrave = e+gravecomb@top
+eacute = e+acutecomb@top
+ecircumflex = e+circumflexcomb@top
+edieresis = e+dieresiscomb@top
+emacron = e+macroncomb@top
+ebreve = e+brevecomb@top
+
+?idotless = i
+?jdotless = j
+
+j = jdotless+dotcomb@top
+
+i = idotless+dotcomb@top
+igrave = idotless+gravecomb@top
+iacute = idotless+acutecomb@top
+icircumflex = idotless+circumflexcomb@top
+idieresis = idotless+dieresiscomb@top
+imacron = idotless+macroncomb@top
+ibreve = idotless+brevecomb@top
+?ij = i & j
+
+ntilde = n+tildecomb@top
+
+ograve = o+gravecomb@top
+oacute = o+acutecomb@top
+ocircumflex = o+circumflexcomb@top
+odieresis = o+dieresiscomb@top
+omacron = o+macroncomb@top
+obreve = o+brevecomb@top
+?oslash = o+slash
+?oe = o & e
+
+ugrave = u+gravecomb@top
+uacute = u+acutecomb@top
+ucircumflex = u+circumflexcomb@top
+udieresis = u+dieresiscomb@top
+umacron = u+macroncomb@top
+ubreve = u+brevecomb@top
+
+ydieresis = y+dieresiscomb@top
+
+minute = quotesingle
+second = quotedbl
+uni2010 = hyphen
+
+## special characters
+
+?ellipsis = period & period & period
+
+Cacute = C + acutecomb @ top
+cacute = c + acutecomb @ top
+Nacute = N + acutecomb @ top
+nacute = n + acutecomb @ top
+Sacute = S + acutecomb @ top
+sacute = s + acutecomb @ top
+Zacute = Z + acutecomb @ top
+zacute = z + acutecomb @ top
+
+Zdotaccent = Z + dotcomb @ top
+zdotaccent = z + dotcomb @ top
+
+Aogonek = A + ogonekcmb @ ogonek
+aogonek = a + ogonekcmb @ ogonek
+Eogonek = E + ogonekcmb @ ogonek
+?eogonek = e + ogonekcmb @ ogonek
+
+?Lslash = L + endash # just draw this
+?lslash = l + endash # just draw this

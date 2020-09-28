@@ -5,10 +5,126 @@
 		<key>com.defcon.sortDescriptor</key>
 		<array>
 			<dict>
-				<key>allowPseudoUnicode</key>
-				<true/>
+				<key>ascending</key>
+				<array>
+					<string>space</string>
+					<string>A</string>
+					<string>B</string>
+					<string>C</string>
+					<string>D</string>
+					<string>E</string>
+					<string>F</string>
+					<string>G</string>
+					<string>H</string>
+					<string>I</string>
+					<string>J</string>
+					<string>K</string>
+					<string>L</string>
+					<string>M</string>
+					<string>N</string>
+					<string>O</string>
+					<string>P</string>
+					<string>Q</string>
+					<string>R</string>
+					<string>S</string>
+					<string>T</string>
+					<string>U</string>
+					<string>V</string>
+					<string>W</string>
+					<string>X</string>
+					<string>Y</string>
+					<string>Z</string>
+					<string>a</string>
+					<string>b</string>
+					<string>c</string>
+					<string>d</string>
+					<string>e</string>
+					<string>f</string>
+					<string>g</string>
+					<string>h</string>
+					<string>i</string>
+					<string>j</string>
+					<string>k</string>
+					<string>l</string>
+					<string>m</string>
+					<string>n</string>
+					<string>o</string>
+					<string>p</string>
+					<string>q</string>
+					<string>r</string>
+					<string>s</string>
+					<string>t</string>
+					<string>u</string>
+					<string>v</string>
+					<string>w</string>
+					<string>x</string>
+					<string>y</string>
+					<string>z</string>
+					<string>zero</string>
+					<string>one</string>
+					<string>two</string>
+					<string>three</string>
+					<string>four</string>
+					<string>five</string>
+					<string>six</string>
+					<string>seven</string>
+					<string>eight</string>
+					<string>nine</string>
+					<string>hyphen</string>
+					<string>uni2010</string>
+					<string>endash</string>
+					<string>emdash</string>
+					<string>parenleft</string>
+					<string>parenright</string>
+					<string>bracketleft</string>
+					<string>bracketright</string>
+					<string>numbersign</string>
+					<string>quotesingle</string>
+					<string>quotedbl</string>
+					<string>quoteleft</string>
+					<string>quoteright</string>
+					<string>quotedblleft</string>
+					<string>quotedblright</string>
+					<string>asterisk</string>
+					<string>dagger</string>
+					<string>daggerdbl</string>
+					<string>period</string>
+					<string>comma</string>
+					<string>colon</string>
+					<string>semicolon</string>
+					<string>ellipsis</string>
+					<string>exclam</string>
+					<string>question</string>
+					<string>slash</string>
+					<string>at</string>
+					<string>ampersand</string>
+					<string>section</string>
+					<string>minute</string>
+					<string>second</string>
+					<string>dollar</string>
+					<string>underscore</string>
+					<string>trademark</string>
+					<string>copyright</string>
+					<string>at.case</string>
+					<string>gravecomb</string>
+					<string>acutecomb</string>
+					<string>circumflexcomb</string>
+					<string>tildecomb</string>
+					<string>macroncomb</string>
+					<string>brevecomb</string>
+					<string>dieresiscomb</string>
+					<string>hookcomb</string>
+					<string>ringcomb</string>
+					<string>caroncomb</string>
+					<string>dotbelowcmb</string>
+					<string>cedillacomb</string>
+					<string>ogonekcmb</string>
+					<string>dotcomb</string>
+					<string>jdotless</string>
+					<string>idotless</string>
+				</array>
 				<key>type</key>
-				<string>cannedDesign</string>
+				<string>glyphList</string>
 			</dict>
 		</array>
 		<key>com.schriftgestaltung.disablesAutomaticAlignment</key>
@@ -169,6 +285,8 @@
 			<string>cedillacomb</string>
 			<string>ogonekcmb</string>
 			<string>dotcomb</string>
+			<string>jdotless</string>
+			<string>idotless</string>
 		</array>
 		<key>public.postscriptNames</key>
 		<dict>
