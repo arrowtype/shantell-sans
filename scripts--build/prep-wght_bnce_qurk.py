@@ -5,9 +5,10 @@
     3. Make alts of glyphs, interpolating organic & bouncy glyphs with main sources
 
     # TODO
+        - remove unicodes from alts
         - dont mess up component glyphs in the shifted alts
         - give diacritics different levels of bounce & pop/dynamics/variety(?)
-        - build in feature copier?
+        - build in feature copier? (currently, you have to separate copy in the features)
 """
 
 import os
@@ -80,7 +81,10 @@ def positiveOrNegative():
 def shiftAlts(font,randomLimit=200,minShift=50):
     print(font)
     print(font.path)
+
+
     for g in font:
+    
         print(g)
         if 'alt1' in g.name:
             moveY = round((randomLimit-minShift) * random() + minShift) * -1
@@ -92,14 +96,31 @@ def shiftAlts(font,randomLimit=200,minShift=50):
             g.moveBy((0,moveY))
             print(f"→ {g.name} moved by {moveY}")
 
-        # offset bases, then correct components
-        if 'alt' not in g.name:
+        # offset bases, then correct components 
+        # and DON’t change accent positions
+        accents = "gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcmb dieresiscomb ringcomb caroncomb dotbelowcmb cedillacomb ogonekcmb".split()
+        if 'alt' not in g.name and g.name not in accents:
             moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative()
             g.moveBy((0,moveY))
             print(f"→ {g.name} moved by {moveY}")
 
     font.save()
     print("font saved!")
+
+def interpolateAlts(normalFont, organicFont):
+    for g in organicFont:
+        if 'alt' not in g.name:
+            # interpolate gOneThird and move to organicFont[f'{g.name}.alt1']
+            factor = 0.33
+            print(f'interpolating {g.name}…')
+            organicFont[f'{g.name}.alt1'].interpolate(factor, normalFont[g.name], organicFont[g.name])
+
+            # interpolate gTwoThirds and move to organicFont[f'{g.name}.alt2']
+            factor = 0.66
+            print(f'interpolating {g.name}…')
+            organicFont[f'{g.name}.alt2'].interpolate(factor, normalFont[g.name], organicFont[g.name])
+
+    organicFont.save()
 
 
 def main():
@@ -118,11 +139,19 @@ def main():
     makeAlts(fonts)
 
     # shift alts in bounce fonts
+    print("🤖 Shifting bouncy alts")
     for font in fonts:
         if "bounce" in font.path:
             shiftAlts(font)
 
     # interpolate alts in quirk fonts
+    print("🤖 Interpolating organic alts")
+
+    print([f for f in fonts if "shantell--light" in f.path][0])
+
+    # Dumb setup. Will it work?
+    interpolateAlts([f for f in fonts if "shantell--light" in f.path][0], [f for f in fonts if "organic--light" in f.path][0])
+    interpolateAlts([f for f in fonts if "shantell--extrabold" in f.path][0], [f for f in fonts if "organic--extrabold" in f.path][0])
 
 if __name__ == "__main__":
     main()
