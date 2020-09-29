@@ -71,9 +71,9 @@ ebreve = e+brevecomb@top
 ?idotless = i
 ?jdotless = j
 
-j = jdotless+dotcomb@top
+j = jdotless+dotaccentcmb@top
 
-i = idotless+dotcomb@top
+i = idotless+dotaccentcmb@top
 igrave = idotless+gravecomb@top
 iacute = idotless+acutecomb@top
 icircumflex = idotless+circumflexcomb@top
@@ -102,9 +102,9 @@ ubreve = u+brevecomb@top
 
 ydieresis = y+dieresiscomb@top
 
-minute = quotesingle
-second = quotedbl
-uni2010 = hyphen
+?minute = quotesingle
+?second = quotedbl
+?uni2010 = hyphen
 
 ## special characters
 
@@ -119,8 +119,8 @@ sacute = s + acutecomb @ top
 Zacute = Z + acutecomb @ top
 zacute = z + acutecomb @ top
 
-Zdotaccent = Z + dotcomb @ top
-zdotaccent = z + dotcomb @ top
+Zdotaccent = Z + dotaccentcmb @ top
+zdotaccent = z + dotaccentcmb @ top
 
 Aogonek = A + ogonekcmb @ ogonek
 aogonek = a + ogonekcmb @ ogonek

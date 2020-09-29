@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acircumflex" format="2">
+	<unicode hex="00E2"/>
+	<advance width="704"/>
+	<outline>
+		<component base="a"/>
+		<component base="circumflexcomb" xOffset="331" yOffset="18"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.5534,0.5534,0.5534,0.4845</string>
+		</dict>
+	</lib>
+</glyph>
