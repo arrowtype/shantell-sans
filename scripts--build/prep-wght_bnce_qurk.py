@@ -1,8 +1,13 @@
 """
-    1. Copy sources to new folder
-    2. Duplicate normal sources & run "bouncy" script on these, updating file & style names
-    3. Run "organic" script on quirk sources
-    4. copy features to UFOs
+    This script will...
+    1. Copy main & organic sources to new folder
+    2. Duplicate normal sources & run a "bouncy" filter on these, updating file & style names
+    3. Make alts of glyphs, interpolating organic & bouncy glyphs with main sources
+
+    # TODO
+        - dont mess up component glyphs in the shifted alts
+        - give diacritics different levels of bounce & pop/dynamics/variety(?)
+        - build in feature copier?
 """
 
 import os
@@ -23,9 +28,9 @@ sources = {
     "bounceExtrabold": "sources/shantell_bounce--extrabold.ufo",
 }
 
-prepDir = 'sources/wght_bnce_qurk--prepped'
+prepDir = 'sources/wght_bnce_dynm--prepped'
 
-# make folder 'wght_bnce_qurk' & copy in sources
+# make folder 'wght_bnce_dynm' & copy in sources
 def makePrepDir():
     if not os.path.exists(prepDir):
         os.mkdir(prepDir)
@@ -94,7 +99,7 @@ def shiftAlts(font,randomLimit=200,minShift=50):
             print(f"→ {g.name} moved by {moveY}")
 
     font.save()
-    print("font saved! (?)")
+    print("font saved!")
 
 
 def main():
