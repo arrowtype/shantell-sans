@@ -1,7 +1,7 @@
 '''
     Usage:
 
-    python "<path>/copy-kerning-without-metrics_machine.py" "<path>/Recursive Sans-Casual B.ufo" <dir/to/copy/to>
+    python "<path>/copy-features-to-UFOs.py" "<path>/<filename>.fea" <dir/to/copy/to>
 
     Required argument: Feature file to copy
 
