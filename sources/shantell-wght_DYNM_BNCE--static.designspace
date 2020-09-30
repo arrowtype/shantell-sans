@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="300" maximum="800" default="300"/>
+    <axis tag="DYNM" name="Dynamics" minimum="25" maximum="75" default="25"/>
+    <axis tag="BNCE" name="Bounce" minimum="0" maximum="200" default="0"/>
+  </axes>
+  <sources>
+    <source filename="wght_bnce_dynm--prepped/shantell--light.ufo" familyname="Shantell Sans" stylename="Light">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Bounce" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="wght_bnce_dynm--prepped/shantell--extrabold.ufo" familyname="Shantell Sans" stylename="ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Bounce" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="wght_bnce_dynm--prepped/shantell_organic--light.ufo" familyname="Shantell Sans" stylename="Dynamic Light">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Dynamics" xvalue="75"/>
+        <dimension name="Bounce" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="wght_bnce_dynm--prepped/shantell_organic--extrabold.ufo" familyname="Shantell Sans" stylename="Dynamic ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Dynamics" xvalue="75"/>
+        <dimension name="Bounce" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="wght_bnce_dynm--prepped/shantell_bounce--extrabold.ufo" familyname="Shantell Sans" stylename="ExtraBold Bounce">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Bounce" xvalue="200"/>
+      </location>
+    </source>
+    <source filename="wght_bnce_dynm--prepped/shantell_bounce--light.ufo" familyname="Shantell Sans" stylename="Light Bounce">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Bounce" xvalue="200"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance familyname="Shantell Sans" stylename="Light" filename="instances/Shantell_Sans-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Bounce" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Regular" filename="instances/Shantell_Sans-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Bounce" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Medium" filename="instances/Shantell_Sans-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Bounce" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="SemiBold" filename="instances/Shantell_Sans-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Bounce" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Bold" filename="instances/Shantell_Sans-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Bounce" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="ExtraBold" filename="instances/Shantell_Sans-ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Bounce" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+
+    <!-- SemiBouncy -->
+    <instance familyname="Shantell Sans" stylename="SemiBouncy Light" filename="instances/Shantell_Sans-SemiBouncy_Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Bounce" xvalue="75"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="SemiBouncy Regular" filename="instances/Shantell_Sans-SemiBouncy_Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Bounce" xvalue="75"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="SemiBouncy Medium" filename="instances/Shantell_Sans-SemiBouncy_Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Bounce" xvalue="75"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="SemiBouncy SemiBold" filename="instances/Shantell_Sans-SemiBouncy_SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Bounce" xvalue="75"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="SemiBouncy Bold" filename="instances/Shantell_Sans-SemiBouncy_Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Bounce" xvalue="75"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="SemiBouncy ExtraBold" filename="instances/Shantell_Sans-SemiBouncy_ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Bounce" xvalue="75"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!-- Bouncy -->
+    <instance familyname="Shantell Sans Bouncy" stylename="Light" filename="instances/Shantell_Sans-Bouncy_Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Bounce" xvalue="150"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Bouncy" stylename="Regular" filename="instances/Shantell_Sans-Bouncy_Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Bounce" xvalue="150"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Bouncy" stylename="Medium" filename="instances/Shantell_Sans-Bouncy_Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Bounce" xvalue="150"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Bouncy" stylename="SemiBold" filename="instances/Shantell_Sans-Bouncy_SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Bounce" xvalue="150"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Bouncy" stylename="Bold" filename="instances/Shantell_Sans-Bouncy_Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Bounce" xvalue="150"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Bouncy" stylename="ExtraBold" filename="instances/Shantell_Sans-Bouncy_ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Bounce" xvalue="150"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!-- Organic -->
+    <instance familyname="Shantell Sans Dynamic" stylename="Light" filename="instances/Shantell_Sans-Dynamic_Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Dynamics" xvalue="75"/>
+        <dimension name="Bounce" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Dynamic" stylename="Regular" filename="instances/Shantell_Sans-Dynamic_Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Dynamics" xvalue="75"/>
+        <dimension name="Bounce" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Dynamic" stylename="Medium" filename="instances/Shantell_Sans-Dynamic_Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Dynamics" xvalue="75"/>
+        <dimension name="Bounce" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Dynamic" stylename="SemiBold" filename="instances/Shantell_Sans-Dynamic_SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Dynamics" xvalue="75"/>
+        <dimension name="Bounce" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Dynamic" stylename="Bold" filename="instances/Shantell_Sans-Dynamic_Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Dynamics" xvalue="75"/>
+        <dimension name="Bounce" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Dynamic" stylename="ExtraBold" filename="instances/Shantell_Sans-Dynamic_ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Dynamics" xvalue="75"/>
+        <dimension name="Bounce" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!-- SemiBouncy Organic -->
+    <instance familyname="Shantell Sans SemiBouncy Dynamic" stylename="Light" filename="instances/Shantell_Sans-SemiBouncy_Dynamic_Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Dynamics" xvalue="75"/>
+        <dimension name="Bounce" xvalue="75"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans SemiBouncy Dynamic" stylename="Regular" filename="instances/Shantell_Sans-SemiBouncy_Dynamic_Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Dynamics" xvalue="75"/>
+        <dimension name="Bounce" xvalue="75"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans SemiBouncy Dynamic" stylename="Medium" filename="instances/Shantell_Sans-SemiBouncy_Dynamic_Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Dynamics" xvalue="75"/>
+        <dimension name="Bounce" xvalue="75"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans SemiBouncy Dynamic" stylename="SemiBold" filename="instances/Shantell_Sans-SemiBouncy_Dynamic_SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Dynamics" xvalue="75"/>
+        <dimension name="Bounce" xvalue="75"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans SemiBouncy Dynamic" stylename="Bold" filename="instances/Shantell_Sans-SemiBouncy_Dynamic_Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Dynamics" xvalue="75"/>
+        <dimension name="Bounce" xvalue="75"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans SemiBouncy Dynamic" stylename="ExtraBold" filename="instances/Shantell_Sans-SemiBouncy_Dynamic_ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Dynamics" xvalue="75"/>
+        <dimension name="Bounce" xvalue="75"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!-- Bouncy Organic -->
+  </instances>
+  <lib>
+    <dict>
+      <key>com.letterror.mathModelPref</key>
+      <string>previewVarLib</string>
+      <key>com.letterror.skateboard.interactionSources</key>
+      <dict>
+        <key>horizontal</key>
+        <array/>
+        <key>ignore</key>
+        <array/>
+        <key>vertical</key>
+        <array>
+          <string>Weight</string>
+        </array>
+      </dict>
+      <key>com.letterror.skateboard.previewLocation</key>
+      <dict>
+        <key>Weight</key>
+        <real>600.0</real>
+      </dict>
+      <key>com.letterror.skateboard.previewText</key>
+      <string>0123456789</string>
+    </dict>
+  </lib>
+</designspace>
