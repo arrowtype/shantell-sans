@@ -8,7 +8,7 @@
         - remove unicodes from alts
         - dont mess up component glyphs in the shifted alts
         - give diacritics different levels of bounce & pop/dynamics/variety(?)
-        - build in feature copier? (currently, you have to separate copy in the features)
+        - build in feature copier? (currently, you have to separate copy in the features  )
 """
 
 import os
