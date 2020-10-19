@@ -1,13 +1,71 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="braceright" format="2">
-  <advance width="500"/>
+  <advance width="553"/>
   <unicode hex="007D"/>
+  <image fileName="parenleft.png" xScale="2.5963710802" yScale="2.5963710802" xOffset="-5235.7271646197" yOffset="-485.3762351949" color="0,0,0,0.18426"/>
   <outline>
+    <contour>
+      <point x="132" y="-87" type="curve" smooth="yes"/>
+      <point x="208.83582089552237" y="-87.0"/>
+      <point x="236.0" y="-73.0"/>
+      <point x="236.0" y="-35" type="curve" smooth="yes"/>
+      <point x="236" y="20.0"/>
+      <point x="174" y="55"/>
+      <point x="174" y="140" type="curve" smooth="yes"/>
+      <point x="174" y="223.0"/>
+      <point x="273" y="303.0"/>
+      <point x="425" y="329" type="curve"/>
+      <point x="426" y="247" type="line"/>
+      <point x="243" y="259"/>
+      <point x="165.0" y="345"/>
+      <point x="165.0" y="419" type="curve" smooth="yes"/>
+      <point x="165" y="490"/>
+      <point x="217" y="532"/>
+      <point x="217.0" y="578" type="curve" smooth="yes"/>
+      <point x="217.0" y="608.3384615384615"/>
+      <point x="201.17498720929635" y="625.9663486135969"/>
+      <point x="97" y="646" type="curve" smooth="yes"/>
+      <point x="50.04964005808346" y="654.9904944569628"/>
+      <point x="24.0" y="695.4545454545455"/>
+      <point x="24" y="742" type="curve" smooth="yes"/>
+      <point x="24" y="795"/>
+      <point x="62" y="814"/>
+      <point x="126" y="814" type="curve" smooth="yes"/>
+      <point x="275.0" y="814.0"/>
+      <point x="393.0" y="720"/>
+      <point x="393" y="592" type="curve" smooth="yes"/>
+      <point x="393" y="524"/>
+      <point x="341" y="490"/>
+      <point x="341.0" y="432" type="curve" smooth="yes"/>
+      <point x="341.0" y="402"/>
+      <point x="360" y="393"/>
+      <point x="475" y="372" type="curve" smooth="yes"/>
+      <point x="517" y="364"/>
+      <point x="538.0" y="319.58620689655174"/>
+      <point x="538" y="277" type="curve" smooth="yes"/>
+      <point x="538.0" y="248.2"/>
+      <point x="527" y="211"/>
+      <point x="495" y="205" type="curve" smooth="yes"/>
+      <point x="373.0" y="182.0"/>
+      <point x="350.0" y="172.0"/>
+      <point x="350.0" y="129" type="curve" smooth="yes"/>
+      <point x="350.0" y="81.0"/>
+      <point x="412.0" y="26.0"/>
+      <point x="412" y="-51" type="curve" smooth="yes"/>
+      <point x="412.0" y="-179.0"/>
+      <point x="333.53068592057764" y="-263.0"/>
+      <point x="165" y="-263" type="curve" smooth="yes"/>
+      <point x="99.0" y="-263.0"/>
+      <point x="44" y="-213"/>
+      <point x="44" y="-152" type="curve" smooth="yes"/>
+      <point x="44" y="-107"/>
+      <point x="69.0" y="-87.0"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>public.markColor</key>
-      <string>0,0.95,0.95,0.25</string>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.400000006</real>
     </dict>
   </lib>
 </glyph>
