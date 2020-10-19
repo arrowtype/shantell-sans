@@ -106,6 +106,8 @@
     <string>O_grave.glif</string>
     <key>Omacron</key>
     <string>O_macron.glif</string>
+    <key>Omega</key>
+    <string>O_mega.glif</string>
     <key>Oslash</key>
     <string>O_slash.glif</string>
     <key>P</key>
@@ -176,8 +178,26 @@
     <string>ampersand.glif</string>
     <key>aogonek</key>
     <string>aogonek.glif</string>
+    <key>approxequal</key>
+    <string>approxequal.glif</string>
     <key>aring</key>
     <string>aring.glif</string>
+    <key>arrowNE</key>
+    <string>arrowN_E_.glif</string>
+    <key>arrowNW</key>
+    <string>arrowN_W_.glif</string>
+    <key>arrowSE</key>
+    <string>arrowS_E_.glif</string>
+    <key>arrowSW</key>
+    <string>arrowS_W_.glif</string>
+    <key>arrowdown</key>
+    <string>arrowdown.glif</string>
+    <key>arrowleft</key>
+    <string>arrowleft.glif</string>
+    <key>arrowright</key>
+    <string>arrowright.glif</string>
+    <key>arrowup</key>
+    <string>arrowup.glif</string>
     <key>asterisk</key>
     <string>asterisk.glif</string>
     <key>at</key>
@@ -190,6 +210,10 @@
     <string>b.glif</string>
     <key>bar</key>
     <string>bar.glif</string>
+    <key>braceleft</key>
+    <string>braceleft.glif</string>
+    <key>braceright</key>
+    <string>braceright.glif</string>
     <key>bracketleft</key>
     <string>bracketleft.glif</string>
     <key>bracketright</key>
@@ -206,6 +230,8 @@
     <string>ccedilla.glif</string>
     <key>cedillacomb</key>
     <string>cedillacomb.glif</string>
+    <key>cent</key>
+    <string>cent.glif</string>
     <key>circumflexcomb</key>
     <string>circumflexcomb.glif</string>
     <key>colon</key>
@@ -268,6 +294,10 @@
     <string>g.glif</string>
     <key>gravecomb</key>
     <string>gravecomb.glif</string>
+    <key>greater</key>
+    <string>greater.glif</string>
+    <key>greaterequal</key>
+    <string>greaterequal.glif</string>
     <key>h</key>
     <string>h.glif</string>
     <key>hyphen</key>
@@ -290,6 +320,12 @@
     <string>ij.glif</string>
     <key>imacron</key>
     <string>imacron.glif</string>
+    <key>increment</key>
+    <string>increment.glif</string>
+    <key>infinity</key>
+    <string>infinity.glif</string>
+    <key>integral</key>
+    <string>integral.glif</string>
     <key>iogonek</key>
     <string>iogonek.glif</string>
     <key>j</key>
@@ -300,6 +336,14 @@
     <string>k.glif</string>
     <key>l</key>
     <string>l.glif</string>
+    <key>less</key>
+    <string>less.glif</string>
+    <key>lessequal</key>
+    <string>lessequal.glif</string>
+    <key>litre</key>
+    <string>litre.glif</string>
+    <key>lozenge</key>
+    <string>lozenge.glif</string>
     <key>lslash</key>
     <string>lslash.glif</string>
     <key>m</key>
@@ -314,6 +358,8 @@
     <string>nacute.glif</string>
     <key>nine</key>
     <string>nine.glif</string>
+    <key>notequal</key>
+    <string>notequal.glif</string>
     <key>ntilde</key>
     <string>ntilde.glif</string>
     <key>numbersign</key>
@@ -342,14 +388,22 @@
     <string>oslash.glif</string>
     <key>p</key>
     <string>p.glif</string>
+    <key>paragraph</key>
+    <string>paragraph.glif</string>
     <key>parenleft</key>
     <string>parenleft.glif</string>
     <key>parenright</key>
     <string>parenright.glif</string>
+    <key>percent</key>
+    <string>percent.glif</string>
     <key>period</key>
     <string>period.glif</string>
+    <key>pi</key>
+    <string>pi.glif</string>
     <key>plus</key>
     <string>plus.glif</string>
+    <key>product</key>
+    <string>product.glif</string>
     <key>q</key>
     <string>q.glif</string>
     <key>question</key>
@@ -368,6 +422,8 @@
     <string>quotesingle.glif</string>
     <key>r</key>
     <string>r.glif</string>
+    <key>radical</key>
+    <string>radical.glif</string>
     <key>ringcomb</key>
     <string>ringcomb.glif</string>
     <key>s</key>
@@ -388,6 +444,8 @@
     <string>slash.glif</string>
     <key>space</key>
     <string>space.glif</string>
+    <key>sterling</key>
+    <string>sterling.glif</string>
     <key>t</key>
     <string>t.glif</string>
     <key>three</key>
@@ -428,6 +486,8 @@
     <string>y.glif</string>
     <key>ydieresis</key>
     <string>ydieresis.glif</string>
+    <key>yen</key>
+    <string>yen.glif</string>
     <key>z</key>
     <string>z.glif</string>
     <key>zacute</key>
