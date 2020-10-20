@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="increment" format="2">
+  <advance width="700"/>
+  <unicode hex="2206"/>
+  <outline>
+    <contour identifier="qWaS5dYgx9">
+      <point x="596.0" y="71" type="move"/>
+      <point x="469" y="182"/>
+      <point x="489" y="391"/>
+      <point x="348.0" y="628.0" type="curve"/>
+      <point x="247.0" y="441"/>
+      <point x="209.0" y="286"/>
+      <point x="128.0" y="89" type="curve"/>
+    </contour>
+    <contour identifier="3cRvDRkIXJ">
+      <point x="105.0" y="76" type="move"/>
+      <point x="246.0" y="66"/>
+      <point x="364.0" y="99"/>
+      <point x="573.0" y="82" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.trailingOffCurves</key>
+      <dict>
+        <key>3cRvDRkIXJ</key>
+        <array>
+          <real>668.0</real>
+          <integer>55</integer>
+        </array>
+        <key>qWaS5dYgx9</key>
+        <array>
+          <real>61.0</real>
+          <integer>-47</integer>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
