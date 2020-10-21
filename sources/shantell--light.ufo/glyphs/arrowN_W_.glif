@@ -1,13 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="arrowNW" format="2">
-  <advance width="500"/>
+  <advance width="700"/>
   <unicode hex="2196"/>
+  <image fileName="arrowup.png" xScale="3.6986364913982026" yScale="3.6986364913982026" xOffset="-127.01790865275859" yOffset="-172.1752845863798" color="0,0,0,0.18758"/>
+  <guideline x="350.0" y="0" angle="90.0" identifier="WhJZ6mh5H2"/>
   <outline>
+    <component base="arrowdown" xScale="-0.7071067811865475" xyScale="-0.7071067811865476" yxScale="0.7071067811865476" yScale="-0.7071067811865475" xOffset="355" yOffset="843"/>
   </outline>
   <lib>
     <dict>
-      <key>public.markColor</key>
-      <string>0,0.95,0.95,0.25</string>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.4000000059604645</real>
     </dict>
   </lib>
 </glyph>
