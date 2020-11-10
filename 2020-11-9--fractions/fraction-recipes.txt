@@ -1,0 +1,43 @@
+# Use with control character between, sorted, alternating
+/zero.numr/zero.dnom  /one.numr/one.dnom  /two.numr/two.dnom  /three.numr/three.dnom  /four.numr/four.dnom  \n/five.numr/five.dnom  /six.numr/six.dnom  /seven.numr/seven.dnom  /eight.numr/eight.dnom  \n/nine.numr/nine.dnom
+
+/zero.numr/fraction/zero.dnom  /one.numr/fraction/one.dnom  /two.numr/fraction/two.dnom  /three.numr/fraction/three.dnom  /four.numr/fraction/four.dnom  /five.numr/fraction/five.dnom  /six.numr/fraction/six.dnom  /seven.numr/fraction/seven.dnom  /eight.numr/fraction/eight.dnom  \n/nine.numr/fraction/nine.dnom
+
+
+?zero.numr = zero.dnom
+?one.numr = one.dnom
+?two.numr = two.dnom
+?three.numr = three.dnom
+?four.numr = four.dnom
+?five.numr = five.dnom
+?six.numr = six.dnom
+?seven.numr = seven.dnom
+?eight.numr = eight.dnom
+?nine.numr = nine.dnom
+
+?zero.inferior = zero.dnom
+?one.inferior = one.dnom
+?two.inferior = two.dnom
+?three.inferior = three.dnom
+?four.inferior = four.dnom
+?five.inferior = five.dnom
+?six.inferior = six.dnom
+?seven.inferior = seven.dnom
+?eight.inferior = eight.dnom
+?nine.inferior = nine.dnom
+
+?zero.superior = zero.dnom
+?onesuperior = one.dnom
+?twosuperior = two.dnom
+?threesuperior = three.dnom
+?four.superior = four.dnom
+?five.superior = five.dnom
+?six.superior = six.dnom
+?seven.superior = seven.dnom
+?eight.superior = eight.dnom
+?nine.superior = nine.dnom
+
+onehalf = one.numr & fraction & two.dnom
+onethird = one.numr & fraction & three.dnom
+onequarter = one.numr & fraction & four.dnom
+threequarters = three.numr & fraction & four.dnom
