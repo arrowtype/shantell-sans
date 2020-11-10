@@ -11,6 +11,13 @@
         <string>cannedDesign</string>
       </dict>
     </array>
+    <key>com.loicsander.scaleFast</key>
+    <dict>
+      <key>guides</key>
+      <array/>
+      <key>presets</key>
+      <dict/>
+    </dict>
     <key>com.schriftgestaltung.disablesAutomaticAlignment</key>
     <false/>
     <key>com.schriftgestaltung.fontMaster.userData</key>
@@ -240,6 +247,13 @@
       <string>seven</string>
       <string>eight</string>
       <string>nine</string>
+      <string>onesuperior</string>
+      <string>twosuperior</string>
+      <string>threesuperior</string>
+      <string>onequarter</string>
+      <string>onehalf</string>
+      <string>threequarters</string>
+      <string>onethird</string>
       <string>underscore</string>
       <string>hyphen</string>
       <string>uni2010</string>
@@ -268,8 +282,11 @@
       <string>semicolon</string>
       <string>ellipsis</string>
       <string>exclam</string>
+      <string>exclamdown</string>
       <string>question</string>
       <string>slash</string>
+      <string>backslash</string>
+      <string>fraction</string>
       <string>bar</string>
       <string>at</string>
       <string>ampersand</string>
@@ -300,7 +317,11 @@
       <string>sterling</string>
       <string>yen</string>
       <string>Euro</string>
+      <string>asciicircum</string>
+      <string>asciitilde</string>
+      <string>grave</string>
       <string>copyright</string>
+      <string>registered</string>
       <string>trademark</string>
       <string>arrowNW</string>
       <string>arrowNE</string>
@@ -313,6 +334,43 @@
       <string>jdotless</string>
       <string>at.case</string>
       <string>dollar.tabl</string>
+      <string>zero.dnom</string>
+      <string>one.dnom</string>
+      <string>two.dnom</string>
+      <string>three.dnom</string>
+      <string>four.dnom</string>
+      <string>five.dnom</string>
+      <string>six.dnom</string>
+      <string>seven.dnom</string>
+      <string>eight.dnom</string>
+      <string>nine.dnom</string>
+      <string>zero.numr</string>
+      <string>one.numr</string>
+      <string>two.numr</string>
+      <string>three.numr</string>
+      <string>four.numr</string>
+      <string>five.numr</string>
+      <string>six.numr</string>
+      <string>seven.numr</string>
+      <string>eight.numr</string>
+      <string>nine.numr</string>
+      <string>zero.inferior</string>
+      <string>one.inferior</string>
+      <string>two.inferior</string>
+      <string>three.inferior</string>
+      <string>four.inferior</string>
+      <string>five.inferior</string>
+      <string>six.inferior</string>
+      <string>seven.inferior</string>
+      <string>eight.inferior</string>
+      <string>nine.inferior</string>
+      <string>zero.superior</string>
+      <string>four.superior</string>
+      <string>five.superior</string>
+      <string>six.superior</string>
+      <string>seven.superior</string>
+      <string>eight.superior</string>
+      <string>nine.superior</string>
       <string>ae.200928-18_34</string>
     </array>
     <key>public.postscriptNames</key>
