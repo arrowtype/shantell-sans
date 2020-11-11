@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="dotlessi" format="2">
-  <advance width="500"/>
-  <unicode hex="0131"/>
+<glyph name="quotedblbase" format="2">
+  <advance width="489"/>
+  <unicode hex="201E"/>
   <outline>
+    <component base="quotedblright" xOffset="-80" yOffset="-596"/>
   </outline>
   <lib>
     <dict>

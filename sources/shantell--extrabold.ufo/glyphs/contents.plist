@@ -106,12 +106,16 @@
     <string>O_dieresis.glif</string>
     <key>Ograve</key>
     <string>O_grave.glif</string>
+    <key>Ohungarumlaut</key>
+    <string>O_hungarumlaut.glif</string>
     <key>Omacron</key>
     <string>O_macron.glif</string>
     <key>Omega</key>
     <string>O_mega.glif</string>
     <key>Oslash</key>
     <string>O_slash.glif</string>
+    <key>Otilde</key>
+    <string>O_tilde.glif</string>
     <key>P</key>
     <string>P_.glif</string>
     <key>Q</key>
@@ -136,6 +140,8 @@
     <string>U_dieresis.glif</string>
     <key>Ugrave</key>
     <string>U_grave.glif</string>
+    <key>Uhungarumlaut</key>
+    <string>U_hungarumlaut.glif</string>
     <key>Umacron</key>
     <string>U_macron.glif</string>
     <key>Uogonek</key>
@@ -164,6 +170,8 @@
     <string>abreve.glif</string>
     <key>acircumflex</key>
     <string>acircumflex.glif</string>
+    <key>acute</key>
+    <string>acute.glif</string>
     <key>acutecomb</key>
     <string>acutecomb.glif</string>
     <key>adieresis</key>
@@ -228,6 +236,8 @@
     <string>bracketright.glif</string>
     <key>brevecomb</key>
     <string>brevecomb.glif</string>
+    <key>bullet</key>
+    <string>bullet.glif</string>
     <key>c</key>
     <string>c.glif</string>
     <key>cacute</key>
@@ -254,8 +264,12 @@
     <string>dagger.glif</string>
     <key>daggerdbl</key>
     <string>daggerdbl.glif</string>
+    <key>degree</key>
+    <string>degree.glif</string>
     <key>dieresiscomb</key>
     <string>dieresiscomb.glif</string>
+    <key>divide</key>
+    <string>divide.glif</string>
     <key>dollar</key>
     <string>dollar.glif</string>
     <key>dollar.tabl</key>
@@ -264,8 +278,6 @@
     <string>dotaccentcmb.glif</string>
     <key>dotbelowcmb</key>
     <string>dotbelowcmb.glif</string>
-    <key>dotlessi</key>
-    <string>dotlessi.glif</string>
     <key>e</key>
     <string>e.glif</string>
     <key>eacute</key>
@@ -306,6 +318,8 @@
     <string>exclamdown.glif</string>
     <key>f</key>
     <string>f.glif</string>
+    <key>fhook</key>
+    <string>fhook.glif</string>
     <key>five</key>
     <string>five.glif</string>
     <key>five.dnom</key>
@@ -330,6 +344,8 @@
     <string>fraction.glif</string>
     <key>g</key>
     <string>g.glif</string>
+    <key>germandbls</key>
+    <string>germandbls.glif</string>
     <key>grave</key>
     <string>grave.glif</string>
     <key>gravecomb</key>
@@ -338,12 +354,22 @@
     <string>greater.glif</string>
     <key>greaterequal</key>
     <string>greaterequal.glif</string>
+    <key>guillemetleft</key>
+    <string>guillemetleft.glif</string>
+    <key>guillemetright</key>
+    <string>guillemetright.glif</string>
+    <key>guilsinglleft</key>
+    <string>guilsinglleft.glif</string>
+    <key>guilsinglright</key>
+    <string>guilsinglright.glif</string>
     <key>h</key>
     <string>h.glif</string>
     <key>heartblack</key>
     <string>heartblack.glif</string>
     <key>heartwhite</key>
     <string>heartwhite.glif</string>
+    <key>hungarumlautcmb</key>
+    <string>hungarumlautcmb.glif</string>
     <key>hyphen</key>
     <string>hyphen.glif</string>
     <key>i</key>
@@ -386,16 +412,22 @@
     <string>lessequal.glif</string>
     <key>litre</key>
     <string>litre.glif</string>
+    <key>logicalnot</key>
+    <string>logicalnot.glif</string>
     <key>lozenge</key>
     <string>lozenge.glif</string>
     <key>lslash</key>
     <string>lslash.glif</string>
     <key>m</key>
     <string>m.glif</string>
+    <key>macron</key>
+    <string>macron.glif</string>
     <key>macroncomb</key>
     <string>macroncomb.glif</string>
     <key>minute</key>
     <string>minute.glif</string>
+    <key>mu.math</key>
+    <string>mu.math.glif</string>
     <key>n</key>
     <string>n.glif</string>
     <key>nacute</key>
@@ -432,6 +464,8 @@
     <string>ogonekcmb.glif</string>
     <key>ograve</key>
     <string>ograve.glif</string>
+    <key>ohungarumlaut</key>
+    <string>ohungarumlaut.glif</string>
     <key>omacron</key>
     <string>omacron.glif</string>
     <key>one</key>
@@ -450,8 +484,14 @@
     <string>onesuperior.glif</string>
     <key>onethird</key>
     <string>onethird.glif</string>
+    <key>ordfeminine</key>
+    <string>ordfeminine.glif</string>
+    <key>ordmasculine</key>
+    <string>ordmasculine.glif</string>
     <key>oslash</key>
     <string>oslash.glif</string>
+    <key>otilde</key>
+    <string>otilde.glif</string>
     <key>p</key>
     <string>p.glif</string>
     <key>paragraph</key>
@@ -460,22 +500,34 @@
     <string>parenleft.glif</string>
     <key>parenright</key>
     <string>parenright.glif</string>
+    <key>partialdiff</key>
+    <string>partialdiff.glif</string>
     <key>percent</key>
     <string>percent.glif</string>
     <key>period</key>
     <string>period.glif</string>
+    <key>periodcentered</key>
+    <string>periodcentered.glif</string>
+    <key>perthousand</key>
+    <string>perthousand.glif</string>
     <key>pi</key>
     <string>pi.glif</string>
     <key>plus</key>
     <string>plus.glif</string>
+    <key>plusminus</key>
+    <string>plusminus.glif</string>
     <key>product</key>
     <string>product.glif</string>
     <key>q</key>
     <string>q.glif</string>
     <key>question</key>
     <string>question.glif</string>
+    <key>questiondown</key>
+    <string>questiondown.glif</string>
     <key>quotedbl</key>
     <string>quotedbl.glif</string>
+    <key>quotedblbase</key>
+    <string>quotedblbase.glif</string>
     <key>quotedblleft</key>
     <string>quotedblleft.glif</string>
     <key>quotedblright</key>
@@ -484,6 +536,8 @@
     <string>quoteleft.glif</string>
     <key>quoteright</key>
     <string>quoteright.glif</string>
+    <key>quotesinglbase</key>
+    <string>quotesinglbase.glif</string>
     <key>quotesingle</key>
     <string>quotesingle.glif</string>
     <key>r</key>
@@ -570,6 +624,8 @@
     <string>udieresis.glif</string>
     <key>ugrave</key>
     <string>ugrave.glif</string>
+    <key>uhungarumlaut</key>
+    <string>uhungarumlaut.glif</string>
     <key>umacron</key>
     <string>umacron.glif</string>
     <key>underscore</key>
