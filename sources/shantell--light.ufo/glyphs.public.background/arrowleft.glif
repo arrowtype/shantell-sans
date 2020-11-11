@@ -1,22 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arrowleft" format="2">
-  <advance width="700"/>
-  <unicode hex="2190"/>
-  <outline>
-    <contour identifier="UGlGCtk2m1">
-      <point x="366" y="561" type="move"/>
-      <point x="272" y="522"/>
-      <point x="140" y="428"/>
-      <point x="74.0" y="362" type="curve"/>
-      <point x="118" y="278"/>
-      <point x="258" y="188"/>
-      <point x="392" y="160" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="246" y="355" type="move"/>
-      <point x="317" y="338"/>
-      <point x="485" y="334"/>
-      <point x="610" y="355" type="curve"/>
-    </contour>
-  </outline>
+	<unicode hex="2190"/>
+	<advance width="700"/>
+	<outline>
+		<contour identifier="UGlGCtk2m1">
+			<point x="366" y="561" type="move"/>
+			<point x="272" y="522"/>
+			<point x="140" y="428"/>
+			<point x="74" y="362" type="curve"/>
+			<point x="118" y="278"/>
+			<point x="258" y="188"/>
+			<point x="392" y="160" type="curve" smooth="yes"/>
+		</contour>
+		<contour>
+			<point x="246" y="355" type="move"/>
+			<point x="317" y="338"/>
+			<point x="485" y="334"/>
+			<point x="610" y="355" type="curve"/>
+		</contour>
+	</outline>
 </glyph>

@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="three.inferior" format="2">
-  <advance width="540"/>
-  <unicode hex="2083"/>
-  <outline>
-    <component base="three.dnom" xOffset="43" yOffset="-150"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.5534,0.5534,0.5534,0.4845</string>
-    </dict>
-  </lib>
+	<unicode hex="2083"/>
+	<advance width="540"/>
+	<outline>
+		<component base="three.dnom" xOffset="43" yOffset="-150"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.5534,0.5534,0.5534,0.4845</string>
+		</dict>
+	</lib>
 </glyph>
