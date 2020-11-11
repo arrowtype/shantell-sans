@@ -1,35 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="divide" format="2">
-  <advance width="700"/>
-  <unicode hex="00F7"/>
-  <outline>
-    <contour>
-      <point x="280" y="286"/>
-      <point x="206" y="228"/>
-      <point x="132" y="228" type="curve" smooth="yes"/>
-      <point x="82" y="228"/>
-      <point x="55" y="267"/>
-      <point x="55" y="313" type="curve" smooth="yes"/>
-      <point x="55" y="353"/>
-      <point x="68" y="385"/>
-      <point x="138" y="401" type="curve" smooth="yes"/>
-      <point x="258" y="428"/>
-      <point x="401" y="437"/>
-      <point x="519" y="437" type="curve" smooth="yes"/>
-      <point x="598" y="437"/>
-      <point x="644" y="401"/>
-      <point x="644" y="344" type="curve" smooth="yes"/>
-      <point x="644" y="310"/>
-      <point x="629" y="286"/>
-      <point x="575" y="286" type="curve" smooth="yes"/>
-    </contour>
-    <component base="period" xOffset="186" yOffset="492"/>
-    <component base="period" xOffset="225" yOffset="27"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.95,0.95,0.25</string>
-    </dict>
-  </lib>
+	<unicode hex="00F7"/>
+	<advance width="700"/>
+	<outline>
+		<contour>
+			<point x="280" y="286"/>
+			<point x="206" y="228"/>
+			<point x="132" y="228" type="curve" smooth="yes"/>
+			<point x="82" y="228"/>
+			<point x="55" y="267"/>
+			<point x="55" y="313" type="curve" smooth="yes"/>
+			<point x="55" y="353"/>
+			<point x="68" y="385"/>
+			<point x="138" y="401" type="curve" smooth="yes"/>
+			<point x="258" y="428"/>
+			<point x="401" y="437"/>
+			<point x="519" y="437" type="curve" smooth="yes"/>
+			<point x="598" y="437"/>
+			<point x="644" y="401"/>
+			<point x="644" y="344" type="curve" smooth="yes"/>
+			<point x="644" y="310"/>
+			<point x="629" y="286"/>
+			<point x="575" y="286" type="curve" smooth="yes"/>
+		</contour>
+		<component base="period" xOffset="186" yOffset="492"/>
+		<component base="period" xOffset="225" yOffset="27"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0,0.95,0.95,0.25</string>
+		</dict>
+	</lib>
 </glyph>

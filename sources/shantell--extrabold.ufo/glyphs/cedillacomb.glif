@@ -1,37 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cedillacomb" format="2">
-  <unicode hex="0327"/>
-  <image fileName="S_creen S_hot 2020-09-24 at 10.58.01 P_M_.png" xScale="5.8856538257" yScale="5.8856538257" xOffset="-13240.9909182198" yOffset="-705.563910406" color="0,0,0,0.31859"/>
-  <anchor x="1" y="0" name="_bottom"/>
-  <outline>
-    <contour>
-      <point x="129" y="-105" type="curve" smooth="yes"/>
-      <point x="129" y="-15"/>
-      <point x="67" y="36"/>
-      <point x="-34" y="36" type="curve" smooth="yes"/>
-      <point x="-65" y="36"/>
-      <point x="-76" y="24"/>
-      <point x="-76" y="8" type="curve"/>
-      <point x="-46" y="-7"/>
-      <point x="-37" y="-21"/>
-      <point x="-37" y="-37" type="curve" smooth="yes"/>
-      <point x="-37" y="-58"/>
-      <point x="-55" y="-72"/>
-      <point x="-97" y="-82" type="curve" smooth="yes"/>
-      <point x="-139" y="-92"/>
-      <point x="-156" y="-117"/>
-      <point x="-156" y="-154" type="curve" smooth="yes"/>
-      <point x="-156" y="-210"/>
-      <point x="-111" y="-239"/>
-      <point x="-48" y="-239" type="curve" smooth="yes"/>
-      <point x="66" y="-239"/>
-      <point x="129" y="-166"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.Image.Sharpness</key>
-      <real>0.400000006</real>
-    </dict>
-  </lib>
+	<unicode hex="0327"/>
+	<image fileName="S_creen S_hot 2020-09-24 at 10.58.01 P_M_.png" xScale="5.8856538257" yScale="5.8856538257" xOffset="-13240.9909182198" yOffset="-705.563910406" color="0,0,0,0.31859"/>
+	<outline>
+		<contour>
+			<point x="129" y="-105" type="curve" smooth="yes"/>
+			<point x="129" y="-15"/>
+			<point x="67" y="36"/>
+			<point x="-34" y="36" type="curve" smooth="yes"/>
+			<point x="-65" y="36"/>
+			<point x="-76" y="24"/>
+			<point x="-76" y="8" type="curve"/>
+			<point x="-46" y="-7"/>
+			<point x="-37" y="-21"/>
+			<point x="-37" y="-37" type="curve" smooth="yes"/>
+			<point x="-37" y="-58"/>
+			<point x="-55" y="-72"/>
+			<point x="-97" y="-82" type="curve" smooth="yes"/>
+			<point x="-139" y="-92"/>
+			<point x="-156" y="-117"/>
+			<point x="-156" y="-154" type="curve" smooth="yes"/>
+			<point x="-156" y="-210"/>
+			<point x="-111" y="-239"/>
+			<point x="-48" y="-239" type="curve" smooth="yes"/>
+			<point x="66" y="-239"/>
+			<point x="129" y="-166"/>
+		</contour>
+	</outline>
+	<anchor name="_bottom" x="1" y="0"/>
+	<lib>
+		<dict>
+			<key>com.typemytype.robofont.Image.Sharpness</key>
+			<real>0.400000006</real>
+		</dict>
+	</lib>
 </glyph>
