@@ -5,3 +5,4 @@ languagesystem latn dflt;
 # `features` dir will be copied to varfontprep folder, and these includes will link to that
 include(./features/common.fea);
 include(./features/frac.fea);
+include(./features/numr_dnom_supr_infr.fea);

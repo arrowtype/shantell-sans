@@ -1,7 +1,7 @@
 Uogonek = U + ogonekcmb @ ogonek
 uogonek = u + ogonekcmb @ ogonek
 Iogonek = I + ogonekcmb @ ogonek
-iogonek=idotless+dotcomb@idotless:top+ogonekcmb@idotless:ogonek
+iogonek=idotless+dotaccentcmb@idotless:top+ogonekcmb@idotless:ogonek
 
 Otilde = O + tildecomb @ top
 otilde = o + tildecomb @ top
@@ -10,3 +10,48 @@ Ohungarumlaut = O + hungarumlautcmb @ top
 ohungarumlaut = o + hungarumlautcmb @ top
 Uhungarumlaut = U + hungarumlautcmb @ top
 uhungarumlaut = u + hungarumlautcmb @ top
+
+
+Yacute = Y + acutecomb @ top
+yacute = y + acutecomb @ top
+Ccaron = C + caroncomb @ top
+ccaron = c + caroncomb @ top
+Gbreve = G + brevecomb @ top
+gbreve = g + brevecomb @ top
+Idotaccent = I + dotaccentcmb @ top
+Scedilla = S + cedillacomb @ bottom
+scedilla = s + cedillacomb @ bottom
+Scaron = S + caroncomb @ top
+scaron = s + caroncomb @ top
+Zcaron = Z + caroncomb @ top
+zcaron = z + caroncomb @ top
+Acaron = A + caroncomb @ top
+acaron = a + caroncomb @ top
+Ucaron = U + caroncomb @ top
+ucaron = u + caroncomb @ top
+Oslashacute = Oslash + acutecomb @ top
+oslashacute = oslash + acutecomb @ top
+
+gnrl:hyphen = hyphen | 2010
+
+# czech
+
+Dcaron = D + caroncomb @ top
+
+Ecaron = E + caroncomb @ top
+ecaron = e + caroncomb @ top
+Ncaron = N + caroncomb @ top
+ncaron = n + caroncomb @ top
+Racute = R + acutecomb @ top
+racute = r + acutecomb @ top
+Rcaron = R + caroncomb @ top
+rcaron = r + caroncomb @ top
+Tcaron = T + caroncomb @ top
+tcaron = t + caroncomb @ top
+Uring = U + ringcomb @ top
+uring = u + ringcomb @ top
+
+# TODO
+#Lcaron
+#lcaron
+#dcaron # this is currently incorrect
