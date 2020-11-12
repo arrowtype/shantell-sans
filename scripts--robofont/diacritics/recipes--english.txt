@@ -129,3 +129,18 @@ Eogonek = E + ogonekcmb @ ogonek
 
 ?Lslash = L + endash # just draw this
 ?lslash = l + endash # just draw this
+
+# ---------------------------------
+
+# these require manual re-positioning after building
+?dieresis = dieresiscomb ^ e
+?cedilla = cedillacomb ^ e
+?circumflex = circumflexcomb ^ e
+?caron = caroncomb ^ e
+?breve = brevecomb ^ e
+?dotaccent = dotaccentcmb ^ e
+?ring = ringcomb ^ e
+?ogonek = ogonekcmb ^ e
+?tilde = tildecomb ^ e
+
+nbspace = space | 00A0
