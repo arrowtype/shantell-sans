@@ -9,6 +9,7 @@ verify_ssl = true
 fontmake = "*"
 pyyaml = "*"
 fontparts = {git = "https://github.com/robotools/fontParts.git", ref = "170a2f73"}
+font-v = "*"
 
 [requires]
 python_version = "3.7"
