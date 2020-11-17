@@ -2,21 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 	<dict>
-		<key>A</key>
-		<dict>
-			<key>T</key>
-			<integer>-80</integer>
-		</dict>
-		<key>D</key>
-		<dict>
-			<key>I</key>
-			<integer>-10</integer>
-		</dict>
 		<key>G</key>
 		<dict>
-			<key>E</key>
-			<integer>-20</integer>
 			<key>S</key>
+			<integer>-20</integer>
+			<key>public.kern2.E</key>
 			<integer>-20</integer>
 		</dict>
 		<key>H</key>
@@ -31,10 +21,10 @@
 		</dict>
 		<key>T</key>
 		<dict>
-			<key>A</key>
-			<integer>-60</integer>
 			<key>S</key>
 			<integer>-40</integer>
+			<key>public.kern2.A</key>
+			<integer>-60</integer>
 		</dict>
 		<key>W</key>
 		<dict>
@@ -59,6 +49,16 @@
 		<key>o</key>
 		<dict>
 			<key>v</key>
+			<integer>-10</integer>
+		</dict>
+		<key>public.kern1.A</key>
+		<dict>
+			<key>T</key>
+			<integer>-80</integer>
+		</dict>
+		<key>public.kern1.D</key>
+		<dict>
+			<key>I</key>
 			<integer>-10</integer>
 		</dict>
 		<key>r</key>
