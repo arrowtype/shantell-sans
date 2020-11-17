@@ -1,7 +1,8 @@
-languagesystem DFLT dflt;
-languagesystem latn dflt;
+    languagesystem DFLT dflt;
+    languagesystem latn dflt;
 
-# include paths written relative to UFOs in varfontprep folders
-# `features` dir will be copied to varfontprep folder, and these includes will link to that
-include(./features/features/common.fea);
-include(./features/features/frac.fea);
+    include(./features/features/common.fea);
+    include(./features/features/frac.fea);
+    include(./features/features/numr_dnom_supr_infr.fea);
+
+    
