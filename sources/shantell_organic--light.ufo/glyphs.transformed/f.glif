@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f" format="2">
-	<unicode hex="0066"/>
 	<advance width="322"/>
 	<outline>
 		<contour>
-			<point x="98" y="419"/>
-			<point x="144.8" y="434"/>
 			<point x="332" y="434" type="curve" smooth="yes"/>
 			<point x="378.8" y="434"/>
 			<point x="398.6" y="443"/>
@@ -22,6 +19,8 @@
 			<point x="4.4" y="426"/>
 			<point x="24.2" y="419"/>
 			<point x="47.6" y="419" type="curve" smooth="yes"/>
+			<point x="98" y="419"/>
+			<point x="144.8" y="434"/>
 		</contour>
 		<contour>
 			<point x="51.2" y="-13" type="curve" smooth="yes"/>

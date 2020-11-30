@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrowNE" format="2">
+	<unicode hex="2197"/>
+	<advance width="700"/>
+	<image fileName="arrowup.png" xScale="3.6986364914" yScale="3.6986364914" xOffset="-127.0179086528" yOffset="-172.1752845864" color="0,0,0,0.18758"/>
+	<outline>
+		<component base="arrowdown" xScale="-0.7071067812" xyScale="0.7071067812" yxScale="-0.7071067812" yScale="-0.7071067812" xOffset="847" yOffset="345"/>
+	</outline>
+	<guideline x="350" y="0" angle="90" identifier="WhJZ6mh5H2"/>
+	<lib>
+		<dict>
+			<key>com.typemytype.robofont.Image.Sharpness</key>
+			<real>0.400000006</real>
+		</dict>
+	</lib>
+</glyph>
