@@ -17,12 +17,12 @@ if "sparse" not in fontPath:
     print(font.features.text)
     
     font.features.text = """\
-    languagesystem DFLT dflt;
-    languagesystem latn dflt;
+languagesystem DFLT dflt;
+languagesystem latn dflt;
 
-    include(../features/features/common.fea);
-    include(../features/features/frac.fea);
-    include(../features/features/numr_dnom_supr_infr.fea);
+include(../features/features/common.fea);
+include(../features/features/frac.fea);
+include(../features/features/numr_dnom_supr_infr.fea);
 
     """
     
@@ -32,3 +32,4 @@ if "sparse" not in fontPath:
 
 
 font.save()
+font.close()

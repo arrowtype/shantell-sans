@@ -2,7 +2,7 @@
 <designspace format="4.1">
   <axes>
     <axis tag="wght" name="Weight" minimum="300" maximum="800" default="300"/>
-    <axis tag="DYNM" name="Dynamics" minimum="25" maximum="75" default="25"/>
+    <axis tag="FLUX" name="Flux" minimum="0" maximum="100" default="0"/>
     <axis tag="BNCE" name="Bounce" minimum="0" maximum="200" default="0"/>
   </axes>
   <sources>
@@ -13,42 +13,42 @@
       <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Flux" xvalue="0"/>
         <dimension name="Bounce" xvalue="0"/>
       </location>
     </source>
     <source filename="wght_bnce_dynm--prepped/shantell--extrabold.ufo" familyname="Shantell Sans" stylename="ExtraBold">
       <location>
         <dimension name="Weight" xvalue="800"/>
-        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Flux" xvalue="0"/>
         <dimension name="Bounce" xvalue="0"/>
       </location>
     </source>
     <source filename="wght_bnce_dynm--prepped/shantell_organic--light.ufo" familyname="Shantell Sans" stylename="Dynamic Light">
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Dynamics" xvalue="75"/>
+        <dimension name="Flux" xvalue="100"/>
         <dimension name="Bounce" xvalue="0"/>
       </location>
     </source>
     <source filename="wght_bnce_dynm--prepped/shantell_organic--extrabold.ufo" familyname="Shantell Sans" stylename="Dynamic ExtraBold">
       <location>
         <dimension name="Weight" xvalue="800"/>
-        <dimension name="Dynamics" xvalue="75"/>
+        <dimension name="Flux" xvalue="100"/>
         <dimension name="Bounce" xvalue="0"/>
       </location>
     </source>
     <source filename="wght_bnce_dynm--prepped/shantell_bounce--extrabold.ufo" familyname="Shantell Sans" stylename="ExtraBold Bounce">
       <location>
         <dimension name="Weight" xvalue="800"/>
-        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Flux" xvalue="0"/>
         <dimension name="Bounce" xvalue="200"/>
       </location>
     </source>
     <source filename="wght_bnce_dynm--prepped/shantell_bounce--light.ufo" familyname="Shantell Sans" stylename="Light Bounce">
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Flux" xvalue="0"/>
         <dimension name="Bounce" xvalue="200"/>
       </location>
     </source>
@@ -57,7 +57,7 @@
     <instance familyname="Shantell Sans VF" stylename="Light" filename="instances/Shantell_Sans-Light.ufo">
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Flux" xvalue="0"/>
         <dimension name="Bounce" xvalue="0"/>
       </location>
       <kerning/>
@@ -66,7 +66,7 @@
     <instance familyname="Shantell Sans VF" stylename="Regular" filename="instances/Shantell_Sans-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
-        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Flux" xvalue="0"/>
         <dimension name="Bounce" xvalue="0"/>
       </location>
       <kerning/>
@@ -75,7 +75,7 @@
     <instance familyname="Shantell Sans VF" stylename="Medium" filename="instances/Shantell_Sans-Medium.ufo">
       <location>
         <dimension name="Weight" xvalue="500"/>
-        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Flux" xvalue="0"/>
         <dimension name="Bounce" xvalue="0"/>
       </location>
       <kerning/>
@@ -84,7 +84,7 @@
     <instance familyname="Shantell Sans VF" stylename="SemiBold" filename="instances/Shantell_Sans-SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="600"/>
-        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Flux" xvalue="0"/>
         <dimension name="Bounce" xvalue="0"/>
       </location>
       <kerning/>
@@ -93,7 +93,7 @@
     <instance familyname="Shantell Sans VF" stylename="Bold" filename="instances/Shantell_Sans-Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="700"/>
-        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Flux" xvalue="0"/>
         <dimension name="Bounce" xvalue="0"/>
       </location>
       <kerning/>
@@ -102,7 +102,7 @@
     <instance familyname="Shantell Sans VF" stylename="ExtraBold" filename="instances/Shantell_Sans-ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="800"/>
-        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Flux" xvalue="0"/>
         <dimension name="Bounce" xvalue="0"/>
       </location>
       <kerning/>
@@ -113,8 +113,8 @@
     <instance familyname="Shantell Sans VF" stylename="SemiBouncy Light" filename="instances/Shantell_Sans-SemiBouncy_Light.ufo">
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Dynamics" xvalue="25"/>
-        <dimension name="Bounce" xvalue="75"/>
+        <dimension name="Flux" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
@@ -122,8 +122,8 @@
     <instance familyname="Shantell Sans VF" stylename="SemiBouncy Regular" filename="instances/Shantell_Sans-SemiBouncy_Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
-        <dimension name="Dynamics" xvalue="25"/>
-        <dimension name="Bounce" xvalue="75"/>
+        <dimension name="Flux" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
@@ -131,8 +131,8 @@
     <instance familyname="Shantell Sans VF" stylename="SemiBouncy Medium" filename="instances/Shantell_Sans-SemiBouncy_Medium.ufo">
       <location>
         <dimension name="Weight" xvalue="500"/>
-        <dimension name="Dynamics" xvalue="25"/>
-        <dimension name="Bounce" xvalue="75"/>
+        <dimension name="Flux" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
@@ -140,8 +140,8 @@
     <instance familyname="Shantell Sans VF" stylename="SemiBouncy SemiBold" filename="instances/Shantell_Sans-SemiBouncy_SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="600"/>
-        <dimension name="Dynamics" xvalue="25"/>
-        <dimension name="Bounce" xvalue="75"/>
+        <dimension name="Flux" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
@@ -149,8 +149,8 @@
     <instance familyname="Shantell Sans VF" stylename="SemiBouncy Bold" filename="instances/Shantell_Sans-SemiBouncy_Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="700"/>
-        <dimension name="Dynamics" xvalue="25"/>
-        <dimension name="Bounce" xvalue="75"/>
+        <dimension name="Flux" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
@@ -158,8 +158,8 @@
     <instance familyname="Shantell Sans VF" stylename="SemiBouncy ExtraBold" filename="instances/Shantell_Sans-SemiBouncy_ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="800"/>
-        <dimension name="Dynamics" xvalue="25"/>
-        <dimension name="Bounce" xvalue="75"/>
+        <dimension name="Flux" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
@@ -168,7 +168,7 @@
     <instance familyname="Shantell Sans VF" stylename="Bouncy Light" filename="instances/Shantell_Sans-Bouncy_Light.ufo">
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Flux" xvalue="0"/>
         <dimension name="Bounce" xvalue="150"/>
       </location>
       <kerning/>
@@ -177,7 +177,7 @@
     <instance familyname="Shantell Sans VF" stylename="Bouncy Regular" filename="instances/Shantell_Sans-Bouncy_Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
-        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Flux" xvalue="0"/>
         <dimension name="Bounce" xvalue="150"/>
       </location>
       <kerning/>
@@ -186,7 +186,7 @@
     <instance familyname="Shantell Sans VF" stylename="Bouncy Medium" filename="instances/Shantell_Sans-Bouncy_Medium.ufo">
       <location>
         <dimension name="Weight" xvalue="500"/>
-        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Flux" xvalue="0"/>
         <dimension name="Bounce" xvalue="150"/>
       </location>
       <kerning/>
@@ -195,7 +195,7 @@
     <instance familyname="Shantell Sans VF" stylename="Bouncy SemiBold" filename="instances/Shantell_Sans-Bouncy_SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="600"/>
-        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Flux" xvalue="0"/>
         <dimension name="Bounce" xvalue="150"/>
       </location>
       <kerning/>
@@ -204,7 +204,7 @@
     <instance familyname="Shantell Sans VF" stylename="Bouncy Bold" filename="instances/Shantell_Sans-Bouncy_Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="700"/>
-        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Flux" xvalue="0"/>
         <dimension name="Bounce" xvalue="150"/>
       </location>
       <kerning/>
@@ -213,118 +213,118 @@
     <instance familyname="Shantell Sans VF" stylename="Bouncy ExtraBold" filename="instances/Shantell_Sans-Bouncy_ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="800"/>
-        <dimension name="Dynamics" xvalue="25"/>
+        <dimension name="Flux" xvalue="0"/>
         <dimension name="Bounce" xvalue="150"/>
       </location>
       <kerning/>
       <info/>
     </instance>
     <!-- Organic -->
-    <instance familyname="Shantell Sans VF" stylename="Dynamic Light" filename="instances/Shantell_Sans-Dynamic_Light.ufo">
+    <instance familyname="Shantell Sans VF" stylename="Flux Light" filename="instances/Shantell_Sans-Flux_Light.ufo">
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Dynamics" xvalue="75"/>
+        <dimension name="Flux" xvalue="100"/>
         <dimension name="Bounce" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans VF" stylename="Dynamic Regular" filename="instances/Shantell_Sans-Dynamic_Regular.ufo">
+    <instance familyname="Shantell Sans VF" stylename="Flux Regular" filename="instances/Shantell_Sans-Flux_Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
-        <dimension name="Dynamics" xvalue="75"/>
+        <dimension name="Flux" xvalue="100"/>
         <dimension name="Bounce" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans VF" stylename="Dynamic Medium" filename="instances/Shantell_Sans-Dynamic_Medium.ufo">
+    <instance familyname="Shantell Sans VF" stylename="Flux Medium" filename="instances/Shantell_Sans-Flux_Medium.ufo">
       <location>
         <dimension name="Weight" xvalue="500"/>
-        <dimension name="Dynamics" xvalue="75"/>
+        <dimension name="Flux" xvalue="100"/>
         <dimension name="Bounce" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans VF" stylename="Dynamic SemiBold" filename="instances/Shantell_Sans-Dynamic_SemiBold.ufo">
+    <instance familyname="Shantell Sans VF" stylename="Flux SemiBold" filename="instances/Shantell_Sans-Flux_SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="600"/>
-        <dimension name="Dynamics" xvalue="75"/>
+        <dimension name="Flux" xvalue="100"/>
         <dimension name="Bounce" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans VF" stylename="Dynamic Bold" filename="instances/Shantell_Sans-Dynamic_Bold.ufo">
+    <instance familyname="Shantell Sans VF" stylename="Flux Bold" filename="instances/Shantell_Sans-Flux_Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="700"/>
-        <dimension name="Dynamics" xvalue="75"/>
+        <dimension name="Flux" xvalue="100"/>
         <dimension name="Bounce" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans VF" stylename="Dynamic ExtraBold" filename="instances/Shantell_Sans-Dynamic_ExtraBold.ufo">
+    <instance familyname="Shantell Sans VF" stylename="Flux ExtraBold" filename="instances/Shantell_Sans-Flux_ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="800"/>
-        <dimension name="Dynamics" xvalue="75"/>
+        <dimension name="Flux" xvalue="100"/>
         <dimension name="Bounce" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
     </instance>
     <!-- SemiBouncy Organic -->
-    <instance familyname="Shantell Sans VF" stylename="SemiBouncy Dynamic Light" filename="instances/Shantell_Sans-SemiBouncy_Dynamic_Light.ufo">
+    <instance familyname="Shantell Sans VF" stylename="Flux SemiBouncy Light" filename="instances/Shantell_Sans-Flux_SemiBouncy_Light.ufo">
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Dynamics" xvalue="75"/>
-        <dimension name="Bounce" xvalue="75"/>
+        <dimension name="Flux" xvalue="100"/>
+        <dimension name="Bounce" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans VF" stylename="SemiBouncy Dynamic Regular" filename="instances/Shantell_Sans-SemiBouncy_Dynamic_Regular.ufo">
+    <instance familyname="Shantell Sans VF" stylename="Flux SemiBouncy Regular" filename="instances/Shantell_Sans-Flux_SemiBouncy_Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
-        <dimension name="Dynamics" xvalue="75"/>
-        <dimension name="Bounce" xvalue="75"/>
+        <dimension name="Flux" xvalue="100"/>
+        <dimension name="Bounce" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans VF" stylename="SemiBouncy Dynamic Medium" filename="instances/Shantell_Sans-SemiBouncy_Dynamic_Medium.ufo">
+    <instance familyname="Shantell Sans VF" stylename="Flux SemiBouncy Medium" filename="instances/Shantell_Sans-Flux_SemiBouncy_Medium.ufo">
       <location>
         <dimension name="Weight" xvalue="500"/>
-        <dimension name="Dynamics" xvalue="75"/>
-        <dimension name="Bounce" xvalue="75"/>
+        <dimension name="Flux" xvalue="100"/>
+        <dimension name="Bounce" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans VF" stylename="SemiBouncy Dynamic SemiBold" filename="instances/Shantell_Sans-SemiBouncy_Dynamic_SemiBold.ufo">
+    <instance familyname="Shantell Sans VF" stylename="Flux SemiBouncy SemiBold" filename="instances/Shantell_Sans-Flux_SemiBouncy_SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="600"/>
-        <dimension name="Dynamics" xvalue="75"/>
-        <dimension name="Bounce" xvalue="75"/>
+        <dimension name="Flux" xvalue="100"/>
+        <dimension name="Bounce" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans VF" stylename="SemiBouncy Dynamic Bold" filename="instances/Shantell_Sans-SemiBouncy_Dynamic_Bold.ufo">
+    <instance familyname="Shantell Sans VF" stylename="Flux SemiBouncy Bold" filename="instances/Shantell_Sans-Flux_SemiBouncy_Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="700"/>
-        <dimension name="Dynamics" xvalue="75"/>
-        <dimension name="Bounce" xvalue="75"/>
+        <dimension name="Flux" xvalue="100"/>
+        <dimension name="Bounce" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans VF" stylename="SemiBouncy Dynamic ExtraBold" filename="instances/Shantell_Sans-SemiBouncy_Dynamic_ExtraBold.ufo">
+    <instance familyname="Shantell Sans VF" stylename="Flux SemiBouncy ExtraBold" filename="instances/Shantell_Sans-Flux_SemiBouncy_ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="800"/>
-        <dimension name="Dynamics" xvalue="75"/>
-        <dimension name="Bounce" xvalue="75"/>
+        <dimension name="Flux" xvalue="100"/>
+        <dimension name="Bounce" xvalue="100"/>
       </location>
       <kerning/>
       <info/>

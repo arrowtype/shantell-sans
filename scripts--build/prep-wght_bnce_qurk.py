@@ -5,10 +5,10 @@
     3. Make alts of glyphs, interpolating organic & bouncy glyphs with main sources
 
     # TODO
-        - remove unicodes from alts
-        - dont mess up component glyphs in the shifted alts
-        - give diacritics different levels of bounce & pop/dynamics/variety(?)
-        - build in feature copier? (currently, you have to separate copy in the features  )
+        - [ ] remove unicodes from alts
+        - [ ] dont mess up component glyphs in the shifted alts (shift components along with bases)
+        - [ ] give diacritics different levels of bounce & pop/dynamics/variety(?)
+        - [ ] build in feature copier? (currently, you have to separate copy in the features  )
 """
 
 import os
@@ -111,12 +111,14 @@ def interpolateAlts(normalFont, organicFont):
     for g in organicFont:
         if 'alt' not in g.name:
             # interpolate gOneThird and move to organicFont[f'{g.name}.alt1']
-            factor = 0.33
+            # factor = 0.33
+            factor = 0.1
             print(f'interpolating {g.name}…')
             organicFont[f'{g.name}.alt1'].interpolate(factor, normalFont[g.name], organicFont[g.name])
 
             # interpolate gTwoThirds and move to organicFont[f'{g.name}.alt2']
-            factor = 0.66
+            # factor = 0.66
+            factor = 0.6
             print(f'interpolating {g.name}…')
             organicFont[f'{g.name}.alt2'].interpolate(factor, normalFont[g.name], organicFont[g.name])
 
