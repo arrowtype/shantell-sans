@@ -73,6 +73,18 @@ def makeAlts(fonts, numOfAlts=2):
             layer[name] = glyph.copy()
             font[name].markColor = 0, 0, 1, 0.5
 
+        # set components to alt baseGlyphs – especially vital for i & j
+
+        altSuffixes = [f".alt{x}" for x in range(1,numOfAlts+1)]
+
+        for glyph in font:
+            # check if glyphName includes alt suffix - https://www.geeksforgeeks.org/python-test-if-string-contains-element-from-list/
+            if bool([suffix for suffix in altSuffixes if(suffix in glyph.name)]):
+                suffix = glyph.name.split(".")[-1]
+                if len(glyph.components) >= 1:
+                    for c in glyph.components:
+                        c.baseGlyph = c.baseGlyph + "." + suffix
+
         font.save()
 
 def positiveOrNegative():
