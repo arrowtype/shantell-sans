@@ -67,6 +67,8 @@ def makeAlts(fonts, numOfAlts=2):
             for i, alt in enumerate(range(numOfAlts)):
                 glyphAltName = f"{glyph.name}.alt{i+1}"
                 glyphAlt = glyph.copy()
+                # TODO: remove unicodes from alts
+                glyphAlt.unicodes = []
                 newGlyphs[glyphAltName] = layer[glyph.name]
 
         for name,glyph in newGlyphs.items():
@@ -116,13 +118,13 @@ def shiftAlts(font,randomLimit=200,minShift=50):
     for g in font:
     
         print(g)
-        if 'alt1' in g.name and g.name not in glyphsToNotShift and len(g.components) == 0:
+        if 'alt1' in g.name and g.name.split(".")[0] not in glyphsToNotShift and len(g.components) == 0:
             moveY = round((randomLimit-minShift) * random() + minShift) * -1
             g.moveBy((0,moveY))
             movements[g.name] = moveY
             print(f"→ {g.name} moved by {moveY}")
 
-        if 'alt2' in g.name and g.name not in glyphsToNotShift and len(g.components) == 0:
+        if 'alt2' in g.name and g.name.split(".")[0] not in glyphsToNotShift and len(g.components) == 0:
             moveY = round((randomLimit-minShift) * random() + minShift)
             g.moveBy((0,moveY))
             movements[g.name] = moveY
@@ -135,13 +137,10 @@ def shiftAlts(font,randomLimit=200,minShift=50):
             movements[g.name] = moveY
             print(f"→ {g.name} moved by {moveY}")
 
-        from pprint import pprint
-
-    pprint(movements)
     
     for g in font:
 
-        if len(g.components) >= 1 and g.name not in glyphsToNotShift:
+        if len(g.components) >= 1 and g.name.split(".")[0] not in glyphsToNotShift:
             # TODO? split into up/down/random, like other glyphs
             moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative()
             g.moveBy((0,moveY))
@@ -153,6 +152,10 @@ def shiftAlts(font,randomLimit=200,minShift=50):
                     # move by opposite Y value of movement of parent glyph
                     correctedY = -1 * movements[c.baseGlyph]
                     c.moveBy((0,correctedY))
+
+            # TODO? either
+                # add accented chars to calt feature, OR
+                # get rid of alts for composed chars
 
     font.save()
     print("font saved!")
