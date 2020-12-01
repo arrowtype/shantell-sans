@@ -74,16 +74,11 @@ def makeAlts(fonts, numOfAlts=2):
             font[name].markColor = 0, 0, 1, 0.5
 
         # set components to alt baseGlyphs – especially vital for i & j
-
-        altSuffixes = [f".alt{x}" for x in range(1,numOfAlts+1)]
-
         for glyph in font:
-            # check if glyphName includes alt suffix - https://www.geeksforgeeks.org/python-test-if-string-contains-element-from-list/
-            if bool([suffix for suffix in altSuffixes if(suffix in glyph.name)]):
+            if ".alt" in glyph.name and len(glyph.components) >= 1:
                 suffix = glyph.name.split(".")[-1]
-                if len(glyph.components) >= 1:
-                    for c in glyph.components:
-                        c.baseGlyph = c.baseGlyph + "." + suffix
+                for c in glyph.components:
+                    c.baseGlyph = c.baseGlyph + "." + suffix
 
         font.save()
 
@@ -94,27 +89,70 @@ def shiftAlts(font,randomLimit=200,minShift=50):
     print(font)
     print(font.path)
 
+    glyphsToNotShift ="\
+            onesuperior twosuperior threesuperior fraction zero.dnom one.dnom two.dnom three.dnom \
+            four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr \
+            three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr zero.inferior \
+            one.inferior two.inferior three.inferior four.inferior five.inferior six.inferior seven.inferior \
+            eight.inferior nine.inferior zero.superior four.superior five.superior six.superior \
+            seven.superior eight.superior nine.superior \
+            gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcmb dieresiscomb \
+            ringcomb hungarumlautcmb caroncomb dotbelowcmb cedillacomb acute grave hungarumlaut circumflex \
+            caron breve tilde macron dieresis dotaccent ring cedilla ogonek \
+        ".split()
+
+    movements = {}
+
+    #  TODO: correctly shift accents along with bases
+
+        # for glyph not composed and not in glyphsToNotShift
+            # shift (0, random)
+            # record those shifts in "movements" dict
+
+        # for all other glyphs not in movements.keys() and not in glyphsToNotShift
+            # shift, then
+            # move components by inverse of their recorded moves
 
     for g in font:
     
         print(g)
-        if 'alt1' in g.name:
+        if 'alt1' in g.name and g.name not in glyphsToNotShift and len(g.components) == 0:
             moveY = round((randomLimit-minShift) * random() + minShift) * -1
             g.moveBy((0,moveY))
+            movements[g.name] = moveY
             print(f"→ {g.name} moved by {moveY}")
 
-        if 'alt2' in g.name:
+        if 'alt2' in g.name and g.name not in glyphsToNotShift and len(g.components) == 0:
             moveY = round((randomLimit-minShift) * random() + minShift)
             g.moveBy((0,moveY))
+            movements[g.name] = moveY
             print(f"→ {g.name} moved by {moveY}")
 
-        # offset bases, then correct components 
-        # and DON’t change accent positions
-        accents = "gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcmb dieresiscomb ringcomb caroncomb dotbelowcmb cedillacomb ogonekcmb".split()
-        if 'alt' not in g.name and g.name not in accents:
+        # change non-alt glyphs
+        if 'alt' not in g.name and g.name not in glyphsToNotShift and len(g.components) == 0:
             moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative()
             g.moveBy((0,moveY))
+            movements[g.name] = moveY
             print(f"→ {g.name} moved by {moveY}")
+
+        from pprint import pprint
+
+    pprint(movements)
+    
+    for g in font:
+
+        if len(g.components) >= 1 and g.name not in glyphsToNotShift:
+            # TODO? split into up/down/random, like other glyphs
+            moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative()
+            g.moveBy((0,moveY))
+
+            movements[g.name] = moveY
+
+            for c in g.components:
+                if c.baseGlyph in movements.keys():
+                    # move by opposite Y value of movement of parent glyph
+                    correctedY = -1 * movements[c.baseGlyph]
+                    c.moveBy((0,correctedY))
 
     font.save()
     print("font saved!")
