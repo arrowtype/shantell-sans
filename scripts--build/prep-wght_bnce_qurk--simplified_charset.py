@@ -112,6 +112,7 @@ def makeAlts(fonts, numOfAlts=2):
 
         font.save()
 
+    return altsToMakeGlyphNames
 
 def positiveOrNegative():
     return 1 if random() < 0.5 else -1
@@ -172,16 +173,12 @@ def shiftAlts(font,randomLimit=200,minShift=50):
                     correctedY = -1 * movements[c.baseGlyph]
                     c.moveBy((0,correctedY))
 
-            # TODO? either
-                # add accented chars to calt feature, OR
-                # get rid of alts for composed chars
-
     font.save()
-    # print("font saved!")
 
-def interpolateAlts(normalFont, organicFont):
+def interpolateAlts(normalFont, organicFont, altsMadeForList):
     for g in organicFont:
-        if g.unicodes and g.unicodes[0] in altsToMakeList and 'alt' not in g.name:
+        # if g.unicodes and g.unicodes[0] in altsToMakeList and 'alt' not in g.name:
+        if g.name in altsMadeForList and 'alt' not in g.name:
             # interpolate gOneThird and move to organicFont[f'{g.name}.alt1']
             # factor = 0.33
             factor = 0.1
@@ -215,6 +212,7 @@ def removeAltUnicodes(fonts):
         for g in font:
             if ".alt" in g.name:
                 g.unicodes = []
+        font.save()
 
 def main():
     if os.path.exists(prepDir):
@@ -229,7 +227,7 @@ def main():
     fonts = [Font(path) for path in newFontPaths]
 
     print("🤖 Making alts")
-    makeAlts(fonts)
+    altsMadeForList = makeAlts(fonts)
 
     # shift alts in bounce fonts
     print("🤖 Shifting bouncy alts")
@@ -243,8 +241,8 @@ def main():
     # print([f for f in fonts if "shantell--light" in f.path][0])
 
     # Dumb setup. Will it work?
-    interpolateAlts([f for f in fonts if "shantell--light" in f.path][0], [f for f in fonts if "organic--light" in f.path][0])
-    interpolateAlts([f for f in fonts if "shantell--extrabold" in f.path][0], [f for f in fonts if "organic--extrabold" in f.path][0])
+    interpolateAlts([f for f in fonts if "shantell--light" in f.path][0], [f for f in fonts if "organic--light" in f.path][0], altsMadeForList)
+    interpolateAlts([f for f in fonts if "shantell--extrabold" in f.path][0], [f for f in fonts if "organic--extrabold" in f.path][0], altsMadeForList)
     
     print("🤖 Decomposing alts with components")
     decomposeCoreGlyphs(fonts)
