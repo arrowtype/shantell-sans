@@ -103,12 +103,18 @@ def makeAlts(fonts, numOfAlts=2):
             layer[name] = glyph.copy()
             font[name].markColor = 0, 0, 1, 0.5
 
+        # TODO: get this working – it’s currentlly not, even though it previously was...
         # set components to alt baseGlyphs – especially vital for i & j
         for glyph in font:
-            if ".alt" in glyph.name and len(glyph.components) >= 1:
+            if ".alt" in glyph.name and glyph.components:
                 suffix = glyph.name.split(".")[-1]
+                print(glyph.name)
                 for c in glyph.components:
+                    print(c.baseGlyph)
                     c.baseGlyph = c.baseGlyph + "." + suffix
+                    print(c.baseGlyph)
+                    print()
+                glyph.update()
 
         font.save()
 
@@ -244,7 +250,7 @@ def main():
     interpolateAlts([f for f in fonts if "shantell--light" in f.path][0], [f for f in fonts if "organic--light" in f.path][0], altsMadeForList)
     interpolateAlts([f for f in fonts if "shantell--extrabold" in f.path][0], [f for f in fonts if "organic--extrabold" in f.path][0], altsMadeForList)
     
-    print("🤖 Decomposing alts with components")
+    # print("🤖 Decomposing alts with components")
     decomposeCoreGlyphs(fonts)
 
     print("🤖 Removing unicodes from alt glyphs")
