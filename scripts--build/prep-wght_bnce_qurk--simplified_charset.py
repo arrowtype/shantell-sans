@@ -38,7 +38,10 @@ prepDir = 'sources/wght_bnce_flux--smpl--prepped'
 # characters from Python string.printable
 altsToMake = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!\"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~"
 
+# add extra characters here, e.g. most-common accents
 altsToMake += "éñ"
+
+# TODO: generate calt feature code to catch all glyphs with .alts
 
 # get integer unicode values for string of characters from above
 altsToMakeList = [ord(char) for char in altsToMake]
@@ -135,29 +138,22 @@ def shiftGlyphs(font,randomLimit=200,minShift=50):
     print("shifting glyphs ", font.path)
 
     for g in font:
-
         moveY = 0
-    
-        # print(g)
+
         if 'alt1' in g.name and g.name.split(".")[0] not in glyphsToNotShift and len(g.components) == 0:
             moveY = round((randomLimit-minShift) * random() + minShift) * -1
             g.moveBy((0,moveY))
-            # movements[g.name] = moveY
-            # print(f"→ {g.name} moved by {moveY}")
 
         if 'alt2' in g.name and g.name.split(".")[0] not in glyphsToNotShift and len(g.components) == 0:
             moveY = round((randomLimit-minShift) * random() + minShift)
             g.moveBy((0,moveY))
-            # movements[g.name] = moveY
-            # print(f"→ {g.name} moved by {moveY}")
 
         # change non-alt glyphs
         if 'alt' not in g.name and g.name not in glyphsToNotShift and len(g.components) == 0:
             moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative()
             g.moveBy((0,moveY))
-            # movements[g.name] = moveY
-            # print(f"→ {g.name} moved by {moveY}")
 
+        # record shift in the glyph’s lib for later use
         g.lib['com.arrowtype.yShift'] = moveY
 
     # correct positioning of base glyphs in composed glyphs
@@ -165,48 +161,39 @@ def shiftGlyphs(font,randomLimit=200,minShift=50):
 
         if len(g.components) >= 1 and g.name.split(".")[0] not in glyphsToNotShift:
 
-            print("now shifting ", g.name)
-
             # look up Yshift of main baseGlyph (how to find the main one? check that its base glyph has a positive width)
             mainBase = [c.baseGlyph for c in g.components if font[c.baseGlyph].width >= 1][0]
             baseShift = font[mainBase].lib['com.arrowtype.yShift']
-
-            print("mainBase is ", mainBase)
-            print("baseShift is ", baseShift)
-            print()
 
             for c in g.components:
                 if c.baseGlyph is not mainBase:
                     c.moveBy((0,baseShift))
 
-            # wait, do you have to set components to alts, first?
-
-            # inverse that shift in the main base
-
-
-            ## move BOTH components in a new way
+            # move BOTH components in a new way
             moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative()
             g.moveBy((0,moveY))
             g.lib['com.arrowtype.yShift'] = moveY
 
-
-            # ? record moveY
-            
             # # TODO? split into up/down/random, like other glyphs
-
-            # for c in g.components:
-            #     correctedY = -1 * g.lib['com.arrowtype.yShift']
-            #     c.moveBy((0,correctedY))
-            #     # if c.baseGlyph in movements.keys():
-            #         # move by opposite Y value of movement of parent glyph
-            #         # correctedY = -1 * movements[c.baseGlyph]
-
-    print()
-    print()
 
     font.save()
 
-# TODO: this seems to be disrupting component references in the organic fonts – fix it
+def makeComponentsAlts(fonts, numOfAlts=2):
+    """
+       Set components to alt baseGlyphs – important for composed glyphs like i & j
+    """
+    for font in fonts:
+        print(font)
+        for glyph in font:
+            if ".alt" in glyph.name and glyph.components:
+                suffix = glyph.name.split(".")[-1]
+                for c in glyph.components:
+                    if ".alt" not in c.baseGlyph:
+                        c.baseGlyph = c.baseGlyph + "." + suffix
+                glyph.update()
+
+        font.save()
+
 def interpolateAlts(normalFont, organicFont, altsMadeForList):
     """
         Make partially-irregular glyphs in "organic" sources.
@@ -225,21 +212,7 @@ def interpolateAlts(normalFont, organicFont, altsMadeForList):
 
     organicFont.save()
 
-def makeComponentsAlts(fonts, numOfAlts=2):
-    """
-       Set components to alt baseGlyphs – important for composed glyphs like i & j
-    """
-    for font in fonts:
-        print(font)
-        for glyph in font:
-            if ".alt" in glyph.name and glyph.components:
-                suffix = glyph.name.split(".")[-1]
-                for c in glyph.components:
-                    if ".alt" not in c.baseGlyph:
-                        c.baseGlyph = c.baseGlyph + "." + suffix
-                glyph.update()
 
-        font.save()
 
 
 def decomposeCoreGlyphs(fonts):
@@ -298,10 +271,14 @@ def main():
     # Dumb setup. Will it work?
     interpolateAlts([f for f in fonts if "shantell--light" in f.path][0], [f for f in fonts if "organic--light" in f.path][0], altsMadeForList)
     interpolateAlts([f for f in fonts if "shantell--extrabold" in f.path][0], [f for f in fonts if "organic--extrabold" in f.path][0], altsMadeForList)
+
+    # TODO? fix accent alignment in irregular glyphs – possibly by re-attaching accents to new anchor positions?
     
-    print("🤖 Making composed alts point to alt components")
+    # yes, this is needed twice. Once to make shifting work well, then again to make irregular sources compatible again after interpolation
+    print("🤖 Making composed alts point to alt components – repeating to fix irregular sources")
     makeComponentsAlts(fonts)
 
+    # maybe not needed?
     # print("🤖 Decomposing alts with components")
     # decomposeCoreGlyphs(fonts)
 
