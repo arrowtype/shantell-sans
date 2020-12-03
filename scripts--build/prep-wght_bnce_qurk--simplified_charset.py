@@ -69,14 +69,24 @@ def makeAlts(fonts, numOfAlts=2):
         E.g. Default numOfAlts=2 would result in a, a.alt1, a.alt2, etc
     """
 
+    # for glyph in alts, if glyph has components, add those components to the list of glyphs to make alts for - e.g. add idotless, jdotless, and dotcomb
+    altsToMakeGlyphNames = [g.name for g in fonts[0] if g.unicodes and g.unicodes[0] in altsToMakeList]
+
+
+    for gname in altsToMakeGlyphNames:
+        g = fonts[0][gname]
+        for c in g.components:
+            altsToMakeGlyphNames.append(c.baseGlyph)
     
+    print(" ".join(altsToMakeGlyphNames))
 
     for font in fonts:
         layer = font.getLayer(font.defaultLayerName)
 
         newGlyphs = {}
         for glyph in font:
-            if glyph.unicodes and glyph.unicodes[0] in altsToMakeList:
+            # if glyph.unicodes and glyph.unicodes[0] in altsToMakeList:
+            if glyph.name in altsToMakeGlyphNames:
                 glyph.clearImage()
                 # make alts
                 for i, alt in enumerate(range(numOfAlts)):
@@ -85,8 +95,6 @@ def makeAlts(fonts, numOfAlts=2):
                     # remove unicodes from alt
                     glyphAlt.unicodes = []
                     newGlyphs[glyphAltName] = layer[glyph.name]
-
-        print(newGlyphs)
 
         # mark new glyphs with colors
         for name,glyph in newGlyphs.items():
@@ -102,9 +110,25 @@ def makeAlts(fonts, numOfAlts=2):
 
         font.save()
 
-# TODO
-# def decomposeCoreGlyphs():
-    # i j etc - check list of alts for components & decompose
+        return altsToMakeGlyphNames
+
+# TODO decompose alts with components
+# i j etc - check list of alts for components & decompose
+def decomposeCoreGlyphs(fonts):
+    """
+        Go through fonts and decompose alt glyphs, to avoid alignment issues in glyphs like i & j
+    """
+    for font in fonts:
+        print(font, " decomposing alts")
+        for g in font:
+            if ".alt" in g.name and g.components:
+                print("\t", g.name)
+                print("\t", g.components)
+                g.decompose()
+                print("\t", g.components)
+                print()
+        
+        font.save()
 
 def positiveOrNegative():
     return 1 if random() < 0.5 else -1
@@ -214,6 +238,9 @@ def main():
 
     print("🤖 Making alts")
     makeAlts(fonts)
+    
+    print("🤖 Decomposing alts with components")
+    decomposeCoreGlyphs(fonts)
 
     # shift alts in bounce fonts
     print("🤖 Shifting bouncy alts")
