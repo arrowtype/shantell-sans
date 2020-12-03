@@ -96,8 +96,6 @@ def makeAlts(fonts, numOfAlts=2):
                 for i, alt in enumerate(range(numOfAlts)):
                     glyphAltName = f"{glyph.name}.alt{i+1}"
                     glyphAlt = glyph.copy()
-                    # remove unicodes from alt
-                    glyphAlt.unicodes = []
                     newGlyphs[glyphAltName] = layer[glyph.name]
 
         # mark new glyphs with colors
@@ -205,20 +203,18 @@ def decomposeCoreGlyphs(fonts):
         Go through fonts and decompose alt glyphs, to avoid alignment issues in glyphs like i & j
     """
     for font in fonts:
-        print(font, " decomposing alts")
         for g in font:
             if ".alt" in g.name and g.components:
-                print("\t", g.name)
-                print("\t", [c.baseGlyph for c in g.components])
                 g.decompose()
                 g.update()
-                print("\t", [c.baseGlyph for c in g.components])
-                print()
         
         font.save()
-        print(font.path, " saved!")
-        print()
-        print()
+
+def removeAltUnicodes(fonts):
+    for font in fonts:
+        for g in font:
+            if ".alt" in g.name:
+                g.unicodes = []
 
 def main():
     if os.path.exists(prepDir):
@@ -252,6 +248,9 @@ def main():
     
     print("🤖 Decomposing alts with components")
     decomposeCoreGlyphs(fonts)
+
+    print("🤖 Removing unicodes from alt glyphs")
+    removeAltUnicodes(fonts)
 
 if __name__ == "__main__":
     main()
