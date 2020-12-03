@@ -7,8 +7,15 @@
     # TODO
         - [x] remove unicodes from alts
         - [x] dont mess up component glyphs in the shifted alts (shift components along with bases)
-        - [ ] restrict this to *only* make shifted alts for a core character set (maybe ASCII?) – make this configurable with a list of characters
-        - [ ] decompose glyphs in the core charset which include components, to avoid issue https://github.com/googlefonts/ufo2ft/issues/437
+            - [ ] figure out how to also cover ogonek (not working somehow) and single-component glyphs like oslash and lslash
+        - [x] restrict this to *only* make shifted alts for a core character set (maybe ASCII?) – make this configurable with a list of characters
+            - [ ] decide what accented characters to add
+        - [ ] separately: auto-generate calt feature code to make all alts work
+
+        - [ ] fix alignment of accents in organic/irregular glyphs – probably reattach to anchors
+
+        Also
+        - [ ] Link to this script at https://github.com/googlefonts/ufo2ft/issues/437 once the repo is public
 
         Maybe?
         - [ ] give diacritics different levels of bounce & pop/dynamics/variety(?)
@@ -165,14 +172,26 @@ def shiftGlyphs(font,randomLimit=200,minShift=50):
             mainBase = [c.baseGlyph for c in g.components if font[c.baseGlyph].width >= 1][0]
             baseShift = font[mainBase].lib['com.arrowtype.yShift']
 
-            for c in g.components:
-                if c.baseGlyph is not mainBase:
-                    c.moveBy((0,baseShift))
+            # in multi-component glyphs, shift accents to match bases
+            if len(g.components) > 1:
+                for c in g.components:
+                    if c.baseGlyph is not mainBase:
+                        c.moveBy((0,baseShift))
+                # move glyph to normal position
+                g.moveBy((0,-baseShift))
 
-            # move BOTH components in a new way
+            #  correct single-component glyphs like oslash, lslash
+            else:
+                for c in g.components:
+                    if c.baseGlyph is mainBase:
+                        c.moveBy((0,-baseShift))
+
+            # move full glyph in a new way
             moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative()
             g.moveBy((0,moveY))
             g.lib['com.arrowtype.yShift'] = moveY
+
+            # TODO: correct ij, oe, which are out-of-whack
 
             # # TODO? split into up/down/random, like other glyphs
 
