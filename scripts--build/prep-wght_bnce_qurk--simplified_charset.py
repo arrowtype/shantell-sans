@@ -7,6 +7,10 @@
     # TODO
         - [x] remove unicodes from alts
         - [x] dont mess up component glyphs in the shifted alts (shift components along with bases)
+        - [ ] restrict this to *only* make shifted alts for a core character set (maybe ASCII?) – make this configurable with a list of characters
+        - [ ] decompose glyphs in the core charset which include components, to avoid issue https://github.com/googlefonts/ufo2ft/issues/437
+
+        Maybe?
         - [ ] give diacritics different levels of bounce & pop/dynamics/variety(?)
         - [ ] build in feature copier? (currently, you have to separate copy in the features  )
 """
@@ -29,7 +33,14 @@ sources = {
     "bounceExtrabold": "sources/shantell_bounce--extrabold.ufo",
 }
 
-prepDir = 'sources/wght_bnce_dynm--prepped'
+prepDir = 'sources/wght_bnce_flux--smpl--prepped'
+
+# characters from Python string.printable
+altsToMake = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!\"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~"
+
+# get integer unicode values for string of characters from above
+altsToMakeList = [ord(char) for char in altsToMake]
+
 
 # make folder 'wght_bnce_dynm' & copy in sources
 def makePrepDir():
@@ -58,19 +69,26 @@ def makeAlts(fonts, numOfAlts=2):
         E.g. Default numOfAlts=2 would result in a, a.alt1, a.alt2, etc
     """
 
+    
+
     for font in fonts:
         layer = font.getLayer(font.defaultLayerName)
 
         newGlyphs = {}
         for glyph in font:
-            glyph.clearImage()
-            for i, alt in enumerate(range(numOfAlts)):
-                glyphAltName = f"{glyph.name}.alt{i+1}"
-                glyphAlt = glyph.copy()
-                # TODO: remove unicodes from alts
-                glyphAlt.unicodes = []
-                newGlyphs[glyphAltName] = layer[glyph.name]
+            if glyph.unicodes and glyph.unicodes[0] in altsToMakeList:
+                glyph.clearImage()
+                # make alts
+                for i, alt in enumerate(range(numOfAlts)):
+                    glyphAltName = f"{glyph.name}.alt{i+1}"
+                    glyphAlt = glyph.copy()
+                    # remove unicodes from alt
+                    glyphAlt.unicodes = []
+                    newGlyphs[glyphAltName] = layer[glyph.name]
 
+        print(newGlyphs)
+
+        # mark new glyphs with colors
         for name,glyph in newGlyphs.items():
             layer[name] = glyph.copy()
             font[name].markColor = 0, 0, 1, 0.5
@@ -84,12 +102,16 @@ def makeAlts(fonts, numOfAlts=2):
 
         font.save()
 
+# TODO
+# def decomposeCoreGlyphs():
+    # i j etc - check list of alts for components & decompose
+
 def positiveOrNegative():
     return 1 if random() < 0.5 else -1
 
 def shiftAlts(font,randomLimit=200,minShift=50):
-    print(font)
-    print(font.path)
+    # print(font)
+    # print(font.path)
 
     glyphsToNotShift ="\
             onesuperior twosuperior threesuperior fraction zero.dnom one.dnom two.dnom three.dnom \
@@ -117,25 +139,25 @@ def shiftAlts(font,randomLimit=200,minShift=50):
 
     for g in font:
     
-        print(g)
+        # print(g)
         if 'alt1' in g.name and g.name.split(".")[0] not in glyphsToNotShift and len(g.components) == 0:
             moveY = round((randomLimit-minShift) * random() + minShift) * -1
             g.moveBy((0,moveY))
             movements[g.name] = moveY
-            print(f"→ {g.name} moved by {moveY}")
+            # print(f"→ {g.name} moved by {moveY}")
 
         if 'alt2' in g.name and g.name.split(".")[0] not in glyphsToNotShift and len(g.components) == 0:
             moveY = round((randomLimit-minShift) * random() + minShift)
             g.moveBy((0,moveY))
             movements[g.name] = moveY
-            print(f"→ {g.name} moved by {moveY}")
+            # print(f"→ {g.name} moved by {moveY}")
 
         # change non-alt glyphs
         if 'alt' not in g.name and g.name not in glyphsToNotShift and len(g.components) == 0:
             moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative()
             g.moveBy((0,moveY))
             movements[g.name] = moveY
-            print(f"→ {g.name} moved by {moveY}")
+            # print(f"→ {g.name} moved by {moveY}")
 
     
     for g in font:
@@ -158,21 +180,21 @@ def shiftAlts(font,randomLimit=200,minShift=50):
                 # get rid of alts for composed chars
 
     font.save()
-    print("font saved!")
+    # print("font saved!")
 
 def interpolateAlts(normalFont, organicFont):
     for g in organicFont:
-        if 'alt' not in g.name:
+        if g.unicodes and g.unicodes[0] in altsToMakeList and 'alt' not in g.name:
             # interpolate gOneThird and move to organicFont[f'{g.name}.alt1']
             # factor = 0.33
             factor = 0.1
-            print(f'interpolating {g.name}…')
+            # print(f'interpolating {g.name}…')
             organicFont[f'{g.name}.alt1'].interpolate(factor, normalFont[g.name], organicFont[g.name])
 
             # interpolate gTwoThirds and move to organicFont[f'{g.name}.alt2']
             # factor = 0.66
             factor = 0.6
-            print(f'interpolating {g.name}…')
+            # print(f'interpolating {g.name}…')
             organicFont[f'{g.name}.alt2'].interpolate(factor, normalFont[g.name], organicFont[g.name])
 
     organicFont.save()
