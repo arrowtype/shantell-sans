@@ -69,7 +69,6 @@ def makeAlts(fonts, numOfAlts=2):
         E.g. Default numOfAlts=2 would result in a, a.alt1, a.alt2, etc
     """
 
-    # for glyph in alts, if glyph has components, add those components to the list of glyphs to make alts for - e.g. add idotless, jdotless, and dotcomb
     altsToMakeGlyphNames = [g.name for g in fonts[0] if g.unicodes and g.unicodes[0] in altsToMakeList]
 
 
@@ -77,10 +76,15 @@ def makeAlts(fonts, numOfAlts=2):
         g = fonts[0][gname]
         for c in g.components:
             altsToMakeGlyphNames.append(c.baseGlyph)
-    
+
     print(" ".join(altsToMakeGlyphNames))
 
     for font in fonts:
+
+        print(font)
+        # for glyph in alts, if glyph has components, add those components to the list of glyphs to make alts for - e.g. add idotless, jdotless, and dotcomb
+    
+
         layer = font.getLayer(font.defaultLayerName)
 
         newGlyphs = {}
@@ -110,25 +114,6 @@ def makeAlts(fonts, numOfAlts=2):
 
         font.save()
 
-        return altsToMakeGlyphNames
-
-# TODO decompose alts with components
-# i j etc - check list of alts for components & decompose
-def decomposeCoreGlyphs(fonts):
-    """
-        Go through fonts and decompose alt glyphs, to avoid alignment issues in glyphs like i & j
-    """
-    for font in fonts:
-        print(font, " decomposing alts")
-        for g in font:
-            if ".alt" in g.name and g.components:
-                print("\t", g.name)
-                print("\t", g.components)
-                g.decompose()
-                print("\t", g.components)
-                print()
-        
-        font.save()
 
 def positiveOrNegative():
     return 1 if random() < 0.5 else -1
@@ -150,16 +135,6 @@ def shiftAlts(font,randomLimit=200,minShift=50):
         ".split()
 
     movements = {}
-
-    #  TODO: correctly shift accents along with bases
-
-        # for glyph not composed and not in glyphsToNotShift
-            # shift (0, random)
-            # record those shifts in "movements" dict
-
-        # for all other glyphs not in movements.keys() and not in glyphsToNotShift
-            # shift, then
-            # move components by inverse of their recorded moves
 
     for g in font:
     
@@ -223,6 +198,27 @@ def interpolateAlts(normalFont, organicFont):
 
     organicFont.save()
 
+# TODO decompose alts with components
+# i j etc - check list of alts for components & decompose
+def decomposeCoreGlyphs(fonts):
+    """
+        Go through fonts and decompose alt glyphs, to avoid alignment issues in glyphs like i & j
+    """
+    for font in fonts:
+        print(font, " decomposing alts")
+        for g in font:
+            if ".alt" in g.name and g.components:
+                print("\t", g.name)
+                print("\t", [c.baseGlyph for c in g.components])
+                g.decompose()
+                g.update()
+                print("\t", [c.baseGlyph for c in g.components])
+                print()
+        
+        font.save()
+        print(font.path, " saved!")
+        print()
+        print()
 
 def main():
     if os.path.exists(prepDir):
@@ -238,9 +234,6 @@ def main():
 
     print("🤖 Making alts")
     makeAlts(fonts)
-    
-    print("🤖 Decomposing alts with components")
-    decomposeCoreGlyphs(fonts)
 
     # shift alts in bounce fonts
     print("🤖 Shifting bouncy alts")
@@ -251,11 +244,14 @@ def main():
     # interpolate alts in quirk fonts
     print("🤖 Interpolating organic alts")
 
-    print([f for f in fonts if "shantell--light" in f.path][0])
+    # print([f for f in fonts if "shantell--light" in f.path][0])
 
     # Dumb setup. Will it work?
     interpolateAlts([f for f in fonts if "shantell--light" in f.path][0], [f for f in fonts if "organic--light" in f.path][0])
     interpolateAlts([f for f in fonts if "shantell--extrabold" in f.path][0], [f for f in fonts if "organic--extrabold" in f.path][0])
+    
+    print("🤖 Decomposing alts with components")
+    decomposeCoreGlyphs(fonts)
 
 if __name__ == "__main__":
     main()
