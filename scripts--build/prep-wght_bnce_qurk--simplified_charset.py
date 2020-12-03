@@ -102,23 +102,11 @@ def makeAlts(fonts, numOfAlts=2):
         for name,glyph in newGlyphs.items():
             layer[name] = glyph.copy()
             font[name].markColor = 0, 0, 1, 0.5
-
-        # TODO: get this working – it’s currentlly not, even though it previously was...
-        # set components to alt baseGlyphs – especially vital for i & j
-        for glyph in font:
-            if ".alt" in glyph.name and glyph.components:
-                suffix = glyph.name.split(".")[-1]
-                print(glyph.name)
-                for c in glyph.components:
-                    print(c.baseGlyph)
-                    c.baseGlyph = c.baseGlyph + "." + suffix
-                    print(c.baseGlyph)
-                    print()
-                glyph.update()
-
+        
         font.save()
 
     return altsToMakeGlyphNames
+
 
 def positiveOrNegative():
     return 1 if random() < 0.5 else -1
@@ -181,10 +169,11 @@ def shiftAlts(font,randomLimit=200,minShift=50):
 
     font.save()
 
+# TODO: this seems to be disrupting component references in the organic fonts – fix it
 def interpolateAlts(normalFont, organicFont, altsMadeForList):
     for g in organicFont:
         # if g.unicodes and g.unicodes[0] in altsToMakeList and 'alt' not in g.name:
-        if g.name in altsMadeForList and 'alt' not in g.name:
+        if g.name in altsMadeForList and '.alt' not in g.name:
             # interpolate gOneThird and move to organicFont[f'{g.name}.alt1']
             # factor = 0.33
             factor = 0.1
@@ -198,6 +187,25 @@ def interpolateAlts(normalFont, organicFont, altsMadeForList):
             organicFont[f'{g.name}.alt2'].interpolate(factor, normalFont[g.name], organicFont[g.name])
 
     organicFont.save()
+
+def makeComponentsAlts(fonts, numOfAlts=2):
+    for font in fonts:
+        print(font)
+        # TODO: get this working – it’s currentlly not, even though it previously was...
+        # set components to alt baseGlyphs – especially vital for i & j
+        for glyph in font:
+            if ".alt" in glyph.name and glyph.components:
+                suffix = glyph.name.split(".")[-1]
+                print(glyph.name)
+                for c in glyph.components:
+                    print("\t was: ", c.baseGlyph)
+                    c.baseGlyph = c.baseGlyph + "." + suffix
+                    print("\t now: ", c.baseGlyph)
+                    print()
+                glyph.update()
+
+        font.save()
+
 
 # TODO decompose alts with components
 # i j etc - check list of alts for components & decompose
@@ -235,6 +243,7 @@ def main():
     print("🤖 Making alts")
     altsMadeForList = makeAlts(fonts)
 
+
     # shift alts in bounce fonts
     print("🤖 Shifting bouncy alts")
     for font in fonts:
@@ -244,14 +253,15 @@ def main():
     # interpolate alts in quirk fonts
     print("🤖 Interpolating organic alts")
 
-    # print([f for f in fonts if "shantell--light" in f.path][0])
-
     # Dumb setup. Will it work?
     interpolateAlts([f for f in fonts if "shantell--light" in f.path][0], [f for f in fonts if "organic--light" in f.path][0], altsMadeForList)
     interpolateAlts([f for f in fonts if "shantell--extrabold" in f.path][0], [f for f in fonts if "organic--extrabold" in f.path][0], altsMadeForList)
     
+    print("🤖 Making composed alts point to alt components")
+    makeComponentsAlts(fonts)
+    
     # print("🤖 Decomposing alts with components")
-    decomposeCoreGlyphs(fonts)
+    # decomposeCoreGlyphs(fonts)
 
     print("🤖 Removing unicodes from alt glyphs")
     removeAltUnicodes(fonts)
