@@ -44,11 +44,17 @@ sources = {
 
 prepDir = 'sources/wght_bnce_flux--smpl--prepped'
 
-# characters from Python string.printable
-altsToMake = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!\"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~"
+# # characters from Python string.printable
+# altsToMake = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!\"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~"
 
-# add extra characters here, e.g. most-common accents
-altsToMake += "éñ"
+# # add extra characters here, e.g. most-common accents
+# altsToMake += "éñ"
+
+# all letters
+altsToMake = "AÀÁÂÃÄÅĀĂĄǍBCÇĆČDĎEÈÉÊËĒĔĘĚFGĞHIÌÍÎÏĪĬĮİJKLMNÑŃŇOÒÓÔÕÖŌŎŐPQRŔŘSŚŞŠTŤUÙÚÛÜŪŬŮŰŲǓVWXYÝŸZŹŻŽÆØǾĲŁŒΩaàáâãäåāăąǎbcçćčdďeèéêëēĕęěfgğhiìíîïīĭįjklmnñńňoòóôõöōŏőpqrŕřsśşštťuùúûüūŭůűųǔvwxyýÿzźżžßæ"
+
+# numbers & basic symbols
+altsToMake += "0123456789!\"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~"
 
 # some glyphs just need to stick together
 glyphsToDecompose = "ij oe".split()
@@ -97,6 +103,8 @@ def makeAlts(fonts, numOfAlts=2):
         g = fonts[0][gname]
         for c in g.components:
             altsToMakeGlyphNames.append(c.baseGlyph)
+
+    altsToMakeGlyphNames = list(set(altsToMakeGlyphNames))
 
     print(" ".join(altsToMakeGlyphNames))
 
@@ -346,13 +354,13 @@ def correctAccents(fonts):
 
                         g.update()
                         
-                        # checking if this function even does anything...
-                        if transformBefore != (shiftX,shiftY) and "organic--light" in font.path:
-                            print(g.name, ":", mainBase, "+", c.baseGlyph, "@", commonAnchor)
-                            print("\t diff anchor positions before/after correction")
-                            print("\t before:", transformBefore)
-                            print("\t after:", (shiftX,shiftY))
-                            print()
+                        # # checking if this function even does anything...
+                        # if transformBefore != (shiftX,shiftY) and "organic--light" in font.path:
+                        #     print(g.name, ":", mainBase, "+", c.baseGlyph, "@", commonAnchor)
+                        #     print("\t diff anchor positions before/after correction")
+                        #     print("\t before:", transformBefore)
+                        #     print("\t after:", (shiftX,shiftY))
+                        #     print()
 
                     else:
                         pass
