@@ -332,7 +332,12 @@ def correctAccents(fonts):
                         
                         try:
                             # add bounce Y-shift if applicable
-                            shiftY = mainBaseAnchorPos[1] - accentBaseAnchorPos[1] + g.lib['com.arrowtype.yShift']
+                            shiftY = mainBaseAnchorPos[1] - accentBaseAnchorPos[1] - font[mainBase].lib['com.arrowtype.yShift'] + g.lib['com.arrowtype.yShift']
+
+                            # if shift in glyph
+                            # handle shift of mainBase
+
+                            # and shift of composed glyph
                         except:
                             shiftY = mainBaseAnchorPos[1] - accentBaseAnchorPos[1]
 
