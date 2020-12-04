@@ -20,6 +20,8 @@
         Maybe?
         - [ ] give diacritics different levels of bounce & pop/dynamics/variety(?)
         - [ ] build in feature copier? (currently, you have to separate copy in the features  )
+
+        # TODO: generate calt feature code to catch all glyphs with .alts
 """
 
 import os
@@ -48,7 +50,8 @@ altsToMake = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!\"#
 # add extra characters here, e.g. most-common accents
 altsToMake += "éñ"
 
-# TODO: generate calt feature code to catch all glyphs with .alts
+# some glyphs just need to stick together
+glyphsToDecompose = "ij oe".split()
 
 # get integer unicode values for string of characters from above
 altsToMakeList = [ord(char) for char in altsToMake]
@@ -73,6 +76,12 @@ def makePrepDir():
             if not os.path.exists(bounceCopy):
                 shutil.copytree(source, bounceCopy)
 
+def decomposeDigraphs(fonts):
+    for font in fonts:
+        for g in font:
+            if g.name in glyphsToDecompose:
+                g.decompose()
+
 # make alts in all fonts
 def makeAlts(fonts, numOfAlts=2):
     """
@@ -93,7 +102,7 @@ def makeAlts(fonts, numOfAlts=2):
 
     for font in fonts:
 
-        print(font)
+        # print(font)
         # for glyph in alts, if glyph has components, add those components to the list of glyphs to make alts for - e.g. add idotless, jdotless, and dotcomb
     
 
@@ -119,6 +128,8 @@ def makeAlts(fonts, numOfAlts=2):
 
     return altsToMakeGlyphNames
 
+def findMainBaseGlyphName(font, glyph):
+    return [c.baseGlyph for c in glyph.components if font[c.baseGlyph].width >= 1][0]
 
 def positiveOrNegative():
     return 1 if random() < 0.5 else -1
@@ -137,15 +148,17 @@ def shiftGlyphs(font,randomLimit=200,minShift=50):
             seven.superior eight.superior nine.superior \
             gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcmb dieresiscomb \
             ringcomb hungarumlautcmb caroncomb dotbelowcmb cedillacomb acute grave hungarumlaut circumflex \
-            caron breve tilde macron dieresis dotaccent ring cedilla ogonek \
+            caron breve tilde macron dieresis dotaccent ring cedilla ogonek ogonekcmb \
         ".split()
 
     # movements = {}
 
-    print("shifting glyphs ", font.path)
+    # print("shifting glyphs ", font.path)
 
     for g in font:
         moveY = 0
+
+        
 
         if 'alt1' in g.name and g.name.split(".")[0] not in glyphsToNotShift and len(g.components) == 0:
             moveY = round((randomLimit-minShift) * random() + minShift) * -1
@@ -169,7 +182,8 @@ def shiftGlyphs(font,randomLimit=200,minShift=50):
         if len(g.components) >= 1 and g.name.split(".")[0] not in glyphsToNotShift:
 
             # look up Yshift of main baseGlyph (how to find the main one? check that its base glyph has a positive width)
-            mainBase = [c.baseGlyph for c in g.components if font[c.baseGlyph].width >= 1][0]
+            # mainBase = [c.baseGlyph for c in g.components if font[c.baseGlyph].width >= 1][0]
+            mainBase = findMainBaseGlyphName(font, g)
             baseShift = font[mainBase].lib['com.arrowtype.yShift']
 
             # in multi-component glyphs, shift accents to match bases
@@ -193,7 +207,7 @@ def shiftGlyphs(font,randomLimit=200,minShift=50):
 
             # TODO: correct ij, oe, which are out-of-whack
 
-            # # TODO? split into up/down/random, like other glyphs
+            # # TODO? maybe split accented alts into up/down/random, like other glyphs
 
     font.save()
 
@@ -202,7 +216,7 @@ def makeComponentsAlts(fonts, numOfAlts=2):
        Set components to alt baseGlyphs – important for composed glyphs like i & j
     """
     for font in fonts:
-        print(font)
+        # print(font)
         for glyph in font:
             if ".alt" in glyph.name and glyph.components:
                 suffix = glyph.name.split(".")[-1]
@@ -260,7 +274,96 @@ def removeAltUnicodes(fonts):
                 g.unicodes = []
         font.save()
 
+def correctAccents(fonts):
+    """
+        # TODO: correct ogoneks ... maybe by "just" correcting accent attachments?
+        # see https://github.com/jenskutilek/AnchorOverlayTool/blob/master/Anchor%20Overlay%20Tool.roboFontExt/lib/RecomposeSelected.py
+            # find accent baseGlyph (it will have 0 width)
+            # find matching anchor name
+                # mainBaseAnchors = list of anchors in mainBase
+                # accentBaseAnchors = list of anchors in accentBase with leading "_" removed
+                # commonAnchor = find intersection or anchor lists
+                    # if more than one .... print error, probably
+
+            # get commonAnchor pos in mainBase
+            # get f"_{commonAnchor}" pos in accentBase
+            # diff accentBaseAnchorPos and mainBaseAnchorPos
+            # transform accent Component by diff
+    """
+
+    for font in fonts:
+        print("\n\n----------------------------------------------------------------")
+        print(font.path)
+        for g in font:
+            if len(g.components) >= 2:
+                mainBase = findMainBaseGlyphName(font, g)
+                accents = [c for c in g.components if c.baseGlyph != mainBase]
+
+                # dict of anchors in main base, name:(x,y)
+                mainBaseAnchors = {anchor.name:anchor.position for anchor in font[mainBase].anchors}
+
+                for c in accents:
+                    accentAnchors = font[c.baseGlyph].anchors
+                    # dict of anchors in accent, but exlude non-underscored anchors
+                    accentAnchors = {anchor.name.replace("_",""):anchor.position for anchor in font[c.baseGlyph].anchors if "_" in anchor.name}
+
+                    commonAnchors = set(mainBaseAnchors.keys()).intersection(accentAnchors.keys())
+
+                    if len(commonAnchors) == 0:
+                        # print("XXX no common anchors ", g.name, c.baseGlyph, commonAnchors)
+                        # print()
+                        # if no common anchors, skip
+                        pass
+                    elif len(commonAnchors) == 1:
+
+                        transformBefore = c.offset
+
+                        commonAnchor = list(commonAnchors)[0]
+                        
+
+                        mainBaseAnchorPos = mainBaseAnchors[commonAnchor]
+                        accentBaseAnchorPos = accentAnchors[commonAnchor]
+
+                        # print("\t mainBaseAnchorPos ", mainBaseAnchorPos)
+                        # print("\t acctBaseAnchorPos ", accentBaseAnchorPos)
+                        # print()
+
+                        shiftX = mainBaseAnchorPos[0] - accentBaseAnchorPos[0]
+                        
+                        try:
+                            # add bounce Y-shift if applicable
+                            shiftY = mainBaseAnchorPos[1] - accentBaseAnchorPos[1] + g.lib['com.arrowtype.yShift']
+                        except:
+                            shiftY = mainBaseAnchorPos[1] - accentBaseAnchorPos[1]
+
+                        
+                        c.transformation = [1,0,0,1,shiftX,shiftY]
+
+                        g.update()
+                        
+                        # checking if this function even does anything...
+                        if transformBefore != (shiftX,shiftY) and "organic--light" in font.path:
+                            print(g.name, ":", mainBase, "+", c.baseGlyph, "@", commonAnchor)
+                            print("\t diff anchor positions before/after correction")
+                            print("\t before:", transformBefore)
+                            print("\t after:", (shiftX,shiftY))
+                            print()
+
+                    else:
+                        pass
+                        # print("MULTIPLE COMMON ANCHORS!")
+                        # print("\t", g.name, c.baseGlyph, list(commonAnchors))
+                        # print()
+
+        font.save()
+
+                    # get intersection
+
+
 def main():
+
+    # The setup
+
     if os.path.exists(prepDir):
         shutil.rmtree(prepDir,ignore_errors=True)
 
@@ -271,6 +374,11 @@ def main():
 
     print("🤖 Opening fonts")
     fonts = [Font(path) for path in newFontPaths]
+
+    # The sausage making
+
+    print("🤖 Decomposing digraphs")
+    decomposeDigraphs(fonts)
 
     print("🤖 Making alts")
     altsMadeForList = makeAlts(fonts)
@@ -303,6 +411,9 @@ def main():
 
     print("🤖 Removing unicodes from alt glyphs")
     removeAltUnicodes(fonts)
+
+    print("🤖 Fixing accent positions")
+    correctAccents(fonts)
 
 if __name__ == "__main__":
     main()
