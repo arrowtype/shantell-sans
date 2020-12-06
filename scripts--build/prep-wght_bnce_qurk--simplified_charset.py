@@ -9,7 +9,7 @@
         - [x] dont mess up component glyphs in the shifted alts (shift components along with bases)
             - [ ] figure out how to also cover ogonek (not working somehow) and single-component glyphs like oslash and lslash
         - [x] restrict this to *only* make shifted alts for a core character set (maybe ASCII?) – make this configurable with a list of characters
-            - [ ] decide what accented characters to add
+            - [x] decide what accented characters to add
         - [ ] separately: auto-generate calt feature code to make all alts work
 
         - [ ] fix alignment of accents in organic/irregular glyphs – probably reattach to anchors
@@ -110,10 +110,6 @@ def makeAlts(fonts, numOfAlts=2):
 
     for font in fonts:
 
-        # print(font)
-        # for glyph in alts, if glyph has components, add those components to the list of glyphs to make alts for - e.g. add idotless, jdotless, and dotcomb
-    
-
         layer = font.getLayer(font.defaultLayerName)
 
         newGlyphs = {}
@@ -159,14 +155,8 @@ def shiftGlyphs(font,randomLimit=200,minShift=50):
             caron breve tilde macron dieresis dotaccent ring cedilla ogonek ogonekcmb \
         ".split()
 
-    # movements = {}
-
-    # print("shifting glyphs ", font.path)
-
     for g in font:
         moveY = 0
-
-        
 
         if 'alt1' in g.name and g.name.split(".")[0] not in glyphsToNotShift and len(g.components) == 0:
             moveY = round((randomLimit-minShift) * random() + minShift) * -1
@@ -189,8 +179,7 @@ def shiftGlyphs(font,randomLimit=200,minShift=50):
 
         if len(g.components) >= 1 and g.name.split(".")[0] not in glyphsToNotShift:
 
-            # look up Yshift of main baseGlyph (how to find the main one? check that its base glyph has a positive width)
-            # mainBase = [c.baseGlyph for c in g.components if font[c.baseGlyph].width >= 1][0]
+            # look up Yshift of main baseGlyph
             mainBase = findMainBaseGlyphName(font, g)
             baseShift = font[mainBase].lib['com.arrowtype.yShift']
 
@@ -254,23 +243,22 @@ def interpolateAlts(normalFont, organicFont, altsMadeForList):
     organicFont.save()
 
 
+# def decomposeCoreGlyphs(fonts):
+#     """
+#         Go through fonts and decompose alt glyphs, to avoid alignment issues in glyphs like i & j
 
+#         May not be necessary...
 
-def decomposeCoreGlyphs(fonts):
-    """
-        Go through fonts and decompose alt glyphs, to avoid alignment issues in glyphs like i & j
-
-        May not be necessary...
-
-        TODO: decide whether to remove this step
-    """
-    for font in fonts:
-        for g in font:
-            if ".alt" in g.name and g.components:
-                g.decompose()
-                g.update()
+#         TODO: decide whether to remove this step
+#     """
+#     for font in fonts:
+#         for g in font:
+#             if ".alt" in g.name and g.components:
+#                 g.decompose()
+#                 g.update()
         
-        font.save()
+#         font.save()
+
 
 def removeAltUnicodes(fonts):
     """
@@ -284,19 +272,7 @@ def removeAltUnicodes(fonts):
 
 def correctAccents(fonts):
     """
-        # TODO: correct ogoneks ... maybe by "just" correcting accent attachments?
-        # see https://github.com/jenskutilek/AnchorOverlayTool/blob/master/Anchor%20Overlay%20Tool.roboFontExt/lib/RecomposeSelected.py
-            # find accent baseGlyph (it will have 0 width)
-            # find matching anchor name
-                # mainBaseAnchors = list of anchors in mainBase
-                # accentBaseAnchors = list of anchors in accentBase with leading "_" removed
-                # commonAnchor = find intersection or anchor lists
-                    # if more than one .... print error, probably
-
-            # get commonAnchor pos in mainBase
-            # get f"_{commonAnchor}" pos in accentBase
-            # diff accentBaseAnchorPos and mainBaseAnchorPos
-            # transform accent Component by diff
+        In composed glyphs, fix alignment between accents and bases, using anchor positions & shift records
     """
 
     for font in fonts:
@@ -327,25 +303,15 @@ def correctAccents(fonts):
                         transformBefore = c.offset
 
                         commonAnchor = list(commonAnchors)[0]
-                        
 
                         mainBaseAnchorPos = mainBaseAnchors[commonAnchor]
                         accentBaseAnchorPos = accentAnchors[commonAnchor]
 
-                        # print("\t mainBaseAnchorPos ", mainBaseAnchorPos)
-                        # print("\t acctBaseAnchorPos ", accentBaseAnchorPos)
-                        # print()
-
                         shiftX = mainBaseAnchorPos[0] - accentBaseAnchorPos[0]
                         
                         try:
-                            # add bounce Y-shift if applicable
+                            # add bounce Y-shift in base & composed glyphs, if applicable
                             shiftY = mainBaseAnchorPos[1] - accentBaseAnchorPos[1] - font[mainBase].lib['com.arrowtype.yShift'] + g.lib['com.arrowtype.yShift']
-
-                            # if shift in glyph
-                            # handle shift of mainBase
-
-                            # and shift of composed glyph
                         except:
                             shiftY = mainBaseAnchorPos[1] - accentBaseAnchorPos[1]
 
@@ -353,17 +319,10 @@ def correctAccents(fonts):
                         c.transformation = [1,0,0,1,shiftX,shiftY]
 
                         g.update()
-                        
-                        # # checking if this function even does anything...
-                        # if transformBefore != (shiftX,shiftY) and "organic--light" in font.path:
-                        #     print(g.name, ":", mainBase, "+", c.baseGlyph, "@", commonAnchor)
-                        #     print("\t diff anchor positions before/after correction")
-                        #     print("\t before:", transformBefore)
-                        #     print("\t after:", (shiftX,shiftY))
-                        #     print()
 
                     else:
                         pass
+                        # TODO check if this needs special handling; it probably does
                         # print("MULTIPLE COMMON ANCHORS!")
                         # print("\t", g.name, c.baseGlyph, list(commonAnchors))
                         # print()
