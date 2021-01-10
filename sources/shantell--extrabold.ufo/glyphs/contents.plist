@@ -40,6 +40,8 @@
     <string>D_.glif</string>
     <key>Dcaron</key>
     <string>D_caron.glif</string>
+    <key>Dcroat</key>
+    <string>D_croat.glif</string>
     <key>E</key>
     <string>E_.glif</string>
     <key>Eacute</key>
@@ -56,8 +58,12 @@
     <string>E_grave.glif</string>
     <key>Emacron</key>
     <string>E_macron.glif</string>
+    <key>Eng</key>
+    <string>E_ng.glif</string>
     <key>Eogonek</key>
     <string>E_ogonek.glif</string>
+    <key>Eth</key>
+    <string>E_th.glif</string>
     <key>Euro</key>
     <string>E_uro.glif</string>
     <key>F</key>
@@ -66,6 +72,8 @@
     <string>G_.glif</string>
     <key>Gbreve</key>
     <string>G_breve.glif</string>
+    <key>Germandbls</key>
+    <string>G_ermandbls.glif</string>
     <key>H</key>
     <string>H_.glif</string>
     <key>I</key>
@@ -94,6 +102,8 @@
     <string>K_.glif</string>
     <key>L</key>
     <string>L_.glif</string>
+    <key>Lcaron</key>
+    <string>L_caron.glif</string>
     <key>Lslash</key>
     <string>L_slash.glif</string>
     <key>M</key>
@@ -152,8 +162,12 @@
     <string>S_cedilla.glif</string>
     <key>T</key>
     <string>T_.glif</string>
+    <key>Tbar</key>
+    <string>T_bar.glif</string>
     <key>Tcaron</key>
     <string>T_caron.glif</string>
+    <key>Thorn</key>
+    <string>T_horn.glif</string>
     <key>U</key>
     <string>U_.glif</string>
     <key>Uacute</key>
@@ -266,6 +280,10 @@
     <string>braceleft.glif</string>
     <key>braceright</key>
     <string>braceright.glif</string>
+    <key>bracketangleleft</key>
+    <string>bracketangleleft.glif</string>
+    <key>bracketangleright</key>
+    <string>bracketangleright.glif</string>
     <key>bracketleft</key>
     <string>bracketleft.glif</string>
     <key>bracketright</key>
@@ -302,6 +320,8 @@
     <string>colon.glif</string>
     <key>comma</key>
     <string>comma.glif</string>
+    <key>commercialminussign</key>
+    <string>commercialminussign.glif</string>
     <key>copyright</key>
     <string>copyright.glif</string>
     <key>d</key>
@@ -312,6 +332,8 @@
     <string>daggerdbl.glif</string>
     <key>dcaron</key>
     <string>dcaron.glif</string>
+    <key>dcroat</key>
+    <string>dcroat.glif</string>
     <key>degree</key>
     <string>degree.glif</string>
     <key>dieresis</key>
@@ -362,10 +384,14 @@
     <string>emdash.glif</string>
     <key>endash</key>
     <string>endash.glif</string>
+    <key>eng</key>
+    <string>eng.glif</string>
     <key>eogonek</key>
     <string>eogonek.glif</string>
     <key>equal</key>
     <string>equal.glif</string>
+    <key>eth</key>
+    <string>eth.glif</string>
     <key>exclam</key>
     <string>exclam.glif</string>
     <key>exclamdown</key>
@@ -466,6 +492,8 @@
     <string>k.glif</string>
     <key>l</key>
     <string>l.glif</string>
+    <key>lcaron</key>
+    <string>lcaron.glif</string>
     <key>less</key>
     <string>less.glif</string>
     <key>lessequal</key>
@@ -674,8 +702,12 @@
     <string>summation.glif</string>
     <key>t</key>
     <string>t.glif</string>
+    <key>tbar</key>
+    <string>tbar.glif</string>
     <key>tcaron</key>
     <string>tcaron.glif</string>
+    <key>thorn</key>
+    <string>thorn.glif</string>
     <key>three</key>
     <string>three.glif</string>
     <key>three.dnom</key>
