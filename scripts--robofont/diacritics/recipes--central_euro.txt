@@ -55,3 +55,20 @@ uring = u + ringcomb @ top
 #Lcaron
 #lcaron
 #dcaron # this is currently incorrect
+
+# MacOS Central Euro
+
+Edotaccent = E + dotaccentcmb @ top
+edotaccent = e + dotaccentcmb @ top
+uni0122 = G + commaaccentbelowcmb @ bottom
+uni0123 = g + commaturnedabovecmb @ top
+uni0136 = K + commaaccentbelowcmb @ bottom
+uni0137 = k + commaaccentbelowcmb @ bottom
+Lacute = L + acutecomb @ top
+lacute = l + acutecomb @ top
+uni013B = L + commaaccentbelowcmb @ bottom
+uni013C = l + commaaccentbelowcmb @ bottom
+uni0145 = N + commaaccentbelowcmb @ bottom
+uni0146 = n + commaaccentbelowcmb @ bottom
+uni0156 = R + commaaccentbelowcmb @ bottom
+uni0157 = r + commaaccentbelowcmb @ bottom
