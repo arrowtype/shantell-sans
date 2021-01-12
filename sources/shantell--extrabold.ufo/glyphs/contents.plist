@@ -278,20 +278,34 @@
     <string>b.glif</string>
     <key>backslash</key>
     <string>backslash.glif</string>
+    <key>backslash.case</key>
+    <string>backslash.case.glif</string>
     <key>bar</key>
     <string>bar.glif</string>
     <key>braceleft</key>
     <string>braceleft.glif</string>
+    <key>braceleft.case</key>
+    <string>braceleft.case.glif</string>
     <key>braceright</key>
     <string>braceright.glif</string>
+    <key>braceright.case</key>
+    <string>braceright.case.glif</string>
     <key>bracketangleleft</key>
     <string>bracketangleleft.glif</string>
+    <key>bracketangleleft.case</key>
+    <string>bracketangleleft.case.glif</string>
     <key>bracketangleright</key>
     <string>bracketangleright.glif</string>
+    <key>bracketangleright.case</key>
+    <string>bracketangleright.case.glif</string>
     <key>bracketleft</key>
     <string>bracketleft.glif</string>
+    <key>bracketleft.case</key>
+    <string>bracketleft.case.glif</string>
     <key>bracketright</key>
     <string>bracketright.glif</string>
+    <key>bracketright.case</key>
+    <string>bracketright.case.glif</string>
     <key>breve</key>
     <string>breve.glif</string>
     <key>brevecomb</key>
@@ -338,6 +352,8 @@
     <string>dagger.glif</string>
     <key>daggerdbl</key>
     <string>daggerdbl.glif</string>
+    <key>dash</key>
+    <string>dash.glif</string>
     <key>dcaron</key>
     <string>dcaron.glif</string>
     <key>dcroat</key>
@@ -392,8 +408,12 @@
     <string>emacron.glif</string>
     <key>emdash</key>
     <string>emdash.glif</string>
+    <key>emdash.case</key>
+    <string>emdash.case.glif</string>
     <key>endash</key>
     <string>endash.glif</string>
+    <key>endash.case</key>
+    <string>endash.case.glif</string>
     <key>eng</key>
     <string>eng.glif</string>
     <key>eogonek</key>
@@ -406,6 +426,8 @@
     <string>exclam.glif</string>
     <key>exclamdown</key>
     <string>exclamdown.glif</string>
+    <key>exclamdown.case</key>
+    <string>exclamdown.case.glif</string>
     <key>f</key>
     <string>f.glif</string>
     <key>fhook</key>
@@ -452,12 +474,20 @@
     <string>greaterequal.glif</string>
     <key>guillemetleft</key>
     <string>guillemetleft.glif</string>
+    <key>guillemetleft.case</key>
+    <string>guillemetleft.case.glif</string>
     <key>guillemetright</key>
     <string>guillemetright.glif</string>
+    <key>guillemetright.case</key>
+    <string>guillemetright.case.glif</string>
     <key>guilsinglleft</key>
     <string>guilsinglleft.glif</string>
+    <key>guilsinglleft.case</key>
+    <string>guilsinglleft.case.glif</string>
     <key>guilsinglright</key>
     <string>guilsinglright.glif</string>
+    <key>guilsinglright.case</key>
+    <string>guilsinglright.case.glif</string>
     <key>h</key>
     <string>h.glif</string>
     <key>heartblack</key>
@@ -468,6 +498,8 @@
     <string>hungarumlautcmb.glif</string>
     <key>hyphen</key>
     <string>hyphen.glif</string>
+    <key>hyphen.case</key>
+    <string>hyphen.case.glif</string>
     <key>i</key>
     <string>i.glif</string>
     <key>iacute</key>
@@ -568,8 +600,6 @@
     <string>ogonek.glif</string>
     <key>ogonekcmb</key>
     <string>ogonekcmb.glif</string>
-    <key>ogonekcomb</key>
-    <string>ogonekcomb.glif</string>
     <key>ograve</key>
     <string>ograve.glif</string>
     <key>ohungarumlaut</key>
@@ -610,8 +640,12 @@
     <string>paragraph.glif</string>
     <key>parenleft</key>
     <string>parenleft.glif</string>
+    <key>parenleft.case</key>
+    <string>parenleft.case.glif</string>
     <key>parenright</key>
     <string>parenright.glif</string>
+    <key>parenright.case</key>
+    <string>parenright.case.glif</string>
     <key>partialdiff</key>
     <string>partialdiff.glif</string>
     <key>percent</key>
@@ -636,6 +670,8 @@
     <string>question.glif</string>
     <key>questiondown</key>
     <string>questiondown.glif</string>
+    <key>questiondown.case</key>
+    <string>questiondown.case.glif</string>
     <key>quotedbl</key>
     <string>quotedbl.glif</string>
     <key>quotedblbase</key>
@@ -704,6 +740,8 @@
     <string>six.superior.glif</string>
     <key>slash</key>
     <string>slash.glif</string>
+    <key>slash.case</key>
+    <string>slash.case.glif</string>
     <key>space</key>
     <string>space.glif</string>
     <key>space.frac</key>
