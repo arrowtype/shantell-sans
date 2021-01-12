@@ -119,6 +119,27 @@
         <integer>1</integer>
         <real>0.25</real>
       </array>
+      <key>public.kern1.J</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.K</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.L</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern1.N</key>
       <array>
         <integer>1</integer>
@@ -231,6 +252,27 @@
         <integer>0</integer>
         <real>0.25</real>
       </array>
+      <key>public.kern1.j</key>
+      <array>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.k</key>
+      <array>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.l</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern1.n</key>
       <array>
         <integer>0</integer>
@@ -250,6 +292,13 @@
         <integer>0</integer>
         <real>0.5</real>
         <integer>1</integer>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.p</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.r</key>
@@ -322,6 +371,13 @@
         <integer>0</integer>
         <real>0.25</real>
       </array>
+      <key>public.kern2.Dcroat</key>
+      <array>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern2.E</key>
       <array>
         <integer>0</integer>
@@ -348,6 +404,20 @@
         <real>0.5</real>
         <integer>0</integer>
         <integer>1</integer>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.K</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.L</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.N</key>
@@ -462,6 +532,20 @@
         <integer>0</integer>
         <real>0.25</real>
       </array>
+      <key>public.kern2.k</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.l</key>
+      <array>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern2.n</key>
       <array>
         <integer>0</integer>
@@ -562,11 +646,13 @@
       <string>Edieresis</string>
       <string>Emacron</string>
       <string>Ebreve</string>
+      <string>Edotaccent</string>
       <string>Eogonek</string>
       <string>Ecaron</string>
       <string>F</string>
       <string>G</string>
       <string>Gbreve</string>
+      <string>uni0122</string>
       <string>H</string>
       <string>I</string>
       <string>Igrave</string>
@@ -579,11 +665,16 @@
       <string>Idotaccent</string>
       <string>J</string>
       <string>K</string>
+      <string>uni0136</string>
       <string>L</string>
+      <string>Lacute</string>
+      <string>uni013B</string>
+      <string>Lcaron</string>
       <string>M</string>
       <string>N</string>
       <string>Ntilde</string>
       <string>Nacute</string>
+      <string>uni0145</string>
       <string>Ncaron</string>
       <string>O</string>
       <string>Ograve</string>
@@ -598,6 +689,7 @@
       <string>Q</string>
       <string>R</string>
       <string>Racute</string>
+      <string>uni0156</string>
       <string>Rcaron</string>
       <string>S</string>
       <string>Sacute</string>
@@ -627,11 +719,17 @@
       <string>Zdotaccent</string>
       <string>Zcaron</string>
       <string>AE</string>
+      <string>Eth</string>
       <string>Oslash</string>
       <string>Oslashacute</string>
+      <string>Thorn</string>
+      <string>Dcroat</string>
       <string>IJ</string>
       <string>Lslash</string>
+      <string>Eng</string>
       <string>OE</string>
+      <string>Tbar</string>
+      <string>Germandbls</string>
       <string>Omega</string>
       <string>a</string>
       <string>agrave</string>
@@ -658,11 +756,13 @@
       <string>edieresis</string>
       <string>emacron</string>
       <string>ebreve</string>
+      <string>edotaccent</string>
       <string>eogonek</string>
       <string>ecaron</string>
       <string>f</string>
       <string>g</string>
       <string>gbreve</string>
+      <string>uni0123</string>
       <string>h</string>
       <string>i</string>
       <string>igrave</string>
@@ -674,11 +774,16 @@
       <string>iogonek</string>
       <string>j</string>
       <string>k</string>
+      <string>uni0137</string>
       <string>l</string>
+      <string>lacute</string>
+      <string>uni013C</string>
+      <string>lcaron</string>
       <string>m</string>
       <string>n</string>
       <string>ntilde</string>
       <string>nacute</string>
+      <string>uni0146</string>
       <string>ncaron</string>
       <string>o</string>
       <string>ograve</string>
@@ -693,6 +798,7 @@
       <string>q</string>
       <string>r</string>
       <string>racute</string>
+      <string>uni0157</string>
       <string>rcaron</string>
       <string>s</string>
       <string>sacute</string>
@@ -723,11 +829,16 @@
       <string>zcaron</string>
       <string>germandbls</string>
       <string>ae</string>
+      <string>eth</string>
       <string>oslash</string>
       <string>oslashacute</string>
+      <string>thorn</string>
+      <string>dcroat</string>
       <string>ij</string>
       <string>lslash</string>
+      <string>eng</string>
       <string>oe</string>
+      <string>tbar</string>
       <string>pi</string>
       <string>ordfeminine</string>
       <string>ordmasculine</string>
@@ -742,7 +853,9 @@
       <string>ringcomb</string>
       <string>hungarumlautcmb</string>
       <string>caroncomb</string>
+      <string>commaturnedabovecmb</string>
       <string>dotbelowcmb</string>
+      <string>commaaccentbelowcmb</string>
       <string>cedillacomb</string>
       <string>ogonekcmb</string>
       <string>zero</string>
@@ -779,6 +892,8 @@
       <string>bracketright</string>
       <string>braceleft</string>
       <string>braceright</string>
+      <string>bracketangleleft</string>
+      <string>bracketangleright</string>
       <string>numbersign</string>
       <string>percent</string>
       <string>perthousand</string>
@@ -830,6 +945,7 @@
       <string>approxequal</string>
       <string>notequal</string>
       <string>logicalnot</string>
+      <string>commercialminussign</string>
       <string>arrowleft</string>
       <string>arrowup</string>
       <string>arrowright</string>
@@ -872,11 +988,30 @@
       <string>lozenge</string>
       <string>heartwhite</string>
       <string>heartblack</string>
+      <string>dash</string>
       <string>idotless</string>
       <string>jdotless</string>
-      <string>ogonekcomb</string>
       <string>space.frac</string>
+      <string>hyphen.case</string>
+      <string>endash.case</string>
+      <string>emdash.case</string>
+      <string>parenleft.case</string>
+      <string>parenright.case</string>
+      <string>bracketleft.case</string>
+      <string>bracketright.case</string>
+      <string>braceleft.case</string>
+      <string>braceright.case</string>
+      <string>bracketangleleft.case</string>
+      <string>bracketangleright.case</string>
+      <string>guilsinglleft.case</string>
+      <string>guilsinglright.case</string>
+      <string>guillemetleft.case</string>
+      <string>guillemetright.case</string>
+      <string>slash.case</string>
+      <string>backslash.case</string>
       <string>at.case</string>
+      <string>exclamdown.case</string>
+      <string>questiondown.case</string>
       <string>dollar.tabl</string>
       <string>zero.dnom</string>
       <string>one.dnom</string>
@@ -917,38 +1052,6 @@
       <string>nine.superior</string>
       <string>mu.math</string>
       <string>ae.200928-18_34</string>
-      <string>Eth</string>
-      <string>Thorn</string>
-      <string>eth</string>
-      <string>thorn</string>
-      <string>dcroat</string>
-      <string>Lcaron</string>
-      <string>lcaron</string>
-      <string>Eng</string>
-      <string>eng</string>
-      <string>Tbar</string>
-      <string>tbar</string>
-      <string>Germandbls</string>
-      <string>commercialminussign</string>
-      <string>bracketangleleft</string>
-      <string>bracketangleright</string>
-      <string>Dcroat</string>
-      <string>commaaccentbelowcmb</string>
-      <string>commaturnedabovecmb</string>
-      <string>Edotaccent</string>
-      <string>edotaccent</string>
-      <string>uni0122</string>
-      <string>uni0123</string>
-      <string>uni0136</string>
-      <string>uni0137</string>
-      <string>Lacute</string>
-      <string>lacute</string>
-      <string>uni013B</string>
-      <string>uni013C</string>
-      <string>uni0145</string>
-      <string>uni0146</string>
-      <string>uni0156</string>
-      <string>uni0157</string>
     </array>
     <key>public.postscriptNames</key>
     <dict/>
