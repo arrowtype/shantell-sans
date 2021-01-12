@@ -1,7 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="dash.case" format="2">
+<glyph name="guillemetleft.case" format="2">
+  <advance width="618"/>
+  <guideline x="280" y="543" angle="0" identifier="fKie9QDCXv"/>
   <outline>
-    <component base="dash"/>
+    <component base="guillemetleft" yOffset="85"/>
   </outline>
   <lib>
     <dict>
