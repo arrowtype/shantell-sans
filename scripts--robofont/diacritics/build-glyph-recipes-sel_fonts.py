@@ -8,25 +8,8 @@ from glyphConstruction import ParseGlyphConstructionListFromString, GlyphConstru
 center = False
 
 txt="""\
-exclamdown.case = exclamdown
-questiondown.case = questiondown
-slash.case = slash
-backslash.case = backslash
-hyphen.case = hyphen
-endash.case = endash
-emdash.case = emdash
-parenleft.case = parenleft
-parenright.case = parenright
-bracketleft.case = bracketleft
-bracketright.case = bracketright
-braceleft.case = braceleft
-braceright.case = braceright
-bracketangleleft.case = bracketangleleft
-bracketangleright.case = bracketangleright
-guilsinglleft.case = guilsinglleft
-guilsinglright.case = guilsinglright
-guillemetleft.case = guillemetleft
-guillemetright.case = guillemetright
+bullet.case = bullet
+periodcentered.case = periodcentered
 """
 
 

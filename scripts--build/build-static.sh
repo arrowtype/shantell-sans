@@ -12,4 +12,4 @@ for ufo in $parentDir/*.ufo; do
 done
 
 
-fontmake -o otf -i -m $DS --output-dir fonts/shantell-sans-v09/statics
+fontmake -o otf -i -m $DS --output-dir fonts/shantell-sans-v10/statics
