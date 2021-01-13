@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="at.case" format="2">
-	<advance width="924"/>
-	<outline>
-		<component base="at" yOffset="80"/>
-	</outline>
+  <advance width="924"/>
+  <guideline x="0" y="780" angle="0"/>
+  <guideline x="0" y="-80" angle="0"/>
+  <outline>
+    <component base="at" yOffset="80"/>
+  </outline>
 </glyph>
