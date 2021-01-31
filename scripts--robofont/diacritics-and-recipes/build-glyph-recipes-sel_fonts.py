@@ -7,9 +7,9 @@ from glyphConstruction import ParseGlyphConstructionListFromString, GlyphConstru
 
 center = False
 
+# ringcomb.A = ringcomb
 txt="""\
-bullet.case = bullet
-periodcentered.case = periodcentered
+Aring = A + ringcomb.A@ring
 """
 
 
