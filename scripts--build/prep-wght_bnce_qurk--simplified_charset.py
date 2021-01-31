@@ -7,22 +7,36 @@
     # TODO
         - [x] remove unicodes from alts
         - [x] dont mess up component glyphs in the shifted alts (shift components along with bases)
-            - [ ] figure out how to also cover ogonek (not working somehow) and single-component glyphs like oslash and lslash
+            - [x] figure out how to also cover ogonek (not working somehow) and single-component glyphs like oslash and lslash
         - [x] restrict this to *only* make shifted alts for a core character set (maybe ASCII?) – make this configurable with a list of characters
             - [x] decide what accented characters to add
-        - [ ] generate fresh calt feature code to make all alts work
+        - [x] generate fresh calt feature code to make all alts work
         - [x] copy designspaces into prep folder
-
         - [x] fix alignment of accents in organic/irregular glyphs – probably reattach to anchors
+
+        Kerning/repeatability
+        - Does a typeface build need to be repeatable? That’s a philosophical question ... is it generally more useful if repeatable? Probably yes.
+        - That means that This script probably should be a build script used *every time*, but only something used once, or for new glyphs.
+            - [x] Probably, the generated UFOs should get a lib entry of shifted glyphs / transformations, and these could be repeated during this build.
+            - [ ] There also probably needs to be a way to record interpolations
+        - This would also allow kerning exceptions to persist between builds.
+            - In this case, you need a way to record which kerns have been overridden versus which are just outdated.
+            - This could be a script which you run on saving the bouncy / irregular sources, to check kerning vs normal, and record new diffs
+            - This *should, in theory* allow new kerns to be introduced, where they were previously overridden 
+            - Overridden kerns should be kept deliberately sparse, to keep things clean overall
 
         Also
         - [ ] Link to this script at https://github.com/googlefonts/ufo2ft/issues/437 once the repo is public
 
         Maybe?
-        - [ ] give diacritics different levels of bounce & pop/dynamics/variety(?)
-        - [ ] build in feature copier? (currently, you have to separate copy in the features  )
+        - [x] build in feature copier? (currently, you have to separate copy in the features  )
+        - [ ] give diacritics different levels of bounce & pop/dynamics/variety(?) ... probably not
 
-        # TODO: generate calt feature code to catch all glyphs with .alts
+        # TODO: generate calt feature code to catch all glyphs with .alts, which would be:
+            - .case punctuation
+            - fractional figures
+
+        - probably, you should make sure to SKIP shifting to numr/dnom figures, or it will break fractions
 """
 
 import os
@@ -138,7 +152,7 @@ def makeAlts(fonts, numOfAlts=2):
 
     altsToMakeGlyphNames = list(set(altsToMakeGlyphNames))
 
-    print(" ".join(altsToMakeGlyphNames))
+    # print(" ".join(altsToMakeGlyphNames))
 
     for font in fonts:
 
@@ -167,8 +181,21 @@ def makeAlts(fonts, numOfAlts=2):
 def findMainBaseGlyphName(font, glyph):
     return [c.baseGlyph for c in glyph.components if font[c.baseGlyph].width >= 1][0]
 
+
 def positiveOrNegative():
     return 1 if random() < 0.5 else -1
+
+
+def recordBounce(font, glyphName, moveY):
+    """
+        Record amount of Y-axis movement for a given glyph in the font lib.
+    """
+    try:
+        font.lib["com.arrowtype.glyphBounces"][glyphName] = moveY
+    except KeyError:
+        font.lib["com.arrowtype.glyphBounces"] = {}
+        font.lib["com.arrowtype.glyphBounces"][glyphName] = moveY
+
 
 def shiftGlyphs(font,randomLimit=200,minShift=50):
     """
@@ -194,14 +221,20 @@ def shiftGlyphs(font,randomLimit=200,minShift=50):
             moveY = round((randomLimit-minShift) * random() + minShift) * -1
             g.moveBy((0,moveY))
 
+            recordBounce(font, g.name, moveY)
+
         if 'alt2' in g.name and g.name.split(".")[0] not in glyphsToNotShift and len(g.components) == 0:
             moveY = round((randomLimit-minShift) * random() + minShift)
             g.moveBy((0,moveY))
+            
+            recordBounce(font, g.name, moveY)
 
         # change non-alt glyphs
         if 'alt' not in g.name and g.name not in glyphsToNotShift and len(g.components) == 0:
             moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative()
             g.moveBy((0,moveY))
+            
+            recordBounce(font, g.name, moveY)
 
         # record shift in the glyph’s lib for later use
         g.lib['com.arrowtype.yShift'] = moveY
