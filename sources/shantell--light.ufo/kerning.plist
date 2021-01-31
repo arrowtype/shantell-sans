@@ -1343,6 +1343,8 @@
     <dict>
       <key>public.kern2.g</key>
       <integer>-10</integer>
+      <key>public.kern2.o</key>
+      <integer>-20</integer>
       <key>public.kern2.r</key>
       <integer>-20</integer>
       <key>public.kern2.t</key>
@@ -1439,7 +1441,7 @@
     <key>public.kern1.r</key>
     <dict>
       <key>public.kern2.a</key>
-      <integer>-70</integer>
+      <integer>-80</integer>
       <key>public.kern2.c</key>
       <integer>-40</integer>
       <key>public.kern2.e</key>
