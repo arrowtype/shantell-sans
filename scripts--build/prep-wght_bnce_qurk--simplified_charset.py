@@ -68,7 +68,7 @@ include(../features/features/common.fea);
 include(../features/features/frac.fea);
 include(../features/features/case.fea);
 include(../features/features/numr_dnom_supr_infr.fea);
-include(../features/cycle-calt.fea)
+include(./cycle-calt.fea) # this is generated
 """
 
 # END configuration
@@ -98,6 +98,21 @@ def makePrepDir():
             if not os.path.exists(bounceCopy):
                 shutil.copytree(source, bounceCopy)
 
+def sortGlyphOrder(fonts):
+    """
+    Sorts all fonts in the list of *fonts* to have a common sort order.
+
+    *fonts* is a `list` of font objects (Defcon or FontParts).
+    """
+    for font in fonts:
+        newGlyphOrder = font.naked().unicodeData.sortGlyphNames(font.glyphOrder, sortDescriptors=[dict(type="cannedDesign", ascending=True, allowPseudoUnicode=True)])
+
+        # Trick here to put the .notdef first, as the cannedDesign sort puts it
+        # last, and it must be the first glyph in a font.
+        newGlyphOrder.insert(0, newGlyphOrder.pop())
+        font.glyphOrder = newGlyphOrder
+
+        font.save()
 
 def decomposeDigraphs(fonts):
     for font in fonts:
@@ -349,6 +364,34 @@ def correctAccents(fonts):
                     # get intersection
 
 
+def generateCalt(glyphNames):
+    """
+        Generate OpenType calt code
+    """
+
+    # print(f"making calt code for:")
+    # print(f"{glyphNames}")
+
+    glyphNames = sorted(glyphNames)
+
+    calt = f"""\
+    feature calt {{
+        @randomCycle1 = [{" ".join(name + '     ' for name in glyphNames)}];
+        @randomCycle2 = [{" ".join(name + '.alt1' for name in glyphNames)}];
+        @randomCycle3 = [{" ".join(name + '.alt2' for name in glyphNames)}];
+
+        sub @randomCycle1 @randomCycle1' by @randomCycle2;
+        sub @randomCycle2 @randomCycle1' by @randomCycle3;
+    }} calt;
+    """
+
+    with open(f"{prepDir}/cycle-calt.fea", "w") as file:
+        file.write(calt)
+
+    # print(calt)
+
+
+
 def addFeaCode(fonts):
     """
         Add feature code to generated UFOs
@@ -414,12 +457,18 @@ def main():
     print("🤖 Fixing accent positions")
     correctAccents(fonts)
 
+    print("🤖 Generating calt feature")
+    generateCalt(altsMadeForList)
+
     print("🤖 Updating feature code")
     addFeaCode(fonts)
 
     print("🤖 Copying Designspace file")
     for ds in designspaces:
         shutil.copyfile(ds, prepDir+'/'+os.path.split(ds)[1])
+
+    print("🤖 Sorting fonts")
+    sortGlyphOrder(fonts)
 
 if __name__ == "__main__":
     main()
