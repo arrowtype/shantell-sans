@@ -10,9 +10,10 @@
             - [ ] figure out how to also cover ogonek (not working somehow) and single-component glyphs like oslash and lslash
         - [x] restrict this to *only* make shifted alts for a core character set (maybe ASCII?) – make this configurable with a list of characters
             - [x] decide what accented characters to add
-        - [ ] separately: auto-generate calt feature code to make all alts work
+        - [ ] generate fresh calt feature code to make all alts work
+        - [x] copy designspaces into prep folder
 
-        - [ ] fix alignment of accents in organic/irregular glyphs – probably reattach to anchors
+        - [x] fix alignment of accents in organic/irregular glyphs – probably reattach to anchors
 
         Also
         - [ ] Link to this script at https://github.com/googlefonts/ufo2ft/issues/437 once the repo is public
@@ -31,6 +32,9 @@ from fontParts.fontshell import RFont as Font
 from fontParts.world import *
 from random import random
 
+# --------------------------------------------------------
+# START configuration
+
 # start with hardcoded paths; optimize later
 
 sources = {
@@ -42,22 +46,34 @@ sources = {
     "bounceExtrabold": "sources/shantell_bounce--extrabold.ufo",
 }
 
+designspaces = ["sources/shantell-wght_BNCE_FLUX--smpl.designspace", "sources/shantell-wght_BNCE_FLUX--smpl--static.designspace"]
+
 prepDir = 'sources/wght_bnce_flux--smpl--prepped'
-
-# # characters from Python string.printable
-# altsToMake = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!\"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~"
-
-# # add extra characters here, e.g. most-common accents
-# altsToMake += "éñ"
 
 # all letters
 altsToMake = "AÀÁÂÃÄÅĀĂĄǍBCÇĆČDĎEÈÉÊËĒĔĘĚFGĞHIÌÍÎÏĪĬĮİJKLMNÑŃŇOÒÓÔÕÖŌŎŐPQRŔŘSŚŞŠTŤUÙÚÛÜŪŬŮŰŲǓVWXYÝŸZŹŻŽÆØǾĲŁŒΩaàáâãäåāăąǎbcçćčdďeèéêëēĕęěfgğhiìíîïīĭįjklmnñńňoòóôõöōŏőpqrŕřsśşštťuùúûüūŭůűųǔvwxyýÿzźżžßæÞðþẞ"
 
 # numbers & basic symbols
-altsToMake += "0123456789!\"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~"
+altsToMake += "0123456789!\"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~“”‘’"
 
 # some glyphs just need to stick together
 glyphsToDecompose = "ij oe".split()
+
+# feature code to be inserted into generated UFOs
+feaCode = """\
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+include(../features/features/common.fea);
+include(../features/features/frac.fea);
+include(../features/features/case.fea);
+include(../features/features/numr_dnom_supr_infr.fea);
+include(../features/cycle-calt.fea)
+"""
+
+# END configuration
+# --------------------------------------------------------
+
 
 # get integer unicode values for string of characters from above
 altsToMakeList = [ord(char) for char in altsToMake]
@@ -81,6 +97,7 @@ def makePrepDir():
             bounceCopy = prepDir+'/'+os.path.split(sources[f"bounce{name.title()}"])[1]
             if not os.path.exists(bounceCopy):
                 shutil.copytree(source, bounceCopy)
+
 
 def decomposeDigraphs(fonts):
     for font in fonts:
@@ -332,6 +349,16 @@ def correctAccents(fonts):
                     # get intersection
 
 
+def addFeaCode(fonts):
+    """
+        Add feature code to generated UFOs
+    """
+
+    for font in fonts:
+        font.features.text = feaCode
+        font.save()
+
+
 def main():
 
     # The setup
@@ -386,6 +413,13 @@ def main():
 
     print("🤖 Fixing accent positions")
     correctAccents(fonts)
+
+    print("🤖 Updating feature code")
+    addFeaCode(fonts)
+
+    print("🤖 Copying Designspace file")
+    for ds in designspaces:
+        shutil.copyfile(ds, prepDir+'/'+os.path.split(ds)[1])
 
 if __name__ == "__main__":
     main()
