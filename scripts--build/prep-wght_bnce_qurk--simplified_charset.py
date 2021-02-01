@@ -18,7 +18,10 @@
         - Does a typeface build need to be repeatable? That’s a philosophical question ... is it generally more useful if repeatable? Probably yes.
         - That means that This script probably should be a build script used *every time*, but only something used once, or for new glyphs.
             - [x] Probably, the generated UFOs should get a lib entry of shifted glyphs / transformations, and these could be repeated during this build.
-            - [ ] There also probably needs to be a way to record interpolations
+            - [ ] check for recorded bounces before generating random new one
+                - [ ] save to main font’s lib?
+                - [ ] look in main font for moveY, then apply to bounce font
+            - [x] There also probably needs to be a way to record interpolations - ACTUALLY, this is already currently hard-coded to 0.1 and 0.66
         - This would also allow kerning exceptions to persist between builds.
             - In this case, you need a way to record which kerns have been overridden versus which are just outdated.
             - This could be a script which you run on saving the bouncy / irregular sources, to check kerning vs normal, and record new diffs
@@ -197,7 +200,7 @@ def recordBounce(font, glyphName, moveY):
         font.lib["com.arrowtype.glyphBounces"][glyphName] = moveY
 
 
-def shiftGlyphs(font,randomLimit=200,minShift=50):
+def shiftGlyphs(font,randomLimit=100,minShift=50):
     """
         Shift glyphs in Bouncy sources.
     """
@@ -214,64 +217,85 @@ def shiftGlyphs(font,randomLimit=200,minShift=50):
             caron breve tilde macron dieresis dotaccent ring cedilla ogonek ogonekcmb \
         ".split()
 
-    for g in font:
-        moveY = 0
+    # TODO: check for recorded bounces before generating random new one
 
-        if 'alt1' in g.name and g.name.split(".")[0] not in glyphsToNotShift and len(g.components) == 0:
-            moveY = round((randomLimit-minShift) * random() + minShift) * -1
-            g.moveBy((0,moveY))
+    if "bounce" in font.path:
+        # determine whether style is light or extrabold bouncy, then open that base font
+        if "light" in font.path:
+            baseFont = Font(sources["light"])
+        elif "extrabold" in font.path:
+            baseFont = Font(sources["extrabold"])
 
-            recordBounce(font, g.name, moveY)
+        print(baseFont)
 
-        if 'alt2' in g.name and g.name.split(".")[0] not in glyphsToNotShift and len(g.components) == 0:
-            moveY = round((randomLimit-minShift) * random() + minShift)
-            g.moveBy((0,moveY))
-            
-            recordBounce(font, g.name, moveY)
+        for g in font:
 
-        # change non-alt glyphs
-        if 'alt' not in g.name and g.name not in glyphsToNotShift and len(g.components) == 0:
-            moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative()
-            g.moveBy((0,moveY))
-            
-            recordBounce(font, g.name, moveY)
+            # try: look up bounce dict in the core light/extrabold font, use in this font
+            try:
+                moveY = baseFont.lib["com.arrowtype.glyphBounces"][g.name]
+                g.moveBy((0,moveY))
 
-        # record shift in the glyph’s lib for later use
-        g.lib['com.arrowtype.yShift'] = moveY
+            # except KeyError: generate bounce value and add to core light/extrabold font
+            except KeyError:
+                moveY = 0
+                
+                if 'alt1' in g.name and g.name.split(".")[0] not in glyphsToNotShift and len(g.components) == 0:
+                    moveY = round((randomLimit-minShift) * random() + minShift) * -1
+                    g.moveBy((0,moveY))
 
-    # correct positioning of base glyphs in composed glyphs
-    for g in font:
+                    recordBounce(baseFont, g.name, moveY)
 
-        if len(g.components) >= 1 and g.name.split(".")[0] not in glyphsToNotShift:
+                if 'alt2' in g.name and g.name.split(".")[0] not in glyphsToNotShift and len(g.components) == 0:
+                    moveY = round((randomLimit-minShift) * random() + minShift)
+                    g.moveBy((0,moveY))
+                    
+                    recordBounce(baseFont, g.name, moveY)
 
-            # look up Yshift of main baseGlyph
-            mainBase = findMainBaseGlyphName(font, g)
-            baseShift = font[mainBase].lib['com.arrowtype.yShift']
+                # change non-alt glyphs
+                if 'alt' not in g.name and g.name not in glyphsToNotShift and len(g.components) == 0:
+                    moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative()
+                    g.moveBy((0,moveY))
+                    
+                    recordBounce(baseFont, g.name, moveY)
 
-            # in multi-component glyphs, shift accents to match bases
-            if len(g.components) > 1:
-                for c in g.components:
-                    if c.baseGlyph is not mainBase:
-                        c.moveBy((0,baseShift))
-                # move glyph to normal position
-                g.moveBy((0,-baseShift))
+                # record shift in the glyph’s lib for later use
+                g.lib['com.arrowtype.yShift'] = moveY
 
-            #  correct single-component glyphs like oslash, lslash
-            else:
-                for c in g.components:
-                    if c.baseGlyph is mainBase:
-                        c.moveBy((0,-baseShift))
+        # correct positioning of base glyphs in composed glyphs
+        for g in font:
 
-            # move full glyph in a new way
-            moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative()
-            g.moveBy((0,moveY))
-            g.lib['com.arrowtype.yShift'] = moveY
+            if len(g.components) >= 1 and g.name.split(".")[0] not in glyphsToNotShift:
 
-            # TODO: correct ij, oe, which are out-of-whack
+                # look up Yshift of main baseGlyph
+                mainBase = findMainBaseGlyphName(font, g)
+                baseShift = font[mainBase].lib['com.arrowtype.yShift']
 
-            # # TODO? maybe split accented alts into up/down/random, like other glyphs
+                # in multi-component glyphs, shift accents to match bases
+                if len(g.components) > 1:
+                    for c in g.components:
+                        if c.baseGlyph is not mainBase:
+                            c.moveBy((0,baseShift))
+                    # move glyph to normal position
+                    g.moveBy((0,-baseShift))
 
-    font.save()
+                #  correct single-component glyphs like oslash, lslash
+                else:
+                    for c in g.components:
+                        if c.baseGlyph is mainBase:
+                            c.moveBy((0,-baseShift))
+
+                # move full glyph in a new way
+                moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative()
+                g.moveBy((0,moveY))
+                g.lib['com.arrowtype.yShift'] = moveY
+
+                # TODO: correct ij, oe, which are out-of-whack
+
+                # # TODO? maybe split accented alts into up/down/random, like other glyphs
+
+        font.save()
+        baseFont.save()
+
 
 def makeComponentsAlts(fonts, numOfAlts=2):
     """
@@ -288,6 +312,7 @@ def makeComponentsAlts(fonts, numOfAlts=2):
                 glyph.update()
 
         font.save()
+
 
 def interpolateAlts(normalFont, organicFont, altsMadeForList):
     """
@@ -407,14 +432,18 @@ def generateCalt(glyphNames):
 
     glyphNames = sorted(glyphNames)
 
+    # sub @randomCycle1 @randomCycle1' by @randomCycle2;
+    # sub @randomCycle2 @randomCycle1' by @randomCycle3;
     calt = f"""\
     feature calt {{
         @randomCycle1 = [{" ".join(name + '     ' for name in glyphNames)}];
         @randomCycle2 = [{" ".join(name + '.alt1' for name in glyphNames)}];
         @randomCycle3 = [{" ".join(name + '.alt2' for name in glyphNames)}];
-
-        sub @randomCycle1 @randomCycle1' by @randomCycle2;
-        sub @randomCycle2 @randomCycle1' by @randomCycle3;
+        
+        # avoids setting biggest transformations at the start of words in Irregular/Flux styles
+        sub @randomCycle1 by @randomCycle3;
+        sub @randomCycle3 @randomCycle3' by @randomCycle1;
+        sub @randomCycle1 @randomCycle3' by @randomCycle2;
     }} calt;
     """
 
