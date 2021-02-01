@@ -35,6 +35,9 @@
             - This *should, in theory* allow new kerns to be introduced, where they were previously overridden 
             - Overridden kerns should be kept deliberately sparse, to keep things clean overall
 
+        Maybe??
+        - [ ] try a bouncy axis that can before 0 in the middle, but bounce up *or* down, to allow for a "wavy" animation
+
         Also
         - [ ] Link to this script at https://github.com/googlefonts/ufo2ft/issues/437 once the repo is public
 
@@ -432,7 +435,13 @@ def extendKerning(fonts):
         Add .alt1 and .alt2 glyphs to kerning groups with defaults.
     """
 
+    # first, copy groups from main font
+    coreGroups = Font(sources["extrabold"]).groups
+
     for font in fonts:
+        font.groups = coreGroups
+
+        # then, add alt glyphs into the groups of default glyphs
         for g in font:
             baseName = g.name.split(".")[0]
 
