@@ -18,13 +18,20 @@
         - Does a typeface build need to be repeatable? That’s a philosophical question ... is it generally more useful if repeatable? Probably yes.
         - That means that This script probably should be a build script used *every time*, but only something used once, or for new glyphs.
             - [x] Probably, the generated UFOs should get a lib entry of shifted glyphs / transformations, and these could be repeated during this build.
-            - [ ] check for recorded bounces before generating random new one
-                - [ ] save to main font’s lib?
-                - [ ] look in main font for moveY, then apply to bounce font
+            - [x] check for recorded bounces before generating random new one
+                - [x] save to main font’s lib?
+                - [x] look in main font for moveY, then apply to bounce font
             - [x] There also probably needs to be a way to record interpolations - ACTUALLY, this is already currently hard-coded to 0.1 and 0.66
+        - [ ] first, extend kerning groups to include all .alt1 and .alt2 glyphs with default glyphs - CRITICAL for kerning to work AT ALL, e.g. `Y.alt2 o y.alt1 o.alt2`
         - This would also allow kerning exceptions to persist between builds.
             - In this case, you need a way to record which kerns have been overridden versus which are just outdated.
-            - This could be a script which you run on saving the bouncy / irregular sources, to check kerning vs normal, and record new diffs
+            - This could be a separate script which you run on saving the bouncy / irregular sources:
+                - [ ] First, do a manual test: are kerning overrides in bouncy sources good?
+                    - kerning orders: alt2_default, default_alt1, alt1_alt2
+                - [ ] check kerning vs normal, and record new diffs in baseFont lib
+                
+            - [ ] each time fonts are generated, check kerning overrides, and bring those in
+                
             - This *should, in theory* allow new kerns to be introduced, where they were previously overridden 
             - Overridden kerns should be kept deliberately sparse, to keep things clean overall
 
@@ -226,9 +233,11 @@ def shiftGlyphs(font,randomLimit=100,minShift=50):
         elif "extrabold" in font.path:
             baseFont = Font(sources["extrabold"])
 
-        print(baseFont)
+        # print(baseFont)
 
         for g in font:
+
+            moveY = 0
 
             # try: look up bounce dict in the core light/extrabold font, use in this font
             try:
@@ -237,8 +246,8 @@ def shiftGlyphs(font,randomLimit=100,minShift=50):
 
             # except KeyError: generate bounce value and add to core light/extrabold font
             except KeyError:
-                moveY = 0
                 
+
                 if 'alt1' in g.name and g.name.split(".")[0] not in glyphsToNotShift and len(g.components) == 0:
                     moveY = round((randomLimit-minShift) * random() + minShift) * -1
                     g.moveBy((0,moveY))
@@ -258,8 +267,8 @@ def shiftGlyphs(font,randomLimit=100,minShift=50):
                     
                     recordBounce(baseFont, g.name, moveY)
 
-                # record shift in the glyph’s lib for later use
-                g.lib['com.arrowtype.yShift'] = moveY
+            # record shift in the glyph’s lib for later use
+            g.lib['com.arrowtype.yShift'] = moveY
 
         # correct positioning of base glyphs in composed glyphs
         for g in font:
@@ -288,10 +297,6 @@ def shiftGlyphs(font,randomLimit=100,minShift=50):
                 moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative()
                 g.moveBy((0,moveY))
                 g.lib['com.arrowtype.yShift'] = moveY
-
-                # TODO: correct ij, oe, which are out-of-whack
-
-                # # TODO? maybe split accented alts into up/down/random, like other glyphs
 
         font.save()
         baseFont.save()
@@ -422,6 +427,25 @@ def correctAccents(fonts):
                     # get intersection
 
 
+def extendKerning(fonts):
+    """
+        Add .alt1 and .alt2 glyphs to kerning groups with defaults.
+    """
+
+    for font in fonts:
+        for g in font:
+            baseName = g.name.split(".")[0]
+
+            # check what kern1 group font[baseName] is in
+            kernGroups = [groupName for groupName in font.groups.findGlyph(baseName) if "kern" in groupName]
+            
+            for kernGroup in kernGroups:
+                if g.name not in font.groups[kernGroup]:
+                    font.groups[kernGroup] = font.groups[kernGroup] + (g.name,)
+
+        font.save()
+
+
 def generateCalt(glyphNames):
     """
         Generate OpenType calt code
@@ -518,6 +542,9 @@ def main():
 
     print("🤖 Fixing accent positions")
     correctAccents(fonts)
+    
+    print("🤖 Tying alts to default glyph kerning")
+    extendKerning(fonts)
 
     print("🤖 Generating calt feature")
     generateCalt(altsMadeForList)
