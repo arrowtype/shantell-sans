@@ -36,7 +36,8 @@
             - Overridden kerns should be kept deliberately sparse, to keep things clean overall
 
         Maybe??
-        - [ ] try a bouncy axis that can before 0 in the middle, but bounce up *or* down, to allow for a "wavy" animation
+        - [x] try a bouncy axis that can before 0 in the middle, but bounce up *or* down, to allow for a "wavy" animation
+        - [ ] figure out best sequence for up/down variation
 
         Also
         - [ ] Link to this script at https://github.com/googlefonts/ufo2ft/issues/437 once the repo is public
@@ -71,11 +72,13 @@ sources = {
     "quirkExtrabold": "sources/shantell_organic--extrabold.ufo",
     "bounceLight": "sources/shantell_bounce--light.ufo",
     "bounceExtrabold": "sources/shantell_bounce--extrabold.ufo",
+    "bounceReverseLight": "sources/shantell_bounce_reverse--light.ufo",
+    "bounceReverseExtrabold": "sources/shantell_bounce_reverse--extrabold.ufo",
 }
 
-designspaces = ["sources/shantell-wght_BNCE_FLUX--smpl.designspace", "sources/shantell-wght_BNCE_FLUX--smpl--static.designspace"]
+designspaces = ["sources/shantell-wght_BNCE_FLUX--bounce_reverse.designspace", "sources/shantell-wght_BNCE_FLUX--bounce_reverse--static.designspace"]
 
-prepDir = 'sources/wght_bnce_flux--smpl--prepped'
+prepDir = 'sources/wght_bnce_flux--bnce_rev--prepped'
 
 # all letters
 altsToMake = "AÀÁÂÃÄÅĀĂĄǍBCÇĆČDĎEÈÉÊËĒĔĘĚFGĞHIÌÍÎÏĪĬĮİJKLMNÑŃŇOÒÓÔÕÖŌŎŐPQRŔŘSŚŞŠTŤUÙÚÛÜŪŬŮŰŲǓVWXYÝŸZŹŻŽÆØǾĲŁŒΩaàáâãäåāăąǎbcçćčdďeèéêëēĕęěfgğhiìíîïīĭįjklmnñńňoòóôõöōŏőpqrŕřsśşštťuùúûüūŭůűųǔvwxyýÿzźżžßæÞðþẞ"
@@ -120,10 +123,17 @@ def makePrepDir():
         except FileNotFoundError:
             pass
 
+        # make bounce UFOs
         if name in ["light","extrabold"]:
             bounceCopy = prepDir+'/'+os.path.split(sources[f"bounce{name.title()}"])[1]
             if not os.path.exists(bounceCopy):
                 shutil.copytree(source, bounceCopy)
+
+        # make bounce-reverse UFOs
+        if name in ["light","extrabold"]:
+            bounceReverseCopy = prepDir+'/'+os.path.split(sources[f"bounceReverse{name.title()}"])[1]
+            if not os.path.exists(bounceReverseCopy):
+                shutil.copytree(source, bounceReverseCopy)
 
 def sortGlyphOrder(fonts):
     """
@@ -210,7 +220,7 @@ def recordBounce(font, glyphName, moveY):
         font.lib["com.arrowtype.glyphBounces"][glyphName] = moveY
 
 
-def shiftGlyphs(font,randomLimit=100,minShift=50):
+def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
     """
         Shift glyphs in Bouncy sources.
     """
@@ -229,6 +239,9 @@ def shiftGlyphs(font,randomLimit=100,minShift=50):
 
     # TODO: check for recorded bounces before generating random new one
 
+    print(font.path)
+    print("factor is ", factor)
+
     if "bounce" in font.path:
         # determine whether style is light or extrabold bouncy, then open that base font
         if "light" in font.path:
@@ -244,7 +257,7 @@ def shiftGlyphs(font,randomLimit=100,minShift=50):
 
             # try: look up bounce dict in the core light/extrabold font, use in this font
             try:
-                moveY = baseFont.lib["com.arrowtype.glyphBounces"][g.name]
+                moveY = baseFont.lib["com.arrowtype.glyphBounces"][g.name] * factor
                 g.moveBy((0,moveY))
 
             # except KeyError: generate bounce value and add to core light/extrabold font
@@ -252,20 +265,20 @@ def shiftGlyphs(font,randomLimit=100,minShift=50):
                 
 
                 if 'alt1' in g.name and g.name.split(".")[0] not in glyphsToNotShift and len(g.components) == 0:
-                    moveY = round((randomLimit-minShift) * random() + minShift) * -1
+                    moveY = round((randomLimit-minShift) * random() + minShift) * -1 * factor
                     g.moveBy((0,moveY))
 
                     recordBounce(baseFont, g.name, moveY)
 
                 if 'alt2' in g.name and g.name.split(".")[0] not in glyphsToNotShift and len(g.components) == 0:
-                    moveY = round((randomLimit-minShift) * random() + minShift)
+                    moveY = round((randomLimit-minShift) * random() + minShift) * factor
                     g.moveBy((0,moveY))
                     
                     recordBounce(baseFont, g.name, moveY)
 
                 # change non-alt glyphs
                 if 'alt' not in g.name and g.name not in glyphsToNotShift and len(g.components) == 0:
-                    moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative()
+                    moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative() * factor
                     g.moveBy((0,moveY))
                     
                     recordBounce(baseFont, g.name, moveY)
@@ -296,10 +309,18 @@ def shiftGlyphs(font,randomLimit=100,minShift=50):
                         if c.baseGlyph is mainBase:
                             c.moveBy((0,-baseShift))
 
-                # move full glyph in a new way
-                moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative()
-                g.moveBy((0,moveY))
-                g.lib['com.arrowtype.yShift'] = moveY
+                
+
+                try:
+                    moveY = baseFont.lib["com.arrowtype.glyphBounces"][g.name] * factor
+                    g.moveBy((0,moveY))
+                except KeyError:
+                    # move full glyph in a new way
+                    moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative() * factor
+                    g.moveBy((0,moveY))
+                    g.lib['com.arrowtype.yShift'] = moveY
+                    recordBounce(baseFont, g.name, moveY)
+
 
         font.save()
         baseFont.save()
@@ -436,10 +457,12 @@ def extendKerning(fonts):
     """
 
     # first, copy groups from main font
-    coreGroups = Font(sources["extrabold"]).groups
+    # coreGroups = Font(sources["extrabold"]).groups
 
     for font in fonts:
-        font.groups = coreGroups
+        # font.groups = coreGroups
+
+        # print("\n\n", font.path)
 
         # then, add alt glyphs into the groups of default glyphs
         for g in font:
@@ -451,6 +474,9 @@ def extendKerning(fonts):
             for kernGroup in kernGroups:
                 if g.name not in font.groups[kernGroup]:
                     font.groups[kernGroup] = font.groups[kernGroup] + (g.name,)
+
+                    # print(g.name, end=" ")
+                    # print(font.groups.findGlyph(g.name), end=" | ")
 
         font.save()
 
@@ -526,8 +552,13 @@ def main():
     # shift alts in bounce fonts
     print("🤖 Shifting bouncy alts")
     for font in fonts:
-        if "bounce" in font.path:
-            shiftGlyphs(font)
+        if "bounce" in font.path and "bounce_reverse" not in font.path:
+            # shiftGlyphs(font)
+            shiftGlyphs(font, factor=1.5) # trying more-extreme style
+        elif "bounce_reverse" in font.path:
+            print("reverse bounces for ", font.path)
+            # shiftGlyphs(font, factor=-1)
+            shiftGlyphs(font, factor=-1.5) # trying more-extreme style
 
     # interpolate alts in quirk fonts
     print("🤖 Interpolating organic alts")
