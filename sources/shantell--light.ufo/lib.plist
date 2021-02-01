@@ -2193,6 +2193,7 @@
           <string>periodcentered.case</string>
           <string>check</string>
           <string>checkheavy</string>
+          <string>ringcomb.A</string>
         </array>
         <key>type</key>
         <string>glyphList</string>
@@ -2348,6 +2349,20 @@
         <integer>0</integer>
         <real>0.25</real>
       </array>
+      <key>public.kern1.P</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.Q</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern1.R</key>
       <array>
         <integer>1</integer>
@@ -2374,6 +2389,27 @@
         <integer>0</integer>
         <integer>1</integer>
         <integer>1</integer>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.V</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.W</key>
+      <array>
+        <real>1.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.X</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.Y</key>
@@ -2418,6 +2454,13 @@
         <integer>0</integer>
         <real>0.25</real>
       </array>
+      <key>public.kern1.f</key>
+      <array>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern1.g</key>
       <array>
         <integer>1</integer>
@@ -2430,6 +2473,13 @@
         <integer>1</integer>
         <integer>1</integer>
         <integer>0</integer>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.h</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.i</key>
@@ -2513,6 +2563,27 @@
       <array>
         <integer>1</integer>
         <integer>0</integer>
+        <real>0.5</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.v</key>
+      <array>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.w</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.x</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>0.5</real>
         <real>0.25</real>
       </array>
@@ -2628,6 +2699,13 @@
         <integer>0</integer>
         <real>0.25</real>
       </array>
+      <key>public.kern2.Q</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern2.R</key>
       <array>
         <integer>1</integer>
@@ -2654,6 +2732,27 @@
         <integer>0</integer>
         <integer>1</integer>
         <integer>1</integer>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.V</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.W</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.X</key>
+      <array>
+        <real>1.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.Y</key>
@@ -2754,6 +2853,13 @@
         <integer>1</integer>
         <real>0.25</real>
       </array>
+      <key>public.kern2.q</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern2.r</key>
       <array>
         <integer>0</integer>
@@ -2780,6 +2886,27 @@
         <integer>1</integer>
         <integer>0</integer>
         <real>0.5</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.v</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.w</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.x</key>
+      <array>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.y</key>
@@ -3170,8 +3297,11 @@
       <string>lozenge</string>
       <string>heartwhite</string>
       <string>heartblack</string>
+      <string>check</string>
+      <string>checkheavy</string>
       <string>jdotless</string>
       <string>space.frac</string>
+      <string>ringcomb.A</string>
       <string>hyphen.case</string>
       <string>endash.case</string>
       <string>emdash.case</string>
@@ -3192,6 +3322,8 @@
       <string>at.case</string>
       <string>exclamdown.case</string>
       <string>questiondown.case</string>
+      <string>periodcentered.case</string>
+      <string>bullet.case</string>
       <string>dollar.tabl</string>
       <string>zero.dnom</string>
       <string>one.dnom</string>
@@ -3232,11 +3364,6 @@
       <string>nine.superior</string>
       <string>mu.math</string>
       <string>ae.200928-18_33</string>
-      <string>bullet.case</string>
-      <string>periodcentered.case</string>
-      <string>check</string>
-      <string>checkheavy</string>
-      <string>ringcomb.A</string>
     </array>
     <key>public.postscriptNames</key>
     <dict/>

@@ -38,6 +38,7 @@
         Maybe??
         - [x] try a bouncy axis that can before 0 in the middle, but bounce up *or* down, to allow for a "wavy" animation
         - [ ] figure out best sequence for up/down variation
+        - [ ] re-fix accent attachment with this new postivie/negative bounce system
 
         Also
         - [ ] Link to this script at https://github.com/googlefonts/ufo2ft/issues/437 once the repo is public
