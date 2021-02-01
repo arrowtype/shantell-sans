@@ -638,6 +638,14 @@
       <integer>-93</integer>
       <key>acircumflex.alt2</key>
       <integer>71</integer>
+      <key>acute</key>
+      <integer>0</integer>
+      <key>acutecomb</key>
+      <integer>0</integer>
+      <key>acutecomb.alt1</key>
+      <integer>0</integer>
+      <key>acutecomb.alt2</key>
+      <integer>0</integer>
       <key>adieresis</key>
       <integer>79</integer>
       <key>adieresis.alt1</key>
@@ -792,6 +800,14 @@
       <integer>99</integer>
       <key>bracketright.case</key>
       <integer>51</integer>
+      <key>breve</key>
+      <integer>0</integer>
+      <key>brevecomb</key>
+      <integer>0</integer>
+      <key>brevecomb.alt1</key>
+      <integer>0</integer>
+      <key>brevecomb.alt2</key>
+      <integer>0</integer>
       <key>bullet</key>
       <integer>-99</integer>
       <key>bullet.case</key>
@@ -808,6 +824,14 @@
       <integer>-74</integer>
       <key>cacute.alt2</key>
       <integer>-71</integer>
+      <key>caron</key>
+      <integer>0</integer>
+      <key>caroncomb</key>
+      <integer>0</integer>
+      <key>caroncomb.alt1</key>
+      <integer>0</integer>
+      <key>caroncomb.alt2</key>
+      <integer>0</integer>
       <key>ccaron</key>
       <integer>-72</integer>
       <key>ccaron.alt1</key>
@@ -820,12 +844,28 @@
       <integer>-66</integer>
       <key>ccedilla.alt2</key>
       <integer>66</integer>
+      <key>cedilla</key>
+      <integer>0</integer>
+      <key>cedillacomb</key>
+      <integer>0</integer>
+      <key>cedillacomb.alt1</key>
+      <integer>0</integer>
+      <key>cedillacomb.alt2</key>
+      <integer>0</integer>
       <key>cent</key>
       <integer>-98</integer>
       <key>check</key>
       <integer>-59</integer>
       <key>checkheavy</key>
       <integer>-81</integer>
+      <key>circumflex</key>
+      <integer>0</integer>
+      <key>circumflexcomb</key>
+      <integer>0</integer>
+      <key>circumflexcomb.alt1</key>
+      <integer>0</integer>
+      <key>circumflexcomb.alt2</key>
+      <integer>0</integer>
       <key>colon</key>
       <integer>-79</integer>
       <key>colon.alt1</key>
@@ -866,6 +906,14 @@
       <integer>-64</integer>
       <key>degree</key>
       <integer>-83</integer>
+      <key>dieresis</key>
+      <integer>0</integer>
+      <key>dieresiscomb</key>
+      <integer>0</integer>
+      <key>dieresiscomb.alt1</key>
+      <integer>0</integer>
+      <key>dieresiscomb.alt2</key>
+      <integer>0</integer>
       <key>divide</key>
       <integer>-68</integer>
       <key>dollar</key>
@@ -876,6 +924,16 @@
       <integer>89</integer>
       <key>dollar.tabl</key>
       <integer>79</integer>
+      <key>dotaccent</key>
+      <integer>0</integer>
+      <key>dotaccentcmb</key>
+      <integer>0</integer>
+      <key>dotaccentcmb.alt1</key>
+      <integer>0</integer>
+      <key>dotaccentcmb.alt2</key>
+      <integer>0</integer>
+      <key>dotbelowcmb</key>
+      <integer>0</integer>
       <key>e</key>
       <integer>81</integer>
       <key>e.alt1</key>
@@ -926,6 +984,8 @@
       <integer>-98</integer>
       <key>eight.alt2</key>
       <integer>53</integer>
+      <key>eight.dnom</key>
+      <integer>0</integer>
       <key>eight.inferior</key>
       <integer>66</integer>
       <key>eight.numr</key>
@@ -996,6 +1056,8 @@
       <integer>-99</integer>
       <key>five.alt2</key>
       <integer>72</integer>
+      <key>five.dnom</key>
+      <integer>0</integer>
       <key>five.inferior</key>
       <integer>-69</integer>
       <key>five.numr</key>
@@ -1010,12 +1072,16 @@
       <integer>-95</integer>
       <key>four.alt2</key>
       <integer>98</integer>
+      <key>four.dnom</key>
+      <integer>0</integer>
       <key>four.inferior</key>
       <integer>-69</integer>
       <key>four.numr</key>
       <integer>89</integer>
       <key>four.superior</key>
       <integer>80</integer>
+      <key>fraction</key>
+      <integer>0</integer>
       <key>g</key>
       <integer>-86</integer>
       <key>g.alt1</key>
@@ -1036,6 +1102,18 @@
       <integer>65</integer>
       <key>gnrl:hyphen</key>
       <integer>-90</integer>
+      <key>grave</key>
+      <integer>0</integer>
+      <key>grave.alt1</key>
+      <integer>0</integer>
+      <key>grave.alt2</key>
+      <integer>0</integer>
+      <key>gravecomb</key>
+      <integer>0</integer>
+      <key>gravecomb.alt1</key>
+      <integer>0</integer>
+      <key>gravecomb.alt2</key>
+      <integer>0</integer>
       <key>greater</key>
       <integer>-84</integer>
       <key>greater.alt1</key>
@@ -1070,6 +1148,12 @@
       <integer>84</integer>
       <key>heartwhite</key>
       <integer>-100</integer>
+      <key>hungarumlautcmb</key>
+      <integer>0</integer>
+      <key>hungarumlautcmb.alt1</key>
+      <integer>0</integer>
+      <key>hungarumlautcmb.alt2</key>
+      <integer>0</integer>
       <key>hyphen</key>
       <integer>-79</integer>
       <key>hyphen.alt1</key>
@@ -1190,6 +1274,14 @@
       <integer>-65</integer>
       <key>m.alt2</key>
       <integer>90</integer>
+      <key>macron</key>
+      <integer>0</integer>
+      <key>macroncomb</key>
+      <integer>0</integer>
+      <key>macroncomb.alt1</key>
+      <integer>0</integer>
+      <key>macroncomb.alt2</key>
+      <integer>0</integer>
       <key>minute</key>
       <integer>-89</integer>
       <key>mu.math</key>
@@ -1220,6 +1312,8 @@
       <integer>-80</integer>
       <key>nine.alt2</key>
       <integer>75</integer>
+      <key>nine.dnom</key>
+      <integer>0</integer>
       <key>nine.inferior</key>
       <integer>-61</integer>
       <key>nine.numr</key>
@@ -1272,6 +1366,14 @@
       <integer>-98</integer>
       <key>oe</key>
       <integer>51</integer>
+      <key>ogonek</key>
+      <integer>0</integer>
+      <key>ogonekcmb</key>
+      <integer>0</integer>
+      <key>ogonekcmb.alt1</key>
+      <integer>0</integer>
+      <key>ogonekcmb.alt2</key>
+      <integer>0</integer>
       <key>ograve</key>
       <integer>83</integer>
       <key>ograve.alt1</key>
@@ -1296,6 +1398,8 @@
       <integer>-76</integer>
       <key>one.alt2</key>
       <integer>67</integer>
+      <key>one.dnom</key>
+      <integer>0</integer>
       <key>one.inferior</key>
       <integer>-53</integer>
       <key>one.numr</key>
@@ -1306,6 +1410,8 @@
       <integer>-89</integer>
       <key>onequarter</key>
       <integer>93</integer>
+      <key>onesuperior</key>
+      <integer>0</integer>
       <key>onethird</key>
       <integer>-55</integer>
       <key>ordfeminine</key>
@@ -1456,6 +1562,20 @@
       <integer>77</integer>
       <key>registered</key>
       <integer>89</integer>
+      <key>ring</key>
+      <integer>0</integer>
+      <key>ringcomb</key>
+      <integer>0</integer>
+      <key>ringcomb.A</key>
+      <integer>0</integer>
+      <key>ringcomb.A.alt1</key>
+      <integer>0</integer>
+      <key>ringcomb.A.alt2</key>
+      <integer>0</integer>
+      <key>ringcomb.alt1</key>
+      <integer>0</integer>
+      <key>ringcomb.alt2</key>
+      <integer>0</integer>
       <key>s</key>
       <integer>-62</integer>
       <key>s.alt1</key>
@@ -1496,6 +1616,8 @@
       <integer>-65</integer>
       <key>seven.alt2</key>
       <integer>92</integer>
+      <key>seven.dnom</key>
+      <integer>0</integer>
       <key>seven.inferior</key>
       <integer>-79</integer>
       <key>seven.numr</key>
@@ -1510,6 +1632,8 @@
       <integer>-75</integer>
       <key>six.alt2</key>
       <integer>64</integer>
+      <key>six.dnom</key>
+      <integer>0</integer>
       <key>six.inferior</key>
       <integer>-54</integer>
       <key>six.numr</key>
@@ -1558,6 +1682,8 @@
       <integer>-76</integer>
       <key>three.alt2</key>
       <integer>79</integer>
+      <key>three.dnom</key>
+      <integer>0</integer>
       <key>three.inferior</key>
       <integer>-77</integer>
       <key>three.numr</key>
@@ -1566,6 +1692,16 @@
       <integer>96</integer>
       <key>threequarters</key>
       <integer>-90</integer>
+      <key>threesuperior</key>
+      <integer>0</integer>
+      <key>tilde</key>
+      <integer>0</integer>
+      <key>tildecomb</key>
+      <integer>0</integer>
+      <key>tildecomb.alt1</key>
+      <integer>0</integer>
+      <key>tildecomb.alt2</key>
+      <integer>0</integer>
       <key>trademark</key>
       <integer>-54</integer>
       <key>two</key>
@@ -1574,10 +1710,14 @@
       <integer>-64</integer>
       <key>two.alt2</key>
       <integer>54</integer>
+      <key>two.dnom</key>
+      <integer>0</integer>
       <key>two.inferior</key>
       <integer>92</integer>
       <key>two.numr</key>
       <integer>-95</integer>
+      <key>twosuperior</key>
+      <integer>0</integer>
       <key>twothirds</key>
       <integer>-53</integer>
       <key>u</key>
@@ -1742,6 +1882,8 @@
       <integer>-72</integer>
       <key>zero.alt2</key>
       <integer>51</integer>
+      <key>zero.dnom</key>
+      <integer>0</integer>
       <key>zero.inferior</key>
       <integer>-66</integer>
       <key>zero.numr</key>
