@@ -20,10 +20,11 @@ if "sparse" not in fontPath:
 languagesystem DFLT dflt;
 languagesystem latn dflt;
 
-include(../features/features/common.fea);
-include(../features/features/frac.fea);
-include(../features/features/case.fea);
-include(../features/features/numr_dnom_supr_infr.fea);
+include(../../features/features/common.fea);
+include(../../features/features/frac.fea);
+include(../../features/features/case.fea);
+include(../../features/features/numr_dnom_supr_infr.fea);
+include(../cycle-calt.fea);
 
     """
     
