@@ -310,13 +310,11 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
                         if c.baseGlyph is mainBase:
                             c.moveBy((0,-baseShift))
 
-                
-
+                # move full glyph in a new way
                 try:
                     moveY = baseFont.lib["com.arrowtype.glyphBounces"][g.name] * factor
                     g.moveBy((0,moveY))
                 except KeyError:
-                    # move full glyph in a new way
                     moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative() * factor
                     g.moveBy((0,moveY))
                     g.lib['com.arrowtype.yShift'] = moveY
