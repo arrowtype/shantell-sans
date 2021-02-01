@@ -2,6 +2,7 @@
 <designspace format="4.1">
   <axes>
     <axis tag="wght" name="Weight" minimum="300" maximum="800" default="300"/>
+    <axis tag="FLUX" name="Flux" minimum="0" maximum="100" default="0"/>
   </axes>
   <sources>
     <source filename="shantell--light.ufo" familyname="Shantell Sans" stylename="Light">
@@ -11,25 +12,25 @@
       <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="300"/>
+        <dimension name="Flux" xvalue="0"/>
       </location>
     </source>
     <source filename="shantell--extrabold.ufo" familyname="Shantell Sans" stylename="ExtraBold">
       <location>
         <dimension name="Weight" xvalue="800"/>
+        <dimension name="Flux" xvalue="0"/>
       </location>
     </source>
     <source filename="shantell_organic--light.ufo" familyname="Shantell Sans" stylename="Organic Light">
-      <lib copy="1"/>
-      <groups copy="1"/>
-      <features copy="1"/>
-      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="300"/>
+        <dimension name="Flux" xvalue="100"/>
       </location>
     </source>
     <source filename="shantell_organic--extrabold.ufo" familyname="Shantell Sans" stylename="Organic ExtraBold">
       <location>
         <dimension name="Weight" xvalue="800"/>
+        <dimension name="Flux" xvalue="100"/>
       </location>
     </source>
   </sources>
@@ -37,6 +38,7 @@
     <instance familyname="Shantell Sans" stylename="Light" filename="instances/Shantell_Sans-Light.ufo">
       <location>
         <dimension name="Weight" xvalue="300"/>
+        <dimension name="Flux" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -44,6 +46,7 @@
     <instance familyname="Shantell Sans" stylename="Regular" filename="instances/Shantell_Sans-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
+        <dimension name="Flux" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -51,6 +54,7 @@
     <instance familyname="Shantell Sans" stylename="Medium" filename="instances/Shantell_Sans-Medium.ufo">
       <location>
         <dimension name="Weight" xvalue="500"/>
+        <dimension name="Flux" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -58,6 +62,7 @@
     <instance familyname="Shantell Sans" stylename="SemiBold" filename="instances/Shantell_Sans-SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="600"/>
+        <dimension name="Flux" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -65,6 +70,7 @@
     <instance familyname="Shantell Sans" stylename="Bold" filename="instances/Shantell_Sans-Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="700"/>
+        <dimension name="Flux" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -72,6 +78,7 @@
     <instance familyname="Shantell Sans" stylename="ExtraBold" filename="instances/Shantell_Sans-ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="800"/>
+        <dimension name="Flux" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
