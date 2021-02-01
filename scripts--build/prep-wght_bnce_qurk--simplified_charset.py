@@ -269,20 +269,16 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
                     moveY = round((randomLimit-minShift) * random() + minShift) * -1 * factor
                     g.moveBy((0,moveY))
 
-                    recordBounce(baseFont, g.name, moveY)
-
                 if 'alt2' in g.name and g.name.split(".")[0] not in glyphsToNotShift and len(g.components) == 0:
                     moveY = round((randomLimit-minShift) * random() + minShift) * factor
                     g.moveBy((0,moveY))
-                    
-                    recordBounce(baseFont, g.name, moveY)
 
                 # change non-alt glyphs
                 if 'alt' not in g.name and g.name not in glyphsToNotShift and len(g.components) == 0:
                     moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative() * factor
                     g.moveBy((0,moveY))
                     
-                    recordBounce(baseFont, g.name, moveY)
+                recordBounce(baseFont, g.name, moveY)
 
             # record shift in the glyph’s lib for later use
             g.lib['com.arrowtype.yShift'] = moveY
@@ -301,7 +297,7 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
                     for c in g.components:
                         if c.baseGlyph is not mainBase:
                             c.moveBy((0,baseShift))
-                    # move glyph to normal position
+                    # move glyph to normal position to "reset" it
                     g.moveBy((0,-baseShift))
 
                 #  correct single-component glyphs like oslash, lslash
@@ -310,15 +306,15 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
                         if c.baseGlyph is mainBase:
                             c.moveBy((0,-baseShift))
 
-                # move full glyph in a new way
-                try:
-                    moveY = baseFont.lib["com.arrowtype.glyphBounces"][g.name] * factor
-                    g.moveBy((0,moveY))
-                except KeyError:
-                    moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative() * factor
-                    g.moveBy((0,moveY))
-                    g.lib['com.arrowtype.yShift'] = moveY
-                    recordBounce(baseFont, g.name, moveY)
+                # # move full glyph again # BUT WAIT, this just breaks it?
+                # try:
+                #     moveY = baseFont.lib["com.arrowtype.glyphBounces"][g.name] * factor
+                #     g.moveBy((0,moveY))
+                # except KeyError:
+                #     moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative() * factor
+                #     g.moveBy((0,moveY))
+                #     g.lib['com.arrowtype.yShift'] = moveY
+                #     recordBounce(baseFont, g.name, moveY)
 
 
         font.save()
