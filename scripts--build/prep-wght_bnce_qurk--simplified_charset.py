@@ -13,6 +13,7 @@
         - [x] generate fresh calt feature code to make all alts work
         - [x] copy designspaces into prep folder
         - [x] fix alignment of accents in organic/irregular glyphs – probably reattach to anchors
+        - [ ] split "sources" dict into core sources vs generated sources
 
         Kerning/repeatability
         - Does a typeface build need to be repeatable? That’s a philosophical question ... is it generally more useful if repeatable? Probably yes.
@@ -66,6 +67,7 @@ from random import random
 
 # start with hardcoded paths; optimize later
 
+# TODO: split "sources" dict into core sources vs generated sources
 sources = {
     "light": "sources/shantell--light.ufo",
     "extrabold": "sources/shantell--extrabold.ufo",
@@ -73,11 +75,11 @@ sources = {
     "quirkExtrabold": "sources/shantell_organic--extrabold.ufo",
     "bounceLight": "sources/shantell_bounce--light.ufo",
     "bounceExtrabold": "sources/shantell_bounce--extrabold.ufo",
-    "bounceReverseLight": "sources/shantell_bounce_reverse--light.ufo",
-    "bounceReverseExtrabold": "sources/shantell_bounce_reverse--extrabold.ufo",
+    "bounceReverseLight": "sources/shantell_reverse_bounce--light.ufo",
+    "bounceReverseExtrabold": "sources/shantell_reverse_bounce--extrabold.ufo",
 }
 
-designspaces = ["sources/shantell-wght_BNCE_IRGL--bounce_reverse.designspace", "sources/shantell-wght_BNCE_IRGL--bounce_reverse--static.designspace"]
+designspaces = ["sources/shantell-wght_BNCE_IRGL--reverse_bounce.designspace", "sources/shantell-wght_BNCE_IRGL--reverse_bounce--static.designspace"]
 
 prepDir = 'sources/wght_bnce_flux--bnce_rev--prepped'
 
@@ -353,15 +355,15 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
 
                 # move full glyph again # BUT WAIT, this just breaks it? ... does it need all components moved separately, rather than the whole thing moved?
                 try:
-                    name = g.name
-                    moveY = baseFont.lib["com.arrowtype.glyphBounces"][name] * factor
+                    moveY = baseFont.lib["com.arrowtype.glyphBounces"][g.name] * factor
                     g.moveBy((0,moveY))
                 except KeyError:
                     moveY = makeBounce(font, g, randomLimit, minShift, factor)
-                    g.lib['com.arrowtype.yShift'] = moveY
                     recordBounce(baseFont, g.name, moveY)
 
-                print(g.name, moveY)
+                g.lib['com.arrowtype.yShift'] = moveY
+
+                # print(g.name, moveY)
 
 
         font.save()
@@ -402,23 +404,6 @@ def interpolateAlts(normalFont, organicFont, altsMadeForList):
             organicFont[f'{g.name}.alt2'].interpolate(factor, normalFont[g.name], organicFont[g.name])
 
     organicFont.save()
-
-
-# def decomposeCoreGlyphs(fonts):
-#     """
-#         Go through fonts and decompose alt glyphs, to avoid alignment issues in glyphs like i & j
-
-#         May not be necessary...
-
-#         TODO: decide whether to remove this step
-#     """
-#     for font in fonts:
-#         for g in font:
-#             if ".alt" in g.name and g.components:
-#                 g.decompose()
-#                 g.update()
-        
-#         font.save()
 
 
 def removeAltUnicodes(fonts):
@@ -602,11 +587,14 @@ def main():
     # shift alts in bounce fonts
     print("🤖 Shifting bouncy alts")
     for font in fonts:
-        if "bounce" in font.path and "bounce_reverse" not in font.path:
-            shiftGlyphs(font, factor=1.5) # trying more-extreme style
-        elif "bounce_reverse" in font.path:
+        if "bounce" in font.path and "reverse_bounce" not in font.path:
+            shiftGlyphs(font, factor=1.5) # factor 1.5 makes moves of up to 150 units
+    
+    # split into separate loop so reverse sources always go second
+    for font in fonts:
+        if "reverse_bounce" in font.path:
             print("reverse bounces for ", font.path)
-            shiftGlyphs(font, factor=-1.5) # trying more-extreme style
+            shiftGlyphs(font, factor=-1.5) # factor -1.5 makes moves of up to -150 units
 
     # interpolate alts in quirk fonts
     print("🤖 Interpolating organic alts")
