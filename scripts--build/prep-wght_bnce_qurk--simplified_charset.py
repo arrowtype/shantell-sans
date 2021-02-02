@@ -77,7 +77,7 @@ sources = {
     "bounceReverseExtrabold": "sources/shantell_bounce_reverse--extrabold.ufo",
 }
 
-designspaces = ["sources/shantell-wght_BNCE_FLUX--bounce_reverse.designspace", "sources/shantell-wght_BNCE_FLUX--bounce_reverse--static.designspace"]
+designspaces = ["sources/shantell-wght_BNCE_IRGL--bounce_reverse.designspace", "sources/shantell-wght_BNCE_IRGL--bounce_reverse--static.designspace"]
 
 prepDir = 'sources/wght_bnce_flux--bnce_rev--prepped'
 
@@ -221,6 +221,17 @@ def recordBounce(font, glyphName, moveY):
         font.lib["com.arrowtype.glyphBounces"][glyphName] = moveY
 
 
+def resetBounces(fonts):
+    """
+        ONLY USE if you want to blow up the previously-set bounce values.
+
+        Only use during active design, not afterward when repeating the build to refine/fix issues.
+    """
+
+    Font(sources["light"]).lib["com.arrowtype.glyphBounces"].clear()
+    Font(sources["extrabold"]).lib["com.arrowtype.glyphBounces"].clear()
+
+
 def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
     """
         Shift glyphs in Bouncy sources.
@@ -275,7 +286,8 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
 
                 # change non-alt glyphs
                 if 'alt' not in g.name and g.name not in glyphsToNotShift and len(g.components) == 0:
-                    moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative() * factor
+                    # moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative() * factor
+                    moveY = round((randomLimit-minShift) * random() + (minShift*0.1)) * positiveOrNegative() * factor # mostly remove minShift for default glyphs, so more are in the middle
                     g.moveBy((0,moveY))
                     
                 recordBounce(baseFont, g.name, moveY)
@@ -542,17 +554,20 @@ def main():
     altsMadeForList = makeAlts(fonts)
 
     print("🤖 Making composed alts point to alt components")
+
+
     makeComponentsAlts(fonts)
+
+    print("🤖 Resetting bounce randomization")
+    resetBounces(fonts)
 
     # shift alts in bounce fonts
     print("🤖 Shifting bouncy alts")
     for font in fonts:
         if "bounce" in font.path and "bounce_reverse" not in font.path:
-            # shiftGlyphs(font)
             shiftGlyphs(font, factor=1.5) # trying more-extreme style
         elif "bounce_reverse" in font.path:
             print("reverse bounces for ", font.path)
-            # shiftGlyphs(font, factor=-1)
             shiftGlyphs(font, factor=-1.5) # trying more-extreme style
 
     # interpolate alts in quirk fonts
