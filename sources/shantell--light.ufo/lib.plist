@@ -2271,11 +2271,8 @@
           <string>lozenge</string>
           <string>heartwhite</string>
           <string>heartblack</string>
-          <string>check</string>
-          <string>checkheavy</string>
           <string>jdotless</string>
           <string>space.frac</string>
-          <string>ringcomb.A</string>
           <string>hyphen.case</string>
           <string>endash.case</string>
           <string>emdash.case</string>
@@ -2296,8 +2293,6 @@
           <string>at.case</string>
           <string>exclamdown.case</string>
           <string>questiondown.case</string>
-          <string>periodcentered.case</string>
-          <string>bullet.case</string>
           <string>dollar.tabl</string>
           <string>zero.dnom</string>
           <string>one.dnom</string>
@@ -2338,6 +2333,10 @@
           <string>nine.superior</string>
           <string>mu.math</string>
           <string>ae.200928-18_33</string>
+          <string>bullet.case</string>
+          <string>periodcentered.case</string>
+          <string>check</string>
+          <string>checkheavy</string>
         </array>
         <key>type</key>
         <string>glyphList</string>
@@ -3441,11 +3440,8 @@
       <string>lozenge</string>
       <string>heartwhite</string>
       <string>heartblack</string>
-      <string>check</string>
-      <string>checkheavy</string>
       <string>jdotless</string>
       <string>space.frac</string>
-      <string>ringcomb.A</string>
       <string>hyphen.case</string>
       <string>endash.case</string>
       <string>emdash.case</string>
@@ -3466,8 +3462,6 @@
       <string>at.case</string>
       <string>exclamdown.case</string>
       <string>questiondown.case</string>
-      <string>periodcentered.case</string>
-      <string>bullet.case</string>
       <string>dollar.tabl</string>
       <string>zero.dnom</string>
       <string>one.dnom</string>
@@ -3508,6 +3502,11 @@
       <string>nine.superior</string>
       <string>mu.math</string>
       <string>ae.200928-18_33</string>
+      <string>bullet.case</string>
+      <string>periodcentered.case</string>
+      <string>check</string>
+      <string>checkheavy</string>
+      <string>ringcomb.A</string>
     </array>
     <key>public.postscriptNames</key>
     <dict/>
