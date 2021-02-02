@@ -102,6 +102,18 @@ include(../features/features/numr_dnom_supr_infr.fea);
 include(./cycle-calt.fea) # this is generated
 """
 
+glyphsToNotShift ="\
+    onesuperior twosuperior threesuperior fraction zero.dnom one.dnom two.dnom three.dnom \
+    four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr \
+    three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr zero.inferior \
+    one.inferior two.inferior three.inferior four.inferior five.inferior six.inferior seven.inferior \
+    eight.inferior nine.inferior zero.superior four.superior five.superior six.superior \
+    seven.superior eight.superior nine.superior \
+    gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcmb dieresiscomb \
+    ringcomb hungarumlautcmb caroncomb dotbelowcmb cedillacomb acute grave hungarumlaut circumflex \
+    caron breve tilde macron dieresis dotaccent ring cedilla ogonek ogonekcmb \
+".split()
+
 # END configuration
 # --------------------------------------------------------
 
@@ -210,6 +222,35 @@ def positiveOrNegative():
     return 1 if random() < 0.5 else -1
 
 
+def makeBounce(font, glyph, randomLimit=100, minShift=50, factor=1):
+    """
+        Determine pseudo-random bounce, then move the glyph
+    """
+
+    moveY=0
+
+    if 'alt1' in glyph.name and glyph.name.split(".")[0]:
+        moveY = round((randomLimit-minShift) * random() + minShift) * -1 * factor
+        glyph.moveBy((0,moveY))
+
+    if 'alt2' in glyph.name and glyph.name.split(".")[0]:
+        moveY = round((randomLimit-minShift) * random() + minShift) * factor
+        glyph.moveBy((0,moveY))
+
+    # change non-alt glyphs
+    if 'alt' not in glyph.name and glyph.name:
+        # moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative() * factor
+        moveY = round((randomLimit-minShift) * random() + (minShift/5)) * positiveOrNegative() * factor # mostly remove minShift for default glyphs, so more are in the middle
+        glyph.moveBy((0,moveY))
+
+    if moveY == 0:
+        print("moveY = 0:")
+        print("\t",font.path)
+        print("\t",glyph.name)
+
+    return moveY
+
+
 def recordBounce(font, glyphName, moveY):
     """
         Record amount of Y-axis movement for a given glyph in the font lib.
@@ -221,15 +262,20 @@ def recordBounce(font, glyphName, moveY):
         font.lib["com.arrowtype.glyphBounces"][glyphName] = moveY
 
 
-def resetBounces(fonts):
+def resetBounces():
     """
         ONLY USE if you want to blow up the previously-set bounce values.
 
         Only use during active design, not afterward when repeating the build to refine/fix issues.
     """
 
-    Font(sources["light"]).lib["com.arrowtype.glyphBounces"].clear()
-    Font(sources["extrabold"]).lib["com.arrowtype.glyphBounces"].clear()
+    light = Font(sources["light"])
+    light.lib["com.arrowtype.glyphBounces"].clear()
+    light.save()
+
+    extrabold = Font(sources["extrabold"])
+    extrabold.lib["com.arrowtype.glyphBounces"].clear()
+    extrabold.save()
 
 
 def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
@@ -237,22 +283,20 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
         Shift glyphs in Bouncy sources.
     """
 
-    glyphsToNotShift ="\
-            onesuperior twosuperior threesuperior fraction zero.dnom one.dnom two.dnom three.dnom \
-            four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr \
-            three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr zero.inferior \
-            one.inferior two.inferior three.inferior four.inferior five.inferior six.inferior seven.inferior \
-            eight.inferior nine.inferior zero.superior four.superior five.superior six.superior \
-            seven.superior eight.superior nine.superior \
-            gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcmb dieresiscomb \
-            ringcomb hungarumlautcmb caroncomb dotbelowcmb cedillacomb acute grave hungarumlaut circumflex \
-            caron breve tilde macron dieresis dotaccent ring cedilla ogonek ogonekcmb \
-        ".split()
-
-    # TODO: check for recorded bounces before generating random new one
-
     print(font.path)
     print("factor is ", factor)
+
+    glyphsToNotShift ="\
+        onesuperior twosuperior threesuperior fraction zero.dnom one.dnom two.dnom three.dnom \
+        four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr \
+        three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr zero.inferior \
+        one.inferior two.inferior three.inferior four.inferior five.inferior six.inferior seven.inferior \
+        eight.inferior nine.inferior zero.superior four.superior five.superior six.superior \
+        seven.superior eight.superior nine.superior \
+        gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcmb dieresiscomb \
+        ringcomb hungarumlautcmb caroncomb dotbelowcmb cedillacomb acute grave hungarumlaut circumflex \
+        caron breve tilde macron dieresis dotaccent ring cedilla ogonek ogonekcmb \
+    ".split()
 
     if "bounce" in font.path:
         # determine whether style is light or extrabold bouncy, then open that base font
@@ -264,69 +308,60 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
         # print(baseFont)
 
         for g in font:
+            if g.name not in glyphsToNotShift and len(g.components) == 0:
 
-            moveY = 0
+                moveY = 0
 
-            # try: look up bounce dict in the core light/extrabold font, use in this font
-            try:
-                moveY = baseFont.lib["com.arrowtype.glyphBounces"][g.name] * factor
-                g.moveBy((0,moveY))
-
-            # except KeyError: generate bounce value and add to core light/extrabold font
-            except KeyError:
-                
-
-                if 'alt1' in g.name and g.name.split(".")[0] not in glyphsToNotShift and len(g.components) == 0:
-                    moveY = round((randomLimit-minShift) * random() + minShift) * -1 * factor
+                try:
+                    # try: look up bounce dict in the core light/extrabold font, use in this font
+                    moveY = baseFont.lib["com.arrowtype.glyphBounces"][g.name] * factor
                     g.moveBy((0,moveY))
+                except KeyError:
+                    # except KeyError: generate bounce value and add to core light/extrabold font
+                    moveY = makeBounce(font, g, randomLimit, minShift, factor)
+                    recordBounce(baseFont, g.name, moveY)
 
-                if 'alt2' in g.name and g.name.split(".")[0] not in glyphsToNotShift and len(g.components) == 0:
-                    moveY = round((randomLimit-minShift) * random() + minShift) * factor
-                    g.moveBy((0,moveY))
-
-                # change non-alt glyphs
-                if 'alt' not in g.name and g.name not in glyphsToNotShift and len(g.components) == 0:
-                    # moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative() * factor
-                    moveY = round((randomLimit-minShift) * random() + (minShift*0.1)) * positiveOrNegative() * factor # mostly remove minShift for default glyphs, so more are in the middle
-                    g.moveBy((0,moveY))
-                    
-                recordBounce(baseFont, g.name, moveY)
-
-            # record shift in the glyph’s lib for later use
-            g.lib['com.arrowtype.yShift'] = moveY
+                # record shift in the glyph’s lib for later use
+                g.lib['com.arrowtype.yShift'] = moveY
 
         # correct positioning of base glyphs in composed glyphs
         for g in font:
 
-            if len(g.components) >= 1 and g.name.split(".")[0] not in glyphsToNotShift:
+            if len(g.components) >= 1 and g.name.split(".")[0] not in glyphsToNotShift and g.name not in glyphsToNotShift:
 
-                # look up Yshift of main baseGlyph
-                mainBase = findMainBaseGlyphName(font, g)
-                baseShift = font[mainBase].lib['com.arrowtype.yShift']
+                try:
+                    # look up Yshift of main baseGlyph
+                    mainBase = findMainBaseGlyphName(font, g)
+                    baseShift = font[mainBase].lib['com.arrowtype.yShift']
 
-                # in multi-component glyphs, shift accents to match bases
-                if len(g.components) > 1:
-                    for c in g.components:
-                        if c.baseGlyph is not mainBase:
-                            c.moveBy((0,baseShift))
-                    # move glyph to normal position to "reset" it
-                    g.moveBy((0,-baseShift))
+                    # in multi-component glyphs, shift accents to match bases
+                    if len(g.components) > 1:
+                        for c in g.components:
+                            if c.baseGlyph is not mainBase:
+                                c.moveBy((0,baseShift))
+                        # move glyph to normal position to "reset" it
+                        g.moveBy((0,-baseShift))
 
-                #  correct single-component glyphs like oslash, lslash
-                else:
-                    for c in g.components:
-                        if c.baseGlyph is mainBase:
-                            c.moveBy((0,-baseShift))
+                    #  correct single-component glyphs like oslash, lslash
+                    else:
+                        for c in g.components:
+                            if c.baseGlyph is mainBase:
+                                c.moveBy((0,-baseShift))
+                except KeyError:
+                    # if base glyph isn’t shifted, lib['com.arrowtype.yShift'] will fail
+                    pass
 
-                # # move full glyph again # BUT WAIT, this just breaks it?
-                # try:
-                #     moveY = baseFont.lib["com.arrowtype.glyphBounces"][g.name] * factor
-                #     g.moveBy((0,moveY))
-                # except KeyError:
-                #     moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative() * factor
-                #     g.moveBy((0,moveY))
-                #     g.lib['com.arrowtype.yShift'] = moveY
-                #     recordBounce(baseFont, g.name, moveY)
+                # move full glyph again # BUT WAIT, this just breaks it? ... does it need all components moved separately, rather than the whole thing moved?
+                try:
+                    name = g.name
+                    moveY = baseFont.lib["com.arrowtype.glyphBounces"][name] * factor
+                    g.moveBy((0,moveY))
+                except KeyError:
+                    moveY = makeBounce(font, g, randomLimit, minShift, factor)
+                    g.lib['com.arrowtype.yShift'] = moveY
+                    recordBounce(baseFont, g.name, moveY)
+
+                print(g.name, moveY)
 
 
         font.save()
@@ -537,6 +572,10 @@ def main():
     if os.path.exists(prepDir):
         shutil.rmtree(prepDir,ignore_errors=True)
 
+
+    print("🤖 Resetting bounce randomization in sources")
+    resetBounces()
+
     print(f"🤖 Copying fonts to {prepDir}")
     makePrepDir()
 
@@ -558,8 +597,7 @@ def main():
 
     makeComponentsAlts(fonts)
 
-    print("🤖 Resetting bounce randomization")
-    resetBounces(fonts)
+    
 
     # shift alts in bounce fonts
     print("🤖 Shifting bouncy alts")
