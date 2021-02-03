@@ -557,9 +557,9 @@ def main():
     if os.path.exists(prepDir):
         shutil.rmtree(prepDir,ignore_errors=True)
 
-
-    print("🤖 Resetting bounce randomization in sources")
-    resetBounces()
+    # ONLY DO THE FOLLOWING IF YOU WANT TO COMPLETELY SHIFT BOUNCY STYLES
+    # print("🤖 Resetting bounce randomization in sources")
+    # resetBounces()
 
     print(f"🤖 Copying fonts to {prepDir}")
     makePrepDir()
