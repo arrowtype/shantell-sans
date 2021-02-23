@@ -20,7 +20,7 @@ import argparse
 from fontTools.ttLib import TTFont
 
 def getVersion():
-    currentVersion = "1.010"
+    currentVersion = "rand2"
     return currentVersion
 
 # def getVersion():

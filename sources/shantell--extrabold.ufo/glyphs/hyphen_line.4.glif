@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hyphen_line.4" format="2">
+  <advance width="2124"/>
+  <outline>
+    <component base="hyphen.line"/>
+    <component base="hyphen.line" xOffset="531"/>
+    <component base="hyphen.line" xOffset="1062"/>
+    <component base="hyphen.line" xOffset="1593"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,0.5</string>
+    </dict>
+  </lib>
+</glyph>

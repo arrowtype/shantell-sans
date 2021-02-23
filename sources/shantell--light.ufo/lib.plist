@@ -1096,6 +1096,104 @@
       <real>112.5</real>
       <key>hyphen.case</key>
       <real>-33.0</real>
+      <key>hyphen.line</key>
+      <real>-45.0</real>
+      <key>hyphen_line.10</key>
+      <real>64.5</real>
+      <key>hyphen_line.11</key>
+      <real>18.0</real>
+      <key>hyphen_line.12</key>
+      <real>27.0</real>
+      <key>hyphen_line.13</key>
+      <real>36.0</real>
+      <key>hyphen_line.14</key>
+      <real>39.0</real>
+      <key>hyphen_line.15</key>
+      <real>-25.5</real>
+      <key>hyphen_line.16</key>
+      <real>27.0</real>
+      <key>hyphen_line.17</key>
+      <real>-39.0</real>
+      <key>hyphen_line.18</key>
+      <real>-72.0</real>
+      <key>hyphen_line.19</key>
+      <real>28.5</real>
+      <key>hyphen_line.20</key>
+      <real>45.0</real>
+      <key>hyphen_line.21</key>
+      <real>-49.5</real>
+      <key>hyphen_line.22</key>
+      <real>-33.0</real>
+      <key>hyphen_line.23</key>
+      <real>15.0</real>
+      <key>hyphen_line.24</key>
+      <real>87.0</real>
+      <key>hyphen_line.25</key>
+      <real>84.0</real>
+      <key>hyphen_line.26</key>
+      <real>-82.5</real>
+      <key>hyphen_line.27</key>
+      <real>30.0</real>
+      <key>hyphen_line.28</key>
+      <real>-49.5</real>
+      <key>hyphen_line.29</key>
+      <real>81.0</real>
+      <key>hyphen_line.3</key>
+      <real>90.0</real>
+      <key>hyphen_line.30</key>
+      <real>-85.5</real>
+      <key>hyphen_line.31</key>
+      <real>-28.5</real>
+      <key>hyphen_line.32</key>
+      <real>27.0</real>
+      <key>hyphen_line.33</key>
+      <real>46.5</real>
+      <key>hyphen_line.34</key>
+      <real>-22.5</real>
+      <key>hyphen_line.35</key>
+      <real>63.0</real>
+      <key>hyphen_line.36</key>
+      <real>-58.5</real>
+      <key>hyphen_line.37</key>
+      <real>-15.0</real>
+      <key>hyphen_line.38</key>
+      <real>85.5</real>
+      <key>hyphen_line.39</key>
+      <real>-75.0</real>
+      <key>hyphen_line.4</key>
+      <real>61.5</real>
+      <key>hyphen_line.40</key>
+      <real>-39.0</real>
+      <key>hyphen_line.41</key>
+      <real>-85.5</real>
+      <key>hyphen_line.42</key>
+      <real>24.0</real>
+      <key>hyphen_line.43</key>
+      <real>-39.0</real>
+      <key>hyphen_line.44</key>
+      <real>-39.0</real>
+      <key>hyphen_line.45</key>
+      <real>-75.0</real>
+      <key>hyphen_line.46</key>
+      <real>46.5</real>
+      <key>hyphen_line.47</key>
+      <real>16.5</real>
+      <key>hyphen_line.48</key>
+      <real>-34.5</real>
+      <key>hyphen_line.49</key>
+      <real>-60.0</real>
+      <key>hyphen_line.5</key>
+      <real>-31.5</real>
+      <key>hyphen_line.50</key>
+      <real>70.5</real>
+      <key>hyphen_line.6</key>
+      <real>81.0</real>
+      <key>hyphen_line.7</key>
+      <real>55.5</real>
+      <key>hyphen_line.8</key>
+      <real>55.5</real>
+      <key>hyphen_line.9</key>
+      <real>42.0</real>
       <key>i</key>
       <real>-90.0</real>
       <key>i.alt1</key>
@@ -2184,11 +2282,12 @@
           <string>eight.superior</string>
           <string>nine.superior</string>
           <string>mu.math</string>
-          <string>ae.200928-18_33</string>
           <string>bullet.case</string>
           <string>periodcentered.case</string>
           <string>check</string>
           <string>checkheavy</string>
+          <string>ringcomb.A</string>
+          <string>hy.line</string>
         </array>
         <key>type</key>
         <string>glyphList</string>
@@ -2470,6 +2569,13 @@
         <integer>0</integer>
         <real>0.25</real>
       </array>
+      <key>public.kern1.guil_right</key>
+      <array>
+        <real>1.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern1.h</key>
       <array>
         <real>1.0</real>
@@ -2531,6 +2637,13 @@
         <real>1.0</real>
         <real>0.0</real>
         <real>1.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.period</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.r</key>
@@ -2799,6 +2912,13 @@
         <integer>0</integer>
         <real>0.25</real>
       </array>
+      <key>public.kern2.guil_left</key>
+      <array>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern2.guil_right</key>
       <array>
         <integer>1</integer>
@@ -2846,6 +2966,13 @@
         <integer>0</integer>
         <real>0.5</real>
         <integer>1</integer>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.period</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.q</key>
@@ -3353,12 +3480,60 @@
       <string>eight.superior</string>
       <string>nine.superior</string>
       <string>mu.math</string>
-      <string>ae.200928-18_33</string>
       <string>bullet.case</string>
       <string>periodcentered.case</string>
       <string>check</string>
       <string>checkheavy</string>
       <string>ringcomb.A</string>
+      <string>hyphen.line</string>
+      <string>hyphen_line.3</string>
+      <string>hyphen_line.4</string>
+      <string>hyphen_line.5</string>
+      <string>hyphen_line.6</string>
+      <string>hyphen_line.7</string>
+      <string>hyphen_line.8</string>
+      <string>hyphen_line.9</string>
+      <string>hyphen_line.10</string>
+      <string>hyphen_line.11</string>
+      <string>hyphen_line.12</string>
+      <string>hyphen_line.13</string>
+      <string>hyphen_line.14</string>
+      <string>hyphen_line.15</string>
+      <string>hyphen_line.16</string>
+      <string>hyphen_line.17</string>
+      <string>hyphen_line.18</string>
+      <string>hyphen_line.19</string>
+      <string>hyphen_line.20</string>
+      <string>hyphen_line.21</string>
+      <string>hyphen_line.22</string>
+      <string>hyphen_line.23</string>
+      <string>hyphen_line.24</string>
+      <string>hyphen_line.25</string>
+      <string>hyphen_line.26</string>
+      <string>hyphen_line.27</string>
+      <string>hyphen_line.28</string>
+      <string>hyphen_line.29</string>
+      <string>hyphen_line.30</string>
+      <string>hyphen_line.31</string>
+      <string>hyphen_line.32</string>
+      <string>hyphen_line.33</string>
+      <string>hyphen_line.34</string>
+      <string>hyphen_line.35</string>
+      <string>hyphen_line.36</string>
+      <string>hyphen_line.37</string>
+      <string>hyphen_line.38</string>
+      <string>hyphen_line.39</string>
+      <string>hyphen_line.40</string>
+      <string>hyphen_line.41</string>
+      <string>hyphen_line.42</string>
+      <string>hyphen_line.43</string>
+      <string>hyphen_line.44</string>
+      <string>hyphen_line.45</string>
+      <string>hyphen_line.46</string>
+      <string>hyphen_line.47</string>
+      <string>hyphen_line.48</string>
+      <string>hyphen_line.49</string>
+      <string>hyphen_line.50</string>
     </array>
     <key>public.postscriptNames</key>
     <dict/>
