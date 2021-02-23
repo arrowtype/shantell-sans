@@ -234,6 +234,11 @@
       <string>guillemetleft</string>
       <string>guilsinglleft</string>
     </array>
+    <key>public.kern1.guil_right</key>
+    <array>
+      <string>guillemetright</string>
+      <string>guilsinglright</string>
+    </array>
     <key>public.kern1.h</key>
     <array>
       <string>h</string>
@@ -294,6 +299,16 @@
     <array>
       <string>p</string>
       <string>thorn</string>
+    </array>
+    <key>public.kern1.period</key>
+    <array>
+      <string>ellipsis</string>
+      <string>period</string>
+    </array>
+    <key>public.kern1.quote_straight</key>
+    <array>
+      <string>quotedbl</string>
+      <string>quotesingle</string>
     </array>
     <key>public.kern1.r</key>
     <array>
@@ -571,6 +586,11 @@
       <string>gbreve</string>
       <string>uni0123</string>
     </array>
+    <key>public.kern2.guil_left</key>
+    <array>
+      <string>guillemetleft</string>
+      <string>guilsinglleft</string>
+    </array>
     <key>public.kern2.guil_right</key>
     <array>
       <string>guillemetright</string>
@@ -626,9 +646,19 @@
       <string>oslash</string>
       <string>oslashacute</string>
     </array>
+    <key>public.kern2.period</key>
+    <array>
+      <string>ellipsis</string>
+      <string>period</string>
+    </array>
     <key>public.kern2.q</key>
     <array>
       <string>q</string>
+    </array>
+    <key>public.kern2.quote_straight</key>
+    <array>
+      <string>quotedbl</string>
+      <string>quotesingle</string>
     </array>
     <key>public.kern2.r</key>
     <array>
