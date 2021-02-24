@@ -39,6 +39,8 @@ for fontPath in inputFonts:
             },
     ]
 
+    f.info.familyName = "Shantell Sans Rand4"
+
     print("Updated info for: ", f.info.familyName, " ", f.info.styleName)
 
     f.save()
