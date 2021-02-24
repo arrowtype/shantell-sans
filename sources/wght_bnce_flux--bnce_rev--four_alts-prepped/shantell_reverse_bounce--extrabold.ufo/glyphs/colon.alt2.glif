@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="colon.alt2" format="2">
+  <advance width="320"/>
+  <outline>
+    <contour>
+      <point x="163.0" y="108.0" type="curve" smooth="yes"/>
+      <point x="240.0" y="108.0"/>
+      <point x="280.0" y="151.3150684932"/>
+      <point x="280.0" y="201.0" type="curve" smooth="yes"/>
+      <point x="280.0" y="261.8571428571"/>
+      <point x="241.8275862069" y="321.0"/>
+      <point x="145.0" y="321.0" type="curve" smooth="yes"/>
+      <point x="87.4680851064" y="321.0"/>
+      <point x="41.0" y="287.0"/>
+      <point x="41.0" y="225.0" type="curve" smooth="yes"/>
+      <point x="41.0" y="149.0"/>
+      <point x="86.0" y="108.0"/>
+    </contour>
+    <contour>
+      <point x="173.0" y="-221.0" type="curve" smooth="yes"/>
+      <point x="243.0" y="-221.0"/>
+      <point x="280.0" y="-177.6849315068"/>
+      <point x="280.0" y="-128.0" type="curve" smooth="yes"/>
+      <point x="280.0" y="-67.1428571429"/>
+      <point x="240.6965517241" y="-8.0"/>
+      <point x="141.0" y="-8.0" type="curve" smooth="yes"/>
+      <point x="85.6808510638" y="-8.0"/>
+      <point x="41.0" y="-42.0"/>
+      <point x="41.0" y="-104.0" type="curve" smooth="yes"/>
+      <point x="41.0" y="-180.0"/>
+      <point x="89.0" y="-221.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-207.0</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

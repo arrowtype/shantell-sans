@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ncaron.alt2" format="2">
+  <advance width="710"/>
+  <outline>
+    <component base="n.alt2" yOffset="-6.75"/>
+    <component base="caroncomb.alt2" xOffset="348.0" yOffset="-202.5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-202.5</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

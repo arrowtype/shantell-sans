@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="period.alt2" format="2">
+  <advance width="259"/>
+  <outline>
+    <contour>
+      <point x="145.0" y="111.5" type="curve" smooth="yes"/>
+      <point x="179.0" y="111.5"/>
+      <point x="192.0" y="137.5"/>
+      <point x="192.0" y="162.5" type="curve" smooth="yes"/>
+      <point x="192.0" y="197.5"/>
+      <point x="163.0" y="240.5"/>
+      <point x="115.0" y="240.5" type="curve" smooth="yes"/>
+      <point x="89.0" y="240.5"/>
+      <point x="67.0" y="220.5"/>
+      <point x="67.0" y="192.5" type="curve" smooth="yes"/>
+      <point x="67.0" y="151.5"/>
+      <point x="103.0" y="111.5"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>121.5</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

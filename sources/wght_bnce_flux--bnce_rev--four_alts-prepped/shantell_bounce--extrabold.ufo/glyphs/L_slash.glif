@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lslash" format="2">
+  <advance width="546"/>
+  <unicode hex="0141"/>
+  <note>
+just draw this
+</note>
+  <outline>
+    <contour>
+      <point x="152.0" y="160.5" type="curve" smooth="yes"/>
+      <point x="198.0" y="196.5"/>
+      <point x="242.0" y="234.5"/>
+      <point x="431.0" y="385.5" type="curve" smooth="yes"/>
+      <point x="475.0" y="419.5"/>
+      <point x="483.0" y="514.5"/>
+      <point x="389.0" y="514.5" type="curve" smooth="yes"/>
+      <point x="366.0" y="514.5"/>
+      <point x="338.0" y="505.5"/>
+      <point x="307.0" y="477.5" type="curve" smooth="yes"/>
+      <point x="199.0" y="379.5"/>
+      <point x="117.0" y="346.5"/>
+      <point x="9.0" y="234.5" type="curve" smooth="yes"/>
+      <point x="-37.0" y="187.5"/>
+      <point x="-2.0" y="123.5"/>
+      <point x="62.0" y="123.5" type="curve" smooth="yes"/>
+      <point x="88.0" y="123.5"/>
+      <point x="119.0" y="135.5"/>
+    </contour>
+    <component base="L" xOffset="20.0" yOffset="-130.5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-55.5</real>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ecaron.alt3" format="2">
+  <advance width="562"/>
+  <outline>
+    <component base="e.alt3" yOffset="328.5"/>
+    <component base="caroncomb.alt3" xOffset="299.0" yOffset="114.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>144.0</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

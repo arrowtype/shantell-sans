@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="arrowSE" format="2">
+  <advance width="700"/>
+  <unicode hex="2198"/>
+  <image fileName="arrowup.png" xScale="3.6986364914" yScale="3.6986364914" xOffset="-75.0179086528" yOffset="-2089.1752845864" color="0,0,0,0.18758"/>
+  <guideline x="350" y="-54.0" angle="90" identifier="www8zJhngq"/>
+  <outline>
+    <component base="arrowup" xScale="-0.7071067812" xyScale="-0.7071067812" yxScale="0.7071067812" yScale="-0.7071067812" xOffset="367.0" yOffset="852.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-54.0</real>
+      <key>com.typemytype.robofont.Image.Brightness</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.Image.Contrast</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Saturation</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.400000006</real>
+    </dict>
+  </lib>
+</glyph>

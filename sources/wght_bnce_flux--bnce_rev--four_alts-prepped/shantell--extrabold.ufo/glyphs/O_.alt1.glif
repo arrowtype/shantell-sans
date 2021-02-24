@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="O.alt1" format="2">
+  <advance width="756"/>
+  <anchor x="367" y="700" name="top"/>
+  <anchor x="367" y="0" name="bottom"/>
+  <anchor x="510" y="29" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="335" y="481" type="curve" smooth="yes"/>
+      <point x="241" y="407"/>
+      <point x="215" y="363"/>
+      <point x="215" y="290" type="curve" smooth="yes"/>
+      <point x="215" y="204"/>
+      <point x="279" y="164"/>
+      <point x="362" y="164" type="curve" smooth="yes"/>
+      <point x="458" y="164"/>
+      <point x="541" y="224"/>
+      <point x="541" y="300" type="curve" smooth="yes"/>
+      <point x="541" y="401"/>
+      <point x="460" y="538"/>
+      <point x="376" y="538" type="curve" smooth="yes"/>
+      <point x="367" y="538"/>
+      <point x="364" y="528"/>
+      <point x="364" y="514" type="curve" smooth="yes"/>
+      <point x="364" y="484"/>
+      <point x="347" y="469"/>
+      <point x="329" y="469" type="curve" smooth="yes"/>
+      <point x="275" y="469"/>
+      <point x="220" y="515"/>
+      <point x="220" y="606" type="curve" smooth="yes"/>
+      <point x="220" y="661"/>
+      <point x="274" y="711"/>
+      <point x="369" y="711" type="curve" smooth="yes"/>
+      <point x="559" y="711"/>
+      <point x="711" y="493"/>
+      <point x="711" y="300" type="curve" smooth="yes"/>
+      <point x="711" y="131"/>
+      <point x="545" y="-10"/>
+      <point x="362" y="-10" type="curve" smooth="yes"/>
+      <point x="190" y="-10"/>
+      <point x="45" y="110"/>
+      <point x="45" y="290" type="curve" smooth="yes"/>
+      <point x="45" y="488"/>
+      <point x="230" y="618"/>
+      <point x="272" y="618" type="curve" smooth="yes"/>
+      <point x="290" y="618"/>
+      <point x="323" y="607"/>
+      <point x="337" y="589" type="curve" smooth="yes"/>
+      <point x="360" y="559"/>
+      <point x="365" y="505"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

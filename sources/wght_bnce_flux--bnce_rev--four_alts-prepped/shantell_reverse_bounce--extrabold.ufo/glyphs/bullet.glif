@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bullet" format="2">
+  <advance width="500"/>
+  <unicode hex="2022"/>
+  <outline>
+    <contour>
+      <point x="251.0" y="200.75" type="curve" smooth="yes"/>
+      <point x="344.0" y="200.75"/>
+      <point x="407.0" y="256.75"/>
+      <point x="408.0" y="353.75" type="curve" smooth="yes"/>
+      <point x="409.0" y="449.75"/>
+      <point x="365.0" y="508.75"/>
+      <point x="280.0" y="508.75" type="curve" smooth="yes"/>
+      <point x="246.0" y="508.75"/>
+      <point x="218.0" y="494.75"/>
+      <point x="201.0" y="477.75" type="curve"/>
+      <point x="194.0" y="483.75"/>
+      <point x="187.0" y="485.75"/>
+      <point x="174.0" y="485.75" type="curve" smooth="yes"/>
+      <point x="135.6923076923" y="485.75"/>
+      <point x="91.0" y="427.75"/>
+      <point x="91.0" y="354.75" type="curve" smooth="yes"/>
+      <point x="91.0" y="255.75"/>
+      <point x="157.0" y="200.75"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>96.75</real>
+      <key>public.markColor</key>
+      <string>0,0.95,0.95,0.25</string>
+    </dict>
+  </lib>
+</glyph>

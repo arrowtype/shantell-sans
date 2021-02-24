@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Acaron" format="2">
+  <advance width="780"/>
+  <unicode hex="01CD"/>
+  <outline>
+    <component base="A" yOffset="-99.0"/>
+    <component base="caroncomb" xOffset="424.0" yOffset="110.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-75.0</real>
+      <key>public.markColor</key>
+      <string>0.5534,0.5534,0.5534,0.4845</string>
+    </dict>
+  </lib>
+</glyph>

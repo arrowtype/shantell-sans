@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zdotaccent.alt2" format="2">
+  <advance width="603"/>
+  <outline>
+    <component base="z.alt2" yOffset="36.0"/>
+    <component base="dotaccentcmb.alt2" xOffset="290.0" yOffset="-54.75"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-139.5</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

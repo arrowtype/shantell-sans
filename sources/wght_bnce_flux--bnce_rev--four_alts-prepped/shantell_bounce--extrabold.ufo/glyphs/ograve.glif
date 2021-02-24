@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ograve" format="2">
+  <advance width="678"/>
+  <unicode hex="00F2"/>
+  <outline>
+    <component base="o" yOffset="-16.5"/>
+    <component base="gravecomb" xOffset="346.0" yOffset="39.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>39.0</real>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

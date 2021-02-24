@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iogonek.alt1" format="2">
+  <advance width="348"/>
+  <outline>
+    <component base="idotless.alt1" yOffset="20.25"/>
+    <component base="dotaccentcmb.alt1" xOffset="162.0" yOffset="-24.75"/>
+    <component base="ogonekcmb.alt1" xOffset="140.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>155.25</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

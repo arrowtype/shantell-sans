@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="C.alt2" format="2">
+  <advance width="618"/>
+  <anchor x="375.0" y="850.0" name="top"/>
+  <anchor x="332.0" y="150.0" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="336.0" y="140.0" type="curve" smooth="yes"/>
+      <point x="495.0" y="140.0"/>
+      <point x="568.0" y="237.0"/>
+      <point x="568.0" y="286.0" type="curve" smooth="yes"/>
+      <point x="568.0" y="304.0"/>
+      <point x="561.0" y="319.0"/>
+      <point x="548.0" y="319.0" type="curve" smooth="yes"/>
+      <point x="515.0" y="319.0"/>
+      <point x="495.0" y="205.0"/>
+      <point x="335.0" y="205.0" type="curve" smooth="yes"/>
+      <point x="214.0" y="205.0"/>
+      <point x="137.0" y="288.0"/>
+      <point x="137.0" y="438.0" type="curve" smooth="yes"/>
+      <point x="137.0" y="621.0"/>
+      <point x="246.0" y="796.0"/>
+      <point x="404.0" y="796.0" type="curve" smooth="yes"/>
+      <point x="465.0" y="796.0"/>
+      <point x="473.0" y="768.0"/>
+      <point x="473.0" y="740.0" type="curve" smooth="yes"/>
+      <point x="473.0" y="708.0"/>
+      <point x="466.0" y="680.0"/>
+      <point x="496.0" y="680.0" type="curve" smooth="yes"/>
+      <point x="526.0" y="680.0"/>
+      <point x="541.0" y="712.0"/>
+      <point x="541.0" y="745.0" type="curve" smooth="yes"/>
+      <point x="541.0" y="815.0"/>
+      <point x="504.0" y="861.0"/>
+      <point x="406.0" y="861.0" type="curve" smooth="yes"/>
+      <point x="207.0" y="861.0"/>
+      <point x="70.0" y="656.0"/>
+      <point x="70.0" y="439.0" type="curve" smooth="yes"/>
+      <point x="70.0" y="271.0"/>
+      <point x="143.0" y="140.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>150.0</real>
+      <key>com.typemytype.robofont.Image.Brightness</key>
+      <real>-0.3985985816</real>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.400000006</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="divide" format="2">
+  <advance width="700"/>
+  <unicode hex="00F7"/>
+  <outline>
+    <contour>
+      <point x="280.0" y="272.5"/>
+      <point x="206.0" y="214.5"/>
+      <point x="132.0" y="214.5" type="curve" smooth="yes"/>
+      <point x="82.0" y="214.5"/>
+      <point x="55.0" y="253.5"/>
+      <point x="55.0" y="299.5" type="curve" smooth="yes"/>
+      <point x="55.0" y="339.5"/>
+      <point x="68.0" y="371.5"/>
+      <point x="138.0" y="387.5" type="curve" smooth="yes"/>
+      <point x="258.0" y="414.5"/>
+      <point x="401.0" y="423.5"/>
+      <point x="519.0" y="423.5" type="curve" smooth="yes"/>
+      <point x="598.0" y="423.5"/>
+      <point x="644.0" y="387.5"/>
+      <point x="644.0" y="330.5" type="curve" smooth="yes"/>
+      <point x="644.0" y="296.5"/>
+      <point x="629.0" y="272.5"/>
+      <point x="575.0" y="272.5" type="curve" smooth="yes"/>
+    </contour>
+    <component base="period" xOffset="186.0" yOffset="478.5"/>
+    <component base="period" xOffset="225.0" yOffset="-11.25"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-38.25</real>
+      <key>public.markColor</key>
+      <string>0,0.95,0.95,0.25</string>
+    </dict>
+  </lib>
+</glyph>

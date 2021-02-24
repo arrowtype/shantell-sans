@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexcomb.alt1" format="2">
+  <anchor x="0" y="692.75" name="_top"/>
+  <anchor x="170" y="876.25" name="side"/>
+  <anchor x="0" y="978.75" name="top"/>
+  <outline>
+    <contour>
+      <point x="10.0" y="925.75" type="curve"/>
+      <point x="27.0" y="926.75" type="line"/>
+      <point x="-98.0" y="793.75"/>
+      <point x="-112.0" y="783.75"/>
+      <point x="-135.0" y="783.75" type="curve" smooth="yes"/>
+      <point x="-157.0" y="783.75"/>
+      <point x="-174.0" y="797.525"/>
+      <point x="-174.0" y="812.75" type="curve" smooth="yes"/>
+      <point x="-174.0" y="827.75"/>
+      <point x="-169.0" y="842.75"/>
+      <point x="-85.0" y="913.75" type="curve" smooth="yes"/>
+      <point x="-23.0" y="966.75"/>
+      <point x="-20.0" y="988.75"/>
+      <point x="19.0" y="988.75" type="curve" smooth="yes"/>
+      <point x="48.0" y="988.75"/>
+      <point x="65.0" y="978.75"/>
+      <point x="92.0" y="939.75" type="curve" smooth="yes"/>
+      <point x="164.0" y="838.75"/>
+      <point x="213.0" y="833.5197841727"/>
+      <point x="213.0" y="801.75" type="curve" smooth="yes"/>
+      <point x="213.0" y="791.6447368421"/>
+      <point x="201.0" y="783.75"/>
+      <point x="184.0" y="783.75" type="curve" smooth="yes"/>
+      <point x="132.0" y="783.75"/>
+      <point x="98.0" y="805.75"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>177.75</real>
+      <key>com.typemytype.robofont.Image.Brightness</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.Image.Contrast</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Saturation</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.400000006</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

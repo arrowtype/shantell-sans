@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quoteleft" format="2">
+  <advance width="271"/>
+  <unicode hex="2018"/>
+  <outline>
+    <contour>
+      <point x="169.0" y="905.25" type="curve" smooth="yes"/>
+      <point x="131.0" y="905.25"/>
+      <point x="105.0" y="893.25"/>
+      <point x="79.0" y="855.25" type="curve" smooth="yes"/>
+      <point x="38.0" y="796.25"/>
+      <point x="17.0" y="713.25"/>
+      <point x="17.0" y="654.25" type="curve" smooth="yes"/>
+      <point x="17.0" y="577.25"/>
+      <point x="52.0" y="507.25"/>
+      <point x="103.0" y="507.25" type="curve" smooth="yes"/>
+      <point x="142.0" y="507.25"/>
+      <point x="162.0" y="536.25"/>
+      <point x="172.0" y="585.25" type="curve" smooth="yes"/>
+      <point x="183.0" y="640.25"/>
+      <point x="201.0" y="690.25"/>
+      <point x="243.0" y="742.25" type="curve" smooth="yes"/>
+      <point x="257.0" y="760.25"/>
+      <point x="262.0" y="776.25"/>
+      <point x="262.0" y="795.25" type="curve" smooth="yes"/>
+      <point x="262.0" y="844.25"/>
+      <point x="227.0" y="905.25"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>92.25</real>
+      <key>com.typemytype.robofont.Image.Brightness</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.Image.Contrast</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Saturation</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.400000006</real>
+    </dict>
+  </lib>
+</glyph>

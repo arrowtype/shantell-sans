@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcaron.alt3" format="2">
+  <advance width="503"/>
+  <outline>
+    <contour>
+      <point x="491.0" y="818.0"/>
+      <point x="451.9449541284404" y="854.0"/>
+      <point x="392.0" y="854.0" type="curve" smooth="yes"/>
+      <point x="343.0" y="854.0"/>
+      <point x="321.0" y="825.0"/>
+      <point x="321.0" y="788.0" type="curve" smooth="yes"/>
+      <point x="321.0" y="759.0"/>
+      <point x="330.0" y="728.0"/>
+      <point x="304.0" y="667.0" type="curve" smooth="yes"/>
+      <point x="294.0" y="643.0"/>
+      <point x="291.0" y="628.0"/>
+      <point x="291.0" y="614.0" type="curve" smooth="yes"/>
+      <point x="291.0" y="587.0"/>
+      <point x="309.0" y="572.0"/>
+      <point x="346.0" y="572.0" type="curve" smooth="yes"/>
+      <point x="381.0204081632653" y="572.0"/>
+      <point x="406.29525276909146" y="587.4292444348595"/>
+      <point x="434.0" y="618.0" type="curve" smooth="yes"/>
+      <point x="475.0" y="661.0"/>
+      <point x="491.0" y="711.0"/>
+      <point x="491.0" y="767.0" type="curve" smooth="yes"/>
+    </contour>
+    <component base="t.alt3"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

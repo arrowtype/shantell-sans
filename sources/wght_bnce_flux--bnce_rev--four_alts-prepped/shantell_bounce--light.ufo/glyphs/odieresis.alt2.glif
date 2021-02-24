@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="odieresis.alt2" format="2">
+  <advance width="600"/>
+  <outline>
+    <component base="o.alt2" yOffset="-37.5"/>
+    <component base="dieresiscomb.alt2" xOffset="321.0" yOffset="-45.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>81.0</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

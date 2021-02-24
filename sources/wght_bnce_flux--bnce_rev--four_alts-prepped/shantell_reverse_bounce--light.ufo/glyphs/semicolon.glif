@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="semicolon" format="2">
+  <advance width="270"/>
+  <unicode hex="003B"/>
+  <outline>
+    <contour>
+      <point x="142.0" y="423.25" type="curve" smooth="yes"/>
+      <point x="183.0" y="423.25"/>
+      <point x="199.0" y="449.25"/>
+      <point x="199.0" y="474.25" type="curve" smooth="yes"/>
+      <point x="199.0" y="509.25"/>
+      <point x="174.0" y="552.25"/>
+      <point x="132.0" y="552.25" type="curve" smooth="yes"/>
+      <point x="101.0" y="552.25"/>
+      <point x="74.0" y="528.25"/>
+      <point x="74.0" y="494.25" type="curve" smooth="yes"/>
+      <point x="74.0" y="458.25"/>
+      <point x="105.0" y="423.25"/>
+    </contour>
+    <component base="comma" xOffset="36.0" yOffset="130.5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>56.25</real>
+    </dict>
+  </lib>
+</glyph>

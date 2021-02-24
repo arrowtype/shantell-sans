@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Imacron" format="2">
+  <advance width="610"/>
+  <unicode hex="012A"/>
+  <outline>
+    <component base="I" yOffset="72.0"/>
+    <component base="macroncomb" xOffset="316.0" yOffset="275.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>90.0</real>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

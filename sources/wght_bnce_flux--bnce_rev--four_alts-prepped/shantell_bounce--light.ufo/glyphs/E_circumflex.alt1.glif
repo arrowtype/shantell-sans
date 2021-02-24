@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ecircumflex.alt1" format="2">
+  <advance width="663"/>
+  <outline>
+    <component base="E.alt1" yOffset="31.5"/>
+    <component base="circumflexcomb.alt1" xOffset="365.0" yOffset="216.5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-87.0</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

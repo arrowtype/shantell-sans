@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ubreve" format="2">
+  <advance width="579"/>
+  <unicode hex="016D"/>
+  <outline>
+    <component base="u" yOffset="-63.0"/>
+    <component base="brevecomb" xOffset="287.0" yOffset="21.75"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>51.75</real>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

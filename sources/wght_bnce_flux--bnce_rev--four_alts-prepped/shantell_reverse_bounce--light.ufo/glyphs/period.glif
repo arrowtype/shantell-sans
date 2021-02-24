@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="period" format="2">
+  <advance width="259"/>
+  <unicode hex="002E"/>
+  <outline>
+    <contour>
+      <point x="145.0" y="-131.5" type="curve" smooth="yes"/>
+      <point x="179.0" y="-131.5"/>
+      <point x="192.0" y="-105.5"/>
+      <point x="192.0" y="-80.5" type="curve" smooth="yes"/>
+      <point x="192.0" y="-45.5"/>
+      <point x="163.0" y="-2.5"/>
+      <point x="115.0" y="-2.5" type="curve" smooth="yes"/>
+      <point x="89.0" y="-2.5"/>
+      <point x="67.0" y="-22.5"/>
+      <point x="67.0" y="-50.5" type="curve" smooth="yes"/>
+      <point x="67.0" y="-91.5"/>
+      <point x="103.0" y="-131.5"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-121.5</real>
+    </dict>
+  </lib>
+</glyph>

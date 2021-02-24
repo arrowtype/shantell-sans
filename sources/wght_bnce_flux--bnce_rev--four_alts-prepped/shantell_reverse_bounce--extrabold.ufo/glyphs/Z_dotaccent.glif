@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zdotaccent" format="2">
+  <advance width="681"/>
+  <unicode hex="017B"/>
+  <outline>
+    <component base="Z" yOffset="-13.5"/>
+    <component base="dotaccentcmb" xOffset="337.0" yOffset="63.5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-121.5</real>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hyphen_line.8" format="2">
+  <advance width="4248"/>
+  <outline>
+    <component base="hyphen.line" yOffset="72.0"/>
+    <component base="hyphen.line" xOffset="531.0" yOffset="-42.75"/>
+    <component base="hyphen.line" xOffset="1062.0" yOffset="-42.75"/>
+    <component base="hyphen.line" xOffset="1593.0" yOffset="-42.75"/>
+    <component base="hyphen.line" xOffset="2124.0" yOffset="-42.75"/>
+    <component base="hyphen.line" xOffset="2655.0" yOffset="-42.75"/>
+    <component base="hyphen.line" xOffset="3186.0" yOffset="-42.75"/>
+    <component base="hyphen.line" xOffset="3717.0" yOffset="-42.75"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-42.75</real>
+      <key>public.markColor</key>
+      <string>1,0,0,0.5</string>
+    </dict>
+  </lib>
+</glyph>

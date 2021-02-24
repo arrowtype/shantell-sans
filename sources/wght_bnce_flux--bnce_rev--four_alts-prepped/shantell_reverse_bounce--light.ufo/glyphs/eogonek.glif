@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eogonek" format="2">
+  <advance width="537"/>
+  <unicode hex="0119"/>
+  <outline>
+    <component base="e" yOffset="164.25"/>
+    <component base="ogonekcmb" xOffset="348.0" yOffset="157.25"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>119.25</real>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

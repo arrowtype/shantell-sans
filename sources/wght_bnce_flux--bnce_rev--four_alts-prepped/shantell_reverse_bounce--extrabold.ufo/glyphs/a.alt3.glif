@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="a.alt3" format="2">
+  <advance width="704"/>
+  <anchor x="338" y="609.5" name="top"/>
+  <anchor x="347" y="94.5" name="bottom"/>
+  <anchor x="622" y="94.5" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="362.0" y="486.5" type="curve" smooth="yes"/>
+      <point x="339.0" y="332.5"/>
+      <point x="276.0" y="252.5"/>
+      <point x="214.0" y="252.5" type="curve" smooth="yes"/>
+      <point x="182.0" y="252.5"/>
+      <point x="160.0" y="258.5"/>
+      <point x="127.0" y="281.5" type="curve"/>
+      <point x="201.0" y="167.5" type="line"/>
+      <point x="194.0" y="189.5"/>
+      <point x="192.0" y="202.5"/>
+      <point x="192.0" y="221.5" type="curve" smooth="yes"/>
+      <point x="192.0" y="336.5"/>
+      <point x="281.0" y="452.5"/>
+      <point x="405.0" y="475.5" type="curve" smooth="yes"/>
+      <point x="422.0" y="479.5"/>
+      <point x="437.0" y="491.5"/>
+      <point x="437.0" y="514.5" type="curve" smooth="yes"/>
+      <point x="437.0" y="582.5"/>
+      <point x="393.0" y="620.5"/>
+      <point x="337.0" y="620.5" type="curve" smooth="yes"/>
+      <point x="186.0" y="620.5"/>
+      <point x="25.0" y="412.5"/>
+      <point x="25.0" y="237.5" type="curve" smooth="yes"/>
+      <point x="25.0" y="145.5"/>
+      <point x="99.0" y="84.5"/>
+      <point x="207.0" y="84.5" type="curve" smooth="yes"/>
+      <point x="315.0" y="84.5"/>
+      <point x="423.0" y="146.5"/>
+      <point x="483.0" y="349.5" type="curve"/>
+      <point x="423.0" y="343.5" type="line"/>
+      <point x="462.0" y="235.5"/>
+      <point x="493.0" y="181.5"/>
+      <point x="551.0" y="110.5" type="curve" smooth="yes"/>
+      <point x="561.0" y="98.5"/>
+      <point x="577.0" y="87.5"/>
+      <point x="602.0" y="87.5" type="curve" smooth="yes"/>
+      <point x="678.0" y="87.5"/>
+      <point x="716.0" y="199.5"/>
+      <point x="677.0" y="241.5" type="curve" smooth="yes"/>
+      <point x="606.0" y="317.5"/>
+      <point x="590.0" y="379.5"/>
+      <point x="550.0" y="466.5" type="curve" smooth="yes"/>
+      <point x="533.0" y="507.5"/>
+      <point x="489.0" y="540.5"/>
+      <point x="432.0" y="540.5" type="curve" smooth="yes"/>
+      <point x="399.0" y="540.5"/>
+      <point x="367.0" y="520.5"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>94.5</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

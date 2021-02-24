@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="semicolon.alt1" format="2">
+  <advance width="270"/>
+  <outline>
+    <contour>
+      <point x="142.0" y="271.0" type="curve" smooth="yes"/>
+      <point x="183.0" y="271.0"/>
+      <point x="199.0" y="297.0"/>
+      <point x="199.0" y="322.0" type="curve" smooth="yes"/>
+      <point x="199.0" y="357.0"/>
+      <point x="174.0" y="400.0"/>
+      <point x="132.0" y="400.0" type="curve" smooth="yes"/>
+      <point x="101.0" y="400.0"/>
+      <point x="74.0" y="376.0"/>
+      <point x="74.0" y="342.0" type="curve" smooth="yes"/>
+      <point x="74.0" y="306.0"/>
+      <point x="105.0" y="271.0"/>
+    </contour>
+    <component base="comma.alt1" xOffset="36.0" yOffset="45.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-96.0</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

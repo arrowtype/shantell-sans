@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tcaron" format="2">
+  <advance width="645"/>
+  <unicode hex="0164"/>
+  <outline>
+    <component base="T" yOffset="-112.5"/>
+    <component base="caroncomb" xOffset="319.0" yOffset="150.5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-34.5</real>
+      <key>public.markColor</key>
+      <string>0.5534,0.5534,0.5534,0.4845</string>
+    </dict>
+  </lib>
+</glyph>

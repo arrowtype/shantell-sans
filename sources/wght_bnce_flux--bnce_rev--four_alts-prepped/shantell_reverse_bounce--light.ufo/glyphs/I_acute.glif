@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iacute" format="2">
+  <advance width="607"/>
+  <unicode hex="00CD"/>
+  <outline>
+    <component base="I" yOffset="-81.0"/>
+    <component base="acutecomb" xOffset="307.0" yOffset="65.75"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-119.25</real>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

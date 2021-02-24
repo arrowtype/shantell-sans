@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="icircumflex" format="2">
+  <advance width="276"/>
+  <unicode hex="00EE"/>
+  <outline>
+    <component base="idotless" yOffset="-18.0"/>
+    <component base="circumflexcomb" xOffset="136.0" yOffset="37.5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>67.5</real>
+      <key>public.markColor</key>
+      <string>0.5534,0.5534,0.5534,0.4845</string>
+    </dict>
+  </lib>
+</glyph>

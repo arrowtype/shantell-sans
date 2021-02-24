@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bracketangleleft.case" format="2">
+  <advance width="385"/>
+  <guideline x="0" y="870.0" angle="0" identifier="8kbH9hZzzu"/>
+  <guideline x="0" y="10.0" angle="0" identifier="IIQKCbLHlb"/>
+  <outline>
+    <contour>
+      <point x="54.0" y="354.0" type="curve" smooth="yes"/>
+      <point x="84.1410596572866" y="266.5909269938689"/>
+      <point x="131.7851617030485" y="191.55971029995263"/>
+      <point x="170.0" y="92.0" type="curve" smooth="yes"/>
+      <point x="191.0" y="37.0"/>
+      <point x="233.0" y="10.0"/>
+      <point x="283.0" y="10.0" type="curve" smooth="yes"/>
+      <point x="357.0" y="10.0"/>
+      <point x="388.0" y="66.0"/>
+      <point x="361.0" y="139.0" type="curve" smooth="yes"/>
+      <point x="300.79091766457236" y="300.56103760006414"/>
+      <point x="224.02918569209447" y="376.8433701190929"/>
+      <point x="194.0" y="538.0" type="curve"/>
+      <point x="194.0" y="350.0" type="line"/>
+      <point x="228.0" y="508.0"/>
+      <point x="313.0" y="606.0"/>
+      <point x="358.0" y="720.0" type="curve" smooth="yes"/>
+      <point x="396.0" y="816.0"/>
+      <point x="360.0" y="872.0"/>
+      <point x="284.0" y="872.0" type="curve" smooth="yes"/>
+      <point x="222.0" y="872.0"/>
+      <point x="191.0" y="842.0"/>
+      <point x="168.0" y="778.0" type="curve" smooth="yes"/>
+      <point x="144.0" y="712.0"/>
+      <point x="97.0" y="646.0"/>
+      <point x="61.0" y="559.0" type="curve" smooth="yes"/>
+      <point x="43.0" y="518.0"/>
+      <point x="35.0" y="492.0"/>
+      <point x="35.0" y="455.0" type="curve" smooth="yes"/>
+      <point x="35.0" y="429.0"/>
+      <point x="38.0" y="401.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>90.0</real>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

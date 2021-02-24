@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="arrowNW" format="2">
+  <advance width="700"/>
+  <unicode hex="2196"/>
+  <image fileName="arrowup.png" xScale="3.6986364914" yScale="3.6986364914" xOffset="-127.0179086528" yOffset="-172.1752845864" color="0,0,0,0.18758"/>
+  <guideline x="350" y="-27.0" angle="90" identifier="WhJZ6mh5H2"/>
+  <outline>
+    <component base="arrowdown" xScale="-0.7071067812" xyScale="-0.7071067812" yxScale="0.7071067812" yScale="-0.7071067812" xOffset="355.0" yOffset="714.75"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-27.0</real>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.400000006</real>
+    </dict>
+  </lib>
+</glyph>

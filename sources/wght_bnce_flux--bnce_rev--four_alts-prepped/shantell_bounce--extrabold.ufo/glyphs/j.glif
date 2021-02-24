@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="j" format="2">
+  <advance width="300"/>
+  <unicode hex="006A"/>
+  <outline>
+    <component base="jdotless" yOffset="-54.0"/>
+    <component base="dotaccentcmb" xOffset="134.0" yOffset="-24.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-24.0</real>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.400000006</real>
+      <key>public.markColor</key>
+      <string>0.8708,0.8708,0.8708,0.4845</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ydieresis" format="2">
+  <advance width="601"/>
+  <unicode hex="0178"/>
+  <outline>
+    <component base="Y" yOffset="-58.5"/>
+    <component base="dieresiscomb" xOffset="296.0" yOffset="61.25"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-123.75</real>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

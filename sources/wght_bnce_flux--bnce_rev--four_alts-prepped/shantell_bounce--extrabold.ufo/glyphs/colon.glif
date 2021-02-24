@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="colon" format="2">
+  <advance width="320"/>
+  <unicode hex="003A"/>
+  <outline>
+    <contour>
+      <point x="163.0" y="265.5" type="curve" smooth="yes"/>
+      <point x="240.0" y="265.5"/>
+      <point x="280.0" y="308.8150684932"/>
+      <point x="280.0" y="358.5" type="curve" smooth="yes"/>
+      <point x="280.0" y="419.3571428571"/>
+      <point x="241.8275862069" y="478.5"/>
+      <point x="145.0" y="478.5" type="curve" smooth="yes"/>
+      <point x="87.4680851064" y="478.5"/>
+      <point x="41.0" y="444.5"/>
+      <point x="41.0" y="382.5" type="curve" smooth="yes"/>
+      <point x="41.0" y="306.5"/>
+      <point x="86.0" y="265.5"/>
+    </contour>
+    <contour>
+      <point x="173.0" y="-63.5" type="curve" smooth="yes"/>
+      <point x="243.0" y="-63.5"/>
+      <point x="280.0" y="-20.1849315068"/>
+      <point x="280.0" y="29.5" type="curve" smooth="yes"/>
+      <point x="280.0" y="90.3571428571"/>
+      <point x="240.6965517241" y="149.5"/>
+      <point x="141.0" y="149.5" type="curve" smooth="yes"/>
+      <point x="85.6808510638" y="149.5"/>
+      <point x="41.0" y="115.5"/>
+      <point x="41.0" y="53.5" type="curve" smooth="yes"/>
+      <point x="41.0" y="-22.5"/>
+      <point x="89.0" y="-63.5"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-49.5</real>
+    </dict>
+  </lib>
+</glyph>

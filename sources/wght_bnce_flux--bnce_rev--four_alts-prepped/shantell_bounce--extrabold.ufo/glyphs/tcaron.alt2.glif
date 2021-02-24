@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcaron.alt2" format="2">
+  <advance width="503"/>
+  <outline>
+    <contour>
+      <point x="491.0" y="945.5"/>
+      <point x="451.9449541284404" y="981.5"/>
+      <point x="392.0" y="981.5" type="curve" smooth="yes"/>
+      <point x="343.0" y="981.5"/>
+      <point x="321.0" y="952.5"/>
+      <point x="321.0" y="915.5" type="curve" smooth="yes"/>
+      <point x="321.0" y="886.5"/>
+      <point x="330.0" y="855.5"/>
+      <point x="304.0" y="794.5" type="curve" smooth="yes"/>
+      <point x="294.0" y="770.5"/>
+      <point x="291.0" y="755.5"/>
+      <point x="291.0" y="741.5" type="curve" smooth="yes"/>
+      <point x="291.0" y="714.5"/>
+      <point x="309.0" y="699.5"/>
+      <point x="346.0" y="699.5" type="curve" smooth="yes"/>
+      <point x="381.0204081632653" y="699.5"/>
+      <point x="406.29525276909146" y="714.9292444348595"/>
+      <point x="434.0" y="745.5" type="curve" smooth="yes"/>
+      <point x="475.0" y="788.5"/>
+      <point x="491.0" y="838.5"/>
+      <point x="491.0" y="894.5" type="curve" smooth="yes"/>
+    </contour>
+    <component base="t.alt2" yOffset="39.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>127.5</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

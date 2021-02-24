@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhungarumlaut.alt2" format="2">
+  <advance width="639"/>
+  <outline>
+    <component base="u.alt2" yOffset="-20.25"/>
+    <component base="hungarumlautcmb.alt2" xOffset="342.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-218.25</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

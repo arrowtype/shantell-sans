@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotaccentcmb.alt3" format="2">
+  <anchor x="0" y="339.5" name="_top"/>
+  <outline>
+    <contour>
+      <point x="18.0" y="408.5" type="curve" smooth="yes"/>
+      <point x="82.0" y="408.5"/>
+      <point x="106.0" y="453.0301204819"/>
+      <point x="106.0" y="496.5" type="curve" smooth="yes"/>
+      <point x="106.0" y="559.5"/>
+      <point x="64.6306306306" y="637.5"/>
+      <point x="-6.0" y="637.5" type="curve" smooth="yes"/>
+      <point x="-70.0" y="637.5"/>
+      <point x="-115.0" y="601.5"/>
+      <point x="-115.0" y="535.5" type="curve" smooth="yes"/>
+      <point x="-115.0" y="469.91803278689997"/>
+      <point x="-55.0" y="408.5"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-175.5</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

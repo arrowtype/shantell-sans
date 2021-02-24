@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="emdash.case" format="2">
+  <advance width="1000"/>
+  <guideline x="0" y="868.5" angle="0"/>
+  <guideline x="0" y="8.5" angle="0"/>
+  <outline>
+    <component base="emdash" yOffset="250.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>88.5</real>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -79,17 +79,19 @@ sources = {
     "bounceReverseExtrabold": "sources/shantell_reverse_bounce--extrabold.ufo",
 }
 
+# where prepped UFOs are put
+prepDir = 'sources/wght_bnce_flux--bnce_rev--four_alts-prepped'
+
+# designspaces copied into prepped folder
 designspaces = ["sources/shantell-wght_BNCE_IRGL--reverse_bounce.designspace", "sources/shantell-wght_BNCE_IRGL--reverse_bounce--static.designspace"]
 
-prepDir = 'sources/wght_bnce_flux--bnce_rev--prepped'
-
-# all letters
+# letters to make alts for (all letters)
 altsToMake = "AÀÁÂÃÄÅĀĂĄǍBCÇĆČDĎEÈÉÊËĒĔĘĚFGĞHIÌÍÎÏĪĬĮİJKLMNÑŃŇOÒÓÔÕÖŌŎŐPQRŔŘSŚŞŠTŤUÙÚÛÜŪŬŮŰŲǓVWXYÝŸZŹŻŽÆØǾĲŁŒΩaàáâãäåāăąǎbcçćčdďeèéêëēĕęěfgğhiìíîïīĭįjklmnñńňoòóôõöōŏőpqrŕřsśşštťuùúûüūŭůűųǔvwxyýÿzźżžßæÞðþẞ"
 
 # numbers & basic symbols
 altsToMake += "0123456789!\"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~“”‘’"
 
-# some glyphs just need to stick together
+# some glyphs just need to stick together or they look broken
 glyphsToDecompose = "ij oe".split()
 
 # feature code to be inserted into generated UFOs
@@ -238,6 +240,13 @@ def makeBounce(font, glyph, randomLimit=100, minShift=50, factor=1):
 
     if 'alt2' in glyph.name and glyph.name.split(".")[0]:
         moveY = round((randomLimit-minShift) * random() + minShift) * factor
+        glyph.moveBy((0,moveY))
+
+    if 'alt' in glyph.name and \
+        glyph.name.split(".")[0] and\
+        'alt1' not in glyph.name and \
+        'alt2' not in glyph.name:
+        moveY = round((randomLimit-minShift) * random() + (minShift*.66)) * positiveOrNegative() * factor # reduce shift other alt glyphs
         glyph.moveBy((0,moveY))
 
     # change non-alt glyphs
@@ -399,10 +408,16 @@ def interpolateAlts(normalFont, organicFont, altsMadeForList):
             factor = 0.1
             organicFont[f'{g.name}.alt1'].interpolate(factor, normalFont[g.name], organicFont[g.name])
 
+            # interpolate alt2 33% towards organicFont glyph
+            factor = 0.33
+            # print(f'interpolating {g.name}…')
+            organicFont[f'{g.name}.alt2'].interpolate(factor, normalFont[g.name], organicFont[g.name])
+
+            # IF USING 3 alts (4 total versions of each glyph)
             # interpolate alt2 66% towards organicFont glyph
             factor = 0.66
             # print(f'interpolating {g.name}…')
-            organicFont[f'{g.name}.alt2'].interpolate(factor, normalFont[g.name], organicFont[g.name])
+            organicFont[f'{g.name}.alt3'].interpolate(factor, normalFont[g.name], organicFont[g.name])
 
     organicFont.save()
 
@@ -526,11 +541,13 @@ def generateCalt(glyphNames):
         @randomCycle1 = [{" ".join(name + '     ' for name in glyphNames)}];
         @randomCycle2 = [{" ".join(name + '.alt1' for name in glyphNames)}];
         @randomCycle3 = [{" ".join(name + '.alt2' for name in glyphNames)}];
+        @randomCycle4 = [{" ".join(name + '.alt3' for name in glyphNames)}];
         
         # avoids setting biggest transformations at the start of words in Irregular/Flux styles
-        sub @randomCycle1 by @randomCycle3;
-        sub @randomCycle3 @randomCycle3' by @randomCycle1;
-        sub @randomCycle1 @randomCycle3' by @randomCycle2;
+        sub @randomCycle1 by @randomCycle4;
+        sub @randomCycle4 @randomCycle4' by @randomCycle1;
+        sub @randomCycle1 @randomCycle4' by @randomCycle2;
+        sub @randomCycle2 @randomCycle4' by @randomCycle3;
     }} calt;
     """
 
@@ -559,8 +576,8 @@ def main():
         shutil.rmtree(prepDir,ignore_errors=True)
 
     # ONLY DO THE FOLLOWING IF YOU WANT TO COMPLETELY SHIFT BOUNCY STYLES
-    # print("🤖 Resetting bounce randomization in sources")
-    # resetBounces()
+    print("🤖 Resetting bounce randomization in sources")
+    resetBounces()
 
     print(f"🤖 Copying fonts to {prepDir}")
     makePrepDir()
@@ -576,7 +593,7 @@ def main():
     decomposeDigraphs(fonts)
 
     print("🤖 Making alts")
-    altsMadeForList = makeAlts(fonts)
+    altsMadeForList = makeAlts(fonts, numOfAlts=3)
 
     print("🤖 Making composed alts point to alt components")
 

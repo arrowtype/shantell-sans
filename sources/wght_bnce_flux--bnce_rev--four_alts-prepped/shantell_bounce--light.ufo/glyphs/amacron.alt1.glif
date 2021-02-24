@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="amacron.alt1" format="2">
+  <advance width="644"/>
+  <outline>
+    <component base="a.alt1" yOffset="25.5"/>
+    <component base="macroncomb.alt1" xOffset="320.0" yOffset="-55.5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-108.0</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

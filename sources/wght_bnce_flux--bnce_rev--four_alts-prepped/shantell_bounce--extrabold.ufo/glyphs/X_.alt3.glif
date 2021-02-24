@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="X.alt3" format="2">
+  <advance width="672"/>
+  <anchor x="340.0" y="613.0" name="top"/>
+  <anchor x="340.0" y="-87.0" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="221.0" y="548.0" type="curve" smooth="yes"/>
+      <point x="325.0" y="305.0"/>
+      <point x="508.0" y="228.0"/>
+      <point x="598.0" y="93.0" type="curve" smooth="yes"/>
+      <point x="674.0" y="-20.0"/>
+      <point x="632.0" y="-99.0"/>
+      <point x="553.0" y="-99.0" type="curve" smooth="yes"/>
+      <point x="512.0" y="-99.0"/>
+      <point x="477.0" y="-79.0"/>
+      <point x="444.0" y="-21.0" type="curve" smooth="yes"/>
+      <point x="371.0" y="106.0"/>
+      <point x="109.0" y="294.0"/>
+      <point x="44.0" y="459.0" type="curve" smooth="yes"/>
+      <point x="4.0" y="563.0"/>
+      <point x="31.0" y="624.0"/>
+      <point x="117.0" y="625.0" type="curve" smooth="yes"/>
+      <point x="166.0" y="626.0"/>
+      <point x="199.0" y="600.0"/>
+    </contour>
+    <contour>
+      <point x="614.0" y="449.0" type="curve" smooth="yes"/>
+      <point x="487.0" y="317.0"/>
+      <point x="293.0" y="118.0"/>
+      <point x="206.0" y="-35.0" type="curve" smooth="yes"/>
+      <point x="183.13143820099026" y="-75.76569711997388"/>
+      <point x="165.0120481927711" y="-92.0"/>
+      <point x="125.0" y="-92.0" type="curve" smooth="yes"/>
+      <point x="59.480000000000004" y="-92.0"/>
+      <point x="6.129141511873115" y="-0.2535084298796306"/>
+      <point x="73.0" y="96.0" type="curve" smooth="yes"/>
+      <point x="240.0" y="336.0"/>
+      <point x="390.0" y="500.0"/>
+      <point x="469.0" y="576.0" type="curve" smooth="yes"/>
+      <point x="500.0" y="608.0"/>
+      <point x="521.0" y="620.0"/>
+      <point x="555.0" y="620.0" type="curve" smooth="yes"/>
+      <point x="626.0" y="619.0"/>
+      <point x="685.0" y="523.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-87.0</real>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.400000006</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hyphen_line.3" format="2">
+  <advance width="1593"/>
+  <outline>
+    <component base="hyphen.line" yOffset="13.5"/>
+    <component base="hyphen.line" xOffset="531.0" yOffset="-101.25"/>
+    <component base="hyphen.line" xOffset="1062.0" yOffset="-101.25"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-101.25</real>
+      <key>public.markColor</key>
+      <string>1,0,0,0.5</string>
+    </dict>
+  </lib>
+</glyph>

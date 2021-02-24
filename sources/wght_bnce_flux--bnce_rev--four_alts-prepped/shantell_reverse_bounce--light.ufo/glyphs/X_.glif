@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="X" format="2">
+  <advance width="637"/>
+  <unicode hex="0058"/>
+  <anchor x="307" y="729.25" name="top"/>
+  <anchor x="307" y="29.25" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="136.0" y="695.25" type="curve" smooth="yes"/>
+      <point x="196.0" y="507.25"/>
+      <point x="489.0" y="249.25"/>
+      <point x="556.0" y="123.25" type="curve" smooth="yes"/>
+      <point x="597.0" y="44.25"/>
+      <point x="574.0" y="23.25"/>
+      <point x="553.0" y="23.25" type="curve" smooth="yes"/>
+      <point x="541.0" y="23.25"/>
+      <point x="529.0" y="30.25"/>
+      <point x="503.0" y="76.25" type="curve" smooth="yes"/>
+      <point x="415.0" y="242.25"/>
+      <point x="152.0" y="463.25"/>
+      <point x="91.0" y="620.25" type="curve" smooth="yes"/>
+      <point x="56.0" y="713.25"/>
+      <point x="67.0" y="738.25"/>
+      <point x="95.0" y="738.25" type="curve" smooth="yes"/>
+      <point x="114.0" y="738.25"/>
+      <point x="126.0" y="729.25"/>
+    </contour>
+    <contour>
+      <point x="556.0" y="647.25" type="curve" smooth="yes"/>
+      <point x="441.0" y="541.25"/>
+      <point x="260.0" y="313.25"/>
+      <point x="105.0" y="57.25" type="curve" smooth="yes"/>
+      <point x="84.0" y="22.25"/>
+      <point x="72.0" y="16.25"/>
+      <point x="57.0" y="16.25" type="curve" smooth="yes"/>
+      <point x="31.0" y="16.25"/>
+      <point x="21.0" y="47.25"/>
+      <point x="53.0" y="104.25" type="curve" smooth="yes"/>
+      <point x="134.0" y="242.25"/>
+      <point x="380.0" y="576.25"/>
+      <point x="526.0" y="711.25" type="curve" smooth="yes"/>
+      <point x="552.0" y="735.25"/>
+      <point x="560.0" y="738.25"/>
+      <point x="568.0" y="738.25" type="curve" smooth="yes"/>
+      <point x="590.0" y="738.25"/>
+      <point x="609.0" y="697.25"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>29.25</real>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.400000006</real>
+    </dict>
+  </lib>
+</glyph>

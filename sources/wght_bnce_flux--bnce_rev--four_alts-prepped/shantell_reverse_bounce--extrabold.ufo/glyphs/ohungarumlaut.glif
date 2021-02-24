@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohungarumlaut" format="2">
+  <advance width="664"/>
+  <unicode hex="0151"/>
+  <outline>
+    <component base="o" yOffset="13.5"/>
+    <component base="hungarumlautcmb" xOffset="346.0" yOffset="-69.75"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-69.75</real>
+      <key>public.markColor</key>
+      <string>0.5534,0.5534,0.5534,0.4845</string>
+    </dict>
+  </lib>
+</glyph>

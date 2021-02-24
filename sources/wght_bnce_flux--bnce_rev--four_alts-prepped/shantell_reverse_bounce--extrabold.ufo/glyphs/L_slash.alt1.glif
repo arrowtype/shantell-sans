@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lslash.alt1" format="2">
+  <advance width="546"/>
+  <note>
+just draw this
+</note>
+  <outline>
+    <contour>
+      <point x="152.0" y="335.25" type="curve" smooth="yes"/>
+      <point x="198.0" y="371.25"/>
+      <point x="242.0" y="409.25"/>
+      <point x="431.0" y="560.25" type="curve" smooth="yes"/>
+      <point x="475.0" y="594.25"/>
+      <point x="483.0" y="689.25"/>
+      <point x="389.0" y="689.25" type="curve" smooth="yes"/>
+      <point x="366.0" y="689.25"/>
+      <point x="338.0" y="680.25"/>
+      <point x="307.0" y="652.25" type="curve" smooth="yes"/>
+      <point x="199.0" y="554.25"/>
+      <point x="117.0" y="521.25"/>
+      <point x="9.0" y="409.25" type="curve" smooth="yes"/>
+      <point x="-37.0" y="362.25"/>
+      <point x="-2.0" y="298.25"/>
+      <point x="62.0" y="298.25" type="curve" smooth="yes"/>
+      <point x="88.0" y="298.25"/>
+      <point x="119.0" y="310.25"/>
+    </contour>
+    <component base="L.alt1" xOffset="20.0" yOffset="-56.25"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>119.25</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="radical" format="2">
+  <advance width="700"/>
+  <unicode hex="221A"/>
+  <image fileName="radical000000000000001.png" xOffset="-8" yOffset="-71" color="0,0,0,0.24105"/>
+  <outline>
+    <contour>
+      <point x="83.0" y="458.5" type="curve" smooth="yes"/>
+      <point x="136.0772567593" y="467.9780815642"/>
+      <point x="158.3913043478" y="483.5"/>
+      <point x="185.0" y="483.5" type="curve" smooth="yes"/>
+      <point x="210.0" y="483.5"/>
+      <point x="225.0" y="471.5"/>
+      <point x="229.0" y="438.5" type="curve" smooth="yes"/>
+      <point x="254.0" y="268.5"/>
+      <point x="298.0" y="151.5"/>
+      <point x="386.0" y="27.5" type="curve"/>
+      <point x="350.0" y="23.5" type="line"/>
+      <point x="447.8749767611" y="238.6210426728"/>
+      <point x="442.1736620411" y="430.4882185323"/>
+      <point x="575.0" y="655.5" type="curve" smooth="yes"/>
+      <point x="591.0" y="682.5"/>
+      <point x="603.0" y="690.5"/>
+      <point x="620.0" y="690.5" type="curve" smooth="yes"/>
+      <point x="640.0" y="690.5"/>
+      <point x="652.0" y="676.5"/>
+      <point x="652.0" y="658.5" type="curve" smooth="yes"/>
+      <point x="652.0" y="650.5"/>
+      <point x="648.0" y="637.5"/>
+      <point x="634.0" y="613.5" type="curve" smooth="yes"/>
+      <point x="504.5128827282" y="393.5774357447"/>
+      <point x="513.2807015397" y="215.3006550153"/>
+      <point x="421.0" y="13.5" type="curve" smooth="yes"/>
+      <point x="408.3484712757" y="-13.9116455693"/>
+      <point x="395.9322033898" y="-23.5"/>
+      <point x="370.0" y="-23.5" type="curve" smooth="yes"/>
+      <point x="342.1290322581" y="-23.5"/>
+      <point x="330.4063240294" y="-11.447217886899999"/>
+      <point x="316.0" y="8.5" type="curve" smooth="yes"/>
+      <point x="228.8996724781" y="134.2016090373"/>
+      <point x="186.7329171737" y="255.24064324749997"/>
+      <point x="158.0" y="442.5" type="curve"/>
+      <point x="202.0" y="415.5" type="line"/>
+      <point x="146.0" y="396.5"/>
+      <point x="117.0" y="390.5"/>
+      <point x="98.0" y="390.5" type="curve" smooth="yes"/>
+      <point x="69.0" y="390.5"/>
+      <point x="43.0" y="401.5"/>
+      <point x="43.0" y="426.5" type="curve" smooth="yes"/>
+      <point x="43.0" y="441.5"/>
+      <point x="61.0" y="453.5"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-16.5</real>
+      <key>com.typemytype.robofont.Image.Brightness</key>
+      <integer>0</integer>
+      <key>com.typemytype.robofont.Image.Contrast</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Saturation</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.400000006</real>
+    </dict>
+  </lib>
+</glyph>

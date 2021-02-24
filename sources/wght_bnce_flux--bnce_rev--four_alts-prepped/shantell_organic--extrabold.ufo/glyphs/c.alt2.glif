@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="c.alt2" format="2">
+  <advance width="540"/>
+  <anchor x="292" y="505" name="top"/>
+  <anchor x="288" y="10" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="491" y="155" type="curve" smooth="yes"/>
+      <point x="491" y="208"/>
+      <point x="474" y="229"/>
+      <point x="440" y="229" type="curve" smooth="yes"/>
+      <point x="385" y="229"/>
+      <point x="390" y="173"/>
+      <point x="284" y="173" type="curve" smooth="yes"/>
+      <point x="217" y="173"/>
+      <point x="204" y="195"/>
+      <point x="204" y="224" type="curve" smooth="yes"/>
+      <point x="204" y="283"/>
+      <point x="262" y="343"/>
+      <point x="341" y="343" type="curve" smooth="yes"/>
+      <point x="371" y="343"/>
+      <point x="369" y="314"/>
+      <point x="393" y="314" type="curve" smooth="yes"/>
+      <point x="439" y="314"/>
+      <point x="463" y="358"/>
+      <point x="463" y="414" type="curve" smooth="yes"/>
+      <point x="463" y="496"/>
+      <point x="407" y="515"/>
+      <point x="351" y="515" type="curve" smooth="yes"/>
+      <point x="180" y="515"/>
+      <point x="33" y="386"/>
+      <point x="33" y="225" type="curve" smooth="yes"/>
+      <point x="33" y="93"/>
+      <point x="121" y="0"/>
+      <point x="289" y="0" type="curve" smooth="yes"/>
+      <point x="406" y="0"/>
+      <point x="491" y="58"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.400000006</real>
+      <key>public.markColor</key>
+      <string>0,0,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

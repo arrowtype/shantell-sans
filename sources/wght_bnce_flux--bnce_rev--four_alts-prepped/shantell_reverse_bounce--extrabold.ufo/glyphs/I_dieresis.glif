@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Idieresis" format="2">
+  <advance width="610"/>
+  <unicode hex="00CF"/>
+  <outline>
+    <component base="I" yOffset="132.75"/>
+    <component base="dieresiscomb" xOffset="316.0" yOffset="290.75"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>105.75</real>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

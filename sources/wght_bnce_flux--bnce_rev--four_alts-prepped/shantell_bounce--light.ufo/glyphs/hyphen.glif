@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hyphen" format="2">
+  <advance width="471"/>
+  <unicode hex="002D"/>
+  <outline>
+    <contour>
+      <point x="118.0" y="144.5" type="curve" smooth="yes"/>
+      <point x="152.718875502" y="144.5"/>
+      <point x="209.2610441767" y="164.5"/>
+      <point x="365.0" y="164.5" type="curve" smooth="yes"/>
+      <point x="397.0" y="164.5"/>
+      <point x="416.0" y="175.5"/>
+      <point x="416.0" y="193.5" type="curve" smooth="yes"/>
+      <point x="416.0" y="206.5"/>
+      <point x="394.0" y="227.5"/>
+      <point x="332.0" y="227.5" type="curve" smooth="yes"/>
+      <point x="249.6720647773" y="227.5"/>
+      <point x="174.29845576" y="214.41230696999997"/>
+      <point x="87.0" y="203.5" type="curve" smooth="yes"/>
+      <point x="62.0" y="200.5"/>
+      <point x="55.0" y="185.5"/>
+      <point x="55.0" y="174.5" type="curve" smooth="yes"/>
+      <point x="55.0" y="159.5"/>
+      <point x="77.0" y="144.5"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-67.5</real>
+    </dict>
+  </lib>
+</glyph>

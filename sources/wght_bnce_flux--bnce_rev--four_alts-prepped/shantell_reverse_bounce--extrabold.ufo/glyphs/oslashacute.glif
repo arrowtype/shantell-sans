@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oslashacute" format="2">
+  <advance width="678"/>
+  <unicode hex="01FF"/>
+  <outline>
+    <component base="oslash" yOffset="-83.25"/>
+    <component base="acutecomb" xOffset="334.0" yOffset="-126.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-126.0</real>
+      <key>public.markColor</key>
+      <string>0.5534,0.5534,0.5534,0.4845</string>
+    </dict>
+  </lib>
+</glyph>

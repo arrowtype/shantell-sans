@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Sacute" format="2">
+  <advance width="561"/>
+  <unicode hex="015A"/>
+  <outline>
+    <component base="S" yOffset="-141.75"/>
+    <component base="acutecomb" xOffset="299.0" yOffset="128.75"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-56.25</real>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

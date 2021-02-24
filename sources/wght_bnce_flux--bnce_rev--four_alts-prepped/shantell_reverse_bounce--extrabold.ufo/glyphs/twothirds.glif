@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="twothirds" format="2">
+  <advance width="1460"/>
+  <unicode hex="2154"/>
+  <outline>
+    <component base="two.numr" yOffset="-31.5"/>
+    <component base="fraction" xOffset="540.0" yOffset="-31.5"/>
+    <component base="three.dnom" xOffset="920.0" yOffset="-31.5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-31.5</real>
+      <key>public.markColor</key>
+      <string>0.5534,0.5534,0.5534,0.4845</string>
+    </dict>
+  </lib>
+</glyph>

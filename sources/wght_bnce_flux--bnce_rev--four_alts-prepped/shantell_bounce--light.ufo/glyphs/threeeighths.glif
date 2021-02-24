@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="threeeighths" format="2">
+  <advance width="1100"/>
+  <unicode hex="215C"/>
+  <outline>
+    <component base="three.numr" yOffset="-51.0"/>
+    <component base="fraction" xOffset="440.0" yOffset="-51.0"/>
+    <component base="eight.dnom" xOffset="660.0" yOffset="-51.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>-51.0</real>
+      <key>public.markColor</key>
+      <string>0.5534,0.5534,0.5534,0.4845</string>
+    </dict>
+  </lib>
+</glyph>

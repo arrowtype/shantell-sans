@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iogonek" format="2">
+  <advance width="276"/>
+  <unicode hex="012F"/>
+  <outline>
+    <component base="idotless" yOffset="-57.0"/>
+    <component base="dotaccentcmb" xOffset="136.0" yOffset="-1.5"/>
+    <component base="ogonekcmb" xOffset="83.0" yOffset="28.5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.arrowtype.yShift</key>
+      <real>28.5</real>
+      <key>public.markColor</key>
+      <string>0.5534,0.5534,0.5534,0.4845</string>
+    </dict>
+  </lib>
+</glyph>
