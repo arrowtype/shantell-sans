@@ -448,6 +448,21 @@
         <string>glyphList</string>
       </dict>
     </array>
+    <key>com.github.googlei18n.ufo2ft.filters</key>
+    <array>
+      <dict>
+        <key>name</key>
+        <string>decomposeTransformedComponents</string>
+        <key>pre</key>
+        <integer>1</integer>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>flattenComponents</string>
+        <key>pre</key>
+        <integer>1</integer>
+      </dict>
+    </array>
     <key>com.loicsander.scaleFast</key>
     <dict>
       <key>guides</key>
@@ -1667,6 +1682,7 @@
       <string>hyphen_line.48</string>
       <string>hyphen_line.49</string>
       <string>hyphen_line.50</string>
+      <string>dotcomb</string>
     </array>
     <key>public.postscriptNames</key>
     <dict/>

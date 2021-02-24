@@ -2293,6 +2293,21 @@
         <string>glyphList</string>
       </dict>
     </array>
+    <key>com.github.googlei18n.ufo2ft.filters</key>
+    <array>
+      <dict>
+        <key>name</key>
+        <string>decomposeTransformedComponents</string>
+        <key>pre</key>
+        <integer>1</integer>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>flattenComponents</string>
+        <key>pre</key>
+        <integer>1</integer>
+      </dict>
+    </array>
     <key>com.loicsander.scaleFast</key>
     <dict>
       <key>guides</key>
@@ -2646,6 +2661,13 @@
         <real>0.0</real>
         <real>0.25</real>
       </array>
+      <key>public.kern1.quote_straight</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern1.r</key>
       <array>
         <integer>0</integer>
@@ -2980,6 +3002,13 @@
         <real>1.0</real>
         <real>1.0</real>
         <real>0.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.quote_straight</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.r</key>
