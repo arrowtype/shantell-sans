@@ -80,7 +80,7 @@ sources = {
 }
 
 # where prepped UFOs are put
-prepDir = 'sources/wght_bnce_flux--bnce_rev--four_alts-prepped'
+prepDir = 'sources/wght_bnce_flux--bnce_rev--prepped'
 
 # designspaces copied into prepped folder
 designspaces = ["sources/shantell-wght_BNCE_IRGL--reverse_bounce.designspace", "sources/shantell-wght_BNCE_IRGL--reverse_bounce--static.designspace"]
@@ -234,25 +234,28 @@ def makeBounce(font, glyph, randomLimit=100, minShift=50, factor=1):
 
     moveY=0
 
+    # alt 1 → shift downwards
     if 'alt1' in glyph.name and glyph.name.split(".")[0]:
         moveY = round((randomLimit-minShift) * random() + minShift) * -1 * factor
         glyph.moveBy((0,moveY))
 
+    # alt 2 → shift upwards
     if 'alt2' in glyph.name and glyph.name.split(".")[0]:
         moveY = round((randomLimit-minShift) * random() + minShift) * factor
         glyph.moveBy((0,moveY))
 
+    # alt 3 or more → shift up or down by up to 66% (not necessarily needed)
     if 'alt' in glyph.name and \
         glyph.name.split(".")[0] and\
         'alt1' not in glyph.name and \
         'alt2' not in glyph.name:
-        moveY = round((randomLimit-minShift) * random() + (minShift*.66)) * positiveOrNegative() * factor # reduce shift other alt glyphs
+        moveY = round((randomLimit-minShift) * random() + (minShift*0.66)) * positiveOrNegative() * factor # reduce shift other alt glyphs
         glyph.moveBy((0,moveY))
 
-    # change non-alt glyphs
+    # non-alt glyphs → shift up or down by up to 20%
     if 'alt' not in glyph.name and glyph.name:
         # moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative() * factor
-        moveY = round((randomLimit-minShift) * random() + (minShift/5)) * positiveOrNegative() * factor # mostly remove minShift for default glyphs, so more are in the middle
+        moveY = round((randomLimit-minShift) * random() + (minShift*0.2)) * positiveOrNegative() * factor # mostly remove minShift for default glyphs, so more are in the middle
         glyph.moveBy((0,moveY))
 
     if moveY == 0:
@@ -413,11 +416,14 @@ def interpolateAlts(normalFont, organicFont, altsMadeForList):
             # print(f'interpolating {g.name}…')
             organicFont[f'{g.name}.alt2'].interpolate(factor, normalFont[g.name], organicFont[g.name])
 
-            # IF USING 3 alts (4 total versions of each glyph)
-            # interpolate alt2 66% towards organicFont glyph
-            factor = 0.66
-            # print(f'interpolating {g.name}…')
-            organicFont[f'{g.name}.alt3'].interpolate(factor, normalFont[g.name], organicFont[g.name])
+            try:
+                # IF USING 3 alts (4 total versions of each glyph)
+                # interpolate alt2 66% towards organicFont glyph
+                factor = 0.66
+                # print(f'interpolating {g.name}…')
+                organicFont[f'{g.name}.alt3'].interpolate(factor, normalFont[g.name], organicFont[g.name])
+            except:
+                pass
 
     organicFont.save()
 
@@ -534,21 +540,70 @@ def generateCalt(glyphNames):
 
     glyphNames = sorted(glyphNames)
 
-    # sub @randomCycle1 @randomCycle1' by @randomCycle2;
-    # sub @randomCycle2 @randomCycle1' by @randomCycle3;
-    calt = f"""\
-    feature calt {{
-        @randomCycle1 = [{" ".join(name + '     ' for name in glyphNames)}];
-        @randomCycle2 = [{" ".join(name + '.alt1' for name in glyphNames)}];
-        @randomCycle3 = [{" ".join(name + '.alt2' for name in glyphNames)}];
-        @randomCycle4 = [{" ".join(name + '.alt3' for name in glyphNames)}];
+    # for 3 alts / 4 versions for glyph
+    # calt = f"""\
+    # feature calt {{
+    #     @randomCycle1 = [{" ".join(name + '     ' for name in glyphNames)}]; # default
+    #     @randomCycle2 = [{" ".join(name + '.alt1' for name in glyphNames)}]; # alt1
+    #     @randomCycle3 = [{" ".join(name + '.alt2' for name in glyphNames)}]; # alt2
+    #     @randomCycle4 = [{" ".join(name + '.alt3' for name in glyphNames)}]; # alt3
         
-        # avoids setting biggest transformations at the start of words in Irregular/Flux styles
-        sub @randomCycle1 by @randomCycle4;
-        sub @randomCycle4 @randomCycle4' by @randomCycle1;
-        sub @randomCycle1 @randomCycle4' by @randomCycle2;
-        sub @randomCycle2 @randomCycle4' by @randomCycle3;
-    }} calt;
+    #     # avoids setting biggest transformations at the start of words in Irregular/Flux styles
+    #     sub @randomCycle1 by @randomCycle4;
+    #     sub @randomCycle4 @randomCycle4' by @randomCycle2;
+    #     sub @randomCycle2 @randomCycle4' by @randomCycle1;
+    #     sub @randomCycle1 @randomCycle4' by @randomCycle3;
+    # }} calt;
+    # """
+
+    uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    lowercase = "abcdefghijklmnopqrstuvwxyz"
+
+    newline = "\n"
+    indent = "    "
+
+    # for 2 alts / 3 versions for glyph
+    calt = f"""\
+feature calt {{
+
+    @uppercaseMid = [{" ".join(name + '     ' for name in uppercase)}];
+    @uppercaseLow = [{" ".join(name + '.alt1' for name in uppercase)}];
+    @uppercaseHigh = [{" ".join(name + '.alt2' for name in uppercase)}];
+
+    @lowercaseMid = [{" ".join(name + '     ' for name in lowercase)}];
+    @lowercaseLow = [{" ".join(name + '.alt1' for name in lowercase)}];
+    @lowercaseHigh = [{" ".join(name + '.alt2' for name in lowercase)}];
+
+    @mid = [{" ".join(name + '     ' for name in glyphNames)}];
+    @low = [{" ".join(name + '.alt1' for name in glyphNames)}];
+    @high = [{" ".join(name + '.alt2' for name in glyphNames)}];
+    
+    # avoids setting biggest transformations at the start of words in Irregular/Flux styles
+    sub @mid by @high;
+    sub @high @high' by @mid;
+    sub @mid @high' by @low;
+
+    # basic order: high mid low high mid low - etc
+
+    # prevent alt2 (high) from appearing three after alt2 uppercase
+    {f"{newline+indent}".join([f"sub {c}.alt2 @uppercaseMid @uppercaseLow {c}.alt2' by {c};" for c in uppercase])}
+    
+    # prevent default (mid) from appearing three after default uppercase
+    {f"{newline+indent}".join([f"sub {c} @uppercaseLow @uppercaseHigh {c}' by {c}.alt1;" for c in uppercase])}
+    
+    # prevent alt1 (low) from appearing three after alt1 uppercase
+    {f"{newline+indent}".join([f"sub {c}.alt1 @uppercaseHigh @uppercaseMid {c}.alt1' by {c}.alt2;" for c in uppercase])}
+    
+    # prevent alt2 (high) from appearing three after alt2 lowercase
+    {f"{newline+indent}".join([f"sub {c}.alt2 @lowercaseMid @lowercaseLow {c}.alt2' by {c};" for c in lowercase])}
+    
+    # prevent default (mid) from appearing three after default lowercase
+    {f"{newline+indent}".join([f"sub {c} @lowercaseLow @lowercaseHigh {c}' by {c}.alt1;" for c in lowercase])}
+    
+    # prevent alt1 (low) from appearing three after alt1 lowercase
+    {f"{newline+indent}".join([f"sub {c}.alt1 @lowercaseHigh @lowercaseMid {c}.alt1' by {c}.alt2;" for c in lowercase])}
+
+}} calt;
     """
 
     with open(f"{prepDir}/cycle-calt.fea", "w") as file:
@@ -576,8 +631,8 @@ def main():
         shutil.rmtree(prepDir,ignore_errors=True)
 
     # ONLY DO THE FOLLOWING IF YOU WANT TO COMPLETELY SHIFT BOUNCY STYLES
-    print("🤖 Resetting bounce randomization in sources")
-    resetBounces()
+    # print("🤖 Resetting bounce randomization in sources")
+    # resetBounces()
 
     print(f"🤖 Copying fonts to {prepDir}")
     makePrepDir()
@@ -593,7 +648,7 @@ def main():
     decomposeDigraphs(fonts)
 
     print("🤖 Making alts")
-    altsMadeForList = makeAlts(fonts, numOfAlts=3)
+    altsMadeForList = makeAlts(fonts, numOfAlts=2)
 
     print("🤖 Making composed alts point to alt components")
 

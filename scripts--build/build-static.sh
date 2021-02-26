@@ -12,5 +12,5 @@ for ufo in $parentDir/*.ufo; do
 done
 
 
-# fontmake -o otf -i -m $DS --no-production-names --output-dir fonts/shantell-sans-v11/statics
-fontmake -o ttf -i -m $DS --no-production-names --output-dir fonts/shantell-sans-v11/statics
+# fontmake -o otf -i -m $DS --no-production-names --output-dir fonts/shantell-sans-v12/statics
+fontmake -o ttf -i -m $DS --no-production-names --output-dir fonts/shantell-sans-v12/statics

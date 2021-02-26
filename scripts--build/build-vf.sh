@@ -13,4 +13,4 @@ for ufo in $parentDir/*.ufo; do
     
 done
 
-fontmake -o variable -m $DS --no-production-names --output-dir fonts/shantell-sans-v12/four_alts
+fontmake -o variable -m $DS --no-production-names --output-dir fonts/shantell-sans-v12
