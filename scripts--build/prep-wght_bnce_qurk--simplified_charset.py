@@ -39,20 +39,19 @@
         Maybe??
         - [x] try a bouncy axis that can before 0 in the middle, but bounce up *or* down, to allow for a "wavy" animation
         - [ ] figure out best sequence for up/down variation
-        - [ ] re-fix accent attachment with this new postivie/negative bounce system
+        - [x] re-fix accent attachment with this new postivie/negative bounce system
 
         Also
         - [ ] Link to this script at https://github.com/googlefonts/ufo2ft/issues/437 once the repo is public
 
         Maybe?
         - [x] build in feature copier? (currently, you have to separate copy in the features  )
-        - [ ] give diacritics different levels of bounce & pop/dynamics/variety(?) ... probably not
 
         # TODO: generate calt feature code to catch all glyphs with .alts, which would be:
             - .case punctuation
             - fractional figures
 
-        - probably, you should make sure to SKIP shifting to numr/dnom figures, or it will break fractions
+        - [x] probably, you should make sure to SKIP shifting to numr/dnom figures, or it will break fractions
 """
 
 import os
@@ -80,7 +79,8 @@ sources = {
 }
 
 # where prepped UFOs are put
-prepDir = 'sources/wght_bnce_flux--bnce_rev--prepped'
+# prepDir = 'sources/wght_bnce_flux--bnce_rev--prepped'
+prepDir = 'sources/wght_bnce_flux--bnce_rev--4_alts_b--prepped'
 
 # designspaces copied into prepped folder
 designspaces = ["sources/shantell-wght_BNCE_IRGL--reverse_bounce.designspace", "sources/shantell-wght_BNCE_IRGL--reverse_bounce--static.designspace"]
@@ -122,6 +122,9 @@ glyphsToNotShift ="\
 # END configuration
 # --------------------------------------------------------
 
+# add just the basic upper & lowercase (used later in the calt code generator)
+uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+lowercase = "abcdefghijklmnopqrstuvwxyz"
 
 # get integer unicode values for string of characters from above
 altsToMakeList = [ord(char) for char in altsToMake]
@@ -556,11 +559,7 @@ def generateCalt(glyphNames):
     # }} calt;
     # """
 
-    uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    lowercase = "abcdefghijklmnopqrstuvwxyz"
-
     newline = "\n"
-    indent = "    "
 
     # for 2 alts / 3 versions for glyph
     calt = f"""\
@@ -586,22 +585,22 @@ feature calt {{
     # basic order: high mid low high mid low - etc
 
     # prevent alt2 (high) from appearing three after alt2 uppercase
-    {f"{newline+indent}".join([f"sub {c}.alt2 @uppercaseMid @uppercaseLow {c}.alt2' by {c};" for c in uppercase])}
+    {f"{newline}    ".join([f"sub {c}.alt2 @uppercaseMid @uppercaseLow {c}.alt2' by {c}.alt3;" for c in uppercase])}
     
     # prevent default (mid) from appearing three after default uppercase
-    {f"{newline+indent}".join([f"sub {c} @uppercaseLow @uppercaseHigh {c}' by {c}.alt1;" for c in uppercase])}
+    {f"{newline}    ".join([f"sub {c} @uppercaseLow @uppercaseHigh {c}' by {c}.alt3;" for c in uppercase])}
     
     # prevent alt1 (low) from appearing three after alt1 uppercase
-    {f"{newline+indent}".join([f"sub {c}.alt1 @uppercaseHigh @uppercaseMid {c}.alt1' by {c}.alt2;" for c in uppercase])}
+    {f"{newline}    ".join([f"sub {c}.alt1 @uppercaseHigh @uppercaseMid {c}.alt1' by {c}.alt3;" for c in uppercase])}
     
     # prevent alt2 (high) from appearing three after alt2 lowercase
-    {f"{newline+indent}".join([f"sub {c}.alt2 @lowercaseMid @lowercaseLow {c}.alt2' by {c};" for c in lowercase])}
+    {f"{newline}    ".join([f"sub {c}.alt2 @lowercaseMid @lowercaseLow {c}.alt2' by {c}.alt3;" for c in lowercase])}
     
     # prevent default (mid) from appearing three after default lowercase
-    {f"{newline+indent}".join([f"sub {c} @lowercaseLow @lowercaseHigh {c}' by {c}.alt1;" for c in lowercase])}
+    {f"{newline}    ".join([f"sub {c} @lowercaseLow @lowercaseHigh {c}' by {c}.alt3;" for c in lowercase])}
     
     # prevent alt1 (low) from appearing three after alt1 lowercase
-    {f"{newline+indent}".join([f"sub {c}.alt1 @lowercaseHigh @lowercaseMid {c}.alt1' by {c}.alt2;" for c in lowercase])}
+    {f"{newline}    ".join([f"sub {c}.alt1 @lowercaseHigh @lowercaseMid {c}.alt1' by {c}.alt3;" for c in lowercase])}
 
 }} calt;
     """
@@ -648,7 +647,7 @@ def main():
     decomposeDigraphs(fonts)
 
     print("🤖 Making alts")
-    altsMadeForList = makeAlts(fonts, numOfAlts=2)
+    altsMadeForList = makeAlts(fonts, numOfAlts=3)
 
     print("🤖 Making composed alts point to alt components")
 
