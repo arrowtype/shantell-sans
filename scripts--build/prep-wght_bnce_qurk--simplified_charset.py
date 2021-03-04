@@ -33,7 +33,8 @@
                 
             - [ ] ? PROBABLY NOT: each time fonts are generated, check kerning overrides, and bring those in
 
-        - [ ] add *all* alts into kern groups, even if base is not in group yet – required to make alt punctuation work
+        - [x] add *all* alts into kern groups, even if base is not in group yet – required to make alt punctuation work
+            - [x] and update kerning to point to these new groups
                 
             - This *should, in theory* allow new kerns to be introduced, where they were previously overridden 
             - Overridden kerns should be kept deliberately sparse, to keep things clean overall
