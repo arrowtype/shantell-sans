@@ -31,9 +31,7 @@
                     - kerning orders: alt2_default, default_alt1, alt1_alt2
                 - [ ] check kerning vs normal, and record new diffs in baseFont lib
                 
-            - [ ] ? PROBABLY NOT: each time fonts are generated, check kerning overrides, and bring those in
-
-        - [ ] add *all* alts into kern groups, even if base is not in group yet – required to make alt punctuation work
+            - [ ] each time fonts are generated, check kerning overrides, and bring those in
                 
             - This *should, in theory* allow new kerns to be introduced, where they were previously overridden 
             - Overridden kerns should be kept deliberately sparse, to keep things clean overall
@@ -42,7 +40,6 @@
         - [x] try a bouncy axis that can before 0 in the middle, but bounce up *or* down, to allow for a "wavy" animation
         - [ ] figure out best sequence for up/down variation
         - [x] re-fix accent attachment with this new postivie/negative bounce system
-
 
         Also
         - [ ] Link to this script at https://github.com/googlefonts/ufo2ft/issues/437 once the repo is public
@@ -69,8 +66,6 @@ from random import random
 
 # start with hardcoded paths; optimize later
 
-numberOfAlts = 2 # "2" alts yields 3 versions of each glyph: A, A.alt1, A.alt2
-
 # TODO: split "sources" dict into core sources vs generated sources
 sources = {
     "light": "sources/shantell--light.ufo",
@@ -85,14 +80,13 @@ sources = {
 
 # where prepped UFOs are put
 # prepDir = 'sources/wght_bnce_flux--bnce_rev--prepped'
-prepDir = 'sources/wght_bnce_flux--bnce_rev--prepped'
+prepDir = 'sources/wght_bnce_flux--bnce_rev--4_alts_b--prepped'
 
 # designspaces copied into prepped folder
 designspaces = ["sources/shantell-wght_BNCE_IRGL--reverse_bounce.designspace", "sources/shantell-wght_BNCE_IRGL--reverse_bounce--static.designspace"]
 
 # letters to make alts for (all letters)
-# altsToMake = "AÀÁÂÃÄÅĀĂĄǍBCÇĆČDĎEÈÉÊËĒĔĘĚFGĞHIÌÍÎÏĪĬĮİJKLMNÑŃŇOÒÓÔÕÖŌŎŐPQRŔŘSŚŞŠTŤUÙÚÛÜŪŬŮŰŲǓVWXYÝŸZŹŻŽÆØǾĲŁŒΩaàáâãäåāăąǎbcçćčdďeèéêëēĕęěfgğhiìíîïīĭįjklmnñńňoòóôõöōŏőpqrŕřsśşštťuùúûüūŭůűųǔvwxyýÿzźżžßæÞðþẞ"
-altsToMake = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzßæÞðþẞ"
+altsToMake = "AÀÁÂÃÄÅĀĂĄǍBCÇĆČDĎEÈÉÊËĒĔĘĚFGĞHIÌÍÎÏĪĬĮİJKLMNÑŃŇOÒÓÔÕÖŌŎŐPQRŔŘSŚŞŠTŤUÙÚÛÜŪŬŮŰŲǓVWXYÝŸZŹŻŽÆØǾĲŁŒΩaàáâãäåāăąǎbcçćčdďeèéêëēĕęěfgğhiìíîïīĭįjklmnñńňoòóôõöōŏőpqrŕřsśşštťuùúûüūŭůűųǔvwxyýÿzźżžßæÞðþẞ"
 
 # numbers & basic symbols
 altsToMake += "0123456789!\"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~“”‘’"
@@ -509,7 +503,7 @@ def correctAccents(fonts):
                     # get intersection
 
 
-def extendKerning(fonts,numOfAlts=2):
+def extendKerning(fonts):
     """
         Add .alt1 and .alt2 glyphs to kerning groups with defaults.
     """
@@ -520,18 +514,14 @@ def extendKerning(fonts,numOfAlts=2):
     for font in fonts:
         # font.groups = coreGroups
 
-        print("\n\n", font.path)
-
-        # make list of all glyphs with any kerning
-        kerning = font.kerning.keys()
-        kernedGlyphs = set([glyphName for pair in kerning for glyphName in pair])
+        # print("\n\n", font.path)
 
         # then, add alt glyphs into the groups of default glyphs
         for g in font:
-            glyphBaseName = g.name.split(".")[0]
+            baseName = g.name.split(".")[0]
 
-            # check what kern groups font[glyphBaseName] is in
-            kernGroups = [groupName for groupName in font.groups.findGlyph(glyphBaseName) if "kern" in groupName]
+            # check what kern1 group font[baseName] is in
+            kernGroups = [groupName for groupName in font.groups.findGlyph(baseName) if "kern" in groupName]
             
             for kernGroup in kernGroups:
                 if g.name not in font.groups[kernGroup]:
@@ -539,115 +529,6 @@ def extendKerning(fonts,numOfAlts=2):
 
                     # print(g.name, end=" ")
                     # print(font.groups.findGlyph(g.name), end=" | ")
-
-            # handle case if glyph is *not* in a kerning group already
-
-            # if glyph is in no kerning groups yet
-            if kernGroups == []:
-                # check if glyphBaseName has any kerning
-                if glyphBaseName in kernedGlyphs:
-                    kern1 = f'public.kern1.{glyphBaseName}'
-                    kern2 = f'public.kern2.{glyphBaseName}'
-
-                    # make list of glyph plus alts
-                    glyphVersionNames = [glyphBaseName] + [glyphBaseName + f".alt{i+1}" for i in range(numOfAlts)]
-
-                    # make list of glyphBaseName plus glyphBaseName.alt1, alt2, etc
-                    font.groups[kern1] = [name for name in glyphVersionNames]
-                    font.groups[kern2] = [name for name in glyphVersionNames]
-
-                    print()
-                    print(kern1)
-                    print(font.groups[kern1])
-                    print()
-                    print(kern2)
-                    print(font.groups[kern2])
-
-        # TODO: update kerning.plist to swap original glyph name for kern group name, left and right
-        ## kerning looks like a list: [(("A", "V"), -30), (("A", "W"), -10)]
-
-        # make new list to store editing kerning ?
-        # newKerning = []
-
-        for kern in font.kerning.items():
-            newKern = ()
-            newKern1 = ()
-            newKern2 = ()
-            print("\n----------------------------\n")
-            for i, name in enumerate(kern[0]):
-                side = i+1
-                # if side is not a group already...
-                if "public.kern" not in name:
-                    # check if side is in group(s)
-                    glyphBaseName = name.split(".")[0]
-                    kernGroups = [groupName for groupName in font.groups.findGlyph(glyphBaseName) if "kern" in groupName]
-                    # if it is in group(s)...
-                    if kernGroups != []:
-                        # make new kern with side1 set to group
-                        if side == 1:
-
-                            groupName = f'public.kern1.{glyphBaseName}'
-                            newKern1 = ((groupName, kern[0][1]), kern[1])
-
-                            print()
-                            print(f"old kern {kern[0]} was...")
-                            print(font.kerning[kern[0]])
-                            del font.kerning[kern[0]]
-
-                            print(f"newish kern {newKern1[0]} is...")
-                            font.kerning[newKern1[0]] = newKern1[1]
-                            print(font.kerning[newKern1[0]])
-                        
-                        # make new kern with side2 set to group
-                        if side == 2:
-
-                            # TODO: replace 'kern' if side1 didn’t update, otherwise replace 'newKern1'
-
-                            groupName = f'public.kern2.{glyphBaseName}'
-
-                            # if a newKern1 was not made
-                            try:
-                                newKern2 = ((kern[0][0], groupName), kern[1])
-                                print()
-                                print(f"old kern {kern[0]} was...")
-                                print(font.kerning[kern[0]])
-                                del font.kerning[kern[0]]
-
-                            # if a newKern1 was made for side 1
-                            except (KeyError, IndexError):
-                                newKern2 = ((newKern1[0][0], groupName), newKern1[1])
-                                print()
-                                print(f"newKern1 {newKern1[0]} was...")
-                                print(font.kerning[newKern1[0]])
-                                del font.kerning[newKern1[0]]
-
-                            print(f"newKern2 {newKern2[0]} is...")
-                            font.kerning[newKern2[0]] = newKern2[1]
-                            print(font.kerning[newKern2[0]])
-
-                        # # delete old kern
-                        # # set new kern
-                        # print()
-                        # print("old kern is...")
-                        # print(font.kerning[kern[0]])
-                        # del font.kerning[kern[0]]
-                        # font.kerning[newKern[0]] = newKern[1]
-                        # print("new kern is...")
-                        # print(font.kerning[newKern[0]])
-                        # print()
-
-
-                        # del font.kerning[("A","V")]
-                        # font.kerning[("A", "V")] = -20
-                    
-                #         # add newKern to newKerning
-                #         newKerning.append(newKern)
-                # else:
-                #     newKerning.append(kern) # does this need to also go above?
-
-
-            # font.kerning[("A", "V")] = -20
-
 
         font.save()
 
@@ -701,6 +582,26 @@ feature calt {{
     sub @high @high' by @mid;
     sub @mid @high' by @low;
 
+    # basic order: high mid low high mid low - etc
+
+    # prevent alt2 (high) from appearing three after alt2 uppercase
+    {f"{newline}    ".join([f"sub {c}.alt2 @uppercaseMid @uppercaseLow {c}.alt2' by {c}.alt3;" for c in uppercase])}
+    
+    # prevent default (mid) from appearing three after default uppercase
+    {f"{newline}    ".join([f"sub {c} @uppercaseLow @uppercaseHigh {c}' by {c}.alt3;" for c in uppercase])}
+    
+    # prevent alt1 (low) from appearing three after alt1 uppercase
+    {f"{newline}    ".join([f"sub {c}.alt1 @uppercaseHigh @uppercaseMid {c}.alt1' by {c}.alt3;" for c in uppercase])}
+    
+    # prevent alt2 (high) from appearing three after alt2 lowercase
+    {f"{newline}    ".join([f"sub {c}.alt2 @lowercaseMid @lowercaseLow {c}.alt2' by {c}.alt3;" for c in lowercase])}
+    
+    # prevent default (mid) from appearing three after default lowercase
+    {f"{newline}    ".join([f"sub {c} @lowercaseLow @lowercaseHigh {c}' by {c}.alt3;" for c in lowercase])}
+    
+    # prevent alt1 (low) from appearing three after alt1 lowercase
+    {f"{newline}    ".join([f"sub {c}.alt1 @lowercaseHigh @lowercaseMid {c}.alt1' by {c}.alt3;" for c in lowercase])}
+
 }} calt;
     """
 
@@ -746,7 +647,7 @@ def main():
     decomposeDigraphs(fonts)
 
     print("🤖 Making alts")
-    altsMadeForList = makeAlts(fonts, numOfAlts=numberOfAlts)
+    altsMadeForList = makeAlts(fonts, numOfAlts=3)
 
     print("🤖 Making composed alts point to alt components")
 
@@ -791,7 +692,7 @@ def main():
     correctAccents(fonts)
     
     print("🤖 Tying alts to default glyph kerning")
-    extendKerning(fonts, numOfAlts=numberOfAlts)
+    extendKerning(fonts)
 
     print("🤖 Generating calt feature")
     generateCalt(altsMadeForList)

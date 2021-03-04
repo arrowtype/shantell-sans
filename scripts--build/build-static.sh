@@ -13,4 +13,6 @@ done
 
 
 # fontmake -o otf -i -m $DS --no-production-names --output-dir fonts/shantell-sans-v12/statics
-fontmake -o ttf -i -m $DS --no-production-names --output-dir fonts/shantell-sans-v12/statics
+fontmake -o ttf -i -m $DS --no-production-names --output-dir fonts/shantell-sans-v13/statics
+
+# TODO? remove alts & calt code from static "normal" (non-bouncy, non-irregular) fonts
