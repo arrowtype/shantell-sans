@@ -234,14 +234,30 @@
       <string>guillemetleft</string>
       <string>guilsinglleft</string>
     </array>
+    <key>public.kern1.guil_left_case</key>
+    <array>
+      <string>guillemetleft.case</string>
+      <string>guilsinglleft.case</string>
+    </array>
     <key>public.kern1.guil_right</key>
     <array>
       <string>guillemetright</string>
       <string>guilsinglright</string>
     </array>
+    <key>public.kern1.guil_right_case</key>
+    <array>
+      <string>guillemetright.case</string>
+      <string>guilsinglright.case</string>
+    </array>
     <key>public.kern1.h</key>
     <array>
       <string>h</string>
+    </array>
+    <key>public.kern1.hyphen_case</key>
+    <array>
+      <string>emdash.case</string>
+      <string>endash.case</string>
+      <string>hyphen.case</string>
     </array>
     <key>public.kern1.i</key>
     <array>
@@ -592,10 +608,26 @@
       <string>guillemetleft</string>
       <string>guilsinglleft</string>
     </array>
+    <key>public.kern2.guil_left_case</key>
+    <array>
+      <string>guillemetleft.case</string>
+      <string>guilsinglleft.case</string>
+    </array>
     <key>public.kern2.guil_right</key>
     <array>
       <string>guillemetright</string>
       <string>guilsinglright</string>
+    </array>
+    <key>public.kern2.guil_right_case</key>
+    <array>
+      <string>guillemetright.case</string>
+      <string>guilsinglright.case</string>
+    </array>
+    <key>public.kern2.hyphen_case</key>
+    <array>
+      <string>emdash.case</string>
+      <string>endash.case</string>
+      <string>hyphen.case</string>
     </array>
     <key>public.kern2.i</key>
     <array>
