@@ -521,6 +521,8 @@
       <integer>-10</integer>
       <key>slash</key>
       <integer>-60</integer>
+      <key>trademark</key>
+      <integer>-70</integer>
     </dict>
     <key>backslash</key>
     <dict>
@@ -1284,6 +1286,8 @@
       <integer>10</integer>
       <key>slash</key>
       <integer>-20</integer>
+      <key>trademark</key>
+      <integer>20</integer>
     </dict>
     <key>eng</key>
     <dict>
@@ -1313,6 +1317,8 @@
       <integer>-60</integer>
       <key>slash</key>
       <integer>-20</integer>
+      <key>trademark</key>
+      <integer>-80</integer>
     </dict>
     <key>eth</key>
     <dict>
@@ -1354,6 +1360,8 @@
       <integer>-10</integer>
       <key>slash</key>
       <integer>-50</integer>
+      <key>trademark</key>
+      <integer>-30</integer>
     </dict>
     <key>exclam</key>
     <dict>
@@ -1469,6 +1477,8 @@
       <integer>-40</integer>
       <key>slash</key>
       <integer>-25</integer>
+      <key>trademark</key>
+      <integer>-45</integer>
     </dict>
     <key>hyphen</key>
     <dict>
@@ -1559,6 +1569,8 @@
       <integer>-5</integer>
       <key>slash</key>
       <integer>-40</integer>
+      <key>trademark</key>
+      <integer>-60</integer>
     </dict>
     <key>lcaron</key>
     <dict>
@@ -1602,6 +1614,8 @@
       <integer>-100</integer>
       <key>slash</key>
       <integer>-120</integer>
+      <key>trademark</key>
+      <integer>70</integer>
     </dict>
     <key>lslash</key>
     <dict>
@@ -1643,6 +1657,8 @@
       <integer>30</integer>
       <key>slash</key>
       <integer>-30</integer>
+      <key>trademark</key>
+      <integer>10</integer>
     </dict>
     <key>m</key>
     <dict>
@@ -1698,6 +1714,8 @@
       <integer>30</integer>
       <key>slash</key>
       <integer>-10</integer>
+      <key>trademark</key>
+      <integer>-110</integer>
     </dict>
     <key>parenleft</key>
     <dict>
@@ -3725,6 +3743,8 @@
       <integer>30</integer>
       <key>slash</key>
       <integer>-10</integer>
+      <key>trademark</key>
+      <integer>-170</integer>
     </dict>
     <key>public.kern1.c</key>
     <dict>
@@ -3760,6 +3780,8 @@
       <integer>-10</integer>
       <key>slash</key>
       <integer>-35</integer>
+      <key>trademark</key>
+      <integer>-70</integer>
     </dict>
     <key>public.kern1.d</key>
     <dict>
@@ -3784,6 +3806,8 @@
       <key>public.kern2.quote_straight</key>
       <integer>-30</integer>
       <key>quoteright</key>
+      <integer>-20</integer>
+      <key>trademark</key>
       <integer>-20</integer>
     </dict>
     <key>public.kern1.e</key>
@@ -3828,6 +3852,8 @@
       <integer>-70</integer>
       <key>slash</key>
       <integer>-35</integer>
+      <key>trademark</key>
+      <integer>-110</integer>
     </dict>
     <key>public.kern1.f</key>
     <dict>
@@ -3875,6 +3901,8 @@
       <integer>-95</integer>
       <key>slash</key>
       <integer>-90</integer>
+      <key>trademark</key>
+      <integer>20</integer>
     </dict>
     <key>public.kern1.g</key>
     <dict>
@@ -3912,6 +3940,8 @@
       <integer>-60</integer>
       <key>quotesinglbase</key>
       <integer>30</integer>
+      <key>trademark</key>
+      <integer>-80</integer>
     </dict>
     <key>public.kern1.guil_left</key>
     <dict>
@@ -4191,6 +4221,8 @@
       <integer>20</integer>
       <key>slash</key>
       <integer>-20</integer>
+      <key>trademark</key>
+      <integer>-110</integer>
     </dict>
     <key>public.kern1.hyphen_case</key>
     <dict>
@@ -4327,6 +4359,8 @@
       <integer>-10</integer>
       <key>slash</key>
       <integer>-40</integer>
+      <key>trademark</key>
+      <integer>-70</integer>
     </dict>
     <key>public.kern1.l</key>
     <dict>
@@ -4364,6 +4398,8 @@
       <integer>-75</integer>
       <key>quotesinglbase</key>
       <integer>10</integer>
+      <key>trademark</key>
+      <integer>-40</integer>
     </dict>
     <key>public.kern1.n</key>
     <dict>
@@ -4496,6 +4532,8 @@
       <integer>-10</integer>
       <key>slash</key>
       <integer>-45</integer>
+      <key>trademark</key>
+      <integer>-70</integer>
     </dict>
     <key>public.kern1.oslash</key>
     <dict>
@@ -4562,6 +4600,8 @@
       <integer>-65</integer>
       <key>slash</key>
       <integer>-30</integer>
+      <key>trademark</key>
+      <integer>-70</integer>
     </dict>
     <key>public.kern1.period</key>
     <dict>
@@ -4819,6 +4859,8 @@
       <integer>-140</integer>
       <key>slash</key>
       <integer>-90</integer>
+      <key>trademark</key>
+      <integer>-40</integer>
     </dict>
     <key>public.kern1.s</key>
     <dict>
@@ -4862,6 +4904,8 @@
       <integer>-40</integer>
       <key>slash</key>
       <integer>-20</integer>
+      <key>trademark</key>
+      <integer>-70</integer>
     </dict>
     <key>public.kern1.t</key>
     <dict>
@@ -4899,6 +4943,8 @@
       <integer>10</integer>
       <key>slash</key>
       <integer>-25</integer>
+      <key>trademark</key>
+      <integer>-40</integer>
     </dict>
     <key>public.kern1.u</key>
     <dict>
@@ -4950,6 +4996,8 @@
       <integer>-45</integer>
       <key>slash</key>
       <integer>-65</integer>
+      <key>trademark</key>
+      <integer>-60</integer>
     </dict>
     <key>public.kern1.v</key>
     <dict>
@@ -5003,6 +5051,8 @@
       <integer>-140</integer>
       <key>slash</key>
       <integer>-90</integer>
+      <key>trademark</key>
+      <integer>-30</integer>
     </dict>
     <key>public.kern1.w</key>
     <dict>
@@ -5054,6 +5104,8 @@
       <integer>-60</integer>
       <key>slash</key>
       <integer>-60</integer>
+      <key>trademark</key>
+      <integer>-10</integer>
     </dict>
     <key>public.kern1.x</key>
     <dict>
@@ -5091,6 +5143,8 @@
       <integer>30</integer>
       <key>slash</key>
       <integer>-10</integer>
+      <key>trademark</key>
+      <integer>-40</integer>
     </dict>
     <key>public.kern1.y</key>
     <dict>
@@ -5134,6 +5188,8 @@
       <integer>20</integer>
       <key>slash</key>
       <integer>-10</integer>
+      <key>trademark</key>
+      <integer>-45</integer>
     </dict>
     <key>public.kern1.z</key>
     <dict>
@@ -5179,6 +5235,8 @@
       <integer>-20</integer>
       <key>slash</key>
       <integer>-25</integer>
+      <key>trademark</key>
+      <integer>-85</integer>
     </dict>
     <key>q</key>
     <dict>
@@ -5218,6 +5276,8 @@
       <integer>60</integer>
       <key>slash</key>
       <integer>40</integer>
+      <key>trademark</key>
+      <integer>-70</integer>
     </dict>
     <key>question</key>
     <dict>
