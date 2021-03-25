@@ -253,6 +253,12 @@
     <array>
       <string>h</string>
     </array>
+    <key>public.kern1.hyphen_case</key>
+    <array>
+      <string>emdash.case</string>
+      <string>endash.case</string>
+      <string>hyphen.case</string>
+    </array>
     <key>public.kern1.i</key>
     <array>
       <string>i</string>
@@ -616,6 +622,12 @@
     <array>
       <string>guillemetright.case</string>
       <string>guilsinglright.case</string>
+    </array>
+    <key>public.kern2.hyphen_case</key>
+    <array>
+      <string>emdash.case</string>
+      <string>endash.case</string>
+      <string>hyphen.case</string>
     </array>
     <key>public.kern2.i</key>
     <array>

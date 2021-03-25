@@ -470,6 +470,8 @@
       <key>presets</key>
       <dict/>
     </dict>
+    <key>com.robofont.generateFeaturesWithFontTools</key>
+    <false/>
     <key>com.schriftgestaltung.disablesAutomaticAlignment</key>
     <false/>
     <key>com.schriftgestaltung.fontMaster.userData</key>
@@ -739,10 +741,38 @@
         <integer>0</integer>
         <real>0.25</real>
       </array>
+      <key>public.kern1.guil_left_case</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.guil_right</key>
+      <array>
+        <real>1.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.guil_right_case</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern1.h</key>
       <array>
         <real>1.0</real>
         <real>0.0</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.hyphen_case</key>
+      <array>
+        <real>0.0</real>
+        <real>0.5</real>
         <real>1.0</real>
         <real>0.25</real>
       </array>
@@ -800,6 +830,20 @@
         <real>1.0</real>
         <real>0.0</real>
         <real>1.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.period</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.quote_straight</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.r</key>
@@ -1068,11 +1112,39 @@
         <integer>0</integer>
         <real>0.25</real>
       </array>
+      <key>public.kern2.guil_left</key>
+      <array>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.guil_left_case</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern2.guil_right</key>
       <array>
         <integer>1</integer>
         <integer>1</integer>
         <integer>0</integer>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.guil_right_case</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.hyphen_case</key>
+      <array>
+        <real>1.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.i</key>
@@ -1117,11 +1189,25 @@
         <integer>1</integer>
         <real>0.25</real>
       </array>
+      <key>public.kern2.period</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern2.q</key>
       <array>
         <real>1.0</real>
         <real>1.0</real>
         <real>0.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.quote_straight</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.r</key>
