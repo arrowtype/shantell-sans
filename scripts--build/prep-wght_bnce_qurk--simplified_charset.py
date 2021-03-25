@@ -454,8 +454,6 @@ def correctAccents(fonts):
     """
 
     for font in fonts:
-        print("\n\n----------------------------------------------------------------")
-        print(font.path)
         for g in font:
             if len(g.components) >= 2:
                 mainBase = findMainBaseGlyphName(font, g)
@@ -529,7 +527,13 @@ def extendKerning(fonts,numOfAlts=2):
 
         # then, add alt glyphs into the groups of default glyphs
         for g in font:
-            glyphBaseName = g.name.split(".")[0]
+            # get glyph’s base name pre-suffix if it is a generated "alt", but otherwise use the whole name
+            # get base name if glyph has suffix .alt1, etc
+            if "." in g.name and "alt" in g.name.split(".")[1]:
+                glyphBaseName = g.name.split(".")[0] 
+            else:
+                glyphBaseName = g.name
+
 
             # check what kern groups font[glyphBaseName] is in
             kernGroups = [groupName for groupName in font.groups.findGlyph(glyphBaseName) if "kern" in groupName]
@@ -538,17 +542,15 @@ def extendKerning(fonts,numOfAlts=2):
                 if g.name not in font.groups[kernGroup]:
                     font.groups[kernGroup] = font.groups[kernGroup] + (g.name,)
 
-                    # print(g.name, end=" ")
-                    # print(font.groups.findGlyph(g.name), end=" | ")
-
             # handle case if glyph is *not* in a kerning group already
 
             # if glyph is in no kerning groups yet
             if kernGroups == []:
                 # check if glyphBaseName has any kerning
                 if glyphBaseName in kernedGlyphs:
-                    kern1 = f'public.kern1.{glyphBaseName}'
-                    kern2 = f'public.kern2.{glyphBaseName}'
+                    # make group names, handling .case suffixes
+                    kern1 = f'public.kern1.{glyphBaseName.replace(".","_")}'
+                    kern2 = f'public.kern2.{glyphBaseName.replace(".","_")}'
 
                     # make list of glyph plus alts
                     glyphVersionNames = [glyphBaseName] + [glyphBaseName + f".alt{i+1}" for i in range(numOfAlts)]
@@ -557,98 +559,45 @@ def extendKerning(fonts,numOfAlts=2):
                     font.groups[kern1] = [name for name in glyphVersionNames]
                     font.groups[kern2] = [name for name in glyphVersionNames]
 
-                    print()
-                    print(kern1)
-                    print(font.groups[kern1])
-                    print()
-                    print(kern2)
-                    print(font.groups[kern2])
-
-        # TODO: update kerning.plist to swap original glyph name for kern group name, left and right
-        ## kerning looks like a list: [(("A", "V"), -30), (("A", "W"), -10)]
-
-        # make new list to store editing kerning ?
-        # newKerning = []
-
         for kern in font.kerning.items():
             newKern = ()
             newKern1 = ()
             newKern2 = ()
-            print("\n----------------------------\n")
+            
+            # this goes through the glyphs in each item, which each look like (("A", "W"), -10) or (("public.kern1.y", "public.kern2.guillemetright"), 20), etc
             for i, name in enumerate(kern[0]):
                 side = i+1
-                # if side is not a group already...
+
+                # if side kern is not a group already...
                 if "public.kern" not in name:
-                    # check if side is in group(s)
-                    glyphBaseName = name.split(".")[0]
-                    kernGroups = [groupName for groupName in font.groups.findGlyph(glyphBaseName) if "kern" in groupName]
-                    # if it is in group(s)...
+                    # if the glyph is not in group(s)...
                     if kernGroups != []:
                         # make new kern with side1 set to group
                         if side == 1:
-
-                            groupName = f'public.kern1.{glyphBaseName}'
+                            # make new group name, dealing with suffixed glyph names like /slash.case
+                            groupName = f'public.kern1.{name.replace(".","_")}'
                             newKern1 = ((groupName, kern[0][1]), kern[1])
 
-                            print()
-                            print(f"old kern {kern[0]} was...")
-                            print(font.kerning[kern[0]])
                             del font.kerning[kern[0]]
 
-                            print(f"newish kern {newKern1[0]} is...")
                             font.kerning[newKern1[0]] = newKern1[1]
-                            print(font.kerning[newKern1[0]])
                         
                         # make new kern with side2 set to group
                         if side == 2:
 
-                            # TODO: replace 'kern' if side1 didn’t update, otherwise replace 'newKern1'
-
-                            groupName = f'public.kern2.{glyphBaseName}'
+                            groupName = f'public.kern2.{name.replace(".","_")}'
 
                             # if a newKern1 was not made
                             try:
                                 newKern2 = ((kern[0][0], groupName), kern[1])
-                                print()
-                                print(f"old kern {kern[0]} was...")
-                                print(font.kerning[kern[0]])
                                 del font.kerning[kern[0]]
 
                             # if a newKern1 was made for side 1
                             except (KeyError, IndexError):
                                 newKern2 = ((newKern1[0][0], groupName), newKern1[1])
-                                print()
-                                print(f"newKern1 {newKern1[0]} was...")
-                                print(font.kerning[newKern1[0]])
                                 del font.kerning[newKern1[0]]
 
-                            print(f"newKern2 {newKern2[0]} is...")
                             font.kerning[newKern2[0]] = newKern2[1]
-                            print(font.kerning[newKern2[0]])
-
-                        # # delete old kern
-                        # # set new kern
-                        # print()
-                        # print("old kern is...")
-                        # print(font.kerning[kern[0]])
-                        # del font.kerning[kern[0]]
-                        # font.kerning[newKern[0]] = newKern[1]
-                        # print("new kern is...")
-                        # print(font.kerning[newKern[0]])
-                        # print()
-
-
-                        # del font.kerning[("A","V")]
-                        # font.kerning[("A", "V")] = -20
-                    
-                #         # add newKern to newKerning
-                #         newKerning.append(newKern)
-                # else:
-                #     newKerning.append(kern) # does this need to also go above?
-
-
-            # font.kerning[("A", "V")] = -20
-
 
         font.save()
 
