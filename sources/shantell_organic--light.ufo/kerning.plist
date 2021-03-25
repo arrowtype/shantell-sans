@@ -20,7 +20,7 @@
       <integer>10</integer>
       <key>parenright</key>
       <integer>-30</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-10</integer>
       <key>quotedblbase</key>
       <integer>30</integer>
@@ -57,17 +57,17 @@
       <integer>-100</integer>
       <key>parenright.case</key>
       <integer>-30</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_left_case</key>
+      <key>public.kern2.guillemetleft_case</key>
       <integer>-50</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_right_case</key>
+      <key>public.kern2.guillemetright_case</key>
       <integer>-30</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-50</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-60</integer>
       <key>question</key>
       <integer>-40</integer>
@@ -118,17 +118,17 @@
       <integer>-20</integer>
       <key>public.kern2.T</key>
       <integer>-25</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_right_case</key>
+      <key>public.kern2.guillemetright_case</key>
       <integer>-20</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-5</integer>
       <key>public.kern2.n</key>
       <integer>-10</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-35</integer>
       <key>question</key>
       <integer>-20</integer>
@@ -165,13 +165,13 @@
       <integer>-60</integer>
       <key>parenright</key>
       <integer>-30</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-20</integer>
-      <key>public.kern2.guil_left_case</key>
+      <key>public.kern2.guillemetleft_case</key>
       <integer>-40</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-30</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-50</integer>
       <key>quotedblleft</key>
       <integer>-20</integer>
@@ -216,15 +216,15 @@
       <integer>-60</integer>
       <key>parenright.case</key>
       <integer>10</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-20</integer>
-      <key>public.kern2.guil_left_case</key>
+      <key>public.kern2.guillemetleft_case</key>
       <integer>-70</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-90</integer>
       <key>public.kern2.period</key>
       <integer>40</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-110</integer>
       <key>question</key>
       <integer>-90</integer>
@@ -295,15 +295,15 @@
       <integer>-10</integer>
       <key>public.kern2.Y</key>
       <integer>-30</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_left_case</key>
+      <key>public.kern2.guillemetleft_case</key>
       <integer>-20</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-30</integer>
       <key>public.kern2.period</key>
       <integer>20</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-60</integer>
       <key>question</key>
       <integer>-40</integer>
@@ -342,17 +342,17 @@
       <integer>-80</integer>
       <key>parenright</key>
       <integer>-50</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-20</integer>
-      <key>public.kern2.guil_left_case</key>
+      <key>public.kern2.guillemetleft_case</key>
       <integer>-50</integer>
-      <key>public.kern2.guil_right_case</key>
+      <key>public.kern2.guillemetright_case</key>
       <integer>-20</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-60</integer>
       <key>public.kern2.period</key>
       <integer>60</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-20</integer>
       <key>question</key>
       <integer>-30</integer>
@@ -399,17 +399,17 @@
       <integer>-50</integer>
       <key>parenright.case</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-40</integer>
-      <key>public.kern2.guil_left_case</key>
+      <key>public.kern2.guillemetleft_case</key>
       <integer>-20</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>-40</integer>
-      <key>public.kern2.guil_right_case</key>
+      <key>public.kern2.guillemetright_case</key>
       <integer>-55</integer>
       <key>public.kern2.period</key>
       <integer>-110</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-10</integer>
       <key>quotedblbase</key>
       <integer>-100</integer>
@@ -599,7 +599,7 @@
       <integer>-90</integer>
       <key>public.kern2.period</key>
       <integer>-30</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-30</integer>
       <key>question</key>
       <integer>-90</integer>
@@ -716,7 +716,7 @@
       <integer>-25</integer>
       <key>public.kern2.oslash</key>
       <integer>20</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-70</integer>
       <key>public.kern2.r</key>
       <integer>-50</integer>
@@ -1440,7 +1440,7 @@
       <integer>-10</integer>
       <key>public.kern2.o</key>
       <integer>-25</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-120</integer>
       <key>public.kern2.v</key>
       <integer>-90</integer>
@@ -1465,7 +1465,7 @@
       <integer>-30</integer>
       <key>parenright</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-10</integer>
       <key>public.kern2.period</key>
       <integer>20</integer>
@@ -1488,9 +1488,9 @@
       <integer>-120</integer>
       <key>parenright</key>
       <integer>-70</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>-10</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-60</integer>
       <key>question</key>
       <integer>-90</integer>
@@ -1523,7 +1523,7 @@
       <integer>-50</integer>
       <key>public.kern2.period</key>
       <integer>-10</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-30</integer>
       <key>question</key>
       <integer>-30</integer>
@@ -1622,11 +1622,11 @@
       <integer>-5</integer>
       <key>parenright</key>
       <integer>-60</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>-15</integer>
       <key>public.kern2.period</key>
       <integer>20</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-55</integer>
       <key>question</key>
       <integer>-50</integer>
@@ -1712,7 +1712,7 @@
       <integer>-60</integer>
       <key>parenright</key>
       <integer>-60</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-20</integer>
       <key>question</key>
       <integer>-70</integer>
@@ -1741,9 +1741,9 @@
       <integer>-30</integer>
       <key>parenright</key>
       <integer>50</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-30</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>40</integer>
       <key>question</key>
       <integer>30</integer>
@@ -1784,13 +1784,13 @@
       <integer>-40</integer>
       <key>parenright</key>
       <integer>-40</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>30</integer>
       <key>public.kern2.o</key>
       <integer>-10</integer>
       <key>public.kern2.period</key>
       <integer>50</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>20</integer>
       <key>question</key>
       <integer>-30</integer>
@@ -1827,9 +1827,9 @@
       <integer>-20</integer>
       <key>public.kern2.e</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-10</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-60</integer>
       <key>public.kern2.v</key>
       <integer>-20</integer>
@@ -2076,13 +2076,13 @@
       <integer>-45</integer>
       <key>public.kern2.a</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_right_case</key>
+      <key>public.kern2.guillemetright_case</key>
       <integer>-30</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>20</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-70</integer>
       <key>public.kern2.t</key>
       <integer>-10</integer>
@@ -2153,11 +2153,11 @@
       <integer>-10</integer>
       <key>public.kern2.T</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_left_case</key>
+      <key>public.kern2.guillemetleft_case</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>-10</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-40</integer>
@@ -2224,13 +2224,13 @@
       <integer>-10</integer>
       <key>public.kern2.X</key>
       <integer>10</integer>
-      <key>public.kern2.guil_left_case</key>
+      <key>public.kern2.guillemetleft_case</key>
       <integer>-40</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-40</integer>
       <key>public.kern2.period</key>
       <integer>-10</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-10</integer>
       <key>quotedblright</key>
       <integer>-10</integer>
@@ -2277,11 +2277,11 @@
       <integer>-10</integer>
       <key>public.kern2.Z</key>
       <integer>-30</integer>
-      <key>public.kern2.guil_left_case</key>
+      <key>public.kern2.guillemetleft_case</key>
       <integer>10</integer>
       <key>public.kern2.period</key>
       <integer>-70</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>10</integer>
       <key>question</key>
       <integer>-20</integer>
@@ -2328,7 +2328,7 @@
       <integer>-15</integer>
       <key>public.kern2.Oslash</key>
       <integer>-20</integer>
-      <key>public.kern2.guil_left_case</key>
+      <key>public.kern2.guillemetleft_case</key>
       <integer>-20</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-40</integer>
@@ -2389,11 +2389,11 @@
       <integer>10</integer>
       <key>public.kern2.Y</key>
       <integer>10</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-40</integer>
-      <key>public.kern2.guil_left_case</key>
+      <key>public.kern2.guillemetleft_case</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_right_case</key>
+      <key>public.kern2.guillemetright_case</key>
       <integer>-20</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-20</integer>
@@ -2464,11 +2464,11 @@
       <integer>-30</integer>
       <key>public.kern2.Z</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_right_case</key>
+      <key>public.kern2.guillemetright_case</key>
       <integer>-20</integer>
       <key>public.kern2.period</key>
       <integer>-20</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-20</integer>
       <key>question</key>
       <integer>-60</integer>
@@ -2525,11 +2525,11 @@
       <integer>-10</integer>
       <key>public.kern2.W</key>
       <integer>10</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-25</integer>
-      <key>public.kern2.guil_left_case</key>
+      <key>public.kern2.guillemetleft_case</key>
       <integer>-80</integer>
-      <key>public.kern2.guil_right_case</key>
+      <key>public.kern2.guillemetright_case</key>
       <integer>-20</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-90</integer>
@@ -2592,13 +2592,13 @@
       <integer>20</integer>
       <key>public.kern2.Y</key>
       <integer>20</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>-10</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-20</integer>
       <key>public.kern2.period</key>
       <integer>-20</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-20</integer>
       <key>quotedblright</key>
       <integer>-20</integer>
@@ -2657,17 +2657,17 @@
       <integer>-10</integer>
       <key>public.kern2.Y</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-50</integer>
-      <key>public.kern2.guil_left_case</key>
+      <key>public.kern2.guillemetleft_case</key>
       <integer>-120</integer>
-      <key>public.kern2.guil_right_case</key>
+      <key>public.kern2.guillemetright_case</key>
       <integer>-20</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-120</integer>
       <key>public.kern2.period</key>
       <integer>20</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-60</integer>
       <key>question</key>
       <integer>-10</integer>
@@ -2742,15 +2742,15 @@
       <integer>-10</integer>
       <key>public.kern2.Y</key>
       <integer>-60</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_left_case</key>
+      <key>public.kern2.guillemetleft_case</key>
       <integer>-50</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-90</integer>
       <key>public.kern2.period</key>
       <integer>30</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-120</integer>
       <key>question</key>
       <integer>-80</integer>
@@ -2797,11 +2797,11 @@
       <integer>-10</integer>
       <key>public.kern2.A</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>-10</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-10</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-10</integer>
       <key>quotedblright</key>
       <integer>-20</integer>
@@ -2870,13 +2870,13 @@
       <integer>-30</integer>
       <key>public.kern2.Z</key>
       <integer>-15</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_right_case</key>
+      <key>public.kern2.guillemetright_case</key>
       <integer>-10</integer>
       <key>public.kern2.period</key>
       <integer>-20</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-20</integer>
       <key>question</key>
       <integer>-55</integer>
@@ -2931,13 +2931,13 @@
       <integer>20</integer>
       <key>public.kern2.Z</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_right_case</key>
+      <key>public.kern2.guillemetright_case</key>
       <integer>-30</integer>
       <key>public.kern2.period</key>
       <integer>-30</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-10</integer>
       <key>quotedblbase</key>
       <integer>-30</integer>
@@ -3002,9 +3002,9 @@
       <integer>-30</integer>
       <key>public.kern2.a</key>
       <integer>-30</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-30</integer>
-      <key>public.kern2.guil_right_case</key>
+      <key>public.kern2.guillemetright_case</key>
       <integer>10</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-20</integer>
@@ -3012,7 +3012,7 @@
       <integer>-20</integer>
       <key>public.kern2.period</key>
       <integer>-120</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>10</integer>
       <key>quotedblbase</key>
       <integer>-100</integer>
@@ -3055,11 +3055,11 @@
       <integer>-25</integer>
       <key>public.kern2.Z</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_right_case</key>
+      <key>public.kern2.guillemetright_case</key>
       <integer>-20</integer>
       <key>public.kern2.period</key>
       <integer>-20</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-30</integer>
       <key>question</key>
       <integer>-40</integer>
@@ -3114,15 +3114,15 @@
       <integer>-30</integer>
       <key>public.kern2.Oslash</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-60</integer>
-      <key>public.kern2.guil_left_case</key>
+      <key>public.kern2.guillemetleft_case</key>
       <integer>-20</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-50</integer>
       <key>public.kern2.period</key>
       <integer>50</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-10</integer>
       <key>quotedbl</key>
       <integer>10</integer>
@@ -3175,17 +3175,17 @@
       <integer>-10</integer>
       <key>public.kern2.T</key>
       <integer>-20</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_left_case</key>
+      <key>public.kern2.guillemetleft_case</key>
       <integer>-60</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>-20</integer>
-      <key>public.kern2.guil_right_case</key>
+      <key>public.kern2.guillemetright_case</key>
       <integer>-10</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-65</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-20</integer>
       <key>quotedblleft</key>
       <integer>-10</integer>
@@ -3256,13 +3256,13 @@
       <integer>-110</integer>
       <key>public.kern2.g</key>
       <integer>-110</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-100</integer>
-      <key>public.kern2.guil_left_case</key>
+      <key>public.kern2.guillemetleft_case</key>
       <integer>-90</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>-90</integer>
-      <key>public.kern2.guil_right_case</key>
+      <key>public.kern2.guillemetright_case</key>
       <integer>-60</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-110</integer>
@@ -3276,7 +3276,7 @@
       <integer>-120</integer>
       <key>public.kern2.q</key>
       <integer>-110</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>20</integer>
       <key>public.kern2.r</key>
       <integer>-90</integer>
@@ -3333,9 +3333,9 @@
       <integer>-30</integer>
       <key>public.kern2.W</key>
       <integer>10</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>10</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>-10</integer>
       <key>public.kern2.period</key>
       <integer>-10</integer>
@@ -3410,13 +3410,13 @@
       <integer>-90</integer>
       <key>public.kern2.g</key>
       <integer>-80</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-100</integer>
-      <key>public.kern2.guil_left_case</key>
+      <key>public.kern2.guillemetleft_case</key>
       <integer>-70</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>-40</integer>
-      <key>public.kern2.guil_right_case</key>
+      <key>public.kern2.guillemetright_case</key>
       <integer>-10</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-100</integer>
@@ -3430,7 +3430,7 @@
       <integer>-150</integer>
       <key>public.kern2.q</key>
       <integer>-90</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>10</integer>
       <key>public.kern2.r</key>
       <integer>-50</integer>
@@ -3541,13 +3541,13 @@
       <integer>-50</integer>
       <key>public.kern2.g</key>
       <integer>-40</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-50</integer>
-      <key>public.kern2.guil_left_case</key>
+      <key>public.kern2.guillemetleft_case</key>
       <integer>-45</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>-40</integer>
-      <key>public.kern2.guil_right_case</key>
+      <key>public.kern2.guillemetright_case</key>
       <integer>-30</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-50</integer>
@@ -3559,7 +3559,7 @@
       <integer>-60</integer>
       <key>public.kern2.q</key>
       <integer>-30</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-10</integer>
       <key>public.kern2.r</key>
       <integer>-30</integer>
@@ -3624,19 +3624,19 @@
       <integer>-25</integer>
       <key>public.kern2.V</key>
       <integer>10</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-40</integer>
-      <key>public.kern2.guil_left_case</key>
+      <key>public.kern2.guillemetleft_case</key>
       <integer>-60</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>-30</integer>
-      <key>public.kern2.guil_right_case</key>
+      <key>public.kern2.guillemetright_case</key>
       <integer>-35</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-70</integer>
       <key>public.kern2.period</key>
       <integer>20</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-10</integer>
       <key>quotedbl</key>
       <integer>-10</integer>
@@ -3723,13 +3723,13 @@
       <integer>-120</integer>
       <key>public.kern2.g</key>
       <integer>-120</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-140</integer>
-      <key>public.kern2.guil_left_case</key>
+      <key>public.kern2.guillemetleft_case</key>
       <integer>-120</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>-70</integer>
-      <key>public.kern2.guil_right_case</key>
+      <key>public.kern2.guillemetright_case</key>
       <integer>-45</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-90</integer>
@@ -3816,17 +3816,17 @@
       <integer>-20</integer>
       <key>public.kern2.Y</key>
       <integer>-20</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-40</integer>
-      <key>public.kern2.guil_left_case</key>
+      <key>public.kern2.guillemetleft_case</key>
       <integer>-70</integer>
-      <key>public.kern2.guil_right_case</key>
+      <key>public.kern2.guillemetright_case</key>
       <integer>-30</integer>
       <key>public.kern2.hyphen_case</key>
       <integer>-100</integer>
       <key>public.kern2.period</key>
       <integer>30</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-30</integer>
       <key>question</key>
       <integer>-10</integer>
@@ -3869,13 +3869,13 @@
       <integer>-40</integer>
       <key>public.kern2.g</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-10</integer>
       <key>public.kern2.o</key>
       <integer>-20</integer>
       <key>public.kern2.period</key>
       <integer>30</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-80</integer>
       <key>public.kern2.r</key>
       <integer>-20</integer>
@@ -3922,11 +3922,11 @@
       <integer>-30</integer>
       <key>parenright</key>
       <integer>-40</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>20</integer>
       <key>public.kern2.period</key>
       <integer>30</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-20</integer>
       <key>public.kern2.t</key>
       <integer>-10</integer>
@@ -3961,9 +3961,9 @@
       <integer>-25</integer>
       <key>parenright</key>
       <integer>-20</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-20</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-20</integer>
       <key>question</key>
       <integer>-10</integer>
@@ -3998,7 +3998,7 @@
       <integer>-10</integer>
       <key>parenright</key>
       <integer>-90</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-40</integer>
       <key>public.kern2.r</key>
       <integer>-10</integer>
@@ -4043,15 +4043,15 @@
       <integer>-60</integer>
       <key>parenright</key>
       <integer>40</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-30</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>30</integer>
       <key>public.kern2.o</key>
       <integer>-55</integer>
       <key>public.kern2.period</key>
       <integer>-80</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>40</integer>
       <key>question</key>
       <integer>40</integer>
@@ -4084,11 +4084,11 @@
       <integer>40</integer>
       <key>parenright</key>
       <integer>-40</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-10</integer>
       <key>public.kern2.period</key>
       <integer>10</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-60</integer>
       <key>public.kern2.v</key>
       <integer>-10</integer>
@@ -4107,7 +4107,7 @@
       <key>trademark</key>
       <integer>-70</integer>
     </dict>
-    <key>public.kern1.guil_left</key>
+    <key>public.kern1.guillemetleft</key>
     <dict>
       <key>H</key>
       <integer>-20</integer>
@@ -4180,7 +4180,7 @@
       <key>public.kern2.x</key>
       <integer>-5</integer>
     </dict>
-    <key>public.kern1.guil_left_case</key>
+    <key>public.kern1.guillemetleft_case</key>
     <dict>
       <key>Germandbls</key>
       <integer>-30</integer>
@@ -4227,7 +4227,7 @@
       <key>public.kern2.Z</key>
       <integer>-20</integer>
     </dict>
-    <key>public.kern1.guil_right</key>
+    <key>public.kern1.guillemetright</key>
     <dict>
       <key>H</key>
       <integer>-10</integer>
@@ -4288,7 +4288,7 @@
       <key>public.kern2.z</key>
       <integer>-20</integer>
     </dict>
-    <key>public.kern1.guil_right_case</key>
+    <key>public.kern1.guillemetright_case</key>
     <dict>
       <key>Germandbls</key>
       <integer>-10</integer>
@@ -4351,7 +4351,7 @@
       <integer>-15</integer>
       <key>public.kern2.period</key>
       <integer>20</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-60</integer>
       <key>public.kern2.r</key>
       <integer>-10</integer>
@@ -4429,9 +4429,9 @@
       <integer>-10</integer>
       <key>parenright</key>
       <integer>-20</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-10</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-20</integer>
       <key>quotedblbase</key>
       <integer>10</integer>
@@ -4456,13 +4456,13 @@
       <integer>-10</integer>
       <key>comma</key>
       <integer>40</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>10</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>10</integer>
       <key>public.kern2.period</key>
       <integer>20</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-20</integer>
       <key>question</key>
       <integer>-10</integer>
@@ -4491,13 +4491,13 @@
       <integer>-80</integer>
       <key>parenright</key>
       <integer>-70</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-30</integer>
       <key>public.kern2.o</key>
       <integer>-30</integer>
       <key>public.kern2.period</key>
       <integer>20</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-10</integer>
       <key>question</key>
       <integer>-30</integer>
@@ -4532,11 +4532,11 @@
       <integer>-40</integer>
       <key>parenright</key>
       <integer>-20</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-10</integer>
       <key>public.kern2.period</key>
       <integer>60</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-60</integer>
       <key>question</key>
       <integer>-40</integer>
@@ -4581,13 +4581,13 @@
       <integer>-60</integer>
       <key>public.kern2.a</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-15</integer>
       <key>public.kern2.o</key>
       <integer>-10</integer>
       <key>public.kern2.period</key>
       <integer>20</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-50</integer>
       <key>public.kern2.r</key>
       <integer>-10</integer>
@@ -4630,11 +4630,11 @@
       <integer>-100</integer>
       <key>public.kern2.Y</key>
       <integer>-60</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>-20</integer>
       <key>public.kern2.period</key>
       <integer>-10</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-30</integer>
       <key>public.kern2.r</key>
       <integer>-10</integer>
@@ -4679,7 +4679,7 @@
       <integer>-60</integer>
       <key>public.kern2.period</key>
       <integer>-10</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>20</integer>
       <key>question</key>
       <integer>-20</integer>
@@ -4712,7 +4712,7 @@
       <integer>-105</integer>
       <key>public.kern2.period</key>
       <integer>10</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-50</integer>
       <key>question</key>
       <integer>-80</integer>
@@ -4805,7 +4805,7 @@
       <integer>-10</integer>
       <key>public.kern2.oslash</key>
       <integer>15</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-80</integer>
       <key>public.kern2.r</key>
       <integer>-10</integer>
@@ -4830,7 +4830,7 @@
       <key>quoteright</key>
       <integer>-90</integer>
     </dict>
-    <key>public.kern1.quote_straight</key>
+    <key>public.kern1.quotesingle</key>
     <dict>
       <key>Germandbls</key>
       <integer>-10</integer>
@@ -4987,9 +4987,9 @@
       <integer>-40</integer>
       <key>public.kern2.e</key>
       <integer>-50</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-50</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>10</integer>
       <key>public.kern2.n</key>
       <integer>-10</integer>
@@ -5032,9 +5032,9 @@
       <integer>-30</integer>
       <key>parenright</key>
       <integer>-90</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>-10</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-25</integer>
       <key>public.kern2.r</key>
       <integer>-10</integer>
@@ -5089,13 +5089,13 @@
       <integer>-10</integer>
       <key>public.kern2.g</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-30</integer>
       <key>public.kern2.o</key>
       <integer>-10</integer>
       <key>public.kern2.period</key>
       <integer>20</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-10</integer>
       <key>public.kern2.u</key>
       <integer>-10</integer>
@@ -5130,7 +5130,7 @@
       <integer>-40</integer>
       <key>public.kern2.period</key>
       <integer>-10</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-10</integer>
       <key>public.kern2.t</key>
       <integer>-10</integer>
@@ -5163,7 +5163,7 @@
       <integer>-10</integer>
       <key>public.kern2.e</key>
       <integer>-35</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-30</integer>
       <key>public.kern2.n</key>
       <integer>-10</integer>
@@ -5171,7 +5171,7 @@
       <integer>-25</integer>
       <key>public.kern2.period</key>
       <integer>-90</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>20</integer>
       <key>public.kern2.s</key>
       <integer>-10</integer>
@@ -5212,13 +5212,13 @@
       <integer>-10</integer>
       <key>public.kern2.e</key>
       <integer>-20</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-10</integer>
       <key>public.kern2.o</key>
       <integer>-20</integer>
       <key>public.kern2.period</key>
       <integer>-40</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>20</integer>
       <key>public.kern2.s</key>
       <integer>-10</integer>
@@ -5253,13 +5253,13 @@
       <integer>-40</integer>
       <key>public.kern2.a</key>
       <integer>-10</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-20</integer>
       <key>public.kern2.o</key>
       <integer>-10</integer>
       <key>public.kern2.period</key>
       <integer>40</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>10</integer>
       <key>public.kern2.x</key>
       <integer>30</integer>
@@ -5296,11 +5296,11 @@
       <integer>-20</integer>
       <key>parenright</key>
       <integer>-50</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-5</integer>
-      <key>public.kern2.guil_right</key>
+      <key>public.kern2.guillemetright</key>
       <integer>-5</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-30</integer>
       <key>public.kern2.t</key>
       <integer>-5</integer>
@@ -5339,9 +5339,9 @@
       <integer>-50</integer>
       <key>parenright</key>
       <integer>-80</integer>
-      <key>public.kern2.guil_left</key>
+      <key>public.kern2.guillemetleft</key>
       <integer>-20</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>-30</integer>
       <key>question</key>
       <integer>-100</integer>
@@ -6162,7 +6162,7 @@
     <dict>
       <key>public.kern2.o</key>
       <integer>-10</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>10</integer>
     </dict>
     <key>slash</key>
@@ -6271,7 +6271,7 @@
       <integer>-75</integer>
       <key>public.kern2.q</key>
       <integer>-60</integer>
-      <key>public.kern2.quote_straight</key>
+      <key>public.kern2.quotesingle</key>
       <integer>30</integer>
       <key>public.kern2.r</key>
       <integer>-30</integer>
