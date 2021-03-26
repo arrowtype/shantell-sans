@@ -12,7 +12,7 @@ for ufo in $parentDir/*.ufo; do
 done
 
 
-fontmake -o otf -i -m $DS --no-production-names --output-dir fonts/shantell-sans-v13/static-OTF
-# fontmake -o ttf -i -m $DS --no-production-names --output-dir fonts/shantell-sans-v13/static-TTF
+# fontmake -o otf -i -m $DS --no-production-names --output-dir fonts/shantell-sans-v14/static-OTF
+fontmake -o ttf -i -m $DS --no-production-names --output-dir fonts/shantell-sans-v14/static-TTF
 
 # TODO? remove alts & calt code from static "normal" (non-bouncy, non-irregular) fonts

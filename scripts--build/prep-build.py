@@ -41,7 +41,7 @@ sources = {
 prepDir = 'sources/wght_BNCE_IRGL--prepped'
 
 # designspaces copied into prepped folder
-designspaces = ["sources/shantell-wght_BNCE_IRGL--reverse_bounce.designspace", "sources/shantell-wght_BNCE_IRGL--reverse_bounce--static.designspace"]
+designspaces = ["sources/shantell_sans-wght_BNCE_IRGL.designspace", "sources/shantell_sans-wght_BNCE_IRGL--static.designspace"]
 
 # NOTE: if you really want *all* characters to have alts, use this instead. But it makes the font filesize quite a bit bigger.
 # altsToMake = "AÀÁÂÃÄÅĀĂĄǍBCÇĆČDĎEÈÉÊËĒĔĘĚFGĞHIÌÍÎÏĪĬĮİJKLMNÑŃŇOÒÓÔÕÖŌŎŐPQRŔŘSŚŞŠTŤUÙÚÛÜŪŬŮŰŲǓVWXYÝŸZŹŻŽÆØǾĲŁŒΩaàáâãäåāăąǎbcçćčdďeèéêëēĕęěfgğhiìíîïīĭįjklmnñńňoòóôõöōŏőpqrŕřsśşštťuùúûüūŭůűųǔvwxyýÿzźżžßæÞðþẞ"
