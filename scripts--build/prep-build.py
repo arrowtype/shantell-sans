@@ -38,7 +38,7 @@ sources = {
 }
 
 # where prepped UFOs are put
-prepDir = 'sources/wght_BNCE_IRGL-prepped'
+prepDir = 'sources/wght_BNCE_IRGL--prepped'
 
 # designspaces copied into prepped folder
 designspaces = ["sources/shantell-wght_BNCE_IRGL--reverse_bounce.designspace", "sources/shantell-wght_BNCE_IRGL--reverse_bounce--static.designspace"]
@@ -566,25 +566,12 @@ def generateCalt(glyphNames):
 
     glyphNames = sorted(glyphNames)
 
-    # for 3 alts / 4 versions for glyph
-    # calt = f"""\
-    # feature calt {{
-    #     @randomCycle1 = [{" ".join(name + '     ' for name in glyphNames)}]; # default
-    #     @randomCycle2 = [{" ".join(name + '.alt1' for name in glyphNames)}]; # alt1
-    #     @randomCycle3 = [{" ".join(name + '.alt2' for name in glyphNames)}]; # alt2
-    #     @randomCycle4 = [{" ".join(name + '.alt3' for name in glyphNames)}]; # alt3
-        
-    #     # avoids setting biggest transformations at the start of words in Irregular/Flux styles
-    #     sub @randomCycle1 by @randomCycle4;
-    #     sub @randomCycle4 @randomCycle4' by @randomCycle2;
-    #     sub @randomCycle2 @randomCycle4' by @randomCycle1;
-    #     sub @randomCycle1 @randomCycle4' by @randomCycle3;
-    # }} calt;
-    # """
-
     newline = "\n"
 
-    # for 2 alts / 3 versions for glyph
+    # avoids setting biggest transformations at the start of words in Irregular/Flux styles
+    # paradoxically, it tends to look *more* random to usually rotate through 3 versions per glyph than 4
+    # then, the 4th version comes in handy to disrupt potentially repetition in a word like "EXPERIENCE"
+    
     calt = f"""\
 feature calt {{
 
@@ -599,8 +586,7 @@ feature calt {{
     @mid = [{" ".join(name + '     ' for name in glyphNames)}];
     @low = [{" ".join(name + '.alt1' for name in glyphNames)}];
     @high = [{" ".join(name + '.alt2' for name in glyphNames)}];
-    
-    # avoids setting biggest transformations at the start of words in Irregular/Flux styles
+
     sub @mid by @high;
     sub @high @high' by @mid;
     sub @mid @high' by @low;
