@@ -1,57 +1,18 @@
 """
     This script will...
-    1. Copy main & organic sources to new folder
+    1. Copy main & organic sources to new folder, along with designspace files
     2. Duplicate normal sources & run a "bouncy" filter on these, updating file & style names
     3. Make alts of glyphs, interpolating organic & bouncy glyphs with main sources
+    4. Add generated alts into kerning groups with their parents, to retain kerning in text
+    5. Generate a contextual alternates (calt) feature to rotate through alts in text
 
-    # TODO
-        - [x] remove unicodes from alts
-        - [x] dont mess up component glyphs in the shifted alts (shift components along with bases)
-            - [x] figure out how to also cover ogonek (not working somehow) and single-component glyphs like oslash and lslash
-        - [x] restrict this to *only* make shifted alts for a core character set (maybe ASCII?) – make this configurable with a list of characters
-            - [x] decide what accented characters to add
-        - [x] generate fresh calt feature code to make all alts work
-        - [x] copy designspaces into prep folder
-        - [x] fix alignment of accents in organic/irregular glyphs – probably reattach to anchors
-        - [ ] split "sources" dict into core sources vs generated sources
+    ASSUMPTIONS:
+    → kerning groups all match glyph names in them (replacing "." with "_" in .case glyphs)
+    → Many more. This is really for the Shantell Sans project only, though it could be adapted for others. 
+    → See configuration below.
 
-        Kerning/repeatability
-        - Does a typeface build need to be repeatable? That’s a philosophical question ... is it generally more useful if repeatable? Probably yes.
-        - That means that This script probably should be a build script used *every time*, but only something used once, or for new glyphs.
-            - [x] Probably, the generated UFOs should get a lib entry of shifted glyphs / transformations, and these could be repeated during this build.
-            - [x] check for recorded bounces before generating random new one
-                - [x] save to main font’s lib?
-                - [x] look in main font for moveY, then apply to bounce font
-            - [x] There also probably needs to be a way to record interpolations - ACTUALLY, this is already currently hard-coded to 0.1 and 0.66
-        - [ ] first, extend kerning groups to include all .alt1 and .alt2 glyphs with default glyphs - CRITICAL for kerning to work AT ALL, e.g. `Y.alt2 o y.alt1 o.alt2`
-        - This would also allow kerning exceptions to persist between builds.
-            - In this case, you need a way to record which kerns have been overridden versus which are just outdated.
-            - This could be a separate script which you run on saving the bouncy / irregular sources:
-                - [ ] First, do a manual test: are kerning overrides in bouncy sources good?
-                    - kerning orders: alt2_default, default_alt1, alt1_alt2
-                - [ ] check kerning vs normal, and record new diffs in baseFont lib
-                
-            - [ ] each time fonts are generated, check kerning overrides, and bring those in
-                
-            - This *should, in theory* allow new kerns to be introduced, where they were previously overridden 
-            - Overridden kerns should be kept deliberately sparse, to keep things clean overall
-
-        Maybe??
-        - [x] try a bouncy axis that can before 0 in the middle, but bounce up *or* down, to allow for a "wavy" animation
-        - [ ] figure out best sequence for up/down variation
-        - [x] re-fix accent attachment with this new postivie/negative bounce system
-
-        Also
-        - [ ] Link to this script at https://github.com/googlefonts/ufo2ft/issues/437 once the repo is public
-
-        Maybe?
-        - [x] build in feature copier? (currently, you have to separate copy in the features  )
-
-        # TODO: generate calt feature code to catch all glyphs with .alts, which would be:
-            - .case punctuation
-            - fractional figures
-
-        - [x] probably, you should make sure to SKIP shifting to numr/dnom figures, or it will break fractions
+    USAGE:
+    python3 scripts--build/prep-build.py
 """
 
 import os
@@ -64,9 +25,7 @@ from random import random
 # --------------------------------------------------------
 # START configuration
 
-# start with hardcoded paths; optimize later
-
-# TODO: split "sources" dict into core sources vs generated sources
+# could do: optimize later (?)
 sources = {
     "light": "sources/shantell--light.ufo",
     "extrabold": "sources/shantell--extrabold.ufo",
@@ -79,16 +38,16 @@ sources = {
 }
 
 # where prepped UFOs are put
-# prepDir = 'sources/wght_bnce_flux--bnce_rev--prepped'
-prepDir = 'sources/wght_bnce_flux--bnce_rev--4_alts_select_alpha--prepped'
+prepDir = 'sources/wght_BNCE_IRGL-prepped'
 
 # designspaces copied into prepped folder
 designspaces = ["sources/shantell-wght_BNCE_IRGL--reverse_bounce.designspace", "sources/shantell-wght_BNCE_IRGL--reverse_bounce--static.designspace"]
 
-# letters to make alts for (all letters)
+# NOTE: if you really want *all* characters to have alts, use this instead. But it makes the font filesize quite a bit bigger.
 # altsToMake = "AÀÁÂÃÄÅĀĂĄǍBCÇĆČDĎEÈÉÊËĒĔĘĚFGĞHIÌÍÎÏĪĬĮİJKLMNÑŃŇOÒÓÔÕÖŌŎŐPQRŔŘSŚŞŠTŤUÙÚÛÜŪŬŮŰŲǓVWXYÝŸZŹŻŽÆØǾĲŁŒΩaàáâãäåāăąǎbcçćčdďeèéêëēĕęěfgğhiìíîïīĭįjklmnñńňoòóôõöōŏőpqrŕřsśşštťuùúûüūŭůűųǔvwxyýÿzźżžßæÞðþẞ"
-altsToMake = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzßæÞðþẞ"
 
+# letters to make alts for (all letters)
+altsToMake = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzßæÞðþẞ"
 altsToMake += "ÉéÓóÍíÁáÜüÇçÃãÖöÄäÑñ"
 
 # numbers & basic symbols
@@ -604,9 +563,6 @@ def generateCalt(glyphNames):
     """
         Generate OpenType calt code
     """
-
-    # print(f"making calt code for:")
-    # print(f"{glyphNames}")
 
     glyphNames = sorted(glyphNames)
 
