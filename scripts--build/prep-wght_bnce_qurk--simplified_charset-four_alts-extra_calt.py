@@ -80,13 +80,16 @@ sources = {
 
 # where prepped UFOs are put
 # prepDir = 'sources/wght_bnce_flux--bnce_rev--prepped'
-prepDir = 'sources/wght_bnce_flux--bnce_rev--4_alts_b--prepped'
+prepDir = 'sources/wght_bnce_flux--bnce_rev--4_alts_select_alpha--prepped'
 
 # designspaces copied into prepped folder
 designspaces = ["sources/shantell-wght_BNCE_IRGL--reverse_bounce.designspace", "sources/shantell-wght_BNCE_IRGL--reverse_bounce--static.designspace"]
 
 # letters to make alts for (all letters)
-altsToMake = "AÀÁÂÃÄÅĀĂĄǍBCÇĆČDĎEÈÉÊËĒĔĘĚFGĞHIÌÍÎÏĪĬĮİJKLMNÑŃŇOÒÓÔÕÖŌŎŐPQRŔŘSŚŞŠTŤUÙÚÛÜŪŬŮŰŲǓVWXYÝŸZŹŻŽÆØǾĲŁŒΩaàáâãäåāăąǎbcçćčdďeèéêëēĕęěfgğhiìíîïīĭįjklmnñńňoòóôõöōŏőpqrŕřsśşštťuùúûüūŭůűųǔvwxyýÿzźżžßæÞðþẞ"
+# altsToMake = "AÀÁÂÃÄÅĀĂĄǍBCÇĆČDĎEÈÉÊËĒĔĘĚFGĞHIÌÍÎÏĪĬĮİJKLMNÑŃŇOÒÓÔÕÖŌŎŐPQRŔŘSŚŞŠTŤUÙÚÛÜŪŬŮŰŲǓVWXYÝŸZŹŻŽÆØǾĲŁŒΩaàáâãäåāăąǎbcçćčdďeèéêëēĕęěfgğhiìíîïīĭįjklmnñńňoòóôõöōŏőpqrŕřsśşštťuùúûüūŭůűųǔvwxyýÿzźżžßæÞðþẞ"
+altsToMake = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzßæÞðþẞ"
+
+altsToMake += "ÉéÓóÍíÁáÜüÇçÃãÖöÄäÑñ"
 
 # numbers & basic symbols
 altsToMake += "0123456789!\"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~“”‘’"
@@ -503,7 +506,7 @@ def correctAccents(fonts):
                     # get intersection
 
 
-def extendKerning(fonts):
+def extendKerning(fonts,numOfAlts=2):
     """
         Add .alt1 and .alt2 glyphs to kerning groups with defaults.
     """
@@ -514,21 +517,85 @@ def extendKerning(fonts):
     for font in fonts:
         # font.groups = coreGroups
 
-        # print("\n\n", font.path)
+        print("\n\n", font.path)
+
+        # make list of all glyphs with any kerning
+        kerning = font.kerning.keys()
+        kernedGlyphs = set([glyphName for pair in kerning for glyphName in pair])
 
         # then, add alt glyphs into the groups of default glyphs
         for g in font:
-            baseName = g.name.split(".")[0]
+            # get glyph’s base name pre-suffix if it is a generated "alt", but otherwise use the whole name
+            # get base name if glyph has suffix .alt1, etc
+            if "." in g.name and "alt" in g.name.split(".")[1]:
+                glyphBaseName = g.name.split(".")[0] 
+            else:
+                glyphBaseName = g.name
 
-            # check what kern1 group font[baseName] is in
-            kernGroups = [groupName for groupName in font.groups.findGlyph(baseName) if "kern" in groupName]
+
+            # check what kern groups font[glyphBaseName] is in
+            kernGroups = [groupName for groupName in font.groups.findGlyph(glyphBaseName) if "kern" in groupName]
             
             for kernGroup in kernGroups:
                 if g.name not in font.groups[kernGroup]:
                     font.groups[kernGroup] = font.groups[kernGroup] + (g.name,)
 
-                    # print(g.name, end=" ")
-                    # print(font.groups.findGlyph(g.name), end=" | ")
+            # handle case if glyph is *not* in a kerning group already
+
+            # if glyph is in no kerning groups yet
+            if kernGroups == []:
+                # check if glyphBaseName has any kerning
+                if glyphBaseName in kernedGlyphs:
+                    # make group names, handling .case suffixes
+                    kern1 = f'public.kern1.{glyphBaseName.replace(".","_")}'
+                    kern2 = f'public.kern2.{glyphBaseName.replace(".","_")}'
+
+                    # make list of glyph plus alts
+                    glyphVersionNames = [glyphBaseName] + [glyphBaseName + f".alt{i+1}" for i in range(numOfAlts)]
+
+                    # make list of glyphBaseName plus glyphBaseName.alt1, alt2, etc
+                    font.groups[kern1] = [name for name in glyphVersionNames]
+                    font.groups[kern2] = [name for name in glyphVersionNames]
+
+        for kern in font.kerning.items():
+            newKern = ()
+            newKern1 = ()
+            newKern2 = ()
+            
+            # this goes through the glyphs in each item, which each look like (("A", "W"), -10) or (("public.kern1.y", "public.kern2.guillemetright"), 20), etc
+            for i, name in enumerate(kern[0]):
+                side = i+1
+
+                # if side kern is not a group already...
+                if "public.kern" not in name:
+                    # if the glyph is not in group(s)...
+                    if kernGroups != []:
+                        # make new kern with side1 set to group
+                        if side == 1:
+                            # make new group name, dealing with suffixed glyph names like /slash.case
+                            groupName = f'public.kern1.{name.replace(".","_")}'
+                            newKern1 = ((groupName, kern[0][1]), kern[1])
+
+                            del font.kerning[kern[0]]
+
+                            font.kerning[newKern1[0]] = newKern1[1]
+                        
+                        # make new kern with side2 set to group
+                        if side == 2:
+
+                            groupName = f'public.kern2.{name.replace(".","_")}'
+
+                            # if a newKern1 was not made
+                            try:
+                                newKern2 = ((kern[0][0], groupName), kern[1])
+                                del font.kerning[kern[0]]
+
+                            # if a newKern1 was made for side 1
+                            except (KeyError, IndexError):
+                                newKern2 = ((newKern1[0][0], groupName), newKern1[1])
+                                del font.kerning[newKern1[0]]
+
+                            font.kerning[newKern2[0]] = newKern2[1]
 
         font.save()
 
