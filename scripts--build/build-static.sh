@@ -3,17 +3,34 @@
 set -e
 
 DS=$1
+outputDir="fonts/shantell-sans-v14"
 
 parentDir=$(dirname "$DS")
 for ufo in $parentDir/*.ufo; do
-    pwd
     python "./scripts--build/helpers/update-feature-code-for-statics.py" "$ufo"
-    # python "scripts--build/helpers/update-feature-code-for-statics-wght_bnce_flux-med_charset.py" "$ufo"
 done
 
-# try not optimizing the CFF table, because it takes a super long time
-fontmake -o otf -i -m $DS --output-dir fonts/shantell-sans-v14/static-OTF --optimize-cff=0
 
-fontmake -o ttf -i -m $DS --output-dir fonts/shantell-sans-v14/static-TTF
+# -----------------------------------------------------------------------------------
+# build static fonts
 
-# TODO? remove alts & calt code from static "normal" (non-bouncy, non-irregular) fonts
+# Build TTFs
+fontmake -o ttf -i -m $DS --output-dir $outputDir/static-TTF
+
+# Build OTFs (don’t optimize the CFF table, because it takes a super long time)
+fontmake -o otf -i -m $DS --output-dir $outputDir/static-OTF --optimize-cff=0
+
+
+# -----------------------------------------------------------------------------------
+# remove alts & calt code from static "normal" (non-bouncy, non-irregular) fonts
+
+normalStatics=$(ls $outputDir/static-*TF/*Normal*.*tf)
+
+for normalStatic in $normalStatics
+do  
+    # subset calt table out to avoid unused alts
+    pyftsubset $normalStatic --layout-features-="calt" --unicodes="*" --output-file="$normalStatic.subset"
+    # move subset file back to previous name
+    mv "$normalStatic.subset" $normalStatic
+done
+
