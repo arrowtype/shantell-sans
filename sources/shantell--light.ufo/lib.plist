@@ -1046,6 +1046,8 @@
       <real>87.0</real>
       <key>brevecomb.alt3</key>
       <real>-94.5</real>
+      <key>brokenbar</key>
+      <real>54.0</real>
       <key>bullet</key>
       <real>70.5</real>
       <key>bullet.case</key>
@@ -1124,6 +1126,8 @@
       <real>-64.5</real>
       <key>copyright</key>
       <real>51.0</real>
+      <key>currency</key>
+      <real>40.5</real>
       <key>d</key>
       <real>-66.0</real>
       <key>d.alt1</key>
@@ -1156,6 +1160,8 @@
       <real>-61.5</real>
       <key>divide</key>
       <real>-15.0</real>
+      <key>divisionslash</key>
+      <real>81.0</real>
       <key>dollar</key>
       <real>-85.5</real>
       <key>dollar.alt1</key>
@@ -1666,10 +1672,14 @@
       <real>99.0</real>
       <key>macroncomb.alt3</key>
       <real>93.0</real>
+      <key>minus</key>
+      <real>-22.5</real>
       <key>minute</key>
       <real>-85.5</real>
       <key>mu.math</key>
       <real>-66.0</real>
+      <key>multiply</key>
+      <real>28.5</real>
       <key>n</key>
       <real>-69.0</real>
       <key>n.alt1</key>
@@ -3620,7 +3630,6 @@
     <key>public.glyphOrder</key>
     <array>
       <string>space</string>
-      <string>nbspace</string>
       <string>A</string>
       <string>Agrave</string>
       <string>Aacute</string>
@@ -3883,7 +3892,6 @@
       <string>seveneighths</string>
       <string>underscore</string>
       <string>hyphen</string>
-      <string>gnrl:hyphen</string>
       <string>uni2010</string>
       <string>endash</string>
       <string>emdash</string>
@@ -4105,6 +4113,13 @@
       <string>hyphen_line.48</string>
       <string>hyphen_line.49</string>
       <string>hyphen_line.50</string>
+      <string>currency</string>
+      <string>minus</string>
+      <string>multiply</string>
+      <string>divisionslash</string>
+      <string>brokenbar</string>
+      <string>uni00A0</string>
+      <string>uni00AD</string>
     </array>
     <key>public.postscriptNames</key>
     <dict/>

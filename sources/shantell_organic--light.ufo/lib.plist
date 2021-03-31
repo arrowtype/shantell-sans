@@ -8,7 +8,6 @@
         <key>ascending</key>
         <array>
           <string>space</string>
-          <string>nbspace</string>
           <string>A</string>
           <string>Agrave</string>
           <string>Aacute</string>
@@ -271,7 +270,6 @@
           <string>seveneighths</string>
           <string>underscore</string>
           <string>hyphen</string>
-          <string>gnrl:hyphen</string>
           <string>uni2010</string>
           <string>endash</string>
           <string>emdash</string>
@@ -444,7 +442,60 @@
           <string>eight.superior</string>
           <string>nine.superior</string>
           <string>mu.math</string>
-          <string>hy.line</string>
+          <string>hyphen.line</string>
+          <string>hyphen_line.3</string>
+          <string>hyphen_line.4</string>
+          <string>hyphen_line.5</string>
+          <string>hyphen_line.6</string>
+          <string>hyphen_line.7</string>
+          <string>hyphen_line.8</string>
+          <string>hyphen_line.9</string>
+          <string>hyphen_line.10</string>
+          <string>hyphen_line.11</string>
+          <string>hyphen_line.12</string>
+          <string>hyphen_line.13</string>
+          <string>hyphen_line.14</string>
+          <string>hyphen_line.15</string>
+          <string>hyphen_line.16</string>
+          <string>hyphen_line.17</string>
+          <string>hyphen_line.18</string>
+          <string>hyphen_line.19</string>
+          <string>hyphen_line.20</string>
+          <string>hyphen_line.21</string>
+          <string>hyphen_line.22</string>
+          <string>hyphen_line.23</string>
+          <string>hyphen_line.24</string>
+          <string>hyphen_line.25</string>
+          <string>hyphen_line.26</string>
+          <string>hyphen_line.27</string>
+          <string>hyphen_line.28</string>
+          <string>hyphen_line.29</string>
+          <string>hyphen_line.30</string>
+          <string>hyphen_line.31</string>
+          <string>hyphen_line.32</string>
+          <string>hyphen_line.33</string>
+          <string>hyphen_line.34</string>
+          <string>hyphen_line.35</string>
+          <string>hyphen_line.36</string>
+          <string>hyphen_line.37</string>
+          <string>hyphen_line.38</string>
+          <string>hyphen_line.39</string>
+          <string>hyphen_line.40</string>
+          <string>hyphen_line.41</string>
+          <string>hyphen_line.42</string>
+          <string>hyphen_line.43</string>
+          <string>hyphen_line.44</string>
+          <string>hyphen_line.45</string>
+          <string>hyphen_line.46</string>
+          <string>hyphen_line.47</string>
+          <string>hyphen_line.48</string>
+          <string>hyphen_line.49</string>
+          <string>hyphen_line.50</string>
+          <string>currency</string>
+          <string>minus</string>
+          <string>multiply</string>
+          <string>divisionslash</string>
+          <string>brokenbar</string>
         </array>
         <key>type</key>
         <string>glyphList</string>
@@ -1279,7 +1330,6 @@
     <key>public.glyphOrder</key>
     <array>
       <string>space</string>
-      <string>nbspace</string>
       <string>A</string>
       <string>Agrave</string>
       <string>Aacute</string>
@@ -1542,7 +1592,6 @@
       <string>seveneighths</string>
       <string>underscore</string>
       <string>hyphen</string>
-      <string>gnrl:hyphen</string>
       <string>uni2010</string>
       <string>endash</string>
       <string>emdash</string>
@@ -1764,7 +1813,13 @@
       <string>hyphen_line.48</string>
       <string>hyphen_line.49</string>
       <string>hyphen_line.50</string>
-      <string>dotcomb</string>
+      <string>currency</string>
+      <string>minus</string>
+      <string>multiply</string>
+      <string>divisionslash</string>
+      <string>brokenbar</string>
+      <string>uni00A0</string>
+      <string>uni00AD</string>
     </array>
     <key>public.postscriptNames</key>
     <dict/>

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="gnrl:hyphen" format="2">
+<glyph name="uni00AD" format="2">
   <advance width="531"/>
-  <unicode hex="2010"/>
+  <unicode hex="00AD"/>
   <outline>
     <component base="hyphen"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.5534,0.5534,0.5534,0.4845</string>
+      <string>1,0,0,0.5</string>
     </dict>
   </lib>
 </glyph>
