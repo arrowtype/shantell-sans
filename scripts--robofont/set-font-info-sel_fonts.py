@@ -12,6 +12,8 @@ for fontPath in inputFonts:
 
     f.info.copyright = "Copyright 2021 The Shantell Sans Project Authors (https://github.com/arrowtype/shantell-sans)"
 
+    f.info.unitsPerEm = 1000
+
     # setting metrics
     ascent = 1020
     descent = -320
@@ -39,7 +41,7 @@ for fontPath in inputFonts:
             },
     ]
 
-    f.info.familyName = "Shantell Sans Rand4"
+    f.info.familyName = "Shantell Sans"
 
     print("Updated info for: ", f.info.familyName, " ", f.info.styleName)
 

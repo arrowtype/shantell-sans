@@ -48,7 +48,7 @@ designspaces = ["sources/shantell_sans-wght_BNCE_IRGL.designspace", "sources/sha
 
 # letters to make alts for (all letters)
 altsToMake = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzßæÞðþẞ"
-altsToMake += "ÉéÓóÍíÁáÜüÇçÃãÖöÄäÑñ"
+altsToMake += "ÉéÓóÍíÁáÈèÜüÇçÃãÖöÄäÑñ"
 
 # numbers & basic symbols
 altsToMake += "0123456789!\"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~“”‘’"
