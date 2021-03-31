@@ -3,7 +3,7 @@
 set -e
 
 DS=$1
-outputDir="fonts/shantell-sans-v14"
+outputDir="fonts/shantell-sans"
 vfName="Shantell_Sans-Variable.ttf"
 
 parentDir=$(dirname "$DS")

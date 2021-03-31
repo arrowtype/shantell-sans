@@ -3,7 +3,7 @@
 set -e
 
 DS=$1
-outputDir="fonts/shantell-sans-v14"
+outputDir="fonts/shantell-sans"
 
 parentDir=$(dirname "$DS")
 for ufo in $parentDir/*.ufo; do
