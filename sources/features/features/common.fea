@@ -4,6 +4,7 @@
 @numbers_sinf = [ zero.inferior     one.inferior     two.inferior     three.inferior     four.inferior     five.inferior     six.inferior     seven.inferior     eight.inferior     nine.inferior      ];
 @numbers_numr = [ zero.numr         one.numr         two.numr         three.numr         four.numr         five.numr         six.numr         seven.numr         eight.numr         nine.numr         ];
 @numbers_dnom = [ zero.dnom         one.dnom         two.dnom         three.dnom         four.dnom         five.dnom         six.dnom         seven.dnom         eight.dnom         nine.dnom         ];
+@numbers_pnum = [ zero.pnum         one.pnum         two.pnum         three.pnum         four.pnum         five.pnum         six.pnum         seven.pnum         eight.pnum         nine.pnum         ];
 
 @PRE          = [ onehalf           onethird         twothirds        onequarter         threequarters     oneeighth         threeeighths     fiveeighths        seveneighths      ];
 

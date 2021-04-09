@@ -8,9 +8,19 @@ from glyphConstruction import ParseGlyphConstructionListFromString, GlyphConstru
 center = False
 
 # ringcomb.A = ringcomb
+# uni00AD=hyphen | 00AD
+# uni00A0=space | 00A0
 txt="""\
-uni00AD=hyphen | 00AD
-uni00A0=space | 00A0
+zero.pnum = zero
+one.pnum = one
+two.pnum = two
+three.pnum = three
+four.pnum = four
+five.pnum = five
+six.pnum = six
+seven.pnum = seven
+eight.pnum = eight
+nine.pnum = nine
 """
 
 

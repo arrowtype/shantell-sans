@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni00A0" format="2">
-  <advance width="340"/>
-  <unicode hex="00A0"/>
-  <outline>
-    <component base="space"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0,0,0.5</string>
-    </dict>
-  </lib>
+	<unicode hex="00A0"/>
+	<advance width="340"/>
+	<outline>
+		<component base="space"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,0,0,0.5</string>
+		</dict>
+	</lib>
 </glyph>

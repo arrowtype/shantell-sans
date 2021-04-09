@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hyphen_line.3" format="2">
-  <advance width="1413"/>
-  <outline>
-    <component base="hyphen.line"/>
-    <component base="hyphen.line" xOffset="471"/>
-    <component base="hyphen.line" xOffset="942"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0,0,0.5</string>
-    </dict>
-  </lib>
+	<advance width="1413"/>
+	<outline>
+		<component base="hyphen.line"/>
+		<component base="hyphen.line" xOffset="471"/>
+		<component base="hyphen.line" xOffset="942"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,0,0,0.5</string>
+		</dict>
+	</lib>
 </glyph>
