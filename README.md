@@ -6,28 +6,44 @@ A custom font based on the handwriting of the artist Shantell Martin.
 - Instagram: https://www.instagram.com/shantell_martin/
 - TED talk: https://www.ted.com/talks/shantell_martin_how_drawing_can_set_you_free
 
-## Build
+## Building the fonts
 
-This is evolving, but:
+### Set up requirements
 
 Install pipenv.
 
-Start the shell:
+```bash
+pip install pipenv
+```
+
+Start the `pipenv` shell:
 
 ```bash
 pipenv shell
 ```
 
-Install dependencies.
+Install dependencies from `Pipfile.lock`.
 
 ```bash
-python scripts--build/prep-wght_bnce_qurk--simplified_charset.py
+pipenv sync
 ```
 
-This will prep a folder like `sources/wght_bnce_flux--smpl--prepped`. Copy in the designspace, such as `sources/shantell-wght_BNCE_FLUX--smpl.designspace`.
-
-..then build with FontMake.
+### Build
 
 ```bash
-fontmake -o variable -m sources/wght_bnce_flux--smpl--prepped/shantell-wght_BNCE_FLUX--smpl.designspace
+python3 scripts--build/prep-build.py
+```
+
+This will prep a folder like `sources/wght_BNCE_IRGL--prepped`. Copy in the designspace, such as `sources/wght_BNCE_IRGL--prepped/shantell_sans-wght_BNCE_IRGL.designspace`.
+
+Build the variable font:
+
+```bash
+scripts--build/build-vf.sh sources/wght_BNCE_IRGL--prepped/shantell_sans-wght_BNCE_IRGL.designspace
+```
+
+Build the static fonts (note the `--static` addition to the designspace path):
+
+```bash
+scripts--build/build-static.sh sources/wght_BNCE_IRGL--prepped/shantell_sans-wght_BNCE_IRGL--static.designspace
 ```
