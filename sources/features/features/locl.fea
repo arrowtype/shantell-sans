@@ -1,6 +1,13 @@
 
 feature locl {
     script latn;
+        language AZE;
+	    language CRT;
+        language KAZ;
+        language TAT;
+        language TRK;
+            sub i by idotaccent;
+
         language CAT;
             sub l' periodcentered' l by ldot;
             sub L' periodcentered' L by Ldot;
@@ -26,8 +33,8 @@ feature locl {
                 sub iacute j acutecomb by ijacute;
                 
                 # dotless forms
-                sub dotlessi acutecomb dotlessj acutecomb by ijacute;
-                sub iacute dotlessj acutecomb by ijacute;
+                sub idotless acutecomb jdotless acutecomb by ijacute;
+                sub iacute jdotless acutecomb by ijacute;
                 
                 # simple case of IJ/ij
                 sub i j by ij;

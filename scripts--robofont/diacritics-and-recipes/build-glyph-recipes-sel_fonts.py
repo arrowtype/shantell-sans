@@ -11,7 +11,7 @@ center = False
 # uni00AD=hyphen | 00AD
 # uni00A0=space | 00A0
 txt="""\
-IJacute = IJ + acutecomb + acutecomb
+idotaccent = idotless + dotaccentcmb @ top
 """
 
 print(txt)

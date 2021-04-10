@@ -1,56 +1,40 @@
 feature ccmp {
 
     @base_uc = [ A AE B C D E F G H I J K L M N O Oslash P Q R S T U V W X Y Z ];
-    @base_lc = [ a ae b c d dotlessi dotlessj e f g h i j k l m n o oslash p q r s t u v w x y z ];
+    @base_lc = [ a ae b c d idotless jdotless e f g h i j k l m n o oslash p q r s t u v w x y z ];
 
     @marks_below = [dotbelowcmb commaaccentbelowcmb cedillacomb ogonekcmb ];
     @marks = [gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcmb dieresiscomb ringcomb hungarumlautcmb caroncomb commaturnedabovecmb];
 
     lookup Dotless {
-        sub [i j]' @marks_below @marks by [ dotlessi dotlessj ];
-        sub [i j]' @marks by [ dotlessi dotlessj ];
+        sub [i j]' @marks_below @marks by [ idotless jdotless ];
+        sub [i j]' @marks by [ idotless jdotless ];
     } Dotless;
 
     lookup replacements {
-        sub A ogonekcomb by Aogonek;
-        sub E ogonekcomb by Eogonek;
-        sub I ogonekcomb by Iogonek;
-        sub O ogonekcomb by Oogonek;
-        sub U ogonekcomb by Uogonek;
+        sub A ogonekcmb by Aogonek;
+        sub E ogonekcmb by Eogonek;
+        sub I ogonekcmb by Iogonek;
+        sub U ogonekcmb by Uogonek;
 
-        sub a ogonekcomb by aogonek;
-        sub e ogonekcomb by eogonek;
-        sub i ogonekcomb by iogonek;
-        sub o ogonekcomb by oogonek;
-        sub u ogonekcomb by uogonek;
+        sub a ogonekcmb by aogonek;
+        sub e ogonekcmb by eogonek;
+        sub i ogonekcmb by iogonek;
+        sub u ogonekcmb by uogonek;
 
-        sub C acutecomb cedillacomb by Ccedillaacute;
-        sub C cedillacomb acutecomb by Ccedillaacute;
-        sub E brevecomb cedillacomb by Ecedillabreve;
-        sub E cedillacomb brevecomb by Ecedillabreve;
         sub C cedillacomb by Ccedilla;
         sub S cedillacomb by Scedilla;
         sub T cedillacomb by Tcedilla;
 
-        sub c acutecomb cedillacomb by ccedillaacute;
-        sub c cedillacomb acutecomb by ccedillaacute;
-        sub e brevecomb cedillacomb by ecedillabreve;
-        sub e cedillacomb brevecomb by ecedillabreve;
         sub c cedillacomb by ccedilla;
         sub s cedillacomb by scedilla;
         sub t cedillacomb by tcedilla;
         
-        sub O acutecomb slashcomb by Oslashacute;
-        sub O slashcomb acutecomb by Oslashacute;
-        sub o acutecomb slashcomb by oslashacute;
-        sub o slashcomb acutecomb by oslashacute;
-        sub O slashcomb by Oslash;
-        sub L slashcomb by Lslash;
-        sub l slashcomb by lslash;
-        sub o slashcomb by oslash;
+        sub Oslash acutecomb by Oslashacute;
+        sub oslash acutecomb by oslashacute;
 
-        sub l caroncomb' by lcaron;
-        sub L caroncomb' by Lcaron;
+        sub l caroncomb by lcaron;
+        sub L caroncomb by Lcaron;
         sub t caroncomb by tcaron;
 
     } replacements;

@@ -56,18 +56,6 @@ altsToMake += "0123456789!\"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~“”‘’"
 # some glyphs just need to stick together or they look broken
 glyphsToDecompose = "ij oe".split()
 
-# feature code to be inserted into generated UFOs
-feaCode = """\
-languagesystem DFLT dflt;
-languagesystem latn dflt;
-
-include(../features/features/common.fea);
-include(../features/features/frac.fea);
-include(../features/features/case.fea);
-include(../features/features/numr_dnom_supr_infr.fea);
-include(./cycle-calt.fea) # this is generated
-"""
-
 glyphsToNotShift ="\
     onesuperior twosuperior threesuperior fraction zero.dnom one.dnom two.dnom three.dnom \
     four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr \
@@ -621,10 +609,13 @@ feature calt {{
 
 
 
-def addFeaCode(fonts):
+def addFeaCode(fonts, feaPath):
     """
         Add feature code to generated UFOs
     """
+
+    with open(feaPath) as features:
+        feaCode = features.read()
 
     for font in fonts:
         font.features.text = feaCode
@@ -707,7 +698,7 @@ def main():
     generateCalt(altsMadeForList)
 
     print("🤖 Updating feature code")
-    addFeaCode(fonts)
+    addFeaCode(fonts, "sources/features/features.fea")
 
     print("🤖 Copying Designspace file")
     for ds in designspaces:

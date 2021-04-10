@@ -294,6 +294,8 @@
 			<real>121.5</real>
 			<key>IJ.alt3</key>
 			<integer>-96</integer>
+			<key>IJacute</key>
+			<real>49.5</real>
 			<key>Iacute</key>
 			<real>-67.5</real>
 			<key>Iacute.alt1</key>
@@ -366,6 +368,8 @@
 			<integer>111</integer>
 			<key>J.alt3</key>
 			<real>112.5</real>
+			<key>Jacute</key>
+			<real>82.5</real>
 			<key>K</key>
 			<integer>-60</integer>
 			<key>K.alt1</key>
@@ -386,6 +390,8 @@
 			<integer>-87</integer>
 			<key>Lcaron</key>
 			<real>-22.5</real>
+			<key>Ldot</key>
+			<integer>21</integer>
 			<key>Lslash</key>
 			<real>-55.5</real>
 			<key>Lslash.alt1</key>
@@ -610,6 +616,8 @@
 			<real>82.5</real>
 			<key>Scedilla.alt3</key>
 			<real>-91.5</real>
+			<key>Scommaaccent</key>
+			<integer>90</integer>
 			<key>T</key>
 			<integer>78</integer>
 			<key>T.alt1</key>
@@ -628,6 +636,10 @@
 			<integer>141</integer>
 			<key>Tcaron.alt3</key>
 			<real>82.5</real>
+			<key>Tcedilla</key>
+			<integer>90</integer>
+			<key>Tcommaaccent</key>
+			<real>85.5</real>
 			<key>Thorn</key>
 			<real>-67.5</real>
 			<key>Thorn.alt1</key>
@@ -844,6 +856,8 @@
 			<real>82.5</real>
 			<key>acircumflex.alt3</key>
 			<real>79.5</real>
+			<key>acutecom</key>
+			<real>-76.5</real>
 			<key>acutecomb.alt1</key>
 			<real>-100.5</real>
 			<key>acutecomb.alt2</key>
@@ -1170,6 +1184,8 @@
 			<integer>108</integer>
 			<key>dollar.alt3</key>
 			<real>106.5</real>
+			<key>dollar.split</key>
+			<integer>45</integer>
 			<key>dollar.tabl</key>
 			<integer>24</integer>
 			<key>dotaccentcmb.alt1</key>
@@ -1244,6 +1260,8 @@
 			<real>133.5</real>
 			<key>eight.alt3</key>
 			<real>-82.5</real>
+			<key>eight.pnum</key>
+			<integer>42</integer>
 			<key>ellipsis</key>
 			<real>-85.5</real>
 			<key>emacron</key>
@@ -1324,6 +1342,8 @@
 			<real>79.5</real>
 			<key>five.alt3</key>
 			<real>-91.5</real>
+			<key>five.pnum</key>
+			<real>55.5</real>
 			<key>fiveeighths</key>
 			<real>76.5</real>
 			<key>four</key>
@@ -1334,6 +1354,8 @@
 			<integer>84</integer>
 			<key>four.alt3</key>
 			<real>-94.5</real>
+			<key>four.pnum</key>
+			<real>-40.5</real>
 			<key>g</key>
 			<integer>-36</integer>
 			<key>g.alt1</key>
@@ -1582,6 +1604,8 @@
 			<integer>51</integer>
 			<key>ij</key>
 			<real>73.5</real>
+			<key>ijacute</key>
+			<integer>-18</integer>
 			<key>imacron</key>
 			<real>31.5</real>
 			<key>imacron.alt1</key>
@@ -1612,6 +1636,8 @@
 			<real>112.5</real>
 			<key>j.alt3</key>
 			<integer>117</integer>
+			<key>jacute</key>
+			<integer>-39</integer>
 			<key>jdotless</key>
 			<integer>30</integer>
 			<key>jdotless.alt1</key>
@@ -1640,6 +1666,8 @@
 			<integer>-51</integer>
 			<key>lcaron</key>
 			<integer>18</integer>
+			<key>ldot</key>
+			<real>-37.5</real>
 			<key>less</key>
 			<real>-16.5</real>
 			<key>less.alt1</key>
@@ -1714,6 +1742,8 @@
 			<integer>141</integer>
 			<key>nine.alt3</key>
 			<real>-91.5</real>
+			<key>nine.pnum</key>
+			<real>79.5</real>
 			<key>notequal</key>
 			<integer>51</integer>
 			<key>ntilde</key>
@@ -1812,6 +1842,8 @@
 			<integer>129</integer>
 			<key>one.alt3</key>
 			<real>91.5</real>
+			<key>one.pnum</key>
+			<integer>75</integer>
 			<key>oneeighth</key>
 			<real>-43.5</real>
 			<key>onehalf</key>
@@ -2042,6 +2074,8 @@
 			<integer>90</integer>
 			<key>scedilla.alt3</key>
 			<real>-106.5</real>
+			<key>scommaaccent</key>
+			<real>-61.5</real>
 			<key>second</key>
 			<integer>-78</integer>
 			<key>section</key>
@@ -2062,6 +2096,8 @@
 			<integer>108</integer>
 			<key>seven.alt3</key>
 			<integer>-60</integer>
+			<key>seven.pnum</key>
+			<real>-70.5</real>
 			<key>seveneighths</key>
 			<integer>-90</integer>
 			<key>six</key>
@@ -2072,6 +2108,8 @@
 			<integer>111</integer>
 			<key>six.alt3</key>
 			<real>-121.5</real>
+			<key>six.pnum</key>
+			<integer>-48</integer>
 			<key>slash</key>
 			<integer>-90</integer>
 			<key>slash.alt1</key>
@@ -2108,6 +2146,10 @@
 			<real>127.5</real>
 			<key>tcaron.alt3</key>
 			<integer>69</integer>
+			<key>tcedilla</key>
+			<integer>-81</integer>
+			<key>tcommaaccent</key>
+			<real>76.5</real>
 			<key>thorn</key>
 			<integer>69</integer>
 			<key>thorn.alt1</key>
@@ -2124,6 +2166,8 @@
 			<real>118.5</real>
 			<key>three.alt3</key>
 			<integer>69</integer>
+			<key>three.pnum</key>
+			<real>73.5</real>
 			<key>threeeighths</key>
 			<real>-28.5</real>
 			<key>threequarters</key>
@@ -2144,6 +2188,8 @@
 			<real>79.5</real>
 			<key>two.alt3</key>
 			<integer>-60</integer>
+			<key>two.pnum</key>
+			<integer>51</integer>
 			<key>twothirds</key>
 			<integer>21</integer>
 			<key>u</key>
@@ -2226,6 +2272,10 @@
 			<real>148.5</real>
 			<key>underscore.alt3</key>
 			<real>55.5</real>
+			<key>uni00A0</key>
+			<integer>-45</integer>
+			<key>uni00AD</key>
+			<integer>84</integer>
 			<key>uni0122</key>
 			<real>-88.5</real>
 			<key>uni0123</key>
@@ -2354,6 +2404,8 @@
 			<real>136.5</real>
 			<key>zero.alt3</key>
 			<integer>90</integer>
+			<key>zero.pnum</key>
+			<real>-46.5</real>
 		</dict>
 		<key>com.defcon.sortDescriptor</key>
 		<array>
@@ -4213,6 +4265,7 @@
 			<string>Jacute</string>
 			<string>ijacute</string>
 			<string>IJacute</string>
+			<string>idotaccent</string>
 		</array>
 		<key>public.postscriptNames</key>
 		<dict>

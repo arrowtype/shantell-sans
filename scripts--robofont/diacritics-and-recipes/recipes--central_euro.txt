@@ -94,3 +94,7 @@ Jacute = J + acutecomb @ top
 
 ijacute = iacute & jacute
 ?IJacute = IJ + acutecomb@top + acutecomb@IJ:top
+
+# Turkish
+
+idotaccent = idotless + dotaccentcmb @ top
