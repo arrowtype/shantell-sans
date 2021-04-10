@@ -1,0 +1,37 @@
+
+feature locl {
+    script latn;
+        language CAT;
+            sub l' periodcentered' l by ldot;
+            sub L' periodcentered' L by Ldot;
+
+        language ROM exclude_dflt;
+            lookup TSCedilla {
+                sub [Scedilla scedilla] by [Scommaaccent scommaaccent];
+                sub [Tcedilla tcedilla] by [Tcommaaccent tcommaaccent];
+            } TSCedilla;
+
+        language MOL exclude_dflt;
+            lookup TSCedilla;
+
+        language NLD; # Dutch
+            lookup LigatureIJ {
+                # IJacute/ijacute
+                
+                sub I acutecomb J acutecomb by IJacute;
+                sub Iacute J acutecomb by IJacute;
+                
+                #  ccmp should make these unneeded, but in case
+                sub i acutecomb j acutecomb by ijacute;
+                sub iacute j acutecomb by ijacute;
+                
+                # dotless forms
+                sub dotlessi acutecomb dotlessj acutecomb by ijacute;
+                sub iacute dotlessj acutecomb by ijacute;
+                
+                # simple case of IJ/ij
+                sub i j by ij;
+                sub I J by IJ;
+            } LigatureIJ;
+
+} locl;
