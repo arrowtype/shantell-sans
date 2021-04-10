@@ -72,3 +72,25 @@ uni0145 = N + commaaccentbelowcmb @ bottom | 0145
 uni0146 = n + commaaccentbelowcmb @ bottom | 0146
 uni0156 = R + commaaccentbelowcmb @ bottom | 0156
 uni0157 = r + commaaccentbelowcmb @ bottom | 0157
+
+# Moldovian / Romanian
+
+Scommaaccent = S + commaaccentbelowcmb @ bottom | 0218
+scommaaccent = s + commaaccentbelowcmb @ bottom | 0219
+Tcedilla = T + cedillacomb @ bottom | 0162
+tcedilla = t + cedillacomb @ bottom | 0163
+Tcommaaccent = T + commaaccentbelowcmb @ bottom | 021A
+tcommaaccent = t + commaaccentbelowcmb @ bottom | 021B
+
+# Catalan
+
+?Ldot = L + periodcentered.case @ right | 013F
+?ldot = l + periodcentered.case @ right | 013F
+
+# Dutch
+
+jacute = jdotless + acutecomb @ top
+Jacute = J + acutecomb @ top
+
+ijacute = iacute & jacute
+?IJacute = IJ + acutecomb@top + acutecomb@IJ:top

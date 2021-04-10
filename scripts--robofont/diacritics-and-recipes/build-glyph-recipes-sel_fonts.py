@@ -11,24 +11,12 @@ center = False
 # uni00AD=hyphen | 00AD
 # uni00A0=space | 00A0
 txt="""\
-zero.pnum = zero
-one.pnum = one
-two.pnum = two
-three.pnum = three
-four.pnum = four
-five.pnum = five
-six.pnum = six
-seven.pnum = seven
-eight.pnum = eight
-nine.pnum = nine
+IJacute = IJ + acutecomb + acutecomb
 """
-
 
 print(txt)
 # get the actual glyph constructions from text
 constructions = ParseGlyphConstructionListFromString(txt)
-
-
 
 files = getFile("Select files to build glyphs in", allowsMultipleSelection=True, fileTypes=["ufo"])
 
