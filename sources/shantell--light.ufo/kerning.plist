@@ -616,7 +616,7 @@
 			<key>slash</key>
 			<integer>-30</integer>
 			<key>trademark</key>
-			<integer>-60</integer>
+			<integer>-70</integer>
 		</dict>
 		<key>backslash</key>
 		<dict>
@@ -1848,7 +1848,7 @@
 			<key>quoteright</key>
 			<integer>-30</integer>
 			<key>trademark</key>
-			<integer>-110</integer>
+			<integer>-120</integer>
 		</dict>
 		<key>parenleft</key>
 		<dict>
@@ -2520,7 +2520,7 @@
 			<key>public.kern2.C</key>
 			<integer>-10</integer>
 			<key>public.kern2.O</key>
-			<integer>-15</integer>
+			<integer>-20</integer>
 			<key>public.kern2.Oslash</key>
 			<integer>-10</integer>
 			<key>public.kern2.W</key>
@@ -2533,6 +2533,10 @@
 			<integer>-20</integer>
 			<key>public.kern2.hyphen_case</key>
 			<integer>-90</integer>
+			<key>public.kern2.n</key>
+			<integer>-10</integer>
+			<key>public.kern2.o</key>
+			<integer>-15</integer>
 			<key>public.kern2.period</key>
 			<integer>30</integer>
 			<key>question</key>
@@ -2769,7 +2773,7 @@
 			<key>slash.case</key>
 			<integer>40</integer>
 			<key>trademark</key>
-			<integer>-150</integer>
+			<integer>-170</integer>
 		</dict>
 		<key>public.kern1.N</key>
 		<dict>
@@ -2853,7 +2857,7 @@
 			<key>public.kern2.F</key>
 			<integer>-10</integer>
 			<key>public.kern2.I</key>
-			<integer>-20</integer>
+			<integer>-25</integer>
 			<key>public.kern2.R</key>
 			<integer>-10</integer>
 			<key>public.kern2.S</key>
@@ -3904,7 +3908,7 @@
 			<key>slash</key>
 			<integer>30</integer>
 			<key>trademark</key>
-			<integer>-110</integer>
+			<integer>-120</integer>
 		</dict>
 		<key>public.kern1.c</key>
 		<dict>
@@ -3943,7 +3947,7 @@
 			<key>slash</key>
 			<integer>10</integer>
 			<key>trademark</key>
-			<integer>-50</integer>
+			<integer>-60</integer>
 		</dict>
 		<key>public.kern1.d</key>
 		<dict>
@@ -3980,7 +3984,7 @@
 			<key>semicolon</key>
 			<integer>-10</integer>
 			<key>trademark</key>
-			<integer>-30</integer>
+			<integer>-40</integer>
 		</dict>
 		<key>public.kern1.e</key>
 		<dict>
@@ -4023,7 +4027,7 @@
 			<key>quotesinglbase</key>
 			<integer>-10</integer>
 			<key>trademark</key>
-			<integer>-50</integer>
+			<integer>-80</integer>
 		</dict>
 		<key>public.kern1.f</key>
 		<dict>
@@ -4105,7 +4109,7 @@
 			<key>slash</key>
 			<integer>20</integer>
 			<key>trademark</key>
-			<integer>-70</integer>
+			<integer>-90</integer>
 		</dict>
 		<key>public.kern1.guillemetleft</key>
 		<dict>
@@ -4374,7 +4378,7 @@
 			<key>semicolon</key>
 			<integer>-20</integer>
 			<key>trademark</key>
-			<integer>-90</integer>
+			<integer>-110</integer>
 		</dict>
 		<key>public.kern1.hyphen_case</key>
 		<dict>
@@ -4555,7 +4559,7 @@
 			<key>slash</key>
 			<integer>30</integer>
 			<key>trademark</key>
-			<integer>-50</integer>
+			<integer>-80</integer>
 		</dict>
 		<key>public.kern1.n</key>
 		<dict>
@@ -4610,7 +4614,7 @@
 			<key>semicolon</key>
 			<integer>-15</integer>
 			<key>trademark</key>
-			<integer>-100</integer>
+			<integer>-105</integer>
 		</dict>
 		<key>public.kern1.o</key>
 		<dict>
@@ -4628,6 +4632,8 @@
 			<integer>-25</integer>
 			<key>parenright</key>
 			<integer>-100</integer>
+			<key>public.kern2.I</key>
+			<integer>-15</integer>
 			<key>public.kern2.Y</key>
 			<integer>-60</integer>
 			<key>public.kern2.guillemetright</key>
@@ -4661,7 +4667,7 @@
 			<key>slash</key>
 			<integer>-5</integer>
 			<key>trademark</key>
-			<integer>-80</integer>
+			<integer>-90</integer>
 		</dict>
 		<key>public.kern1.oslash</key>
 		<dict>
@@ -4723,7 +4729,7 @@
 			<key>quoteleft</key>
 			<integer>-50</integer>
 			<key>trademark</key>
-			<integer>-85</integer>
+			<integer>-90</integer>
 		</dict>
 		<key>public.kern1.period</key>
 		<dict>
@@ -5014,7 +5020,7 @@
 			<key>slash</key>
 			<integer>-60</integer>
 			<key>trademark</key>
-			<integer>-30</integer>
+			<integer>-40</integer>
 		</dict>
 		<key>public.kern1.s</key>
 		<dict>
@@ -5141,7 +5147,7 @@
 			<key>slash</key>
 			<integer>-20</integer>
 			<key>trademark</key>
-			<integer>-30</integer>
+			<integer>-40</integer>
 		</dict>
 		<key>public.kern1.v</key>
 		<dict>
@@ -5188,7 +5194,7 @@
 			<key>slash</key>
 			<integer>-50</integer>
 			<key>trademark</key>
-			<integer>-20</integer>
+			<integer>-30</integer>
 		</dict>
 		<key>public.kern1.w</key>
 		<dict>
@@ -5233,7 +5239,7 @@
 			<key>slash</key>
 			<integer>-10</integer>
 			<key>trademark</key>
-			<integer>-15</integer>
+			<integer>-25</integer>
 		</dict>
 		<key>public.kern1.x</key>
 		<dict>
@@ -5317,7 +5323,7 @@
 			<key>semicolon</key>
 			<integer>-10</integer>
 			<key>trademark</key>
-			<integer>-60</integer>
+			<integer>-70</integer>
 		</dict>
 		<key>public.kern1.z</key>
 		<dict>
@@ -5354,7 +5360,7 @@
 			<key>semicolon</key>
 			<integer>-15</integer>
 			<key>trademark</key>
-			<integer>-40</integer>
+			<integer>-60</integer>
 		</dict>
 		<key>q</key>
 		<dict>
