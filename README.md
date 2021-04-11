@@ -47,3 +47,7 @@ Build the static fonts:
 ```bash
 scripts--build/build-static.sh
 ```
+
+## Release
+
+Update the version number in `version.txt` to the desired next release number, then build fonts.

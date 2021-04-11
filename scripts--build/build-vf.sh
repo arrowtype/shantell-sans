@@ -37,11 +37,15 @@ gftools fix-dsig --autofix $vfPath
 gftools fix-fstype $vfPath
 mv "$vfPath.fix" "$vfPath"
 
+# add a dummy AVAR table to pass FontBakery check (linear axes will allow for easier VF animations)
+python scripts--build/helpers/add-AVAR.py $vfPath
+
 # set version data
-font-v write --dev --sha1 $vfPath
+version=$(cat "version.txt")
+font-v write --ver=$version --sha1 $vfPath
 
 # change to official filename
-mv $vfPath "$outputDir/ShantellSans[wght,IRGL,BNCE].ttf"
+mv $vfPath "$outputDir/ShantellSans[BNCE,IRGL,wght].ttf"
 
 # opens the font in whatever the default app is for .ttf files – FontGoggles recommended
-open "$outputDir/ShantellSans[wght,IRGL,BNCE].ttf"
+open "$outputDir/ShantellSans[BNCE,IRGL,wght].ttf"

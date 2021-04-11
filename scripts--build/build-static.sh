@@ -36,6 +36,8 @@ done
 # -----------------------------------------------------------------------------------
 # font fixes
 
+version=$(cat "version.txt")
+
 statics=$(ls $outputDir/static-*TF/*.*tf)
 for static in $statics; do
     ext=${static##*.}
@@ -55,5 +57,7 @@ for static in $statics; do
     gftools fix-fstype $static
     mv "$static.fix" "$static"
 
-    font-v write --sha1 $static
+    # set version data
+    font-v write --ver=$version --sha1 $static
+
 done
