@@ -2,9 +2,9 @@
 
 A custom font based on the handwriting of the artist Shantell Martin.
 
-- Website: https://shantellmartin.art/
-- Instagram: https://www.instagram.com/shantell_martin/
-- TED talk: https://www.ted.com/talks/shantell_martin_how_drawing_can_set_you_free
+- Website: [shantellmartin.art](https://shantellmartin.art/)
+- Instagram: [instagram.com/shantell_martin](https://www.instagram.com/shantell_martin/)
+- TED talk: [How Drawing Can Set You Free](https://www.ted.com/talks/shantell_martin_how_drawing_can_set_you_free)
 
 ## Building the fonts
 
@@ -39,11 +39,11 @@ This will prep a folder like `sources/wght_BNCE_IRGL--prepped`. Copy in the desi
 Build the variable font:
 
 ```bash
-scripts--build/build-vf.sh sources/wght_BNCE_IRGL--prepped/shantell_sans-wght_BNCE_IRGL.designspace
+scripts--build/build-vf.sh
 ```
 
-Build the static fonts (note the `--static` addition to the designspace path):
+Build the static fonts:
 
 ```bash
-scripts--build/build-static.sh sources/wght_BNCE_IRGL--prepped/shantell_sans-wght_BNCE_IRGL--static.designspace
+scripts--build/build-static.sh
 ```

@@ -2,7 +2,7 @@
 
 set -e
 
-DS=$1
+DS="sources/wght_BNCE_IRGL--prepped/shantell_sans-wght_BNCE_IRGL--static.designspace"
 outputDir="fonts/shantell-sans"
 
 parentDir=$(dirname "$DS")
@@ -28,7 +28,7 @@ normalStatics=$(ls $outputDir/static-*TF/*Normal*.*tf)
 
 for normalStatic in $normalStatics; do
     # subset calt table out to avoid unused alts
-    pyftsubset $normalStatic --layout-features-="calt" --unicodes="*" --output-file="$normalStatic.subset"
+    pyftsubset $normalStatic --layout-features-="calt" --unicodes="*" --glyph-names --notdef-outline --output-file="$normalStatic.subset"
     # move subset file back to previous name
     mv "$normalStatic.subset" $normalStatic
 done
@@ -48,12 +48,12 @@ for static in $statics; do
     # remove MVAR (custom underline values, which mess up line heights on older versions of Windows)
     gftools fix-unwanted-tables $static
 
-    # remove DSIG
+    # add dummy DSIG
     gftools fix-dsig --autofix $static
 
     # set fsType to allow editable embedding
     gftools fix-fstype $static
     mv "$static.fix" "$static"
 
-    # TODO: add v-font versioning
+    font-v write --sha1 $static
 done

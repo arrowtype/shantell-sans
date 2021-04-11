@@ -2,7 +2,7 @@
 
 set -e
 
-DS=$1
+DS="sources/wght_BNCE_IRGL--prepped/shantell_sans-wght_BNCE_IRGL.designspace"
 outputDir="fonts/shantell-sans"
 vfName="Shantell_Sans-Variable.ttf"
 
@@ -30,14 +30,18 @@ rm ${vfPath/".ttf"/"-backup-fonttools-prep-gasp.ttf"}
 # remove MVAR (custom underline values, which mess up line heights on older versions of Windows)
 gftools fix-unwanted-tables $vfPath
 
-# remove DSIG
+# add dummy DSIG
 gftools fix-dsig --autofix $vfPath
 
 # set fsType to allow editable embedding
 gftools fix-fstype $vfPath
 mv "$vfPath.fix" "$vfPath"
 
-# TODO: add v-font versioning
+# set version data
+font-v write --dev --sha1 $vfPath
+
+# change to official filename
+mv $vfPath "$outputDir/ShantellSans[wght,IRGL,BNCE].ttf"
 
 # opens the font in whatever the default app is for .ttf files – FontGoggles recommended
-open $vfPath
+open "$outputDir/ShantellSans[wght,IRGL,BNCE].ttf"
