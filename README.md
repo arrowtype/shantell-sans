@@ -22,7 +22,14 @@ Bounce | `BNCE` | -100–100 | 0 | Emulates the bouncy baseline of handwriting, 
 
 Shantell Sans supports a wide range of languages through Europe & the Americas, including English, Spanish, Portuguese, French, German, Polish, Dutch, Italian, Swedish, Norwegian, Danish, Croatian,Icelandic, Czech, Hungarian, and many more. It includes the following characters:
 
-`A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z ! " #  % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? { | } [ \ ] ^ _ ~ ¡ $ ¢ £ € ¥ ¤ ℓ ¦ § ¨ © ® ™ ª º ¬ ¯ ± ´ µ ¶ · ¸ ¿ À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ð Ñ Ò Ó Ô Õ Ö × Ø Ù Ú Û Ü Ý Þ ß à á â ã ä å æ ç è é ê ë ì í î ï ð ñ ò ó ô õ ö ÷ ø ù ú û ü ý þ ÿ Ā ā Ă ă Ą ą Ć ć Č č Ď ď Đ đ Ē ē Ĕ ĕ Ė ė Ę ę Ě ě Ğ ğ Ģ ģ Ī ī Ĭ ĭ Į į İ ı Ĳ ĳ Ķ ķ Ĺ ĺ Ļ ļ Ľ ľ Ŀ Ŀ Ł ł Ń ń Ņ ņ Ň ň Ŋ ŋ Ō ō Ŏ ŏ Ő ő Œ œ Ŕ ŕ Ŗ ŗ Ř ř Ś ś Ş ş Š š Ţ ţ Ť ť Ŧ ŧ Ū ū Ŭ ŭ Ů ů Ű ű Ų ų Ÿ Ź ź Ż ż Ž ž ƒ Ǎ ǎ Ǔ ǔ Ǿ ǿ Ș ș Ț ț ˆ ˇ ˘ ˙ ˚ ˛ ˜ ˝ Ω π ẞ ‐ – — ‘ ’ ‚ “ ” „ † ‡ • … ‰ ′ ″ « » ‹ › ⁒ ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ⁄ ¼ ½ ¾ ⅓ ⅔ ⅛ ⅜ ⅝ ⅞ ° ∂ ∆ ∏ ∑ − ∕ √ ∞ ∫ ≈ ≠ ≤ ≥ ◊ ✓ ⟨ ⟩ ← ↑ → ↓ ↖ ↗ ↘ ↙ ♡ ♥ @`
+![Shantell Sans Character Set](specimens/shantell_sans-charset-2021_04_11.png)
+
+<details>
+<summary>Character set as selectable text (Click to expand)</summary>
+
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z À Á Â Ã Ä Å Ă Ą Ǎ Ā Æ Ç Ć Č Ð Ď È É Ê Ë Ē Ĕ Ė Ę Ě Ğ Ģ Ì Í Î Ï Ī Ĭ Į İ Ĳ Ķ Ĺ Ļ Ľ Ŀ Ł Ñ Ń Ņ Ň Ŋ Ò Ó Ô Õ Ö Ø Ǿ Ō Ŏ Ő Œ Ŕ Ŗ Ř Ś Ş Š Ș Ţ Ť Ŧ Ț Ù Ú Û Ü Ū Ŭ Ů Ű Ų Ǔ Ý Ÿ Ź Ż Ž ẞ Þ à á â ã ä å ā ă ą ǎ æ ç ć č ď đ è é ê ë ē ĕ ė ę ě ğ ģ ì í î ï ī ĭ į ı ĳ ķ ñ ĺ ļ ľ ŀ ł ń ņ ň ŋ ò ó ô õ ö ø ǿ ō ŏ ő œ ŕ ŗ ř ś ş š ș ţ ť ŧ ț ū ŭ ů ű ų ǔ ù ú û ü ý ÿ ź ż ž ß þ ð & 0 1 2 3 4 5 6 7 8 9 , - . : ; < = > ¡ ! ¿ ? ¶ ( / ) { | } [ \ ] ⟨ ¦ ⟩ ~ $ ¢ £ € ¥ ¤ ƒ ℓ § © ® ™ ª º ¬ ¯ ` ^ ¨ ´ ˆ ˇ ˘ ˙ ˚ ˜ ˝ ˛ ¸ ‐ – — _ † ‡ · • … ' " ‘ ’ ‚ “ ” „ « » ‹ › ⁒ ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ¼ ½ ¾ ⅓ ⅔ ⅛ ⅜ ⅝ ⅞ ° ′ ″ # % ‰ * + − ± × ÷ µ ∂ ∆ ∏ ∑ Ω π ∫ ∕ √ ∞ ≈ ≠ ≤ ≥ ◊ ✓ ← ↑ → ↓ ↖ ↗ ↘ ↙ ♡ ♥ @
+
+</details>
 
 ### OpenType Features
 

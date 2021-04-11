@@ -23,8 +23,34 @@
 			<point x="629" y="286"/>
 			<point x="575" y="286" type="curve" smooth="yes"/>
 		</contour>
-		<component base="period" xOffset="186" yOffset="492"/>
-		<component base="period" xOffset="225" yOffset="27"/>
+		<contour>
+			<point x="373" y="476" type="curve" smooth="yes"/>
+			<point x="437" y="476"/>
+			<point x="470" y="510"/>
+			<point x="470" y="549" type="curve" smooth="yes"/>
+			<point x="470" y="620"/>
+			<point x="429" y="689"/>
+			<point x="325" y="689" type="curve" smooth="yes"/>
+			<point x="273" y="689"/>
+			<point x="231" y="655"/>
+			<point x="231" y="593" type="curve" smooth="yes"/>
+			<point x="231" y="514"/>
+			<point x="279" y="476"/>
+		</contour>
+		<contour>
+			<point x="412" y="11" type="curve" smooth="yes"/>
+			<point x="476" y="11"/>
+			<point x="509" y="45"/>
+			<point x="509" y="84" type="curve" smooth="yes"/>
+			<point x="509" y="155"/>
+			<point x="468" y="224"/>
+			<point x="364" y="224" type="curve" smooth="yes"/>
+			<point x="312" y="224"/>
+			<point x="270" y="190"/>
+			<point x="270" y="128" type="curve" smooth="yes"/>
+			<point x="270" y="49"/>
+			<point x="318" y="11"/>
+		</contour>
 	</outline>
 	<lib>
 		<dict>
