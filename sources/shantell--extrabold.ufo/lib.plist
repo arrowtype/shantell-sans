@@ -4,6 +4,8 @@
   <dict>
     <key>com.arrowtype.glyphBounces</key>
     <dict>
+      <key>.notdef</key>
+      <real>-19.5</real>
       <key>A</key>
       <integer>24</integer>
       <key>A.alt1</key>
@@ -4266,6 +4268,7 @@
       <string>ijacute</string>
       <string>IJacute</string>
       <string>idotaccent</string>
+      <string>.notdef</string>
     </array>
     <key>public.postscriptNames</key>
     <dict/>
