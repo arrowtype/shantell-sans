@@ -2,7 +2,7 @@
 
 A custom font based on the handwriting of the artist [Shantell Martin](https://shantellmartin.art/).
 
-Rather than trying to exactly mimim or “replace” Shantell’s writing, Shantell Sans takes inspiration from marker-based fonts like Comic Sans & Inkwell – aiming to find to create an authetically typographic system of a single shape per character, delivering an inviting and energetic tone while encouraging freedom and play.
+Rather than trying to exactly mimim or “replace” Shantell’s writing, Shantell Sans takes inspiration from marker-based fonts like Comic Sans & Inkwell Sans. It aims to create an authetically typographic system with a single core shape per character in order to deliver a simple, inviting, and energetic tone while encouraging freedom and play.
 
 ![Typographic waterfalls showing the font](specimens/shantell_sans-waterfalls-2021_04_11.png)
 
