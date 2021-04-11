@@ -24,14 +24,14 @@
         <dimension name="Bounce" xvalue="0"/>
       </location>
     </source>
-    <source filename="shantell_organic--light.ufo" familyname="Shantell Sans" stylename="Dynamic Light">
+    <source filename="shantell_organic--light.ufo" familyname="Shantell Sans" stylename="Irregular Light">
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Irregularity" xvalue="100"/>
         <dimension name="Bounce" xvalue="0"/>
       </location>
     </source>
-    <source filename="shantell_organic--extrabold.ufo" familyname="Shantell Sans" stylename="Dynamic ExtraBold">
+    <source filename="shantell_organic--extrabold.ufo" familyname="Shantell Sans" stylename="Irregular ExtraBold">
       <location>
         <dimension name="Weight" xvalue="800"/>
         <dimension name="Irregularity" xvalue="100"/>
@@ -68,7 +68,7 @@
     </source>
   </sources>
   <instances>
-    <instance familyname="Shantell Sans Normal" stylename="Light" filename="instances/Shantell_Sans_Normal-Light.ufo">
+    <instance familyname="Shantell Sans Normal" stylename="Light" filename="instances/ShantellSans-Light.ufo">
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Irregularity" xvalue="0"/>
@@ -77,7 +77,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Normal" stylename="Regular" filename="instances/Shantell_Sans_Normal-Regular.ufo">
+    <instance familyname="Shantell Sans Normal" stylename="Regular" filename="instances/ShantellSans-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Irregularity" xvalue="0"/>
@@ -86,7 +86,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Normal" stylename="Medium" filename="instances/Shantell_Sans_Normal-Medium.ufo">
+    <instance familyname="Shantell Sans Normal" stylename="Medium" filename="instances/ShantellSans-Medium.ufo">
       <location>
         <dimension name="Weight" xvalue="500"/>
         <dimension name="Irregularity" xvalue="0"/>
@@ -95,7 +95,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Normal" stylename="SemiBold" filename="instances/Shantell_Sans_Normal-SemiBold.ufo">
+    <instance familyname="Shantell Sans Normal" stylename="SemiBold" filename="instances/ShantellSans-SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="600"/>
         <dimension name="Irregularity" xvalue="0"/>
@@ -104,7 +104,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Normal" stylename="Bold" filename="instances/Shantell_Sans_Normal-Bold.ufo">
+    <instance familyname="Shantell Sans Normal" stylename="Bold" filename="instances/ShantellSans-Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="700"/>
         <dimension name="Irregularity" xvalue="0"/>
@@ -113,7 +113,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Normal" stylename="ExtraBold" filename="instances/Shantell_Sans_Normal-ExtraBold.ufo">
+    <instance familyname="Shantell Sans Normal" stylename="ExtraBold" filename="instances/ShantellSans-ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="800"/>
         <dimension name="Irregularity" xvalue="0"/>
@@ -124,7 +124,7 @@
     </instance>
 
     <!-- SemiBouncy -->
-    <instance familyname="Shantell Sans SemiBouncy" stylename="Light" filename="instances/Shantell_Sans_SemiBouncy-Light.ufo">
+    <instance familyname="Shantell Sans SemiBouncy" stylename="Light" filename="instances/ShantellSans-SemiBouncy-Light.ufo">
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Irregularity" xvalue="0"/>
@@ -133,7 +133,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans SemiBouncy" stylename="Regular" filename="instances/Shantell_Sans_SemiBouncy-Regular.ufo">
+    <instance familyname="Shantell Sans SemiBouncy" stylename="Regular" filename="instances/ShantellSans-SemiBouncy-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Irregularity" xvalue="0"/>
@@ -142,7 +142,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans SemiBouncy" stylename="Medium" filename="instances/Shantell_Sans_SemiBouncy-Medium.ufo">
+    <instance familyname="Shantell Sans SemiBouncy" stylename="Medium" filename="instances/ShantellSans-SemiBouncy-Medium.ufo">
       <location>
         <dimension name="Weight" xvalue="500"/>
         <dimension name="Irregularity" xvalue="0"/>
@@ -151,7 +151,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans SemiBouncy" stylename="SemiBold" filename="instances/Shantell_Sans_SemiBouncy-SemiBold.ufo">
+    <instance familyname="Shantell Sans SemiBouncy" stylename="SemiBold" filename="instances/ShantellSans-SemiBouncy-SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="600"/>
         <dimension name="Irregularity" xvalue="0"/>
@@ -160,7 +160,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans SemiBouncy" stylename="Bold" filename="instances/Shantell_Sans_SemiBouncy-Bold.ufo">
+    <instance familyname="Shantell Sans SemiBouncy" stylename="Bold" filename="instances/ShantellSans-SemiBouncy-Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="700"/>
         <dimension name="Irregularity" xvalue="0"/>
@@ -169,7 +169,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans SemiBouncy" stylename="ExtraBold" filename="instances/Shantell_Sans_SemiBouncy-ExtraBold.ufo">
+    <instance familyname="Shantell Sans SemiBouncy" stylename="ExtraBold" filename="instances/ShantellSans-SemiBouncy-ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="800"/>
         <dimension name="Irregularity" xvalue="0"/>
@@ -179,7 +179,7 @@
       <info/>
     </instance>
     <!-- Bouncy -->
-    <instance familyname="Shantell Sans Bouncy" stylename="Light" filename="instances/Shantell_Sans_Bouncy-Light.ufo">
+    <instance familyname="Shantell Sans Bouncy" stylename="Light" filename="instances/ShantellSans-Bouncy-Light.ufo">
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Irregularity" xvalue="0"/>
@@ -188,7 +188,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Bouncy" stylename="Regular" filename="instances/Shantell_Sans_Bouncy-Regular.ufo">
+    <instance familyname="Shantell Sans Bouncy" stylename="Regular" filename="instances/ShantellSans-Bouncy-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Irregularity" xvalue="0"/>
@@ -197,7 +197,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Bouncy" stylename="Medium" filename="instances/Shantell_Sans_Bouncy-Medium.ufo">
+    <instance familyname="Shantell Sans Bouncy" stylename="Medium" filename="instances/ShantellSans-Bouncy-Medium.ufo">
       <location>
         <dimension name="Weight" xvalue="500"/>
         <dimension name="Irregularity" xvalue="0"/>
@@ -206,7 +206,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Bouncy" stylename="SemiBold" filename="instances/Shantell_Sans_Bouncy-SemiBold.ufo">
+    <instance familyname="Shantell Sans Bouncy" stylename="SemiBold" filename="instances/ShantellSans-Bouncy-SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="600"/>
         <dimension name="Irregularity" xvalue="0"/>
@@ -215,7 +215,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Bouncy" stylename="Bold" filename="instances/Shantell_Sans_Bouncy-Bold.ufo">
+    <instance familyname="Shantell Sans Bouncy" stylename="Bold" filename="instances/ShantellSans-Bouncy-Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="700"/>
         <dimension name="Irregularity" xvalue="0"/>
@@ -224,7 +224,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Bouncy" stylename="ExtraBold" filename="instances/Shantell_Sans_Bouncy-ExtraBold.ufo">
+    <instance familyname="Shantell Sans Bouncy" stylename="ExtraBold" filename="instances/ShantellSans-Bouncy-ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="800"/>
         <dimension name="Irregularity" xvalue="0"/>
@@ -234,7 +234,7 @@
       <info/>
     </instance>
     <!-- Irregular -->
-    <instance familyname="Shantell Sans Irregular" stylename="Light" filename="instances/Shantell_Sans_Irregular-Light.ufo">
+    <instance familyname="Shantell Sans Irregular" stylename="Light" filename="instances/ShantellSans-Irregular-Light.ufo">
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Irregularity" xvalue="100"/>
@@ -243,7 +243,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular" stylename="Regular" filename="instances/Shantell_Sans_Irregular-Regular.ufo">
+    <instance familyname="Shantell Sans Irregular" stylename="Regular" filename="instances/ShantellSans-Irregular-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Irregularity" xvalue="100"/>
@@ -252,7 +252,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular" stylename="Medium" filename="instances/Shantell_Sans_Irregular-Medium.ufo">
+    <instance familyname="Shantell Sans Irregular" stylename="Medium" filename="instances/ShantellSans-Irregular-Medium.ufo">
       <location>
         <dimension name="Weight" xvalue="500"/>
         <dimension name="Irregularity" xvalue="100"/>
@@ -261,7 +261,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular" stylename="SemiBold" filename="instances/Shantell_Sans_Irregular-SemiBold.ufo">
+    <instance familyname="Shantell Sans Irregular" stylename="SemiBold" filename="instances/ShantellSans-Irregular-SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="600"/>
         <dimension name="Irregularity" xvalue="100"/>
@@ -270,7 +270,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular" stylename="Bold" filename="instances/Shantell_Sans_Irregular-Bold.ufo">
+    <instance familyname="Shantell Sans Irregular" stylename="Bold" filename="instances/ShantellSans-Irregular-Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="700"/>
         <dimension name="Irregularity" xvalue="100"/>
@@ -279,7 +279,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular" stylename="ExtraBold" filename="instances/Shantell_Sans_Irregular-ExtraBold.ufo">
+    <instance familyname="Shantell Sans Irregular" stylename="ExtraBold" filename="instances/ShantellSans-Irregular-ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="800"/>
         <dimension name="Irregularity" xvalue="100"/>
@@ -289,7 +289,7 @@
       <info/>
     </instance>
     <!-- SemiBouncy Irregular -->
-    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="Light" filename="instances/Shantell_Sans_Irregular_SemiBouncy-Light.ufo">
+    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="Light" filename="instances/ShantellSans-IrregularSemiBouncy-Light.ufo">
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Irregularity" xvalue="100"/>
@@ -298,7 +298,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="Regular" filename="instances/Shantell_Sans_Irregular_SemiBouncy-Regular.ufo">
+    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="Regular" filename="instances/ShantellSans-IrregularSemiBouncy-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Irregularity" xvalue="100"/>
@@ -307,7 +307,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="Medium" filename="instances/Shantell_Sans_Irregular_SemiBouncy-Medium.ufo">
+    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="Medium" filename="instances/ShantellSans-IrregularSemiBouncy-Medium.ufo">
       <location>
         <dimension name="Weight" xvalue="500"/>
         <dimension name="Irregularity" xvalue="100"/>
@@ -316,7 +316,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="SemiBold" filename="instances/Shantell_Sans_Irregular_SemiBouncy-SemiBold.ufo">
+    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="SemiBold" filename="instances/ShantellSans-IrregularSemiBouncy-SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="600"/>
         <dimension name="Irregularity" xvalue="100"/>
@@ -325,7 +325,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="Bold" filename="instances/Shantell_Sans_Irregular_SemiBouncy-Bold.ufo">
+    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="Bold" filename="instances/ShantellSans-IrregularSemiBouncy-Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="700"/>
         <dimension name="Irregularity" xvalue="100"/>
@@ -334,7 +334,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="ExtraBold" filename="instances/Shantell_Sans_Irregular_SemiBouncy-ExtraBold.ufo">
+    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="ExtraBold" filename="instances/ShantellSans-IrregularSemiBouncy-ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="800"/>
         <dimension name="Irregularity" xvalue="100"/>
@@ -345,7 +345,7 @@
     </instance>
     <!-- Bouncy Irregular -->
     <!-- Bouncy Irregular -->
-    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Light" filename="instances/Shantell_Sans_Irregular_Bouncy-Light.ufo">
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Light" filename="instances/ShantellSans-IrregularBouncy-Light.ufo">
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Irregularity" xvalue="100"/>
@@ -354,7 +354,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Regular" filename="instances/Shantell_Sans_Irregular_Bouncy-Regular.ufo">
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Regular" filename="instances/ShantellSans-IrregularBouncy-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Irregularity" xvalue="100"/>
@@ -363,7 +363,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Medium" filename="instances/Shantell_Sans_Irregular_Bounc-_Medium.ufo">
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Medium" filename="instances/ShantellSans-IrregularBouncy-Medium.ufo">
       <location>
         <dimension name="Weight" xvalue="500"/>
         <dimension name="Irregularity" xvalue="100"/>
@@ -372,7 +372,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular Bouncy" stylename="SemiBold" filename="instances/Shantell_Sans_Irregular_Bouncy-SemiBold.ufo">
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="SemiBold" filename="instances/ShantellSans-IrregularBouncy-SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="600"/>
         <dimension name="Irregularity" xvalue="100"/>
@@ -381,7 +381,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Bold" filename="instances/Shantell_Sans_Irregular_Bouncy-Bold.ufo">
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Bold" filename="instances/ShantellSans-IrregularBouncy-Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="700"/>
         <dimension name="Irregularity" xvalue="100"/>
@@ -390,7 +390,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular Bouncy" stylename="ExtraBold" filename="instances/Shantell_Sans_Irregular_Bouncy-ExtraBold.ufo">
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="ExtraBold" filename="instances/ShantellSans-IrregularBouncy-ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="800"/>
         <dimension name="Irregularity" xvalue="100"/>
