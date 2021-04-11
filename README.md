@@ -43,7 +43,10 @@ Proportional Figures | `pnum` | Makes numbers take up a natural amount of space
 Localized Forms | `locl` | Supports special language requirements for Catalan, Moldovian & Romanian, Dutch, Turkish, and more
 Standard Ligatures | `liga` | Converts 3+ repeated hyphens into wavy lines, just for fun
 
-## Building the fonts
+## Build
+
+<details>
+<summary><b><!-------->How to build the fonts locally<!--------></b> (Click to expand)</summary>
 
 ### Set up requirements
 
@@ -71,7 +74,7 @@ Finally, give the build scripts permission to run:
 chmod +x scripts--build/*.sh
 ```
 
-### Build
+### Building the fonts
 
 ```bash
 python3 scripts--build/prep-build.py
@@ -100,3 +103,5 @@ Then, run this script to create a zipped archive of the fonts folder:
 ```bash
 scripts--build/make-release.sh
 ```
+
+</details>
