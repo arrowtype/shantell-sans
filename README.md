@@ -1,4 +1,4 @@
-# Shantell Font Project
+# Shantell Sans
 
 A custom font based on the handwriting of the artist [Shantell Martin](https://shantellmartin.art/).
 
