@@ -28,6 +28,12 @@ Install dependencies from `Pipfile.lock`.
 pipenv sync
 ```
 
+Finally, give the build scripts permission to run:
+
+```bash
+chmod +x scripts--build/*.sh
+```
+
 ### Build
 
 ```bash
@@ -51,3 +57,9 @@ scripts--build/build-static.sh
 ## Release
 
 Update the version number in `version.txt` to the desired next release number, then build fonts.
+
+Then, run this script to create a zipped archive of the fonts folder:
+
+```bash
+scripts--build/make-release.sh
+```
