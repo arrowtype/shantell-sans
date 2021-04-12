@@ -660,13 +660,13 @@ def main():
     print("🤖 Shifting bouncy alts")
     for font in fonts:
         if "bounce" in font.path and "reverse_bounce" not in font.path:
-            shiftGlyphs(font, factor=1.5) # factor 1.5 makes moves of up to 150 units
+            shiftGlyphs(font, factor=0.75) # factor 0.75 makes moves of up to 75 units
     
     # split into separate loop so reverse sources always go second
     for font in fonts:
         if "reverse_bounce" in font.path:
             print("reverse bounces for ", font.path)
-            shiftGlyphs(font, factor=-1.5) # factor -1.5 makes moves of up to -150 units
+            shiftGlyphs(font, factor=-0.75) # factor -0.75 makes moves of up to -75 units
 
     # interpolate alts in quirk fonts
     print("🤖 Interpolating organic alts")
