@@ -12,11 +12,11 @@ Rather than trying to exactly mimim or “replace” Shantell’s writing, Shant
 
 Shantell’s writing is dynamic & doesn’t adhere to a rigid baseline or precise metrics, so Shantell Sans employs *variable axes* are to reflect this flexibility in a fluid range of styles.
 
-Axis | Tag | Range | Default | Description
-:-- | :-- | --: | --: | :--
-Weight | `wght` | 300–800 | 300 | Light to ExtraBold. Can be defined with the `font-weight` CSS property.
-Irregularity | `IRGL` | 0–1 | 0 | Emulates the irregular sizing of handwriting.
-Bounce | `BNCE` | -100–100 | 0 | Emulates the bouncy baseline of handwriting, but extends this for extra fun.
+&nbsp; | Axis | Tag | Range | Default | Description
+:-- | :-- | :-- | --: | --: | :--
+![wght](specimens/wght.png) | Weight | `wght` | 300–800 | 300 | Light to ExtraBold. Can be defined with the `font-weight` CSS property.
+![IRGL](specimens/IRGL.png) | Irregularity | `IRGL` | 0–1 | 0 | Emulates the irregular sizing of handwriting.
+![BNCE](specimens/BNCE.png) | Bounce | `BNCE` | -100–100 | 0 | Emulates the bouncy baseline of handwriting, but extends this for extra fun.
 
 ### Character set
 
