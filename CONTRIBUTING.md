@@ -1,16 +1,16 @@
-# Contributing to the Recursive Project
+# Contributing to the Shantell Sans Project
 
 ## Types of contributions
 
-**Issues** 
+### Issues
 
 If you find something that’s not working as you expect, please file an [Issue](https://github.com/arrowtype/shantell-sans/issues).
 
-**Documentation improvements** 
+### Documentation improvements
 
 If you find a typo or something that seems out of date in the Readme, etc, please feel free to file a [Pull Request](https://github.com/arrowtype/shantell-sans/pulls) with your suggested change(s).
 
-**Type design fixes/changes**
+### Type design fixes/changes
 
 Some open-source projects might function well with direct contributions from many participants, but type design tends to benefit from a central, strong creative & technical direction. There are probably exceptions to this, but Shantell Sans – as a commissioned, custom font – is not one of them.
 
