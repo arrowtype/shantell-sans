@@ -6,6 +6,9 @@
 @numbers_dnom = [ zero.dnom         one.dnom         two.dnom         three.dnom         four.dnom         five.dnom         six.dnom         seven.dnom         eight.dnom         nine.dnom         ];
 @numbers_pnum = [ zero.pnum         one.pnum         two.pnum         three.pnum         four.pnum         five.pnum         six.pnum         seven.pnum         eight.pnum         nine.pnum         ];
 
+@punc_prop = [ period      comma      slash      colon      ];
+@punc_tnum = [ period.tnum comma.tnum slash.tnum colon.tnum ];
+
 @PRE          = [ onehalf           onethird         twothirds        onequarter         threequarters     oneeighth         threeeighths     fiveeighths        seveneighths      ];
 
 lookup FractionBar {

@@ -1126,6 +1126,8 @@
       <integer>138</integer>
       <key>colon.alt3</key>
       <integer>69</integer>
+      <key>colon.tnum</key>
+      <real>57.0</real>
       <key>comma</key>
       <real>85.5</real>
       <key>comma.alt1</key>
@@ -1134,6 +1136,8 @@
       <real>121.5</real>
       <key>comma.alt3</key>
       <integer>96</integer>
+      <key>comma.tnum</key>
+      <real>66.0</real>
       <key>commaaccentbelowcmb</key>
       <integer>21</integer>
       <key>commaturnedabovecmb</key>
@@ -1920,6 +1924,8 @@
       <real>91.5</real>
       <key>period.alt3</key>
       <integer>66</integer>
+      <key>period.tnum</key>
+      <real>60.0</real>
       <key>periodcentered</key>
       <real>-58.5</real>
       <key>periodcentered.case</key>
@@ -2124,6 +2130,8 @@
       <real>-112.5</real>
       <key>slash.case</key>
       <integer>-33</integer>
+      <key>slash.tnum</key>
+      <real>79.5</real>
       <key>space</key>
       <integer>-48</integer>
       <key>space.frac</key>
@@ -4269,6 +4277,10 @@
       <string>IJacute</string>
       <string>idotaccent</string>
       <string>.notdef</string>
+      <string>period.tnum</string>
+      <string>comma.tnum</string>
+      <string>slash.tnum</string>
+      <string>colon.tnum</string>
     </array>
     <key>public.postscriptNames</key>
     <dict/>
