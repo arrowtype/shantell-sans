@@ -5,6 +5,9 @@ set -e
 DS="sources/wght_BNCE_IRGL--prepped/shantell_sans-wght_BNCE_IRGL--static.designspace"
 outputDir="fonts/shantell-sans"
 
+mkdir -p $outputDir
+
+# update feature code to point to correct feature file paths
 parentDir=$(dirname "$DS")
 for ufo in $parentDir/*.ufo; do
     python "./scripts--build/helpers/update-feature-code-for-statics.py" "$ufo"
@@ -28,7 +31,7 @@ normalStatics=$(ls $outputDir/static-*TF/*Normal*.*tf)
 
 for normalStatic in $normalStatics; do
     # subset calt table out to avoid unused alts
-    pyftsubset $normalStatic --layout-features-="calt" --unicodes="*" --glyph-names --notdef-outline --output-file="$normalStatic.subset"
+    pyftsubset $normalStatic --layout-features-="calt" --unicodes="*" --glyph-names --notdef-outline --name-IDs='*' --output-file="$normalStatic.subset"
     # move subset file back to previous name
     mv "$normalStatic.subset" $normalStatic
 done
@@ -59,5 +62,7 @@ for static in $statics; do
 
     # set version data
     font-v write --ver=$version --sha1 $static
+
+    python scripts--build/helpers/set-name_id-3.py --inplace $static
 
 done

@@ -6,6 +6,9 @@ DS="sources/wght_BNCE_IRGL--prepped/shantell_sans-wght_BNCE_IRGL.designspace"
 outputDir="fonts/shantell-sans"
 vfName="Shantell_Sans-Variable.ttf"
 
+mkdir -p $outputDir
+
+# update feature code to point to correct feature file paths
 parentDir=$(dirname "$DS")
 for ufo in $parentDir/*.ufo; do
     pwd
@@ -14,7 +17,7 @@ done
 
 vfPath="$outputDir/$vfName"
 
-fontmake -o variable -m $DS --no-production-names --output-path $vfPath
+fontmake -o variable -m $DS --output-path $vfPath
 
 # add STAT table
 
@@ -43,6 +46,8 @@ python scripts--build/helpers/add-AVAR.py $vfPath
 # set version data
 version=$(cat "version.txt")
 font-v write --ver=$version --sha1 $vfPath
+
+python scripts--build/helpers/set-name_id-3.py --inplace $vfPath
 
 # change to official filename
 mv $vfPath "$outputDir/ShantellSans[BNCE,IRGL,wght].ttf"
