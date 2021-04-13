@@ -3,11 +3,16 @@
 set -e
 
 DS="sources/wght_BNCE_IRGL--prepped/shantell_sans-wght_BNCE_IRGL--static.designspace"
-outputDir="fonts/shantell-sans"
+outputDir="fonts/Shantell Sans/Desktop"
+staticDir="$outputDir/Static"
+webDir="fonts/Shantell Sans/Web"
 
-mkdir -p $outputDir
+mkdir -p "$outputDir"
 
+
+# -----------------------------------------------------------------------------------
 # update feature code to point to correct feature file paths
+
 parentDir=$(dirname "$DS")
 for ufo in $parentDir/*.ufo; do
     python "./scripts--build/helpers/update-feature-code-for-statics.py" "$ufo"
@@ -18,51 +23,84 @@ done
 # build static fonts
 
 # Build TTFs
-fontmake -o ttf -i -m $DS --output-dir $outputDir/static-TTF
+fontmake -o ttf -i -m $DS --output-dir "$outputDir/static-TTF"
 
-# Build OTFs (don’t optimize the CFF table, because it takes a super long time)
-fontmake -o otf -i -m $DS --output-dir $outputDir/static-OTF --optimize-cff=0
+# Build OTFs (don’t optimize the CFF table, because it takes a super long time for marginal benefit)
+fontmake -o otf -i -m $DS --optimize-cff=0 --output-dir "$outputDir/static-OTF"
 
 
 # -----------------------------------------------------------------------------------
 # remove alts & calt code from static "normal" (non-bouncy, non-irregular) fonts
 
-normalStatics=$(ls $outputDir/static-*TF/*Normal*.*tf)
-
-for normalStatic in $normalStatics; do
+function subsetNormal {
+    normalStatic="$1"
+    echo $normalStatic
     # subset calt table out to avoid unused alts
-    pyftsubset $normalStatic --layout-features-="calt" --unicodes="*" --glyph-names --notdef-outline --name-IDs='*' --output-file="$normalStatic.subset"
+    pyftsubset "$normalStatic" --layout-features-="calt" --unicodes="*" --glyph-names --notdef-outline --name-IDs='*' --output-file="$normalStatic.subset"
     # move subset file back to previous name
-    mv "$normalStatic.subset" $normalStatic
+    mv "$normalStatic.subset" "$normalStatic"
+}
+
+find "$outputDir/static-TTF" "$outputDir/static-OTF" -path '*Normal*.*tf' -print0 | while read -d $'\0' file
+do
+    subsetNormal "$file"
 done
+
 
 # -----------------------------------------------------------------------------------
 # font fixes
 
 version=$(cat "version.txt")
 
-statics=$(ls $outputDir/static-*TF/*.*tf)
-for static in $statics; do
+function fixfont {
+    static="$1"
+
     ext=${static##*.}
-    echo $ext
+    echo "$ext"
 
     # fix nonhinting
     gftools fix-nonhinting "$static" "$static"
-    rm ${static/".$ext"/"-backup-fonttools-prep-gasp.$ext"}
+    rm "${static/.$ext/-backup-fonttools-prep-gasp.$ext}"
 
     # remove MVAR (custom underline values, which mess up line heights on older versions of Windows)
-    gftools fix-unwanted-tables $static
+    gftools fix-unwanted-tables "$static"
 
     # add dummy DSIG
-    gftools fix-dsig --autofix $static
+    gftools fix-dsig --autofix "$static"
 
     # set fsType to allow editable embedding
-    gftools fix-fstype $static
+    gftools fix-fstype "$static"
     mv "$static.fix" "$static"
 
     # set version data
-    font-v write --ver=$version --sha1 $static
+    font-v write --ver=$version --sha1 "$static"
 
-    python scripts--build/helpers/set-name_id-3.py --inplace $static
+    python scripts--build/helpers/set-name_id-3.py --inplace "$static"
 
+}
+
+find "$outputDir/static-TTF" "$outputDir/static-OTF" -path '*.*tf' -print0 | while read -d $'\0' file
+do
+    subsetNormal "$file"
 done
+
+# -----------------------------------------------------------------------------------
+# web fonts
+
+mkdir -p "$webDir/Static"
+
+find "$outputDir/static-TTF" -path '*.ttf' -print0 | while read -d $'\0' ttf
+do
+    woff2_compress "$ttf"
+
+    woff2name=$(basename "${ttf/.ttf/.woff2}")
+    mv "${ttf/.ttf/.woff2}" "$webDir/Static/$woff2name"
+done
+
+# -----------------------------------------------------------------------------------
+# sort fonts
+
+mkdir -p "$staticDir"
+
+mv "$outputDir/static-OTF" "$staticDir/OTF"
+mv "$outputDir/static-TTF" "$staticDir/TTF"
