@@ -1,20 +1,24 @@
 # !/bin/bash
 
-fontDir="fonts/Shantell Sans"
+version=$(cat "version.txt")
 
-cp "scripts--build/release-data/ABOUT" "$fontDir/ABOUT"
-cp "LICENSE.txt" "$fontDir/LICENSE"
+fontDir="fonts/Shantell Sans"
+releaseDir="fonts/Shantell Sans $version"
+
+cp -r "$fontDir" "$releaseDir"
+
+cp "scripts--build/release-data/ABOUT" "$releaseDir/1 - About"
+cp "LICENSE.txt" "$releaseDir/2 - License"
 
 function zipit {
   currentDir=$(pwd)                             # get current dir so you can return later
   cd $(dirname "$1")                              # change to target’s dir (works better for zip)
   target=$(basename "$1")                         # get target’s name
-  zip -r $target.zip $target -x '*/.DS_Store'   # make a zip of the target, excluding macOS metadata
+  zip -r "${target// /_}.zip" "$target" -x '*/.DS_Store'   # make a zip of the target, excluding macOS metadata
   echo "zip made of " "$1"                        # announce completion
   cd $currentDir                                # return to where you were
 }
 
-zipit $fontDir
+zipit "$releaseDir"
 
-version=$(cat "version.txt")
-mv "$fontDir.zip" "$fontDir-v$version.zip"
+rm -r "$releaseDir"
