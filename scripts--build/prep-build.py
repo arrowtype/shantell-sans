@@ -391,6 +391,7 @@ def removeAltUnicodes(fonts):
                 g.unicodes = []
         font.save()
 
+
 def correctAccents(fonts):
     """
         In composed glyphs, fix alignment between accents and bases, using anchor positions & shift records
@@ -629,13 +630,12 @@ def main():
     if os.path.exists(prepDir):
         shutil.rmtree(prepDir,ignore_errors=True)
 
-    # ONLY DO THE FOLLOWING IF YOU WANT TO COMPLETELY SHIFT BOUNCY STYLES
+    # ONLY DO THE FOLLOWING IF YOU WANT TO COMPLETELY SHIFT/CHANGE BOUNCY STYLES
     # print("🤖 Resetting bounce randomization in sources")
     # resetBounces()
 
     print(f"🤖 Copying fonts to {prepDir}")
-    makePrepDir()
-
+    makePrepDir() 
     newFontPaths = [os.path.join(prepDir, path) for path in os.listdir(prepDir) if '.DS_Store' not in path]
 
     print("🤖 Opening fonts")
@@ -650,11 +650,7 @@ def main():
     altsMadeForList = makeAlts(fonts, numOfAlts=3)
 
     print("🤖 Making composed alts point to alt components")
-
-
     makeComponentsAlts(fonts)
-
-    
 
     # shift alts in bounce fonts
     print("🤖 Shifting bouncy alts")
@@ -675,15 +671,9 @@ def main():
     interpolateAlts([f for f in fonts if "shantell--light" in f.path][0], [f for f in fonts if "organic--light" in f.path][0], altsMadeForList)
     interpolateAlts([f for f in fonts if "shantell--extrabold" in f.path][0], [f for f in fonts if "organic--extrabold" in f.path][0], altsMadeForList)
 
-    # TODO? fix accent alignment in irregular glyphs – possibly by re-attaching accents to new anchor positions?
-    
     # yes, this is needed twice. Once to make shifting work well, then again to make irregular sources compatible again after interpolation
     print("🤖 Making composed alts point to alt components – repeating to fix irregular sources")
     makeComponentsAlts(fonts)
-
-    # maybe not needed?
-    # print("🤖 Decomposing alts with components")
-    # decomposeCoreGlyphs(fonts)
 
     print("🤖 Removing unicodes from alt glyphs")
     removeAltUnicodes(fonts)
