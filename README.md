@@ -76,6 +76,15 @@ Finally, give the build scripts permission to run:
 chmod +x scripts--build/*.sh
 ```
 
+Finally, you will also need to separately install [google/woff2](https://github.com/google/woff2) to enable the `woff2_compress` and `woff2_decompress` commands. Open a new terminal session, window, or tab to do this step.
+
+```bash
+# 👉 open a new terminal session first, then run this
+git clone --recursive https://github.com/google/woff2.git
+cd woff2
+make clean all
+```
+
 ### Building the fonts
 
 ```bash
