@@ -70,18 +70,18 @@ function fixfont {
 
     # set fsType to allow editable embedding
     gftools fix-fstype "$static"
-    mv "$static.fix" "$static"
+    if [ -f "$static.fix" ]; then
+        mv "$static.fix" "$static"
+    fi
 
     # set version data
-    font-v write --ver=$version --sha1 "$static"
-
-    python scripts--build/helpers/set-name_id-3.py --inplace "$static"
-
+    sha1=$(git log -1 --format="%h") # get latest git commit hash
+    python scripts--build/helpers/set-version-data.py "$static" --version "$version" --sha1 "$sha1" --inplace
 }
 
 find "$outputDir/static-TTF" "$outputDir/static-OTF" -path '*.*tf' -print0 | while read -d $'\0' file
 do
-    subsetNormal "$file"
+    fixfont "$file"
 done
 
 # -----------------------------------------------------------------------------------

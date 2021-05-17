@@ -47,9 +47,8 @@ python scripts--build/helpers/add-AVAR.py "$vfPath"
 
 # set version data
 version=$(cat "version.txt")
-font-v write --ver=$version --sha1 "$vfPath"
-
-python scripts--build/helpers/set-name_id-3.py --inplace "$vfPath"
+sha1=$(git log -1 --format="%h") # get latest git commit hash
+python scripts--build/helpers/set-version-data.py "$vfPath" --version "$version" --sha1 "$sha1" --inplace
 
 # change to official filename
 mv "$vfPath" "$outputDir/$finalVfName"
