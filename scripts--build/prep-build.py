@@ -133,7 +133,7 @@ def makeAlts(fonts, numOfAlts=2):
     """
         Make alts for all glyphs in fonts.
         Argument 'numOfAlts' is the number of alts. 
-        E.g. Default numOfAlts=2 would result in a, a.alt1, a.alt2, etc
+        E.g. Default numOfAlts=2 would result in a, a.alt1, a.alt2, b, b.alt1, b.alt2, etc
     """
 
     altsToMakeGlyphNames = [g.name for g in fonts[0] if g.unicodes and g.unicodes[0] in altsToMakeList]
