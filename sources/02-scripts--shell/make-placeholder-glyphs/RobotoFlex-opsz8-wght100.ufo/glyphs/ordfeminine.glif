@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ordfeminine" format="2">
+	<unicode hex="00AA"/>
+	<advance width="916"/>
+	<outline>
+		<contour>
+			<point x="643" y="873" type="line"/>
+			<point x="643" y="830"/>
+			<point x="663" y="739"/>
+			<point x="686" y="707" type="qcurve"/>
+			<point x="774" y="707" type="line"/>
+			<point x="760" y="753"/>
+			<point x="748" y="848"/>
+			<point x="748" y="900" type="qcurve" smooth="yes"/>
+			<point x="748" y="1235" type="line" smooth="yes"/>
+			<point x="748" y="1382"/>
+			<point x="599" y="1530"/>
+			<point x="464" y="1530" type="qcurve" smooth="yes"/>
+			<point x="329" y="1530"/>
+			<point x="155" y="1400"/>
+			<point x="155" y="1299" type="qcurve" smooth="yes"/>
+			<point x="155" y="1270" type="line"/>
+			<point x="260" y="1270" type="line"/>
+			<point x="260" y="1284" type="line" smooth="yes"/>
+			<point x="260" y="1348"/>
+			<point x="376" y="1430"/>
+			<point x="466" y="1430" type="qcurve" smooth="yes"/>
+			<point x="551" y="1430"/>
+			<point x="643" y="1326"/>
+			<point x="643" y="1236" type="qcurve" smooth="yes"/>
+		</contour>
+		<contour>
+			<point x="655" y="1180" type="line"/>
+			<point x="477" y="1180" type="line" smooth="yes"/>
+			<point x="310" y="1180"/>
+			<point x="131" y="1052"/>
+			<point x="131" y="933" type="qcurve" smooth="yes"/>
+			<point x="131" y="828"/>
+			<point x="277" y="692"/>
+			<point x="383" y="692" type="qcurve" smooth="yes"/>
+			<point x="488" y="692"/>
+			<point x="639" y="794"/>
+			<point x="661" y="847" type="qcurve"/>
+			<point x="643" y="934" type="line"/>
+			<point x="643" y="894"/>
+			<point x="490" y="797"/>
+			<point x="415" y="797" type="qcurve" smooth="yes"/>
+			<point x="338" y="797"/>
+			<point x="238" y="876"/>
+			<point x="238" y="937" type="qcurve" smooth="yes"/>
+			<point x="238" y="1007"/>
+			<point x="362" y="1081"/>
+			<point x="478" y="1080" type="qcurve" smooth="yes"/>
+			<point x="655" y="1080" type="line"/>
+		</contour>
+	</outline>
+	<guideline x="0" y="1681" angle="0" identifier="3CJlALCfkl"/>
+	<guideline x="0" y="909" angle="0" identifier="Zdl6NZVQAy"/>
+	<lib>
+		<dict>
+			<key>com.typemytype.robofont.guideline.magnetic.3CJlALCfkl</key>
+			<integer>5</integer>
+			<key>com.typemytype.robofont.guideline.magnetic.Zdl6NZVQAy</key>
+			<integer>5</integer>
+		</dict>
+	</lib>
+</glyph>

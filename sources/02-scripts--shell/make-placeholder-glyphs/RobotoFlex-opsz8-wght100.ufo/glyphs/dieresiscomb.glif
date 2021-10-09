@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresiscomb" format="2">
+  <advance width="1024"/>
+  <unicode hex="0308"/>
+  <anchor x="512.0" y="1089.12" name="_GRK_top"/>
+  <anchor x="512.0" y="1089.12" name="_top"/>
+  <anchor x="512.0" y="1454.6666666667" name="top"/>
+  <outline>
+    <component base="dieresis"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8337,1,0.1931,1</string>
+    </dict>
+  </lib>
+</glyph>

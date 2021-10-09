@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Schwacyr" format="2">
+	<unicode hex="04D8"/>
+	<advance width="1435"/>
+	<outline>
+		<contour>
+			<point x="170" y="731" type="line"/>
+			<point x="1265" y="731" type="line"/>
+			<point x="1265" y="631" type="line"/>
+			<point x="170" y="631" type="line"/>
+		</contour>
+		<contour>
+			<point x="1210" y="754" type="line" smooth="yes"/>
+			<point x="1210" y="1066"/>
+			<point x="933" y="1383"/>
+			<point x="708" y="1383" type="qcurve" smooth="yes"/>
+			<point x="490.5400457666" y="1383"/>
+			<point x="266" y="1167.9863013699"/>
+			<point x="266" y="1023" type="qcurve" smooth="yes"/>
+			<point x="266" y="1008" type="line"/>
+			<point x="155" y="1008" type="line"/>
+			<point x="155" y="1023" type="line" smooth="yes"/>
+			<point x="155" y="1227.7884615385"/>
+			<point x="450.6733576642" y="1486"/>
+			<point x="708" y="1486" type="qcurve" smooth="yes"/>
+			<point x="978" y="1486"/>
+			<point x="1320" y="1110"/>
+			<point x="1320" y="754" type="qcurve" smooth="yes"/>
+			<point x="1320" y="702" type="line" smooth="yes"/>
+			<point x="1320" y="355"/>
+			<point x="984" y="-30"/>
+			<point x="718" y="-30" type="qcurve" smooth="yes"/>
+			<point x="452" y="-30"/>
+			<point x="115" y="355"/>
+			<point x="115" y="702" type="qcurve" smooth="yes"/>
+			<point x="115" y="731" type="line"/>
+			<point x="225" y="731" type="line"/>
+			<point x="225" y="702" type="line" smooth="yes"/>
+			<point x="225" y="395"/>
+			<point x="496" y="73"/>
+			<point x="718" y="73" type="qcurve" smooth="yes"/>
+			<point x="940" y="73"/>
+			<point x="1210" y="395"/>
+			<point x="1210" y="702" type="qcurve" smooth="yes"/>
+		</contour>
+	</outline>
+	<guideline x="1118" y="1316" angle="90" identifier="Ovo68woMtl"/>
+	<guideline x="-344" y="724" angle="90" identifier="z0dkOIsaat"/>
+	<guideline x="291" y="810" angle="90" identifier="cbLAAzcHkq"/>
+	<guideline x="211" y="787" angle="90" identifier="grh1az8G1D"/>
+	<guideline x="1118" y="1316" angle="90" identifier="04COhzMve8"/>
+	<guideline x="-344" y="724" angle="90" identifier="MfRpKxGlT6"/>
+	<guideline x="219" y="1062" angle="90" identifier="IMRKYFwy3a"/>
+	<guideline x="211" y="787" angle="90" identifier="aRVC4N9U2K"/>
+	<lib>
+		<dict>
+			<key>com.typemytype.robofont.guideline.showMeasurements.Ovo68woMtl</key>
+			<true/>
+			<key>com.typemytype.robofont.guideline.showMeasurements.z0dkOIsaat</key>
+			<true/>
+			<key>public.markColor</key>
+			<string>0.9991,0.8674,0.7109,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hadescender" format="2">
+	<unicode hex="04B3"/>
+	<advance width="1097"/>
+	<outline>
+		<contour>
+			<point x="20" y="0" type="line"/>
+			<point x="496" y="580" type="line"/>
+			<point x="514" y="580" type="line"/>
+			<point x="926" y="1089" type="line"/>
+			<point x="1052" y="1089" type="line"/>
+			<point x="591" y="523" type="line"/>
+			<point x="573" y="523" type="line"/>
+			<point x="146" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="45" y="1089" type="line"/>
+			<point x="187" y="1089" type="line"/>
+			<point x="592" y="580" type="line"/>
+			<point x="605" y="580" type="line"/>
+			<point x="1054" y="32" type="line"/>
+			<point x="1054" y="0" type="line"/>
+			<point x="939" y="0" type="line"/>
+			<point x="518" y="523" type="line"/>
+			<point x="506" y="523" type="line"/>
+		</contour>
+		<contour>
+			<point x="939" y="98" type="line"/>
+			<point x="1127" y="98" type="line"/>
+			<point x="1127" y="-270" type="line"/>
+			<point x="1030" y="-270" type="line"/>
+			<point x="1030" y="0" type="line"/>
+			<point x="939" y="0" type="line"/>
+		</contour>
+	</outline>
+	<guideline x="180" y="548" angle="90" identifier="GUBu2fdSLX"/>
+	<guideline x="187" y="579" angle="90" identifier="fGabLEmAux"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.9991,0.8674,0.7109,1</string>
+		</dict>
+	</lib>
+</glyph>

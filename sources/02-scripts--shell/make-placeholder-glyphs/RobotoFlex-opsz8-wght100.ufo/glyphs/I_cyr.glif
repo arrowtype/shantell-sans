@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Icyr" format="2">
+	<unicode hex="0418"/>
+	<advance width="1483"/>
+	<outline>
+		<contour>
+			<point x="1313" y="0" type="line"/>
+			<point x="1204" y="0" type="line"/>
+			<point x="1204" y="1191" type="line" smooth="yes"/>
+			<point x="1204" y="1221"/>
+			<point x="1208" y="1300"/>
+			<point x="1213" y="1332" type="qcurve"/>
+			<point x="1204" y="1332" type="line"/>
+			<point x="1193" y="1308"/>
+			<point x="1153" y="1242"/>
+			<point x="1132" y="1211" type="qcurve" smooth="yes"/>
+			<point x="297" y="0" type="line"/>
+			<point x="170" y="0" type="line"/>
+			<point x="170" y="1456" type="line"/>
+			<point x="279" y="1456" type="line"/>
+			<point x="279" y="238" type="line" smooth="yes"/>
+			<point x="279" y="208"/>
+			<point x="276" y="154"/>
+			<point x="274" y="124" type="qcurve"/>
+			<point x="282" y="124" type="line"/>
+			<point x="298" y="155"/>
+			<point x="330" y="214"/>
+			<point x="352" y="246" type="qcurve" smooth="yes"/>
+			<point x="1186" y="1456" type="line"/>
+			<point x="1313" y="1456" type="line"/>
+		</contour>
+	</outline>
+	<guideline x="739" y="930" angle="90" identifier="9d4iEHlV35"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.9991,0.8674,0.7109,1</string>
+		</dict>
+	</lib>
+</glyph>
