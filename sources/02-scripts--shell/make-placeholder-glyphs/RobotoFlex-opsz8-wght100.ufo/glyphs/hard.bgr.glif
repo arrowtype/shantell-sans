@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hard.bgr" format="2">
+	<advance width="1299"/>
+	<outline>
+		<contour>
+			<point x="352" y="338" type="qcurve" smooth="yes"/>
+			<point x="352" y="991" type="line"/>
+			<point x="50" y="991" type="line"/>
+			<point x="50" y="1089" type="line"/>
+			<point x="459" y="1089" type="line"/>
+			<point x="459" y="702" type="line"/>
+			<point x="789" y="702" type="line" smooth="yes"/>
+			<point x="1001" y="702"/>
+			<point x="1219" y="506"/>
+			<point x="1219" y="338" type="qcurve" smooth="yes"/>
+			<point x="1219" y="173"/>
+			<point x="1001" y="-30"/>
+			<point x="789" y="-30" type="qcurve" smooth="yes"/>
+			<point x="577" y="-30"/>
+			<point x="352" y="173"/>
+		</contour>
+		<contour>
+			<point x="459" y="338" type="line" smooth="yes"/>
+			<point x="459" y="226"/>
+			<point x="613" y="71"/>
+			<point x="789" y="71" type="qcurve" smooth="yes"/>
+			<point x="965" y="71"/>
+			<point x="1111" y="226"/>
+			<point x="1111" y="338" type="qcurve" smooth="yes"/>
+			<point x="1111" y="449"/>
+			<point x="961" y="604"/>
+			<point x="789" y="604" type="qcurve" smooth="yes"/>
+			<point x="459" y="604" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.9991,0.8674,0.7109,1</string>
+		</dict>
+	</lib>
+</glyph>

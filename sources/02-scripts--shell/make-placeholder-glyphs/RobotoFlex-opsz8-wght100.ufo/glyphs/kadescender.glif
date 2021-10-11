@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kadescender" format="2">
+	<unicode hex="049B"/>
+	<advance width="1035"/>
+	<outline>
+		<contour>
+			<point x="885" y="0" type="line"/>
+			<point x="442" y="515" type="line"/>
+			<point x="520" y="580" type="line"/>
+			<point x="993" y="32" type="line"/>
+			<point x="993" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="201" y="600" type="line"/>
+			<point x="454" y="600" type="line"/>
+			<point x="860" y="1089" type="line"/>
+			<point x="986" y="1089" type="line"/>
+			<point x="497" y="502" type="line"/>
+			<point x="201" y="502" type="line"/>
+		</contour>
+		<contour>
+			<point x="255" y="1089" type="line"/>
+			<point x="255" y="0" type="line"/>
+			<point x="148" y="0" type="line"/>
+			<point x="148" y="1089" type="line"/>
+		</contour>
+		<contour>
+			<point x="885" y="98" type="line"/>
+			<point x="1065" y="98" type="line"/>
+			<point x="1065" y="-270" type="line"/>
+			<point x="968" y="-270" type="line"/>
+			<point x="968" y="0" type="line"/>
+			<point x="885" y="0" type="line"/>
+		</contour>
+	</outline>
+	<guideline x="180" y="548" angle="90" identifier="AEoq2U1whz"/>
+	<guideline x="187" y="579" angle="90" identifier="lAjk0U2JTq"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.9991,0.8674,0.7109,1</string>
+		</dict>
+	</lib>
+</glyph>

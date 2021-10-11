@@ -17,7 +17,6 @@
 
 import os
 import shutil
-import shutil
 from fontParts.fontshell import RFont as Font
 from fontParts.world import *
 from random import random

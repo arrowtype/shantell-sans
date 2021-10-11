@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohorndotbelow" format="2">
+  <advance width="1237"/>
+  <unicode hex="1EE3"/>
+  <outline>
+    <component base="o"/>
+    <component base="horncomb" xOffset="796"/>
+    <component base="dotbelowcomb" xOffset="106.5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8337,1,0.1931,1</string>
+    </dict>
+  </lib>
+</glyph>

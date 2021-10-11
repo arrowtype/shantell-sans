@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ieukran" format="2">
+	<unicode hex="0404"/>
+	<advance width="1353"/>
+	<outline>
+		<contour>
+			<point x="170" y="801" type="line"/>
+			<point x="907" y="801" type="line"/>
+			<point x="907" y="701" type="line"/>
+			<point x="170" y="701" type="line"/>
+		</contour>
+		<contour>
+			<point x="115" y="702" type="qcurve" smooth="yes"/>
+			<point x="115" y="754" type="line" smooth="yes"/>
+			<point x="115" y="1100"/>
+			<point x="470" y="1486"/>
+			<point x="738" y="1486" type="qcurve" smooth="yes"/>
+			<point x="1002" y="1486"/>
+			<point x="1281" y="1213"/>
+			<point x="1302" y="993" type="qcurve" smooth="yes"/>
+			<point x="1303" y="983" type="line"/>
+			<point x="1192" y="983" type="line"/>
+			<point x="1191" y="993" type="line" smooth="yes"/>
+			<point x="1175" y="1154"/>
+			<point x="963" y="1383"/>
+			<point x="738" y="1383" type="qcurve" smooth="yes"/>
+			<point x="513" y="1383"/>
+			<point x="225" y="1058"/>
+			<point x="225" y="754" type="qcurve" smooth="yes"/>
+			<point x="225" y="702" type="line" smooth="yes"/>
+			<point x="225" y="398"/>
+			<point x="513" y="73"/>
+			<point x="738" y="73" type="qcurve" smooth="yes"/>
+			<point x="963" y="73"/>
+			<point x="1175" y="302"/>
+			<point x="1191" y="463" type="qcurve" smooth="yes"/>
+			<point x="1192" y="473" type="line"/>
+			<point x="1303" y="473" type="line"/>
+			<point x="1302" y="463" type="line" smooth="yes"/>
+			<point x="1281" y="243"/>
+			<point x="1002" y="-30"/>
+			<point x="738" y="-30" type="qcurve" smooth="yes"/>
+			<point x="470" y="-30"/>
+			<point x="115" y="356"/>
+		</contour>
+	</outline>
+	<guideline x="211" y="787" angle="90" identifier="b1V3DjCVlD"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.9991,0.8674,0.7109,1</string>
+		</dict>
+	</lib>
+</glyph>

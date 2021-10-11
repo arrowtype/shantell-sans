@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="questiondown" format="2">
+	<unicode hex="00BF"/>
+	<advance width="818"/>
+	<outline>
+		<contour>
+			<point x="514" y="1070" type="qcurve" smooth="yes"/>
+			<point x="514" y="1029"/>
+			<point x="472" y="970"/>
+			<point x="432" y="970" type="qcurve" smooth="yes"/>
+			<point x="393" y="970"/>
+			<point x="351" y="1029"/>
+			<point x="351" y="1070" type="qcurve" smooth="yes"/>
+			<point x="351" y="1111"/>
+			<point x="393" y="1170"/>
+			<point x="432" y="1170" type="qcurve" smooth="yes"/>
+			<point x="472" y="1170"/>
+			<point x="514" y="1111"/>
+		</contour>
+		<contour>
+			<point x="795" y="64" type="line"/>
+			<point x="795" y="42" type="line" smooth="yes"/>
+			<point x="795" y="-118"/>
+			<point x="579" y="-328"/>
+			<point x="392" y="-328" type="qcurve" smooth="yes"/>
+			<point x="206" y="-328"/>
+			<point x="-3" y="-122"/>
+			<point x="-3" y="21" type="qcurve" smooth="yes"/>
+			<point x="-3" y="155"/>
+			<point x="105" y="326"/>
+			<point x="201" y="414" type="qcurve" smooth="yes"/>
+			<point x="308" y="514"/>
+			<point x="380" y="644"/>
+			<point x="380" y="722" type="qcurve" smooth="yes"/>
+			<point x="380" y="732" type="line"/>
+			<point x="491" y="732" type="line"/>
+			<point x="491" y="722" type="line" smooth="yes"/>
+			<point x="491" y="606"/>
+			<point x="390" y="443"/>
+			<point x="299" y="363" type="qcurve" smooth="yes"/>
+			<point x="204" y="274"/>
+			<point x="106" y="132"/>
+			<point x="106" y="21" type="qcurve" smooth="yes"/>
+			<point x="106" y="-83"/>
+			<point x="248" y="-228"/>
+			<point x="392" y="-228" type="qcurve" smooth="yes"/>
+			<point x="535" y="-228"/>
+			<point x="684" y="-80"/>
+			<point x="684" y="42" type="qcurve" smooth="yes"/>
+			<point x="684" y="64" type="line"/>
+		</contour>
+	</outline>
+	<guideline x="0" y="-181" angle="0" identifier="apukwP5ffL"/>
+	<guideline x="0" y="921" angle="0" identifier="5ZPZZL8Rim"/>
+	<lib>
+		<dict>
+			<key>com.typemytype.robofont.guideline.magnetic.5ZPZZL8Rim</key>
+			<integer>5</integer>
+			<key>com.typemytype.robofont.guideline.magnetic.apukwP5ffL</key>
+			<integer>5</integer>
+		</dict>
+	</lib>
+</glyph>

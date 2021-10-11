@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="chedescender-cy" format="2">
+	<unicode hex="04B7"/>
+	<advance width="1155"/>
+	<outline>
+		<contour>
+			<point x="232" y="805" type="line" smooth="yes"/>
+			<point x="232" y="631"/>
+			<point x="387" y="500"/>
+			<point x="535" y="500" type="qcurve" smooth="yes"/>
+			<point x="658" y="500"/>
+			<point x="820" y="524"/>
+			<point x="915" y="551" type="qcurve"/>
+			<point x="915" y="455" type="line"/>
+			<point x="823" y="430"/>
+			<point x="656" y="402"/>
+			<point x="535" y="402" type="qcurve" smooth="yes"/>
+			<point x="316" y="402"/>
+			<point x="125" y="595"/>
+			<point x="125" y="805" type="qcurve" smooth="yes"/>
+			<point x="125" y="1089" type="line"/>
+			<point x="232" y="1089" type="line"/>
+		</contour>
+		<contour>
+			<point x="1023" y="-270" type="line"/>
+			<point x="1023" y="0" type="line"/>
+			<point x="862" y="0" type="line"/>
+			<point x="862" y="1089" type="line"/>
+			<point x="969" y="1089" type="line"/>
+			<point x="969" y="98" type="line"/>
+			<point x="1120" y="98" type="line"/>
+			<point x="1120" y="-270" type="line"/>
+		</contour>
+	</outline>
+	<guideline x="855" y="515" angle="90" identifier="GGEFes61Q6"/>
+	<guideline x="925" y="518" angle="90" identifier="RDFBihUABo"/>
+	<guideline x="855" y="515" angle="90" identifier="idJrD5E4hT"/>
+	<guideline x="875" y="552" angle="90" identifier="g5R8C5mRAs"/>
+	<guideline x="855" y="515" angle="90" identifier="gqaqriYRaR"/>
+	<guideline x="875" y="552" angle="90" identifier="50BbntIidL"/>
+	<guideline x="180" y="548" angle="90" identifier="uTAKow8vGg"/>
+	<guideline x="187" y="579" angle="90" identifier="eSEch0ZVDi"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.9991,0.8674,0.7109,1</string>
+		</dict>
+	</lib>
+</glyph>

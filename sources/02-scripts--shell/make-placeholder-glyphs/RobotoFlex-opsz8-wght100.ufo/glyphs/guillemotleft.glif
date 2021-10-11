@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guillemotleft" format="2">
+	<unicode hex="00AB"/>
+	<advance width="1022"/>
+	<outline>
+		<contour>
+			<point x="108" y="522" type="line"/>
+			<point x="108" y="581" type="line"/>
+			<point x="468" y="1030" type="line"/>
+			<point x="560" y="1030" type="line"/>
+			<point x="237" y="551" type="line"/>
+			<point x="557" y="57" type="line"/>
+			<point x="465" y="57" type="line"/>
+		</contour>
+		<contour>
+			<point x="508" y="522" type="line"/>
+			<point x="508" y="581" type="line"/>
+			<point x="868" y="1030" type="line"/>
+			<point x="960" y="1030" type="line"/>
+			<point x="637" y="551" type="line"/>
+			<point x="957" y="57" type="line"/>
+			<point x="865" y="57" type="line"/>
+		</contour>
+	</outline>
+	<guideline x="0" y="901" angle="0" identifier="ZftBQarVKw"/>
+	<guideline x="0" y="555" angle="0" identifier="MVJpdoVRVd"/>
+	<lib>
+		<dict>
+			<key>com.typemytype.robofont.guideline.magnetic.MVJpdoVRVd</key>
+			<integer>5</integer>
+			<key>com.typemytype.robofont.guideline.magnetic.ZftBQarVKw</key>
+			<integer>5</integer>
+		</dict>
+	</lib>
+</glyph>

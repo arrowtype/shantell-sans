@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="De.bgr" format="2">
+	<advance width="1590"/>
+	<outline>
+		<contour>
+			<point x="1482" y="-290" type="line"/>
+			<point x="1482" y="0" type="line"/>
+			<point x="108" y="0" type="line"/>
+			<point x="108" y="-290" type="line"/>
+			<point x="10" y="-290" type="line"/>
+			<point x="10" y="100" type="line"/>
+			<point x="1580" y="100" type="line"/>
+			<point x="1580" y="-290" type="line"/>
+		</contour>
+		<contour>
+			<point x="1472" y="0" type="line"/>
+			<point x="1358" y="0" type="line"/>
+			<point x="872" y="1182" type="line" smooth="yes"/>
+			<point x="851.8776428195" y="1230.9395600563"/>
+			<point x="813.2946140429" y="1333.1529846266"/>
+			<point x="797" y="1380" type="qcurve"/>
+			<point x="787" y="1380" type="line"/>
+			<point x="770.7053859571" y="1333.1529846266"/>
+			<point x="731.5512451468" y="1229.7470490981"/>
+			<point x="712" y="1182" type="qcurve" smooth="yes"/>
+			<point x="228" y="0" type="line"/>
+			<point x="118" y="0" type="line"/>
+			<point x="722" y="1466" type="line"/>
+			<point x="868" y="1466" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.9991,0.8674,0.7109,1</string>
+		</dict>
+	</lib>
+</glyph>
