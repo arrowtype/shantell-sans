@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni000D" format="2">
-	<unicode hex="000D"/>
-	<advance width="244.2307692308"/>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>1,0.8,0,0.15</string>
-		</dict>
-	</lib>
+  <advance width="244"/>
+  <unicode hex="000D"/>
+  <outline>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.8,0,0.3</string>
+    </dict>
+  </lib>
 </glyph>

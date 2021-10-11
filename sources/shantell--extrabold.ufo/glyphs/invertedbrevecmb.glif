@@ -1,27 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="invertedbrevecmb" format="2">
-	<unicode hex="0311"/>
-	<advance width="492.3076923077"/>
-	<outline>
-		<contour>
-			<point x="191.3461538462" y="615.3846153846" type="line"/>
-			<point x="26.9230769231" y="747.1153846154" type="line"/>
-			<point x="69.2307692308" y="786.5384615385" type="line"/>
-			<point x="212.5" y="636.0576923077" type="line"/>
-		</contour>
-		<contour>
-			<point x="376.9230769231" y="615.3846153846" type="line"/>
-			<point x="212.5" y="747.1153846154" type="line"/>
-			<point x="254.8076923077" y="786.5384615385" type="line"/>
-			<point x="398.0769230769" y="636.0576923077" type="line"/>
-		</contour>
-	</outline>
-	<anchor name="_top" x="246.1538461538" y="523.6153846154"/>
-	<anchor name="top" x="246.1538461538" y="786.5384615385"/>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>1,0.8,0,0.3</string>
-		</dict>
-	</lib>
+  <advance width="492"/>
+  <unicode hex="0311"/>
+  <outline>
+    <contour>
+      <point x="191.3461538462" y="615.3846153846" type="line"/>
+      <point x="26.9230769231" y="747.1153846154" type="line"/>
+      <point x="69.2307692308" y="786.5384615385" type="line"/>
+      <point x="212.5" y="636.0576923077" type="line"/>
+    </contour>
+    <contour>
+      <point x="376.9230769231" y="615.3846153846" type="line"/>
+      <point x="212.5" y="747.1153846154" type="line"/>
+      <point x="254.8076923077" y="786.5384615385" type="line"/>
+      <point x="398.0769230769" y="636.0576923077" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.8,0,0.3</string>
+    </dict>
+  </lib>
 </glyph>

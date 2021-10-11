@@ -1,21 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="macronbelowcmb" format="2">
-	<unicode hex="0331"/>
-	<advance width="492.3076923077"/>
-	<outline>
-		<contour>
-			<point x="80.2884615385" y="-93.75" type="line"/>
-			<point x="80.2884615385" y="-49.5192307692" type="line"/>
-			<point x="412.0192307692" y="-49.5192307692" type="line"/>
-			<point x="412.0192307692" y="-93.75" type="line"/>
-		</contour>
-	</outline>
-	<anchor name="_bottom" x="246.1538461538" y="0"/>
-	<anchor name="bottom" x="246.1538461538" y="-93.75"/>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>1,0.8,0,0.3</string>
-		</dict>
-	</lib>
+  <advance width="492"/>
+  <unicode hex="0331"/>
+  <outline>
+    <contour>
+      <point x="80.2884615385" y="-93.75" type="line"/>
+      <point x="80.2884615385" y="-49.5192307692" type="line"/>
+      <point x="412.0192307692" y="-49.5192307692" type="line"/>
+      <point x="412.0192307692" y="-93.75" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.8,0,0.3</string>
+    </dict>
+  </lib>
 </glyph>
