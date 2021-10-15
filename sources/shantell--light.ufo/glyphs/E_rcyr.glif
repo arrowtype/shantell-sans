@@ -1,37 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ercyr" format="2">
 	<unicode hex="0420"/>
-	<advance width="575.4807692308"/>
+	<advance width="570"/>
 	<outline>
-		<contour>
-			<point x="81.7307692308" y="0" type="line"/>
-			<point x="81.7307692308" y="700" type="line"/>
-			<point x="312.15346908" y="700" type="line" smooth="yes"/>
-			<point x="431.7052708817" y="700"/>
-			<point x="551.7456636501" y="583.8815987934"/>
-			<point x="551.7456636501" y="491.5101809955" type="qcurve" smooth="yes"/>
-			<point x="551.7456636501" y="399.7986425339"/>
-			<point x="431.7052708817" y="283.0648567119"/>
-			<point x="312.15346908" y="283.0648567119" type="qcurve" smooth="yes"/>
-			<point x="134.318627451" y="283.0648567119" type="line"/>
-			<point x="134.318627451" y="0" type="line"/>
-		</contour>
-		<contour>
-			<point x="134.318627451" y="331.5" type="line"/>
-			<point x="312.15346908" y="331.5" type="line" smooth="yes"/>
-			<point x="415.6619937141" y="331.5"/>
-			<point x="498.8020361991" y="423.4969834087"/>
-			<point x="498.8020361991" y="491.5101809955" type="qcurve" smooth="yes"/>
-			<point x="498.8020361991" y="559.8533182504"/>
-			<point x="415.6619937141" y="651.2349170438"/>
-			<point x="312.15346908" y="651.2349170438" type="qcurve" smooth="yes"/>
-			<point x="134.318627451" y="651.2349170438" type="line"/>
-		</contour>
+		<component base="P"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.5,0,1,0.15</string>
+			<string>0.6393,0.6135,0.999,1</string>
 		</dict>
 	</lib>
 </glyph>

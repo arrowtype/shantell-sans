@@ -1,33 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hacyr" format="2">
 	<unicode hex="0445"/>
-	<advance width="527.4038461538"/>
+	<advance width="504"/>
 	<outline>
-		<contour>
-			<point x="9.6153846154" y="0" type="line"/>
-			<point x="238.3898944193" y="279.0682503771" type="line"/>
-			<point x="247.1283936651" y="279.0682503771" type="line"/>
-			<point x="445.096907994" y="523.5757918552" type="line"/>
-			<point x="505.7481146305" y="523.5757918552" type="line"/>
-			<point x="284.3329562594" y="251.5682503771" type="line"/>
-			<point x="275.5944570136" y="251.5682503771" type="line"/>
-			<point x="70.3676470588" y="0" type="line"/>
-		</contour>
-		<contour>
-			<point x="21.6889140272" y="523.5757918552" type="line"/>
-			<point x="89.778280543" y="523.5757918552" type="line"/>
-			<point x="284.4008295626" y="279.0682503771" type="line"/>
-			<point x="290.6968325792" y="279.0682503771" type="line"/>
-			<point x="519.4713423831" y="0" type="line"/>
-			<point x="451.3819758673" y="0" type="line"/>
-			<point x="249.0701357466" y="251.5682503771" type="line"/>
-			<point x="243.1040723982" y="251.5682503771" type="line"/>
-		</contour>
+		<component base="x"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.5,0,1,0.15</string>
+			<string>0.6393,0.6135,0.999,1</string>
 		</dict>
 	</lib>
 </glyph>
