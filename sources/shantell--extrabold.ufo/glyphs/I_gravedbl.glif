@@ -1,31 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Igravedbl" format="2">
-  <advance width="221"/>
-  <unicode hex="0208"/>
-  <outline>
-    <contour>
-      <point x="84.1346153846" y="0" type="line"/>
-      <point x="84.1346153846" y="700" type="line"/>
-      <point x="136.5384615385" y="700" type="line"/>
-      <point x="136.5384615385" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="48.967760181" y="798.0769230769" type="line"/>
-      <point x="-108.3851809955" y="961.0576923077" type="line"/>
-      <point x="-48.1947586727" y="983.1730769231" type="line"/>
-      <point x="86.2697963801" y="810.5769230769" type="line"/>
-    </contour>
-    <contour>
-      <point x="226.1924962293" y="798.0769230769" type="line"/>
-      <point x="68.8395550528" y="961.0576923077" type="line"/>
-      <point x="129.0299773756" y="983.1730769231" type="line"/>
-      <point x="263.4945324284" y="810.5769230769" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0.8,0,0.3</string>
-    </dict>
-  </lib>
+	<unicode hex="0208"/>
+	<advance width="221"/>
+	<outline>
+		<contour>
+			<point x="84.1346153846" y="0" type="line"/>
+			<point x="84.1346153846" y="700" type="line"/>
+			<point x="136.5384615385" y="700" type="line"/>
+			<point x="136.5384615385" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="48.967760181" y="798.0769230769" type="line"/>
+			<point x="-108.3851809955" y="961.0576923077" type="line"/>
+			<point x="-48.1947586727" y="983.1730769231" type="line"/>
+			<point x="86.2697963801" y="810.5769230769" type="line"/>
+		</contour>
+		<contour>
+			<point x="226.1924962293" y="798.0769230769" type="line"/>
+			<point x="68.8395550528" y="961.0576923077" type="line"/>
+			<point x="129.0299773756" y="983.1730769231" type="line"/>
+			<point x="263.4945324284" y="810.5769230769" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,0.8,0,0.3</string>
+		</dict>
+	</lib>
 </glyph>
