@@ -1,27 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Encyr" format="2">
 	<unicode hex="041D"/>
-	<advance width="710.5769230769"/>
+	<advance width="715"/>
 	<outline>
-		<contour>
-			<point x="81.7307692308" y="0" type="line"/>
-			<point x="81.7307692308" y="700" type="line"/>
-			<point x="134.1346153846" y="700" type="line"/>
-			<point x="134.1346153846" y="385.0961538462" type="line"/>
-			<point x="576.4423076923" y="385.0961538462" type="line"/>
-			<point x="576.4423076923" y="700" type="line"/>
-			<point x="628.8461538462" y="700" type="line"/>
-			<point x="628.8461538462" y="0" type="line"/>
-			<point x="576.4423076923" y="0" type="line"/>
-			<point x="576.4423076923" y="337.0192307692" type="line"/>
-			<point x="134.1346153846" y="337.0192307692" type="line"/>
-			<point x="134.1346153846" y="0" type="line"/>
-		</contour>
+		<component base="H"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.5,0,1,0.15</string>
+			<string>0.6393,0.6135,0.999,1</string>
 		</dict>
 	</lib>
 </glyph>

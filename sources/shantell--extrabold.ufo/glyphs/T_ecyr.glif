@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tecyr" format="2">
 	<unicode hex="0422"/>
-	<advance width="585.5769230769"/>
+	<advance width="625"/>
 	<outline>
-		<contour>
-			<point x="11.5384615385" y="651.2349170438" type="line"/>
-			<point x="11.5384615385" y="700" type="line"/>
-			<point x="573.9513574661" y="700" type="line"/>
-			<point x="573.9513574661" y="651.2349170438" type="line"/>
-			<point x="319.0388386124" y="651.2349170438" type="line"/>
-			<point x="319.0388386124" y="0" type="line"/>
-			<point x="266.7809200603" y="0" type="line"/>
-			<point x="266.7809200603" y="651.2349170438" type="line"/>
-		</contour>
+		<component base="T"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.5,0,1,0.15</string>
+			<string>0.6393,0.6135,0.999,1</string>
 		</dict>
 	</lib>
 </glyph>
