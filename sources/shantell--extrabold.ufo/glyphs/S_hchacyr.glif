@@ -1,25 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Shchacyr" format="2">
 	<unicode hex="0429"/>
-	<advance width="1078.8461538462"/>
+	<advance width="1089"/>
 	<outline>
 		<contour>
-			<point x="81.7307692308" y="700" type="line"/>
-			<point x="134.1346153846" y="700" type="line"/>
-			<point x="134.1346153846" y="48.0769230769" type="line"/>
-			<point x="499.5192307692" y="48.0769230769" type="line"/>
-			<point x="499.5192307692" y="700" type="line"/>
-			<point x="551.9230769231" y="700" type="line"/>
-			<point x="551.9230769231" y="48.0769230769" type="line"/>
-			<point x="917.3076923077" y="48.0769230769" type="line"/>
-			<point x="917.3076923077" y="700" type="line"/>
-			<point x="969.7115384615" y="700" type="line"/>
-			<point x="969.7115384615" y="48.0769230769" type="line"/>
-			<point x="1069.2307692308" y="48.0769230769" type="line"/>
-			<point x="1069.2307692308" y="-139.4230769231" type="line"/>
-			<point x="1022.1153846154" y="-139.4230769231" type="line"/>
-			<point x="1022.1153846154" y="0" type="line"/>
-			<point x="81.7307692308" y="0" type="line"/>
+			<point x="245" y="636" type="curve" smooth="yes"/>
+			<point x="251" y="499"/>
+			<point x="232" y="311"/>
+			<point x="228" y="232" type="curve" smooth="yes"/>
+			<point x="223" y="136"/>
+			<point x="351" y="162"/>
+			<point x="444" y="162" type="curve" smooth="yes"/>
+			<point x="639" y="162"/>
+			<point x="880" y="224"/>
+			<point x="979" y="194" type="curve" smooth="yes"/>
+			<point x="1080" y="165"/>
+			<point x="1104" y="99"/>
+			<point x="1091" y="21" type="curve" smooth="yes"/>
+			<point x="1083" y="-23"/>
+			<point x="1057" y="-76"/>
+			<point x="1010" y="-142" type="curve" smooth="yes"/>
+			<point x="982" y="-179"/>
+			<point x="927" y="-188"/>
+			<point x="889" y="-161" type="curve" smooth="yes"/>
+			<point x="852" y="-133"/>
+			<point x="843" y="-78"/>
+			<point x="870" y="-40" type="curve" smooth="yes"/>
+			<point x="897" y="-4"/>
+			<point x="917" y="25"/>
+			<point x="921" y="51" type="curve"/>
+			<point x="920" y="43"/>
+			<point x="918" y="33"/>
+			<point x="931" y="30" type="curve"/>
+			<point x="840" y="56"/>
+			<point x="621" y="-10"/>
+			<point x="444" y="-10" type="curve" smooth="yes"/>
+			<point x="77" y="-10"/>
+			<point x="47" y="68"/>
+			<point x="56" y="240" type="curve" smooth="yes"/>
+			<point x="60" y="317"/>
+			<point x="79" y="497"/>
+			<point x="73" y="628" type="curve" smooth="yes"/>
+			<point x="71" y="675"/>
+			<point x="109" y="716"/>
+			<point x="155" y="718" type="curve" smooth="yes"/>
+			<point x="202" y="720"/>
+			<point x="243" y="682"/>
+		</contour>
+		<contour>
+			<point x="572" y="605" type="curve" smooth="yes"/>
+			<point x="572" y="605"/>
+			<point x="554" y="289"/>
+			<point x="574" y="153" type="curve" smooth="yes"/>
+			<point x="581" y="107"/>
+			<point x="548" y="62"/>
+			<point x="502" y="55" type="curve" smooth="yes"/>
+			<point x="456" y="48"/>
+			<point x="411" y="81"/>
+			<point x="404" y="127" type="curve" smooth="yes"/>
+			<point x="382" y="275"/>
+			<point x="400" y="615"/>
+			<point x="400" y="615" type="curve" smooth="yes"/>
+			<point x="403" y="661"/>
+			<point x="444" y="698"/>
+			<point x="491" y="696" type="curve" smooth="yes"/>
+			<point x="537" y="693"/>
+			<point x="574" y="652"/>
+		</contour>
+		<contour>
+			<point x="941" y="615" type="curve" smooth="yes"/>
+			<point x="919" y="467"/>
+			<point x="909" y="318"/>
+			<point x="914" y="165" type="curve" smooth="yes"/>
+			<point x="915" y="118"/>
+			<point x="877" y="78"/>
+			<point x="831" y="76" type="curve" smooth="yes"/>
+			<point x="784" y="75"/>
+			<point x="744" y="113"/>
+			<point x="742" y="159" type="curve" smooth="yes"/>
+			<point x="737" y="324"/>
+			<point x="747" y="483"/>
+			<point x="771" y="641" type="curve" smooth="yes"/>
+			<point x="778" y="687"/>
+			<point x="823" y="720"/>
+			<point x="869" y="713" type="curve" smooth="yes"/>
+			<point x="915" y="706"/>
+			<point x="948" y="661"/>
 		</contour>
 	</outline>
 	<lib>
