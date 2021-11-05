@@ -1,0 +1,23 @@
+feature ss01 {
+    sub Emcyr by Emcyr.ss01;
+    sub becyr by becyr.ss01;
+    sub vecyr by vecyr.ss01;
+    sub decyr by decyr.ss01;
+    sub zhecyr by zhecyr.ss01;
+    sub yacyr by yacyr.ss01;
+    sub icyr by icyr.ss01;
+    sub emcyr by emcyr.ss01;
+    sub tsecyr by tsecyr.ss01;
+    sub ylongcyr by ylongcyr.ss01;
+    sub gecyr by gecyr.ss01;
+    sub pecyr by pecyr.ss01;
+    sub shacyr by shacyr.ss01
+    sub shchacyr by shchacyr.ss01;
+} ss01;
+
+feature ss02 {
+    sub icyr by icyr.ss02;
+    sub vecyr by vecyr.ss02;
+    sub emcyr by emcyr.ss02;
+    sub ylongcyr by ylongcyr.ss02;
+}
