@@ -1,45 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ercyr" format="2">
 	<unicode hex="0440"/>
-	<advance width="593.2692307692"/>
+	<advance width="610"/>
 	<outline>
-		<contour>
-			<point x="71.1538461538" y="-200" type="line"/>
-			<point x="71.1538461538" y="523.6153846154" type="line"/>
-			<point x="118.6070889894" y="523.6153846154" type="line"/>
-			<point x="120.3985671191" y="448.185520362" type="line"/>
-			<point x="120.1010558069" y="448.185520362" type="line"/>
-			<point x="147.479826546" y="482.7228506788"/>
-			<point x="252.4485294118" y="533.2307692308"/>
-			<point x="320.7854449472" y="533.2307692308" type="qcurve" smooth="yes"/>
-			<point x="428.7684766214" y="533.2307692308"/>
-			<point x="551.9102564102" y="383.9016432484"/>
-			<point x="551.9102564102" y="269.5" type="qcurve" smooth="yes"/>
-			<point x="551.9102564102" y="254.1153846154" type="line" smooth="yes"/>
-			<point x="551.9102564102" y="139.6661828737"/>
-			<point x="428.7684766214" y="-9.6153846154"/>
-			<point x="320.7854449472" y="-9.6153846154" type="qcurve" smooth="yes"/>
-			<point x="252.2946832579" y="-9.6153846154"/>
-			<point x="153.7550904977" y="34.4309954751"/>
-			<point x="122.507918552" y="69.1798642534" type="qcurve"/>
-			<point x="122.507918552" y="-200" type="line"/>
-		</contour>
-		<contour>
-			<point x="122.507918552" y="135.3295625943" type="line"/>
-			<point x="143.1504524887" y="97.3691553545"/>
-			<point x="237.8763197587" y="38.9027149321"/>
-			<point x="305.2360482655" y="38.9027149321" type="qcurve" smooth="yes"/>
-			<point x="405.891025641" y="38.9027149321"/>
-			<point x="499.4954751131" y="162.9021463286"/>
-			<point x="499.4954751131" y="254.1153846154" type="qcurve" smooth="yes"/>
-			<point x="499.4954751131" y="269.5" type="line" smooth="yes"/>
-			<point x="499.4954751131" y="360.6995881193"/>
-			<point x="405.891025641" y="484.7126696833"/>
-			<point x="305.2360482655" y="484.7126696833" type="qcurve" smooth="yes"/>
-			<point x="237.8763197587" y="484.7126696833"/>
-			<point x="143.6342383107" y="426.2462292609"/>
-			<point x="122.507918552" y="388.2858220211" type="qcurve"/>
-		</contour>
+		<component base="p"/>
 	</outline>
 	<lib>
 		<dict>

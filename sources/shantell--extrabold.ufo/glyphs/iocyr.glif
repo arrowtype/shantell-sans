@@ -1,36 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iocyr" format="2">
 	<unicode hex="0451"/>
-	<advance width="538.9423076923"/>
+	<advance width="617"/>
 	<outline>
-		<contour>
-			<point x="114.1308446455" y="657.7771493213" type="qcurve" smooth="yes"/>
-			<point x="114.1308446455" y="674.7831825037"/>
-			<point x="137.9524886878" y="699.358974359"/>
-			<point x="160.8125942685" y="699.358974359" type="qcurve" smooth="yes"/>
-			<point x="184.15346908" y="699.358974359"/>
-			<point x="207.9751131222" y="674.7831825037"/>
-			<point x="207.9751131222" y="657.7771493213" type="qcurve" smooth="yes"/>
-			<point x="207.9751131222" y="640.1112368024"/>
-			<point x="184.15346908" y="616.3461538462"/>
-			<point x="160.8125942685" y="616.3461538462" type="qcurve" smooth="yes"/>
-			<point x="137.9524886878" y="616.3461538462"/>
-			<point x="114.1308446455" y="640.1112368024"/>
-		</contour>
-		<contour>
-			<point x="360.6240573152" y="656.4856711915" type="qcurve" smooth="yes"/>
-			<point x="360.6240573152" y="673.6708144796"/>
-			<point x="384.1157616893" y="698.3974358975"/>
-			<point x="406.97586727" y="698.3974358975" type="qcurve" smooth="yes"/>
-			<point x="429.8359728507" y="698.3974358975"/>
-			<point x="454.1383861237" y="673.6708144796"/>
-			<point x="454.1383861237" y="656.4856711915" type="qcurve" smooth="yes"/>
-			<point x="454.1383861237" y="639.1496983409"/>
-			<point x="429.8359728507" y="615.3846153846"/>
-			<point x="406.97586727" y="615.3846153846" type="qcurve" smooth="yes"/>
-			<point x="384.1157616893" y="615.3846153846"/>
-			<point x="360.6240573152" y="639.1496983409"/>
-		</contour>
+		<component base="edieresis"/>
 	</outline>
 	<lib>
 		<dict>

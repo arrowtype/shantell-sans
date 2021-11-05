@@ -8,4 +8,19 @@ include(./features/features/frac.fea);
 include(./features/features/case.fea);
 include(./features/features/numr_dnom_supr_infr.fea);
 include(./features/features/pnum_tnum.fea);
-# include(./features/cycle-calt.fea); # this is generated in prep-build.py
+
+# include(./features/cycle-calt.fea); # this is generated in [prep-build.py](http://prep-build.py/)
+
+feature ss01 {
+	sub decyr by decyr.ss01;
+	sub emcyr by emcyr.ss01;
+	sub zhecyr by zhecyr.ss01;
+	sub ylongcyr by ylongcyr.ss01;
+	sub vecyr by vecyr.ss01;
+	sub tsecyr by tsecyr.ss01;
+	sub yacyr by yacyr.ss01;
+	sub becyr by becyr.ss01;
+	sub Emcyr by Emcyr.ss01;
+	sub icyr by icyr.ss01;
+} ss01;
+
