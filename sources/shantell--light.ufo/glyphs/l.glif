@@ -5,11 +5,11 @@
 	<image fileName="b.png" xScale="2.580311745" yScale="2.580311745" xOffset="-2454.3109110762" yOffset="-580.570142633" color="0,0,0,0.24109"/>
 	<outline>
 		<contour>
-			<point x="167" y="751" type="curve" smooth="yes"/>
-			<point x="167" y="678"/>
-			<point x="139" y="594"/>
-			<point x="139" y="347" type="curve" smooth="yes"/>
-			<point x="139" y="126"/>
+			<point x="167" y="701" type="curve" smooth="yes"/>
+			<point x="167" y="628"/>
+			<point x="139" y="544"/>
+			<point x="139" y="297" type="curve" smooth="yes"/>
+			<point x="139" y="113.9725085911"/>
 			<point x="167" y="56"/>
 			<point x="203" y="56" type="curve" smooth="yes"/>
 			<point x="244" y="56"/>
@@ -22,19 +22,19 @@
 			<point x="248" y="-11"/>
 			<point x="205" y="-11" type="curve" smooth="yes"/>
 			<point x="123" y="-11"/>
-			<point x="71" y="33"/>
-			<point x="71" y="367" type="curve" smooth="yes"/>
-			<point x="71" y="541"/>
-			<point x="83" y="636"/>
-			<point x="99" y="741" type="curve" smooth="yes"/>
-			<point x="108" y="793"/>
-			<point x="118" y="810"/>
-			<point x="136" y="810" type="curve" smooth="yes"/>
-			<point x="155" y="810"/>
-			<point x="167" y="794"/>
+			<point x="71" y="27.1798941799"/>
+			<point x="71" y="317" type="curve" smooth="yes"/>
+			<point x="71" y="491"/>
+			<point x="83" y="586"/>
+			<point x="99" y="691" type="curve" smooth="yes"/>
+			<point x="108" y="743"/>
+			<point x="118" y="760"/>
+			<point x="136" y="760" type="curve" smooth="yes"/>
+			<point x="155" y="760"/>
+			<point x="167" y="744"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="137" y="800"/>
+	<anchor name="top" x="137" y="750"/>
 	<anchor name="bottom" x="202" y="0"/>
 	<lib>
 		<dict>
