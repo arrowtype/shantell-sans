@@ -1,6 +1,5 @@
 languagesystem DFLT dflt;
 languagesystem latn dflt;
-
 include(./features/features/common.fea);
 include(./features/features/ccmp.fea);
 include(./features/features/locl.fea);
@@ -8,19 +7,29 @@ include(./features/features/frac.fea);
 include(./features/features/case.fea);
 include(./features/features/numr_dnom_supr_infr.fea);
 include(./features/features/pnum_tnum.fea);
-
 # include(./features/cycle-calt.fea); # this is generated in [prep-build.py](http://prep-build.py/)
 
 feature ss01 {
-	sub decyr by decyr.ss01;
-	sub emcyr by emcyr.ss01;
-	sub zhecyr by zhecyr.ss01;
-	sub ylongcyr by ylongcyr.ss01;
-	sub vecyr by vecyr.ss01;
-	sub tsecyr by tsecyr.ss01;
-	sub yacyr by yacyr.ss01;
-	sub becyr by becyr.ss01;
-	sub Emcyr by Emcyr.ss01;
-	sub icyr by icyr.ss01;
+    sub Emcyr by Emcyr.ss01;
+    sub becyr by becyr.ss01;
+    sub decyr by decyr.ss01;
+    sub emcyr by emcyr.ss01;
+    sub gecyr by gecyr.ss01;
+    sub icyr by icyr.ss01;
+    sub pecyr by pecyr.ss01;
+    sub shacyr by shacyr.ss01;
+    sub shchacyr by shchacyr.ss01;
+    sub tsecyr by tsecyr.ss01;
+    sub vecyr by vecyr.ss01;
+    sub yacyr by yacyr.ss01;
+    sub ylongcyr by ylongcyr.ss01;
+    sub zhecyr by zhecyr.ss01;
 } ss01;
+
+feature ss02 {
+    sub emcyr by emcyr.ss02;
+    sub icyr by icyr.ss02;
+    sub vecyr by vecyr.ss02;
+    sub ylongcyr by ylongcyr.ss02;
+} ss02;
 
