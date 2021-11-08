@@ -32,41 +32,31 @@
 		<contour>
 			<point x="613" y="-11" type="curve" smooth="yes"/>
 			<point x="671" y="-11"/>
-			<point x="694" y="20.7352941176"/>
+			<point x="694" y="21"/>
 			<point x="694" y="72" type="curve" smooth="yes"/>
-			<point x="694" y="119.6464646465"/>
+			<point x="694" y="120"/>
 			<point x="672" y="151"/>
-			<point x="629" y="163" type="curve" smooth="yes"/>
-			<point x="508.1230244093" y="196.8455531654"/>
-			<point x="377" y="289"/>
-			<point x="377" y="324" type="curve" smooth="yes"/>
-			<point x="377" y="364"/>
-			<point x="462.1207625029" y="466.761011576"/>
-			<point x="542" y="521" type="curve" smooth="yes"/>
-			<point x="595" y="556"/>
-			<point x="614" y="583.8510638298"/>
-			<point x="614" y="627" type="curve" smooth="yes"/>
-			<point x="614" y="690.6041666667"/>
+			<point x="615" y="165" type="curve" smooth="yes"/>
+			<point x="451" y="207"/>
+			<point x="369" y="285"/>
+			<point x="369" y="317" type="curve" smooth="yes"/>
+			<point x="369" y="364"/>
+			<point x="461" y="471"/>
+			<point x="548" y="523" type="curve" smooth="yes"/>
+			<point x="603" y="555"/>
+			<point x="614" y="578"/>
+			<point x="614" y="617" type="curve" smooth="yes"/>
+			<point x="614" y="688"/>
 			<point x="581" y="713"/>
-			<point x="535" y="713" type="curve" smooth="yes"/>
+			<point x="530" y="713" type="curve" smooth="yes"/>
 			<point x="508" y="713"/>
-			<point x="479" y="704"/>
-			<point x="451" y="680" type="curve" smooth="yes"/>
-			<point x="338" y="586"/>
+			<point x="480" y="703"/>
+			<point x="450" y="682" type="curve" smooth="yes"/>
+			<point x="323" y="588"/>
 			<point x="209" y="424"/>
 			<point x="209" y="292" type="curve" smooth="yes"/>
-			<point x="209" y="162"/>
-			<point x="499" y="-11"/>
+			<point x="209" y="102"/>
+			<point x="500" y="-11"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="331" y="700"/>
-	<anchor name="bottom" x="331" y="0"/>
-	<lib>
-		<dict>
-			<key>com.typemytype.robofont.Image.Brightness</key>
-			<real>-0.3985985816</real>
-			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
-		</dict>
-	</lib>
 </glyph>
