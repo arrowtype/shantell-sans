@@ -1,49 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uinvertedbreve" format="2">
 	<unicode hex="0216"/>
-	<advance width="660.5769230769"/>
+	<advance width="659"/>
 	<outline>
-		<contour>
-			<point x="74.5192307692" y="250.2443438914" type="qcurve" smooth="yes"/>
-			<point x="74.5192307692" y="700" type="line"/>
-			<point x="127.22586727" y="700" type="line"/>
-			<point x="127.22586727" y="250.2707390649" type="line" smooth="yes"/>
-			<point x="127.22586727" y="141.4129857071"/>
-			<point x="241.462702081" y="35.5222473605"/>
-			<point x="330.6576168929" y="35.5222473605" type="qcurve" smooth="yes"/>
-			<point x="418.7500800945" y="35.5222473605"/>
-			<point x="533.4294871795" y="141.4129857071"/>
-			<point x="533.4294871795" y="250.2707390649" type="qcurve" smooth="yes"/>
-			<point x="533.4294871795" y="700" type="line"/>
-			<point x="585.6478129713" y="700" type="line"/>
-			<point x="585.6478129713" y="250.2443438914" type="line" smooth="yes"/>
-			<point x="585.6478129713" y="117.9397156949"/>
-			<point x="438.0343137255" y="-14.4230769231"/>
-			<point x="329.9185520362" y="-14.4230769231" type="qcurve" smooth="yes"/>
-			<point x="222.1327300151" y="-14.4230769231"/>
-			<point x="74.5192307692" y="117.9397156949"/>
-		</contour>
-		<contour>
-			<point x="153.459653092" y="798.0769230769" type="qcurve"/>
-			<point x="122.6715686275" y="817.4868024133" type="line"/>
-			<point x="144.0610859728" y="872.6527149321"/>
-			<point x="252.9317496229" y="954.5908748114"/>
-			<point x="330.2884615385" y="954.5908748114" type="qcurve" smooth="yes"/>
-			<point x="407.616892911" y="954.5908748114"/>
-			<point x="516.8174962293" y="872.6527149321"/>
-			<point x="537.9053544495" y="817.4868024133" type="qcurve"/>
-			<point x="506.7873303167" y="798.0769230769" type="line"/>
-			<point x="480.7409502262" y="850.1791101056"/>
-			<point x="387.5188536953" y="910.1527149321"/>
-			<point x="329.8076923077" y="910.1527149321" type="qcurve" smooth="yes"/>
-			<point x="273.689668175" y="910.1527149321"/>
-			<point x="180.1376319759" y="850.1791101056"/>
-		</contour>
+		<component base="U"/>
+		<component base="invertedbrevecmb" xOffset="329" yOffset="95"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>1,0.8,0,0.3</string>
+			<string>0.5534,0.5534,0.5534,0.4845</string>
 		</dict>
 	</lib>
 </glyph>

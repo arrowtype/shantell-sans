@@ -1,46 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ihoi" format="2">
 	<unicode hex="1EC8"/>
-	<advance width="220.6730769231"/>
+	<advance width="547"/>
 	<outline>
-		<contour>
-			<point x="84.1346153846" y="0" type="line"/>
-			<point x="84.1346153846" y="700" type="line"/>
-			<point x="136.5384615385" y="700" type="line"/>
-			<point x="136.5384615385" y="0" type="line"/>
-		</contour>
-		<contour>
-			<point x="90.205505279" y="798.0769230769" type="line"/>
-			<point x="90.205505279" y="817.1285822021" type="line" smooth="yes"/>
-			<point x="90.205505279" y="837.2926093514"/>
-			<point x="117.7224736048" y="852.6489441931"/>
-			<point x="166.9023378582" y="859.0497737557" type="qcurve" smooth="yes"/>
-			<point x="201.3009049773" y="864.3382352941"/>
-			<point x="236.1519607843" y="895.4091251886"/>
-			<point x="236.1519607843" y="919.2684766214" type="qcurve" smooth="yes"/>
-			<point x="236.1519607843" y="947.935520362"/>
-			<point x="194.2119155354" y="978.8555806938"/>
-			<point x="156.2971342383" y="978.8555806938" type="qcurve" smooth="yes"/>
-			<point x="116.4309954751" y="978.8555806938"/>
-			<point x="54.3646304676" y="960.435520362"/>
-			<point x="43.2786576169" y="954.9962292609" type="qcurve"/>
-			<point x="24.5946455505" y="984.8981900452" type="line"/>
-			<point x="42.9204374057" y="994.1836349925"/>
-			<point x="113.725490196" y="1013.2352941176"/>
-			<point x="161.7929864253" y="1013.2352941176" type="qcurve" smooth="yes"/>
-			<point x="224.5192307692" y="1013.2352941176"/>
-			<point x="292.2322775264" y="962.3303167421"/>
-			<point x="292.2322775264" y="921.1915535445" type="qcurve" smooth="yes"/>
-			<point x="292.2322775264" y="880.0527903469"/>
-			<point x="212.9807692308" y="829.1478129713"/>
-			<point x="140.2809200603" y="823.3785822021" type="qcurve"/>
-			<point x="140.2809200603" y="798.0769230769" type="line"/>
-		</contour>
+		<component base="I"/>
+		<component base="hookabovecmb" xOffset="277" yOffset="215"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>1,0.8,0,0.3</string>
+			<string>0.5534,0.5534,0.5534,0.4845</string>
 		</dict>
 	</lib>
 </glyph>
