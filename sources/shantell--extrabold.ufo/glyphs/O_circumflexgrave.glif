@@ -1,60 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ocircumflexgrave" format="2">
 	<unicode hex="1ED2"/>
-	<advance width="721"/>
+	<advance width="756"/>
 	<outline>
-		<contour>
-			<point x="55.2884615385" y="337.641402715" type="qcurve" smooth="yes"/>
-			<point x="55.2884615385" y="362.358597285" type="line" smooth="yes"/>
-			<point x="55.2884615385" y="528.6104826546"/>
-			<point x="225.9332579186" y="714.4230769231"/>
-			<point x="360.435520362" y="714.4230769231" type="qcurve" smooth="yes"/>
-			<point x="494.6078431373" y="714.4230769231"/>
-			<point x="665.1018099548" y="528.6104826546"/>
-			<point x="665.1018099548" y="362.358597285" type="qcurve" smooth="yes"/>
-			<point x="665.1018099548" y="337.641402715" type="line" smooth="yes"/>
-			<point x="665.1018099548" y="171.3895173454"/>
-			<point x="494.6078431373" y="-14.4230769231"/>
-			<point x="360.435520362" y="-14.4230769231" type="qcurve" smooth="yes"/>
-			<point x="226.2631975867" y="-14.4230769231"/>
-			<point x="55.2884615385" y="171.3895173454"/>
-		</contour>
-		<contour>
-			<point x="108.5878582202" y="337.641402715" type="line" smooth="yes"/>
-			<point x="108.5878582202" y="189.3570889894"/>
-			<point x="247.4453242836" y="35.3035444947"/>
-			<point x="360.435520362" y="35.3035444947" type="qcurve" smooth="yes"/>
-			<point x="472.9449472097" y="35.3035444947"/>
-			<point x="611.802413273" y="189.3570889894"/>
-			<point x="611.802413273" y="337.641402715" type="qcurve" smooth="yes"/>
-			<point x="611.802413273" y="362.358597285" type="line" smooth="yes"/>
-			<point x="611.802413273" y="510.6429110106"/>
-			<point x="472.9449472097" y="664.6964555053"/>
-			<point x="360.435520362" y="664.6964555053" type="qcurve" smooth="yes"/>
-			<point x="247.4453242836" y="664.6964555053"/>
-			<point x="108.5878582202" y="510.6429110106"/>
-			<point x="108.5878582202" y="362.358597285" type="qcurve" smooth="yes"/>
-		</contour>
-		<contour>
-			<point x="382.9326923077" y="940.8653846154" type="line"/>
-			<point x="536.7788461538" y="799.0384615385" type="line"/>
-			<point x="480.0480769231" y="799.0384615385" type="line"/>
-			<point x="359.8557692308" y="900.4807692308" type="line"/>
-			<point x="245.4326923077" y="799.0384615385" type="line"/>
-			<point x="187.2596153846" y="799.0384615385" type="line"/>
-			<point x="336.7788461538" y="940.8653846154" type="line"/>
-		</contour>
-		<contour>
-			<point x="577.6442307692" y="892.7884615385" type="line"/>
-			<point x="380.0480769231" y="988.9423076923" type="line"/>
-			<point x="409.8557692308" y="1033.1730769231" type="line"/>
-			<point x="595.9134615385" y="920.1923076923" type="line"/>
-		</contour>
+		<component base="O"/>
+		<component base="circumflexcomb" xOffset="367" yOffset="185"/>
+		<component base="gravecomb" xOffset="571" yOffset="388"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>1,0.8,0,0.3</string>
+			<string>0.5534,0.5534,0.5534,0.4845</string>
 		</dict>
 	</lib>
 </glyph>

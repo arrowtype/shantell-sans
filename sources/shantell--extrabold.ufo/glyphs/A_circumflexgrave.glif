@@ -1,50 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Acircumflexgrave" format="2">
 	<unicode hex="1EA6"/>
-	<advance width="644"/>
+	<advance width="780"/>
 	<outline>
-		<contour>
-			<point x="0" y="0" type="line"/>
-			<point x="287.3457767723" y="704.2307692308" type="line"/>
-			<point x="357.3329562594" y="704.2307692308" type="line"/>
-			<point x="643.8650075415" y="0" type="line"/>
-			<point x="585.012066365" y="0" type="line"/>
-			<point x="355.8725490196" y="574.4634238311" type="line" smooth="yes"/>
-			<point x="345.6438536953" y="598.669306184"/>
-			<point x="329.0309200603" y="640.8925339366"/>
-			<point x="322.2443438914" y="662.1052036199" type="qcurve"/>
-			<point x="316.1436651584" y="662.1052036199" type="line"/>
-			<point x="309.7880844646" y="640.8925339366"/>
-			<point x="293.4040346908" y="598.3393665158"/>
-			<point x="283.1753393665" y="574.4634238311" type="qcurve" smooth="yes"/>
-			<point x="53.3246606335" y="0" type="line"/>
-		</contour>
-		<contour>
-			<point x="105.7105957768" y="195.1357466063" type="line"/>
-			<point x="125.7183257919" y="243.7820512821" type="line"/>
-			<point x="515.5731523378" y="244.5607088989" type="line"/>
-			<point x="535.7006033183" y="195.729638009" type="line"/>
-		</contour>
-		<contour>
-			<point x="344.7115384615" y="940.8653846154" type="line"/>
-			<point x="498.5576923077" y="799.0384615385" type="line"/>
-			<point x="441.8269230769" y="799.0384615385" type="line"/>
-			<point x="321.6346153846" y="900.4807692308" type="line"/>
-			<point x="207.2115384615" y="799.0384615385" type="line"/>
-			<point x="149.0384615385" y="799.0384615385" type="line"/>
-			<point x="298.5576923077" y="940.8653846154" type="line"/>
-		</contour>
-		<contour>
-			<point x="539.4230769231" y="892.7884615385" type="line"/>
-			<point x="341.8269230769" y="988.9423076923" type="line"/>
-			<point x="371.6346153846" y="1033.1730769231" type="line"/>
-			<point x="557.6923076923" y="920.1923076923" type="line"/>
-		</contour>
+		<component base="A"/>
+		<component base="circumflexcomb" xOffset="424" yOffset="185"/>
+		<component base="gravecomb" xOffset="628" yOffset="388"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>1,0.8,0,0.3</string>
+			<string>0.5534,0.5534,0.5534,0.4845</string>
 		</dict>
 	</lib>
 </glyph>
