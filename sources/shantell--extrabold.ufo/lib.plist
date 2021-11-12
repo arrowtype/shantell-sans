@@ -3420,8 +3420,6 @@
 			<dict>
 			</dict>
 		</dict>
-		<key>com.robofont.generateFeaturesWithFontTools</key>
-		<false/>
 		<key>com.schriftgestaltung.disablesAutomaticAlignment</key>
 		<false/>
 		<key>com.schriftgestaltung.fontMaster.userData</key>
@@ -3456,6 +3454,12 @@
 		<key>com.typemytype.robofont.compileSettings.path</key>
 		<string>/Users/stephennixon/Desktop/shantell--extrabold.otf</string>
 		<key>com.typemytype.robofont.compileSettings.releaseMode</key>
+		<false/>
+		<key>com.typemytype.robofont.generateFeaturesWithFontTools</key>
+		<false/>
+		<key>com.typemytype.robofont.guideline.magnetic.9YYUgBgiC7</key>
+		<integer>5</integer>
+		<key>com.typemytype.robofont.guideline.showMeasurements.9YYUgBgiC7</key>
 		<false/>
 		<key>com.typemytype.robofont.italicSlantOffset</key>
 		<integer>0</integer>
@@ -5218,6 +5222,15 @@
 			<string>vecyr.ss02</string>
 			<string>emcyr.ss02</string>
 			<string>ylongcyr.ss02</string>
+			<string>Pecyr.ss01</string>
+			<string>Shacyr.ss01</string>
+			<string>Decyr.ss01</string>
+			<string>decyr.ss02</string>
+			<string>hardcyr.ss01</string>
+			<string>vecyr.ss03</string>
+			<string>Icyr.ss01</string>
+			<string>Ishortcyr.ss01</string>
+			<string>zhecyr.ss02</string>
 			<string>dotbelow</string>
 			<string>hoi</string>
 			<string>circumflexdotbelow</string>
