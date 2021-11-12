@@ -1,51 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ohornacute" format="2">
 	<unicode hex="1EDB"/>
-	<advance width="594.7115384615"/>
+	<advance width="605"/>
 	<outline>
-		<contour>
-			<point x="40.8653846154" y="254.1153846154" type="qcurve" smooth="yes"/>
-			<point x="40.8653846154" y="269.5" type="line" smooth="yes"/>
-			<point x="40.8653846154" y="387.8381801125"/>
-			<point x="180.5859728507" y="538.0384615385"/>
-			<point x="297.2986425339" y="538.0384615385" type="qcurve" smooth="yes"/>
-			<point x="414.0113122172" y="538.0384615385"/>
-			<point x="553.7319004525" y="387.8381801125"/>
-			<point x="553.7319004525" y="269.5" type="qcurve" smooth="yes"/>
-			<point x="553.7319004525" y="254.1153846154" type="line" smooth="yes"/>
-			<point x="553.7319004525" y="135.7595441596"/>
-			<point x="414.0113122172" y="-14.4230769231"/>
-			<point x="297.2986425339" y="-14.4230769231" type="qcurve" smooth="yes"/>
-			<point x="180.5859728507" y="-14.4230769231"/>
-			<point x="40.8653846154" y="135.7595441596"/>
-		</contour>
-		<contour>
-			<point x="92.9502262443" y="269.5" type="qcurve" smooth="yes"/>
-			<point x="92.9502262443" y="254.1153846154" type="line" smooth="yes"/>
-			<point x="92.9502262443" y="161.8181298689"/>
-			<point x="196.8774509804" y="34.0950226244"/>
-			<point x="297.2986425339" y="34.0950226244" type="qcurve" smooth="yes"/>
-			<point x="397.7198340875" y="34.0950226244"/>
-			<point x="501.6470588235" y="161.8181298689"/>
-			<point x="501.6470588235" y="254.1153846154" type="qcurve" smooth="yes"/>
-			<point x="501.6470588235" y="269.5" type="line" smooth="yes"/>
-			<point x="501.6470588235" y="361.833746319"/>
-			<point x="397.7198340875" y="489.520361991"/>
-			<point x="297.2986425339" y="489.520361991" type="qcurve" smooth="yes"/>
-			<point x="196.8774509804" y="489.520361991"/>
-			<point x="92.9502262443" y="361.833746319"/>
-		</contour>
-		<contour>
-			<point x="215.0311085973" y="636.04826546" type="line"/>
-			<point x="358.3097662142" y="786.5101809955" type="line"/>
-			<point x="400.5514705882" y="746.8891402715" type="line"/>
-			<point x="236.0341251886" y="615.3846153846" type="line"/>
-		</contour>
+		<component base="ohorn"/>
+		<component base="acutecomb" xOffset="321"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>1,0.8,0,0.3</string>
+			<string>0.5534,0.5534,0.5534,0.4845</string>
 		</dict>
 	</lib>
 </glyph>

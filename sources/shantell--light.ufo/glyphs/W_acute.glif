@@ -1,55 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Wacute" format="2">
 	<unicode hex="1E82"/>
-	<advance width="952.8846153846"/>
+	<advance width="948"/>
 	<outline>
-		<contour>
-			<point x="229.8925339366" y="-4.3269230769" type="line"/>
-			<point x="24.0384615385" y="700" type="line"/>
-			<point x="79.0233785822" y="700" type="line"/>
-			<point x="240.9502262443" y="119.5701357466" type="line" smooth="yes"/>
-			<point x="245.9370286576" y="103.2239819004"/>
-			<point x="253.0260180996" y="63.9988687783"/>
-			<point x="255.580693816" y="48.1334841629" type="qcurve"/>
-			<point x="262.1606334842" y="48.1334841629" type="line"/>
-			<point x="265.0452488688" y="63.9988687783"/>
-			<point x="272.5961538462" y="103.3653846154"/>
-			<point x="277.4509803922" y="119.5701357466" type="qcurve" smooth="yes"/>
-			<point x="443.2692307692" y="700" type="line"/>
-			<point x="509.1346153846" y="700" type="line"/>
-			<point x="678.9875565611" y="119.5701357466" type="line" smooth="yes"/>
-			<point x="683.6538461538" y="103.3653846154"/>
-			<point x="690.8842383107" y="63.9988687783"/>
-			<point x="692.9581447964" y="48.1334841629" type="qcurve"/>
-			<point x="699.8680241327" y="48.1334841629" type="line"/>
-			<point x="701.9419306184" y="63.9988687783"/>
-			<point x="709.0309200603" y="103.2239819004"/>
-			<point x="713.6877828054" y="119.5701357466" type="qcurve" smooth="yes"/>
-			<point x="875.3770739065" y="700" type="line"/>
-			<point x="929.0064102564" y="700" type="line"/>
-			<point x="723.1523378582" y="-4.3269230769" type="line"/>
-			<point x="665.7428355958" y="-4.3269230769" type="line"/>
-			<point x="498.5576923077" y="575" type="line" smooth="yes"/>
-			<point x="493.75" y="591.3461538462"/>
-			<point x="482.2115384615" y="630.2884615385"/>
-			<point x="478.8461538462" y="646.1538461538" type="qcurve"/>
-			<point x="472.1153846154" y="646.1538461538" type="line"/>
-			<point x="469.2307692308" y="630.2884615385"/>
-			<point x="458.6538461538" y="592.3076923077"/>
-			<point x="453.8461538462" y="575.9615384615" type="qcurve" smooth="yes"/>
-			<point x="286.8212669683" y="-4.3269230769" type="line"/>
-		</contour>
-		<contour>
-			<point x="416.8552036199" y="810.5769230769" type="line"/>
-			<point x="551.3197586727" y="983.1730769231" type="line"/>
-			<point x="611.5101809955" y="961.0576923077" type="line"/>
-			<point x="454.157239819" y="798.0769230769" type="line"/>
-		</contour>
+		<component base="W"/>
+		<component base="acutecomb" xOffset="478" yOffset="215"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>1,0.8,0,0.3</string>
+			<string>0.5534,0.5534,0.5534,0.4845</string>
 		</dict>
 	</lib>
 </glyph>

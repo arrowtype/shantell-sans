@@ -1,68 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ocircumflexdotbelow" format="2">
 	<unicode hex="1ED8"/>
-	<advance width="721"/>
+	<advance width="756"/>
 	<outline>
-		<contour>
-			<point x="55.2884615385" y="337.641402715" type="qcurve" smooth="yes"/>
-			<point x="55.2884615385" y="362.358597285" type="line" smooth="yes"/>
-			<point x="55.2884615385" y="528.6104826546"/>
-			<point x="225.9332579186" y="714.4230769231"/>
-			<point x="360.435520362" y="714.4230769231" type="qcurve" smooth="yes"/>
-			<point x="494.6078431373" y="714.4230769231"/>
-			<point x="665.1018099548" y="528.6104826546"/>
-			<point x="665.1018099548" y="362.358597285" type="qcurve" smooth="yes"/>
-			<point x="665.1018099548" y="337.641402715" type="line" smooth="yes"/>
-			<point x="665.1018099548" y="171.3895173454"/>
-			<point x="494.6078431373" y="-14.4230769231"/>
-			<point x="360.435520362" y="-14.4230769231" type="qcurve" smooth="yes"/>
-			<point x="226.2631975867" y="-14.4230769231"/>
-			<point x="55.2884615385" y="171.3895173454"/>
-		</contour>
-		<contour>
-			<point x="108.5878582202" y="337.641402715" type="line" smooth="yes"/>
-			<point x="108.5878582202" y="189.3570889894"/>
-			<point x="247.4453242836" y="35.3035444947"/>
-			<point x="360.435520362" y="35.3035444947" type="qcurve" smooth="yes"/>
-			<point x="472.9449472097" y="35.3035444947"/>
-			<point x="611.802413273" y="189.3570889894"/>
-			<point x="611.802413273" y="337.641402715" type="qcurve" smooth="yes"/>
-			<point x="611.802413273" y="362.358597285" type="line" smooth="yes"/>
-			<point x="611.802413273" y="510.6429110106"/>
-			<point x="472.9449472097" y="664.6964555053"/>
-			<point x="360.435520362" y="664.6964555053" type="qcurve" smooth="yes"/>
-			<point x="247.4453242836" y="664.6964555053"/>
-			<point x="108.5878582202" y="510.6429110106"/>
-			<point x="108.5878582202" y="362.358597285" type="qcurve" smooth="yes"/>
-		</contour>
-		<contour>
-			<point x="382.7441553545" y="964.1025641025" type="line"/>
-			<point x="532.5933257919" y="798.0769230769" type="line"/>
-			<point x="474.4391025641" y="798.0769230769" type="line"/>
-			<point x="359.8557692308" y="924.4343891403" type="line"/>
-			<point x="240.1630844646" y="798.0769230769" type="line"/>
-			<point x="182.7912895927" y="798.0769230769" type="line"/>
-			<point x="336.6374434389" y="964.1025641025" type="line"/>
-		</contour>
-		<contour>
-			<point x="314.1826923077" y="-129.8076923077" type="qcurve" smooth="yes"/>
-			<point x="314.1826923077" y="-111.5384615385"/>
-			<point x="338.2211538462" y="-84.6153846154"/>
-			<point x="360.3365384615" y="-84.6153846154" type="qcurve" smooth="yes"/>
-			<point x="382.9326923077" y="-84.6153846154"/>
-			<point x="406.9711538462" y="-111.5384615385"/>
-			<point x="406.9711538462" y="-129.8076923077" type="qcurve" smooth="yes"/>
-			<point x="406.9711538462" y="-148.5576923077"/>
-			<point x="382.9326923077" y="-174.5192307692"/>
-			<point x="360.3365384615" y="-174.5192307692" type="qcurve" smooth="yes"/>
-			<point x="338.2211538462" y="-174.5192307692"/>
-			<point x="314.1826923077" y="-148.5576923077"/>
-		</contour>
+		<component base="O"/>
+		<component base="circumflexcomb" xOffset="367" yOffset="185"/>
+		<component base="dotbelowcmb" xOffset="367"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>1,0.8,0,0.3</string>
+			<string>0.5534,0.5534,0.5534,0.4845</string>
 		</dict>
 	</lib>
 </glyph>
