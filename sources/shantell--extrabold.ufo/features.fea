@@ -53,6 +53,14 @@ feature ss03 {
 } ss03;
 
 feature ss04 {
+    sub Efcyr by Efcyr.ss04;
+    sub Ereversedcyr by Ereversedcyr.ss04;
+    sub Pecyr by Pecyr.ss04;
+    sub Shacyr by Shacyr.ss04;
+    sub Softcyr by Softcyr.ss04;
+    sub Yucyr by Yucyr.ss04;
     sub vecyr by vecyr.ss04;
+    sub yacyr by yacyr.ss04;
+    sub zhecyr by zhecyr.ss04;
 } ss04;
 
