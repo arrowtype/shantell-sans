@@ -1,66 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Scircumflex" format="2">
 	<unicode hex="015C"/>
-	<advance width="591.3461538462"/>
+	<advance width="561"/>
 	<outline>
-		<contour>
-			<point x="43.2692307692" y="191.6214177979" type="qcurve" smooth="yes"/>
-			<point x="43.2692307692" y="197.3906485671" type="line"/>
-			<point x="96.0301659125" y="197.3906485671" type="line"/>
-			<point x="96.0301659125" y="191.6214177979" type="line" smooth="yes"/>
-			<point x="96.0301659125" y="117.3389894419"/>
-			<point x="203.5215734412" y="35.0535444947"/>
-			<point x="300.633107089" y="35.0535444947" type="qcurve" smooth="yes"/>
-			<point x="397.7912511532" y="35.0535444947"/>
-			<point x="500.8291855204" y="117.6436651584"/>
-			<point x="500.8291855204" y="178.4068627451" type="qcurve" smooth="yes"/>
-			<point x="500.8291855204" y="231.75"/>
-			<point x="419.9754901961" y="300.754147813"/>
-			<point x="289.564479638" y="331.8533182504" type="qcurve" smooth="yes"/>
-			<point x="158.8235294118" y="363.282428356"/>
-			<point x="59.3966817496" y="450.237933635"/>
-			<point x="59.3966817496" y="526.5516591252" type="qcurve" smooth="yes"/>
-			<point x="59.3966817496" y="606.7854449472"/>
-			<point x="184.492081448" y="714.4230769231"/>
-			<point x="294.7839366516" y="714.4230769231" type="qcurve" smooth="yes"/>
-			<point x="405.9892533937" y="714.4230769231"/>
-			<point x="536.3472850679" y="596.0131975867"/>
-			<point x="536.3472850679" y="511.2631975867" type="qcurve" smooth="yes"/>
-			<point x="536.3472850679" y="505.4939668175" type="line"/>
-			<point x="484.3970588235" y="505.4939668175" type="line"/>
-			<point x="484.3970588235" y="511.2631975867" type="line" smooth="yes"/>
-			<point x="484.3970588235" y="577.0294117647"/>
-			<point x="389.1756270312" y="664.9464555053"/>
-			<point x="294.7839366516" y="664.9464555053" type="qcurve" smooth="yes"/>
-			<point x="201.4162684766" y="664.9464555053"/>
-			<point x="111.9076168929" y="588.4332579186"/>
-			<point x="111.9076168929" y="535.6862745098" type="qcurve" smooth="yes"/>
-			<point x="111.9076168929" y="480.4038461538"/>
-			<point x="196.2198340875" y="410.3035444947"/>
-			<point x="312.6885369532" y="382.5697586727" type="qcurve" smooth="yes"/>
-			<point x="445.173453997" y="350.1791101056"/>
-			<point x="553.0101809955" y="260.3197586727"/>
-			<point x="553.0101809955" y="180.5090497738" type="qcurve" smooth="yes"/>
-			<point x="553.0101809955" y="95.1406485671"/>
-			<point x="416.64913273" y="-14.4230769231"/>
-			<point x="300.633107089" y="-14.4230769231" type="qcurve" smooth="yes"/>
-			<point x="184.2613122172" y="-14.4230769231"/>
-			<point x="43.2692307692" y="96.2914781297"/>
-		</contour>
-		<contour>
-			<point x="318.080693816" y="964.1025641025" type="line"/>
-			<point x="467.9298642534" y="798.0769230769" type="line"/>
-			<point x="409.7756410256" y="798.0769230769" type="line"/>
-			<point x="295.1923076923" y="924.4343891403" type="line"/>
-			<point x="175.4996229261" y="798.0769230769" type="line"/>
-			<point x="118.1278280543" y="798.0769230769" type="line"/>
-			<point x="271.9739819004" y="964.1025641025" type="line"/>
-		</contour>
+		<component base="S"/>
+		<component base="circumflexcomb" xOffset="299" yOffset="215"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>1,0.8,0,0.3</string>
+			<string>0.5534,0.5534,0.5534,0.4845</string>
 		</dict>
 	</lib>
 </glyph>

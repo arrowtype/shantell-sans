@@ -1,0 +1,83 @@
+Ccircumflex = C + circumflexcomb @ top
+ccircumflex = c + circumflexcomb @ top
+Gcircumflex = G + circumflexcomb @ top
+gcircumflex = g + circumflexcomb @ top
+Hcircumflex = H + circumflexcomb @ top
+hcircumflex = h + circumflexcomb @ top
+Jcircumflex = J + circumflexcomb @ top
+jcircumflex = jdotless + circumflexcomb @ top
+Scircumflex = S + circumflexcomb @ top
+scircumflex = s + circumflexcomb @ top
+Wcircumflex = W + circumflexcomb @ top
+wcircumflex = w + circumflexcomb @ top
+Ycircumflex = Y + circumflexcomb @ top
+ycircumflex = y + circumflexcomb @ top
+
+Cdotaccent = C + dotaccentcmb @ top
+cdotaccent = c + dotaccentcmb @ top
+Gdotaccent = G + dotaccentcmb @ top
+gdotaccent = g + dotaccentcmb @ top
+
+Itilde = I + tildecomb @ top
+itilde = idotless + tildecomb @ top
+Utilde = U + tildecomb @ top
+utilde = u + tildecomb @ top
+
+? Hbar = H + endash @ center
+? hbar = h + endash @ center
+
+? kra = k
+
+DZcaron = D &\ Z + caroncomb@Z:top
+Dzcaron = D &\ z + caroncomb@z:top
+dzcaron = d &\ z + caroncomb@z:top
+
+LJ = L &\ J
+Lj = L &\ j
+lj = l &\ j
+NJ = N &\ J
+Nj = N &\ j
+nj = n &\ j
+
+Gcaron = G + caroncomb@top
+gcaron = g + caroncomb@top
+
+Oogonek = O + ogonekcomb @ ogonek
+oogonek = o + ogonekcomb @ ogonek
+
+Aringacute = A + ringcomb.A @ ring + acutecomb@ringcomb.A:top
+aringacute = a + ringcomb @ top + acutecomb@ringcomb:top
+
+AEacute = AE + acutecomb@top
+aeacute = ae + acutecomb@top
+
+Odieresismacron = O + dieresiscomb@top + macroncomb@dieresiscomb:top
+odieresismacron = o + dieresiscomb@top + macroncomb@dieresiscomb:top
+
+Otildemacron = O + tildemacroncomb
+otildemacron = o + tildemacroncomb
+
+Odotmacron = O + dotaccentcmb @ top + macroncomb@dotaccentcmb:top
+odotmacron = o + dotaccentcmb @ top + macroncomb@dotaccentcmb:top
+
+Ymacron = Y + macroncomb@top
+ymacron = y + macroncomb@top
+
+Agravedbl = A + gravedoublecmb@top
+agravedbl = a + gravedoublecmb@top
+Egravedbl = E + gravedoublecmb@top
+egravedbl = e + gravedoublecmb@top
+Igravedbl = I + gravedoublecmb@top
+igravedbl = idotless + gravedoublecmb@top
+Ogravedbl = O + gravedoublecmb@top
+ogravedbl = o + gravedoublecmb@top
+Rgravedbl = R + gravedoublecmb@top
+rgravedbl = r + gravedoublecmb@top
+Ugravedbl = U + gravedoublecmb@top
+ugravedbl = u + gravedoublecmb@top
+
+fi = f &\ i
+fl = f &\ l
+f_f = f &\ f
+f_f_i = f &\ f &\ i
+f_f_l = f &\ f &\ l
