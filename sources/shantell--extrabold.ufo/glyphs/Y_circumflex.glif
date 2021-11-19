@@ -1,40 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ycircumflex" format="2">
 	<unicode hex="0176"/>
-	<advance width="618"/>
+	<advance width="626"/>
 	<outline>
-		<contour>
-			<point x="282.5773001508" y="0" type="line"/>
-			<point x="282.5773001508" y="275.0773001508" type="line"/>
-			<point x="7.2115384615" y="700" type="line"/>
-			<point x="70.9653092006" y="700" type="line"/>
-			<point x="273.9064856712" y="381.5516591252" type="line" smooth="yes"/>
-			<point x="283.5501508296" y="367.1285822021"/>
-			<point x="300.584464555" y="338.282428356"/>
-			<point x="308.7858220211" y="323.5294117647" type="qcurve"/>
-			<point x="313.5935143288" y="323.5294117647" type="line"/>
-			<point x="322.124811463" y="338.282428356"/>
-			<point x="339.8190045249" y="367.4585218703"/>
-			<point x="349.1327300151" y="381.5516591252" type="qcurve" smooth="yes"/>
-			<point x="549.6134992459" y="700" type="line"/>
-			<point x="610.492081448" y="700" type="line"/>
-			<point x="334.4664404223" y="275.0773001508" type="line"/>
-			<point x="334.4664404223" y="0" type="line"/>
-		</contour>
-		<contour>
-			<point x="331.3018476622" y="964.1025641025" type="line"/>
-			<point x="481.1510180996" y="798.0769230769" type="line"/>
-			<point x="422.9967948718" y="798.0769230769" type="line"/>
-			<point x="308.4134615385" y="924.4343891403" type="line"/>
-			<point x="188.7207767723" y="798.0769230769" type="line"/>
-			<point x="131.3489819004" y="798.0769230769" type="line"/>
-			<point x="285.1951357466" y="964.1025641025" type="line"/>
-		</contour>
+		<component base="Y"/>
+		<component base="circumflexcomb" xOffset="300" yOffset="185"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>1,0.8,0,0.3</string>
+			<string>0.5534,0.5534,0.5534,0.4845</string>
 		</dict>
 	</lib>
 </glyph>

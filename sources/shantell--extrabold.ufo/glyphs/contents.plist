@@ -2,6 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 	<dict>
+		<key>
+</key>
+		<string>_.glif</string>
+		<key> </key>
+		<string> .glif</string>
 		<key>.notdef</key>
 		<string>_notdef.glif</string>
 		<key>A</key>
@@ -10,6 +15,8 @@
 		<string>A_E_.glif</string>
 		<key>AEacute</key>
 		<string>A_E_acute.glif</string>
+		<key>Aacircumflexcomb</key>
+		<string>A_acircumflexcomb.glif</string>
 		<key>Aacute</key>
 		<string>A_acute.glif</string>
 		<key>Abreve</key>
@@ -664,6 +671,8 @@
 		<string>acircumflex.glif</string>
 		<key>acircumflexacute</key>
 		<string>acircumflexacute.glif</string>
+		<key>acircumflexcomb</key>
+		<string>acircumflexcomb.glif</string>
 		<key>acircumflexdotbelow</key>
 		<string>acircumflexdotbelow.glif</string>
 		<key>acircumflexgrave</key>
@@ -1516,6 +1525,8 @@
 		<string>ogonek.glif</string>
 		<key>ogonekcmb</key>
 		<string>ogonekcmb.glif</string>
+		<key>ogonekcomb</key>
+		<string>ogonekcomb.glif</string>
 		<key>ograve</key>
 		<string>ograve.glif</string>
 		<key>ogravedbl</key>
@@ -1798,6 +1809,8 @@
 		<string>tilde.glif</string>
 		<key>tildecomb</key>
 		<string>tildecomb.glif</string>
+		<key>tildemacroncomb</key>
+		<string>tildemacroncomb.glif</string>
 		<key>trademark</key>
 		<string>trademark.glif</string>
 		<key>tse-cy.loclBGR</key>
