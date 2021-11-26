@@ -4,37 +4,37 @@
 	<advance width="713"/>
 	<outline>
 		<contour>
-			<point x="379" y="857" type="curve" smooth="yes"/>
-			<point x="425" y="857"/>
-			<point x="447" y="898"/>
-			<point x="460" y="917" type="curve" smooth="yes"/>
-			<point x="475" y="940"/>
-			<point x="476" y="950"/>
-			<point x="508" y="950" type="curve" smooth="yes"/>
-			<point x="559" y="950"/>
-			<point x="584" y="924"/>
-			<point x="584" y="884" type="curve" smooth="yes"/>
-			<point x="584" y="816"/>
-			<point x="504" y="731"/>
-			<point x="368" y="731" type="curve" smooth="yes"/>
+			<point x="376" y="859" type="curve" smooth="yes"/>
+			<point x="395" y="859"/>
+			<point x="437" y="883"/>
+			<point x="467" y="904" type="curve" smooth="yes"/>
+			<point x="487" y="918"/>
+			<point x="509" y="935"/>
+			<point x="531" y="935" type="curve" smooth="yes"/>
+			<point x="563" y="935"/>
+			<point x="579" y="913"/>
+			<point x="579" y="877" type="curve" smooth="yes"/>
+			<point x="579" y="809"/>
+			<point x="481" y="731"/>
+			<point x="357" y="731" type="curve" smooth="yes"/>
 			<point x="256" y="731"/>
-			<point x="174" y="792"/>
-			<point x="174" y="871" type="curve" smooth="yes"/>
-			<point x="174" y="920"/>
-			<point x="213" y="945"/>
-			<point x="258" y="945" type="curve" smooth="yes"/>
-			<point x="284" y="945"/>
-			<point x="301" y="933"/>
-			<point x="312" y="912" type="curve" smooth="yes"/>
-			<point x="323" y="892"/>
-			<point x="337" y="857"/>
+			<point x="191" y="789"/>
+			<point x="191" y="868" type="curve" smooth="yes"/>
+			<point x="191" y="917"/>
+			<point x="221" y="945"/>
+			<point x="266" y="945" type="curve" smooth="yes"/>
+			<point x="292" y="945"/>
+			<point x="311" y="928"/>
+			<point x="325" y="906" type="curve" smooth="yes"/>
+			<point x="340" y="882"/>
+			<point x="353" y="859"/>
 		</contour>
 		<component base="Icyr"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.9272,0.8867,1,1</string>
+			<string>0.7336,0.5157,0.996,1</string>
 		</dict>
 	</lib>
 </glyph>
