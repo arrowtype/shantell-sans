@@ -218,46 +218,27 @@ unicodeNameMatches = {
     "ydot":                  "1EF5",
     "ygrave":                "1EF3",
     "yhookabove":            "1EF7",
-    "ytilde":                "1EF9",
-    
-    # glyphs in Shantell Sans without good names
-    "uni0122": "0122",
-    "uni0136": "0136",
-    "uni013B": "013B",
-    "uni0145": "0145",
-    "uni0156": "0156",
-    "uni0123": "0123",
-    "uni0137": "0137",
-    "uni013C": "013C",
-    "uni0146": "0146",
-    "uni0157": "0157",
-    "uni2010": "2010",
+    "ytilde":                "1EF9"
 }
 
-def addUnicodeForGlyph(g):
+def addUnicodeForGlyph(font, g):
     if g.unicode == None or g.unicodes == []:
-            if g.name in agl.AGL2UV:
-                uni = agl.AGL2UV[g.name]
-    
-                g.unicode = hex(uni)
-    
-                print(g.unicodes)
-            elif g.name[:3] == "uni":
-                uni = g.name[-4:]
-            
-                if uni != "case":
-            
-                    g.unicode = uni
-                    print(g.name, g.unicodes, uni)
-                    
-def addUnicodeForTrickyGlyphs(g):
-    # if g.unicodes == ():
-    if g.unicodes != unicodeNameMatches.get(g.name, "unicode"):
-        uni = unicodeNameMatches.get(g.name, "unicode")
+        if g.name in agl.AGL2UV:
+            uni = agl.AGL2UV[g.name]
+
+            font[g.name].unicode = hex(uni)
+
+            print(g.name, g.unicodes)
+
+        # check for "uniXXXX" names but avoid names with suffixes, e.g. uni01D3.alt
+        elif g.name[:3] == "uni" and '.' not in g.name:
+            uni = g.name[-4:]
         
-        if uni != "unicode":
-            print(g.name, uni)
-            g.unicode = uni
+            if uni != "case":
+        
+                font[g.name].unicode = uni
+                print(g.name, g.unicodes, uni)
+                    
 
 
 ### use the below to use the current font (and comment out lines below)
@@ -272,9 +253,18 @@ files = getFile("Select files to add unicodes to", allowsMultipleSelection=True,
 
 for file in files:
     font = OpenFont(file, showInterface=False)
+
+    print("\n\n\n----------------------------------------\n")
+    print(font.info.styleName)
+
     for g in font:
-        addUnicodeForGlyph(g)
-        addUnicodeForTrickyGlyphs(g)
+        addUnicodeForGlyph(font, g)
+        # addUnicodeForTrickyGlyphs(font, g)
+
+        if g.name in unicodeNameMatches.keys():
+            g.unicode = unicodeNameMatches[g.name]
+            print(g.name, g.unicode)
+
     sortFont(font)
 
     font.save()
