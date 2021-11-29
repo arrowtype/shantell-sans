@@ -1,42 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Yukrcyr" format="2">
 	<unicode hex="0407"/>
-	<advance width="221.1538461538"/>
+	<advance width="610"/>
 	<outline>
-		<contour>
-			<point x="84.1346153846" y="0" type="line"/>
-			<point x="84.1346153846" y="700" type="line"/>
-			<point x="136.5384615385" y="700" type="line"/>
-			<point x="136.5384615385" y="0" type="line"/>
-		</contour>
-		<contour>
-			<point x="-62.9100678733" y="844.8906485671" type="qcurve" smooth="yes"/>
-			<point x="-62.9100678733" y="864.7812971342"/>
-			<point x="-38.2777149321" y="886.1142533937"/>
-			<point x="-15.4176093514" y="886.1142533937" type="qcurve" smooth="yes"/>
-			<point x="6.4809577677" y="886.1142533937"/>
-			<point x="32.4047888386" y="863.3389894419"/>
-			<point x="32.4047888386" y="844.8906485671" type="qcurve" smooth="yes"/>
-			<point x="32.4047888386" y="826.1406485671"/>
-			<point x="8.2532051282" y="804.8076923077"/>
-			<point x="-15.4176093514" y="804.8076923077" type="qcurve" smooth="yes"/>
-			<point x="-37.3161764706" y="804.8076923077"/>
-			<point x="-62.9100678733" y="827.1021870287"/>
-		</contour>
-		<contour>
-			<point x="188.5982277526" y="844.8906485671" type="qcurve" smooth="yes"/>
-			<point x="188.5982277526" y="864.7812971342"/>
-			<point x="213.2305806938" y="886.1142533937"/>
-			<point x="236.0906862745" y="886.1142533937" type="qcurve" smooth="yes"/>
-			<point x="257.9892533937" y="886.1142533937"/>
-			<point x="283.9130844646" y="863.3389894419"/>
-			<point x="283.9130844646" y="844.8906485671" type="qcurve" smooth="yes"/>
-			<point x="283.9130844646" y="826.1406485671"/>
-			<point x="259.7615007541" y="804.8076923077"/>
-			<point x="236.0906862745" y="804.8076923077" type="qcurve" smooth="yes"/>
-			<point x="214.1921191553" y="804.8076923077"/>
-			<point x="188.5982277526" y="827.1021870287"/>
-		</contour>
+		<component base="Idieresis"/>
 	</outline>
 	<lib>
 		<dict>
