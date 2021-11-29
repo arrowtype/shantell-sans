@@ -66,8 +66,10 @@ feature ss04 {
 } ss04;
 
 feature locl {
-script cyrl;
-language BGR;
-sub [vecyr gecyr decyr zhecyr zecyr icyr ishortcyr kacyr elcyr pecyr tecyr tsecyr shacyr shchacyr hardcyr softcyr yucyr igravecyr] by [vecyr.BUL gecyr.BUL decyr.BUL zhecyr.BUL zecyr.BUL icyr.BUL ishortcyr.BUL kacyr.BUL elcyr.BUL pecyr.BUL tecyr.BUL tsecyr.BUL shacyr.BUL shchacyr.BUL hardcyr.BUL softcyr.BUL yucyr.BUL igravecyr.BUL];
-
+    script cyrl;
+    language BGR;
+    sub [vecyr gecyr decyr zhecyr zecyr icyr ishortcyr kacyr elcyr pecyr tecyr tsecyr shacyr shchacyr hardcyr softcyr yucyr igravecyr] by [vecyr.BUL gecyr.BUL decyr.BUL zhecyr.BUL zecyr.BUL icyr.BUL ishortcyr.BUL kacyr.BUL elcyr.BUL pecyr.BUL tecyr.BUL tsecyr.BUL shacyr.BUL shchacyr.BUL hardcyr.BUL softcyr.BUL yucyr.BUL igravecyr.BUL];
+    script cyrl;
+    language SRB;
+    sub becyr by becyr.SRB;
 } locl;
