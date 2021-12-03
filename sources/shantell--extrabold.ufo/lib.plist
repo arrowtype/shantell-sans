@@ -2985,6 +2985,25 @@
 					<string>pe-cy.loclSRB</string>
 					<string>te-cy.loclSRB</string>
 					<string>apostrophemod</string>
+					<string>vecyr.BUL</string>
+					<string>gecyr.BUL</string>
+					<string>decyr.BUL</string>
+					<string>zhecyr.BUL</string>
+					<string>zecyr.BUL</string>
+					<string>icyr.BUL</string>
+					<string>ishortcyr.BUL</string>
+					<string>kacyr.BUL</string>
+					<string>elcyr.BUL</string>
+					<string>pecyr.BUL</string>
+					<string>tecyr.BUL</string>
+					<string>tsecyr.BUL</string>
+					<string>shacyr.BUL</string>
+					<string>shchacyr.BUL</string>
+					<string>hardcyr.BUL</string>
+					<string>softcyr.BUL</string>
+					<string>yucyr.BUL</string>
+					<string>igravecyr.BUL</string>
+					<string>becyr.SRB</string>
 					<string>Iegravecyr</string>
 					<string>Iocyr</string>
 					<string>Djecyr</string>
@@ -3172,25 +3191,6 @@
 					<string>tenge</string>
 					<string>numero</string>
 					<string>brevecomb-cy</string>
-					<string>vecyr.BUL</string>
-					<string>gecyr.BUL</string>
-					<string>decyr.BUL</string>
-					<string>zhecyr.BUL</string>
-					<string>zecyr.BUL</string>
-					<string>icyr.BUL</string>
-					<string>ishortcyr.BUL</string>
-					<string>kacyr.BUL</string>
-					<string>elcyr.BUL</string>
-					<string>pecyr.BUL</string>
-					<string>tecyr.BUL</string>
-					<string>tsecyr.BUL</string>
-					<string>shacyr.BUL</string>
-					<string>shchacyr.BUL</string>
-					<string>hardcyr.BUL</string>
-					<string>softcyr.BUL</string>
-					<string>yucyr.BUL</string>
-					<string>igravecyr.BUL</string>
-					<string>becyr.SRB</string>
 					<string>Ccircumflex</string>
 					<string>ccircumflex</string>
 					<string>Cdotaccent</string>
@@ -3462,6 +3462,15 @@
 					<string>Efcyr.ss04</string>
 					<string>zhecyr.ss04</string>
 					<string>yacyr.ss04</string>
+					<string>Aacircumflexcomb</string>
+					<string>acircumflexcomb</string>
+					<string>ogonekcomb</string>
+					<string>tildemacroncomb</string>
+					<string>Decyr.ss01</string>
+					<string>zhecyr.ss03</string>
+					<string>emcyr.ss03</string>
+					<string> </string>
+					<string> </string>
 				</array>
 				<key>type</key>
 				<string>glyphList</string>
@@ -5060,25 +5069,6 @@
 			<string>tenge</string>
 			<string>numero</string>
 			<string>brevecomb-cy</string>
-			<string>vecyr.BUL</string>
-			<string>gecyr.BUL</string>
-			<string>decyr.BUL</string>
-			<string>zhecyr.BUL</string>
-			<string>zecyr.BUL</string>
-			<string>icyr.BUL</string>
-			<string>ishortcyr.BUL</string>
-			<string>kacyr.BUL</string>
-			<string>elcyr.BUL</string>
-			<string>pecyr.BUL</string>
-			<string>tecyr.BUL</string>
-			<string>tsecyr.BUL</string>
-			<string>shacyr.BUL</string>
-			<string>shchacyr.BUL</string>
-			<string>hardcyr.BUL</string>
-			<string>softcyr.BUL</string>
-			<string>yucyr.BUL</string>
-			<string>igravecyr.BUL</string>
-			<string>becyr.SRB</string>
 			<string>Ccircumflex</string>
 			<string>ccircumflex</string>
 			<string>Cdotaccent</string>
@@ -5298,28 +5288,6 @@
 			<string>brevecomb_tildecomb</string>
 			<string>caroncomb.alt</string>
 			<string>periodcentered.loclCAT</string>
-			<string>becyr.ss01</string>
-			<string>vecyr.ss01</string>
-			<string>decyr.ss01</string>
-			<string>zhecyr.ss01</string>
-			<string>pecyr.ss01</string>
-			<string>shacyr.ss01</string>
-			<string>shchacyr.ss01</string>
-			<string>icyr.ss01</string>
-			<string>Icyr.ss01</string>
-			<string>Ishortcyr.ss01</string>
-			<string>emcyr.ss01</string>
-			<string>icyr.ss02</string>
-			<string>tsecyr.ss01</string>
-			<string>ylongcyr.ss01</string>
-			<string>vecyr.ss02</string>
-			<string>emcyr.ss02</string>
-			<string>yacyr.ss01</string>
-			<string>ylongcyr.ss02</string>
-			<string>decyr.ss02</string>
-			<string>hardcyr.ss01</string>
-			<string>vecyr.ss03</string>
-			<string>zhecyr.ss02</string>
 			<string>dotbelow</string>
 			<string>hoi</string>
 			<string>circumflexdotbelow</string>
@@ -5329,41 +5297,14 @@
 			<string>hornhoi</string>
 			<string>horntilde</string>
 			<string>horndotbelow</string>
-			<string>vecyr.ss04</string>
-			<string>gecyr.ss02</string>
-			<string>yacyr.ss02</string>
-			<string>Pecyr.ss02</string>
-			<string>Shacyr.ss02</string>
-			<string>Decyr.ss02</string>
-			<string>checyr.ss02</string>
-			<string>Ucyr.ss02</string>
-			<string>yacyr.ss03</string>
-			<string>Ylongcyr.ss02</string>
-			<string>zecyr.ss02</string>
-			<string>Efcyr.ss02</string>
-			<string>Checyr.ss02</string>
-			<string>Shacyr.ss04</string>
-			<string>Softcyr.ss04</string>
-			<string>Ereversedcyr.ss04</string>
-			<string>Yucyr.ss04</string>
-			<string>Pecyr.ss04</string>
-			<string>Efcyr.ss04</string>
-			<string>zhecyr.ss04</string>
-			<string>yacyr.ss04</string>
 			<string>Aacircumflexcomb</string>
 			<string>acircumflexcomb</string>
 			<string>ogonekcomb</string>
 			<string>tildemacroncomb</string>
-			<string>Decyr.ss01</string>
-			<string>zhecyr.ss03</string>
-			<string>emcyr.ss03</string>
+			<string> </string>
 			<string> </string>
 			<string>
 </string>
-			<string>gravecmb</string>
-			<string>acutecmb</string>
-			<string>macroncmb</string>
-			<string>dieresiscmb</string>
 		</array>
 		<key>public.postscriptNames</key>
 		<dict>
