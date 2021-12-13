@@ -61,6 +61,8 @@
 		<string>A_gravedbl.glif</string>
 		<key>Ahoi</key>
 		<string>A_hoi.glif</string>
+		<key>Aiecyr</key>
+		<string>A_iecyr.glif</string>
 		<key>Ainvertedbreve</key>
 		<string>A_invertedbreve.glif</string>
 		<key>Amacron</key>
@@ -91,6 +93,10 @@
 		<string>C_dotaccent.glif</string>
 		<key>Checyr</key>
 		<string>C_hecyr.glif</string>
+		<key>Chedieresiscyr</key>
+		<string>C_hedieresiscyr.glif</string>
+		<key>Chekhakascyr</key>
+		<string>C_hekhakascyr.glif</string>
 		<key>Chetailcyr</key>
 		<string>C_hetailcyr.glif</string>
 		<key>Chevertcyr</key>
@@ -165,6 +171,8 @@
 		<string>E_ncyr.glif</string>
 		<key>Eng</key>
 		<string>E_ng.glif</string>
+		<key>Engecyr</key>
+		<string>E_ngecyr.glif</string>
 		<key>Entailcyr</key>
 		<string>E_ntailcyr.glif</string>
 		<key>Eogonek</key>
@@ -191,6 +199,8 @@
 		<string>E_uro.glif</string>
 		<key>F</key>
 		<string>F_.glif</string>
+		<key>Fitacyr</key>
+		<string>F_itacyr.glif</string>
 		<key>G</key>
 		<string>G_.glif</string>
 		<key>Gbreve</key>
@@ -203,10 +213,14 @@
 		<string>G_dotaccent.glif</string>
 		<key>Gecyr</key>
 		<string>G_ecyr.glif</string>
+		<key>Gehookcyr</key>
+		<string>G_ehookcyr.glif</string>
 		<key>Germandbls</key>
 		<string>G_ermandbls.glif</string>
 		<key>Gestrokecyr</key>
 		<string>G_estrokecyr.glif</string>
+		<key>Getailcyr</key>
+		<string>G_etailcyr.glif</string>
 		<key>Geupcyr</key>
 		<string>G_eupcyr.glif</string>
 		<key>Ghestroke-cy.loclBSH</key>
@@ -239,6 +253,8 @@
 		<string>I_cyr.glif</string>
 		<key>Idieresis</key>
 		<string>I_dieresis.glif</string>
+		<key>Idieresiscyr</key>
+		<string>I_dieresiscyr.glif</string>
 		<key>Idotaccent</key>
 		<string>I_dotaccent.glif</string>
 		<key>Idotbelow</key>
@@ -247,6 +263,8 @@
 		<string>I_ebrevecyr.glif</string>
 		<key>Iecyr</key>
 		<string>I_ecyr.glif</string>
+		<key>Iegravecyr</key>
+		<string>I_egravecyr.glif</string>
 		<key>Igrave</key>
 		<string>I_grave.glif</string>
 		<key>Igravecyr</key>
@@ -265,6 +283,8 @@
 		<string>I_ishort-cy.loclB_G_R_.glif</string>
 		<key>Imacron</key>
 		<string>I_macron.glif</string>
+		<key>Imacroncyr</key>
+		<string>I_macroncyr.glif</string>
 		<key>Iocyr</key>
 		<string>I_ocyr.glif</string>
 		<key>Iogonek</key>
@@ -437,6 +457,8 @@
 		<string>S_hacyr.glif</string>
 		<key>Shchacyr</key>
 		<string>S_hchacyr.glif</string>
+		<key>Shhacyr</key>
+		<string>S_hhacyr.glif</string>
 		<key>Softcyr</key>
 		<string>S_oftcyr.glif</string>
 		<key>T</key>
@@ -553,6 +575,8 @@
 		<string>Y_hoi.glif</string>
 		<key>Ylongcyr</key>
 		<string>Y_longcyr.glif</string>
+		<key>Ylongdieresiscyr</key>
+		<string>Y_longdieresiscyr.glif</string>
 		<key>Ymacron</key>
 		<string>Y_macron.glif</string>
 		<key>Ytilde</key>
@@ -573,6 +597,8 @@
 		<string>Z_ecyr.glif</string>
 		<key>Zedescender-cy.loclBSH</key>
 		<string>Z_edescender-cy.loclB_S_H_.glif</string>
+		<key>Zedieresiscyr</key>
+		<string>Z_edieresiscyr.glif</string>
 		<key>Zetailcyr</key>
 		<string>Z_etailcyr.glif</string>
 		<key>Zhebrevecyr</key>
@@ -639,6 +665,8 @@
 		<string>agravedbl.glif</string>
 		<key>ahoi</key>
 		<string>ahoi.glif</string>
+		<key>aiecyr</key>
+		<string>aiecyr.glif</string>
 		<key>ainvertedbreve</key>
 		<string>ainvertedbreve.glif</string>
 		<key>amacron</key>
@@ -727,6 +755,8 @@
 		<string>brevecomb.glif</string>
 		<key>brevecomb-cy</key>
 		<string>brevecomb-cy.glif</string>
+		<key>brevecomb-cy.case</key>
+		<string>brevecomb-cy.case.glif</string>
 		<key>brevecomb_acutecomb</key>
 		<string>brevecomb_acutecomb.glif</string>
 		<key>brevecomb_gravecomb</key>
@@ -773,12 +803,18 @@
 		<string>cent.glif</string>
 		<key>che-cy.loclBGR</key>
 		<string>che-cy.loclB_G_R_.glif</string>
+		<key>cheabkhcyr</key>
+		<string>cheabkhcyr.glif</string>
 		<key>check</key>
 		<string>check.glif</string>
 		<key>checkheavy</key>
 		<string>checkheavy.glif</string>
 		<key>checyr</key>
 		<string>checyr.glif</string>
+		<key>chedieresiscyr</key>
+		<string>chedieresiscyr.glif</string>
+		<key>chekhakascyr</key>
+		<string>chekhakascyr.glif</string>
 		<key>chetailcyr</key>
 		<string>chetailcyr.glif</string>
 		<key>chevertcyr</key>
@@ -817,6 +853,8 @@
 		<string>copyright.glif</string>
 		<key>currency</key>
 		<string>currency.glif</string>
+		<key>cyrbreve</key>
+		<string>cyrbreve.glif</string>
 		<key>d</key>
 		<string>d.glif</string>
 		<key>dagger</key>
@@ -847,6 +885,8 @@
 		<string>divisionslash.glif</string>
 		<key>djecyr</key>
 		<string>djecyr.glif</string>
+		<key>djecyr.ss01</key>
+		<string>djecyr.ss01.glif</string>
 		<key>dollar</key>
 		<string>dollar.glif</string>
 		<key>dollar.split</key>
@@ -941,6 +981,8 @@
 		<string>endash.case.glif</string>
 		<key>eng</key>
 		<string>eng.glif</string>
+		<key>engecyr</key>
+		<string>engecyr.glif</string>
 		<key>entailcyr</key>
 		<string>entailcyr.glif</string>
 		<key>eogonek</key>
@@ -983,6 +1025,8 @@
 		<string>fhook.glif</string>
 		<key>fi</key>
 		<string>fi.glif</string>
+		<key>fitacyr</key>
+		<string>fitacyr.glif</string>
 		<key>five</key>
 		<string>five.glif</string>
 		<key>five.dnom</key>
@@ -1031,16 +1075,22 @@
 		<string>ge-cy.loclS_R_B_.glif</string>
 		<key>gecyr</key>
 		<string>gecyr.glif</string>
+		<key>gehookcyr</key>
+		<string>gehookcyr.glif</string>
 		<key>germandbls</key>
 		<string>germandbls.glif</string>
 		<key>gestrokecyr</key>
 		<string>gestrokecyr.glif</string>
+		<key>getailcyr</key>
+		<string>getailcyr.glif</string>
 		<key>geupcyr</key>
 		<string>geupcyr.glif</string>
 		<key>ghestroke-cy.loclBSH</key>
 		<string>ghestroke-cy.loclB_S_H_.glif</string>
 		<key>gje-cy.loclMKD</key>
 		<string>gje-cy.loclM_K_D_.glif</string>
+		<key>gjecyr</key>
+		<string>gjecyr.glif</string>
 		<key>grave</key>
 		<string>grave.glif</string>
 		<key>gravecomb</key>
@@ -1107,6 +1157,8 @@
 		<string>hungarumlaut.glif</string>
 		<key>hungarumlautcmb</key>
 		<string>hungarumlautcmb.glif</string>
+		<key>hungarumlautcomb</key>
+		<string>hungarumlautcomb.glif</string>
 		<key>hyphen</key>
 		<string>hyphen.glif</string>
 		<key>hyphen.case</key>
@@ -1221,6 +1273,8 @@
 		<string>icyr.glif</string>
 		<key>idieresis</key>
 		<string>idieresis.glif</string>
+		<key>idieresiscyr</key>
+		<string>idieresiscyr.glif</string>
 		<key>idotaccent</key>
 		<string>idotaccent.glif</string>
 		<key>idotbelow</key>
@@ -1255,6 +1309,8 @@
 		<string>ijacute.glif</string>
 		<key>imacron</key>
 		<string>imacron.glif</string>
+		<key>imacroncyr</key>
+		<string>imacroncyr.glif</string>
 		<key>increment</key>
 		<string>increment.glif</string>
 		<key>indianrupee</key>
@@ -1657,6 +1713,8 @@
 		<string>summation.glif</string>
 		<key>t</key>
 		<string>t.glif</string>
+		<key>tail</key>
+		<string>tail.glif</string>
 		<key>tbar</key>
 		<string>tbar.glif</string>
 		<key>tcaron</key>
@@ -1837,6 +1895,8 @@
 		<string>yacute.glif</string>
 		<key>yacyr</key>
 		<string>yacyr.glif</string>
+		<key>yatcyr</key>
+		<string>yatcyr.glif</string>
 		<key>ycircumflex</key>
 		<string>ycircumflex.glif</string>
 		<key>ydieresis</key>
@@ -1851,6 +1911,8 @@
 		<string>yhoi.glif</string>
 		<key>ylongcyr</key>
 		<string>ylongcyr.glif</string>
+		<key>ylongdieresiscyr</key>
+		<string>ylongdieresiscyr.glif</string>
 		<key>ymacron</key>
 		<string>ymacron.glif</string>
 		<key>ytilde</key>
@@ -1873,6 +1935,8 @@
 		<string>zecyr.glif</string>
 		<key>zedescender-cy.loclBSH</key>
 		<string>zedescender-cy.loclB_S_H_.glif</string>
+		<key>zedieresiscyr</key>
+		<string>zedieresiscyr.glif</string>
 		<key>zero</key>
 		<string>zero.glif</string>
 		<key>zero.dnom</key>

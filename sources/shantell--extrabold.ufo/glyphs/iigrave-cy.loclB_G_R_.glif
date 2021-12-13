@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iigrave-cy.loclBGR" format="2">
-	<advance width="698"/>
+	<advance width="708"/>
 	<outline>
-		<component base="gravecomb" xOffset="310"/>
-		<component base="ii-cy.loclBGR"/>
+		<component base="icyr"/>
+		<component base="gravecomb" xOffset="348"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.9272,0.8867,1,1</string>
+			<string>0.9935,0.7078,0.8306,1</string>
 		</dict>
 	</lib>
 </glyph>
