@@ -1,41 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Zhedieresiscyr" format="2">
 	<unicode hex="04DC"/>
-	<advance width="902.4038461538"/>
+	<advance width="939"/>
 	<outline>
-		<contour>
-			<point x="276.7533936651" y="844.8906485671" type="qcurve" smooth="yes"/>
-			<point x="276.7533936651" y="864.7812971342"/>
-			<point x="301.3857466063" y="886.1142533937"/>
-			<point x="324.245852187" y="886.1142533937" type="qcurve" smooth="yes"/>
-			<point x="346.1444193062" y="886.1142533937"/>
-			<point x="372.0682503771" y="863.3389894419"/>
-			<point x="372.0682503771" y="844.8906485671" type="qcurve" smooth="yes"/>
-			<point x="372.0682503771" y="826.1406485671"/>
-			<point x="347.9166666667" y="804.8076923077"/>
-			<point x="324.245852187" y="804.8076923077" type="qcurve" smooth="yes"/>
-			<point x="302.3472850679" y="804.8076923077"/>
-			<point x="276.7533936651" y="827.1021870287"/>
-		</contour>
-		<contour>
-			<point x="528.2616892911" y="844.8906485671" type="qcurve" smooth="yes"/>
-			<point x="528.2616892911" y="864.7812971342"/>
-			<point x="552.8940422323" y="886.1142533937"/>
-			<point x="575.754147813" y="886.1142533937" type="qcurve" smooth="yes"/>
-			<point x="597.6527149321" y="886.1142533937"/>
-			<point x="623.576546003" y="863.3389894419"/>
-			<point x="623.576546003" y="844.8906485671" type="qcurve" smooth="yes"/>
-			<point x="623.576546003" y="826.1406485671"/>
-			<point x="599.4249622926" y="804.8076923077"/>
-			<point x="575.754147813" y="804.8076923077" type="qcurve" smooth="yes"/>
-			<point x="553.8555806938" y="804.8076923077"/>
-			<point x="528.2616892911" y="827.1021870287"/>
-		</contour>
+		<component base="Zhecyr"/>
+		<component base="dieresiscomb" xOffset="455" yOffset="185"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.5,0,1,0.15</string>
+			<string>0.7336,0.5157,0.996,1</string>
 		</dict>
 	</lib>
 </glyph>

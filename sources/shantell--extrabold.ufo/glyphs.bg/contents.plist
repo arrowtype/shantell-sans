@@ -20,8 +20,6 @@
 		<string>D_zhecyr.glif</string>
 		<key>Efcyr</key>
 		<string>E_fcyr.glif</string>
-		<key>Efcyr.ss04</key>
-		<string>E_fcyr.ss04.glif</string>
 		<key>Elcyr</key>
 		<string>E_lcyr.glif</string>
 		<key>Emcyr</key>
@@ -38,6 +36,8 @@
 		<string>G_ecyr.glif</string>
 		<key>Germandbls</key>
 		<string>G_ermandbls.glif</string>
+		<key>Geupcyr</key>
+		<string>G_eupcyr.glif</string>
 		<key>Hardcyr</key>
 		<string>H_ardcyr.glif</string>
 		<key>I</key>
@@ -106,8 +106,6 @@
 		<string>backslash.glif</string>
 		<key>becyr</key>
 		<string>becyr.glif</string>
-		<key>becyr.ss01</key>
-		<string>becyr.ss01.glif</string>
 		<key>braceleft</key>
 		<string>braceleft.glif</string>
 		<key>braceright</key>
@@ -118,6 +116,8 @@
 		<string>bracketleft.glif</string>
 		<key>bracketright</key>
 		<string>bracketright.glif</string>
+		<key>brevecomb-cy</key>
+		<string>brevecomb-cy.glif</string>
 		<key>cedi</key>
 		<string>cedi.glif</string>
 		<key>check</key>
@@ -132,10 +132,8 @@
 		<string>comma.glif</string>
 		<key>decyr</key>
 		<string>decyr.glif</string>
-		<key>decyr.ss01</key>
-		<string>decyr.ss01.glif</string>
-		<key>decyr.ss02</key>
-		<string>decyr.ss02.glif</string>
+		<key>djecyr</key>
+		<string>djecyr.glif</string>
 		<key>dollar</key>
 		<string>dollar.glif</string>
 		<key>dong</key>
@@ -146,8 +144,6 @@
 		<string>elcyr.glif</string>
 		<key>emcyr</key>
 		<string>emcyr.glif</string>
-		<key>emcyr.ss01</key>
-		<string>emcyr.ss01.glif</string>
 		<key>encyr</key>
 		<string>encyr.glif</string>
 		<key>eng</key>
@@ -166,10 +162,10 @@
 		<string>five.pnum.glif</string>
 		<key>fraction</key>
 		<string>fraction.glif</string>
+		<key>ge-cy.loclBGR</key>
+		<string>ge-cy.loclB_G_R_.glif</string>
 		<key>gecyr</key>
 		<string>gecyr.glif</string>
-		<key>gecyr.BUL</key>
-		<string>gecyr.B_U_L_.glif</string>
 		<key>germandbls</key>
 		<string>germandbls.glif</string>
 		<key>guarani</key>
@@ -186,8 +182,6 @@
 		<string>hyphen.line.glif</string>
 		<key>icyr</key>
 		<string>icyr.glif</string>
-		<key>icyr.ss01</key>
-		<string>icyr.ss01.glif</string>
 		<key>increment</key>
 		<string>increment.glif</string>
 		<key>indianrupee</key>
@@ -200,6 +194,8 @@
 		<string>ishortcyr.glif</string>
 		<key>jdotless</key>
 		<string>jdotless.glif</string>
+		<key>ka-cy.loclBGR</key>
+		<string>ka-cy.loclB_G_R_.glif</string>
 		<key>kacyr</key>
 		<string>kacyr.glif</string>
 		<key>kacyr.BUL</key>
@@ -258,14 +254,10 @@
 		<string>second.glif</string>
 		<key>shacyr</key>
 		<string>shacyr.glif</string>
-		<key>shacyr.ss01</key>
-		<string>shacyr.ss01.glif</string>
+		<key>shcha-cy.loclBGR</key>
+		<string>shcha-cy.loclB_G_R_.glif</string>
 		<key>shchacyr</key>
 		<string>shchacyr.glif</string>
-		<key>shchacyr.BUL</key>
-		<string>shchacyr.B_U_L_.glif</string>
-		<key>shchacyr.ss01</key>
-		<string>shchacyr.ss01.glif</string>
 		<key>slash</key>
 		<string>slash.glif</string>
 		<key>softcyr</key>
@@ -288,6 +280,8 @@
 		<string>turkishlira.glif</string>
 		<key>uhorn</key>
 		<string>uhorn.glif</string>
+		<key>ve-cy.loclBGR</key>
+		<string>ve-cy.loclB_G_R_.glif</string>
 		<key>vecyr</key>
 		<string>vecyr.glif</string>
 		<key>vecyr.BUL</key>
@@ -304,25 +298,19 @@
 		<string>x.glif</string>
 		<key>yacyr</key>
 		<string>yacyr.glif</string>
-		<key>yacyr.ss01</key>
-		<string>yacyr.ss01.glif</string>
 		<key>yen</key>
 		<string>yen.glif</string>
 		<key>ylongcyr</key>
 		<string>ylongcyr.glif</string>
-		<key>ylongcyr.ss01</key>
-		<string>ylongcyr.ss01.glif</string>
-		<key>ylongcyr.ss02</key>
-		<string>ylongcyr.ss02.glif</string>
 		<key>yucyr</key>
 		<string>yucyr.glif</string>
+		<key>ze-cy.loclBGR</key>
+		<string>ze-cy.loclB_G_R_.glif</string>
 		<key>zecyr</key>
 		<string>zecyr.glif</string>
-		<key>zecyr.BUL</key>
-		<string>zecyr.B_U_L_.glif</string>
+		<key>zhe-cy.loclBGR</key>
+		<string>zhe-cy.loclB_G_R_.glif</string>
 		<key>zhecyr</key>
 		<string>zhecyr.glif</string>
-		<key>zhecyr.ss01</key>
-		<string>zhecyr.ss01.glif</string>
 	</dict>
 </plist>

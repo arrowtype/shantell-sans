@@ -1,20 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="geupcyr" format="2">
 	<unicode hex="0491"/>
-	<advance width="448.0769230769"/>
+	<advance width="530"/>
 	<outline>
 		<contour>
-			<point x="71.1538461538" y="523.5576923077" type="line"/>
-			<point x="377.4038461538" y="523.5576923077" type="line"/>
-			<point x="377.4038461538" y="635.5769230769" type="line"/>
-			<point x="424.0384615385" y="635.5769230769" type="line"/>
-			<point x="424.0384615385" y="476.4423076923" type="line"/>
-			<point x="122.5961538462" y="476.4423076923" type="line"/>
-			<point x="122.5961538462" y="0" type="line"/>
-			<point x="71.1538461538" y="0" type="line"/>
+			<point x="65" y="79" type="curve" smooth="yes"/>
+			<point x="58" y="139"/>
+			<point x="56" y="290"/>
+			<point x="56" y="352" type="curve" smooth="yes"/>
+			<point x="56" y="440"/>
+			<point x="73" y="505"/>
+			<point x="135" y="516" type="curve" smooth="yes"/>
+			<point x="187" y="525"/>
+			<point x="277" y="518"/>
+			<point x="352" y="518" type="curve" smooth="yes"/>
+			<point x="367" y="518"/>
+			<point x="370" y="548"/>
+			<point x="382" y="574" type="curve" smooth="yes"/>
+			<point x="403" y="619"/>
+			<point x="462" y="614"/>
+			<point x="485" y="603" type="curve" smooth="yes"/>
+			<point x="523" y="585"/>
+			<point x="525" y="499"/>
+			<point x="525" y="436" type="curve" smooth="yes"/>
+			<point x="525" y="389"/>
+			<point x="482" y="358"/>
+			<point x="437" y="358" type="curve" smooth="yes"/>
+			<point x="395" y="358"/>
+			<point x="350" y="367"/>
+			<point x="291" y="367" type="curve" smooth="yes"/>
+			<point x="238" y="367"/>
+			<point x="199" y="358"/>
+			<point x="151" y="348" type="curve"/>
+			<point x="235" y="415" type="line"/>
+			<point x="227" y="326"/>
+			<point x="224" y="191"/>
+			<point x="233" y="55" type="curve" smooth="yes"/>
+			<point x="236" y="9"/>
+			<point x="199" y="-10"/>
+			<point x="152" y="-10" type="curve" smooth="yes"/>
+			<point x="101" y="-10"/>
+			<point x="70" y="32"/>
 		</contour>
 	</outline>
-	<anchor name="aboveLC" x="117.3076923077" y="240.3846153846"/>
 	<guideline x="86.5384615385" y="263.4615384615" angle="90" identifier="rQENFQOEUJ"/>
 	<guideline x="89.9038461538" y="278.3653846154" angle="90" identifier="rKZszPBnKc"/>
 	<guideline x="86.5384615385" y="263.4615384615" angle="90" identifier="1UpiQWPmoV"/>
@@ -24,7 +52,7 @@
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.5,0,1,0.15</string>
+			<string>0.7336,0.5157,0.996,1</string>
 		</dict>
 	</lib>
 </glyph>
