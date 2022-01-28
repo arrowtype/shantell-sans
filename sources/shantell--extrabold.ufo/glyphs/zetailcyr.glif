@@ -5,20 +5,23 @@
 	<outline>
 		<contour>
 			<point x="196" y="30" type="curve" smooth="yes"/>
-			<point x="194" y="5"/>
-			<point x="186" y="-62"/>
-			<point x="190" y="-91" type="curve" smooth="yes"/>
-			<point x="194" y="-122"/>
-			<point x="222" y="-162"/>
+			<point x="194" y="10"/>
+			<point x="189" y="-42"/>
+			<point x="189" y="-75" type="curve" smooth="yes"/>
+			<point x="189" y="-115"/>
+			<point x="215" y="-162"/>
 			<point x="279" y="-162" type="curve" smooth="yes"/>
-			<point x="323" y="-162"/>
-			<point x="354" y="-121"/>
-			<point x="352" y="-79" type="curve" smooth="yes"/>
-			<point x="349" y="-24"/>
-			<point x="353" y="22"/>
-			<point x="348" y="61" type="curve" smooth="yes"/>
-			<point x="340" y="129"/>
-			<point x="202" y="109"/>
+			<point x="322" y="-162"/>
+			<point x="352" y="-123"/>
+			<point x="352" y="-83" type="curve" smooth="yes"/>
+			<point x="352" y="-63"/>
+			<point x="349" y="-3"/>
+			<point x="349" y="21" type="curve" smooth="yes"/>
+			<point x="349" y="78"/>
+			<point x="338.8089869678" y="102"/>
+			<point x="290" y="102" type="curve" smooth="yes"/>
+			<point x="248" y="102"/>
+			<point x="200" y="76"/>
 		</contour>
 		<component base="zecyr"/>
 	</outline>

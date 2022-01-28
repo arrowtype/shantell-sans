@@ -21,3 +21,7 @@ feature locl {
     language MKD;
     sub [becyr pecyr tecyr] by [be-cy.loclSRB pe-cy.loclSRB te-cy.loclSRB];
 } locl;
+
+feature ss01 {
+    sub yukrcyr yukrcyr by yukrcyr.ss01;    
+    }ss01;
