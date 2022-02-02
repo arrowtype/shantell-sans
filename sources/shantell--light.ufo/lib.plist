@@ -3434,8 +3434,6 @@
 			<dict>
 			</dict>
 		</dict>
-		<key>com.robofont.generateFeaturesWithFontTools</key>
-		<false/>
 		<key>com.schriftgestaltung.disablesAutomaticAlignment</key>
 		<false/>
 		<key>com.schriftgestaltung.fontMaster.userData</key>
@@ -3470,6 +3468,8 @@
 		<key>com.typemytype.robofont.compileSettings.path</key>
 		<string>/Users/stephennixon/type-repos/shantell/fonts/shantell_marker-semi_organic.otf</string>
 		<key>com.typemytype.robofont.compileSettings.releaseMode</key>
+		<false/>
+		<key>com.typemytype.robofont.generateFeaturesWithFontTools</key>
 		<false/>
 		<key>com.typemytype.robofont.italicSlantOffset</key>
 		<integer>0</integer>
