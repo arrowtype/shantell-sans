@@ -11,7 +11,14 @@ center = False
 # uni00AD=hyphen | 00AD
 # uni00A0=space | 00A0
 txt="""\
-colon.tnum = colon
+Otildemacron = O + tildecomb@top + macroncomb@tildecomb:top
+otildemacron = o + tildecomb@top + macroncomb@tildecomb:top
+Ohorndotbelow = Ohorn + dotbelowcmb @ bottom
+ohorndotbelow = ohorn + dotbelowcmb @ bottom
+Uhorndotbelow = Uhorn + dotbelowcmb @ bottom
+uhorndotbelow = uhorn + dotbelowcmb @ bottom
+Oogonek = O + ogonekcmb @ ogonek
+oogonek = o + ogonekcmb @ ogonek
 """
 
 print(txt)

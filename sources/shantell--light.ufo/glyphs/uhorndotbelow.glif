@@ -4,12 +4,12 @@
 	<advance width="619"/>
 	<outline>
 		<component base="uhorn"/>
-		<component base="dotbelow" xOffset="287" yOffset="485"/>
+		<component base="dotbelowcmb" xOffset="287"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<string>1,0,0,0.5</string>
 		</dict>
 	</lib>
 </glyph>

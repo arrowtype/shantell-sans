@@ -42,8 +42,8 @@ nj = n &\ j
 Gcaron = G + caroncomb@top
 gcaron = g + caroncomb@top
 
-Oogonek = O + ogonekcomb @ ogonek
-oogonek = o + ogonekcomb @ ogonek
+Oogonek = O + ogonekcmb @ ogonek
+oogonek = o + ogonekcmb @ ogonek
 
 Aringacute = A + ringcomb.A @ ring + acutecomb@ringcomb.A:top
 aringacute = a + ringcomb @ top + acutecomb@ringcomb:top
@@ -54,8 +54,8 @@ aeacute = ae + acutecomb@top
 Odieresismacron = O + dieresiscomb@top + macroncomb@dieresiscomb:top
 odieresismacron = o + dieresiscomb@top + macroncomb@dieresiscomb:top
 
-Otildemacron = O + tildemacroncomb
-otildemacron = o + tildemacroncomb
+Otildemacron = O + tildecomb@top + macroncomb@tildecomb:top
+otildemacron = o + tildecomb@top + macroncomb@tildecomb:top
 
 Odotmacron = O + dotaccentcmb @ top + macroncomb@dotaccentcmb:top
 odotmacron = o + dotaccentcmb @ top + macroncomb@dotaccentcmb:top

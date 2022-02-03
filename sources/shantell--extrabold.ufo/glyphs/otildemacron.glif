@@ -4,12 +4,13 @@
 	<advance width="664"/>
 	<outline>
 		<component base="o"/>
-		<component base="tildemacroncomb"/>
+		<component base="tildecomb" xOffset="346"/>
+		<component base="macroncomb" xOffset="346" yOffset="297"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<string>1,0,0,0.5</string>
 		</dict>
 	</lib>
 </glyph>

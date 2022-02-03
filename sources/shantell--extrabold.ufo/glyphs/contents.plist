@@ -13,8 +13,6 @@
 		<string>A_E_.glif</string>
 		<key>AEacute</key>
 		<string>A_E_acute.glif</string>
-		<key>Aacircumflexcomb</key>
-		<string>A_acircumflexcomb.glif</string>
 		<key>Aacute</key>
 		<string>A_acute.glif</string>
 		<key>Abreve</key>
@@ -337,8 +335,6 @@
 		<string>N_.glif</string>
 		<key>NJ</key>
 		<string>N_J_.glif</string>
-		<key>NULL</key>
-		<string>N_U_L_L_.glif</string>
 		<key>Nacute</key>
 		<string>N_acute.glif</string>
 		<key>Ncaron</key>
@@ -639,8 +635,6 @@
 		<string>acircumflex.glif</string>
 		<key>acircumflexacute</key>
 		<string>acircumflexacute.glif</string>
-		<key>acircumflexcomb</key>
-		<string>acircumflexcomb.glif</string>
 		<key>acircumflexdotbelow</key>
 		<string>acircumflexdotbelow.glif</string>
 		<key>acircumflexgrave</key>
@@ -729,8 +723,6 @@
 		<string>be-cy.loclS_R_B_.glif</string>
 		<key>becyr</key>
 		<string>becyr.glif</string>
-		<key>belowbrevecmb</key>
-		<string>belowbrevecmb.glif</string>
 		<key>braceleft</key>
 		<string>braceleft.glif</string>
 		<key>braceleft.case</key>
@@ -763,16 +755,6 @@
 		<string>brevecomb-cy.glif</string>
 		<key>brevecomb-cy.case</key>
 		<string>brevecomb-cy.case.glif</string>
-		<key>brevecomb_acutecomb</key>
-		<string>brevecomb_acutecomb.glif</string>
-		<key>brevecomb_gravecomb</key>
-		<string>brevecomb_gravecomb.glif</string>
-		<key>brevecomb_hookabovecomb</key>
-		<string>brevecomb_hookabovecomb.glif</string>
-		<key>brevecomb_tildecomb</key>
-		<string>brevecomb_tildecomb.glif</string>
-		<key>brevedotbelow</key>
-		<string>brevedotbelow.glif</string>
 		<key>brokenbar</key>
 		<string>brokenbar.glif</string>
 		<key>bullet</key>
@@ -789,8 +771,6 @@
 		<string>caron.glif</string>
 		<key>caroncomb</key>
 		<string>caroncomb.glif</string>
-		<key>caroncomb.alt</key>
-		<string>caroncomb.alt.glif</string>
 		<key>ccaron</key>
 		<string>ccaron.glif</string>
 		<key>ccedilla</key>
@@ -829,16 +809,6 @@
 		<string>circumflex.glif</string>
 		<key>circumflexcomb</key>
 		<string>circumflexcomb.glif</string>
-		<key>circumflexcomb_acutecomb</key>
-		<string>circumflexcomb_acutecomb.glif</string>
-		<key>circumflexcomb_gravecomb</key>
-		<string>circumflexcomb_gravecomb.glif</string>
-		<key>circumflexcomb_hookabovecomb</key>
-		<string>circumflexcomb_hookabovecomb.glif</string>
-		<key>circumflexcomb_tildecomb</key>
-		<string>circumflexcomb_tildecomb.glif</string>
-		<key>circumflexdotbelow</key>
-		<string>circumflexdotbelow.glif</string>
 		<key>colon</key>
 		<string>colon.glif</string>
 		<key>colon.tnum</key>
@@ -881,8 +851,6 @@
 		<string>degree.glif</string>
 		<key>dieresis</key>
 		<string>dieresis.glif</string>
-		<key>dieresisbelowcmb</key>
-		<string>dieresisbelowcmb.glif</string>
 		<key>dieresiscomb</key>
 		<string>dieresiscomb.glif</string>
 		<key>divide</key>
@@ -907,8 +875,6 @@
 		<string>dotbelow.glif</string>
 		<key>dotbelowcmb</key>
 		<string>dotbelowcmb.glif</string>
-		<key>dotlessj</key>
-		<string>dotlessj.glif</string>
 		<key>dzcaron</key>
 		<string>dzcaron.glif</string>
 		<key>dzecyr</key>
@@ -1139,26 +1105,12 @@
 		<string>heartblack.glif</string>
 		<key>heartwhite</key>
 		<string>heartwhite.glif</string>
-		<key>hoi</key>
-		<string>hoi.glif</string>
 		<key>hookabovecmb</key>
 		<string>hookabovecmb.glif</string>
-		<key>hornacute</key>
-		<string>hornacute.glif</string>
 		<key>horncmb</key>
 		<string>horncmb.glif</string>
-		<key>horndotbelow</key>
-		<string>horndotbelow.glif</string>
-		<key>horngrave</key>
-		<string>horngrave.glif</string>
-		<key>hornhoi</key>
-		<string>hornhoi.glif</string>
-		<key>horntilde</key>
-		<string>horntilde.glif</string>
 		<key>hryvnia</key>
 		<string>hryvnia.glif</string>
-		<key>hungarumlaut</key>
-		<string>hungarumlaut.glif</string>
 		<key>hungarumlautcmb</key>
 		<string>hungarumlautcmb.glif</string>
 		<key>hungarumlautcomb</key>
@@ -1401,8 +1353,6 @@
 		<string>m.glif</string>
 		<key>macron</key>
 		<string>macron.glif</string>
-		<key>macronbelowcmb</key>
-		<string>macronbelowcmb.glif</string>
 		<key>macroncomb</key>
 		<string>macroncomb.glif</string>
 		<key>manat</key>
@@ -1485,8 +1435,6 @@
 		<string>ogonek.glif</string>
 		<key>ogonekcmb</key>
 		<string>ogonekcmb.glif</string>
-		<key>ogonekcomb</key>
-		<string>ogonekcomb.glif</string>
 		<key>ograve</key>
 		<string>ograve.glif</string>
 		<key>ogravedbl</key>
@@ -1545,8 +1493,6 @@
 		<string>otilde.glif</string>
 		<key>otildemacron</key>
 		<string>otildemacron.glif</string>
-		<key>overlaystrokeshortcmb</key>
-		<string>overlaystrokeshortcmb.glif</string>
 		<key>p</key>
 		<string>p.glif</string>
 		<key>palochkacyr</key>
@@ -1579,8 +1525,6 @@
 		<string>periodcentered.glif</string>
 		<key>periodcentered.case</key>
 		<string>periodcentered.case.glif</string>
-		<key>periodcentered.loclCAT</key>
-		<string>periodcentered.loclC_A_T_.glif</string>
 		<key>perthousand</key>
 		<string>perthousand.glif</string>
 		<key>peso</key>
@@ -1591,10 +1535,6 @@
 		<string>plus.glif</string>
 		<key>plusminus</key>
 		<string>plusminus.glif</string>
-		<key>primedblmod</key>
-		<string>primedblmod.glif</string>
-		<key>primemod</key>
-		<string>primemod.glif</string>
 		<key>product</key>
 		<string>product.glif</string>
 		<key>q</key>
@@ -1723,8 +1663,6 @@
 		<string>summation.glif</string>
 		<key>t</key>
 		<string>t.glif</string>
-		<key>tail</key>
-		<string>tail.glif</string>
 		<key>tbar</key>
 		<string>tbar.glif</string>
 		<key>tcaron</key>
@@ -1763,8 +1701,6 @@
 		<string>tilde.glif</string>
 		<key>tildecomb</key>
 		<string>tildecomb.glif</string>
-		<key>tildemacroncomb</key>
-		<string>tildemacroncomb.glif</string>
 		<key>trademark</key>
 		<string>trademark.glif</string>
 		<key>tse-cy.loclBGR</key>
@@ -1839,8 +1775,6 @@
 		<string>umacroncyr.glif</string>
 		<key>underscore</key>
 		<string>underscore.glif</string>
-		<key>uni000D</key>
-		<string>uni000D_.glif</string>
 		<key>uni00A0</key>
 		<string>uni00A_0.glif</string>
 		<key>uni00AD</key>

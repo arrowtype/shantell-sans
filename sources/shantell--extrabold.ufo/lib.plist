@@ -2942,8 +2942,6 @@
 					<string>comma.tnum</string>
 					<string>slash.tnum</string>
 					<string>colon.tnum</string>
-					<string>NULL</string>
-					<string>uni000D</string>
 					<string>Iigrave-cy.loclBGR</string>
 					<string>De-cy.loclBGR</string>
 					<string>Ii-cy.loclBGR</string>
@@ -3251,19 +3249,11 @@
 					<string>odotmacron</string>
 					<string>Ymacron</string>
 					<string>ymacron</string>
-					<string>dotlessj</string>
 					<string>schwa</string>
-					<string>primemod</string>
-					<string>primedblmod</string>
-					<string>hungarumlaut</string>
 					<string>hookabovecmb</string>
 					<string>gravedoublecmb</string>
 					<string>invertedbrevecmb</string>
 					<string>horncmb</string>
-					<string>dieresisbelowcmb</string>
-					<string>belowbrevecmb</string>
-					<string>macronbelowcmb</string>
-					<string>overlaystrokeshortcmb</string>
 					<string>Wgrave</string>
 					<string>wgrave</string>
 					<string>Wacute</string>
@@ -3379,38 +3369,12 @@
 					<string>f_f</string>
 					<string>f_f_i</string>
 					<string>f_f_l</string>
-					<string>circumflexcomb_acutecomb</string>
-					<string>circumflexcomb_gravecomb</string>
-					<string>circumflexcomb_hookabovecomb</string>
-					<string>circumflexcomb_tildecomb</string>
-					<string>brevecomb_acutecomb</string>
-					<string>brevecomb_gravecomb</string>
-					<string>brevecomb_hookabovecomb</string>
-					<string>brevecomb_tildecomb</string>
-					<string>caroncomb.alt</string>
-					<string>periodcentered.loclCAT</string>
 					<string>dotbelow</string>
-					<string>hoi</string>
-					<string>circumflexdotbelow</string>
-					<string>brevedotbelow</string>
-					<string>hornacute</string>
-					<string>horngrave</string>
-					<string>hornhoi</string>
-					<string>horntilde</string>
-					<string>horndotbelow</string>
-					<string>Aacircumflexcomb</string>
-					<string>acircumflexcomb</string>
-					<string>ogonekcomb</string>
-					<string>tildemacroncomb</string>
 					<string>cyrbreve</string>
-					<string>tail</string>
 					<string>hungarumlautcomb</string>
 					<string>cheabkhcyr</string>
 					<string>djecyr.ss01</string>
 					<string>brevecomb-cy.case</string>
-					<string>Decyr.ss01</string>
-					<string>zhecyr.ss03</string>
-					<string>emcyr.ss03</string>
 					<string>
 </string>
 					<string>yukrcyr.ss01</string>
@@ -4790,8 +4754,6 @@
 			<string>comma.tnum</string>
 			<string>slash.tnum</string>
 			<string>colon.tnum</string>
-			<string>NULL</string>
-			<string>uni000D</string>
 			<string>Iigrave-cy.loclBGR</string>
 			<string>De-cy.loclBGR</string>
 			<string>Ii-cy.loclBGR</string>
@@ -5099,19 +5061,11 @@
 			<string>odotmacron</string>
 			<string>Ymacron</string>
 			<string>ymacron</string>
-			<string>dotlessj</string>
 			<string>schwa</string>
-			<string>primemod</string>
-			<string>primedblmod</string>
-			<string>hungarumlaut</string>
 			<string>hookabovecmb</string>
 			<string>gravedoublecmb</string>
 			<string>invertedbrevecmb</string>
 			<string>horncmb</string>
-			<string>dieresisbelowcmb</string>
-			<string>belowbrevecmb</string>
-			<string>macronbelowcmb</string>
-			<string>overlaystrokeshortcmb</string>
 			<string>Wgrave</string>
 			<string>wgrave</string>
 			<string>Wacute</string>
@@ -5227,38 +5181,12 @@
 			<string>f_f</string>
 			<string>f_f_i</string>
 			<string>f_f_l</string>
-			<string>circumflexcomb_acutecomb</string>
-			<string>circumflexcomb_gravecomb</string>
-			<string>circumflexcomb_hookabovecomb</string>
-			<string>circumflexcomb_tildecomb</string>
-			<string>brevecomb_acutecomb</string>
-			<string>brevecomb_gravecomb</string>
-			<string>brevecomb_hookabovecomb</string>
-			<string>brevecomb_tildecomb</string>
-			<string>caroncomb.alt</string>
-			<string>periodcentered.loclCAT</string>
 			<string>dotbelow</string>
-			<string>hoi</string>
-			<string>circumflexdotbelow</string>
-			<string>brevedotbelow</string>
-			<string>hornacute</string>
-			<string>horngrave</string>
-			<string>hornhoi</string>
-			<string>horntilde</string>
-			<string>horndotbelow</string>
-			<string>Aacircumflexcomb</string>
-			<string>acircumflexcomb</string>
-			<string>ogonekcomb</string>
-			<string>tildemacroncomb</string>
 			<string>cyrbreve</string>
-			<string>tail</string>
 			<string>hungarumlautcomb</string>
 			<string>cheabkhcyr</string>
 			<string>djecyr.ss01</string>
 			<string>brevecomb-cy.case</string>
-			<string>Decyr.ss01</string>
-			<string>zhecyr.ss03</string>
-			<string>emcyr.ss03</string>
 			<string>
 </string>
 			<string>yukrcyr.ss01</string>
@@ -5274,226 +5202,35 @@
 		</dict>
 		<key>public.skipExportGlyphs</key>
 		<array>
-			<string>periodcentered.loclCAT</string>
-			<string>Acircumflexacute</string>
-			<string>uhornacute</string>
-			<string>cedi</string>
-			<string>acircumflexgrave</string>
-			<string>f_f_l</string>
-			<string>Wcircumflex</string>
-			<string>Ainvertedbreve</string>
-			<string>Itilde</string>
-			<string>hungarumlaut</string>
-			<string>abrevehoi</string>
-			<string>ecircumflexgrave</string>
-			<string>odotbelow</string>
-			<string>dotlessj</string>
-			<string>Dzcaron</string>
-			<string>LJ</string>
-			<string>ycircumflex</string>
-			<string>Ohorntilde</string>
-			<string>acircumflexdotbelow</string>
-			<string>Gdotaccent</string>
-			<string>Acircumflextilde</string>
-			<string>adotbelow</string>
-			<string>bulletoperator</string>
-			<string>Odieresismacron</string>
-			<string>Abrevedotbelow</string>
-			<string>wdieresis</string>
-			<string>ohornhoi</string>
-			<string>peso</string>
-			<string>Uhornacute</string>
-			<string>Ymacron</string>
-			<string>fl</string>
-			<string>colonmonetary</string>
-			<string>Ohornacute</string>
-			<string>ecircumflexacute</string>
-			<string>indianrupee</string>
 			<string>franc</string>
-			<string>Acircumflexgrave</string>
-			<string>uhoi</string>
-			<string>ehoi</string>
-			<string>brevecomb_tildecomb</string>
-			<string>circumflexcomb_tildecomb</string>
-			<string>ae.alt</string>
-			<string>Edotbelow</string>
-			<string>gravedoublecmb</string>
-			<string>idotbelow</string>
-			<string>ocircumflexgrave</string>
-			<string>igravedbl</string>
-			<string>Ecircumflexacute</string>
-			<string>ecircumflexdotbelow</string>
-			<string>circumflexcomb_acutecomb</string>
-			<string>Agravedbl</string>
-			<string>Ycircumflex</string>
-			<string>nj</string>
-			<string>Gcircumflex</string>
-			<string>f_f</string>
-			<string>DZcaron</string>
-			<string>Ytilde</string>
-			<string>ccircumflex</string>
-			<string>invertedbrevecmb</string>
-			<string>ogravedbl</string>
-			<string>macronbelowcmb</string>
-			<string>agravedbl</string>
-			<string>acircumflexacute</string>
-			<string>ohorngrave</string>
-			<string>Abreveacute</string>
-			<string>Hbar</string>
-			<string>Ehoi</string>
-			<string>manat</string>
-			<string>Abrevehoi</string>
-			<string>wcircumflex</string>
-			<string>iinvertedbreve</string>
-			<string>abrevegrave</string>
-			<string>odotmacron</string>
-			<string>caroncomb.alt</string>
-			<string>ecircumflexhoi</string>
-			<string>Uhorngrave</string>
-			<string>uhornhoi</string>
-			<string>Ohoi</string>
-			<string>Nj</string>
-			<string>ae.200928-18_34</string>
-			<string>abrevedotbelow</string>
-			<string>ahoi</string>
-			<string>Einvertedbreve</string>
-			<string>primemod</string>
-			<string>abrevetilde</string>
-			<string>wacute</string>
-			<string>Ecircumflexdotbelow</string>
-			<string>Ccircumflex</string>
-			<string>Utilde</string>
-			<string>Ohornhoi</string>
-			<string>Ecircumflexhoi</string>
-			<string>itilde</string>
-			<string>Ecircumflexgrave</string>
-			<string>brevecomb_gravecomb</string>
-			<string>gcaron</string>
-			<string>guarani</string>
-			<string>Abrevetilde</string>
-			<string>dzcaron</string>
-			<string>dieresisbelowcmb</string>
-			<string>Ugravedbl</string>
-			<string>Hcircumflex</string>
-			<string>ymacron</string>
-			<string>Ogravedbl</string>
-			<string>Ahoi</string>
-			<string>otildemacron</string>
-			<string>Adotbelow</string>
-			<string>Rgravedbl</string>
-			<string>Uhornhoi</string>
-			<string>brevecomb_acutecomb</string>
-			<string>Abrevegrave</string>
-			<string>peseta</string>
-			<string>lj</string>
-			<string>ohorndotbelow</string>
-			<string>utilde</string>
-			<string>ohorntilde</string>
-			<string>hcircumflex</string>
-			<string>ocircumflextilde</string>
-			<string>won</string>
-			<string>kra</string>
-			<string>rgravedbl</string>
-			<string>Uinvertedbreve</string>
-			<string>uhorngrave</string>
-			<string>uni000D</string>
-			<string>ecircumflextilde</string>
-			<string>aringacute</string>
-			<string>Aringacute</string>
-			<string>Ygrave</string>
-			<string>Ocircumflextilde</string>
-			<string>lira</string>
-			<string>dollar.tabl</string>
-			<string>oinvertedbreve</string>
-			<string>ygrave</string>
-			<string>Ydotbelow</string>
-			<string>Oinvertedbreve</string>
-			<string>Ocircumflexgrave</string>
-			<string>Ihoi</string>
-			<string>Udotbelow</string>
-			<string>NULL</string>
-			<string>Schwa</string>
-			<string>yhoi</string>
-			<string>Uhorntilde</string>
-			<string>kip</string>
-			<string>uhorndotbelow</string>
-			<string>belowbrevecmb</string>
-			<string>egravedbl</string>
-			<string>einvertedbreve</string>
-			<string>odieresismacron</string>
-			<string>aeacute</string>
-			<string>Cdotaccent</string>
-			<string>ohornacute</string>
-			<string>Jcircumflex</string>
-			<string>gdotaccent</string>
-			<string>scircumflex</string>
-			<string>ydotbelow</string>
-			<string>Acircumflexhoi</string>
-			<string>Wdieresis</string>
-			<string>Gcaron</string>
-			<string>overlaystrokeshortcmb</string>
-			<string>Egravedbl</string>
-			<string>Rinvertedbreve</string>
-			<string>hbar</string>
-			<string>dollar.split</string>
-			<string>gcircumflex</string>
-			<string>wgrave</string>
-			<string>horncmb</string>
-			<string>acircumflexhoi</string>
-			<string>NJ</string>
-			<string>ihoi</string>
-			<string>Acircumflexdotbelow</string>
-			<string>Yhoi</string>
-			<string>Wgrave</string>
-			<string>Igravedbl</string>
-			<string>Odotmacron</string>
-			<string>cdotaccent</string>
-			<string>etilde</string>
-			<string>ocircumflexhoi</string>
-			<string>Lj</string>
-			<string>Scircumflex</string>
-			<string>Ocircumflexacute</string>
-			<string>Wacute</string>
-			<string>rinvertedbreve</string>
-			<string>Ecircumflextilde</string>
-			<string>Etilde</string>
-			<string>udotbelow</string>
-			<string>circumflexcomb_gravecomb</string>
-			<string>abreveacute</string>
-			<string>Idotbelow</string>
-			<string>uinvertedbreve</string>
-			<string>AEacute</string>
-			<string>f_f_i</string>
-			<string>ainvertedbreve</string>
-			<string>ocircumflexacute</string>
-			<string>Ohorngrave</string>
-			<string>Ocircumflexdotbelow</string>
-			<string>naira</string>
-			<string>Ohorndotbelow</string>
-			<string>ugravedbl</string>
-			<string>Uhoi</string>
-			<string>turkishlira</string>
-			<string>Iinvertedbreve</string>
-			<string>oogonek</string>
-			<string>uhorntilde</string>
-			<string>ytilde</string>
-			<string>brevecomb_hookabovecomb</string>
-			<string>Odotbelow</string>
+			<string>hungarumlaut</string>
 			<string>circumflexcomb_hookabovecomb</string>
-			<string>Oogonek</string>
-			<string>ocircumflexdotbelow</string>
-			<string>schwa</string>
-			<string>edotbelow</string>
-			<string>fi</string>
-			<string>jcircumflex</string>
-			<string>Ocircumflexhoi</string>
 			<string>Otildemacron</string>
+			<string>circumflexcomb_acutecomb</string>
+			<string>dollar.split</string>
+			<string>otildemacron</string>
+			<string>belowbrevecmb</string>
+			<string>brevecomb_tildecomb</string>
+			<string>overlaystrokeshortcmb</string>
+			<string>dieresisbelowcmb</string>
 			<string>primedblmod</string>
-			<string>ohoi</string>
-			<string>acircumflextilde</string>
-			<string>Uhorndotbelow</string>
-			<string>hookabovecmb</string>
-			<string>dong</string>
+			<string>ae.200928-18_34</string>
+			<string>NULL</string>
+			<string>macronbelowcmb</string>
+			<string>uni000D</string>
+			<string>brevecomb_acutecomb</string>
+			<string>peseta</string>
+			<string>periodcentered.loclCAT</string>
+			<string>bulletoperator</string>
+			<string>primemod</string>
+			<string>dotlessj</string>
+			<string>brevecomb_gravecomb</string>
+			<string>dollar.tabl</string>
+			<string>ae.alt</string>
+			<string>circumflexcomb_tildecomb</string>
+			<string>circumflexcomb_gravecomb</string>
+			<string>brevecomb_hookabovecomb</string>
+			<string>caroncomb.alt</string>
 		</array>
 	</dict>
 </plist>

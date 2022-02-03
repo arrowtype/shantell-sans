@@ -2942,8 +2942,6 @@
 					<string>slash.tnum</string>
 					<string>colon.tnum</string>
 					<string>ruble</string>
-					<string>NULL</string>
-					<string>uni000D</string>
 					<string>Iigrave-cy.loclBGR</string>
 					<string>De-cy.loclBGR</string>
 					<string>Ii-cy.loclBGR</string>
@@ -3251,7 +3249,6 @@
 					<string>odotmacron</string>
 					<string>Ymacron</string>
 					<string>ymacron</string>
-					<string>dotlessj</string>
 					<string>schwa</string>
 					<string>primemod</string>
 					<string>primedblmod</string>
@@ -3262,7 +3259,6 @@
 					<string>dieresisbelowcmb</string>
 					<string>belowbrevecmb</string>
 					<string>macronbelowcmb</string>
-					<string>overlaystrokeshortcmb</string>
 					<string>Wgrave</string>
 					<string>wgrave</string>
 					<string>Wacute</string>
@@ -3387,22 +3383,8 @@
 					<string>brevecomb_tildecomb</string>
 					<string>caroncomb.alt</string>
 					<string>periodcentered.loclCAT</string>
-					<string>dotbelow</string>
-					<string>hoi</string>
-					<string>circumflexdotbelow</string>
-					<string>brevedotbelow</string>
-					<string>hornacute</string>
-					<string>horngrave</string>
-					<string>hornhoi</string>
-					<string>horntilde</string>
-					<string>horndotbelow</string>
-					<string>dot</string>
-					<string>dotcomb</string>
 					<string>
 </string>
-					<string>dotaccentcomb</string>
-					<string>ogonekcomb</string>
-					<string>tildemacroncomb</string>
 				</array>
 				<key>type</key>
 				<string>glyphList</string>
@@ -4758,8 +4740,6 @@
 			<string>slash.tnum</string>
 			<string>colon.tnum</string>
 			<string>ruble</string>
-			<string>NULL</string>
-			<string>uni000D</string>
 			<string>Iigrave-cy.loclBGR</string>
 			<string>De-cy.loclBGR</string>
 			<string>Ii-cy.loclBGR</string>
@@ -5067,7 +5047,6 @@
 			<string>odotmacron</string>
 			<string>Ymacron</string>
 			<string>ymacron</string>
-			<string>dotlessj</string>
 			<string>schwa</string>
 			<string>primemod</string>
 			<string>primedblmod</string>
@@ -5078,7 +5057,6 @@
 			<string>dieresisbelowcmb</string>
 			<string>belowbrevecmb</string>
 			<string>macronbelowcmb</string>
-			<string>overlaystrokeshortcmb</string>
 			<string>Wgrave</string>
 			<string>wgrave</string>
 			<string>Wacute</string>
@@ -5203,288 +5181,267 @@
 			<string>brevecomb_tildecomb</string>
 			<string>caroncomb.alt</string>
 			<string>periodcentered.loclCAT</string>
-			<string>dotbelow</string>
-			<string>hoi</string>
-			<string>circumflexdotbelow</string>
-			<string>brevedotbelow</string>
-			<string>hornacute</string>
-			<string>horngrave</string>
-			<string>hornhoi</string>
-			<string>horntilde</string>
-			<string>horndotbelow</string>
-			<string>dot</string>
-			<string>dotcomb</string>
 			<string>
 </string>
-			<string>dotaccentcomb</string>
-			<string>ogonekcomb</string>
-			<string>tildemacroncomb</string>
 		</array>
 		<key>public.postscriptNames</key>
 		<dict>
 		</dict>
 		<key>public.skipExportGlyphs</key>
 		<array>
-			<string>gestrokecyr</string>
-			<string>Zetailcyr</string>
-			<string>tecyr</string>
-			<string>becyr</string>
-			<string>f_f_l</string>
-			<string>Igravecyr</string>
-			<string>Tsecyr</string>
-			<string>fl</string>
-			<string>Chevertcyr</string>
-			<string>Iocyr</string>
-			<string>Shchacyr</string>
-			<string>engecyr</string>
-			<string>dotlessj</string>
-			<string>Yusbigcyr</string>
-			<string>yukrcyr</string>
-			<string>katailcyr</string>
-			<string>zhe-cy.loclBGR</string>
-			<string>brevecomb_hookabovecomb</string>
-			<string>eukrcyr</string>
-			<string>tenge</string>
-			<string>Emcyr</string>
-			<string>Schwacyr</string>
-			<string>NULL</string>
-			<string>odieresiscyr</string>
-			<string>djecyr</string>
-			<string>ocyr</string>
-			<string>macronbelowcmb</string>
-			<string>njecyr</string>
-			<string>Iebrevecyr</string>
-			<string>Zedescender-cy.loclBSH</string>
-			<string>iu-cy.loclBGR</string>
-			<string>ereversedcyr</string>
-			<string>gravedoublecmb</string>
-			<string>gjecyr</string>
-			<string>Hacyr</string>
-			<string>acyr</string>
-			<string>zecyr</string>
-			<string>kjecyr</string>
-			<string>checyr</string>
-			<string>Eukrcyr</string>
-			<string>Kabashkcyr</string>
-			<string>adieresiscyr</string>
-			<string>encyr</string>
-			<string>gehookcyr</string>
-			<string>ustraightcyr</string>
-			<string>chekhakascyr</string>
-			<string>Ishortcyr</string>
-			<string>pe-cy.loclSRB</string>
-			<string>schwa</string>
-			<string>Aiecyr</string>
-			<string>uacutedblcyr</string>
-			<string>Vecyr</string>
-			<string>Zhedieresiscyr</string>
-			<string>brevecomb_tildecomb</string>
-			<string>Engecyr</string>
-			<string>Zedieresiscyr</string>
-			<string>Izhitsacyr</string>
-			<string>f_f</string>
-			<string>Esdescender-cy.loclCHU</string>
-			<string>hardcyr</string>
-			<string>shacyr</string>
-			<string>circumflexcomb_gravecomb</string>
-			<string>fitacyr</string>
-			<string>udieresiscyr</string>
-			<string>Elcyr</string>
-			<string>Entailcyr</string>
-			<string>Ii-cy.loclBGR</string>
-			<string>Iukrcyr</string>
-			<string>Imacroncyr</string>
-			<string>vecyr</string>
-			<string>tse-cy.loclBGR</string>
-			<string>pecyr</string>
-			<string>Chekhakascyr</string>
-			<string>brevecomb_acutecomb</string>
-			<string>ii-cy.loclBGR</string>
-			<string>apostrophemod</string>
-			<string>Checyr</string>
-			<string>primedblmod</string>
-			<string>Jecyr</string>
-			<string>Acyr</string>
-			<string>softcyr</string>
-			<string>Adieresiscyr</string>
 			<string>geupcyr</string>
-			<string>Katailcyr</string>
-			<string>izhitsacyr</string>
-			<string>Ercyr</string>
-			<string>ljecyr</string>
-			<string>fi</string>
-			<string>palochkacyr</string>
-			<string>iukrcyr</string>
-			<string>te-cy.loclSRB</string>
-			<string>De-cy.loclBGR</string>
-			<string>Gestrokecyr</string>
-			<string>kabashkcyr</string>
-			<string>jecyr</string>
-			<string>Udieresiscyr</string>
-			<string>shchacyr</string>
-			<string>ka-cy.loclBGR</string>
-			<string>Iishort-cy.loclBGR</string>
-			<string>el-cy.loclBGR</string>
-			<string>Ocyr</string>
-			<string>yusbigcyr</string>
-			<string>Yukrcyr</string>
-			<string>elcyr</string>
-			<string>Yucyr</string>
-			<string>Idieresiscyr</string>
-			<string>chedieresiscyr</string>
-			<string>Ereversedcyr</string>
-			<string>pe-cy.loclBGR</string>
+			<string>Eukrcyr</string>
+			<string>Adieresiscyr</string>
+			<string>Igravecyr</string>
+			<string>franc</string>
 			<string>kaverticalstrokecyr</string>
-			<string>Ylongcyr</string>
-			<string>estailcyr</string>
-			<string>numero</string>
-			<string>dzecyr</string>
-			<string>ze-cy.loclBGR</string>
-			<string>circumflexcomb_acutecomb</string>
-			<string>Ljecyr</string>
-			<string>Ef-cy.loclBGR</string>
-			<string>iocyr</string>
-			<string>Esdescender-cy.loclBSH</string>
-			<string>belowbrevecmb</string>
-			<string>dollar.split</string>
-			<string>Ushortcyr</string>
-			<string>periodcentered.loclCAT</string>
-			<string>Ucyr</string>
-			<string>Softcyr</string>
-			<string>Icyr</string>
-			<string>qacyr</string>
-			<string>Chetailcyr</string>
-			<string>tugrik</string>
-			<string>ushortcyr</string>
-			<string>yatcyr</string>
-			<string>de-cy.loclSRB</string>
-			<string>Obarcyr</string>
-			<string>te-cy.loclBGR</string>
-			<string>Zhetailcyr</string>
-			<string>escyr</string>
-			<string>dieresisbelowcmb</string>
-			<string>esdescender-cy.loclBSH</string>
-			<string>yacyr</string>
-			<string>che-cy.loclBGR</string>
-			<string>Encyr</string>
-			<string>Chedieresiscyr</string>
-			<string>Ustraightstrokecyr</string>
-			<string>ve-cy.loclBGR</string>
-			<string>Iegravecyr</string>
-			<string>wecyr</string>
-			<string>Kacyr</string>
-			<string>Umacroncyr</string>
-			<string>Abrevecyr</string>
-			<string>zhecyr</string>
-			<string>iishort-cy.loclBGR</string>
-			<string>be-cy.loclSRB</string>
-			<string>Shacyr</string>
 			<string>Ylongdieresiscyr</string>
-			<string>Dzecyr</string>
-			<string>Yacyr</string>
-			<string>overlaystrokeshortcmb</string>
-			<string>Qacyr</string>
-			<string>Pecyr</string>
-			<string>primemod</string>
-			<string>zhedieresiscyr</string>
-			<string>Getailcyr</string>
+			<string>Iecyr</string>
+			<string>Iishort-cy.loclBGR</string>
+			<string>entailcyr</string>
+			<string>yucyr</string>
+			<string>iukrcyr</string>
+			<string>iigrave-cy.loclBGR</string>
+			<string>yatcyr</string>
+			<string>El-cy.loclBGR</string>
+			<string>circumflexcomb_acutecomb</string>
+			<string>Shhacyr</string>
+			<string>esdescender-cy.loclBSH</string>
+			<string>brevecomb-cy</string>
 			<string>Zhecyr</string>
-			<string>Dzhecyr</string>
-			<string>schwacyr</string>
-			<string>ghestroke-cy.loclBSH</string>
+			<string>Odieresiscyr</string>
+			<string>Katailcyr</string>
+			<string>checyr</string>
+			<string>getailcyr</string>
+			<string>gjecyr</string>
+			<string>belowbrevecmb</string>
 			<string>ge-cy.loclSRB</string>
-			<string>Decyr</string>
-			<string>tshecyr</string>
-			<string>emcyr</string>
-			<string>obarcyr</string>
+			<string>fitacyr</string>
+			<string>brevecomb_tildecomb</string>
+			<string>overlaystrokeshortcmb</string>
+			<string>Yatcyr</string>
+			<string>en-cy.loclBGR</string>
+			<string>shchacyr</string>
+			<string>xatailcyr</string>
+			<string>Kaverticalstrokecyr</string>
+			<string>Zhetailcyr</string>
+			<string>shhacyr</string>
+			<string>Jecyr</string>
 			<string>Gjecyr</string>
-			<string>f_f_i</string>
-			<string>zedescender-cy.loclBSH</string>
+			<string>zecyr</string>
+			<string>primedblmod</string>
+			<string>ljecyr</string>
+			<string>Idieresiscyr</string>
 			<string>abrevecyr</string>
 			<string>chevertcyr</string>
-			<string>umacroncyr</string>
-			<string>getailcyr</string>
-			<string>circumflexcomb_tildecomb</string>
-			<string>de-cy.loclBGR</string>
+			<string>ocyr</string>
+			<string>vecyr</string>
+			<string>ereversedcyr</string>
+			<string>Getailcyr</string>
+			<string>Schwacyr</string>
+			<string>Acyr</string>
+			<string>Chekhakascyr</string>
+			<string>apostrophemod</string>
 			<string>uni000D</string>
-			<string>entailcyr</string>
-			<string>iegravecyr</string>
-			<string>gecyr</string>
-			<string>aiecyr</string>
-			<string>yucyr</string>
-			<string>Efcyr</string>
-			<string>Palochkacyr</string>
-			<string>shcha-cy.loclBGR</string>
-			<string>hardsign-cy.loclBGR</string>
-			<string>Zhebrevecyr</string>
-			<string>ge-cy.loclBGR</string>
-			<string>Hardcyr</string>
-			<string>brevecomb_gravecomb</string>
-			<string>Yatcyr</string>
-			<string>Zecyr</string>
-			<string>Odieresiscyr</string>
+			<string>estailcyr</string>
 			<string>Tecyr</string>
-			<string>esdescender-cy.loclCHU</string>
-			<string>Shhacyr</string>
-			<string>iecyr</string>
-			<string>Wecyr</string>
-			<string>El-cy.loclBGR</string>
-			<string>ustraightstrokecyr</string>
-			<string>Tshecyr</string>
-			<string>softsign-cy.loclBGR</string>
+			<string>Zedieresiscyr</string>
+			<string>zhecyr</string>
+			<string>Palochkacyr</string>
+			<string>pe-cy.loclSRB</string>
+			<string>elcyr</string>
+			<string>Ereversedcyr</string>
+			<string>periodcentered.loclCAT</string>
+			<string>qacyr</string>
+			<string>ii-cy.loclBGR</string>
+			<string>wecyr</string>
+			<string>primemod</string>
 			<string>zedieresiscyr</string>
-			<string>ylongcyr</string>
-			<string>hryvnia</string>
-			<string>en-cy.loclBGR</string>
-			<string>Xatailcyr</string>
-			<string>imacroncyr</string>
-			<string>chetailcyr</string>
-			<string>iebrevecyr</string>
-			<string>hacyr</string>
-			<string>dzhecyr</string>
-			<string>circumflexcomb_hookabovecomb</string>
-			<string>brevecomb-cy</string>
-			<string>sha-cy.loclBGR</string>
-			<string>ucyr</string>
-			<string>Escyr</string>
-			<string>xatailcyr</string>
-			<string>bulletoperator</string>
+			<string>Ercyr</string>
+			<string>Iegravecyr</string>
+			<string>Umacroncyr</string>
+			<string>Zecyr</string>
+			<string>Softcyr</string>
+			<string>Yucyr</string>
+			<string>Icyr</string>
+			<string>aiecyr</string>
+			<string>Hacyr</string>
+			<string>softsign-cy.loclBGR</string>
 			<string>ae.alt</string>
-			<string>Uacutedblcyr</string>
-			<string>franc</string>
-			<string>Ghestroke-cy.loclBSH</string>
-			<string>Ustraightcyr</string>
-			<string>Becyr</string>
-			<string>ae.200928-18_33</string>
-			<string>Schwa</string>
-			<string>zhetailcyr</string>
-			<string>igravecyr</string>
-			<string>Gehookcyr</string>
-			<string>Estailcyr</string>
-			<string>zhebrevecyr</string>
+			<string>brevecomb_hookabovecomb</string>
 			<string>caroncomb.alt</string>
-			<string>peseta</string>
-			<string>ishortcyr</string>
-			<string>Kaverticalstrokecyr</string>
-			<string>ylongdieresiscyr</string>
-			<string>Geupcyr</string>
-			<string>tsecyr</string>
-			<string>Kjecyr</string>
-			<string>ercyr</string>
-			<string>zetailcyr</string>
-			<string>shhacyr</string>
-			<string>Iecyr</string>
-			<string>Iigrave-cy.loclBGR</string>
-			<string>iigrave-cy.loclBGR</string>
-			<string>Gecyr</string>
-			<string>Djecyr</string>
-			<string>Njecyr</string>
-			<string>icyr</string>
-			<string>idieresiscyr</string>
-			<string>Fitacyr</string>
-			<string>decyr</string>
-			<string>kacyr</string>
+			<string>Ii-cy.loclBGR</string>
+			<string>Ushortcyr</string>
+			<string>izhitsacyr</string>
+			<string>schwacyr</string>
 			<string>efcyr</string>
+			<string>zhebrevecyr</string>
+			<string>De-cy.loclBGR</string>
+			<string>Ucyr</string>
+			<string>dollar.split</string>
+			<string>igravecyr</string>
+			<string>Iukrcyr</string>
+			<string>iebrevecyr</string>
+			<string>Entailcyr</string>
+			<string>eukrcyr</string>
+			<string>Gestrokecyr</string>
+			<string>el-cy.loclBGR</string>
+			<string>Estailcyr</string>
+			<string>Engecyr</string>
+			<string>Vecyr</string>
+			<string>ustraightcyr</string>
+			<string>tugrik</string>
+			<string>tse-cy.loclBGR</string>
+			<string>dieresisbelowcmb</string>
+			<string>zhe-cy.loclBGR</string>
+			<string>kabashkcyr</string>
+			<string>Encyr</string>
+			<string>yacyr</string>
+			<string>Efcyr</string>
+			<string>Ocyr</string>
+			<string>che-cy.loclBGR</string>
+			<string>gravedoublecmb</string>
+			<string>Pecyr</string>
+			<string>numero</string>
+			<string>engecyr</string>
+			<string>macronbelowcmb</string>
+			<string>ghestroke-cy.loclBSH</string>
+			<string>encyr</string>
+			<string>te-cy.loclSRB</string>
+			<string>Zetailcyr</string>
+			<string>bulletoperator</string>
+			<string>dotlessj</string>
+			<string>yusbigcyr</string>
+			<string>ge-cy.loclBGR</string>
+			<string>umacroncyr</string>
+			<string>brevecomb_gravecomb</string>
+			<string>ylongdieresiscyr</string>
+			<string>kacyr</string>
+			<string>kjecyr</string>
+			<string>Yukrcyr</string>
+			<string>ushortcyr</string>
+			<string>adieresiscyr</string>
+			<string>udieresiscyr</string>
+			<string>Chetailcyr</string>
+			<string>softcyr</string>
+			<string>ve-cy.loclBGR</string>
+			<string>Abrevecyr</string>
+			<string>zedescender-cy.loclBSH</string>
+			<string>circumflexcomb_hookabovecomb</string>
+			<string>te-cy.loclBGR</string>
+			<string>Kacyr</string>
+			<string>Chedieresiscyr</string>
+			<string>Ghestroke-cy.loclBSH</string>
+			<string>tenge</string>
+			<string>iu-cy.loclBGR</string>
+			<string>yukrcyr</string>
+			<string>acyr</string>
+			<string>iegravecyr</string>
+			<string>Hardcyr</string>
+			<string>ylongcyr</string>
+			<string>Checyr</string>
+			<string>palochkacyr</string>
+			<string>Shchacyr</string>
+			<string>njecyr</string>
+			<string>jecyr</string>
+			<string>Obarcyr</string>
+			<string>Ustraightstrokecyr</string>
+			<string>esdescender-cy.loclCHU</string>
+			<string>becyr</string>
+			<string>uacutedblcyr</string>
+			<string>zhetailcyr</string>
+			<string>chedieresiscyr</string>
+			<string>Becyr</string>
+			<string>chekhakascyr</string>
+			<string>sha-cy.loclBGR</string>
+			<string>ze-cy.loclBGR</string>
+			<string>gehookcyr</string>
+			<string>imacroncyr</string>
+			<string>tsecyr</string>
+			<string>Shacyr</string>
+			<string>NULL</string>
+			<string>Tsecyr</string>
+			<string>icyr</string>
+			<string>Udieresiscyr</string>
+			<string>odieresiscyr</string>
+			<string>peseta</string>
+			<string>Geupcyr</string>
+			<string>pe-cy.loclBGR</string>
+			<string>Yusbigcyr</string>
+			<string>dzecyr</string>
+			<string>Chevertcyr</string>
+			<string>shcha-cy.loclBGR</string>
+			<string>iecyr</string>
+			<string>Tshecyr</string>
+			<string>be-cy.loclSRB</string>
+			<string>Gecyr</string>
+			<string>decyr</string>
+			<string>ucyr</string>
+			<string>Emcyr</string>
+			<string>Zhebrevecyr</string>
+			<string>idieresiscyr</string>
+			<string>ka-cy.loclBGR</string>
+			<string>circumflexcomb_gravecomb</string>
+			<string>de-cy.loclSRB</string>
+			<string>circumflexcomb_tildecomb</string>
+			<string>chetailcyr</string>
+			<string>ercyr</string>
+			<string>obarcyr</string>
+			<string>Aiecyr</string>
+			<string>escyr</string>
+			<string>Dzhecyr</string>
+			<string>Dzecyr</string>
+			<string>Gehookcyr</string>
+			<string>Wecyr</string>
+			<string>pecyr</string>
+			<string>ae.200928-18_33</string>
+			<string>djecyr</string>
+			<string>Iebrevecyr</string>
+			<string>Elcyr</string>
+			<string>Njecyr</string>
+			<string>hardsign-cy.loclBGR</string>
+			<string>Izhitsacyr</string>
+			<string>Zhedieresiscyr</string>
+			<string>Ef-cy.loclBGR</string>
+			<string>emcyr</string>
+			<string>Esdescender-cy.loclBSH</string>
+			<string>Iocyr</string>
+			<string>dzhecyr</string>
+			<string>zhedieresiscyr</string>
+			<string>tshecyr</string>
+			<string>Fitacyr</string>
+			<string>Ustraightcyr</string>
+			<string>Qacyr</string>
+			<string>ishortcyr</string>
+			<string>Uacutedblcyr</string>
+			<string>Iigrave-cy.loclBGR</string>
+			<string>Decyr</string>
+			<string>Ylongcyr</string>
+			<string>Escyr</string>
+			<string>hardcyr</string>
+			<string>iishort-cy.loclBGR</string>
+			<string>gecyr</string>
+			<string>Xatailcyr</string>
+			<string>Kjecyr</string>
+			<string>zetailcyr</string>
+			<string>tecyr</string>
+			<string>Ishortcyr</string>
+			<string>brevecomb_acutecomb</string>
+			<string>Kabashkcyr</string>
+			<string>gestrokecyr</string>
+			<string>Zedescender-cy.loclBSH</string>
+			<string>de-cy.loclBGR</string>
+			<string>hryvnia</string>
+			<string>Imacroncyr</string>
+			<string>shacyr</string>
+			<string>hacyr</string>
+			<string>Djecyr</string>
+			<string>Ljecyr</string>
+			<string>Yacyr</string>
+			<string>katailcyr</string>
+			<string>Esdescender-cy.loclCHU</string>
+			<string>iocyr</string>
+			<string>ustraightstrokecyr</string>
 		</array>
 	</dict>
 </plist>
