@@ -24,15 +24,15 @@
 			<point x="408.6538461538" y="200.4807692308" type="line"/>
 		</contour>
 		<contour>
-			<point x="241.3461538462" y="247.5961538462" type="qcurve" smooth="yes"/>
-			<point x="408.6538461538" y="247.5961538462" type="line"/>
-			<point x="408.6538461538" y="476.4423076923" type="line"/>
-			<point x="241.3461538462" y="476.4423076923" type="line" smooth="yes"/>
-			<point x="163.4615384615" y="476.4423076923"/>
-			<point x="100" y="411.0576923077"/>
-			<point x="100" y="361.0576923077" type="qcurve" smooth="yes"/>
-			<point x="100" y="311.0576923077"/>
+			<point x="241.3461538462" y="247.5961538462" type="line" smooth="yes"/>
 			<point x="163.4615384615" y="247.5961538462"/>
+			<point x="100" y="311.0576923077"/>
+			<point x="100" y="361.0576923077" type="qcurve" smooth="yes"/>
+			<point x="100" y="411.0576923077"/>
+			<point x="163.4615384615" y="476.4423076923"/>
+			<point x="241.3461538462" y="476.4423076923" type="qcurve" smooth="yes"/>
+			<point x="408.6538461538" y="476.4423076923" type="line"/>
+			<point x="408.6538461538" y="247.5961538462" type="line"/>
 		</contour>
 	</outline>
 	<guideline x="177.4038461538" y="149.5192307692" angle="90" identifier="NQt60oWmSh"/>
