@@ -2923,7 +2923,6 @@
 					<string>eight.superior</string>
 					<string>nine.superior</string>
 					<string>mu.math</string>
-					<string>dollar.split</string>
 					<string>Scommaaccent</string>
 					<string>scommaaccent</string>
 					<string>Tcedilla</string>
@@ -3382,6 +3381,10 @@
 					<string>ustraightstrokecyr.ss01</string>
 					<string>periodcentered.loclCAT</string>
 					<string>periodcentered.loclCAT_case</string>
+					<string>hungarumlaut</string>
+					<string>dieresisbelowcmb</string>
+					<string>belowbrevecmb</string>
+					<string>macronbelowcmb</string>
 				</array>
 				<key>type</key>
 				<string>glyphList</string>
@@ -4733,7 +4736,6 @@
 			<string>eight.superior</string>
 			<string>nine.superior</string>
 			<string>mu.math</string>
-			<string>dollar.split</string>
 			<string>Scommaaccent</string>
 			<string>scommaaccent</string>
 			<string>Tcedilla</string>
@@ -5183,8 +5185,6 @@
 			<string>cheabkhcyr</string>
 			<string>djecyr.ss01</string>
 			<string>brevecomb-cy.case</string>
-			<string>
-</string>
 			<string>yukrcyr.ss01</string>
 			<string>yukrcyr.ss02</string>
 			<string>iu-cy.ss01</string>
@@ -5194,6 +5194,13 @@
 			<string>ustraightstrokecyr.ss01</string>
 			<string>periodcentered.loclCAT</string>
 			<string>periodcentered.loclCAT_case</string>
+			<string>
+</string>
+			<string>hungarumlaut</string>
+			<string>dieresisbelowcmb</string>
+			<string>belowbrevecmb</string>
+			<string>macronbelowcmb</string>
+			<string> </string>
 		</array>
 		<key>public.postscriptNames</key>
 		<dict>
@@ -5201,18 +5208,14 @@
 		<key>public.skipExportGlyphs</key>
 		<array>
 			<string>franc</string>
-			<string>hungarumlaut</string>
 			<string>circumflexcomb_hookabovecomb</string>
-			<string>circumflexcomb_acutecomb</string>
 			<string>dollar.split</string>
-			<string>belowbrevecmb</string>
+			<string>circumflexcomb_acutecomb</string>
 			<string>brevecomb_tildecomb</string>
 			<string>overlaystrokeshortcmb</string>
-			<string>dieresisbelowcmb</string>
 			<string>primedblmod</string>
 			<string>ae.200928-18_34</string>
 			<string>NULL</string>
-			<string>macronbelowcmb</string>
 			<string>brevecomb_acutecomb</string>
 			<string>uni000D</string>
 			<string>peseta</string>

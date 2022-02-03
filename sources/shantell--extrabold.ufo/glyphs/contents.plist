@@ -2,9 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 	<dict>
-		<key>
-</key>
-		<string>_.glif</string>
 		<key>.notdef</key>
 		<string>_notdef.glif</string>
 		<key>A</key>
@@ -723,6 +720,8 @@
 		<string>be-cy.loclS_R_B_.glif</string>
 		<key>becyr</key>
 		<string>becyr.glif</string>
+		<key>belowbrevecmb</key>
+		<string>belowbrevecmb.glif</string>
 		<key>braceleft</key>
 		<string>braceleft.glif</string>
 		<key>braceleft.case</key>
@@ -851,6 +850,8 @@
 		<string>degree.glif</string>
 		<key>dieresis</key>
 		<string>dieresis.glif</string>
+		<key>dieresisbelowcmb</key>
+		<string>dieresisbelowcmb.glif</string>
 		<key>dieresiscomb</key>
 		<string>dieresiscomb.glif</string>
 		<key>divide</key>
@@ -863,8 +864,6 @@
 		<string>djecyr.ss01.glif</string>
 		<key>dollar</key>
 		<string>dollar.glif</string>
-		<key>dollar.split</key>
-		<string>dollar.split.glif</string>
 		<key>dong</key>
 		<string>dong.glif</string>
 		<key>dotaccent</key>
@@ -1109,6 +1108,8 @@
 		<string>horncmb.glif</string>
 		<key>hryvnia</key>
 		<string>hryvnia.glif</string>
+		<key>hungarumlaut</key>
+		<string>hungarumlaut.glif</string>
 		<key>hungarumlautcmb</key>
 		<string>hungarumlautcmb.glif</string>
 		<key>hyphen</key>
@@ -1349,6 +1350,8 @@
 		<string>m.glif</string>
 		<key>macron</key>
 		<string>macron.glif</string>
+		<key>macronbelowcmb</key>
+		<string>macronbelowcmb.glif</string>
 		<key>macroncomb</key>
 		<string>macroncomb.glif</string>
 		<key>manat</key>
