@@ -3370,12 +3370,9 @@
 					<string>f_f_i</string>
 					<string>f_f_l</string>
 					<string>cyrbreve</string>
-					<string>hungarumlautcomb</string>
 					<string>cheabkhcyr</string>
 					<string>djecyr.ss01</string>
 					<string>brevecomb-cy.case</string>
-					<string>
-</string>
 					<string>yukrcyr.ss01</string>
 					<string>yukrcyr.ss02</string>
 					<string>iu-cy.ss01</string>
@@ -3383,6 +3380,8 @@
 					<string>katailcyr.ss01</string>
 					<string>ustraightcyr.ss01</string>
 					<string>ustraightstrokecyr.ss01</string>
+					<string>periodcentered.loclCAT</string>
+					<string>periodcentered.loclCAT_case</string>
 				</array>
 				<key>type</key>
 				<string>glyphList</string>
@@ -5181,7 +5180,6 @@
 			<string>f_f_i</string>
 			<string>f_f_l</string>
 			<string>cyrbreve</string>
-			<string>hungarumlautcomb</string>
 			<string>cheabkhcyr</string>
 			<string>djecyr.ss01</string>
 			<string>brevecomb-cy.case</string>
@@ -5194,6 +5192,8 @@
 			<string>katailcyr.ss01</string>
 			<string>ustraightcyr.ss01</string>
 			<string>ustraightstrokecyr.ss01</string>
+			<string>periodcentered.loclCAT</string>
+			<string>periodcentered.loclCAT_case</string>
 		</array>
 		<key>public.postscriptNames</key>
 		<dict>
@@ -5215,11 +5215,9 @@
 			<string>ae.200928-18_34</string>
 			<string>NULL</string>
 			<string>macronbelowcmb</string>
-			<string>uni000D</string>
 			<string>brevecomb_acutecomb</string>
+			<string>uni000D</string>
 			<string>peseta</string>
-			<string>periodcentered.loclCAT</string>
-			<string>bulletoperator</string>
 			<string>primemod</string>
 			<string>dotlessj</string>
 			<string>brevecomb_gravecomb</string>
