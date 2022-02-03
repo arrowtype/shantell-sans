@@ -11,9 +11,10 @@ center = False
 # uni00AD=hyphen | 00AD
 # uni00A0=space | 00A0
 txt="""\
-periodcentered.loclCAT = periodcentered
-periodcentered.loclCAT_case = periodcentered.case
-bulletoperator = periodcentered
+?hungarumlaut = hungarumlautcmb ^ e
+?dieresisbelowcmb = dieresiscomb@bottom
+?belowbrevecmb = brevecomb@bottom
+?macronbelowcmb = macroncomb@bottom
 """
 
 print(txt)
