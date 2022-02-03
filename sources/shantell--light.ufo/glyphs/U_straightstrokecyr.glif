@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ustraightstrokecyr" format="2">
 	<unicode hex="04B0"/>
-	<advance width="617.7884615385"/>
+	<advance width="618"/>
 	<outline>
 		<contour>
 			<point x="123.5576923077" y="275" type="line"/>
-			<point x="493.2692307692" y="275" type="line"/>
-			<point x="493.2692307692" y="226.9230769231" type="line"/>
 			<point x="123.5576923077" y="226.9230769231" type="line"/>
+			<point x="493.2692307692" y="226.9230769231" type="line"/>
+			<point x="493.2692307692" y="275" type="line"/>
 		</contour>
 		<contour>
 			<point x="282.6923076923" y="0" type="line"/>
-			<point x="282.6923076923" y="275" type="line"/>
-			<point x="7.2115384615" y="700" type="line"/>
-			<point x="71.1538461538" y="700" type="line"/>
-			<point x="274.0384615385" y="381.7307692308" type="line" smooth="yes"/>
-			<point x="283.6538461538" y="367.3076923077"/>
-			<point x="300.4807692308" y="338.4615384615"/>
-			<point x="308.6538461538" y="323.5576923077" type="qcurve"/>
-			<point x="313.4615384615" y="323.5576923077" type="line"/>
-			<point x="322.1153846154" y="338.4615384615"/>
-			<point x="339.9038461538" y="367.3076923077"/>
-			<point x="349.0384615385" y="381.7307692308" type="qcurve" smooth="yes"/>
-			<point x="549.5192307692" y="700" type="line"/>
-			<point x="610.5769230769" y="700" type="line"/>
-			<point x="334.6153846154" y="275" type="line"/>
 			<point x="334.6153846154" y="0" type="line"/>
+			<point x="334.6153846154" y="275" type="line"/>
+			<point x="610.5769230769" y="700" type="line"/>
+			<point x="549.5192307692" y="700" type="line"/>
+			<point x="349.0384615385" y="381.7307692308" type="line" smooth="yes"/>
+			<point x="339.9038461538" y="367.3076923077"/>
+			<point x="322.1153846154" y="338.4615384615"/>
+			<point x="313.4615384615" y="323.5576923077" type="qcurve"/>
+			<point x="308.6538461538" y="323.5576923077" type="line"/>
+			<point x="300.4807692308" y="338.4615384615"/>
+			<point x="283.6538461538" y="367.3076923077"/>
+			<point x="274.0384615385" y="381.7307692308" type="qcurve" smooth="yes"/>
+			<point x="71.1538461538" y="700" type="line"/>
+			<point x="7.2115384615" y="700" type="line"/>
+			<point x="282.6923076923" y="275" type="line"/>
 		</contour>
 	</outline>
 	<lib>

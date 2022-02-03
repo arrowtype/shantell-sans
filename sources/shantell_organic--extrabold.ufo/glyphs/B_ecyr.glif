@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Becyr" format="2">
 	<unicode hex="0411"/>
-	<advance width="595.1923076923"/>
+	<advance width="595"/>
 	<outline>
 		<contour>
 			<point x="81.7307692308" y="0" type="line"/>
-			<point x="81.7307692308" y="700" type="line"/>
-			<point x="504.3269230769" y="700" type="line"/>
-			<point x="504.3269230769" y="651.9230769231" type="line"/>
-			<point x="134.1346153846" y="651.9230769231" type="line"/>
-			<point x="134.1346153846" y="412.0192307692" type="line"/>
-			<point x="312.0192307692" y="412.0192307692" type="line" smooth="yes"/>
-			<point x="431.7307692308" y="412.0192307692"/>
-			<point x="551.9230769231" y="296.6346153846"/>
-			<point x="551.9230769231" y="206.25" type="qcurve" smooth="yes"/>
-			<point x="551.9230769231" y="114.9038461538"/>
+			<point x="312.0192307692" y="0" type="line" smooth="yes"/>
 			<point x="431.7307692308" y="0"/>
-			<point x="312.0192307692" y="0" type="qcurve" smooth="yes"/>
+			<point x="551.9230769231" y="114.9038461538"/>
+			<point x="551.9230769231" y="206.25" type="qcurve" smooth="yes"/>
+			<point x="551.9230769231" y="296.6346153846"/>
+			<point x="431.7307692308" y="412.0192307692"/>
+			<point x="312.0192307692" y="412.0192307692" type="qcurve" smooth="yes"/>
+			<point x="134.1346153846" y="412.0192307692" type="line"/>
+			<point x="134.1346153846" y="651.9230769231" type="line"/>
+			<point x="504.3269230769" y="651.9230769231" type="line"/>
+			<point x="504.3269230769" y="700" type="line"/>
+			<point x="81.7307692308" y="700" type="line"/>
 		</contour>
 		<contour>
 			<point x="134.1346153846" y="363.9423076923" type="line"/>

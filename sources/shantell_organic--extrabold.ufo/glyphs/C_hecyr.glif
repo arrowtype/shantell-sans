@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Checyr" format="2">
 	<unicode hex="0427"/>
-	<advance width="675.9615384615"/>
+	<advance width="676"/>
 	<outline>
 		<contour>
-			<point x="124.5192307692" y="507.2115384615" type="line" smooth="yes"/>
-			<point x="124.5192307692" y="394.2307692308"/>
-			<point x="234.6153846154" y="318.75"/>
-			<point x="336.5384615385" y="318.75" type="qcurve" smooth="yes"/>
-			<point x="405.2884615385" y="318.75"/>
-			<point x="516.7652470177" y="333.1562032842"/>
-			<point x="567.7884615385" y="347.1153846154" type="qcurve"/>
-			<point x="567.7884615385" y="299.5192307692" type="line"/>
-			<point x="515.8095174975" y="286.0432082401"/>
-			<point x="411.0576923077" y="270.6730769231"/>
-			<point x="336.5384615385" y="270.6730769231" type="qcurve" smooth="yes"/>
-			<point x="204.3269230769" y="270.6730769231"/>
-			<point x="72.1153846154" y="370.1923076923"/>
-			<point x="72.1153846154" y="507.2115384615" type="qcurve" smooth="yes"/>
-			<point x="72.1153846154" y="700" type="line"/>
+			<point x="124.5192307692" y="507.2115384615" type="qcurve" smooth="yes"/>
 			<point x="124.5192307692" y="700" type="line"/>
+			<point x="72.1153846154" y="700" type="line"/>
+			<point x="72.1153846154" y="507.2115384615" type="line" smooth="yes"/>
+			<point x="72.1153846154" y="370.1923076923"/>
+			<point x="204.3269230769" y="270.6730769231"/>
+			<point x="336.5384615385" y="270.6730769231" type="qcurve" smooth="yes"/>
+			<point x="411.0576923077" y="270.6730769231"/>
+			<point x="515.8095174975" y="286.0432082401"/>
+			<point x="567.7884615385" y="299.5192307692" type="qcurve"/>
+			<point x="567.7884615385" y="347.1153846154" type="line"/>
+			<point x="516.7652470177" y="333.1562032842"/>
+			<point x="405.2884615385" y="318.75"/>
+			<point x="336.5384615385" y="318.75" type="qcurve" smooth="yes"/>
+			<point x="234.6153846154" y="318.75"/>
+			<point x="124.5192307692" y="394.2307692308"/>
 		</contour>
 		<contour>
 			<point x="594.2307692308" y="700" type="line"/>
-			<point x="594.2307692308" y="0" type="line"/>
-			<point x="541.8269230769" y="0" type="line"/>
 			<point x="541.8269230769" y="700" type="line"/>
+			<point x="541.8269230769" y="0" type="line"/>
+			<point x="594.2307692308" y="0" type="line"/>
 		</contour>
 	</outline>
 	<guideline x="594.2307692308" y="345.6730769231" angle="90" identifier="QSeZTfUsVl"/>

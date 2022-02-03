@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Yacyr" format="2">
 	<unicode hex="042F"/>
-	<advance width="597.1153846154"/>
+	<advance width="597"/>
 	<outline>
 		<contour>
 			<point x="515.3846153846" y="0" type="line"/>
@@ -19,14 +19,14 @@
 		</contour>
 		<contour>
 			<point x="462.9807692308" y="344.2307692308" type="line"/>
-			<point x="289.4230769231" y="344.2307692308" type="line" smooth="yes"/>
-			<point x="188.9423076923" y="344.2307692308"/>
-			<point x="108.1730769231" y="432.487340246"/>
-			<point x="108.1730769231" y="498.0769230769" type="qcurve" smooth="yes"/>
-			<point x="108.1730769231" y="563.6665059079"/>
-			<point x="188.9423076923" y="651.9230769231"/>
-			<point x="289.4230769231" y="651.9230769231" type="qcurve" smooth="yes"/>
 			<point x="462.9807692308" y="651.9230769231" type="line"/>
+			<point x="289.4230769231" y="651.9230769231" type="line" smooth="yes"/>
+			<point x="188.9423076923" y="651.9230769231"/>
+			<point x="108.1730769231" y="563.6665059079"/>
+			<point x="108.1730769231" y="498.0769230769" type="qcurve" smooth="yes"/>
+			<point x="108.1730769231" y="432.487340246"/>
+			<point x="188.9423076923" y="344.2307692308"/>
+			<point x="289.4230769231" y="344.2307692308" type="qcurve" smooth="yes"/>
 		</contour>
 		<contour>
 			<point x="76.4423076923" y="0" type="line"/>
