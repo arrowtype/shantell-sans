@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="te-cy.loclSRB" format="2">
-	<advance width="259"/>
+	<advance width="1004"/>
 	<outline>
-		<component base="period" yOffset="210"/>
+		<contour>
+			<point x="232" y="638" type="curve" smooth="yes"/>
+			<point x="325" y="638"/>
+			<point x="617" y="663"/>
+			<point x="852" y="663" type="curve" smooth="yes"/>
+			<point x="883" y="663"/>
+			<point x="901" y="684"/>
+			<point x="901" y="717" type="curve" smooth="yes"/>
+			<point x="901" y="758"/>
+			<point x="858" y="809"/>
+			<point x="739" y="809" type="curve" smooth="yes"/>
+			<point x="632" y="809"/>
+			<point x="309" y="780"/>
+			<point x="189" y="780" type="curve" smooth="yes"/>
+			<point x="128" y="780"/>
+			<point x="118" y="745"/>
+			<point x="118" y="718" type="curve" smooth="yes"/>
+			<point x="118" y="671"/>
+			<point x="159" y="638"/>
+		</contour>
+		<component base="sha-cy.loclBGR"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.5,0,1,0.15</string>
+			<string>0.9272,0.8867,1,1</string>
 		</dict>
 	</lib>
 </glyph>
