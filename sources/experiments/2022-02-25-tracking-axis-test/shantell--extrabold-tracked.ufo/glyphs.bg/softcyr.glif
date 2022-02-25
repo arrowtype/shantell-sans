@@ -1,38 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="softcyr" format="2">
-	<unicode hex="044C"/>
-	<advance width="522"/>
-	<image fileName="S_creenshot 2021-10-22 at 12.23.01.png" xScale="1.8154081408" yScale="1.8154081408" xOffset="-1945.5153165419" yOffset="-278.4799550181"/>
-	<outline>
-		<contour>
-			<point x="155" y="450" type="move"/>
-			<point x="173" y="396"/>
-			<point x="140" y="290"/>
-			<point x="140" y="229" type="curve" smooth="yes"/>
-			<point x="140" y="135"/>
-			<point x="158" y="67"/>
-			<point x="276" y="67" type="curve" smooth="yes"/>
-			<point x="355" y="67"/>
-			<point x="453" y="152"/>
-			<point x="453" y="239" type="curve" smooth="yes"/>
-			<point x="453" y="285"/>
-			<point x="430" y="307"/>
-			<point x="384" y="307" type="curve" smooth="yes"/>
-			<point x="318" y="307"/>
-			<point x="177" y="296"/>
-			<point x="177" y="296" type="curve"/>
-		</contour>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.typemytype.robofont.Image.Brightness</key>
-			<real>0.4942010343</real>
-			<key>com.typemytype.robofont.Image.Contrast</key>
-			<integer>1</integer>
-			<key>com.typemytype.robofont.Image.Saturation</key>
-			<integer>1</integer>
-			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
-		</dict>
-	</lib>
+  <advance width="522"/>
+  <unicode hex="044C"/>
+  <image fileName="S_creenshot 2021-10-22 at 12.23.01.png" xScale="1.8154081408" yScale="1.8154081408" xOffset="-1945.5153165419" yOffset="-278.4799550181"/>
+  <outline>
+    <contour>
+      <point x="155" y="450" type="move"/>
+      <point x="173" y="396"/>
+      <point x="140" y="290"/>
+      <point x="140" y="229" type="curve" smooth="yes"/>
+      <point x="140" y="135"/>
+      <point x="158" y="67"/>
+      <point x="276" y="67" type="curve" smooth="yes"/>
+      <point x="355" y="67"/>
+      <point x="453" y="152"/>
+      <point x="453" y="239" type="curve" smooth="yes"/>
+      <point x="453" y="285"/>
+      <point x="430" y="307"/>
+      <point x="384" y="307" type="curve" smooth="yes"/>
+      <point x="318" y="307"/>
+      <point x="177" y="296"/>
+      <point x="177" y="296" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.Image.Brightness</key>
+      <real>0.4942010343</real>
+      <key>com.typemytype.robofont.Image.Contrast</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Saturation</key>
+      <integer>1</integer>
+      <key>com.typemytype.robofont.Image.Sharpness</key>
+      <real>0.400000006</real>
+    </dict>
+  </lib>
 </glyph>

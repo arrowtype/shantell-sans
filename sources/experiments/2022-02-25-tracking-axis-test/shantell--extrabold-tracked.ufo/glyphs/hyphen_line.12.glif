@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hyphen_line.12" format="2">
-	<advance width="6372"/>
-	<outline>
-		<component base="hyphen.line"/>
-		<component base="hyphen.line" xOffset="531"/>
-		<component base="hyphen.line" xOffset="1062"/>
-		<component base="hyphen.line" xOffset="1593"/>
-		<component base="hyphen.line" xOffset="2124"/>
-		<component base="hyphen.line" xOffset="2655"/>
-		<component base="hyphen.line" xOffset="3186"/>
-		<component base="hyphen.line" xOffset="3717"/>
-		<component base="hyphen.line" xOffset="4248"/>
-		<component base="hyphen.line" xOffset="4779"/>
-		<component base="hyphen.line" xOffset="5310"/>
-		<component base="hyphen.line" xOffset="5841"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.65,0,1,1</string>
-		</dict>
-	</lib>
+  <advance width="7372"/>
+  <outline>
+    <component base="hyphen.line"/>
+    <component base="hyphen.line" xOffset="531.0"/>
+    <component base="hyphen.line" xOffset="1062.0"/>
+    <component base="hyphen.line" xOffset="1593.0"/>
+    <component base="hyphen.line" xOffset="2124.0"/>
+    <component base="hyphen.line" xOffset="2655.0"/>
+    <component base="hyphen.line" xOffset="3186.0"/>
+    <component base="hyphen.line" xOffset="3717.0"/>
+    <component base="hyphen.line" xOffset="4248.0"/>
+    <component base="hyphen.line" xOffset="4779.0"/>
+    <component base="hyphen.line" xOffset="5310.0"/>
+    <component base="hyphen.line" xOffset="5841.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.65,0,1,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="five.inferior" format="2">
-	<unicode hex="2085"/>
-	<advance width="540"/>
-	<outline>
-		<component base="five.dnom" xOffset="43" yOffset="-150"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
-		</dict>
-	</lib>
+  <advance width="1540"/>
+  <unicode hex="2085"/>
+  <outline>
+    <component base="five.dnom" xOffset="43.0" yOffset="-150.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5534,0.5534,0.5534,0.4845</string>
+    </dict>
+  </lib>
 </glyph>

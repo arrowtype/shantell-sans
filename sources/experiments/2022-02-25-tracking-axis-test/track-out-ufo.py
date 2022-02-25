@@ -4,10 +4,44 @@
 
 from fontParts.world import OpenFont
 
-font = OpenFont("sources/experiments/2022-02-25-tracking-axis-test/shantell--extrabold-tracked.ufo")
+font = OpenFont("sources/experiments/2022-02-25-tracking-axis-test/shantell--extrabold.ufo")
+
+def decomposeScaledFlippedComp(glyph):
+    if not glyph.components:
+        return
+    for component in glyph.components:
+        if component.transformation[0] != 1 or component.transformation[3] != 1:
+            component.decompose()
+
+def addEqualMargin(glyph, margin):
+    if glyph.width == 0:
+        return
+    try:
+        glyph.leftMargin = glyph.leftMargin + margin
+        glyph.rightMargin = glyph.rightMargin + margin
+    except TypeError:
+        glyph.width = glyph.width + (margin*2)
+    # except Exception as e: 
+    #     print(glyph.name, "\t\t", repr(e))
+
+def correctComponents(font,glyph, margin):
+    if not glyph.components:
+        return
+    for component in glyph.components:
+        if font[component.baseGlyph].width != 0:
+            component.moveBy((-margin, 0))
 
 for glyph in font:
-   glyph.leftMargin = glyph.leftMargin + 10
-   glyph.rightMargin = glyph.rightMargin + 10
 
-font.save()
+    margin = 500
+
+    decomposeScaledFlippedComp(glyph)
+
+    addEqualMargin(glyph, margin)
+
+    # move component left by margin amount
+    correctComponents(font,glyph, margin)
+
+
+
+font.save("sources/experiments/2022-02-25-tracking-axis-test/shantell--extrabold-tracked.ufo")

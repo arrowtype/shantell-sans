@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="qacyr" format="2">
-	<unicode hex="051B"/>
-	<advance width="630"/>
-	<outline>
-		<component base="q"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.7336,0.5157,0.996,1</string>
-		</dict>
-	</lib>
+  <advance width="1630"/>
+  <unicode hex="051B"/>
+  <outline>
+    <component base="q"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.7336,0.5157,0.996,1</string>
+    </dict>
+  </lib>
 </glyph>

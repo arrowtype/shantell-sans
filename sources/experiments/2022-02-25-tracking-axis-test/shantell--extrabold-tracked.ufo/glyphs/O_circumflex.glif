@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ocircumflex" format="2">
-	<unicode hex="00D4"/>
-	<advance width="766"/>
-	<outline>
-		<component base="O"/>
-		<component base="circumflexcomb" xOffset="372" yOffset="185"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.75,0.75,0.75,1</string>
-		</dict>
-	</lib>
+  <advance width="1766"/>
+  <unicode hex="00D4"/>
+  <outline>
+    <component base="O"/>
+    <component base="circumflexcomb" xOffset="872" yOffset="185"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
 </glyph>

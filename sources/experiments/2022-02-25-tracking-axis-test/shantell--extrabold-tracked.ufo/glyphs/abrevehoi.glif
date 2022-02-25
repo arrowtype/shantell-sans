@@ -1,44 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="abrevehoi" format="2">
-	<unicode hex="1EB3"/>
-	<advance width="704"/>
-	<outline>
-		<contour>
-			<point x="341" y="795" type="curve" smooth="yes"/>
-			<point x="442" y="795"/>
-			<point x="525" y="874"/>
-			<point x="525" y="979" type="curve" smooth="yes"/>
-			<point x="525" y="1089"/>
-			<point x="460.0000019995" y="1151"/>
-			<point x="341" y="1151" type="curve" smooth="yes"/>
-			<point x="248" y="1151"/>
-			<point x="193" y="1111"/>
-			<point x="193" y="1054" type="curve" smooth="yes"/>
-			<point x="193" y="1011"/>
-			<point x="219" y="988"/>
-			<point x="262" y="988" type="curve" smooth="yes"/>
-			<point x="290" y="988"/>
-			<point x="317" y="999"/>
-			<point x="331" y="999" type="curve" smooth="yes"/>
-			<point x="347" y="999"/>
-			<point x="355" y="990"/>
-			<point x="355" y="975" type="curve" smooth="yes"/>
-			<point x="355" y="959"/>
-			<point x="344" y="947"/>
-			<point x="323" y="947" type="curve" smooth="yes"/>
-			<point x="280" y="947"/>
-			<point x="243" y="922"/>
-			<point x="243" y="875" type="curve" smooth="yes"/>
-			<point x="243" y="821.3529411765"/>
-			<point x="282.2" y="795"/>
-		</contour>
-		<component base="a"/>
-		<component base="brevecomb" xOffset="338"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
-		</dict>
-	</lib>
+  <advance width="1704.0"/>
+  <unicode hex="1EB3"/>
+  <outline>
+    <contour>
+      <point x="841" y="795" type="curve" smooth="yes"/>
+      <point x="942" y="795"/>
+      <point x="1025" y="874"/>
+      <point x="1025" y="979" type="curve" smooth="yes"/>
+      <point x="1025" y="1089"/>
+      <point x="960.0000019995" y="1151"/>
+      <point x="841" y="1151" type="curve" smooth="yes"/>
+      <point x="748" y="1151"/>
+      <point x="693" y="1111"/>
+      <point x="693" y="1054" type="curve" smooth="yes"/>
+      <point x="693" y="1011"/>
+      <point x="719" y="988"/>
+      <point x="762" y="988" type="curve" smooth="yes"/>
+      <point x="790" y="988"/>
+      <point x="817" y="999"/>
+      <point x="831" y="999" type="curve" smooth="yes"/>
+      <point x="847" y="999"/>
+      <point x="855" y="990"/>
+      <point x="855" y="975" type="curve" smooth="yes"/>
+      <point x="855" y="959"/>
+      <point x="844" y="947"/>
+      <point x="823" y="947" type="curve" smooth="yes"/>
+      <point x="780" y="947"/>
+      <point x="743" y="922"/>
+      <point x="743" y="875" type="curve" smooth="yes"/>
+      <point x="743" y="821.3529411765"/>
+      <point x="782.2" y="795"/>
+    </contour>
+    <component base="a"/>
+    <component base="brevecomb" xOffset="838"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5534,0.5534,0.5534,0.4845</string>
+    </dict>
+  </lib>
 </glyph>
