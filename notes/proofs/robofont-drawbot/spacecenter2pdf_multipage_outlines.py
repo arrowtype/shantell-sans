@@ -54,6 +54,7 @@ for gr in spaceCenter.glyphRecords:
         translate(X, Y)
         fill(0,0,0,0.7)
         stroke(0,0,0,1)
+        strokeWidth(4)
         drawGlyph(gr.glyph)
 
     X += gr.glyph.width
