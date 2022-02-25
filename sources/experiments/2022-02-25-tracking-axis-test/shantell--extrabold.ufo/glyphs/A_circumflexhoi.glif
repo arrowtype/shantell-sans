@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Acircumflexhoi" format="2">
+	<unicode hex="1EA8"/>
+	<advance width="780"/>
+	<outline>
+		<contour>
+			<point x="656" y="915" type="curve" smooth="yes"/>
+			<point x="757" y="915"/>
+			<point x="840" y="994"/>
+			<point x="840" y="1099" type="curve" smooth="yes"/>
+			<point x="840" y="1209"/>
+			<point x="775.0000019995" y="1271"/>
+			<point x="656" y="1271" type="curve" smooth="yes"/>
+			<point x="563" y="1271"/>
+			<point x="508" y="1231"/>
+			<point x="508" y="1174" type="curve" smooth="yes"/>
+			<point x="508" y="1131"/>
+			<point x="534" y="1108"/>
+			<point x="577" y="1108" type="curve" smooth="yes"/>
+			<point x="605" y="1108"/>
+			<point x="632" y="1119"/>
+			<point x="646" y="1119" type="curve" smooth="yes"/>
+			<point x="662" y="1119"/>
+			<point x="670" y="1110"/>
+			<point x="670" y="1095" type="curve" smooth="yes"/>
+			<point x="670" y="1079"/>
+			<point x="659" y="1067"/>
+			<point x="638" y="1067" type="curve" smooth="yes"/>
+			<point x="595" y="1067"/>
+			<point x="558" y="1042"/>
+			<point x="558" y="995" type="curve" smooth="yes"/>
+			<point x="558" y="941.3529411765"/>
+			<point x="597.2" y="915"/>
+		</contour>
+		<component base="A"/>
+		<component base="circumflexcomb" xOffset="424" yOffset="185"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.5534,0.5534,0.5534,0.4845</string>
+		</dict>
+	</lib>
+</glyph>
