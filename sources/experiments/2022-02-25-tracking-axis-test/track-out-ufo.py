@@ -4,7 +4,8 @@
 
 from fontParts.world import OpenFont
 
-font = OpenFont("sources/experiments/2022-02-25-tracking-axis-test/shantell--extrabold.ufo")
+# the generated "tracked" source must match the other axis defaults
+font = OpenFont("sources/experiments/2022-02-25-tracking-axis-test/shantell--light.ufo")
 
 def decomposeScaledFlippedComp(glyph):
     if not glyph.components:
@@ -42,6 +43,4 @@ for glyph in font:
     # move component left by margin amount
     correctComponents(font,glyph, margin)
 
-
-
-font.save("sources/experiments/2022-02-25-tracking-axis-test/shantell--extrabold-tracked.ufo")
+font.save("sources/experiments/2022-02-25-tracking-axis-test/shantell--light-tracked.ufo")

@@ -42,6 +42,9 @@ prepDir = 'sources/wght_BNCE_IRGL--prepped'
 # designspaces copied into prepped folder
 designspaces = ["sources/shantell_sans-wght_BNCE_IRGL.designspace", "sources/shantell_sans-wght_BNCE_IRGL--static.designspace"]
 
+# features folder copied into prepped folder
+featuresDir = "sources/features/features"
+
 # NOTE: if you really want *all* characters to have alts, use this instead. But it makes the font filesize quite a bit bigger.
 # altsToMake = "AÀÁÂÃÄÅĀĂĄǍBCÇĆČDĎEÈÉÊËĒĔĘĚFGĞHIÌÍÎÏĪĬĮİJKLMNÑŃŇOÒÓÔÕÖŌŎŐPQRŔŘSŚŞŠTŤUÙÚÛÜŪŬŮŰŲǓVWXYÝŸZŹŻŽÆØǾĲŁŒΩaàáâãäåāăąǎbcçćčdďeèéêëēĕęěfgğhiìíîïīĭįjklmnñńňoòóôõöōŏőpqrŕřsśşštťuùúûüūŭůűųǔvwxyýÿzźżžßæÞðþẞ"
 
@@ -127,6 +130,103 @@ def decomposeDigraphs(fonts):
             if g.name in glyphsToDecompose:
                 g.decompose()
 
+
+def removeGlyphs(font, names):
+    """
+    Removes the glyphs in the list of *names* from the supplied *font*.
+    This checks all layers for the glyph, removes the glyph from any
+    composite glyphs that use it, removes the glyph from the `glyphOrder`,
+    and removes the glyph from the kerning.
+
+    *font* is a font object (Defcon or FontParts)
+    *names* is a `list` of glyph names
+    """
+
+    for name in names:
+        for layer in font.layers:
+            if name in layer.keys():
+                layer.removeGlyph(name)
+
+    for glyph in font:
+        if glyph.components:
+            for component in glyph.components:
+                if component.baseGlyph in names:
+                    glyph.removeComponent(component)
+
+    glyphOrder = font.glyphOrder
+    for name in glyphOrder:
+        if name in names:
+            glyphOrder.remove(name)
+    font.glyphOrder = glyphOrder
+
+    for left, right in font.kerning.keys():
+        if left in names or right in names:
+            del font.kerning[(left, right)]
+
+def clearGuides(font):
+    """
+    Clears both font level and glyph level guides in a font.
+
+    *font* is a font object (Defcon or FontParts)
+    """
+    font.clearGuidelines()
+
+    for glyph in font:
+        if glyph.guidelines:
+            glyph.clearGuidelines()
+
+
+def makeSourceFontsGlyphCompatible(fonts):
+    """
+    Compares the glyphs of all *fonts* and removes glyphs that are not
+    common to all the provided *fonts*.
+
+    *fonts* is a `list` of font objects (Defcon or FontParts).
+    """
+
+    # Get a list of all glyphs in each font, skipping "sparse" sources
+    glyphSets = [font.keys() for font in fonts if "sparse" not in font.path]
+
+    # Use set intersection to get all common glyph from each list
+    commonGlyphs = set.intersection(*map(set, glyphSets))
+
+    for font in fonts:
+        clearGuides(font)
+        if "sparse" not in font.path:
+            removed = []
+            for name in font.keys():
+                if name not in commonGlyphs:
+                    removed.append(name)
+            if len(removed) != 0:
+                removeGlyphs(font, removed)
+
+def makeCompatible(fonts):
+    """
+    Checks all glyphs in *fonts* for compatibility. Removes any glyphs that
+    aren't compatible from all of the fonts.
+
+    *fonts* is a `list` of font objects (Defcon or FontParts).
+
+    fontsToCheck assumes to "sparse" / support sources are compatible.
+    """
+
+    nonCompatible = []
+
+    fontsToCheck = [font for font in fonts if "sparse" not in font.path]
+
+    for glyph in fontsToCheck[0]:
+        for font in fontsToCheck[1:]:
+            if glyph.name in font.keys():
+                compatibility = glyph.isCompatible(font[glyph.name])
+                if not compatibility[0]:
+                    nonCompatible.append((glyph.name, str(compatibility)))
+            else:
+                nonCompatible.append((glyph.name, "Missing in font"))
+
+    for font in fontsToCheck:
+        removeGlyphs(font, [name for name, _ in nonCompatible])
+
+
 # make alts in all fonts
 def makeAlts(fonts, numOfAlts=2):
     """
@@ -172,6 +272,8 @@ def makeAlts(fonts, numOfAlts=2):
     return altsToMakeGlyphNames
 
 def findMainBaseGlyphName(font, glyph):
+    print(font) # DEBUGGING
+    print(glyph) # DEBUGGING
     return [c.baseGlyph for c in glyph.components if font[c.baseGlyph].width >= 1][0]
 
 
@@ -297,8 +399,14 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
             if len(g.components) >= 1 and g.name.split(".")[0] not in glyphsToNotShift and g.name not in glyphsToNotShift:
 
                 try:
-                    # look up Yshift of main baseGlyph
-                    mainBase = findMainBaseGlyphName(font, g)
+                    try:
+                        # look up Yshift of main baseGlyph
+                        mainBase = findMainBaseGlyphName(font, g)
+                    except IndexError:
+                        # if base glyph is simply a zero-width combining accent, pass
+                        # e.g. was failing on /belowbrevecmb
+                        # TODO: check if /belowbrevecmb is causing or getting any problems
+                        pass
                     baseShift = font[mainBase].lib['com.arrowtype.yShift']
 
                     # in multi-component glyphs, shift accents to match bases
@@ -317,6 +425,7 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
                 except KeyError:
                     # if base glyph isn’t shifted, lib['com.arrowtype.yShift'] will fail
                     pass
+
 
                 # move full glyph again # BUT WAIT, this just breaks it? ... does it need all components moved separately, rather than the whole thing moved?
                 try:
@@ -642,6 +751,10 @@ def main():
 
     # The sausage making
 
+    print("🤖 Making source fonts compatible (removing unique glyphs, etc)")
+    makeSourceFontsGlyphCompatible(fonts)
+    makeCompatible(fonts)
+
     print("🤖 Decomposing digraphs")
     decomposeDigraphs(fonts)
 
@@ -692,6 +805,9 @@ def main():
     print("🤖 Copying Designspace file")
     for ds in designspaces:
         shutil.copyfile(ds, prepDir+'/'+os.path.split(ds)[1])
+
+    print("🤖 Copying Features folder")
+    shutil.copytree(featuresDir, prepDir + '/' + os.path.split(featuresDir)[1])
 
     print("🤖 Sorting fonts")
     sortGlyphOrder(fonts)
