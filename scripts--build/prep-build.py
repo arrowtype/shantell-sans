@@ -28,8 +28,8 @@ from random import random
 sources = {
     "light": "sources/shantell--light.ufo",
     "extrabold": "sources/shantell--extrabold.ufo",
-    "quirkLight": "sources/shantell_organic--light.ufo",
-    "quirkExtrabold": "sources/shantell_organic--extrabold.ufo",
+    "irregularLight": "sources/shantell_organic--light.ufo",
+    "irregularExtrabold": "sources/shantell_organic--extrabold.ufo",
     "bounceLight": "sources/shantell_bounce--light.ufo",
     "bounceExtrabold": "sources/shantell_bounce--extrabold.ufo",
     "bounceReverseLight": "sources/shantell_reverse_bounce--light.ufo",
@@ -37,10 +37,10 @@ sources = {
 }
 
 # where prepped UFOs are put
-prepDir = 'sources/wght_BNCE_IRGL--prepped'
+prepDir = 'sources/wght_BNCE_IRGL_TRAK--prepped'
 
 # designspaces copied into prepped folder
-designspaces = ["sources/shantell_sans-wght_BNCE_IRGL.designspace", "sources/shantell_sans-wght_BNCE_IRGL--static.designspace"]
+designspaces = ["sources/shantell_sans-wght_BNCE_IRGL_TRAK.designspace", "sources/shantell_sans-wght_BNCE_IRGL_TRAK--static.designspace"]
 
 # features folder copied into prepped folder
 featuresDir = "sources/features/features"
@@ -70,6 +70,10 @@ glyphsToNotShift ="\
     caron breve tilde macron dieresis dotaccent ring cedilla ogonek ogonekcmb \
     hyphen.line hyphen_line.3 hyphen_line.4 hyphen_line.5 hyphen_line.6 hyphen_line.7 hyphen_line.8 hyphen_line.9 hyphen_line.10 hyphen_line.11 hyphen_line.12 hyphen_line.13 hyphen_line.14 hyphen_line.15 hyphen_line.16 hyphen_line.17 hyphen_line.18 hyphen_line.19 hyphen_line.20 hyphen_line.21 hyphen_line.22 hyphen_line.23 hyphen_line.24 hyphen_line.25 hyphen_line.26 hyphen_line.27 hyphen_line.28 hyphen_line.29 hyphen_line.30 hyphen_line.31 hyphen_line.32 hyphen_line.33 hyphen_line.34 hyphen_line.35 hyphen_line.36 hyphen_line.37 hyphen_line.38 hyphen_line.39 hyphen_line.40 hyphen_line.41 hyphen_line.42 hyphen_line.43 hyphen_line.44 hyphen_line.45 hyphen_line.46 hyphen_line.47 hyphen_line.48 hyphen_line.49 hyphen_line.50\
 ".split()
+
+# total to add to TRAK axis
+maxTracking = 500
+trackedPath = "shantell_tracked--light.ufo"
 
 # END configuration
 # --------------------------------------------------------
@@ -123,6 +127,7 @@ def sortGlyphOrder(fonts):
         font.glyphOrder = newGlyphOrder
 
         font.save()
+
 
 def decomposeDigraphs(fonts):
     for font in fonts:
@@ -730,6 +735,69 @@ def addFeaCode(fonts, feaPath):
         font.features.text = feaCode
         font.save()
 
+# ------------------------------------------
+# begin creating tracked UFO below
+
+def decomposeScaledFlippedComp(font):
+    """
+        Just in case this isn’t already done, decompose any scaled or flipped components.
+    """
+
+    for glyph in font:
+
+        if not glyph.components:
+            return
+        for component in glyph.components:
+            if component.transformation[0] != 1 or component.transformation[3] != 1:
+                component.decompose()
+    
+    font.save()
+
+
+def addEqualMargin(glyph, margin):
+    """
+        Add equal margin to a given Rglyph object.
+    """
+    if glyph.width == 0:
+        return
+    try:
+        glyph.leftMargin = glyph.leftMargin + margin
+        glyph.rightMargin = glyph.rightMargin + margin
+    except TypeError:
+        glyph.width = glyph.width + (margin*2)
+
+
+def correctComponents(font,glyph, margin):
+    """
+        Corrects components for a given margin
+    """
+    if not glyph.components:
+        return
+    for component in glyph.components:
+        if font[component.baseGlyph].width != 0:
+            component.moveBy((-margin, 0))
+
+
+def makeTrackedUFO(font, tracking):
+    """
+        Take in a font object and add tracking to all glyphs.
+    """
+
+    for glyph in font:
+
+        margin = tracking/2
+
+        addEqualMargin(glyph, margin)
+
+        # move component left by margin amount
+        correctComponents(font,glyph, margin)
+    
+    font.save(prepDir + '/' + trackedPath)
+
+
+# end creating tracked UFO
+# ------------------------------------------
+
 
 def main():
 
@@ -776,7 +844,7 @@ def main():
             print("reverse bounces for ", font.path)
             shiftGlyphs(font, factor=-0.75) # factor -0.75 makes moves of up to -75 units
 
-    # interpolate alts in quirk fonts
+    # interpolate alts in irregular fonts
     print("🤖 Interpolating organic alts")
 
     # Dumb setup. Will it work?
@@ -811,6 +879,16 @@ def main():
 
     print("🤖 Sorting fonts")
     sortGlyphOrder(fonts)
+
+    print("🤖 Decompose scaled or flipped components")
+    for font in fonts:
+        decomposeScaledFlippedComp(font)
+
+    print("🤖 Making tracked font")
+    for font in fonts:
+        if "light" in font.path and "bounce" not in font.path:
+            makeTrackedUFO(font, maxTracking)
+
 
 if __name__ == "__main__":
     main()

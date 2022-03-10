@@ -4,8 +4,17 @@
     <axis tag="wght" name="Weight" minimum="300" maximum="800" default="300"/>
     <axis tag="IRGL" name="Irregularity" minimum="0" maximum="100" default="0"/>
     <axis tag="BNCE" name="Bounce" minimum="-100" maximum="100" default="0"/>
+    <axis tag="TRAK" name="Tracking" minimum="0" maximum="500" default="0"/>
   </axes>
   <sources>
+    <source filename="shantell--light-tracked.ufo" familyname="Shantell Sans" stylename="Light Tracked">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="500"/>
+      </location>
+    </source>
     <source filename="shantell--light.ufo" familyname="Shantell Sans" stylename="Light">
       <lib copy="1"/>
       <groups copy="1"/>
@@ -15,6 +24,7 @@
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Irregularity" xvalue="0"/>
         <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
       </location>
     </source>
     <source filename="shantell--extrabold.ufo" familyname="Shantell Sans" stylename="ExtraBold">
@@ -22,20 +32,23 @@
         <dimension name="Weight" xvalue="800"/>
         <dimension name="Irregularity" xvalue="0"/>
         <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
       </location>
     </source>
-    <source filename="shantell_organic--light.ufo" familyname="Shantell Sans" stylename="Irregular Light">
+    <source filename="shantell_organic--light.ufo" familyname="Shantell Sans" stylename="Dynamic Light">
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Irregularity" xvalue="100"/>
         <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
       </location>
     </source>
-    <source filename="shantell_organic--extrabold.ufo" familyname="Shantell Sans" stylename="Irregular ExtraBold">
+    <source filename="shantell_organic--extrabold.ufo" familyname="Shantell Sans" stylename="Dynamic ExtraBold">
       <location>
         <dimension name="Weight" xvalue="800"/>
         <dimension name="Irregularity" xvalue="100"/>
         <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
       </location>
     </source>
     <source filename="shantell_bounce--extrabold.ufo" familyname="Shantell Sans" stylename="ExtraBold Bounce">

@@ -12,6 +12,7 @@ fontparts = {git = "https://github.com/robotools/fontParts.git", ref = "170a2f73
 font-v = "*"
 fontfeatures = "*"
 fontbakery = "*"
+gftools = "*"
 
 [requires]
 python_version = "3.7"
