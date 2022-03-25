@@ -4,28 +4,31 @@
 	<advance width="606"/>
 	<outline>
 		<contour>
-			<point x="268.2503770739" y="9.6153846154" type="line"/>
-			<point x="249.8020361991" y="-83.8706636501" type="line"/>
-			<point x="307.0889894419" y="-87.7168174963"/>
-			<point x="356.8061840121" y="-107.2492458522"/>
-			<point x="356.8061840121" y="-133.1825037707" type="qcurve" smooth="yes"/>
-			<point x="356.8061840121" y="-163.7726244344"/>
-			<point x="274.4061085973" y="-201.0935143288"/>
-			<point x="210.8125942685" y="-202.5358220211" type="qcurve"/>
-			<point x="212.5848416289" y="-232.9185520362" type="line"/>
-			<point x="307.5131975867" y="-232.9185520362"/>
-			<point x="407.4566365008" y="-175.7635746606"/>
-			<point x="407.4566365008" y="-132.5509049774" type="qcurve" smooth="yes"/>
-			<point x="407.4566365008" y="-100.8484162896"/>
-			<point x="351.6119909502" y="-61.1519607843"/>
-			<point x="304.9868024133" y="-54.7511312217" type="qcurve"/>
-			<point x="319.0799396682" y="9.6153846154" type="line"/>
+			<point x="217" y="21" type="curve" smooth="yes"/>
+			<point x="217" y="-10"/>
+			<point x="202" y="-86"/>
+			<point x="202" y="-123" type="curve" smooth="yes"/>
+			<point x="202" y="-163"/>
+			<point x="236" y="-207"/>
+			<point x="303" y="-207" type="curve" smooth="yes"/>
+			<point x="346" y="-207"/>
+			<point x="376" y="-168"/>
+			<point x="376" y="-128" type="curve" smooth="yes"/>
+			<point x="376" y="-95"/>
+			<point x="367" y="-19"/>
+			<point x="367" y="61" type="curve" smooth="yes"/>
+			<point x="367" y="87"/>
+			<point x="345" y="99"/>
+			<point x="317" y="99" type="curve" smooth="yes"/>
+			<point x="274" y="99"/>
+			<point x="217" y="69"/>
 		</contour>
+		<component base="Zecyr"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.5,0,1,0.15</string>
+			<string>0.7336,0.5157,0.996,1</string>
 		</dict>
 	</lib>
 </glyph>
