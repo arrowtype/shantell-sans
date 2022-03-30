@@ -28,8 +28,8 @@ from random import random
 sources = {
     "light": "sources/shantell--light.ufo",
     "extrabold": "sources/shantell--extrabold.ufo",
-    "quirkLight": "sources/shantell_organic--light.ufo",
-    "quirkExtrabold": "sources/shantell_organic--extrabold.ufo",
+    "irregularLight": "sources/shantell_organic--light.ufo",
+    "irregularExtrabold": "sources/shantell_organic--extrabold.ufo",
     "bounceLight": "sources/shantell_bounce--light.ufo",
     "bounceExtrabold": "sources/shantell_bounce--extrabold.ufo",
     "bounceReverseLight": "sources/shantell_reverse_bounce--light.ufo",
@@ -37,10 +37,13 @@ sources = {
 }
 
 # where prepped UFOs are put
-prepDir = 'sources/wght_BNCE_IRGL--prepped'
+prepDir = 'sources/wght_BNCE_IRGL_TRAK--prepped'
 
 # designspaces copied into prepped folder
-designspaces = ["sources/shantell_sans-wght_BNCE_IRGL.designspace", "sources/shantell_sans-wght_BNCE_IRGL--static.designspace"]
+designspaces = ["sources/shantell_sans-wght_BNCE_IRGL_TRAK.designspace", "sources/shantell_sans-wght_BNCE_IRGL_TRAK--static.designspace"]
+
+# features folder copied into prepped folder
+featuresDir = "sources/features/features"
 
 # NOTE: if you really want *all* characters to have alts, use this instead. But it makes the font filesize quite a bit bigger.
 # altsToMake = "AÀÁÂÃÄÅĀĂĄǍBCÇĆČDĎEÈÉÊËĒĔĘĚFGĞHIÌÍÎÏĪĬĮİJKLMNÑŃŇOÒÓÔÕÖŌŎŐPQRŔŘSŚŞŠTŤUÙÚÛÜŪŬŮŰŲǓVWXYÝŸZŹŻŽÆØǾĲŁŒΩaàáâãäåāăąǎbcçćčdďeèéêëēĕęěfgğhiìíîïīĭįjklmnñńňoòóôõöōŏőpqrŕřsśşštťuùúûüūŭůűųǔvwxyýÿzźżžßæÞðþẞ"
@@ -67,6 +70,10 @@ glyphsToNotShift ="\
     caron breve tilde macron dieresis dotaccent ring cedilla ogonek ogonekcmb \
     hyphen.line hyphen_line.3 hyphen_line.4 hyphen_line.5 hyphen_line.6 hyphen_line.7 hyphen_line.8 hyphen_line.9 hyphen_line.10 hyphen_line.11 hyphen_line.12 hyphen_line.13 hyphen_line.14 hyphen_line.15 hyphen_line.16 hyphen_line.17 hyphen_line.18 hyphen_line.19 hyphen_line.20 hyphen_line.21 hyphen_line.22 hyphen_line.23 hyphen_line.24 hyphen_line.25 hyphen_line.26 hyphen_line.27 hyphen_line.28 hyphen_line.29 hyphen_line.30 hyphen_line.31 hyphen_line.32 hyphen_line.33 hyphen_line.34 hyphen_line.35 hyphen_line.36 hyphen_line.37 hyphen_line.38 hyphen_line.39 hyphen_line.40 hyphen_line.41 hyphen_line.42 hyphen_line.43 hyphen_line.44 hyphen_line.45 hyphen_line.46 hyphen_line.47 hyphen_line.48 hyphen_line.49 hyphen_line.50\
 ".split()
+
+# total to add to TRAK axis
+maxTracking = 500
+trackedPath = "shantell_tracked--light.ufo"
 
 # END configuration
 # --------------------------------------------------------
@@ -121,11 +128,109 @@ def sortGlyphOrder(fonts):
 
         font.save()
 
+
 def decomposeDigraphs(fonts):
     for font in fonts:
         for g in font:
             if g.name in glyphsToDecompose:
                 g.decompose()
+
+
+def removeGlyphs(font, names):
+    """
+    Removes the glyphs in the list of *names* from the supplied *font*.
+    This checks all layers for the glyph, removes the glyph from any
+    composite glyphs that use it, removes the glyph from the `glyphOrder`,
+    and removes the glyph from the kerning.
+
+    *font* is a font object (Defcon or FontParts)
+    *names* is a `list` of glyph names
+    """
+
+    for name in names:
+        for layer in font.layers:
+            if name in layer.keys():
+                layer.removeGlyph(name)
+
+    for glyph in font:
+        if glyph.components:
+            for component in glyph.components:
+                if component.baseGlyph in names:
+                    glyph.removeComponent(component)
+
+    glyphOrder = font.glyphOrder
+    for name in glyphOrder:
+        if name in names:
+            glyphOrder.remove(name)
+    font.glyphOrder = glyphOrder
+
+    for left, right in font.kerning.keys():
+        if left in names or right in names:
+            del font.kerning[(left, right)]
+
+def clearGuides(font):
+    """
+    Clears both font level and glyph level guides in a font.
+
+    *font* is a font object (Defcon or FontParts)
+    """
+    font.clearGuidelines()
+
+    for glyph in font:
+        if glyph.guidelines:
+            glyph.clearGuidelines()
+
+
+def makeSourceFontsGlyphCompatible(fonts):
+    """
+    Compares the glyphs of all *fonts* and removes glyphs that are not
+    common to all the provided *fonts*.
+
+    *fonts* is a `list` of font objects (Defcon or FontParts).
+    """
+
+    # Get a list of all glyphs in each font, skipping "sparse" sources
+    glyphSets = [font.keys() for font in fonts if "sparse" not in font.path]
+
+    # Use set intersection to get all common glyph from each list
+    commonGlyphs = set.intersection(*map(set, glyphSets))
+
+    for font in fonts:
+        clearGuides(font)
+        if "sparse" not in font.path:
+            removed = []
+            for name in font.keys():
+                if name not in commonGlyphs:
+                    removed.append(name)
+            if len(removed) != 0:
+                removeGlyphs(font, removed)
+
+def makeCompatible(fonts):
+    """
+    Checks all glyphs in *fonts* for compatibility. Removes any glyphs that
+    aren't compatible from all of the fonts.
+
+    *fonts* is a `list` of font objects (Defcon or FontParts).
+
+    fontsToCheck assumes to "sparse" / support sources are compatible.
+    """
+
+    nonCompatible = []
+
+    fontsToCheck = [font for font in fonts if "sparse" not in font.path]
+
+    for glyph in fontsToCheck[0]:
+        for font in fontsToCheck[1:]:
+            if glyph.name in font.keys():
+                compatibility = glyph.isCompatible(font[glyph.name])
+                if not compatibility[0]:
+                    nonCompatible.append((glyph.name, str(compatibility)))
+            else:
+                nonCompatible.append((glyph.name, "Missing in font"))
+
+    for font in fontsToCheck:
+        removeGlyphs(font, [name for name, _ in nonCompatible])
+
 
 # make alts in all fonts
 def makeAlts(fonts, numOfAlts=2):
@@ -172,6 +277,8 @@ def makeAlts(fonts, numOfAlts=2):
     return altsToMakeGlyphNames
 
 def findMainBaseGlyphName(font, glyph):
+    print(font) # DEBUGGING
+    print(glyph) # DEBUGGING
     return [c.baseGlyph for c in glyph.components if font[c.baseGlyph].width >= 1][0]
 
 
@@ -297,8 +404,14 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
             if len(g.components) >= 1 and g.name.split(".")[0] not in glyphsToNotShift and g.name not in glyphsToNotShift:
 
                 try:
-                    # look up Yshift of main baseGlyph
-                    mainBase = findMainBaseGlyphName(font, g)
+                    try:
+                        # look up Yshift of main baseGlyph
+                        mainBase = findMainBaseGlyphName(font, g)
+                    except IndexError:
+                        # if base glyph is simply a zero-width combining accent, pass
+                        # e.g. was failing on /belowbrevecmb
+                        # TODO: check if /belowbrevecmb is causing or getting any problems
+                        pass
                     baseShift = font[mainBase].lib['com.arrowtype.yShift']
 
                     # in multi-component glyphs, shift accents to match bases
@@ -317,6 +430,7 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
                 except KeyError:
                     # if base glyph isn’t shifted, lib['com.arrowtype.yShift'] will fail
                     pass
+
 
                 # move full glyph again # BUT WAIT, this just breaks it? ... does it need all components moved separately, rather than the whole thing moved?
                 try:
@@ -621,6 +735,69 @@ def addFeaCode(fonts, feaPath):
         font.features.text = feaCode
         font.save()
 
+# ------------------------------------------
+# begin creating tracked UFO below
+
+def decomposeScaledFlippedComp(font):
+    """
+        Just in case this isn’t already done, decompose any scaled or flipped components.
+    """
+
+    for glyph in font:
+
+        if not glyph.components:
+            return
+        for component in glyph.components:
+            if component.transformation[0] != 1 or component.transformation[3] != 1:
+                component.decompose()
+    
+    font.save()
+
+
+def addEqualMargin(glyph, margin):
+    """
+        Add equal margin to a given Rglyph object.
+    """
+    if glyph.width == 0:
+        return
+    try:
+        glyph.leftMargin = glyph.leftMargin + margin
+        glyph.rightMargin = glyph.rightMargin + margin
+    except TypeError:
+        glyph.width = glyph.width + (margin*2)
+
+
+def correctComponents(font,glyph, margin):
+    """
+        Corrects components for a given margin
+    """
+    if not glyph.components:
+        return
+    for component in glyph.components:
+        if font[component.baseGlyph].width != 0:
+            component.moveBy((-margin, 0))
+
+
+def makeTrackedUFO(font, tracking):
+    """
+        Take in a font object and add tracking to all glyphs.
+    """
+
+    for glyph in font:
+
+        margin = tracking/2
+
+        addEqualMargin(glyph, margin)
+
+        # move component left by margin amount
+        correctComponents(font,glyph, margin)
+    
+    font.save(prepDir + '/' + trackedPath)
+
+
+# end creating tracked UFO
+# ------------------------------------------
+
 
 def main():
 
@@ -641,6 +818,10 @@ def main():
     fonts = [Font(path) for path in newFontPaths]
 
     # The sausage making
+
+    print("🤖 Making source fonts compatible (removing unique glyphs, etc)")
+    makeSourceFontsGlyphCompatible(fonts)
+    makeCompatible(fonts)
 
     print("🤖 Decomposing digraphs")
     decomposeDigraphs(fonts)
@@ -663,7 +844,7 @@ def main():
             print("reverse bounces for ", font.path)
             shiftGlyphs(font, factor=-0.75) # factor -0.75 makes moves of up to -75 units
 
-    # interpolate alts in quirk fonts
+    # interpolate alts in irregular fonts
     print("🤖 Interpolating organic alts")
 
     # Dumb setup. Will it work?
@@ -693,8 +874,21 @@ def main():
     for ds in designspaces:
         shutil.copyfile(ds, prepDir+'/'+os.path.split(ds)[1])
 
+    print("🤖 Copying Features folder")
+    shutil.copytree(featuresDir, prepDir + '/' + os.path.split(featuresDir)[1])
+
     print("🤖 Sorting fonts")
     sortGlyphOrder(fonts)
+
+    print("🤖 Decompose scaled or flipped components")
+    for font in fonts:
+        decomposeScaledFlippedComp(font)
+
+    print("🤖 Making tracked font")
+    for font in fonts:
+        if "light" in font.path and "bounce" not in font.path:
+            makeTrackedUFO(font, maxTracking)
+
 
 if __name__ == "__main__":
     main()

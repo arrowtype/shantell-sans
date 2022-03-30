@@ -3,6 +3,8 @@
 	<unicode hex="0301"/>
 	<outline>
 		<contour>
+			<point x="178" y="753" type="curve" smooth="yes"/>
+			<point x="178" y="811"/>
 			<point x="146.9024390244" y="840"/>
 			<point x="93" y="840" type="curve" smooth="yes"/>
 			<point x="51" y="840"/>
@@ -19,11 +21,10 @@
 			<point x="-10" y="575" type="curve" smooth="yes"/>
 			<point x="86.5405405405" y="575"/>
 			<point x="178" y="656"/>
-			<point x="178" y="753" type="curve" smooth="yes"/>
-			<point x="178" y="811"/>
 		</contour>
 	</outline>
 	<anchor name="_top" x="0" y="515"/>
+	<anchor name="_side" x="0" y="492"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>

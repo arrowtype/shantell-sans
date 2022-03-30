@@ -2,11 +2,11 @@
 
 set -e
 
-DS="sources/wght_BNCE_IRGL--prepped/shantell_sans-wght_BNCE_IRGL.designspace"
+DS="sources/wght_BNCE_IRGL_TRAK--prepped/shantell_sans-wght_BNCE_IRGL_TRAK.designspace"
 outputDir="fonts/Shantell Sans/Desktop"
 webDir="fonts/Shantell Sans/Web"
 vfName="Shantell_Sans-Variable.ttf"
-finalVfName="ShantellSans[BNCE,IRGL,wght].ttf"
+finalVfName="ShantellSans[BNCE,IRGL,TRAK,wght].ttf"
 
 mkdir -p "$outputDir"
 
@@ -32,11 +32,8 @@ python3 "./scripts--build/helpers/add-STAT.py" "$vfPath"
 gftools fix-nonhinting "$vfPath" "$vfPath"
 rm "${vfPath/.ttf/-backup-fonttools-prep-gasp.ttf}"
 
-# remove MVAR (custom underline values, which mess up line heights on older versions of Windows)
-gftools fix-unwanted-tables "$vfPath"
-
-# add dummy DSIG
-gftools fix-dsig --autofix "$vfPath"
+# # remove MVAR (custom underline values, which mess up line heights on older versions of Windows)
+gftools fix-unwanted-tables "$vfPath" -t MVAR
 
 # set fsType to allow editable embedding
 gftools fix-fstype "$vfPath"

@@ -5,6 +5,8 @@
 	<image fileName="zero.png" xScale="2.3662938837" yScale="2.3662938837" xOffset="-35.8248343698" yOffset="-212.644631698" color="0,0,0,0.16492"/>
 	<outline>
 		<contour>
+			<point x="141" y="157" type="curve" smooth="yes"/>
+			<point x="106" y="157"/>
 			<point x="91" y="149"/>
 			<point x="91" y="130" type="curve" smooth="yes"/>
 			<point x="91" y="106"/>
@@ -21,8 +23,6 @@
 			<point x="545" y="166" type="curve" smooth="yes"/>
 			<point x="417" y="166"/>
 			<point x="252" y="157"/>
-			<point x="141" y="157" type="curve" smooth="yes"/>
-			<point x="106" y="157"/>
 		</contour>
 		<contour>
 			<point x="126" y="562" type="curve" smooth="yes"/>
