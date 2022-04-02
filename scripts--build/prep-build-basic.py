@@ -49,17 +49,6 @@ def makePrepDir():
         except FileNotFoundError:
             pass
 
-        # make bounce UFOs
-        if name in ["light","extrabold"]:
-            bounceCopy = prepDir+'/'+os.path.split(sources[f"bounce{name.title()}"])[1]
-            if not os.path.exists(bounceCopy):
-                shutil.copytree(source, bounceCopy)
-
-        # make bounce-reverse UFOs
-        if name in ["light","extrabold"]:
-            bounceReverseCopy = prepDir+'/'+os.path.split(sources[f"bounceReverse{name.title()}"])[1]
-            if not os.path.exists(bounceReverseCopy):
-                shutil.copytree(source, bounceReverseCopy)
 
 def sortGlyphOrder(fonts):
     """
@@ -184,7 +173,7 @@ def addFeaCode(fonts, feaPath):
         feaCode = features.read()
 
     for font in fonts:
-        font.features.text = feaCode
+        font.features.text = feaCode.replace("include(./cycle-calt.fea); # this is generated in prep-build.py","")
         font.save()
 
 
