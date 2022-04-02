@@ -52,22 +52,22 @@ Standard Ligatures | `liga` | Converts 3+ repeated hyphens into wavy lines, just
 
 ### Set up requirements
 
-Install pipenv.
+Make a virtual environment:
 
 ```bash
-pip install pipenv
+python3 -m venv venv
 ```
 
-Start the `pipenv` shell:
+Activate venv:
 
-```bash
-pipenv shell
+```
+source venv/bin/activate
 ```
 
-Install dependencies from `Pipfile.lock`.
+Install dependencies:
 
 ```bash
-pipenv sync
+pip install -U -r requirements.txt
 ```
 
 Finally, give the build scripts permission to run:
@@ -88,6 +88,7 @@ make clean all
 ### Building the fonts
 
 ```bash
+source venv/bin/activate # activate venv if not already active
 python3 scripts--build/prep-build.py
 ```
 
@@ -112,6 +113,7 @@ Update the version number in `version.txt` to the desired next release number, t
 Then, run this script to create a zipped archive of the fonts folder:
 
 ```bash
+source venv/bin/activate # activate venv if not already active
 scripts--build/make-release.sh
 ```
 
