@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="horncmb" format="2">
 	<unicode hex="031B"/>
-	<advance width="600"/>
 	<outline>
 		<contour>
-			<point x="65" y="509"/>
-			<point x="52" y="500"/>
-			<point x="34" y="500" type="curve" smooth="yes"/>
-			<point x="-13" y="500"/>
-			<point x="-49" y="482"/>
-			<point x="-49" y="431" type="curve" smooth="yes"/>
-			<point x="-49" y="379"/>
-			<point x="-24" y="341"/>
-			<point x="33" y="341" type="curve" smooth="yes"/>
-			<point x="167" y="341"/>
-			<point x="237" y="408"/>
-			<point x="237" y="510" type="curve" smooth="yes"/>
-			<point x="237" y="582"/>
-			<point x="196" y="617"/>
-			<point x="127" y="617" type="curve" smooth="yes"/>
-			<point x="85" y="617"/>
-			<point x="62" y="597"/>
-			<point x="62" y="568" type="curve" smooth="yes"/>
-			<point x="62" y="553"/>
-			<point x="65" y="545"/>
-			<point x="65" y="527" type="curve" smooth="yes"/>
+			<point x="0" y="500" type="curve" smooth="yes"/>
+			<point x="-47" y="500"/>
+			<point x="-83" y="482"/>
+			<point x="-83" y="431" type="curve" smooth="yes"/>
+			<point x="-83" y="379"/>
+			<point x="-58" y="341"/>
+			<point x="-1" y="341" type="curve" smooth="yes"/>
+			<point x="133" y="341"/>
+			<point x="203" y="408"/>
+			<point x="203" y="510" type="curve" smooth="yes"/>
+			<point x="203" y="582"/>
+			<point x="162" y="617"/>
+			<point x="93" y="617" type="curve" smooth="yes"/>
+			<point x="51" y="617"/>
+			<point x="28" y="597"/>
+			<point x="28" y="568" type="curve" smooth="yes"/>
+			<point x="28" y="553"/>
+			<point x="31" y="545"/>
+			<point x="31" y="527" type="curve" smooth="yes"/>
+			<point x="31" y="509"/>
+			<point x="18" y="500"/>
 		</contour>
 	</outline>
 </glyph>

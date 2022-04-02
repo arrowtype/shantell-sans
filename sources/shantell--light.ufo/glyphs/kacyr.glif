@@ -4,8 +4,6 @@
 	<advance width="499"/>
 	<outline>
 		<contour>
-			<point x="480" y="1"/>
-			<point x="464" y="-11"/>
 			<point x="446" y="-11" type="curve" smooth="yes"/>
 			<point x="357" y="-11"/>
 			<point x="244" y="92"/>
@@ -34,6 +32,8 @@
 			<point x="423" y="53"/>
 			<point x="480" y="36"/>
 			<point x="480" y="18" type="curve" smooth="yes"/>
+			<point x="480" y="1"/>
+			<point x="464" y="-11"/>
 		</contour>
 		<contour>
 			<point x="155" y="2"/>
@@ -62,6 +62,7 @@
 			<point x="155" y="20" type="curve" smooth="yes"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="250" y="485"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
