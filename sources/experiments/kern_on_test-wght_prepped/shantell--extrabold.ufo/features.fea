@@ -1,15 +1,333 @@
 languagesystem DFLT dflt;
 languagesystem latn dflt;
 
-# include paths written relative to UFOs in varfontprep folders
-# `features` dir will be copied to varfontprep folder, and these includes will link to that
-include(./features/common.fea);
-include(./features/ccmp.fea);
-include(./features/locl.fea);
-include(./features/frac.fea);
-include(./features/numr_dnom_supr_infr.fea);
-include(./features/pnum_tnum.fea);
-include(./features/ordn.fea);
-include(./features/case.fea);
-include(./features/liga.fea);
+# include(./features/common.fea);
+# numerals
+@numbers_dflt = [ zero              one              two              three              four              five              six              seven              eight              nine              ];
+@numbers_sups = [ zero.superior     onesuperior      twosuperior      threesuperior      four.superior     five.superior     six.superior     seven.superior     eight.superior     nine.superior      ];
+@numbers_sinf = [ zero.inferior     one.inferior     two.inferior     three.inferior     four.inferior     five.inferior     six.inferior     seven.inferior     eight.inferior     nine.inferior      ];
+@numbers_numr = [ zero.numr         one.numr         two.numr         three.numr         four.numr         five.numr         six.numr         seven.numr         eight.numr         nine.numr         ];
+@numbers_dnom = [ zero.dnom         one.dnom         two.dnom         three.dnom         four.dnom         five.dnom         six.dnom         seven.dnom         eight.dnom         nine.dnom         ];
+@numbers_pnum = [ zero.pnum         one.pnum         two.pnum         three.pnum         four.pnum         five.pnum         six.pnum         seven.pnum         eight.pnum         nine.pnum         ];
+
+@punc_prop = [ period      comma      slash      colon      ];
+@punc_tnum = [ period.tnum comma.tnum slash.tnum colon.tnum ];
+
+@PRE          = [ onehalf           onethird         twothirds        onequarter         threequarters     oneeighth         threeeighths     fiveeighths        seveneighths      ];
+
+lookup FractionBar {
+    ignore sub slash @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt slash';
+    ignore sub slash' @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt slash;
+    ignore sub slash @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt slash';
+    ignore sub slash' @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt slash;
+    ignore sub slash @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt slash';
+    ignore sub slash' @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt slash;
+    ignore sub slash @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt slash';
+    ignore sub slash' @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt slash;
+    ignore sub slash @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt slash';
+    ignore sub slash' @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt slash;
+    ignore sub slash @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt slash';
+    ignore sub slash' @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt slash;
+    ignore sub slash @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt slash';
+    ignore sub slash' @numbers_dflt @numbers_dflt @numbers_dflt @numbers_dflt slash;
+    ignore sub slash @numbers_dflt @numbers_dflt @numbers_dflt slash';
+    ignore sub slash' @numbers_dflt @numbers_dflt @numbers_dflt slash;
+    ignore sub slash @numbers_dflt @numbers_dflt slash';
+    ignore sub slash' @numbers_dflt @numbers_dflt slash;
+    ignore sub slash @numbers_dflt slash';
+    ignore sub slash' @numbers_dflt slash;
+    ignore sub slash slash';
+    ignore sub slash' slash;
+    sub @numbers_dflt slash' @numbers_dflt by fraction;
+} FractionBar;
+
+# include(./features/ccmp.fea);
+feature ccmp {
+
+    @base_uc = [ A AE B C D E F G H I J K L M N O Oslash P Q R S T U V W X Y Z ];
+    @base_lc = [ a ae b c d idotless jdotless e f g h i j k l m n o oslash p q r s t u v w x y z ];
+
+    @marks_below = [dotbelowcmb commaaccentbelowcmb cedillacomb ogonekcmb ];
+    @marks = [gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcmb dieresiscomb ringcomb hungarumlautcmb caroncomb commaturnedabovecmb];
+
+    lookup Dotless {
+        sub [i j]' @marks_below @marks by [ idotless jdotless ];
+        sub [i j]' @marks by [ idotless jdotless ];
+    } Dotless;
+
+    lookup replacements {
+        sub A ogonekcmb by Aogonek;
+        sub E ogonekcmb by Eogonek;
+        sub I ogonekcmb by Iogonek;
+        sub U ogonekcmb by Uogonek;
+
+        sub a ogonekcmb by aogonek;
+        sub e ogonekcmb by eogonek;
+        sub i ogonekcmb by iogonek;
+        sub u ogonekcmb by uogonek;
+
+        sub C cedillacomb by Ccedilla;
+        sub S cedillacomb by Scedilla;
+        sub T cedillacomb by Tcedilla;
+
+        sub c cedillacomb by ccedilla;
+        sub s cedillacomb by scedilla;
+        sub t cedillacomb by tcedilla;
+        
+        sub Oslash acutecomb by Oslashacute;
+        sub oslash acutecomb by oslashacute;
+
+        sub l caroncomb by lcaron;
+        sub L caroncomb by Lcaron;
+        sub t caroncomb by tcaron;
+
+    } replacements;
+
+} ccmp;
+
+# include(./features/locl.fea);
+
+feature locl {
+    script latn;
+        language AZE;
+	    language CRT;
+        language KAZ;
+        language TAT;
+        language TRK;
+            sub i by idotaccent;
+
+        language CAT;
+            sub l' periodcentered' l by ldot;
+            sub L' periodcentered' L by Ldot;
+
+        language ROM exclude_dflt;
+            lookup TSCedilla {
+                sub [Scedilla scedilla] by [Scommaaccent scommaaccent];
+                sub [Tcedilla tcedilla] by [Tcommaaccent tcommaaccent];
+            } TSCedilla;
+
+        language MOL exclude_dflt;
+            lookup TSCedilla;
+
+        language NLD; # Dutch
+            lookup LigatureIJ {
+                # IJacute/ijacute
+                
+                sub I acutecomb J acutecomb by IJacute;
+                sub Iacute J acutecomb by IJacute;
+                
+                #  ccmp should make these unneeded, but in case
+                sub i acutecomb j acutecomb by ijacute;
+                sub iacute j acutecomb by ijacute;
+                
+                # dotless forms
+                sub idotless acutecomb jdotless acutecomb by ijacute;
+                sub iacute jdotless acutecomb by ijacute;
+                
+                # simple case of IJ/ij
+                sub i j by ij;
+                sub I J by IJ;
+            } LigatureIJ;
+
+} locl;
+
+# include(./features/frac.fea);
+feature frac {
+
+    lookup FractionBar;
+
+    lookup Numerator1 {
+        sub @numbers_dflt' fraction by @numbers_numr;
+    } Numerator1;
+
+    lookup Numerator2 {
+        sub @numbers_dflt' @numbers_numr fraction by @numbers_numr;
+    } Numerator2;
+
+    lookup Numerator3 {
+        sub @numbers_dflt' @numbers_numr @numbers_numr fraction by @numbers_numr;
+    } Numerator3;
+
+    lookup Numerator4 {
+        sub @numbers_dflt' @numbers_numr @numbers_numr @numbers_numr fraction by @numbers_numr;
+    } Numerator4;
+
+    lookup Numerator5 {
+        sub @numbers_dflt' @numbers_numr @numbers_numr @numbers_numr @numbers_numr fraction by @numbers_numr;
+    } Numerator5;
+
+    lookup Numerator6 {
+        sub @numbers_dflt' @numbers_numr @numbers_numr @numbers_numr @numbers_numr @numbers_numr fraction by @numbers_numr;
+    } Numerator6;
+
+    lookup Numerator7 {
+        sub @numbers_dflt' @numbers_numr @numbers_numr @numbers_numr @numbers_numr @numbers_numr @numbers_numr fraction by @numbers_numr;
+    } Numerator7;
+
+    lookup Numerator8 {
+        sub @numbers_dflt' @numbers_numr @numbers_numr @numbers_numr @numbers_numr @numbers_numr @numbers_numr @numbers_numr fraction by @numbers_numr;
+    } Numerator8;
+
+    lookup Numerator9 {
+        sub @numbers_dflt' @numbers_numr @numbers_numr @numbers_numr @numbers_numr @numbers_numr @numbers_numr @numbers_numr @numbers_numr fraction by @numbers_numr;
+    } Numerator9;
+
+    lookup Numerator10 {
+        sub @numbers_dflt' @numbers_numr @numbers_numr @numbers_numr @numbers_numr @numbers_numr @numbers_numr @numbers_numr @numbers_numr @numbers_numr fraction by @numbers_numr;
+    } Numerator10;
+
+    lookup Denominator {
+        sub [fraction @numbers_dnom] @numbers_dflt' by @numbers_dnom;
+    } Denominator;
+
+    sub @numbers_dflt space' @numbers_numr by space.frac;
+    sub @numbers_dflt space' @PRE by space.frac;
+
+} frac;
+
+# include(./features/numr_dnom_supr_infr.fea);
+feature numr {
+	# numerators
+	sub @numbers_dflt by @numbers_numr;
+} numr;
+
+feature dnom {
+	# denominators
+	sub @numbers_dflt by @numbers_dnom;
+} dnom;
+
+feature sups {
+	# superiors
+	sub @numbers_dflt by @numbers_sups;
+} sups;
+
+feature sinf {
+	# inferiors
+	sub @numbers_dflt by @numbers_sinf;
+} sinf;
+
+# include(./features/pnum_tnum.fea);
+feature pnum {
+	# inferiors
+	sub @numbers_dflt by @numbers_pnum;
+} pnum;
+
+feature tnum {
+	sub @punc_prop by @punc_tnum;
+} tnum;
+
+# include(./features/ordn.fea);
+feature ordn {
+    sub [ a o ] by [ ordfeminine ordmasculine ];
+} ordn;
+
+# include(./features/case.fea);
+@lowercasePunc = [hyphen      endash      emdash      parenleft      parenright      bracketleft      bracketright      braceleft      braceright      bracketangleleft      bracketangleright      guilsinglleft      guilsinglright      guillemetleft      guillemetright      slash      backslash      at      exclamdown      questiondown      ];
+@uppercasePunc = [hyphen.case endash.case emdash.case parenleft.case parenright.case bracketleft.case bracketright.case braceleft.case braceright.case bracketangleleft.case bracketangleright.case guilsinglleft.case guilsinglright.case guillemetleft.case guillemetright.case slash.case backslash.case at.case exclamdown.case questiondown.case ];
+
+feature case {
+    sub @lowercasePunc by @uppercasePunc;
+} case;
+
+# include(./features/liga.fea);
+feature liga {
+    sub hyphen hyphen hyphen by hyphen_line.3;
+    sub emdash hyphen by hyphen_line.3;
+    sub hyphen hyphen hyphen hyphen by hyphen_line.4;
+    sub emdash emdash by hyphen_line.4;
+    sub hyphen hyphen hyphen hyphen hyphen by hyphen_line.5;
+    sub emdash emdash hyphen by hyphen_line.5;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.6;
+    sub emdash emdash emdash by hyphen_line.6;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.7;
+    sub emdash emdash emdash hyphen by hyphen_line.7;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.8;
+    sub emdash emdash emdash emdash by hyphen_line.8;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.9;
+    sub emdash emdash emdash emdash hyphen by hyphen_line.9;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.10;
+    sub emdash emdash emdash emdash emdash by hyphen_line.10;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.11;
+    sub emdash emdash emdash emdash emdash hyphen by hyphen_line.11;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.12;
+    sub emdash emdash emdash emdash emdash emdash by hyphen_line.12;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.13;
+    sub emdash emdash emdash emdash emdash emdash hyphen by hyphen_line.13;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.14;
+    sub emdash emdash emdash emdash emdash emdash emdash by hyphen_line.14;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.15;
+    sub emdash emdash emdash emdash emdash emdash emdash hyphen by hyphen_line.15;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.16;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash by hyphen_line.16;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.17;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash hyphen by hyphen_line.17;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.18;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash by hyphen_line.18;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.19;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash hyphen by hyphen_line.19;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.20;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash by hyphen_line.20;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.21;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash hyphen by hyphen_line.21;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.22;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash by hyphen_line.22;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.23;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash hyphen by hyphen_line.23;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.24;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash by hyphen_line.24;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.25;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash hyphen by hyphen_line.25;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.26;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash by hyphen_line.26;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.27;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash hyphen by hyphen_line.27;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.28;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash by hyphen_line.28;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.29;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash hyphen by hyphen_line.29;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.30;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash by hyphen_line.30;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.31;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash hyphen by hyphen_line.31;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.32;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash by hyphen_line.32;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.33;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash hyphen by hyphen_line.33;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.34;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash by hyphen_line.34;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.35;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash hyphen by hyphen_line.35;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.36;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash by hyphen_line.36;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.37;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash hyphen by hyphen_line.37;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.38;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash by hyphen_line.38;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.39;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash hyphen by hyphen_line.39;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.40;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash by hyphen_line.40;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.41;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash hyphen by hyphen_line.41;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.42;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash by hyphen_line.42;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.43;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash hyphen by hyphen_line.43;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.44;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash by hyphen_line.44;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.45;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash hyphen by hyphen_line.45;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.46;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash by hyphen_line.46;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.47;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash hyphen by hyphen_line.47;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.48;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash by hyphen_line.48;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.49;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash hyphen by hyphen_line.49;
+    sub hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen hyphen by hyphen_line.50;
+    sub emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash emdash by hyphen_line.50;
+} liga;
+
+
 
