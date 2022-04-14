@@ -1,32 +1,14 @@
-# languagesystem DFLT dflt;
-# languagesystem latn dflt;
-# languagesystem cyrl dflt;
-# include(./features/features/common.fea);
-# include(./features/features/ccmp.fea);
-# include(./features/features/locl.fea);
-# include(./features/features/frac.fea);
-# include(./features/features/case.fea);
-# include(./features/features/numr_dnom_supr_infr.fea);
-# include(./features/features/pnum_tnum.fea);
-# include(./features/cycle-calt.fea); # this is generated in [prep-build.py](http://prep-build.py/)
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem cyrl dflt;
+include(./features/features/common.fea);
+include(./features/features/ccmp.fea);
+include(./features/features/locl.fea);
+include(./features/features/frac.fea);
+include(./features/features/case.fea);
+include(./features/features/numr_dnom_supr_infr.fea);
+include(./features/features/pnum_tnum.fea);
+include(./features/cycle-calt.fea); # this is generated in [prep-build.py](http://prep-build.py/)
 
 
-
-feature ss01 {
-    sub Becyr by Becyr.ss01;
-    sub Ljecyr by Ljecyr.ss01;
-    sub Yacyr by Yacyr.ss01;
-    sub ustraightcyr by ustraightcyr.ss01;
-    sub ustraightstrokecyr by ustraightstrokecyr.ss01;
-    # sub yukrcyr by yukrcyr.ss01;
-} ss01;
-
-feature ss02 {
-    sub Yacyr by Yacyr.ss02;
-    # sub yukrcyr by yukrcyr.ss02;
-} ss02;
-
-feature ss03 {
-    sub Yacyr by Yacyr.ss03;
-} ss03;
 

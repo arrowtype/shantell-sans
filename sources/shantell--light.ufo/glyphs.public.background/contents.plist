@@ -12,10 +12,20 @@
 		<string>B_ecyr.glif</string>
 		<key>Checyr</key>
 		<string>C_hecyr.glif</string>
+		<key>Chekhakascyr</key>
+		<string>C_hekhakascyr.glif</string>
+		<key>Chetailcyr</key>
+		<string>C_hetailcyr.glif</string>
+		<key>Chevertcyr</key>
+		<string>C_hevertcyr.glif</string>
 		<key>D</key>
 		<string>D_.glif</string>
 		<key>Decyr</key>
 		<string>D_ecyr.glif</string>
+		<key>Djecyr</key>
+		<string>D_jecyr.glif</string>
+		<key>Dzhecyr</key>
+		<string>D_zhecyr.glif</string>
 		<key>E</key>
 		<string>E_.glif</string>
 		<key>Efcyr</key>
@@ -24,6 +34,10 @@
 		<string>E_lcyr.glif</string>
 		<key>Emcyr</key>
 		<string>E_mcyr.glif</string>
+		<key>Engecyr</key>
+		<string>E_ngecyr.glif</string>
+		<key>Entailcyr</key>
+		<string>E_ntailcyr.glif</string>
 		<key>Ereversedcyr</key>
 		<string>E_reversedcyr.glif</string>
 		<key>Eukrcyr</key>
@@ -36,10 +50,16 @@
 		<string>G_.glif</string>
 		<key>Gecyr</key>
 		<string>G_ecyr.glif</string>
+		<key>Gehookcyr</key>
+		<string>G_ehookcyr.glif</string>
 		<key>Germandbls</key>
 		<string>G_ermandbls.glif</string>
 		<key>Gestrokecyr</key>
 		<string>G_estrokecyr.glif</string>
+		<key>Getailcyr</key>
+		<string>G_etailcyr.glif</string>
+		<key>Geupcyr</key>
+		<string>G_eupcyr.glif</string>
 		<key>H</key>
 		<string>H_.glif</string>
 		<key>Hardcyr</key>
@@ -50,8 +70,16 @@
 		<string>I_J_.glif</string>
 		<key>Icyr</key>
 		<string>I_cyr.glif</string>
+		<key>Izhitsacyr</key>
+		<string>I_zhitsacyr.glif</string>
 		<key>K</key>
 		<string>K_.glif</string>
+		<key>Kabashkcyr</key>
+		<string>K_abashkcyr.glif</string>
+		<key>Katailcyr</key>
+		<string>K_atailcyr.glif</string>
+		<key>Kaverticalstrokecyr</key>
+		<string>K_averticalstrokecyr.glif</string>
 		<key>Ljecyr</key>
 		<string>L_jecyr.glif</string>
 		<key>M</key>
@@ -68,44 +96,62 @@
 		<string>O_horn.glif</string>
 		<key>Omega</key>
 		<string>O_mega.glif</string>
+		<key>Palochkacyr</key>
+		<string>P_alochkacyr.glif</string>
 		<key>Pecyr</key>
 		<string>P_ecyr.glif</string>
 		<key>S</key>
 		<string>S_.glif</string>
+		<key>Schwacyr</key>
+		<string>S_chwacyr.glif</string>
 		<key>Shacyr</key>
 		<string>S_hacyr.glif</string>
 		<key>Shchacyr</key>
 		<string>S_hchacyr.glif</string>
+		<key>Shhacyr</key>
+		<string>S_hhacyr.glif</string>
 		<key>Softcyr</key>
 		<string>S_oftcyr.glif</string>
 		<key>T</key>
 		<string>T_.glif</string>
 		<key>Tsecyr</key>
 		<string>T_secyr.glif</string>
+		<key>Tshecyr</key>
+		<string>T_shecyr.glif</string>
 		<key>U</key>
 		<string>U_.glif</string>
 		<key>Ucyr</key>
 		<string>U_cyr.glif</string>
+		<key>Ustraightcyr</key>
+		<string>U_straightcyr.glif</string>
 		<key>V</key>
 		<string>V_.glif</string>
 		<key>W</key>
 		<string>W_.glif</string>
 		<key>X</key>
 		<string>X_.glif</string>
+		<key>Xatailcyr</key>
+		<string>X_atailcyr.glif</string>
 		<key>Y</key>
 		<string>Y_.glif</string>
 		<key>Yacyr</key>
 		<string>Y_acyr.glif</string>
+		<key>Yatcyr</key>
+		<string>Y_atcyr.glif</string>
 		<key>Ylongcyr</key>
 		<string>Y_longcyr.glif</string>
 		<key>Yucyr</key>
 		<string>Y_ucyr.glif</string>
+		<key>Yusbigcyr</key>
+		<string>Y_usbigcyr.glif</string>
 		<key>Z</key>
 		<string>Z_.glif</string>
 		<key>Zecyr</key>
 		<string>Z_ecyr.glif</string>
 		<key>Zhecyr</key>
 		<string>Z_hecyr.glif</string>
+		<key>Zhetailcyr</key>
+		<string>Z_hetailcyr.glif</string>
 		<key>a</key>
 		<string>a.glif</string>
 		<key>acutecomb</key>
@@ -260,6 +306,8 @@
 		<string>heartblack.glif</string>
 		<key>heartwhite</key>
 		<string>heartwhite.glif</string>
+		<key>hryvnia</key>
+		<string>hryvnia.glif</string>
 		<key>hungarumlautcmb</key>
 		<string>hungarumlautcmb.glif</string>
 		<key>hyphen</key>
@@ -330,6 +378,8 @@
 		<string>notequal.glif</string>
 		<key>numbersign</key>
 		<string>numbersign.glif</string>
+		<key>numero</key>
+		<string>numero.glif</string>
 		<key>o</key>
 		<string>o.glif</string>
 		<key>obarcyr</key>
@@ -404,6 +454,8 @@
 		<string>summation.glif</string>
 		<key>tecyr</key>
 		<string>tecyr.glif</string>
+		<key>tenge</key>
+		<string>tenge.glif</string>
 		<key>three</key>
 		<string>three.glif</string>
 		<key>three.dnom</key>
@@ -418,6 +470,8 @@
 		<string>tsecyr.glif</string>
 		<key>tshecyr</key>
 		<string>tshecyr.glif</string>
+		<key>tugrik</key>
+		<string>tugrik.glif</string>
 		<key>turkishlira</key>
 		<string>turkishlira.glif</string>
 		<key>two</key>
