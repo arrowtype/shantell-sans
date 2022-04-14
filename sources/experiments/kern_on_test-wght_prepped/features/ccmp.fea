@@ -1,0 +1,42 @@
+feature ccmp {
+
+    @base_uc = [ A AE B C D E F G H I J K L M N O Oslash P Q R S T U V W X Y Z ];
+    @base_lc = [ a ae b c d idotless jdotless e f g h i j k l m n o oslash p q r s t u v w x y z ];
+
+    @marks_below = [dotbelowcmb commaaccentbelowcmb cedillacomb ogonekcmb ];
+    @marks = [gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcmb dieresiscomb ringcomb hungarumlautcmb caroncomb commaturnedabovecmb];
+
+    lookup Dotless {
+        sub [i j]' @marks_below @marks by [ idotless jdotless ];
+        sub [i j]' @marks by [ idotless jdotless ];
+    } Dotless;
+
+    lookup replacements {
+        sub A ogonekcmb by Aogonek;
+        sub E ogonekcmb by Eogonek;
+        sub I ogonekcmb by Iogonek;
+        sub U ogonekcmb by Uogonek;
+
+        sub a ogonekcmb by aogonek;
+        sub e ogonekcmb by eogonek;
+        sub i ogonekcmb by iogonek;
+        sub u ogonekcmb by uogonek;
+
+        sub C cedillacomb by Ccedilla;
+        sub S cedillacomb by Scedilla;
+        sub T cedillacomb by Tcedilla;
+
+        sub c cedillacomb by ccedilla;
+        sub s cedillacomb by scedilla;
+        sub t cedillacomb by tcedilla;
+        
+        sub Oslash acutecomb by Oslashacute;
+        sub oslash acutecomb by oslashacute;
+
+        sub l caroncomb by lcaron;
+        sub L caroncomb by Lcaron;
+        sub t caroncomb by tcaron;
+
+    } replacements;
+
+} ccmp;
