@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ecircumflexhoi" format="2">
+	<unicode hex="1EC3"/>
+	<advance width="562"/>
+	<outline>
+		<component base="e"/>
+		<component base="circumflexcomb" xOffset="299"/>
+		<component base="hookabovecmb" xOffset="459" yOffset="167"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.5534,0.5534,0.5534,0.4845</string>
+		</dict>
+	</lib>
+</glyph>
