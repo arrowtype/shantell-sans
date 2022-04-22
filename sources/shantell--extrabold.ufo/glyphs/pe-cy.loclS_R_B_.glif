@@ -1,33 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pe-cy.loclSRB" format="2">
-	<advance width="708"/>
+	<advance width="654"/>
 	<outline>
-		<contour>
-			<point x="227" y="572" type="curve" smooth="yes"/>
-			<point x="266" y="572"/>
-			<point x="352" y="583"/>
-			<point x="524" y="583" type="curve" smooth="yes"/>
-			<point x="555" y="583"/>
-			<point x="573" y="604"/>
-			<point x="573" y="637" type="curve" smooth="yes"/>
-			<point x="573" y="678"/>
-			<point x="530" y="729"/>
-			<point x="411" y="729" type="curve" smooth="yes"/>
-			<point x="335" y="729"/>
-			<point x="263" y="725"/>
-			<point x="184" y="714" type="curve" smooth="yes"/>
-			<point x="123" y="706"/>
-			<point x="113" y="679"/>
-			<point x="113" y="652" type="curve" smooth="yes"/>
-			<point x="113" y="605"/>
-			<point x="154" y="572"/>
-		</contour>
-		<component base="icyr"/>
+		<component base="pecyr"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.8283,0.1783,0.2428,1</string>
+			<string>0.7336,0.5157,0.996,1</string>
 		</dict>
 	</lib>
 </glyph>
