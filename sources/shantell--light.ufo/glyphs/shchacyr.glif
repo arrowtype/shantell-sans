@@ -4,8 +4,6 @@
 	<advance width="863"/>
 	<outline>
 		<contour>
-			<point x="135" y="301"/>
-			<point x="156" y="415"/>
 			<point x="156" y="448" type="curve" smooth="yes"/>
 			<point x="156" y="472"/>
 			<point x="139" y="498"/>
@@ -44,10 +42,10 @@
 			<point x="159" y="54"/>
 			<point x="135" y="93"/>
 			<point x="135" y="149" type="curve" smooth="yes"/>
+			<point x="135" y="301"/>
+			<point x="156" y="415"/>
 		</contour>
 		<contour>
-			<point x="431" y="340"/>
-			<point x="439" y="389"/>
 			<point x="439" y="423" type="curve" smooth="yes"/>
 			<point x="439" y="451"/>
 			<point x="425" y="479"/>
@@ -65,6 +63,8 @@
 			<point x="446" y="91"/>
 			<point x="431" y="151"/>
 			<point x="431" y="252" type="curve" smooth="yes"/>
+			<point x="431" y="340"/>
+			<point x="439" y="389"/>
 		</contour>
 		<contour>
 			<point x="741" y="445" type="curve" smooth="yes"/>
