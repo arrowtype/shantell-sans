@@ -1,33 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Idotbelow" format="2">
 	<unicode hex="1ECA"/>
-	<advance width="221"/>
+	<advance width="607"/>
 	<outline>
-		<contour>
-			<point x="84.1346153846" y="0" type="line"/>
-			<point x="136.5384615385" y="0" type="line"/>
-			<point x="136.5384615385" y="700" type="line"/>
-			<point x="84.1346153846" y="700" type="line"/>
-		</contour>
-		<contour>
-			<point x="64.1826923077" y="-129.8076923077" type="qcurve" smooth="yes"/>
-			<point x="64.1826923077" y="-148.5576923077"/>
-			<point x="88.2211538462" y="-174.5192307692"/>
-			<point x="110.3365384615" y="-174.5192307692" type="qcurve" smooth="yes"/>
-			<point x="132.9326923077" y="-174.5192307692"/>
-			<point x="156.9711538462" y="-148.5576923077"/>
-			<point x="156.9711538462" y="-129.8076923077" type="qcurve" smooth="yes"/>
-			<point x="156.9711538462" y="-111.5384615385"/>
-			<point x="132.9326923077" y="-84.6153846154"/>
-			<point x="110.3365384615" y="-84.6153846154" type="qcurve" smooth="yes"/>
-			<point x="88.2211538462" y="-84.6153846154"/>
-			<point x="64.1826923077" y="-111.5384615385"/>
-		</contour>
+		<component base="I"/>
+		<component base="dotbelowcmb" xOffset="307" yOffset="29"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>1,0.8,0,0.3</string>
+			<string>0.5534,0.5534,0.5534,0.4845</string>
 		</dict>
 	</lib>
 </glyph>

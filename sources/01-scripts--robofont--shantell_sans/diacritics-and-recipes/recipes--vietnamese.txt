@@ -1,3 +1,5 @@
+# start by drawing Ohorn, ohorn, Uhorn, uhorn with letter component plus horn outline
+
 Wgrave = W + gravecomb @ top
 wgrave = w + gravecomb @ top
 Wacute = W + acutecomb @ top
@@ -38,8 +40,8 @@ Ohornhoi = Ohorn + hookabovecmb @ top
 ohornhoi = ohorn + hookabovecmb @ top
 Ohorntilde = Ohorn + tildecomb @ top
 ohorntilde = ohorn + tildecomb @ top
-Ohorndotbelow = Ohorn + dotbelowcmb @ top
-ohorndotbelow = ohorn + dotbelowcmb @ top
+Ohorndotbelow = Ohorn + dotbelowcmb @ bottom
+ohorndotbelow = ohorn + dotbelowcmb @ bottom
 Udotbelow = U + dotbelowcmb @ bottom
 udotbelow = u + dotbelowcmb @ bottom
 Uhoi = U + hookabovecmb @ top
@@ -52,8 +54,8 @@ Uhornhoi = Uhorn + hookabovecmb @ top
 uhornhoi = uhorn + hookabovecmb @ top
 Uhorntilde = Uhorn + tildecomb @ top
 uhorntilde = uhorn + tildecomb @ top
-Uhorndotbelow = Uhorn + dotbelowcmb @ top
-uhorndotbelow = uhorn + dotbelowcmb @ top
+Uhorndotbelow = Uhorn + dotbelowcmb @ bottom
+uhorndotbelow = uhorn + dotbelowcmb @ bottom
 Ygrave = Y + gravecomb @ top
 ygrave = y + gravecomb @ top
 Ydotbelow = Y + dotbelowcmb @ bottom
@@ -103,4 +105,5 @@ ocircumflexgrave = o + circumflexcomb @ top + gravecomb @ circumflexcomb:side
 Ocircumflexhoi = O + circumflexcomb @ top + hookabovecmb @ circumflexcomb:side
 ocircumflexhoi = o + circumflexcomb @ top + hookabovecmb @ circumflexcomb:side
 Ocircumflextilde = O + circumflexcomb @ top + tildecomb @ circumflexcomb:top
+
 ocircumflextilde = o + circumflexcomb @ top + tildecomb @ circumflexcomb:top

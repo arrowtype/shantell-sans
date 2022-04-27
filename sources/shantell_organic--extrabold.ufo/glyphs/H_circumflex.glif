@@ -1,36 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Hcircumflex" format="2">
 	<unicode hex="0124"/>
-	<advance width="711"/>
+	<advance width="730"/>
 	<outline>
-		<contour>
-			<point x="81.7307692308" y="0" type="line"/>
-			<point x="134.1346153846" y="0" type="line"/>
-			<point x="134.1346153846" y="337.0192307692" type="line"/>
-			<point x="576.4423076923" y="337.0192307692" type="line"/>
-			<point x="576.4423076923" y="0" type="line"/>
-			<point x="628.8461538462" y="0" type="line"/>
-			<point x="628.8461538462" y="700" type="line"/>
-			<point x="576.4423076923" y="700" type="line"/>
-			<point x="576.4423076923" y="385.0961538462" type="line"/>
-			<point x="134.1346153846" y="385.0961538462" type="line"/>
-			<point x="134.1346153846" y="700" type="line"/>
-			<point x="81.7307692308" y="700" type="line"/>
-		</contour>
-		<contour>
-			<point x="377.6960784314" y="964.1025641025" type="line"/>
-			<point x="331.5893665158" y="964.1025641025" type="line"/>
-			<point x="177.7432126697" y="798.0769230769" type="line"/>
-			<point x="235.1150075415" y="798.0769230769" type="line"/>
-			<point x="354.8076923077" y="924.4343891403" type="line"/>
-			<point x="469.391025641" y="798.0769230769" type="line"/>
-			<point x="527.5452488688" y="798.0769230769" type="line"/>
-		</contour>
+		<component base="H"/>
+		<component base="circumflexcomb" xOffset="370" yOffset="185"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>1,0.8,0,0.3</string>
+			<string>0.5534,0.5534,0.5534,0.4845</string>
 		</dict>
 	</lib>
 </glyph>

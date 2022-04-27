@@ -1,58 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Dzcaron" format="2">
 	<unicode hex="01C5"/>
-	<advance width="1203"/>
+	<advance width="1320"/>
 	<outline>
-		<contour>
-			<point x="81.7307692308" y="0" type="line"/>
-			<point x="284.1353695325" y="0" type="line" smooth="yes"/>
-			<point x="427.3368309392" y="0"/>
-			<point x="610.1118024133" y="181.7437251035"/>
-			<point x="610.1118024133" y="337.4490950226" type="qcurve" smooth="yes"/>
-			<point x="610.0961538462" y="362.5" type="line" smooth="yes"/>
-			<point x="610.0961538462" y="518.2692307692"/>
-			<point x="427.4038461538" y="700"/>
-			<point x="284.1346153846" y="700" type="qcurve" smooth="yes"/>
-			<point x="81.7307692308" y="700" type="line"/>
-		</contour>
-		<contour>
-			<point x="134.318627451" y="48.7650829563" type="line"/>
-			<point x="134.318627451" y="651.2349170438" type="line"/>
-			<point x="284.1353695325" y="651.2349170438" type="line" smooth="yes"/>
-			<point x="408.8420651562" y="651.2349170438"/>
-			<point x="556.4950980392" y="502.9506033183"/>
-			<point x="556.6104826546" y="362.5509049774" type="qcurve" smooth="yes"/>
-			<point x="556.6104826546" y="337.4490950226" type="line" smooth="yes"/>
-			<point x="556.4950980392" y="197.5301659125"/>
-			<point x="408.8420651562" y="48.7650829563"/>
-			<point x="284.1353695325" y="48.7650829563" type="qcurve" smooth="yes"/>
-		</contour>
-		<contour>
-			<point x="698.5576923077" y="0" type="line"/>
-			<point x="1172.6187782805" y="0" type="line"/>
-			<point x="1172.6187782805" y="46.6383861237" type="line"/>
-			<point x="764.3382352941" y="46.6383861237" type="line"/>
-			<point x="1155.0245098039" y="481.9117647059" type="line"/>
-			<point x="1155.0245098039" y="523.5180995475" type="line"/>
-			<point x="703.3861236802" y="523.5180995475" type="line"/>
-			<point x="703.3861236802" y="476.8797134238" type="line"/>
-			<point x="1088.6651583711" y="476.8797134238" type="line"/>
-			<point x="698.5576923077" y="42.2058823529" type="line"/>
-		</contour>
-		<contour>
-			<point x="914.1874057315" y="615.3846153846" type="line"/>
-			<point x="956.0049019608" y="615.3846153846" type="line"/>
-			<point x="1081.6742081448" y="762.9996229261" type="line"/>
-			<point x="1027.9317496229" y="762.9996229261" type="line"/>
-			<point x="935.0961538462" y="652.8940422323" type="line"/>
-			<point x="842.2605580694" y="762.9996229261" type="line"/>
-			<point x="787.0757918552" y="762.9996229261" type="line"/>
-		</contour>
+		<component base="D"/>
+		<component base="z" xOffset="687"/>
+		<component base="caroncomb" xOffset="984"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>1,0.8,0,0.3</string>
+			<string>0.5534,0.5534,0.5534,0.4845</string>
 		</dict>
 	</lib>
 </glyph>

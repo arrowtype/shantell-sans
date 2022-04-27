@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ringcomb.A" format="2">
 	<outline>
-		<component base="ringcomb"/>
+		<component base="ringcomb" yOffset="40"/>
 	</outline>
 	<anchor name="_ring" x="0" y="636"/>
 	<anchor name="top" x="0" y="758"/>

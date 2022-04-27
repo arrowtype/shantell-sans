@@ -2,13 +2,7 @@
 <glyph name="dotbelowcmb" format="2">
 	<unicode hex="0323"/>
 	<outline>
-		<component base="dotaccentcmb" yScale="0.99" yOffset="-889"/>
+		<component base="dotaccentcmb" yScale="0.99" yOffset="-839"/>
 	</outline>
 	<anchor name="_bottom" x="0" y="0"/>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>1,1,0,1</string>
-		</dict>
-	</lib>
 </glyph>

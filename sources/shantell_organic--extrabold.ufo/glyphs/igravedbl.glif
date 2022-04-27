@@ -1,31 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="igravedbl" format="2">
 	<unicode hex="0209"/>
-	<advance width="202"/>
+	<advance width="348"/>
 	<outline>
-		<contour>
-			<point x="75.4807692308" y="0" type="line"/>
-			<point x="126.9230769231" y="0" type="line"/>
-			<point x="126.9230769231" y="523.5576923077" type="line"/>
-			<point x="75.4807692308" y="523.5576923077" type="line"/>
-		</contour>
-		<contour>
-			<point x="46.1538461538" y="615.3846153846" type="line"/>
-			<point x="67.3076923077" y="636.0576923077" type="line"/>
-			<point x="-75.9615384615" y="786.5384615385" type="line"/>
-			<point x="-118.2692307692" y="747.1153846154" type="line"/>
-		</contour>
-		<contour>
-			<point x="231.7307692308" y="615.3846153846" type="line"/>
-			<point x="252.8846153846" y="636.0576923077" type="line"/>
-			<point x="109.6153846154" y="786.5384615385" type="line"/>
-			<point x="67.3076923077" y="747.1153846154" type="line"/>
-		</contour>
+		<component base="idotless"/>
+		<component base="gravedoublecmb" xOffset="162"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>1,0.8,0,0.3</string>
+			<string>0.5534,0.5534,0.5534,0.4845</string>
 		</dict>
 	</lib>
 </glyph>
