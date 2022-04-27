@@ -70,6 +70,8 @@
 			<integer>-40</integer>
 			<key>Agrave.alt3</key>
 			<real>-79.5</real>
+			<key>Ainvertedbreve</key>
+			<integer>-36</integer>
 			<key>Amacron</key>
 			<integer>72</integer>
 			<key>Amacron.alt1</key>
@@ -218,6 +220,8 @@
 			<integer>81</integer>
 			<key>Egrave.alt3</key>
 			<real>103.5</real>
+			<key>Einvertedbreve</key>
+			<real>-39.75</real>
 			<key>Emacron</key>
 			<real>37.5</real>
 			<key>Emacron.alt1</key>
@@ -346,6 +350,8 @@
 			<real>79.5</real>
 			<key>Igrave.alt3</key>
 			<integer>90</integer>
+			<key>Iinvertedbreve</key>
+			<real>-44.25</real>
 			<key>Imacron</key>
 			<real>46.5</real>
 			<key>Imacron.alt1</key>
@@ -506,6 +512,8 @@
 			<real>133.5</real>
 			<key>Ohungarumlaut.alt3</key>
 			<integer>-51</integer>
+			<key>Oinvertedbreve</key>
+			<integer>-33</integer>
 			<key>Omacron</key>
 			<integer>-33</integer>
 			<key>Omacron.alt1</key>
@@ -586,6 +594,8 @@
 			<real>85.5</real>
 			<key>Rcaron.alt3</key>
 			<integer>-60</integer>
+			<key>Rinvertedbreve</key>
+			<real>-38.25</real>
 			<key>S</key>
 			<integer>-57</integer>
 			<key>S.alt1</key>
@@ -714,6 +724,8 @@
 			<real>100.5</real>
 			<key>Uhungarumlaut.alt3</key>
 			<real>-82.5</real>
+			<key>Uinvertedbreve</key>
+			<real>-44.25</real>
 			<key>Umacron</key>
 			<real>46.5</real>
 			<key>Umacron.alt1</key>
@@ -888,6 +900,8 @@
 			<integer>123</integer>
 			<key>agrave.alt3</key>
 			<real>-73.5</real>
+			<key>ainvertedbreve</key>
+			<real>-29.25</real>
 			<key>amacron</key>
 			<integer>66</integer>
 			<key>amacron.alt1</key>
@@ -1006,6 +1020,8 @@
 			<integer>117</integer>
 			<key>bar.alt3</key>
 			<integer>57</integer>
+			<key>belowbrevecmb</key>
+			<integer>-21</integer>
 			<key>braceleft</key>
 			<integer>21</integer>
 			<key>braceleft.alt1</key>
@@ -1066,6 +1082,8 @@
 			<real>70.5</real>
 			<key>bullet.case</key>
 			<real>55.5</real>
+			<key>bulletoperator</key>
+			<integer>42</integer>
 			<key>c</key>
 			<integer>-72</integer>
 			<key>c.alt1</key>
@@ -1170,6 +1188,8 @@
 			<integer>45</integer>
 			<key>degree</key>
 			<real>-28.5</real>
+			<key>dieresisbelowcmb</key>
+			<integer>-36</integer>
 			<key>dieresiscomb.alt1</key>
 			<integer>-96</integer>
 			<key>dieresiscomb.alt2</key>
@@ -1266,6 +1286,8 @@
 			<integer>-87</integer>
 			<key>eight.pnum</key>
 			<real>55.5</real>
+			<key>einvertedbreve</key>
+			<real>-43.5</real>
 			<key>ellipsis</key>
 			<integer>33</integer>
 			<key>emacron</key>
@@ -1608,6 +1630,8 @@
 			<integer>78</integer>
 			<key>igrave.alt3</key>
 			<integer>120</integer>
+			<key>iinvertedbreve</key>
+			<real>38.25</real>
 			<key>ij</key>
 			<real>49.5</real>
 			<key>ijacute</key>
@@ -1626,6 +1650,8 @@
 			<real>25.5</real>
 			<key>integral</key>
 			<real>43.5</real>
+			<key>invertedbrevecmb</key>
+			<real>18.75</real>
 			<key>iogonek</key>
 			<real>28.5</real>
 			<key>iogonek.alt1</key>
@@ -1700,6 +1726,8 @@
 			<integer>111</integer>
 			<key>m.alt3</key>
 			<real>55.5</real>
+			<key>macronbelowcmb</key>
+			<real>-30.75</real>
 			<key>macroncomb.alt1</key>
 			<real>-82.5</real>
 			<key>macroncomb.alt2</key>
@@ -1832,6 +1860,8 @@
 			<integer>102</integer>
 			<key>ohungarumlaut.alt3</key>
 			<real>-79.5</real>
+			<key>oinvertedbreve</key>
+			<real>-14.25</real>
 			<key>omacron</key>
 			<integer>-54</integer>
 			<key>omacron.alt1</key>
@@ -1928,6 +1958,10 @@
 			<integer>-33</integer>
 			<key>periodcentered.case</key>
 			<real>49.5</real>
+			<key>periodcentered.loclCAT</key>
+			<real>-39.75</real>
+			<key>periodcentered.loclCAT_case</key>
+			<integer>-36</integer>
 			<key>perthousand</key>
 			<real>34.5</real>
 			<key>pi</key>
@@ -2050,6 +2084,8 @@
 			<integer>81</integer>
 			<key>ringcomb.alt3</key>
 			<real>58.5</real>
+			<key>rinvertedbreve</key>
+			<real>29.25</real>
 			<key>s</key>
 			<integer>-69</integer>
 			<key>s.alt1</key>
@@ -2266,6 +2302,8 @@
 			<real>103.5</real>
 			<key>uhungarumlaut.alt3</key>
 			<integer>81</integer>
+			<key>uinvertedbreve</key>
+			<real>44.25</real>
 			<key>umacron</key>
 			<real>22.5</real>
 			<key>umacron.alt1</key>
