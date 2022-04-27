@@ -41,15 +41,15 @@ feature locl {
                 sub I J by IJ;
             } LigatureIJ;
             
-    script cyrl;
-        language BGR;
-            lookup Bulgarian {
-                sub [vecyr gecyr decyr zhecyr zecyr icyr ishortcyr kacyr elcyr encyr pecyr tecyr tsecyr checyr shacyr shchacyr hardcyr softcyr yucyr igravecyr] by [ve-cy.loclBGR ge-cy.loclBGR de-cy.loclBGR zhe-cy.loclBGR ze-cy.loclBGR ii-cy.loclBGR iishort-cy.loclBGR ka-cy.loclBGR el-cy.loclBGR en-cy.loclBGR pe-cy.loclBGR te-cy.loclBGR tse-cy.loclBGR che-cy.loclBGR sha-cy.loclBGR shcha-cy.loclBGR hardsign-cy.loclBGR softsign-cy.loclBGR iu-cy.loclBGR iigrave-cy.loclBGR];
-            } Bulgarian;
-        language SRB;
-            lookup Serbian {
-                sub becyr by be-cy.loclSRB;
-            } Serbian;
+    # script cyrl;
+    #     language BGR;
+    #         lookup Bulgarian {
+    #             sub [vecyr gecyr decyr zhecyr zecyr icyr ishortcyr kacyr elcyr encyr pecyr tecyr tsecyr checyr shacyr shchacyr hardcyr softcyr yucyr igravecyr] by [ve-cy.loclBGR ge-cy.loclBGR de-cy.loclBGR zhe-cy.loclBGR ze-cy.loclBGR ii-cy.loclBGR iishort-cy.loclBGR ka-cy.loclBGR el-cy.loclBGR en-cy.loclBGR pe-cy.loclBGR te-cy.loclBGR tse-cy.loclBGR che-cy.loclBGR sha-cy.loclBGR shcha-cy.loclBGR hardsign-cy.loclBGR softsign-cy.loclBGR iu-cy.loclBGR iigrave-cy.loclBGR];
+    #         } Bulgarian;
+    #     language SRB;
+    #         lookup Serbian {
+    #             sub becyr by be-cy.loclSRB;
+    #         } Serbian;
 
 
 } locl;

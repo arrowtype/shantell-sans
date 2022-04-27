@@ -5,8 +5,6 @@
 	<image fileName="integral.png" xScale="0.9720615535" yScale="1.2731980413" xOffset="-55.5241497991" yOffset="-340.3852911287" color="0,0,0,0.26355"/>
 	<outline>
 		<contour>
-			<point x="233" y="-258"/>
-			<point x="273" y="-145"/>
 			<point x="296" y="293" type="curve" smooth="yes"/>
 			<point x="316" y="666"/>
 			<point x="369" y="746"/>
@@ -29,6 +27,8 @@
 			<point x="16" y="-242"/>
 			<point x="33" y="-258"/>
 			<point x="63" y="-258" type="curve" smooth="yes"/>
+			<point x="233" y="-258"/>
+			<point x="273" y="-145"/>
 		</contour>
 	</outline>
 	<lib>
