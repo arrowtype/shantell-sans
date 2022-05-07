@@ -4,8 +4,7 @@
 	<advance width="780"/>
 	<outline>
 		<component base="A"/>
-		<component base="ringcomb.A" xOffset="404" yOffset="16"/>
-		<component base="acutecomb" xOffset="404" yOffset="259"/>
+		<component base="ringacutecomb" xOffset="404" yOffset="-4"/>
 	</outline>
 	<lib>
 		<dict>
@@ -13,4 +12,7 @@
 			<string>0.5534,0.5534,0.5534,0.4845</string>
 		</dict>
 	</lib>
+	<note>
+but maybe there should be a ringacutecomb.A connected at "top" instead?
+</note>
 </glyph>
