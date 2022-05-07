@@ -4,13 +4,15 @@
 	<advance width="713"/>
 	<outline>
 		<component base="A"/>
-		<component base="ringcomb.A" xOffset="401" yOffset="98"/>
-		<component base="acutecomb" xOffset="401" yOffset="359"/>
+		<component base="ringacutecomb" xOffset="400" yOffset="101"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<string>0.4747,0.4711,0.5534,0.4845</string>
 		</dict>
 	</lib>
+	<note>
+but maybe there should be a ringacutecomb.A connected at "top" instead?
+</note>
 </glyph>

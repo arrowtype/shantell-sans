@@ -1,0 +1,77 @@
+# vietnamese stacked accents
+
+?breveacutecomb = brevecomb + acutecomb@top
+
+?brevegravecomb = brevecomb + gravecomb@top
+
+?brevehookabovecomb = brevecomb + hookabovecmb@top
+
+?brevetildecomb = brevecomb + tildecomb@top
+
+?circumflexacutecomb = circumflexcomb + acutecomb@side
+
+?circumflexgravecomb = circumflexcomb + gravecomb@side
+
+?circumflexhookabovecomb = circumflexcomb + hookabovecmb@side
+
+?circumflextildecomb = circumflexcomb + tildecomb@top
+
+
+# other stacked accents
+
+?ringacutecomb = ringcomb.A + acutecomb@top
+
+?dieresismacroncomb = dieresiscomb + macroncomb@top
+
+?tildemacroncomb = tildecomb + macroncomb@top
+
+?dotmacroncomb = dotaccentcmb + macroncomb@top
+
+
+
+# Vietnamese Stacks
+
+Acircumflexacute = A + circumflexacutecomb @ top
+acircumflexacute = a + circumflexacutecomb @ top
+Acircumflexgrave = A + circumflexgravecomb @ top
+acircumflexgrave = a + circumflexgravecomb @ top
+Acircumflexhoi = A + circumflexhookabovecomb @ top
+acircumflexhoi = a + circumflexhookabovecomb @ top
+Ecircumflexacute = E + circumflexacutecomb @ top
+ecircumflexacute = e + circumflexacutecomb @ top
+Ecircumflexgrave = E + circumflexgravecomb @ top
+ecircumflexgrave = e + circumflexgravecomb @ top
+Ecircumflexhoi = E + circumflexhookabovecomb @ top
+ecircumflexhoi = e + circumflexhookabovecomb @ top
+Ocircumflexacute = O + circumflexacutecomb @ top
+ocircumflexacute = o + circumflexacutecomb @ top
+Ocircumflexgrave = O + circumflexgravecomb @ top
+ocircumflexgrave = o + circumflexgravecomb @ top
+Ocircumflexhoi = O + circumflexhookabovecomb @ top
+ocircumflexhoi = o + circumflexhookabovecomb @ top
+
+Acircumflextilde = A + circumflextildecomb @ top
+acircumflextilde = a + circumflextildecomb @ top
+Abreveacute = A + breveacutecomb @ top
+abreveacute = a + breveacutecomb @ top
+Abrevegrave = A + brevegravecomb @ top
+abrevegrave = a + brevegravecomb @ top
+Abrevehoi = A + brevehookabovecomb @ top
+abrevehoi = a + brevehookabovecomb @ top
+Abrevetilde = A + brevetildecomb @ top
+abrevetilde = a + brevetildecomb @ top
+Ecircumflextilde = E + circumflextildecomb @ top
+ecircumflextilde = e + circumflextildecomb @ top
+Ocircumflextilde = O + circumflextildecomb @ top
+ocircumflextilde = o + circumflextildecomb @ top
+
+# Non-Vietnamese Stacks
+
+Aringacute  = A + ringacutecomb@ring # but maybe there should be a ringacutecomb.A connected at "top" instead?
+aringacute  = a + ringacutecomb@top
+Odieresismacron = O + dieresismacroncomb@top
+odieresismacron = o + dieresismacroncomb@top
+Otildemacron = O + tildemacroncomb@top
+otildemacron = o + tildemacroncomb@top
+Odotmacron = O + dotmacroncomb@top
+odotmacron = o + dotmacroncomb@top
