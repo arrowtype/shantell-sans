@@ -1484,6 +1484,8 @@
 			<real>115.5</real>
 			<key>bracketright.case</key>
 			<integer>33</integer>
+			<key>breveacutecomb</key>
+			<real>21.75</real>
 			<key>brevecomb-cy</key>
 			<real>-18.75</real>
 			<key>brevecomb.alt1</key>
@@ -1492,6 +1494,12 @@
 			<integer>105</integer>
 			<key>brevecomb.alt3</key>
 			<integer>-75</integer>
+			<key>brevegravecomb</key>
+			<real>15.75</real>
+			<key>brevehookabovecomb</key>
+			<real>29.25</real>
+			<key>brevetildecomb</key>
+			<real>-10.5</real>
 			<key>brokenbar</key>
 			<real>-25.5</real>
 			<key>bullet</key>
@@ -1562,12 +1570,20 @@
 			<real>-34.5</real>
 			<key>chevertcyr</key>
 			<real>-26.25</real>
+			<key>circumflexacutecomb</key>
+			<real>-36.75</real>
 			<key>circumflexcomb.alt1</key>
 			<real>-94.5</real>
 			<key>circumflexcomb.alt2</key>
 			<integer>138</integer>
 			<key>circumflexcomb.alt3</key>
 			<real>-103.5</real>
+			<key>circumflexgravecomb</key>
+			<integer>18</integer>
+			<key>circumflexhookabovecomb</key>
+			<real>17.25</real>
+			<key>circumflextildecomb</key>
+			<real>-33.75</real>
 			<key>colon</key>
 			<real>-49.5</real>
 			<key>colon.alt1</key>
@@ -1638,6 +1654,8 @@
 			<integer>129</integer>
 			<key>dieresiscomb.alt3</key>
 			<real>64.5</real>
+			<key>dieresismacroncomb</key>
+			<integer>-12</integer>
 			<key>divide</key>
 			<real>25.5</real>
 			<key>divisionslash</key>
@@ -1664,6 +1682,8 @@
 			<integer>108</integer>
 			<key>dotaccentcmb.alt3</key>
 			<integer>117</integer>
+			<key>dotmacroncomb</key>
+			<real>-10.5</real>
 			<key>dzcaron</key>
 			<real>-9.75</real>
 			<key>dzecyr</key>
@@ -2772,6 +2792,8 @@
 			<real>-58.5</real>
 			<key>rgravedbl</key>
 			<real>-43.5</real>
+			<key>ringacutecomb</key>
+			<real>15.75</real>
 			<key>ringcomb.alt1</key>
 			<integer>-147</integer>
 			<key>ringcomb.alt2</key>
@@ -2948,6 +2970,8 @@
 			<real>85.5</real>
 			<key>tildecomb.alt3</key>
 			<real>103.5</real>
+			<key>tildemacroncomb</key>
+			<real>40.5</real>
 			<key>trademark</key>
 			<integer>-18</integer>
 			<key>tse-cy.loclBGR</key>
@@ -5088,17 +5112,39 @@
 			<string>f_f_i</string>
 			<string>f_f_l</string>
 			<string>brevecomb-cy.case</string>
+			<string>yukrcyr.ss01</string>
+			<string>yukrcyr.ss02</string>
+			<string>ustraightcyr.ss01</string>
+			<string>ustraightstrokecyr.ss01</string>
 			<string>periodcentered.loclCAT</string>
 			<string>periodcentered.loclCAT_case</string>
 			<string>hungarumlaut</string>
 			<string>dieresisbelowcmb</string>
 			<string>belowbrevecmb</string>
 			<string>macronbelowcmb</string>
+			<string>cheabkhcyr</string>
+			<string>cyrbreve</string>
+			<string>Becyr.50</string>
 			<string>Ljecyr.ss01</string>
 			<string>Becyr.ss01</string>
 			<string>primemod</string>
 			<string>primedblmod</string>
-			<string>yukcyr.locl</string>
+			<string>hookabovecomb</string>
+			<string>circumflexcmb</string>
+			<string>dieresiscmb</string>
+			<string>macroncmb</string>
+			<string>breveacutecomb</string>
+			<string>brevegravecomb</string>
+			<string>brevehookabovecomb</string>
+			<string>brevetildecomb</string>
+			<string>circumflexacutecomb</string>
+			<string>circumflexgravecomb</string>
+			<string>circumflexhookabovecomb</string>
+			<string>circumflextildecomb</string>
+			<string>ringacutecomb</string>
+			<string>dieresismacroncomb</string>
+			<string>tildemacroncomb</string>
+			<string>dotmacroncomb</string>
 		</array>
 		<key>public.postscriptNames</key>
 		<dict>

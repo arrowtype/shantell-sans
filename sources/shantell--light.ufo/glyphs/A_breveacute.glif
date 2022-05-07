@@ -4,13 +4,12 @@
 	<advance width="713"/>
 	<outline>
 		<component base="A"/>
-		<component base="brevecomb" xOffset="401" yOffset="215"/>
-		<component base="acutecomb" xOffset="401" yOffset="433"/>
+		<component base="breveacutecomb" xOffset="401" yOffset="215"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<string>0.4747,0.4711,0.5534,0.4845</string>
 		</dict>
 	</lib>
 </glyph>
