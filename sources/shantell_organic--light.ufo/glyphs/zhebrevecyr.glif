@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zhebrevecyr" format="2">
+	<unicode hex="04C2"/>
+	<advance width="878"/>
+	<outline>
+		<component base="zhecyr"/>
+		<component base="brevecomb-cy" xOffset="184"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.9272,0.8867,1,1</string>
+		</dict>
+	</lib>
+</glyph>
