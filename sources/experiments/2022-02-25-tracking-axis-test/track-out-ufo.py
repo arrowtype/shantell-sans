@@ -43,4 +43,4 @@ for glyph in font:
     # move component left by margin amount
     correctComponents(font,glyph, margin)
 
-font.save("sources/experiments/2022-02-25-tracking-axis-test/shantell--light-tracked.ufo")
+font.save("sources/experiments/2022-02-25-tracking-axis-test/shantell_tracked--light.ufo")

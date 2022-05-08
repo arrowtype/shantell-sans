@@ -51,6 +51,7 @@ featuresDir = "sources/features/features"
 # letters to make alts for (all letters)
 altsToMake = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzßæÞðþẞ"
 altsToMake += "ÉéÓóÍíÁáÈèÜüÇçÃãÖöÄäÑñ"
+altsToMake += "ЂЄЉЊЋЏБГДЖЗИЛМПУФЦЧШЩЪЫЬЭЮЯѢѪѴҐҔҖҚҜҠҢҤҮҲҶҸҺӀӋӘӶбвгджзиклмнптфцчшщъыьэюяђєљњћџѣѫѵґҕҗқҝҡңҥүұҳҷҹӌӏәөӷ"
 
 # numbers & basic symbols
 altsToMake += "0123456789!\"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~“”‘’"

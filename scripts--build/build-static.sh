@@ -10,42 +10,42 @@ webDir="fonts/Shantell Sans/Web"
 mkdir -p "$outputDir"
 
 
-# # -----------------------------------------------------------------------------------
-# # update feature code to point to correct feature file paths
+# -----------------------------------------------------------------------------------
+# update feature code to point to correct feature file paths
 
-# parentDir=$(dirname "$DS")
-# for ufo in $parentDir/*.ufo; do
-#     python "./scripts--build/helpers/update-feature-code-for-statics.py" "$ufo"
-# done
-
-
-# # -----------------------------------------------------------------------------------
-# # build static fonts
-
-# # Build TTFs
-# fontmake -o ttf -i -m $DS --output-dir "$outputDir/static-TTF"
-
-# # Build OTFs (don’t optimize the CFF table, because it takes a super long time for marginal benefit)
-# fontmake -o otf -i -m $DS --optimize-cff=0 --output-dir "$outputDir/static-OTF" &
-# wait
+parentDir=$(dirname "$DS")
+for ufo in $parentDir/*.ufo; do
+    python "./scripts--build/helpers/update-feature-code-for-statics.py" "$ufo"
+done
 
 
-# # -----------------------------------------------------------------------------------
-# # remove alts & calt code from static "normal" (non-bouncy, non-irregular) fonts
+# -----------------------------------------------------------------------------------
+# build static fonts
 
-# function subsetNormal {
-#     normalStatic="$1"
-#     echo $normalStatic
-#     # subset calt table out to avoid unused alts
-#     pyftsubset "$normalStatic" --layout-features-="calt" --unicodes="*" --glyph-names --notdef-outline --name-IDs='*' --output-file="$normalStatic.subset"
-#     # move subset file back to previous name
-#     mv "$normalStatic.subset" "$normalStatic"
-# }
+# Build TTFs
+fontmake -o ttf -i -m $DS --output-dir "$outputDir/static-TTF"
 
-# find "$outputDir/static-TTF" "$outputDir/static-OTF" -path '*Normal*.*tf' -print0 | while read -d $'\0' file
-# do
-#     subsetNormal "$file"
-# done
+# Build OTFs (don’t optimize the CFF table, because it takes a super long time for marginal benefit)
+fontmake -o otf -i -m $DS --optimize-cff=0 --output-dir "$outputDir/static-OTF" &
+wait
+
+
+# -----------------------------------------------------------------------------------
+# remove alts & calt code from static "normal" (non-bouncy, non-irregular) fonts
+
+function subsetNormal {
+    normalStatic="$1"
+    echo $normalStatic
+    # subset calt table out to avoid unused alts
+    pyftsubset "$normalStatic" --layout-features-="calt" --unicodes="*" --glyph-names --notdef-outline --name-IDs='*' --output-file="$normalStatic.subset"
+    # move subset file back to previous name
+    mv "$normalStatic.subset" "$normalStatic"
+}
+
+find "$outputDir/static-TTF" "$outputDir/static-OTF" -path '*Normal*.*tf' -print0 | while read -d $'\0' file
+do
+    subsetNormal "$file"
+done
 
 
 # -----------------------------------------------------------------------------------
