@@ -4,6 +4,9 @@
 
 f = CurrentFont()
 
+if "public.skipExportGlyphs" not in f.lib.keys():
+    f.lib["public.skipExportGlyphs"] = [f.selection[0]]
+
 # clean up any duplicate references
 f.lib["public.skipExportGlyphs"] = list(set(f.lib["public.skipExportGlyphs"]))
 
