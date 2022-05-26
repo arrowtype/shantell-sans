@@ -2008,6 +2008,8 @@
 			<integer>117</integer>
 			<key>dotmacroncomb</key>
 			<real>-10.5</real>
+			<key>doublebarvertical</key>
+			<real>21.75</real>
 			<key>dzcaron</key>
 			<real>-9.75</real>
 			<key>dzecyr</key>
@@ -3478,6 +3480,8 @@
 			<real>40.5</real>
 			<key>trademark</key>
 			<integer>-18</integer>
+			<key>trianglerightblack</key>
+			<integer>27</integer>
 			<key>tse-cy.loclBGR</key>
 			<real>13.5</real>
 			<key>tsecyr</key>
@@ -3666,8 +3670,20 @@
 			<real>14.25</real>
 			<key>ustraightcyr</key>
 			<real>-29.25</real>
+			<key>ustraightcyr.alt1</key>
+			<real>-69.75</real>
+			<key>ustraightcyr.alt2</key>
+			<real>45.75</real>
+			<key>ustraightcyr.alt3</key>
+			<integer>-36</integer>
 			<key>ustraightstrokecyr</key>
 			<integer>-27</integer>
+			<key>ustraightstrokecyr.alt1</key>
+			<real>-74.25</real>
+			<key>ustraightstrokecyr.alt2</key>
+			<real>56.25</real>
+			<key>ustraightstrokecyr.alt3</key>
+			<real>-54.75</real>
 			<key>utilde</key>
 			<real>13.5</real>
 			<key>v</key>
@@ -5711,6 +5727,8 @@
 			<string>dotmacroncomb</string>
 			<string>ringacutecomb</string>
 			<string>tildemacroncomb</string>
+			<string>doublebarvertical</string>
+			<string>trianglerightblack</string>
 		</array>
 		<key>public.postscriptNames</key>
 		<dict>

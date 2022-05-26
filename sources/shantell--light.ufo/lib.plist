@@ -668,6 +668,8 @@
 			<integer>114</integer>
 			<key>Iogonek.alt3</key>
 			<integer>-72</integer>
+			<key>Ishortcyr</key>
+			<real>26.25</real>
 			<key>Itilde</key>
 			<integer>-18</integer>
 			<key>Iukrcyr</key>
@@ -2004,6 +2006,8 @@
 			<real>70.5</real>
 			<key>dotmacroncomb</key>
 			<real>8.25</real>
+			<key>doublebarvertical</key>
+			<real>42.75</real>
 			<key>dzcaron</key>
 			<real>-18.75</real>
 			<key>dzecyr</key>
@@ -3474,6 +3478,8 @@
 			<real>-18.75</real>
 			<key>trademark</key>
 			<integer>63</integer>
+			<key>trianglerightblack</key>
+			<real>-25.5</real>
 			<key>tse-cy.loclBGR</key>
 			<real>-43.5</real>
 			<key>tsecyr</key>
@@ -3660,6 +3666,22 @@
 			<real>-67.5</real>
 			<key>ushortcyr</key>
 			<real>7.5</real>
+			<key>ustraightcyr</key>
+			<real>7.5</real>
+			<key>ustraightcyr.alt1</key>
+			<real>-73.5</real>
+			<key>ustraightcyr.alt2</key>
+			<integer>72</integer>
+			<key>ustraightcyr.alt3</key>
+			<real>38.25</real>
+			<key>ustraightstrokecyr</key>
+			<integer>18</integer>
+			<key>ustraightstrokecyr.alt1</key>
+			<real>-54.75</real>
+			<key>ustraightstrokecyr.alt2</key>
+			<real>50.25</real>
+			<key>ustraightstrokecyr.alt3</key>
+			<real>28.5</real>
 			<key>utilde</key>
 			<integer>-27</integer>
 			<key>v</key>
@@ -5695,6 +5717,8 @@
 			<string>dotmacroncomb</string>
 			<string>ringacutecomb</string>
 			<string>tildemacroncomb</string>
+			<string>doublebarvertical</string>
+			<string>trianglerightblack</string>
 		</array>
 		<key>public.postscriptNames</key>
 		<dict>
