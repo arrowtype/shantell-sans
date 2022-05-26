@@ -34,13 +34,21 @@ sources = {
     "bounceExtrabold": "sources/shantell_bounce--extrabold.ufo",
     "bounceReverseLight": "sources/shantell_reverse_bounce--light.ufo",
     "bounceReverseExtrabold": "sources/shantell_reverse_bounce--extrabold.ufo",
+    "lightItalic": "sources/italics/shantell--light_italic.ufo",
+    "extraboldItalic": "sources/italics/shantell--extrabold_italic.ufo",
+    "irregularLightItalic": "sources/italics/shantell_organic--light_italic.ufo",
+    "irregularExtraboldItalic": "sources/italics/shantell_organic--extrabold_italic.ufo",
+    "bounceLightItalic": "sources/shantell_bounce--light_italic.ufo",
+    "bounceExtraboldItalic": "sources/shantell_bounce--extrabold_italic.ufo",
+    "bounceReverseLightItalic": "sources/shantell_reverse_bounce--light_italic.ufo",
+    "bounceReverseExtraboldItalic": "sources/shantell_reverse_bounce--extrabold_italic.ufo",
 }
 
 # where prepped UFOs are put
-prepDir = 'sources/wght_BNCE_IRGL_TRAK--prepped'
+prepDir = 'sources/ital_wght_BNCE_IRGL_TRAK--prepped'
 
 # designspaces copied into prepped folder
-designspaces = ["sources/shantell_sans-wght_BNCE_IRGL_TRAK.designspace", "sources/shantell_sans-wght_BNCE_IRGL_TRAK--static.designspace"]
+designspaces = ["sources/shantell_sans-ital_wght_BNCE_IRGL_TRAK.designspace", "sources/shantell_sans-wght_BNCE_IRGL_TRAK--static.designspace"]
 
 # features folder copied into prepped folder
 featuresDir = "sources/features/features"
@@ -278,8 +286,8 @@ def makeAlts(fonts, numOfAlts=2):
     return altsToMakeGlyphNames
 
 def findMainBaseGlyphName(font, glyph):
-    print(font) # DEBUGGING
-    print(glyph) # DEBUGGING
+    # print(font) # DEBUGGING
+    # print(glyph) # DEBUGGING
     return [c.baseGlyph for c in glyph.components if font[c.baseGlyph].width >= 1][0]
 
 
@@ -319,9 +327,10 @@ def makeBounce(font, glyph, randomLimit=100, minShift=50, factor=1):
         glyph.moveBy((0,moveY))
 
     if moveY == 0:
-        print("moveY = 0:")
-        print("\t",font.path)
-        print("\t",glyph.name)
+        # print("moveY = 0:")
+        # print("\t",font.path)
+        # print("\t",glyph.name)
+        pass
 
     return moveY
 
@@ -358,8 +367,8 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
         Shift glyphs in Bouncy sources.
     """
 
-    print(font.path)
-    print("factor is ", factor)
+    # print(font.path)
+    # print("factor is ", factor)
 
     glyphsToNotShift ="\
         onesuperior twosuperior threesuperior fraction zero.dnom one.dnom two.dnom three.dnom \
