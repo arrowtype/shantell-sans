@@ -3,8 +3,33 @@
 	<unicode hex="00C0"/>
 	<advance width="780"/>
 	<outline>
-		<component base="A" xOffset="-2.7577509924"/>
-		<component base="gravecomb" xOffset="458.2422490076" yOffset="185"/>
+		<component base="A" xOffset="-3"/>
+		<component base="gravecomb" xOffset="458" yOffset="185"/>
 	</outline>
-	<guideline x="300.8000876371" y="1016" angle="0" identifier="qC4ZmDTznB"/>
+	<guideline x="300.8" y="1016" angle="0" identifier="qC4ZmDTznB"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>A</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>gravecomb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-05-26 17:19:19 +0000</string>
+		</dict>
+	</lib>
 </glyph>

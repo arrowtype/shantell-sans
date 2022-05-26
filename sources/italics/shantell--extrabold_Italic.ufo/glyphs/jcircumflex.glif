@@ -3,7 +3,32 @@
 	<unicode hex="0135"/>
 	<advance width="300"/>
 	<outline>
-		<component base="jdotless" xOffset="-2.3430005828"/>
-		<component base="circumflexcomb" xOffset="131.6569994172"/>
+		<component base="jdotless" xOffset="-2"/>
+		<component base="circumflexcomb" xOffset="132"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>jdotless</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>circumflexcomb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-05-26 17:19:19 +0000</string>
+		</dict>
+	</lib>
 </glyph>

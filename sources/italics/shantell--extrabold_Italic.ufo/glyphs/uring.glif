@@ -3,7 +3,32 @@
 	<unicode hex="016F"/>
 	<advance width="639"/>
 	<outline>
-		<component base="u" xOffset="-1.6337757278"/>
-		<component base="ringcomb" xOffset="324.3662242722"/>
+		<component base="u" xOffset="-2"/>
+		<component base="ringcomb" xOffset="324"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>u</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>ringcomb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-05-26 17:19:19 +0000</string>
+		</dict>
+	</lib>
 </glyph>

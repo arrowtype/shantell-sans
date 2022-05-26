@@ -4,51 +4,57 @@
 	<advance width="611"/>
 	<outline>
 		<contour>
-			<point x="261.6561919482" y="186" type="curve" smooth="yes"/>
-			<point x="401.6561919482" y="186"/>
-			<point x="530.6561919482" y="234"/>
-			<point x="553.6561919482" y="349" type="curve" smooth="yes" identifier="VE2wuOSR4K"/>
-			<point x="576.6561919482" y="464"/>
-			<point x="505.6561919482" y="525"/>
-			<point x="385.6561919482" y="525" type="curve" smooth="yes"/>
-			<point x="203.6561919482" y="525"/>
-			<point x="53.6561919482" y="357"/>
-			<point x="24.6561919482" y="210" type="curve" smooth="yes" identifier="5W5PjBW8LS"/>
-			<point x="-1.3438080518" y="82"/>
-			<point x="60.6561919482" y="-10"/>
-			<point x="244.6561919482" y="-10" type="curve" smooth="yes"/>
-			<point x="418.6561919482" y="-10"/>
-			<point x="544.6561919482" y="69"/>
-			<point x="559.6561919482" y="145" type="curve" smooth="yes" identifier="tKx5fyTRo1"/>
-			<point x="566.6561919482" y="181"/>
-			<point x="556.6561919482" y="199"/>
-			<point x="527.6561919482" y="199" type="curve" smooth="yes"/>
-			<point x="473.6561919482" y="199"/>
-			<point x="417.6561919482" y="132"/>
-			<point x="259.6561919482" y="132" type="curve" smooth="yes"/>
-			<point x="197.6561919482" y="132"/>
-			<point x="181.6561919482" y="148"/>
-			<point x="188.6561919482" y="187" type="curve" smooth="yes" identifier="RnBdp3eGe5"/>
-			<point x="207.6561919482" y="281"/>
-			<point x="281.6561919482" y="374"/>
-			<point x="358.6561919482" y="374" type="curve" smooth="yes"/>
-			<point x="387.6561919482" y="374"/>
-			<point x="396.6561919482" y="362"/>
-			<point x="392.6561919482" y="338" type="curve" smooth="yes" identifier="jArUvYPh9n"/>
-			<point x="385.6561919482" y="305"/>
-			<point x="316.6561919482" y="281"/>
-			<point x="261.6561919482" y="281" type="curve" smooth="yes"/>
-			<point x="229.6561919482" y="281"/>
-			<point x="212.6561919482" y="286"/>
-			<point x="198.6561919482" y="286" type="curve" smooth="yes"/>
-			<point x="177.6561919482" y="286"/>
-			<point x="166.6561919482" y="276"/>
-			<point x="162.6561919482" y="256" type="curve" smooth="yes" identifier="EaP7lRTWVP"/>
-			<point x="155.6561919482" y="219"/>
-			<point x="191.6561919482" y="186"/>
+			<point x="286" y="186" type="curve" smooth="yes"/>
+			<point x="402" y="186"/>
+			<point x="529" y="224"/>
+			<point x="552" y="339" type="curve" smooth="yes"/>
+			<point x="575" y="454"/>
+			<point x="505.65619" y="525"/>
+			<point x="385.65619" y="525" type="curve" smooth="yes"/>
+			<point x="203.65619" y="525"/>
+			<point x="58" y="377"/>
+			<point x="29" y="230" type="curve" smooth="yes"/>
+			<point x="3" y="102"/>
+			<point x="65" y="-10"/>
+			<point x="265" y="-10" type="curve" smooth="yes"/>
+			<point x="428" y="-10"/>
+			<point x="545" y="49"/>
+			<point x="560" y="125" type="curve" smooth="yes"/>
+			<point x="567" y="161"/>
+			<point x="556.65619" y="199"/>
+			<point x="514" y="199" type="curve" smooth="yes"/>
+			<point x="462" y="199"/>
+			<point x="422" y="132"/>
+			<point x="270" y="132" type="curve" smooth="yes"/>
+			<point x="200" y="132"/>
+			<point x="182" y="168"/>
+			<point x="189" y="207" type="curve" smooth="yes"/>
+			<point x="208" y="301"/>
+			<point x="281.65619" y="374"/>
+			<point x="358.65619" y="374" type="curve" smooth="yes"/>
+			<point x="387.65619" y="374"/>
+			<point x="396.65619" y="362"/>
+			<point x="392.65619" y="338" type="curve" smooth="yes"/>
+			<point x="385.65619" y="305"/>
+			<point x="316.65619" y="281"/>
+			<point x="261.65619" y="281" type="curve" smooth="yes"/>
+			<point x="229.65619" y="281"/>
+			<point x="212.65619" y="286"/>
+			<point x="198.65619" y="286" type="curve" smooth="yes"/>
+			<point x="177.65619" y="286"/>
+			<point x="167" y="276"/>
+			<point x="163" y="256" type="curve" smooth="yes"/>
+			<point x="156" y="221"/>
+			<point x="193" y="186"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="360.6568231801" y="515"/>
-	<anchor name="bottom" x="257.6561919482" y="0"/>
-	<anchor name="ogonek" x="461.8562422016" y="41"/>
+	<anchor name="top" x="360.65682" y="515"/>
+	<anchor name="bottom" x="257.65619" y="0"/>
+	<anchor name="ogonek" x="461.85624" y="41"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-05-26 17:32:08 +0000</string>
+		</dict>
+	</lib>
 </glyph>

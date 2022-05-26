@@ -3,7 +3,32 @@
 	<unicode hex="01CC"/>
 	<advance width="992"/>
 	<outline>
-		<component base="n" xOffset="-1.9712819242"/>
-		<component base="j" xOffset="690.0287180758"/>
+		<component base="n" xOffset="-2"/>
+		<component base="j" xOffset="690"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>n</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>j</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-05-26 17:19:19 +0000</string>
+		</dict>
+	</lib>
 </glyph>

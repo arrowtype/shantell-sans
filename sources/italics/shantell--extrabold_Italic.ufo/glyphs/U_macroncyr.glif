@@ -3,7 +3,32 @@
 	<unicode hex="04EE"/>
 	<advance width="641"/>
 	<outline>
-		<component base="Ucyr" xOffset="-2.6145356551"/>
-		<component base="macroncomb" xOffset="362.3854643449" yOffset="185"/>
+		<component base="Ucyr" xOffset="-3"/>
+		<component base="macroncomb" xOffset="362" yOffset="185"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>Ucyr</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>macroncomb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-05-26 17:19:19 +0000</string>
+		</dict>
+	</lib>
 </glyph>

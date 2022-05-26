@@ -3,8 +3,41 @@
 	<unicode hex="1ECB"/>
 	<advance width="314"/>
 	<outline>
-		<component base="idotless" xOffset="-3.291869313"/>
-		<component base="dotaccentcmb" xOffset="158.708130687"/>
-		<component base="dotbelowcmb" xOffset="158.708130687"/>
+		<component base="idotless" xOffset="-3"/>
+		<component base="dotaccentcmb" xOffset="159"/>
+		<component base="dotbelowcmb" xOffset="159"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>idotless</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>dotaccentcmb</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>dotbelowcmb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-05-26 17:19:19 +0000</string>
+		</dict>
+	</lib>
 </glyph>
