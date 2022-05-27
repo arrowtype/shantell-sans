@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="chedieresiscyr" format="2">
 	<unicode hex="04F5"/>
-	<advance width="602"/>
+	<advance width="513"/>
 	<outline>
 		<component base="checyr"/>
-		<component base="dieresiscomb" xOffset="319"/>
+		<component base="dieresiscomb" xOffset="262"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.9272,0.8867,1,1</string>
+			<string>0.9935,0.7078,0.8306,1</string>
 		</dict>
 	</lib>
 </glyph>
