@@ -1,5 +1,6 @@
 languagesystem DFLT dflt;
 languagesystem latn dflt;
+languagesystem cyrl dflt;
 
 include(./features/features/common.fea);
 include(./features/features/ccmp.fea);
