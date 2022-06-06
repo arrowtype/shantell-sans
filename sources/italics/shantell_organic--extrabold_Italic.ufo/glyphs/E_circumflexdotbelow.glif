@@ -1,10 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ecircumflexdotbelow" format="2">
-	<unicode hex="1EC6"/>
 	<advance width="684"/>
+	<unicode hex="1EC6"/>
 	<outline>
-		<component base="E" xOffset="-3.8808287775"/>
-		<component base="circumflexcomb" xOffset="407.1191712225" yOffset="225"/>
-		<component base="dotbelowcmb" xOffset="344.1191712225" yOffset="-25"/>
+		<component base="E" xOffset="-4"/>
+		<component base="circumflexcomb" xOffset="407" yOffset="225"/>
+		<component base="dotbelowcmb" xOffset="344" yOffset="-25"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>E</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>circumflexcomb</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>dotbelowcmb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-06 19:19:26 +0000</string>
+		</dict>
+	</lib>
 </glyph>

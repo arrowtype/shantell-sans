@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="atilde" format="2">
-	<unicode hex="00E3"/>
 	<advance width="704"/>
+	<unicode hex="00E3"/>
 	<outline>
-		<component base="a" xOffset="-4.0044671603"/>
-		<component base="tildecomb" xOffset="313.9955328397" yOffset="-27"/>
+		<component base="a" xOffset="-4"/>
+		<component base="tildecomb" xOffset="314" yOffset="-27"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>a</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>tildecomb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-06 19:19:26 +0000</string>
+		</dict>
+	</lib>
 </glyph>

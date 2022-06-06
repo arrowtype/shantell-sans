@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="five.inferior" format="2">
-	<unicode hex="2085"/>
 	<advance width="540"/>
+	<unicode hex="2085"/>
 	<outline>
-		<component base="five.dnom" xOffset="9.4022797326" yOffset="-150"/>
+		<component base="five.dnom" xOffset="9" yOffset="-150"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>five.dnom</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-06 19:19:26 +0000</string>
+		</dict>
+	</lib>
 </glyph>

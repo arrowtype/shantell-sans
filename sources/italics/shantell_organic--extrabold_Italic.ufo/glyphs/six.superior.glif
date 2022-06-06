@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="six.superior" format="2">
-	<unicode hex="2076"/>
 	<advance width="540"/>
+	<unicode hex="2076"/>
 	<outline>
-		<component base="six.dnom" xOffset="118.9803934358" yOffset="400"/>
+		<component base="six.dnom" xOffset="119" yOffset="400"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>six.dnom</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-06 19:19:26 +0000</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ohorn" format="2">
-	<unicode hex="01A0"/>
 	<advance width="657"/>
+	<unicode hex="01A0"/>
+	<anchor x="384.40655" y="620" name="top"/>
+	<anchor x="278.60587" y="66" name="bottom"/>
 	<outline>
 		<contour>
-			<point x="491.4057871628" y="590" type="curve" smooth="yes"/>
-			<point x="458.4057871628" y="590"/>
-			<point x="437.4057871628" y="575"/>
-			<point x="428.4057871628" y="531" type="curve" smooth="yes" identifier="bs5M4RIGuf"/>
-			<point x="419.4057871628" y="485"/>
-			<point x="440.4057871628" y="451"/>
-			<point x="504.4057871628" y="451" type="curve" smooth="yes"/>
-			<point x="642.4057871628" y="451"/>
-			<point x="727.4057871628" y="514"/>
-			<point x="746.4057871628" y="610" type="curve" smooth="yes" identifier="J4PugEi1Qr"/>
-			<point x="761.4057871628" y="685"/>
-			<point x="726.4057871628" y="722"/>
-			<point x="654.4057871628" y="722" type="curve" smooth="yes"/>
-			<point x="608.4057871628" y="722"/>
-			<point x="579.4057871628" y="700"/>
-			<point x="573.4057871628" y="668" type="curve" smooth="yes" identifier="ncrOBgi8nR"/>
-			<point x="570.4057871628" y="653"/>
-			<point x="571.4057871628" y="645"/>
-			<point x="568.4057871628" y="630" type="curve" smooth="yes" identifier="l3LXcg48GT"/>
-			<point x="562.4057871628" y="602"/>
-			<point x="531.4057871628" y="590"/>
+			<point x="491.40579" y="590" type="curve" smooth="yes"/>
+			<point x="458.40579" y="590"/>
+			<point x="437.40579" y="575"/>
+			<point x="428.40579" y="531" type="curve" smooth="yes"/>
+			<point x="419.40579" y="485"/>
+			<point x="440.40579" y="451"/>
+			<point x="504.40579" y="451" type="curve" smooth="yes"/>
+			<point x="642.40579" y="451"/>
+			<point x="727.40579" y="514"/>
+			<point x="746.40579" y="610" type="curve" smooth="yes"/>
+			<point x="761.40579" y="685"/>
+			<point x="726.40579" y="722"/>
+			<point x="654.40579" y="722" type="curve" smooth="yes"/>
+			<point x="608.40579" y="722"/>
+			<point x="579.40579" y="700"/>
+			<point x="573.40579" y="668" type="curve" smooth="yes"/>
+			<point x="570.40579" y="653"/>
+			<point x="571.40579" y="645"/>
+			<point x="568.40579" y="630" type="curve" smooth="yes"/>
+			<point x="562.40579" y="602"/>
+			<point x="531.40579" y="590"/>
 		</contour>
 		<component base="O"/>
 	</outline>
-	<anchor name="top" x="384.4065470925" y="620"/>
-	<anchor name="bottom" x="278.6058680585" y="66"/>
 </glyph>

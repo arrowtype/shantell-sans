@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zcaron" format="2">
-	<unicode hex="017E"/>
 	<advance width="633"/>
+	<unicode hex="017E"/>
 	<outline>
-		<component base="z" xOffset="-3.6505775548"/>
-		<component base="caroncomb" xOffset="293.3494224452"/>
+		<component base="z" xOffset="-4"/>
+		<component base="caroncomb" xOffset="293"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>z</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>caroncomb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-06 19:19:26 +0000</string>
+		</dict>
+	</lib>
 </glyph>
