@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tildecomb" format="2">
-	<advance width="0"/>
 	<unicode hex="0303"/>
-	<anchor x="48.54511" y="485" name="_top"/>
-	<anchor x="91.54537" y="700" name="top"/>
 	<outline>
 		<contour>
 			<point x="-89.45549" y="600" type="curve" smooth="yes"/>
@@ -32,6 +29,8 @@
 			<point x="-110.45549" y="600"/>
 		</contour>
 	</outline>
+	<anchor name="_top" x="48.54511" y="485"/>
+	<anchor name="top" x="91.54537" y="700"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

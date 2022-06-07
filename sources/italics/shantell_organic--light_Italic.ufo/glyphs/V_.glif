@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="V" format="2">
-	<advance width="665"/>
 	<unicode hex="0056"/>
-	<anchor x="416.4431" y="645" name="top"/>
-	<anchor x="295.64236" y="41" name="bottom"/>
+	<advance width="665"/>
 	<outline>
 		<contour>
 			<point x="293.44231" y="34" type="curve" smooth="yes"/>
@@ -45,6 +43,8 @@
 			<point x="276.44231" y="34"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="416.4431" y="645"/>
+	<anchor name="bottom" x="295.64236" y="41"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

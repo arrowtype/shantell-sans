@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ohorn" format="2">
-	<advance width="605"/>
 	<unicode hex="01A1"/>
-	<anchor x="335.79406" y="450" name="top"/>
-	<anchor x="246.99355" y="36" name="bottom"/>
+	<advance width="605"/>
 	<outline>
 		<contour>
 			<point x="437.79351" y="412" type="curve" smooth="yes"/>
@@ -30,6 +28,8 @@
 		</contour>
 		<component base="o"/>
 	</outline>
+	<anchor name="top" x="335.79406" y="450"/>
+	<anchor name="bottom" x="246.99355" y="36"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

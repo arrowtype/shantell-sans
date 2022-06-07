@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zhecyr" format="2">
-	<advance width="706"/>
 	<unicode hex="0436"/>
-	<anchor x="424.01993" y="485" name="top"/>
+	<advance width="706"/>
 	<outline>
 		<contour>
 			<point x="449.01934" y="463" type="curve" smooth="yes"/>
@@ -103,6 +102,7 @@
 			<point x="546.01934" y="311"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="424.01993" y="485"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

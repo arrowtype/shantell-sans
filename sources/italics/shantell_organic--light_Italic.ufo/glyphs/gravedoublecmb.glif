@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gravedoublecmb" format="2">
-	<advance width="0"/>
 	<unicode hex="030F"/>
-	<anchor x="49.07109" y="485" name="_top"/>
-	<anchor x="94.07137" y="710" name="top"/>
 	<outline>
 		<contour>
 			<point x="64.0705" y="581" type="curve" smooth="yes"/>
@@ -40,6 +37,8 @@
 			<point x="236.0705" y="592"/>
 		</contour>
 	</outline>
+	<anchor name="_top" x="49.07109" y="485"/>
+	<anchor name="top" x="94.07137" y="710"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

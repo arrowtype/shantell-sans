@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="xatailcyr" format="2">
-	<advance width="504"/>
 	<unicode hex="04B3"/>
-	<guideline x="33.79" y="263" angle="90" identifier="GUBu2fdSLX"/>
-	<guideline x="36.79" y="278" angle="90" identifier="fGabLEmAux"/>
+	<advance width="504"/>
 	<outline>
 		<contour>
 			<point x="414.30065" y="57" type="curve" smooth="yes"/>
@@ -71,6 +69,8 @@
 			<point x="329.30065" y="327"/>
 		</contour>
 	</outline>
+	<guideline x="33.79" y="263" angle="90" identifier="GUBu2fdSLX"/>
+	<guideline x="36.79" y="278" angle="90" identifier="fGabLEmAux"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

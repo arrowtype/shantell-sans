@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hungarumlautcmb" format="2">
-	<advance width="0"/>
 	<unicode hex="030B"/>
-	<anchor x="48.57757" y="485" name="_top"/>
 	<outline>
 		<contour>
 			<point x="88.57698" y="754" type="curve" smooth="yes"/>
@@ -45,6 +43,7 @@
 			<point x="290.57698" y="769"/>
 		</contour>
 	</outline>
+	<anchor name="_top" x="48.57757" y="485"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

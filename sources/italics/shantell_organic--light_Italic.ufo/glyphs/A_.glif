@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="A" format="2">
-	<advance width="713"/>
 	<unicode hex="0041"/>
-	<anchor x="480.47277" y="641" name="top"/>
-	<anchor x="315.87204" y="48" name="bottom"/>
-	<anchor x="480.67277" y="642" name="ring"/>
-	<anchor x="557.47201" y="26" name="ogonek"/>
+	<advance width="713"/>
 	<outline>
 		<contour>
 			<point x="545" y="16" type="curve" smooth="yes"/>
@@ -70,6 +66,10 @@
 			<point x="49.27198" y="214"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="480.47277" y="641"/>
+	<anchor name="bottom" x="315.87204" y="48"/>
+	<anchor name="ring" x="480.67277" y="642"/>
+	<anchor name="ogonek" x="557.47201" y="26"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

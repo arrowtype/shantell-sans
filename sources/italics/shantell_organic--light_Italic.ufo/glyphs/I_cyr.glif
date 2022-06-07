@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Icyr" format="2">
-	<advance width="663"/>
 	<unicode hex="0418"/>
-	<guideline x="301.79" y="447" angle="90" identifier="9d4iEHlV35"/>
-	<anchor x="438.29419" y="700" name="top"/>
+	<advance width="663"/>
 	<outline>
 		<contour>
 			<point x="74.29333" y="4" type="curve" smooth="yes"/>
@@ -64,6 +62,8 @@
 			<point x="130.29333" y="4"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="438.29419" y="700"/>
+	<guideline x="301.79" y="447" angle="90" identifier="9d4iEHlV35"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

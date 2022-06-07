@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="brevetildecomb" format="2">
-	<advance width="0"/>
-	<anchor x="47.82278" y="485" name="_top"/>
 	<outline>
 		<contour>
 			<point x="-44.17782" y="729" type="curve" smooth="yes"/>
@@ -56,6 +54,7 @@
 			<point x="-85.17782" y="691"/>
 		</contour>
 	</outline>
+	<anchor name="_top" x="47.82278" y="485"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

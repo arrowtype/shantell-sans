@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jdotless" format="2">
 	<advance width="241"/>
-	<anchor x="134.53216" y="485" name="top"/>
 	<outline>
 		<contour>
 			<point x="149.53157" y="398" type="curve" smooth="yes"/>
@@ -33,6 +32,7 @@
 			<point x="164.53157" y="246"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="134.53216" y="485"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

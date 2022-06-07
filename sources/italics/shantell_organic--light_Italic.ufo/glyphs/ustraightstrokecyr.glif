@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ustraightstrokecyr" format="2">
-	<advance width="506"/>
 	<unicode hex="04B1"/>
-	<guideline x="33.79" y="263" angle="90" identifier="TqGNIf0mql"/>
-	<guideline x="36.79" y="278" angle="90" identifier="pPlfMfFYxl"/>
+	<advance width="506"/>
 	<outline>
 		<contour>
 			<point x="345.75986" y="52" type="curve" smooth="yes"/>
@@ -71,6 +69,8 @@
 			<point x="171.75986" y="412"/>
 		</contour>
 	</outline>
+	<guideline x="33.79" y="263" angle="90" identifier="TqGNIf0mql"/>
+	<guideline x="36.79" y="278" angle="90" identifier="pPlfMfFYxl"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yacyr" format="2">
-	<advance width="530"/>
 	<unicode hex="044F"/>
-	<guideline x="123.79" y="150" angle="90" identifier="NQt60oWmSh"/>
-	<guideline x="102.79" y="288" angle="90" identifier="PF625F3qAF"/>
-	<guideline x="102.79" y="288" angle="90" identifier="ftLgu9qsNU"/>
+	<advance width="530"/>
 	<outline>
 		<contour>
 			<point x="306.75" y="208" type="curve"/>
@@ -79,6 +76,9 @@
 			<point x="341.75" y="134"/>
 		</contour>
 	</outline>
+	<guideline x="123.79" y="150" angle="90" identifier="NQt60oWmSh"/>
+	<guideline x="102.79" y="288" angle="90" identifier="PF625F3qAF"/>
+	<guideline x="102.79" y="288" angle="90" identifier="ftLgu9qsNU"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

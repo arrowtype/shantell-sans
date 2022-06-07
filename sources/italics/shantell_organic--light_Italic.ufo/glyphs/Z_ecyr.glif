@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Zecyr" format="2">
-	<advance width="571"/>
 	<unicode hex="0417"/>
-	<guideline x="497.79" y="362" angle="90" identifier="ZzoGr9IEv9"/>
-	<guideline x="484.79" y="633" angle="90" identifier="rir6xKM5MM"/>
-	<guideline x="-218.21" y="348" angle="90" identifier="MDMSsOprqX"/>
-	<guideline x="50.79" y="130" angle="90" identifier="VpVaGmY9Xx"/>
-	<guideline x="47.79" y="378" angle="90" identifier="otb2EjpWXm"/>
-	<anchor x="371.74461" y="700" name="top"/>
+	<advance width="571"/>
 	<outline>
 		<contour>
 			<point x="127.74375" y="589" type="curve" smooth="yes"/>
@@ -64,6 +58,12 @@
 			<point x="135.74375" y="632"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="371.74461" y="700"/>
+	<guideline x="497.79" y="362" angle="90" identifier="ZzoGr9IEv9"/>
+	<guideline x="484.79" y="633" angle="90" identifier="rir6xKM5MM"/>
+	<guideline x="-218.21" y="348" angle="90" identifier="MDMSsOprqX"/>
+	<guideline x="50.79" y="130" angle="90" identifier="VpVaGmY9Xx"/>
+	<guideline x="47.79" y="378" angle="90" identifier="otb2EjpWXm"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

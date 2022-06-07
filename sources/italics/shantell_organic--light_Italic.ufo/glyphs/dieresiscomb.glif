@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dieresiscomb" format="2">
-	<advance width="0"/>
 	<unicode hex="0308"/>
-	<anchor x="48.06434" y="485" name="_top"/>
-	<anchor x="82.06456" y="660" name="top"/>
 	<outline>
 		<contour>
 			<point x="-45.93625" y="584" type="curve" smooth="yes"/>
@@ -34,6 +31,8 @@
 			<point x="151.06375" y="594"/>
 		</contour>
 	</outline>
+	<anchor name="_top" x="48.06434" y="485"/>
+	<anchor name="top" x="82.06456" y="660"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

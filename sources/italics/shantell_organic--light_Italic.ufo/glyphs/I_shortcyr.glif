@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ishortcyr" format="2">
-	<advance width="703"/>
 	<unicode hex="0419"/>
+	<advance width="703"/>
 	<outline>
 		<contour>
 			<point x="478.29333" y="815" type="curve" smooth="yes"/>
@@ -29,7 +29,7 @@
 			<point x="529.29333" y="824"/>
 			<point x="509.29333" y="815"/>
 		</contour>
-		<component base="Icyr" xOffset="4.500"/>
+		<component base="Icyr" xOffset="4.5"/>
 	</outline>
 	<lib>
 		<dict>

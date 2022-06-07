@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ereversedcyr" format="2">
-	<advance width="638"/>
 	<unicode hex="042D"/>
-	<anchor x="393.88129" y="700" name="top"/>
+	<advance width="638"/>
 	<outline>
 		<contour>
 			<point x="388.88043" y="652" type="curve" smooth="yes"/>
@@ -63,6 +62,7 @@
 			<point x="241.88043" y="355"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="393.88129" y="700"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

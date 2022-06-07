@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ogonekcmb" format="2">
-	<advance width="0"/>
 	<unicode hex="0328"/>
-	<guideline x="-27.21" y="-177" angle="48.145" identifier="4uLH7EeGYo"/>
-	<anchor x="7.51747" y="0" name="_ogonek"/>
 	<outline>
 		<contour>
 			<point x="-182.48253" y="-136" type="curve" smooth="yes"/>
@@ -32,6 +29,8 @@
 			<point x="-164.48253" y="-47"/>
 		</contour>
 	</outline>
+	<anchor name="_ogonek" x="7.51747" y="0"/>
+	<guideline x="-27.21" y="-177" angle="48.145" identifier="4uLH7EeGYo"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

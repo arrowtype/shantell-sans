@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uhorn" format="2">
-	<advance width="619"/>
 	<unicode hex="01B0"/>
-	<anchor x="332.32424" y="460" name="top"/>
-	<anchor x="251.9237" y="18" name="bottom"/>
+	<advance width="619"/>
 	<outline>
 		<contour>
 			<point x="504.32368" y="453" type="curve" smooth="yes"/>
@@ -28,8 +26,10 @@
 			<point x="593.32368" y="474"/>
 			<point x="561.32368" y="453"/>
 		</contour>
-		<component base="u" xOffset="4.530"/>
+		<component base="u" xOffset="4.53"/>
 	</outline>
+	<anchor name="top" x="332.32424" y="460"/>
+	<anchor name="bottom" x="251.9237" y="18"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

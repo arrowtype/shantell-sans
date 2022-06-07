@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="minus" format="2">
-	<advance width="700"/>
 	<unicode hex="2212"/>
-	<guideline x="-53.21" y="780" angle="0" identifier="bGST42QdTW"/>
-	<guideline x="-53.21" y="-80" angle="0" identifier="M2lEtHAWgu"/>
+	<advance width="700"/>
 	<outline>
 		<contour>
 			<point x="164.48633" y="298" type="curve" smooth="yes"/>
@@ -26,6 +24,8 @@
 			<point x="130.48633" y="298"/>
 		</contour>
 	</outline>
+	<guideline x="-53.21" y="780" angle="0" identifier="bGST42QdTW"/>
+	<guideline x="-53.21" y="-80" angle="0" identifier="M2lEtHAWgu"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
