@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hookabovecmb" format="2">
-	<advance width="0"/>
 	<unicode hex="0309"/>
-	<anchor x="48.7249" y="485" name="_top"/>
-	<anchor x="56.12495" y="522" name="_side"/>
 	<outline>
 		<contour>
 			<point x="71.72431" y="553" type="curve" smooth="yes"/>
@@ -32,6 +29,8 @@
 			<point x="42.72431" y="553"/>
 		</contour>
 	</outline>
+	<anchor name="_top" x="48.7249" y="485"/>
+	<anchor name="_side" x="56.12495" y="522"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="obarcyr" format="2">
-	<advance width="600"/>
 	<unicode hex="04E9"/>
-	<guideline x="38.79" y="263" angle="90" identifier="CB8mICpc1y"/>
-	<guideline x="41.79" y="278" angle="90" identifier="ESe4gH2bJH"/>
-	<anchor x="363.69522" y="515" name="top"/>
+	<advance width="600"/>
 	<outline>
 		<contour>
 			<point x="264.69458" y="-12" type="curve" smooth="yes"/>
@@ -72,6 +69,9 @@
 			<point x="110.69458" y="270" type="curve"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="363.69522" y="515"/>
+	<guideline x="38.79" y="263" angle="90" identifier="CB8mICpc1y"/>
+	<guideline x="41.79" y="278" angle="90" identifier="ESe4gH2bJH"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

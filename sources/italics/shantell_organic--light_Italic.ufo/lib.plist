@@ -4,8 +4,14 @@
 <dict>
 	<key>com.schriftgestaltung.DisplayStrings</key>
 	<array>
-		<string>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghi/jdotless jklmnopqrstuvwxyz</string>
-		<string>01245789₩()/parenleft.case/parenright.case</string>
+		<string>012fP3456789₩</string>
+		<string>#</string>
+		<string>@</string>
+		<string>()[]{}</string>
+		<string>&amp;§¶ℓ•′″+−±÷×=&lt;&gt;≤≥≈≠¬⁒←↑→↓</string>
+		<string>∂∆∏∑∕√∞∫$¢£¤¥€ƒ^~`©®™°◊♡♥✓/jdotless/parenleft.case/parenright.case/bracketleft.case/bracketright.case/braceleft.case/braceright.case/bracketangleleft.case/bracketangleright.case/slash.case/backslash.case</string>
+		<string>/hyphen.line/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom/zero.pnum/one.pnum/four.pnum/five.pnum µ</string>
+		<string>₡₤₦₩₫₭₱₲₵₹₺₼₽</string>
 	</array>
 	<key>com.schriftgestaltung.disablesAutomaticAlignment</key>
 	<false/>

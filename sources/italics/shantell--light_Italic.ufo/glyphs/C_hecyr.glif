@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Checyr" format="2">
-	<advance width="608"/>
 	<unicode hex="0427"/>
-	<anchor x="382.34487" y="700" name="top"/>
+	<advance width="608"/>
 	<outline>
 		<contour>
 			<point x="228.34401" y="642" type="curve" smooth="yes"/>
@@ -56,6 +55,7 @@
 			<point x="219.34401" y="596"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="382.34487" y="700"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

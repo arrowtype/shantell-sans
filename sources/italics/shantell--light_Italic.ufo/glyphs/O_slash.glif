@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Oslash" format="2">
-	<advance width="726"/>
 	<unicode hex="00D8"/>
-	<anchor x="455.82947" y="700" name="top"/>
+	<advance width="726"/>
 	<outline>
 		<contour>
 			<point x="367.82861" y="584" type="curve" smooth="yes"/>
@@ -63,6 +62,7 @@
 			<point x="455.82861" y="405"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="455.82947" y="700"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

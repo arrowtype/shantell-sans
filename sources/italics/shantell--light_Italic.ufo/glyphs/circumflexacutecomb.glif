@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflexacutecomb" format="2">
-	<advance width="0"/>
-	<anchor x="48.52137" y="485" name="_top"/>
 	<outline>
 		<contour>
 			<point x="379.52078" y="819" type="curve" smooth="yes"/>
@@ -51,6 +49,7 @@
 			<point x="88.52078" y="636" type="curve"/>
 		</contour>
 	</outline>
+	<anchor name="_top" x="48.52137" y="485"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

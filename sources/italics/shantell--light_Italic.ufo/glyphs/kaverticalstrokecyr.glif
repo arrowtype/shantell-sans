@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kaverticalstrokecyr" format="2">
-	<advance width="508"/>
 	<unicode hex="049D"/>
-	<guideline x="214.79" y="313" angle="90" identifier="ATaXbxe4rK"/>
-	<guideline x="67.79" y="266" angle="90" identifier="5dyO890EB6"/>
-	<guideline x="67.79" y="266" angle="90" identifier="B5GQpsI5QQ"/>
+	<advance width="508"/>
 	<outline>
 		<contour>
 			<point x="70.00494" y="225" type="curve" smooth="yes"/>
@@ -98,6 +95,9 @@
 			<point x="345.00494" y="85"/>
 		</contour>
 	</outline>
+	<guideline x="214.79" y="313" angle="90" identifier="ATaXbxe4rK"/>
+	<guideline x="67.79" y="266" angle="90" identifier="5dyO890EB6"/>
+	<guideline x="67.79" y="266" angle="90" identifier="B5GQpsI5QQ"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

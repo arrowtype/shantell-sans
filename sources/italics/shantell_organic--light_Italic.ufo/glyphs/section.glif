@@ -6,9 +6,9 @@
 		<contour>
 			<point x="91.66053" y="-259" type="curve"/>
 			<point x="231.66053" y="-259"/>
-			<point x="404.66053" y="-214"/>
-			<point x="422.66053" y="-123" type="curve" smooth="yes"/>
-			<point x="454.66053" y="35"/>
+			<point x="403" y="-224"/>
+			<point x="421" y="-133" type="curve" smooth="yes"/>
+			<point x="453" y="25"/>
 			<point x="98.66053" y="53"/>
 			<point x="121.66053" y="168" type="curve" smooth="yes"/>
 			<point x="131.66053" y="219"/>
@@ -16,9 +16,9 @@
 			<point x="278.66053" y="280" type="curve"/>
 			<point x="223.66053" y="314" type="line"/>
 			<point x="126.66053" y="285"/>
-			<point x="65.66053" y="234"/>
-			<point x="51.66053" y="165" type="curve" smooth="yes"/>
-			<point x="17.66053" y="-3"/>
+			<point x="68" y="244"/>
+			<point x="54" y="175" type="curve" smooth="yes"/>
+			<point x="20" y="7"/>
 			<point x="356.66053" y="-5"/>
 			<point x="350.66053" y="-129" type="curve"/>
 			<point x="301.66053" y="-167"/>
@@ -36,9 +36,9 @@
 		<contour>
 			<point x="255.66053" y="12" type="line"/>
 			<point x="378.66053" y="25"/>
-			<point x="467.66053" y="74"/>
-			<point x="481.66053" y="147" type="curve" smooth="yes"/>
-			<point x="511.66053" y="295"/>
+			<point x="466" y="64"/>
+			<point x="480" y="137" type="curve" smooth="yes"/>
+			<point x="510" y="285"/>
 			<point x="155.66053" y="316"/>
 			<point x="176.66053" y="418" type="curve" smooth="yes"/>
 			<point x="194.66053" y="510"/>
@@ -51,9 +51,9 @@
 			<point x="589.66053" y="710"/>
 			<point x="563.66053" y="710" type="curve" smooth="yes"/>
 			<point x="421.66053" y="710"/>
-			<point x="141.66053" y="591"/>
-			<point x="106.66053" y="415" type="curve" smooth="yes"/>
-			<point x="74.66053" y="255"/>
+			<point x="144" y="601"/>
+			<point x="109" y="425" type="curve" smooth="yes"/>
+			<point x="77" y="265"/>
 			<point x="415.66053" y="253"/>
 			<point x="410.66053" y="136" type="curve"/>
 			<point x="366.66053" y="88"/>
@@ -61,4 +61,12 @@
 			<point x="181.66053" y="59" type="curve"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 18:34:37 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

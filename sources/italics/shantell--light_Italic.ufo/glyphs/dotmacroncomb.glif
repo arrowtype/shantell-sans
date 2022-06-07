@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotmacroncomb" format="2">
-	<advance width="0"/>
-	<anchor x="47.63217" y="485" name="_top"/>
 	<outline>
 		<contour>
 			<point x="68.63158" y="542" type="curve" smooth="yes"/>
@@ -38,6 +36,7 @@
 			<point x="-67.36842" y="716"/>
 		</contour>
 	</outline>
+	<anchor name="_top" x="47.63217" y="485"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

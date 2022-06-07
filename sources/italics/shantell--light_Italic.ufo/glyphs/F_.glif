@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="F" format="2">
-	<advance width="559"/>
 	<unicode hex="0046"/>
-	<anchor x="389.12827" y="700" name="top"/>
-	<anchor x="149.12741" y="0" name="bottom"/>
+	<advance width="559"/>
 	<outline>
 		<contour>
 			<point x="169.12741" y="270" type="curve" smooth="yes"/>
@@ -72,6 +70,8 @@
 			<point x="137.12741" y="291"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="389.12827" y="700"/>
+	<anchor name="bottom" x="149.12741" y="0"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

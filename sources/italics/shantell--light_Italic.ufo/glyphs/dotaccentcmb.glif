@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotaccentcmb" format="2">
-	<advance width="0"/>
 	<unicode hex="0307"/>
-	<anchor x="48.16423" y="484" name="_top"/>
-	<anchor x="81.36444" y="650" name="top"/>
 	<outline>
 		<contour>
 			<point x="78.36364" y="587" type="curve" smooth="yes"/>
@@ -20,6 +17,8 @@
 			<point x="35.36364" y="587"/>
 		</contour>
 	</outline>
+	<anchor name="_top" x="48.16423" y="484"/>
+	<anchor name="top" x="81.36444" y="650"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

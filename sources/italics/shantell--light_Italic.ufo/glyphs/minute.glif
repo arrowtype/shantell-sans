@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="minute" format="2">
-	<advance width="259"/>
 	<unicode hex="2032"/>
+	<advance width="259"/>
 	<outline>
 		<contour>
 			<point x="142.89226" y="425" type="curve" smooth="yes"/>
-			<point x="159.89226" y="425"/>
-			<point x="172.89226" y="435"/>
-			<point x="189.89226" y="459" type="curve" smooth="yes"/>
-			<point x="226.89226" y="515"/>
-			<point x="260.89226" y="602"/>
-			<point x="272.89226" y="661" type="curve" smooth="yes"/>
-			<point x="281.89226" y="704"/>
-			<point x="263.89226" y="717"/>
+			<point x="161" y="425"/>
+			<point x="176" y="434"/>
+			<point x="194" y="459" type="curve" smooth="yes"/>
+			<point x="231" y="515"/>
+			<point x="265" y="602"/>
+			<point x="277" y="661" type="curve" smooth="yes"/>
+			<point x="286" y="704"/>
+			<point x="267" y="717"/>
 			<point x="242.89226" y="717" type="curve" smooth="yes"/>
 			<point x="221.89226" y="717"/>
 			<point x="209.89226" y="704"/>
@@ -27,9 +27,9 @@
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 15:52:58 +0000</string>
+			<string>2022-06-07 18:34:37 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

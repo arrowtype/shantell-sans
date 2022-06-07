@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="exclamdown" format="2">
-	<advance width="265"/>
 	<unicode hex="00A1"/>
+	<advance width="265"/>
 	<outline>
 		<contour>
-			<point x="10.10384" y="-201" type="curve" smooth="yes"/>
-			<point x="2.10384" y="-239"/>
-			<point x="18.10384" y="-260"/>
-			<point x="38.10384" y="-260" type="curve" smooth="yes"/>
-			<point x="56.10384" y="-260"/>
-			<point x="70.10384" y="-242"/>
-			<point x="73.10384" y="-223" type="curve" smooth="yes"/>
-			<point x="88.10384" y="-151"/>
-			<point x="111.10384" y="-97"/>
+			<point x="18.10384" y="-161" type="curve" smooth="yes"/>
+			<point x="10.10384" y="-199"/>
+			<point x="26.10384" y="-220"/>
+			<point x="46.10384" y="-220" type="curve" smooth="yes"/>
+			<point x="64.10384" y="-220"/>
+			<point x="78.10384" y="-202"/>
+			<point x="81.10384" y="-183" type="curve" smooth="yes"/>
+			<point x="94.10384" y="-122"/>
+			<point x="115.10384" y="-76"/>
 			<point x="138.10384" y="41" type="curve" smooth="yes"/>
 			<point x="151.10384" y="104"/>
 			<point x="159.10384" y="158"/>
@@ -26,8 +26,8 @@
 			<point x="87.10384" y="173"/>
 			<point x="94.10384" y="159"/>
 			<point x="73.10384" y="55" type="curve" smooth="yes"/>
-			<point x="45.10384" y="-84"/>
-			<point x="25.10384" y="-126"/>
+			<point x="50.10384" y="-62"/>
+			<point x="30.10384" y="-98"/>
 		</contour>
 		<contour>
 			<point x="172.10384" y="502" type="curve" smooth="yes"/>
@@ -47,9 +47,9 @@
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 15:52:58 +0000</string>
+			<string>2022-06-07 18:29:09 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

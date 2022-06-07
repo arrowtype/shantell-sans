@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ringacutecomb" format="2">
-	<advance width="0"/>
-	<anchor x="48.01641" y="485" name="_top"/>
-	<anchor x="71.61654" y="598" name="_ring"/>
 	<outline>
 		<contour>
 			<point x="67.01581" y="553" type="curve" smooth="yes"/>
@@ -66,6 +63,8 @@
 			<point x="237.01581" y="832"/>
 		</contour>
 	</outline>
+	<anchor name="_top" x="48.01641" y="485"/>
+	<anchor name="_ring" x="71.61654" y="598"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

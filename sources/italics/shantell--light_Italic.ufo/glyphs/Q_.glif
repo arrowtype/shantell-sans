@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Q" format="2">
-	<advance width="716"/>
 	<unicode hex="0051"/>
-	<anchor x="479.12176" y="700" name="top"/>
-	<anchor x="310.1209" y="0" name="bottom"/>
+	<advance width="716"/>
 	<outline>
 		<contour>
 			<point x="437" y="275" type="curve" smooth="yes"/>
@@ -70,6 +68,8 @@
 			<point x="222.1209" y="523"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="479.12176" y="700"/>
+	<anchor name="bottom" x="310.1209" y="0"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

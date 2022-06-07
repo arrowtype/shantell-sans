@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ringcomb" format="2">
-	<advance width="0"/>
 	<unicode hex="030A"/>
-	<anchor x="48.08476" y="485" name="_top"/>
-	<anchor x="108.28513" y="786" name="top"/>
 	<outline>
 		<contour>
 			<point x="67.08416" y="553" type="curve" smooth="yes"/>
@@ -47,6 +44,8 @@
 			<point x="-48.91584" y="553"/>
 		</contour>
 	</outline>
+	<anchor name="_top" x="48.08476" y="485"/>
+	<anchor name="top" x="108.28513" y="786"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

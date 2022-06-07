@@ -37,11 +37,19 @@
 			<point x="528.09555" y="186"/>
 			<point x="537.09555" y="172"/>
 			<point x="552.09555" y="172" type="curve" smooth="yes"/>
-			<point x="565.09555" y="172"/>
-			<point x="585.09555" y="182"/>
-			<point x="592.09555" y="217" type="curve" smooth="yes"/>
-			<point x="603.09555" y="269"/>
-			<point x="637.09555" y="361"/>
+			<point x="568" y="172"/>
+			<point x="594" y="182"/>
+			<point x="601" y="217" type="curve" smooth="yes"/>
+			<point x="612" y="269"/>
+			<point x="637" y="361"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 18:34:37 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

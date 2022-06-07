@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zhetailcyr" format="2">
-	<advance width="756"/>
 	<unicode hex="0497"/>
-	<guideline x="38.79" y="263" angle="90" identifier="ZhgPyHPIJZ"/>
-	<guideline x="41.79" y="278" angle="90" identifier="9Q6cXVobin"/>
+	<advance width="756"/>
 	<outline>
 		<contour>
 			<point x="449.01934" y="463" type="curve" smooth="yes"/>
@@ -115,6 +113,8 @@
 			<point x="638.01934" y="60"/>
 		</contour>
 	</outline>
+	<guideline x="38.79" y="263" angle="90" identifier="ZhgPyHPIJZ"/>
+	<guideline x="41.79" y="278" angle="90" identifier="9Q6cXVobin"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

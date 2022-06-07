@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="katailcyr" format="2">
-	<advance width="537"/>
 	<unicode hex="049B"/>
-	<guideline x="38.79" y="263" angle="90" identifier="AEoq2U1whz"/>
-	<guideline x="41.79" y="278" angle="90" identifier="lAjk0U2JTq"/>
+	<advance width="537"/>
 	<outline>
 		<contour>
 			<point x="111.00494" y="20" type="curve" smooth="yes"/>
@@ -77,6 +75,8 @@
 			<point x="418.00494" y="51"/>
 		</contour>
 	</outline>
+	<guideline x="38.79" y="263" angle="90" identifier="AEoq2U1whz"/>
+	<guideline x="41.79" y="278" angle="90" identifier="lAjk0U2JTq"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

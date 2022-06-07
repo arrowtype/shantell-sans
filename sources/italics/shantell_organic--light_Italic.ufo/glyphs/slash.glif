@@ -14,14 +14,22 @@
 			<point x="-77.57073" y="-127"/>
 			<point x="-66.57073" y="-148"/>
 			<point x="-38.57073" y="-148" type="curve" smooth="yes"/>
-			<point x="-20.57073" y="-148"/>
-			<point x="-3.57073" y="-135"/>
-			<point x="8.42927" y="-106" type="curve" smooth="yes"/>
-			<point x="122.42927" y="179"/>
-			<point x="250.42927" y="465"/>
-			<point x="498.42927" y="773" type="curve" smooth="yes"/>
-			<point x="535.42927" y="820"/>
+			<point x="-19" y="-148"/>
+			<point x="-1" y="-135"/>
+			<point x="11" y="-106" type="curve" smooth="yes"/>
+			<point x="125" y="179"/>
+			<point x="253" y="465"/>
+			<point x="501" y="773" type="curve" smooth="yes"/>
+			<point x="536" y="817"/>
 			<point x="516.42927" y="850"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 18:29:09 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lozenge" format="2">
-	<advance width="700"/>
 	<unicode hex="25CA"/>
+	<advance width="700"/>
 	<outline>
 		<contour>
-			<point x="145.00071" y="232" type="curve" smooth="yes"/>
-			<point x="141.00071" y="242"/>
-			<point x="131.00071" y="248"/>
+			<point x="141" y="232" type="curve" smooth="yes"/>
+			<point x="137" y="242"/>
+			<point x="129" y="248"/>
 			<point x="120.00071" y="248" type="curve" smooth="yes"/>
 			<point x="95.00071" y="248"/>
 			<point x="69.00071" y="216"/>
@@ -41,31 +41,31 @@
 			<point x="37.00071" y="188"/>
 			<point x="52.00071" y="153"/>
 			<point x="74.00071" y="153" type="curve" smooth="yes"/>
-			<point x="92.00071" y="153"/>
-			<point x="94.00071" y="157"/>
-			<point x="103.00071" y="168" type="curve" smooth="yes"/>
-			<point x="234.00071" y="337"/>
-			<point x="306.00071" y="478"/>
-			<point x="451.00071" y="635" type="curve"/>
-			<point x="425.00071" y="635" type="line"/>
-			<point x="505.00071" y="488"/>
-			<point x="505.00071" y="334"/>
-			<point x="579.00071" y="190" type="curve"/>
-			<point x="585.00071" y="228" type="line"/>
-			<point x="468.00071" y="78"/>
-			<point x="400.00071" y="-44"/>
-			<point x="269.00071" y="-185" type="curve"/>
-			<point x="294.00071" y="-185" type="line"/>
-			<point x="193.00071" y="-16"/>
-			<point x="209.00071" y="93"/>
+			<point x="94" y="153"/>
+			<point x="98" y="156"/>
+			<point x="107" y="168" type="curve" smooth="yes"/>
+			<point x="238" y="337"/>
+			<point x="310" y="478"/>
+			<point x="455" y="635" type="curve"/>
+			<point x="428" y="635" type="line"/>
+			<point x="508" y="488"/>
+			<point x="508" y="334"/>
+			<point x="582" y="190" type="curve"/>
+			<point x="579" y="228" type="line"/>
+			<point x="462" y="78"/>
+			<point x="394" y="-44"/>
+			<point x="263" y="-185" type="curve"/>
+			<point x="290" y="-185" type="line"/>
+			<point x="189" y="-16"/>
+			<point x="205" y="93"/>
 		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 15:52:58 +0000</string>
+			<string>2022-06-07 18:45:05 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

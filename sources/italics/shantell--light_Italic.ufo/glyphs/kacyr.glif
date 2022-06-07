@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kacyr" format="2">
-	<advance width="499"/>
 	<unicode hex="043A"/>
-	<anchor x="299.00554" y="485" name="top"/>
+	<advance width="499"/>
 	<outline>
 		<contour>
 			<point x="396.00494" y="-11" type="curve" smooth="yes"/>
@@ -63,6 +62,7 @@
 			<point x="96.00494" y="-10"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="299.00554" y="485"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

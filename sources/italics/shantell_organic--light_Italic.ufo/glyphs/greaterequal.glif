@@ -4,9 +4,9 @@
 	<unicode hex="2265"/>
 	<outline>
 		<contour>
-			<point x="169.78321" y="292" type="curve" smooth="yes"/>
-			<point x="139.78321" y="287"/>
-			<point x="127.78321" y="269"/>
+			<point x="170" y="295" type="curve" smooth="yes"/>
+			<point x="140" y="290"/>
+			<point x="128" y="270"/>
 			<point x="125.78321" y="258" type="curve" smooth="yes"/>
 			<point x="121.78321" y="239"/>
 			<point x="130.78321" y="220"/>
@@ -32,15 +32,15 @@
 			<point x="182.78321" y="564"/>
 			<point x="158.78321" y="552"/>
 			<point x="154.78321" y="529" type="curve" smooth="yes"/>
-			<point x="150.78321" y="509"/>
-			<point x="160.78321" y="496"/>
-			<point x="181.78321" y="493" type="curve" smooth="yes"/>
-			<point x="340.78321" y="473"/>
-			<point x="477.78321" y="432"/>
-			<point x="544.78321" y="388" type="curve"/>
-			<point x="546.78321" y="401" type="line"/>
-			<point x="436.78321" y="356"/>
-			<point x="290.78321" y="314"/>
+			<point x="151" y="511"/>
+			<point x="161" y="499"/>
+			<point x="182" y="496" type="curve" smooth="yes"/>
+			<point x="341" y="476"/>
+			<point x="478" y="435"/>
+			<point x="545" y="391" type="curve"/>
+			<point x="547" y="404" type="line"/>
+			<point x="437" y="359"/>
+			<point x="291" y="317"/>
 		</contour>
 		<contour>
 			<point x="498.78321" y="56" type="curve" smooth="yes"/>
@@ -63,4 +63,12 @@
 			<point x="321.78321" y="56"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 18:34:37 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

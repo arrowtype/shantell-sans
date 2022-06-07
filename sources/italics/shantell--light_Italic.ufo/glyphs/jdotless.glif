@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jdotless" format="2">
 	<advance width="241"/>
-	<anchor x="159.7126" y="485" name="top"/>
 	<outline>
 		<contour>
 			<point x="186.71201" y="444" type="curve" smooth="yes"/>
@@ -33,12 +32,13 @@
 			<point x="180.71201" y="266"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="159.7126" y="485"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
 			<string>2022-06-07 15:52:58 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

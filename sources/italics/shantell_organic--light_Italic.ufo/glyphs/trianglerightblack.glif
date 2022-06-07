@@ -34,15 +34,15 @@
 			<point x="210.54953" y="673"/>
 			<point x="206.54953" y="657" type="curve" smooth="yes"/>
 			<point x="201.54953" y="630"/>
-			<point x="213.54953" y="615"/>
-			<point x="246.54953" y="604" type="curve" smooth="yes"/>
-			<point x="413.54953" y="543"/>
-			<point x="568.54953" y="471"/>
-			<point x="673.54953" y="331" type="curve"/>
-			<point x="680.54953" y="383" type="line"/>
-			<point x="546.54953" y="254"/>
-			<point x="288.54953" y="205"/>
-			<point x="72.54953" y="61" type="curve"/>
+			<point x="216" y="622"/>
+			<point x="249" y="611" type="curve" smooth="yes"/>
+			<point x="416" y="550"/>
+			<point x="571" y="478"/>
+			<point x="676" y="338" type="curve"/>
+			<point x="683" y="390" type="line"/>
+			<point x="549" y="261"/>
+			<point x="291" y="212"/>
+			<point x="75" y="68" type="curve"/>
 			<point x="109.54953" y="39" type="line"/>
 			<point x="111.54953" y="95"/>
 			<point x="109.54953" y="166"/>
@@ -60,4 +60,12 @@
 			<point x="102.54953" y="482"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 19:35:06 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

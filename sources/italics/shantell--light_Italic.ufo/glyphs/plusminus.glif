@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="plusminus" format="2">
-	<advance width="700"/>
 	<unicode hex="00B1"/>
+	<advance width="700"/>
 	<outline>
 		<contour>
-			<point x="440.8617" y="506" type="curve" smooth="yes"/>
-			<point x="448.8617" y="544"/>
-			<point x="432.8617" y="565"/>
+			<point x="445" y="506" type="curve" smooth="yes"/>
+			<point x="453" y="544"/>
+			<point x="436" y="565"/>
 			<point x="412.8617" y="565" type="curve" smooth="yes"/>
 			<point x="394.8617" y="565"/>
 			<point x="380.8617" y="547"/>
@@ -17,11 +17,11 @@
 			<point x="310.8617" y="226"/>
 			<point x="319.8617" y="212"/>
 			<point x="334.8617" y="212" type="curve" smooth="yes"/>
-			<point x="347.8617" y="212"/>
-			<point x="367.8617" y="222"/>
-			<point x="374.8617" y="257" type="curve" smooth="yes"/>
-			<point x="388.8617" y="323"/>
-			<point x="427.8617" y="438"/>
+			<point x="349" y="212"/>
+			<point x="372" y="222"/>
+			<point x="379" y="257" type="curve" smooth="yes"/>
+			<point x="393" y="323"/>
+			<point x="432" y="438"/>
 		</contour>
 		<contour>
 			<point x="585.8617" y="367" type="curve" smooth="yes"/>
@@ -67,9 +67,9 @@
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 15:52:58 +0000</string>
+			<string>2022-06-07 18:34:37 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

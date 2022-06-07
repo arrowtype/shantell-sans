@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ucyr" format="2">
-	<advance width="641"/>
 	<unicode hex="0423"/>
-	<anchor x="419.22763" y="700" name="top"/>
+	<advance width="641"/>
 	<outline>
 		<contour>
 			<point x="234.22677" y="585" type="curve" smooth="yes"/>
@@ -56,6 +55,7 @@
 			<point x="206.22677" y="443"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="419.22763" y="700"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

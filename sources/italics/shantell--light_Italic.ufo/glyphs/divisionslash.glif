@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="divisionslash" format="2">
-	<advance width="700"/>
 	<unicode hex="2215"/>
-	<guideline x="-48.21" y="780" angle="0" identifier="dW6I5Ht122"/>
-	<guideline x="-48.21" y="-80" angle="0" identifier="1dFKbftVcp"/>
-	<guideline x="247.79" y="780" angle="0" identifier="Puo88A31nG"/>
-	<guideline x="273.79" y="-80" angle="0" identifier="nYg210JGjA"/>
+	<advance width="700"/>
 	<outline>
 		<contour>
 			<point x="691.3532" y="654" type="curve" smooth="yes"/>
@@ -28,12 +24,16 @@
 			<point x="429.3532" y="428"/>
 		</contour>
 	</outline>
+	<guideline x="-53.21" y="780" angle="0" identifier="dW6I5Ht122"/>
+	<guideline x="-53.21" y="-80" angle="0" identifier="1dFKbftVcp"/>
+	<guideline x="242.79" y="780" angle="0" identifier="Puo88A31nG"/>
+	<guideline x="268.79" y="-80" angle="0" identifier="nYg210JGjA"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 15:52:58 +0000</string>
+			<string>2022-06-07 18:45:05 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>
