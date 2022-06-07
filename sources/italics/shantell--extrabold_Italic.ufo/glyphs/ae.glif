@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ae" format="2">
-	<unicode hex="00E6"/>
 	<advance width="927"/>
+	<unicode hex="00E6"/>
+	<anchor x="528.64259" y="515" name="top"/>
 	<outline>
 		<contour>
 			<point x="580.64196" y="186" type="curve" smooth="yes"/>
@@ -92,5 +93,12 @@
 			<point x="377.64196" y="321"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="528.64259" y="515"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:33 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

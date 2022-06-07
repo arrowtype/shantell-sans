@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arrowup" format="2">
-	<unicode hex="2191"/>
 	<advance width="700"/>
+	<unicode hex="2191"/>
+	<guideline x="300.8" y="0" angle="0" identifier="tNNVc1o3j9"/>
 	<outline>
 		<contour>
 			<point x="558.89291" y="206" type="curve" smooth="yes"/>
@@ -69,5 +70,12 @@
 			<point x="277.89291" y="337"/>
 		</contour>
 	</outline>
-	<guideline x="300.8" identifier="tNNVc1o3j9"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

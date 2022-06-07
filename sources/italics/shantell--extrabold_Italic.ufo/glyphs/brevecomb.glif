@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="brevecomb" format="2">
+	<advance width="0"/>
 	<unicode hex="0306"/>
+	<anchor x="52.01724" y="515" name="_top"/>
+	<anchor x="99.01752" y="750" name="top"/>
 	<outline>
 		<contour>
 			<point x="92.01661" y="715" type="curve" smooth="yes"/>
@@ -29,6 +32,12 @@
 			<point x="138.01661" y="715"/>
 		</contour>
 	</outline>
-	<anchor name="_top" x="52.01724" y="515"/>
-	<anchor name="top" x="99.01752" y="750"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:33 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

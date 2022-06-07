@@ -1,10 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ocircumflexdotbelow" format="2">
-	<unicode hex="1ED8"/>
 	<advance width="726"/>
+	<unicode hex="1ED8"/>
 	<outline>
-		<component base="O" xOffset="-0.1647935973"/>
-		<component base="circumflexcomb" xOffset="401.8352064027" yOffset="215"/>
-		<component base="dotbelowcmb" xOffset="358.8352064027"/>
+		<component base="O"/>
+		<component base="circumflexcomb" xOffset="402" yOffset="215"/>
+		<component base="dotbelowcmb" xOffset="359"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>O</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>circumflexcomb</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>dotbelowcmb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 02:14:18 +0000</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Thorn" format="2">
-	<unicode hex="00DE"/>
 	<advance width="649"/>
+	<unicode hex="00DE"/>
 	<outline>
 		<contour>
 			<point x="109.76969" y="-12" type="curve" smooth="yes"/>
@@ -65,4 +65,12 @@
 			<point x="294.76969" y="400"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:19 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

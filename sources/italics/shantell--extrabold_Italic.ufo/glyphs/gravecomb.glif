@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gravecomb" format="2">
+	<advance width="0"/>
 	<unicode hex="0300"/>
+	<anchor x="51.64149" y="515" name="_top"/>
+	<anchor x="47.04146" y="492" name="_side"/>
 	<outline>
 		<contour>
 			<point x="147.64086" y="647" type="curve" smooth="yes"/>
@@ -20,6 +23,12 @@
 			<point x="140.64086" y="609"/>
 		</contour>
 	</outline>
-	<anchor name="_top" x="51.64149" y="515"/>
-	<anchor name="_side" x="47.04146" y="492"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:33 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

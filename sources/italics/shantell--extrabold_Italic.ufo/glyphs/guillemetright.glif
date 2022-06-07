@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="guillemetright" format="2">
-	<unicode hex="00BB"/>
 	<advance width="695"/>
+	<unicode hex="00BB"/>
+	<guideline x="111.8" y="361" angle="0" identifier="MD08xPDkZs"/>
 	<outline>
 		<contour>
 			<point x="359.25961" y="155" type="curve" smooth="yes"/>
@@ -76,5 +77,12 @@
 			<point x="122.25961" y="198"/>
 		</contour>
 	</outline>
-	<guideline x="111.8" y="361" angle="0" identifier="MD08xPDkZs"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

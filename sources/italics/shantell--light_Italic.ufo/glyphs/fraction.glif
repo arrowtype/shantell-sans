@@ -1,27 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fraction" format="2">
-	<unicode hex="2044"/>
 	<advance width="220"/>
+	<unicode hex="2044"/>
 	<outline>
 		<contour>
-			<point x="617.5306122449" y="661" type="curve" smooth="yes"/>
-			<point x="697.5306122449" y="714"/>
-			<point x="662.5306122449" y="737"/>
-			<point x="643.5306122449" y="737" type="curve" smooth="yes"/>
-			<point x="623.5306122449" y="737"/>
-			<point x="607.5306122449" y="729"/>
-			<point x="581.5306122449" y="713" type="curve" smooth="yes"/>
-			<point x="264.5306122449" y="514"/>
-			<point x="18.5306122449" y="275"/>
-			<point x="-209.4693877551" y="21" type="curve" smooth="yes"/>
-			<point x="-236.4693877551" y="-11"/>
-			<point x="-227.4693877551" y="-45"/>
-			<point x="-203.4693877551" y="-45" type="curve" smooth="yes"/>
-			<point x="-190.4693877551" y="-45"/>
-			<point x="-175.4693877551" y="-36"/>
-			<point x="-159.4693877551" y="-18" type="curve" smooth="yes"/>
-			<point x="55.5306122449" y="220"/>
-			<point x="284.5306122449" y="442"/>
+			<point x="617.53061" y="661" type="curve" smooth="yes"/>
+			<point x="697.53061" y="714"/>
+			<point x="662.53061" y="737"/>
+			<point x="643.53061" y="737" type="curve" smooth="yes"/>
+			<point x="623.53061" y="737"/>
+			<point x="607.53061" y="729"/>
+			<point x="581.53061" y="713" type="curve" smooth="yes"/>
+			<point x="264.53061" y="514"/>
+			<point x="18.53061" y="275"/>
+			<point x="-209.46939" y="21" type="curve" smooth="yes"/>
+			<point x="-236.46939" y="-11"/>
+			<point x="-227.46939" y="-45"/>
+			<point x="-203.46939" y="-45" type="curve" smooth="yes"/>
+			<point x="-190.46939" y="-45"/>
+			<point x="-175.46939" y="-36"/>
+			<point x="-159.46939" y="-18" type="curve" smooth="yes"/>
+			<point x="55.53061" y="220"/>
+			<point x="284.53061" y="442"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:52:58 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

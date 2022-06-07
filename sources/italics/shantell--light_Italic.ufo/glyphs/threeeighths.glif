@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="threeeighths" format="2">
-	<unicode hex="215C"/>
 	<advance width="1100"/>
+	<unicode hex="215C"/>
 	<outline>
-		<component base="three.numr" xOffset="0.1027417584"/>
-		<component base="fraction" xOffset="440.1027417584"/>
-		<component base="eight.dnom" xOffset="660.1027417584"/>
+		<component base="three.numr"/>
+		<component base="fraction" xOffset="440"/>
+		<component base="eight.dnom" xOffset="660"/>
 	</outline>
 </glyph>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ljecyr.ss01" format="2">
 	<advance width="1069"/>
+	<guideline x="45.8" y="658" angle="0" identifier="b3w6f6co8h"/>
+	<guideline x="45.8" y="658" angle="0" identifier="jdn5JLBvkG"/>
+	<guideline x="45.8" y="658" angle="0" identifier="mF84iu6Knu"/>
 	<outline>
 		<contour>
 			<point x="614.32099" y="325" type="curve" smooth="yes"/>
@@ -61,7 +64,12 @@
 			<point x="617.32099" y="247"/>
 		</contour>
 	</outline>
-	<guideline x="45.8" y="658" angle="0" identifier="b3w6f6co8h"/>
-	<guideline x="45.8" y="658" angle="0" identifier="jdn5JLBvkG"/>
-	<guideline x="45.8" y="658" angle="0" identifier="mF84iu6Knu"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

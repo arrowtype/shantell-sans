@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="OE" format="2">
-	<unicode hex="0152"/>
 	<advance width="1227"/>
+	<unicode hex="0152"/>
 	<outline>
 		<contour>
 			<point x="683.36089" y="235" type="curve" smooth="yes"/>
@@ -97,4 +97,12 @@
 			<point x="275.36089" y="438"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:19 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

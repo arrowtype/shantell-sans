@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="trademark" format="2">
-	<unicode hex="2122"/>
 	<advance width="1207"/>
+	<unicode hex="2122"/>
 	<outline>
 		<contour>
 			<point x="221.68423" y="594" type="curve" smooth="yes"/>
@@ -122,4 +122,12 @@
 			<point x="1034.68423" y="540"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

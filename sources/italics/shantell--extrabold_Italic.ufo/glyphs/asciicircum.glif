@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="asciicircum" format="2">
-	<unicode hex="005E"/>
 	<advance width="610"/>
+	<unicode hex="005E"/>
 	<outline>
 		<contour>
 			<point x="328.89574" y="584" type="line"/>
@@ -31,4 +31,12 @@
 			<point x="400.89574" y="582" type="curve"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

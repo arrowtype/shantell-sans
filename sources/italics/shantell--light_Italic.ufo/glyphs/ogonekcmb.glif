@@ -1,34 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ogonekcmb" format="2">
+	<advance width="0"/>
 	<unicode hex="0328"/>
+	<guideline x="-22.21" y="-177" angle="48.145" identifier="4uLH7EeGYo"/>
+	<anchor x="8.51747" y="0" name="_ogonek"/>
 	<outline>
 		<contour>
-			<point x="-182.482530017" y="-136" type="curve" smooth="yes" identifier="JEQ8UdlE63"/>
-			<point x="-198.482530017" y="-214"/>
-			<point x="-160.482530017" y="-256"/>
-			<point x="-56.482530017" y="-256" type="curve" smooth="yes"/>
-			<point x="-12.482530017" y="-256"/>
-			<point x="14.517469983" y="-246"/>
-			<point x="19.517469983" y="-220" type="curve" smooth="yes" identifier="LHykMwcQt1"/>
-			<point x="23.517469983" y="-202"/>
-			<point x="10.517469983" y="-192"/>
-			<point x="-29.482530017" y="-192" type="curve" smooth="yes"/>
-			<point x="-103.482530017" y="-192"/>
-			<point x="-122.482530017" y="-169"/>
-			<point x="-113.482530017" y="-126" type="curve" smooth="yes" identifier="SfV6X15ZAI"/>
-			<point x="-103.482530017" y="-77"/>
-			<point x="-66.482530017" y="-30"/>
-			<point x="-10.482530017" y="-8" type="curve" smooth="yes"/>
-			<point x="12.517469983" y="1"/>
-			<point x="17.517469983" y="6"/>
-			<point x="19.517469983" y="16" type="curve" smooth="yes" identifier="8xy0E8dti6"/>
-			<point x="21.517469983" y="27"/>
-			<point x="15.517469983" y="34"/>
-			<point x="2.517469983" y="34" type="curve" smooth="yes"/>
-			<point x="-80.482530017" y="34"/>
-			<point x="-164.482530017" y="-47"/>
+			<point x="-182.48253" y="-136" type="curve" smooth="yes"/>
+			<point x="-198.48253" y="-214"/>
+			<point x="-160.48253" y="-256"/>
+			<point x="-56.48253" y="-256" type="curve" smooth="yes"/>
+			<point x="-12.48253" y="-256"/>
+			<point x="14.51747" y="-246"/>
+			<point x="19.51747" y="-220" type="curve" smooth="yes"/>
+			<point x="23.51747" y="-202"/>
+			<point x="10.51747" y="-192"/>
+			<point x="-29.48253" y="-192" type="curve" smooth="yes"/>
+			<point x="-103.48253" y="-192"/>
+			<point x="-122.48253" y="-169"/>
+			<point x="-113.48253" y="-126" type="curve" smooth="yes"/>
+			<point x="-103.48253" y="-77"/>
+			<point x="-66.48253" y="-30"/>
+			<point x="-10.48253" y="-8" type="curve" smooth="yes"/>
+			<point x="12.51747" y="1"/>
+			<point x="17.51747" y="6"/>
+			<point x="19.51747" y="16" type="curve" smooth="yes"/>
+			<point x="21.51747" y="27"/>
+			<point x="15.51747" y="34"/>
+			<point x="2.51747" y="34" type="curve" smooth="yes"/>
+			<point x="-80.48253" y="34"/>
+			<point x="-164.48253" y="-47"/>
 		</contour>
 	</outline>
-	<anchor name="_ogonek" x="8.517469983" y="0"/>
-	<guideline x="-22.2076406034" y="-177" angle="48.1449574647" identifier="4uLH7EeGYo"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:52:26 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

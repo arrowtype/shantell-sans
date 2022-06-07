@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="germandbls" format="2">
-	<unicode hex="00DF"/>
 	<advance width="698"/>
+	<unicode hex="00DF"/>
 	<outline>
 		<contour>
 			<point x="424.24797" y="760" type="curve" smooth="yes"/>
@@ -57,4 +57,12 @@
 			<point x="614.24797" y="760"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:33 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

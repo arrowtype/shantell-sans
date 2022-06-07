@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Gehookcyr" format="2">
-	<unicode hex="0494"/>
 	<advance width="707"/>
+	<unicode hex="0494"/>
 	<outline>
 		<contour>
 			<point x="235.09414" y="705" type="curve" smooth="yes"/>
@@ -72,4 +72,12 @@
 			<point x="600.09414" y="-46"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

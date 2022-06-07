@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="daggerdbl" format="2">
-	<unicode hex="2021"/>
 	<advance width="619"/>
+	<unicode hex="2021"/>
 	<outline>
 		<contour>
 			<point x="477.15735" y="580" type="curve" smooth="yes"/>
@@ -70,4 +70,12 @@
 			<point x="192.15735" y="24"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

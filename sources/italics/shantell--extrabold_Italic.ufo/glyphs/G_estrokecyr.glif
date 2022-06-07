@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Gestrokecyr" format="2">
-	<unicode hex="0492"/>
 	<advance width="590"/>
+	<unicode hex="0492"/>
 	<outline>
 		<contour>
 			<point x="108.35698" y="267" type="curve" smooth="yes"/>
@@ -25,4 +25,12 @@
 		</contour>
 		<component base="Gecyr" xOffset="-1.443"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

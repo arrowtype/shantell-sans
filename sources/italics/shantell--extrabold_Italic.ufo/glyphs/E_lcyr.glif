@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Elcyr" format="2">
-	<unicode hex="041B"/>
 	<advance width="719"/>
+	<unicode hex="041B"/>
+	<guideline x="45.8" y="658" angle="0" identifier="b3w6f6co8h"/>
+	<guideline x="45.8" y="658" angle="0" identifier="jdn5JLBvkG"/>
+	<guideline x="45.8" y="658" angle="0" identifier="mF84iu6Knu"/>
 	<outline>
 		<contour>
 			<point x="-16.67901" y="68" type="curve" smooth="yes"/>
@@ -43,7 +46,12 @@
 			<point x="-6.67901" y="121"/>
 		</contour>
 	</outline>
-	<guideline x="45.8" y="658" angle="0" identifier="b3w6f6co8h"/>
-	<guideline x="45.8" y="658" angle="0" identifier="jdn5JLBvkG"/>
-	<guideline x="45.8" y="658" angle="0" identifier="mF84iu6Knu"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,10 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="abrevedotbelow" format="2">
-	<unicode hex="1EB7"/>
 	<advance width="624"/>
+	<unicode hex="1EB7"/>
 	<outline>
 		<component base="a"/>
 		<component base="brevecomb" xOffset="320"/>
 		<component base="dotbelowcmb" xOffset="320"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>a</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>brevecomb</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>dotbelowcmb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 02:14:18 +0000</string>
+		</dict>
+	</lib>
 </glyph>

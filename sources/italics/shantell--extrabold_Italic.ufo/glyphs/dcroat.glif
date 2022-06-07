@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dcroat" format="2">
-	<unicode hex="0111"/>
 	<advance width="708"/>
+	<unicode hex="0111"/>
 	<outline>
 		<contour>
 			<point x="428.80009" y="561" type="curve" smooth="yes"/>
@@ -25,4 +25,12 @@
 		</contour>
 		<component base="d"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:33 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

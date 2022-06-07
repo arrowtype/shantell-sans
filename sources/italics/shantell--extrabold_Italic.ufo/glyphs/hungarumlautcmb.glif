@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hungarumlautcmb" format="2">
+	<advance width="0"/>
 	<unicode hex="030B"/>
+	<anchor x="51.24089" y="515" name="_top"/>
 	<outline>
 		<contour>
 			<point x="50.24026" y="811" type="curve" smooth="yes"/>
@@ -43,5 +45,12 @@
 			<point x="336.24026" y="837"/>
 		</contour>
 	</outline>
-	<anchor name="_top" x="51.24089" y="515"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:33 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

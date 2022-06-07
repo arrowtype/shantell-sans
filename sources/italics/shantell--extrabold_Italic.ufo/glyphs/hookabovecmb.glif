@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hookabovecmb" format="2">
+	<advance width="0"/>
 	<unicode hex="0309"/>
+	<anchor x="51.67465" y="515" name="_top"/>
+	<anchor x="17.07468" y="542" name="_side"/>
 	<outline>
 		<contour>
 			<point x="57.67402" y="557" type="curve" smooth="yes"/>
@@ -29,6 +32,12 @@
 			<point x="20.67402" y="557"/>
 		</contour>
 	</outline>
-	<anchor name="_top" x="51.67465" y="515"/>
-	<anchor name="_side" x="17.07468" y="542"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

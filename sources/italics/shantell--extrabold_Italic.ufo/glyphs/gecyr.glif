@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gecyr" format="2">
-	<unicode hex="0433"/>
 	<advance width="530"/>
+	<unicode hex="0433"/>
+	<guideline x="37.8" y="263" angle="90" identifier="rQENFQOEUJ"/>
+	<guideline x="40.8" y="278" angle="90" identifier="rKZszPBnKc"/>
+	<guideline x="37.8" y="263" angle="90" identifier="1UpiQWPmoV"/>
+	<guideline x="40.8" y="278" angle="90" identifier="pIIihmLULH"/>
+	<anchor x="343.67027" y="515" name="top"/>
 	<outline>
 		<contour>
 			<point x="29.66964" y="79" type="curve" smooth="yes"/>
@@ -43,9 +48,12 @@
 			<point x="34.66964" y="139"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="343.67027" y="515"/>
-	<guideline x="37.8" y="263" angle="90" identifier="rQENFQOEUJ"/>
-	<guideline x="40.8" y="278" angle="90" identifier="rKZszPBnKc"/>
-	<guideline x="37.8" y="263" angle="90" identifier="1UpiQWPmoV"/>
-	<guideline x="40.8" y="278" angle="90" identifier="pIIihmLULH"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

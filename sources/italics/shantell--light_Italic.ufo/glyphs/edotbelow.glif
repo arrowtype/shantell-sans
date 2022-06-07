@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="edotbelow" format="2">
-	<unicode hex="1EB9"/>
 	<advance width="562"/>
+	<unicode hex="1EB9"/>
 	<outline>
-		<component base="e" xOffset="-0.7195405292"/>
-		<component base="dotbelowcmb" xOffset="271.2804594708"/>
+		<component base="e"/>
+		<component base="dotbelowcmb" xOffset="271"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>e</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>dotbelowcmb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 02:14:18 +0000</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ugrave" format="2">
-	<unicode hex="00F9"/>
 	<advance width="559"/>
+	<unicode hex="00F9"/>
 	<outline>
-		<component base="u" xOffset="-0.1583584994"/>
-		<component base="gravecomb" xOffset="286.8416415006"/>
+		<component base="u"/>
+		<component base="gravecomb" xOffset="287"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>u</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>gravecomb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 02:14:18 +0000</string>
+		</dict>
+	</lib>
 </glyph>

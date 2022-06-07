@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Zecyr" format="2">
-	<unicode hex="0417"/>
 	<advance width="606"/>
+	<unicode hex="0417"/>
+	<guideline x="501.8" y="362" angle="90" identifier="ZzoGr9IEv9"/>
+	<guideline x="488.8" y="633" angle="90" identifier="rir6xKM5MM"/>
+	<guideline x="-214.2" y="348" angle="90" identifier="MDMSsOprqX"/>
+	<guideline x="54.8" y="130" angle="90" identifier="VpVaGmY9Xx"/>
+	<guideline x="51.8" y="378" angle="90" identifier="otb2EjpWXm"/>
+	<anchor x="391.0917" y="700" name="top"/>
 	<outline>
 		<contour>
 			<point x="92.09084" y="566" type="curve" smooth="yes"/>
@@ -58,10 +64,12 @@
 			<point x="108.09084" y="643"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="391.0917" y="700"/>
-	<guideline x="501.8" y="362" angle="90" identifier="ZzoGr9IEv9"/>
-	<guideline x="488.8" y="633" angle="90" identifier="rir6xKM5MM"/>
-	<guideline x="-214.2" y="348" angle="90" identifier="MDMSsOprqX"/>
-	<guideline x="54.8" y="130" angle="90" identifier="VpVaGmY9Xx"/>
-	<guideline x="51.8" y="378" angle="90" identifier="otb2EjpWXm"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

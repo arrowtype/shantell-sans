@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tbar" format="2">
-	<unicode hex="0166"/>
 	<advance width="625"/>
+	<unicode hex="0166"/>
 	<outline>
 		<contour>
 			<point x="170.13943" y="216" type="curve" smooth="yes"/>
@@ -25,4 +25,12 @@
 		</contour>
 		<component base="T" xOffset="0.339"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:19 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rinvertedbreve" format="2">
-	<unicode hex="0213"/>
 	<advance width="453"/>
+	<unicode hex="0213"/>
 	<outline>
-		<component base="r" xOffset="-0.3201371744"/>
-		<component base="invertedbrevecmb" xOffset="243.6798628256" yOffset="-30"/>
+		<component base="r"/>
+		<component base="invertedbrevecmb" xOffset="243" yOffset="-30"/>
 	</outline>
 </glyph>

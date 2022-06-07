@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="commaturnedabovecmb" format="2">
+	<advance width="0"/>
 	<unicode hex="0312"/>
+	<anchor x="50.95963" y="515" name="_top"/>
+	<anchor x="99.95993" y="760" name="top"/>
 	<outline>
 		<contour>
 			<point x="71.959" y="576" type="curve" smooth="yes"/>
@@ -26,6 +29,12 @@
 			<point x="5.959" y="576"/>
 		</contour>
 	</outline>
-	<anchor name="_top" x="50.95963" y="515"/>
-	<anchor name="top" x="99.95993" y="760"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:33 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

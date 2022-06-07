@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tsecyr" format="2">
-	<unicode hex="0446"/>
 	<advance width="698"/>
+	<unicode hex="0446"/>
+	<guideline x="37.8" y="263" angle="90" identifier="rQENFQOEUJ"/>
+	<guideline x="40.8" y="278" angle="90" identifier="rKZszPBnKc"/>
 	<outline>
 		<contour>
 			<point x="288.02618" y="435" type="curve" smooth="yes"/>
@@ -67,6 +69,12 @@
 			<point x="615.02618" y="415"/>
 		</contour>
 	</outline>
-	<guideline x="37.8" y="263" angle="90" identifier="rQENFQOEUJ"/>
-	<guideline x="40.8" y="278" angle="90" identifier="rKZszPBnKc"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

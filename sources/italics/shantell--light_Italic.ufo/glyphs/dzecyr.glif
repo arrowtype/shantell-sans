@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dzecyr" format="2">
-	<unicode hex="0455"/>
 	<advance width="537"/>
+	<unicode hex="0455"/>
 	<outline>
-		<component base="s" xOffset="-0.1491373566"/>
+		<component base="s"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>s</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 02:14:18 +0000</string>
+		</dict>
+	</lib>
 </glyph>

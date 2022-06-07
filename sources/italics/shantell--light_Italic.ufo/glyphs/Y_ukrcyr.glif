@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Yukrcyr" format="2">
-	<unicode hex="0407"/>
 	<advance width="610"/>
+	<unicode hex="0407"/>
 	<outline>
-		<component base="Idieresis" xOffset="-0.0015966717"/>
+		<component base="Idieresis"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>Idieresis</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 02:14:18 +0000</string>
+		</dict>
+	</lib>
 </glyph>

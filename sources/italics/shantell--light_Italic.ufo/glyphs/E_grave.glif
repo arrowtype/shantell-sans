@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Egrave" format="2">
-	<unicode hex="00C8"/>
 	<advance width="663"/>
+	<unicode hex="00C8"/>
 	<outline>
-		<component base="E" xOffset="-0.8957428228"/>
-		<component base="gravecomb" xOffset="401.1042571772" yOffset="185"/>
+		<component base="E"/>
+		<component base="gravecomb" xOffset="401" yOffset="185"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>E</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>gravecomb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 02:14:18 +0000</string>
+		</dict>
+	</lib>
 </glyph>

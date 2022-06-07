@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Qacyr" format="2">
-	<unicode hex="051A"/>
 	<advance width="784"/>
+	<unicode hex="051A"/>
 	<outline>
-		<component base="Q" xOffset="-0.6714545175"/>
+		<component base="Q"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>Q</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 02:14:18 +0000</string>
+		</dict>
+	</lib>
 </glyph>

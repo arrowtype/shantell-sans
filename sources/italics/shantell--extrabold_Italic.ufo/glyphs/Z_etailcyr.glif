@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Zetailcyr" format="2">
-	<unicode hex="0498"/>
 	<advance width="606"/>
+	<unicode hex="0498"/>
 	<outline>
 		<contour>
 			<point x="171.80009" y="21" type="curve" smooth="yes"/>
@@ -25,4 +25,12 @@
 		</contour>
 		<component base="Zecyr"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

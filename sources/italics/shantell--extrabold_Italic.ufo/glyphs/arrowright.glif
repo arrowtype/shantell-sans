@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arrowright" format="2">
-	<unicode hex="2192"/>
 	<advance width="700"/>
+	<unicode hex="2192"/>
+	<guideline x="-49.2" y="350" angle="0" name="capCenter" identifier="FLRZJQ4CAL"/>
 	<outline>
 		<contour>
 			<point x="148.10236" y="442" type="curve" smooth="yes"/>
@@ -69,5 +70,12 @@
 			<point x="525.10236" y="585"/>
 		</contour>
 	</outline>
-	<guideline name="capCenter" x="-49.2" y="350" angle="0" identifier="FLRZJQ4CAL"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

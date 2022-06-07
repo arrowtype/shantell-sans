@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tecyr" format="2">
-	<unicode hex="0442"/>
 	<advance width="630"/>
+	<unicode hex="0442"/>
+	<guideline x="37.8" y="263" angle="90" identifier="rQENFQOEUJ"/>
+	<guideline x="40.8" y="278" angle="90" identifier="rKZszPBnKc"/>
+	<guideline x="37.8" y="263" angle="90" identifier="1UpiQWPmoV"/>
+	<guideline x="40.8" y="278" angle="90" identifier="pIIihmLULH"/>
+	<guideline x="37.8" y="263" angle="90" identifier="hyJR6poyuE"/>
+	<guideline x="40.8" y="278" angle="90" identifier="4Yiiv3MdKb"/>
+	<guideline x="37.8" y="263" angle="90" identifier="T8DsogrLo4"/>
+	<guideline x="40.8" y="278" angle="90" identifier="IrSbl1JKvh"/>
 	<outline>
 		<contour>
 			<point x="117.71967" y="490" type="curve" smooth="yes"/>
@@ -51,12 +59,12 @@
 			<point x="420.71967" y="440"/>
 		</contour>
 	</outline>
-	<guideline x="37.8" y="263" angle="90" identifier="rQENFQOEUJ"/>
-	<guideline x="40.8" y="278" angle="90" identifier="rKZszPBnKc"/>
-	<guideline x="37.8" y="263" angle="90" identifier="1UpiQWPmoV"/>
-	<guideline x="40.8" y="278" angle="90" identifier="pIIihmLULH"/>
-	<guideline x="37.8" y="263" angle="90" identifier="hyJR6poyuE"/>
-	<guideline x="40.8" y="278" angle="90" identifier="4Yiiv3MdKb"/>
-	<guideline x="37.8" y="263" angle="90" identifier="T8DsogrLo4"/>
-	<guideline x="40.8" y="278" angle="90" identifier="IrSbl1JKvh"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

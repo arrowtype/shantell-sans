@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heartwhite" format="2">
-	<unicode hex="2661"/>
 	<advance width="899"/>
+	<unicode hex="2661"/>
 	<outline>
 		<contour>
 			<point x="442.93902" y="470" type="curve" smooth="yes"/>
@@ -54,4 +54,12 @@
 			<point x="427.93902" y="509"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

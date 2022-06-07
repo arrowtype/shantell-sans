@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="X" format="2">
-	<unicode hex="0058"/>
 	<advance width="637"/>
+	<unicode hex="0058"/>
+	<anchor x="398.04175" y="700" name="top"/>
+	<anchor x="258.04089" y="0" name="bottom"/>
 	<outline>
 		<contour>
 			<point x="217" y="649" type="curve" smooth="yes"/>
@@ -24,26 +26,32 @@
 			<point x="238" y="446"/>
 		</contour>
 		<contour>
-			<point x="631.0408880432" y="618" type="curve" smooth="yes"/>
-			<point x="694.0408880432" y="668"/>
+			<point x="631.04089" y="618" type="curve" smooth="yes"/>
+			<point x="694.04089" y="668"/>
 			<point x="679" y="709"/>
 			<point x="657" y="709" type="curve" smooth="yes"/>
 			<point x="649" y="709"/>
 			<point x="640" y="706"/>
 			<point x="609" y="682" type="curve" smooth="yes"/>
 			<point x="436" y="547"/>
-			<point x="128.0408880432" y="213"/>
-			<point x="19.0408880432" y="75" type="curve" smooth="yes"/>
-			<point x="-23.9591119568" y="18"/>
+			<point x="128.04089" y="213"/>
+			<point x="19.04089" y="75" type="curve" smooth="yes"/>
+			<point x="-23.95911" y="18"/>
 			<point x="-13" y="-13"/>
 			<point x="13" y="-13" type="curve" smooth="yes"/>
 			<point x="28" y="-13"/>
 			<point x="42" y="-7"/>
 			<point x="70" y="28" type="curve" smooth="yes"/>
 			<point x="276" y="284"/>
-			<point x="494.0408880432" y="512"/>
+			<point x="494.04089" y="512"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="398.0417460282" y="700"/>
-	<anchor name="bottom" x="258.0408880432" y="0"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:52:08 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

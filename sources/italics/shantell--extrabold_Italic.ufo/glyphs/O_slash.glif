@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Oslash" format="2">
-	<unicode hex="00D8"/>
 	<advance width="766"/>
+	<unicode hex="00D8"/>
+	<anchor x="461.64795" y="700" name="top"/>
 	<outline>
 		<contour>
 			<point x="380.64709" y="486" type="curve" smooth="yes"/>
@@ -62,5 +63,12 @@
 			<point x="518.64709" y="356"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="461.64795" y="700"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:19 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

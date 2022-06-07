@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ishortcyr" format="2">
-	<unicode hex="0439"/>
 	<advance width="708"/>
+	<unicode hex="0439"/>
+	<guideline x="228.8" y="515" angle="90" identifier="p0aJ1s3JmT"/>
+	<guideline x="244.8" y="464" angle="90" identifier="XJW6VjdRJe"/>
 	<outline>
 		<contour>
 			<point x="430.80009" y="710" type="curve" smooth="yes"/>
@@ -31,6 +33,12 @@
 		</contour>
 		<component base="icyr"/>
 	</outline>
-	<guideline x="228.8" y="515" angle="90" identifier="p0aJ1s3JmT"/>
-	<guideline x="244.8" y="464" angle="90" identifier="XJW6VjdRJe"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

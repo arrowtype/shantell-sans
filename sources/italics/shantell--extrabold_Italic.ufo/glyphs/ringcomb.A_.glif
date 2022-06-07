@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ringcomb.A" format="2">
+	<advance width="0"/>
+	<anchor x="78.00087" y="636" name="_ring"/>
+	<anchor x="102.40102" y="758" name="top"/>
 	<outline>
 		<component base="ringcomb"/>
 	</outline>
-	<anchor name="_ring" x="78.00087" y="636"/>
-	<anchor name="top" x="102.40102" y="758"/>
 </glyph>

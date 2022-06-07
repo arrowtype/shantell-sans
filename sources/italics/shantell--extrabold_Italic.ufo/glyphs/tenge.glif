@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tenge" format="2">
-	<unicode hex="20B8"/>
 	<advance width="625"/>
+	<unicode hex="20B8"/>
 	<outline>
 		<contour>
 			<point x="185.76954" y="569" type="curve" smooth="yes"/>
@@ -73,4 +73,12 @@
 			<point x="171.76954" y="161"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

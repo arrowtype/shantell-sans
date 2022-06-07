@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seven.inferior" format="2">
-	<unicode hex="2087"/>
 	<advance width="440"/>
+	<unicode hex="2087"/>
 	<outline>
-		<component base="seven.dnom" xOffset="-1.1394034713" yOffset="-106"/>
+		<component base="seven.dnom" xOffset="-1" yOffset="-106"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>seven.dnom</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 02:14:18 +0000</string>
+		</dict>
+	</lib>
 </glyph>

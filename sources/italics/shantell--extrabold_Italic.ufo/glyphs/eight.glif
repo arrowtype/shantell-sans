@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eight" format="2">
-	<unicode hex="0038"/>
 	<advance width="700"/>
+	<unicode hex="0038"/>
 	<outline>
 		<contour>
 			<point x="454" y="544" type="curve" smooth="yes"/>
@@ -20,11 +20,11 @@
 			<point x="468" y="271"/>
 			<point x="478.00196" y="247"/>
 			<point x="474.00196" y="225" type="curve" smooth="yes"/>
-			<point x="464.0019559002" y="173.9999790911"/>
-			<point x="387.0009966102" y="159"/>
+			<point x="464.00196" y="173.99998"/>
+			<point x="387.001" y="159"/>
 			<point x="297" y="159" type="curve" smooth="yes"/>
-			<point x="239.6526946108" y="159"/>
-			<point x="198.9993832253" y="165.000271799"/>
+			<point x="239.65269" y="159"/>
+			<point x="198.99938" y="165.00027"/>
 			<point x="140" y="191" type="curve"/>
 			<point x="200.00196" y="58" type="line"/>
 			<point x="188.00196" y="102"/>
@@ -64,4 +64,12 @@
 			<point x="298" y="549"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:37 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

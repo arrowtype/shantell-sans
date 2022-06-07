@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bracketright.case" format="2">
 	<advance width="431"/>
+	<guideline x="-49.2" y="780" angle="0" identifier="jPs5s1tCd7"/>
+	<guideline x="-49.2" y="-80" angle="0" identifier="LA9IrbUfE6"/>
 	<outline>
 		<contour>
 			<point x="54.0674" y="96" type="curve" smooth="yes"/>
@@ -46,6 +48,12 @@
 			<point x="97.0674" y="97"/>
 		</contour>
 	</outline>
-	<guideline x="-49.2" y="780" angle="0" identifier="jPs5s1tCd7"/>
-	<guideline x="-49.2" y="-80" angle="0" identifier="LA9IrbUfE6"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

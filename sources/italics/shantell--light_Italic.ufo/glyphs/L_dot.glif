@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ldot" format="2">
-	<unicode hex="013F"/>
 	<advance width="556"/>
+	<unicode hex="013F"/>
 	<outline>
 		<contour>
-			<point x="425.7923593966" y="303" type="curve" smooth="yes"/>
-			<point x="459.7923593966" y="303"/>
-			<point x="477.7923593966" y="329"/>
-			<point x="482.7923593966" y="354" type="curve" smooth="yes" identifier="USPTSLxkXf"/>
-			<point x="489.7923593966" y="389"/>
-			<point x="468.7923593966" y="432"/>
-			<point x="420.7923593966" y="432" type="curve" smooth="yes"/>
-			<point x="394.7923593966" y="432"/>
-			<point x="368.7923593966" y="412"/>
-			<point x="363.7923593966" y="384" type="curve" smooth="yes" identifier="GHccQEGUi7"/>
-			<point x="355.7923593966" y="343"/>
-			<point x="383.7923593966" y="303"/>
+			<point x="425.79236" y="303" type="curve" smooth="yes"/>
+			<point x="459.79236" y="303"/>
+			<point x="477.79236" y="329"/>
+			<point x="482.79236" y="354" type="curve" smooth="yes"/>
+			<point x="489.79236" y="389"/>
+			<point x="468.79236" y="432"/>
+			<point x="420.79236" y="432" type="curve" smooth="yes"/>
+			<point x="394.79236" y="432"/>
+			<point x="368.79236" y="412"/>
+			<point x="363.79236" y="384" type="curve" smooth="yes"/>
+			<point x="355.79236" y="343"/>
+			<point x="383.79236" y="303"/>
 		</contour>
 		<component base="L"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:52:58 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

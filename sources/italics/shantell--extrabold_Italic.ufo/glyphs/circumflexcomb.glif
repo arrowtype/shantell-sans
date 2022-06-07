@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflexcomb" format="2">
+	<advance width="0"/>
 	<unicode hex="0302"/>
+	<anchor x="50.87576" y="515" name="_top"/>
+	<anchor x="281.87596" y="675" name="side"/>
+	<anchor x="98.47605" y="753" name="top"/>
 	<outline>
 		<contour>
 			<point x="45.87513" y="679" type="line"/>
@@ -30,7 +34,12 @@
 			<point x="117.87513" y="677" type="curve"/>
 		</contour>
 	</outline>
-	<anchor name="_top" x="50.87576" y="515"/>
-	<anchor name="side" x="281.87596" y="675"/>
-	<anchor name="top" x="98.47605" y="753"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:33 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="six" format="2">
-	<unicode hex="0036"/>
 	<advance width="700"/>
+	<unicode hex="0036"/>
 	<outline>
 		<contour>
 			<point x="522.81098" y="549" type="curve" smooth="yes"/>
@@ -48,4 +48,12 @@
 			<point x="355.81098" y="445"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:37 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,27 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="emdash" format="2">
-	<unicode hex="2014"/>
 	<advance width="1000"/>
+	<unicode hex="2014"/>
 	<outline>
 		<contour>
-			<point x="112.3068181818" y="212" type="curve" smooth="yes"/>
-			<point x="222.3068181818" y="212"/>
-			<point x="400.3068181818" y="222"/>
-			<point x="890.3068181818" y="222" type="curve" smooth="yes"/>
-			<point x="922.3068181818" y="222"/>
-			<point x="944.3068181818" y="233"/>
-			<point x="947.3068181818" y="251" type="curve" smooth="yes" identifier="RumceuE1ZN"/>
-			<point x="950.3068181818" y="264"/>
-			<point x="932.3068181818" y="285"/>
-			<point x="870.3068181818" y="285" type="curve" smooth="yes"/>
-			<point x="610.3068181818" y="285"/>
-			<point x="365.3068181818" y="282"/>
-			<point x="93.3068181818" y="271" type="curve" smooth="yes"/>
-			<point x="68.3068181818" y="270"/>
-			<point x="58.3068181818" y="253"/>
-			<point x="55.3068181818" y="242" type="curve" smooth="yes" identifier="FWa52n5REA"/>
-			<point x="52.3068181818" y="227"/>
-			<point x="71.3068181818" y="212"/>
+			<point x="112.30682" y="212" type="curve" smooth="yes"/>
+			<point x="222.30682" y="212"/>
+			<point x="400.30682" y="222"/>
+			<point x="890.30682" y="222" type="curve" smooth="yes"/>
+			<point x="922.30682" y="222"/>
+			<point x="944.30682" y="233"/>
+			<point x="947.30682" y="251" type="curve" smooth="yes"/>
+			<point x="950.30682" y="264"/>
+			<point x="932.30682" y="285"/>
+			<point x="870.30682" y="285" type="curve" smooth="yes"/>
+			<point x="610.30682" y="285"/>
+			<point x="365.30682" y="282"/>
+			<point x="93.30682" y="271" type="curve" smooth="yes"/>
+			<point x="68.30682" y="270"/>
+			<point x="58.30682" y="253"/>
+			<point x="55.30682" y="242" type="curve" smooth="yes"/>
+			<point x="52.30682" y="227"/>
+			<point x="71.30682" y="212"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:52:58 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

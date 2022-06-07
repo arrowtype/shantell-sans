@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="E" format="2">
-	<unicode hex="0045"/>
 	<advance width="704"/>
+	<unicode hex="0045"/>
+	<anchor x="475.03002" y="700" name="top"/>
+	<anchor x="335.02916" y="0" name="bottom"/>
+	<anchor x="580.82923" y="54" name="ogonek"/>
 	<outline>
 		<contour>
 			<point x="150.02916" y="523" type="curve" smooth="yes"/>
@@ -73,13 +76,12 @@
 			<point x="144.02916" y="502"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="475.03002" y="700"/>
-	<anchor name="bottom" x="335.02916" y="0"/>
-	<anchor name="ogonek" x="580.82923" y="54"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-05-26 17:21:35 +0000</string>
+			<string>2022-06-07 15:53:14 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

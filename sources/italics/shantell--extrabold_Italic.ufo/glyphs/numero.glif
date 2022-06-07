@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="numero" format="2">
-	<unicode hex="2116"/>
 	<advance width="1290"/>
+	<unicode hex="2116"/>
 	<outline>
 		<contour>
 			<point x="929.33242" y="108" type="curve" smooth="yes"/>
@@ -69,4 +69,12 @@
 		</contour>
 		<component base="N" xOffset="-2.468"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

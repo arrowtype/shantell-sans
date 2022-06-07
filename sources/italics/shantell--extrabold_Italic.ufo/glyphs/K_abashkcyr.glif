@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Kabashkcyr" format="2">
-	<unicode hex="04A0"/>
 	<advance width="786"/>
+	<unicode hex="04A0"/>
+	<guideline x="181.8" y="383" angle="90" identifier="oqAwihxoqY"/>
+	<guideline x="55.8" y="403" angle="90" identifier="Q4slOkGdpJ"/>
 	<outline>
 		<contour>
 			<point x="638.88746" y="-11" type="curve" smooth="yes"/>
@@ -63,6 +65,12 @@
 			<point x="312.88746" y="131"/>
 		</contour>
 	</outline>
-	<guideline x="181.8" y="383" angle="90" identifier="oqAwihxoqY"/>
-	<guideline x="55.8" y="403" angle="90" identifier="Q4slOkGdpJ"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

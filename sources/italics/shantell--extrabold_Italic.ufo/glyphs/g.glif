@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="g" format="2">
-	<unicode hex="0067"/>
 	<advance width="660"/>
+	<unicode hex="0067"/>
+	<anchor x="359.10851" y="515" name="top"/>
+	<anchor x="267.10757" y="-250" name="bottom"/>
 	<outline>
 		<contour>
 			<point x="513.10788" y="467" type="curve" smooth="yes"/>
@@ -64,12 +66,12 @@
 			<point x="584.10788" y="467"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="359.10851" y="515"/>
-	<anchor name="bottom" x="267.10757" y="-250"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-05-26 17:33:27 +0000</string>
+			<string>2022-06-07 15:53:25 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

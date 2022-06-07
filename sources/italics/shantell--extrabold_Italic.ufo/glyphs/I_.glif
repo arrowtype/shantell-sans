@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="I" format="2">
-	<unicode hex="0049"/>
 	<advance width="565"/>
+	<unicode hex="0049"/>
+	<anchor x="380.20249" y="700" name="top"/>
+	<anchor x="240.20164" y="0" name="bottom"/>
+	<anchor x="430.40166" y="16" name="ogonek"/>
 	<outline>
 		<contour>
 			<point x="127.20164" y="-11" type="curve" smooth="yes"/>
@@ -64,13 +67,12 @@
 			<point x="207.20164" y="120"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="380.20249" y="700"/>
-	<anchor name="bottom" x="240.20164" y="0"/>
-	<anchor name="ogonek" x="430.40166" y="16"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-05-26 17:22:11 +0000</string>
+			<string>2022-06-07 15:53:14 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

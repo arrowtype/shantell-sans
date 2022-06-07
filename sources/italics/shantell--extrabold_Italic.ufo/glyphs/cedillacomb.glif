@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cedillacomb" format="2">
+	<advance width="0"/>
 	<unicode hex="0327"/>
+	<anchor x="-50.14882" y="0" name="_bottom"/>
 	<outline>
 		<contour>
 			<point x="57.85118" y="-100" type="curve" smooth="yes"/>
@@ -26,5 +28,12 @@
 			<point x="40.85118" y="-187"/>
 		</contour>
 	</outline>
-	<anchor name="_bottom" x="-50.14882" y="0"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:33 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

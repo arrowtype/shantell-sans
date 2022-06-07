@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="semicolon" format="2">
-	<unicode hex="003B"/>
 	<advance width="318"/>
+	<unicode hex="003B"/>
 	<outline>
 		<contour>
 			<point x="168.33679" y="335" type="curve" smooth="yes"/>
@@ -19,4 +19,12 @@
 		</contour>
 		<component base="comma" xOffset="-2.463"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lessequal" format="2">
-	<unicode hex="2264"/>
 	<advance width="700"/>
+	<unicode hex="2264"/>
+	<guideline x="111.8" y="361" angle="0" identifier="rW7m8EbV2I"/>
 	<outline>
 		<contour>
 			<point x="598.8065" y="482" type="curve" smooth="yes"/>
@@ -63,5 +64,12 @@
 			<point x="242.8065" y="58"/>
 		</contour>
 	</outline>
-	<guideline x="111.8" y="361" angle="0" identifier="rW7m8EbV2I"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
 </glyph>
