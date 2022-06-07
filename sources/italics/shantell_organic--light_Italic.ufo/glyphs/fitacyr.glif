@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fitacyr" format="2">
-	<unicode hex="0473"/>
 	<advance width="664"/>
+	<unicode hex="0473"/>
 	<outline>
-		<component base="obarcyr" xOffset="4.9010764986"/>
+		<component base="obarcyr" xOffset="5"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>obarcyr</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-06 19:19:21 +0000</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ycircumflex" format="2">
-	<unicode hex="0177"/>
 	<advance width="563"/>
+	<unicode hex="0177"/>
 	<outline>
-		<component base="y" xOffset="4.0246663636"/>
-		<component base="circumflexcomb" xOffset="284.0246663636" yOffset="51"/>
+		<component base="y" xOffset="4"/>
+		<component base="circumflexcomb" xOffset="284" yOffset="51"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>y</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>circumflexcomb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-06 19:19:21 +0000</string>
+		</dict>
+	</lib>
 </glyph>

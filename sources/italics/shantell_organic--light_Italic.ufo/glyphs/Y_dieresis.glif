@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ydieresis" format="2">
-	<unicode hex="0178"/>
 	<advance width="601"/>
+	<unicode hex="0178"/>
 	<outline>
-		<component base="Y" xOffset="4.3643098367"/>
-		<component base="dieresiscomb" xOffset="327.3643098367" yOffset="121"/>
+		<component base="Y" xOffset="4"/>
+		<component base="dieresiscomb" xOffset="327" yOffset="121"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>Y</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>dieresiscomb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-06 19:19:21 +0000</string>
+		</dict>
+	</lib>
 </glyph>

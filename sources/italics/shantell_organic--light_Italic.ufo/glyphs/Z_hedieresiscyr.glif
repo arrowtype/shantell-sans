@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Zhedieresiscyr" format="2">
-	<unicode hex="04DC"/>
 	<advance width="939"/>
+	<unicode hex="04DC"/>
 	<outline>
-		<component base="Zhecyr" xOffset="0"/>
+		<component base="Zhecyr"/>
 		<component base="dieresiscomb" xOffset="492" yOffset="185"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>Zhecyr</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>dieresiscomb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-06 19:19:21 +0000</string>
+		</dict>
+	</lib>
 </glyph>

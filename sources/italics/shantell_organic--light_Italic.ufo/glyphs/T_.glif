@@ -1,52 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="T" format="2">
-	<unicode hex="0054"/>
 	<advance width="647"/>
+	<unicode hex="0054"/>
+	<anchor x="413.14333" y="612" name="top"/>
+	<anchor x="303.74263" y="35" name="bottom"/>
 	<outline>
 		<contour>
-			<point x="351.742583436" y="526" type="curve" smooth="yes"/>
-			<point x="293.742583436" y="321"/>
-			<point x="273.742583436" y="174"/>
-			<point x="267.742583436" y="115" type="curve" smooth="yes"/>
-			<point x="261.742583436" y="45"/>
-			<point x="279.742583436" y="26"/>
-			<point x="301.742583436" y="26" type="curve" smooth="yes"/>
-			<point x="316.742583436" y="26"/>
-			<point x="329.742583436" y="33"/>
-			<point x="332.742583436" y="52" type="curve" smooth="yes" identifier="1M5gron2uP"/>
-			<point x="338.742583436" y="82"/>
-			<point x="329.742583436" y="190"/>
-			<point x="399.742583436" y="454" type="curve" smooth="yes"/>
-			<point x="421.742583436" y="542"/>
-			<point x="420.742583436" y="570"/>
-			<point x="389.742583436" y="570" type="curve" smooth="yes"/>
-			<point x="372.742583436" y="570"/>
-			<point x="358.742583436" y="552"/>
+			<point x="351.74258" y="526" type="curve" smooth="yes"/>
+			<point x="293.74258" y="321"/>
+			<point x="273.74258" y="174"/>
+			<point x="267.74258" y="115" type="curve" smooth="yes"/>
+			<point x="261.74258" y="45"/>
+			<point x="279.74258" y="26"/>
+			<point x="301.74258" y="26" type="curve" smooth="yes"/>
+			<point x="316.74258" y="26"/>
+			<point x="329.74258" y="33"/>
+			<point x="332.74258" y="52" type="curve" smooth="yes"/>
+			<point x="338.74258" y="82"/>
+			<point x="329.74258" y="190"/>
+			<point x="399.74258" y="454" type="curve" smooth="yes"/>
+			<point x="421.74258" y="542"/>
+			<point x="420.74258" y="570"/>
+			<point x="389.74258" y="570" type="curve" smooth="yes"/>
+			<point x="372.74258" y="570"/>
+			<point x="358.74258" y="552"/>
 		</contour>
 		<contour>
-			<point x="197.742583436" y="559" type="curve" smooth="yes"/>
-			<point x="324.742583436" y="555"/>
-			<point x="399.742583436" y="554"/>
-			<point x="551.742583436" y="554" type="curve" smooth="yes"/>
-			<point x="615.742583436" y="554"/>
-			<point x="683.742583436" y="570"/>
-			<point x="690.742583436" y="605" type="curve" smooth="yes" identifier="UNE0fo4RPB"/>
-			<point x="693.742583436" y="620"/>
-			<point x="685.742583436" y="631"/>
-			<point x="663.742583436" y="631" type="curve" smooth="yes"/>
-			<point x="632.742583436" y="631"/>
-			<point x="620.742583436" y="620"/>
-			<point x="527.742583436" y="620" type="curve" smooth="yes"/>
-			<point x="392.742583436" y="620"/>
-			<point x="321.742583436" y="626"/>
-			<point x="156.742583436" y="626" type="curve" smooth="yes"/>
-			<point x="128.742583436" y="626"/>
-			<point x="115.742583436" y="617"/>
-			<point x="113.742583436" y="605" type="curve" smooth="yes" identifier="wArsnctDPy"/>
-			<point x="109.742583436" y="583"/>
-			<point x="119.742583436" y="561"/>
+			<point x="197.74258" y="559" type="curve" smooth="yes"/>
+			<point x="324.74258" y="555"/>
+			<point x="399.74258" y="554"/>
+			<point x="551.74258" y="554" type="curve" smooth="yes"/>
+			<point x="615.74258" y="554"/>
+			<point x="683.74258" y="570"/>
+			<point x="690.74258" y="605" type="curve" smooth="yes"/>
+			<point x="693.74258" y="620"/>
+			<point x="685.74258" y="631"/>
+			<point x="663.74258" y="631" type="curve" smooth="yes"/>
+			<point x="632.74258" y="631"/>
+			<point x="620.74258" y="620"/>
+			<point x="527.74258" y="620" type="curve" smooth="yes"/>
+			<point x="392.74258" y="620"/>
+			<point x="321.74258" y="626"/>
+			<point x="156.74258" y="626" type="curve" smooth="yes"/>
+			<point x="128.74258" y="626"/>
+			<point x="115.74258" y="617"/>
+			<point x="113.74258" y="605" type="curve" smooth="yes"/>
+			<point x="109.74258" y="583"/>
+			<point x="119.74258" y="561"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="413.1433335601" y="612"/>
-	<anchor name="bottom" x="303.7426263352" y="35"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 02:11:06 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uinvertedbreve" format="2">
-	<unicode hex="0216"/>
 	<advance width="650"/>
+	<unicode hex="0216"/>
 	<outline>
-		<component base="U" xOffset="3.8813562162"/>
-		<component base="invertedbrevecmb" xOffset="362.8813562162" yOffset="98"/>
+		<component base="U" xOffset="4"/>
+		<component base="invertedbrevecmb" xOffset="363" yOffset="98"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>U</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>invertedbrevecmb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-06 19:19:21 +0000</string>
+		</dict>
+	</lib>
 </glyph>

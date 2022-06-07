@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ecircumflexhoi" format="2">
-	<unicode hex="1EC3"/>
 	<advance width="537"/>
+	<unicode hex="1EC3"/>
 	<outline>
-		<component base="e" xOffset="5.2019891913"/>
-		<component base="circumflexhookabovecomb" xOffset="311.2019891913" yOffset="37"/>
+		<component base="e" xOffset="5"/>
+		<component base="circumflexhookabovecomb" xOffset="311" yOffset="37"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>e</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>circumflexhookabovecomb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-06 19:19:21 +0000</string>
+		</dict>
+	</lib>
 </glyph>
