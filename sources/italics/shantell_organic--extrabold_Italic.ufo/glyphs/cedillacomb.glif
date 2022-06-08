@@ -3,28 +3,36 @@
 	<unicode hex="0327"/>
 	<outline>
 		<contour>
-			<point x="57.8511816358" y="-100" type="curve" smooth="yes" identifier="FA0FCH5uPi"/>
-			<point x="78.8511816358" y="4"/>
-			<point x="38.8511816358" y="65"/>
-			<point x="-45.1488183642" y="65" type="curve" smooth="yes"/>
-			<point x="-80.1488183642" y="65"/>
-			<point x="-98.1488183642" y="47"/>
-			<point x="-100.1488183642" y="33" type="curve" smooth="yes" identifier="8GxvEtl697"/>
-			<point x="-106.1488183642" y="4"/>
-			<point x="-86.1488183642" y="11"/>
-			<point x="-94.1488183642" y="-28" type="curve" smooth="yes" identifier="XHSkUyjkAr"/>
-			<point x="-100.1488183642" y="-58"/>
-			<point x="-120.1488183642" y="-72"/>
-			<point x="-164.1488183642" y="-82" type="curve" smooth="yes"/>
-			<point x="-208.1488183642" y="-92"/>
-			<point x="-230.1488183642" y="-117"/>
-			<point x="-238.1488183642" y="-154" type="curve" smooth="yes" identifier="C9AZ8LqAXO"/>
-			<point x="-249.1488183642" y="-210"/>
-			<point x="-210.1488183642" y="-239"/>
-			<point x="-147.1488183642" y="-239" type="curve" smooth="yes"/>
-			<point x="-37.1488183642" y="-239"/>
-			<point x="40.8511816358" y="-187"/>
+			<point x="56" y="-110" type="curve" smooth="yes"/>
+			<point x="78.2086382636" y="-0.0143628851"/>
+			<point x="37.3414798058" y="65"/>
+			<point x="-45.14882" y="65" type="curve" smooth="yes"/>
+			<point x="-80.14882" y="65"/>
+			<point x="-98.14882" y="47"/>
+			<point x="-100.14882" y="33" type="curve" smooth="yes"/>
+			<point x="-106.14882" y="4"/>
+			<point x="-86.14882" y="11"/>
+			<point x="-94.14882" y="-28" type="curve" smooth="yes"/>
+			<point x="-100.14882" y="-58"/>
+			<point x="-120.14882" y="-72"/>
+			<point x="-164.14882" y="-82" type="curve" smooth="yes"/>
+			<point x="-208.14882" y="-92"/>
+			<point x="-230.14882" y="-117"/>
+			<point x="-238.14882" y="-154" type="curve" smooth="yes"/>
+			<point x="-250.5845064367" y="-217.3089491321"/>
+			<point x="-206.4107215385" y="-250"/>
+			<point x="-135" y="-250" type="curve" smooth="yes"/>
+			<point x="-32.512195122" y="-250"/>
+			<point x="38.918078316" y="-197.4192462652"/>
 		</contour>
 	</outline>
-	<anchor name="_bottom" x="-50.1488183642" y="0"/>
+	<anchor name="_bottom" x="-50.14882" y="0"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:33 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

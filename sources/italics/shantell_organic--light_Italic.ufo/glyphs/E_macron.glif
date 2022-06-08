@@ -3,7 +3,32 @@
 	<unicode hex="0112"/>
 	<advance width="663"/>
 	<outline>
-		<component base="E" xOffset="4.7533029826"/>
-		<component base="macroncomb" xOffset="420.7533029826" yOffset="239"/>
+		<component base="E" xOffset="5"/>
+		<component base="macroncomb" xOffset="421" yOffset="239"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>E</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>macroncomb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-06 19:19:21 +0000</string>
+		</dict>
+	</lib>
 </glyph>

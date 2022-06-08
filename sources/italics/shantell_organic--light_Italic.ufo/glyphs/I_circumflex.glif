@@ -3,7 +3,32 @@
 	<unicode hex="00CE"/>
 	<advance width="607"/>
 	<outline>
-		<component base="I" xOffset="4.9972542257"/>
-		<component base="circumflexcomb" xOffset="342.9972542257" yOffset="142"/>
+		<component base="I" xOffset="5"/>
+		<component base="circumflexcomb" xOffset="343" yOffset="142"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>I</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>circumflexcomb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-06 19:19:21 +0000</string>
+		</dict>
+	</lib>
 </glyph>

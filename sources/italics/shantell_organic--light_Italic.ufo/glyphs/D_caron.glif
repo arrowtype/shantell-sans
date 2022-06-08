@@ -3,7 +3,32 @@
 	<unicode hex="010E"/>
 	<advance width="642"/>
 	<outline>
-		<component base="D" xOffset="4.8127254184"/>
-		<component base="caroncomb" xOffset="374.8127254184" yOffset="159"/>
+		<component base="D" xOffset="5"/>
+		<component base="caroncomb" xOffset="375" yOffset="159"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>D</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>caroncomb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-06 19:19:21 +0000</string>
+		</dict>
+	</lib>
 </glyph>

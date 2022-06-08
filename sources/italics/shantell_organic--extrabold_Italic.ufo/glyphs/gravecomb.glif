@@ -3,23 +3,31 @@
 	<unicode hex="0300"/>
 	<outline>
 		<contour>
-			<point x="147.6408564865" y="647" type="curve" smooth="yes" identifier="HPH0BC3Ou3"/>
-			<point x="158.6408564865" y="699"/>
-			<point x="106.6408564865" y="700"/>
-			<point x="95.6408564865" y="769" type="curve" smooth="yes"/>
-			<point x="88.6408564865" y="813"/>
-			<point x="61.6408564865" y="829"/>
-			<point x="24.6408564865" y="829" type="curve" smooth="yes"/>
-			<point x="-41.3591435135" y="829"/>
-			<point x="-76.3591435135" y="794"/>
-			<point x="-87.3591435135" y="740" type="curve" smooth="yes" identifier="FKcSsSj3Tp"/>
-			<point x="-101.3591435135" y="668"/>
-			<point x="-23.3591435135" y="585"/>
-			<point x="54.6408564865" y="585" type="curve" smooth="yes"/>
-			<point x="108.6408564865" y="585"/>
-			<point x="140.6408564865" y="609"/>
+			<point x="138" y="633" type="curve" smooth="yes"/>
+			<point x="149.090709042" y="685.4288063804"/>
+			<point x="96" y="698"/>
+			<point x="85" y="763" type="curve" smooth="yes"/>
+			<point x="78" y="805"/>
+			<point x="56" y="830"/>
+			<point x="12" y="830" type="curve" smooth="yes"/>
+			<point x="-45" y="830"/>
+			<point x="-71.9652921344" y="802.6825880228"/>
+			<point x="-75" y="743" type="curve" smooth="yes"/>
+			<point x="-78" y="663"/>
+			<point x="-21" y="585"/>
+			<point x="61" y="585" type="curve" smooth="yes"/>
+			<point x="100" y="585"/>
+			<point x="131" y="597"/>
 		</contour>
 	</outline>
-	<anchor name="_top" x="51.6414877184" y="515"/>
-	<anchor name="_side" x="47.0414595274" y="492"/>
+	<anchor name="_top" x="51.64149" y="515"/>
+	<anchor name="_side" x="47.04146" y="492"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:33 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

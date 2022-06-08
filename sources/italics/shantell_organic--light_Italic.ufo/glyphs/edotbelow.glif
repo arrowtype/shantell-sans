@@ -3,7 +3,32 @@
 	<unicode hex="1EB9"/>
 	<advance width="537"/>
 	<outline>
-		<component base="e" xOffset="5.2019891913"/>
-		<component base="dotbelowcmb" xOffset="250.2019891913" yOffset="-36"/>
+		<component base="e" xOffset="5"/>
+		<component base="dotbelowcmb" xOffset="250" yOffset="-36"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>e</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>dotbelowcmb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-06 19:19:21 +0000</string>
+		</dict>
+	</lib>
 </glyph>

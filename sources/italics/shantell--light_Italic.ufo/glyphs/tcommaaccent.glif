@@ -3,7 +3,32 @@
 	<unicode hex="021B"/>
 	<advance width="418"/>
 	<outline>
-		<component base="t" xOffset="-0.1787230329"/>
-		<component base="commaaccentbelowcmb" xOffset="242.8212769671"/>
+		<component base="t"/>
+		<component base="commaaccentbelowcmb" xOffset="243"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>t</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>commaaccentbelowcmb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 02:14:18 +0000</string>
+		</dict>
+	</lib>
 </glyph>

@@ -4,15 +4,15 @@
 	<advance width="717"/>
 	<outline>
 		<contour>
-			<point x="69.28785" y="128" type="curve" smooth="yes"/>
-			<point x="52.28785" y="46"/>
-			<point x="131.28785" y="-12"/>
-			<point x="264.28785" y="-12" type="curve" smooth="yes"/>
-			<point x="480.28785" y="-12"/>
-			<point x="611.28785" y="68"/>
-			<point x="646.28785" y="246" type="curve" smooth="yes"/>
-			<point x="664.28785" y="336"/>
-			<point x="668.28785" y="465"/>
+			<point x="88" y="170" type="curve" smooth="yes"/>
+			<point x="67.8021308074" y="71.2548617251"/>
+			<point x="148.9504950495" y="-12"/>
+			<point x="304" y="-12" type="curve" smooth="yes"/>
+			<point x="497.5474860335" y="-12"/>
+			<point x="607.0708226633" y="61.3601838306"/>
+			<point x="642" y="239" type="curve" smooth="yes"/>
+			<point x="660" y="329"/>
+			<point x="668" y="465"/>
 			<point x="658.28785" y="575" type="curve" smooth="yes"/>
 			<point x="650.28785" y="656"/>
 			<point x="615.28785" y="674"/>
@@ -23,17 +23,17 @@
 			<point x="493.28785" y="464"/>
 			<point x="490.28785" y="356"/>
 			<point x="473.28785" y="272" type="curve" smooth="yes"/>
-			<point x="458.28785" y="195"/>
-			<point x="413.28785" y="161"/>
-			<point x="298.28785" y="161" type="curve" smooth="yes"/>
-			<point x="253.28785" y="161"/>
-			<point x="243.28785" y="176"/>
-			<point x="249.28785" y="204" type="curve" smooth="yes"/>
-			<point x="254.28785" y="229"/>
-			<point x="243.28785" y="244"/>
-			<point x="208.28785" y="244" type="curve" smooth="yes"/>
-			<point x="124.28785" y="244"/>
-			<point x="79.28785" y="181"/>
+			<point x="458.3462594576" y="195.2998352156"/>
+			<point x="420.0463014286" y="161"/>
+			<point x="318" y="161" type="curve" smooth="yes"/>
+			<point x="254.2415504194" y="161"/>
+			<point x="249" y="176"/>
+			<point x="251" y="199" type="curve" smooth="yes"/>
+			<point x="253" y="219"/>
+			<point x="241.4302651587" y="244"/>
+			<point x="198" y="244" type="curve" smooth="yes"/>
+			<point x="139.3905336103" y="244"/>
+			<point x="95.9099925681" y="213.5049591245"/>
 		</contour>
 		<contour>
 			<point x="470.28785" y="529" type="curve" smooth="yes"/>
@@ -80,4 +80,12 @@
 		</contour>
 	</outline>
 	<anchor name="top" x="430.28871" y="700"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 20:50:20 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

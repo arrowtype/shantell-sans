@@ -3,7 +3,32 @@
 	<unicode hex="01FE"/>
 	<advance width="726"/>
 	<outline>
-		<component base="Oslash" xOffset="5.0351064244"/>
-		<component base="acutecomb" xOffset="406.0351064244" yOffset="185"/>
+		<component base="Oslash" xOffset="5"/>
+		<component base="acutecomb" xOffset="406" yOffset="185"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>Oslash</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>acutecomb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-06 19:19:21 +0000</string>
+		</dict>
+	</lib>
 </glyph>

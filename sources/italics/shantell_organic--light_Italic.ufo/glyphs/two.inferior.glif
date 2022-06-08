@@ -3,6 +3,23 @@
 	<unicode hex="2082"/>
 	<advance width="440"/>
 	<outline>
-		<component base="two.dnom" xOffset="3.546533614" yOffset="-107"/>
+		<component base="two.dnom" xOffset="4" yOffset="-107"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>two.dnom</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-06 19:19:21 +0000</string>
+		</dict>
+	</lib>
 </glyph>

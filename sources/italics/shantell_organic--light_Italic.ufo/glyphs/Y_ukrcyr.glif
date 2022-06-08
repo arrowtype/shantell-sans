@@ -3,6 +3,23 @@
 	<unicode hex="0407"/>
 	<advance width="610"/>
 	<outline>
-		<component base="Idieresis" xOffset="4.9972542257"/>
+		<component base="Idieresis" xOffset="5"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>Idieresis</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-06 19:19:21 +0000</string>
+		</dict>
+	</lib>
 </glyph>

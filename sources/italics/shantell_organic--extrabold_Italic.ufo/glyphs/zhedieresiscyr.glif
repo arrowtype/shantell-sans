@@ -3,7 +3,32 @@
 	<unicode hex="04DD"/>
 	<advance width="878"/>
 	<outline>
-		<component base="zhecyr" xOffset="-3.4110917384"/>
-		<component base="dieresiscomb" xOffset="447.5889082616"/>
+		<component base="zhecyr" xOffset="-3"/>
+		<component base="dieresiscomb" xOffset="448"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>zhecyr</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>dieresiscomb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-06 19:19:26 +0000</string>
+		</dict>
+	</lib>
 </glyph>

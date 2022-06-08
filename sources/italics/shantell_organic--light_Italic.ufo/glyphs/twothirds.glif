@@ -3,8 +3,41 @@
 	<unicode hex="2154"/>
 	<advance width="1100"/>
 	<outline>
-		<component base="two.numr" xOffset="-4.546533614"/>
-		<component base="fraction" xOffset="435.453466386"/>
-		<component base="three.dnom" xOffset="655.453466386"/>
+		<component base="two.numr" xOffset="-5"/>
+		<component base="fraction" xOffset="435"/>
+		<component base="three.dnom" xOffset="655"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>two.numr</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>fraction</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>three.dnom</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-06 19:19:21 +0000</string>
+		</dict>
+	</lib>
 </glyph>

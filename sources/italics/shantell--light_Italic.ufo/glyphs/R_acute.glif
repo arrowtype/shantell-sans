@@ -3,7 +3,32 @@
 	<unicode hex="0154"/>
 	<advance width="700"/>
 	<outline>
-		<component base="R" xOffset="-0.5514392881"/>
-		<component base="acutecomb" xOffset="444.4485607119" yOffset="185"/>
+		<component base="R"/>
+		<component base="acutecomb" xOffset="444" yOffset="185"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>R</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>acutecomb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 02:14:18 +0000</string>
+		</dict>
+	</lib>
 </glyph>

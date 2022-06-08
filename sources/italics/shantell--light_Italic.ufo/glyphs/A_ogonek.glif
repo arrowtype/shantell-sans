@@ -3,7 +3,32 @@
 	<unicode hex="0104"/>
 	<advance width="713"/>
 	<outline>
-		<component base="A" xOffset="-1.1173593966"/>
-		<component base="ogonekcmb" xOffset="560.8826406034"/>
+		<component base="A" xOffset="-1"/>
+		<component base="ogonekcmb" xOffset="561"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>A</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>ogonekcmb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 02:14:18 +0000</string>
+		</dict>
+	</lib>
 </glyph>

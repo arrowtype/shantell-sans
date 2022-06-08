@@ -5,8 +5,8 @@
 	<outline>
 		<contour>
 			<point x="443" y="712" type="curve" smooth="yes"/>
-			<point x="280.5290858726" y="712"/>
-			<point x="115.1301456965" y="640.7753854363"/>
+			<point x="280.52909" y="712"/>
+			<point x="115.13015" y="640.77539"/>
 			<point x="102" y="576" type="curve" smooth="yes"/>
 			<point x="93" y="526"/>
 			<point x="124" y="495"/>
@@ -20,25 +20,25 @@
 			<point x="477.73392" y="481"/>
 			<point x="411.73392" y="452"/>
 			<point x="286.73392" y="427" type="curve" smooth="yes"/>
-			<point x="250.0429266156" y="419.8985174095"/>
-			<point x="231.4075981811" y="401.7662587846"/>
+			<point x="250.04293" y="419.89852"/>
+			<point x="231.4076" y="401.76626"/>
 			<point x="225" y="374" type="curve" smooth="yes"/>
-			<point x="216.2258632742" y="326.2297000483"/>
-			<point x="234.2765796721" y="282"/>
+			<point x="216.22586" y="326.2297"/>
+			<point x="234.27658" y="282"/>
 			<point x="295.73392" y="282" type="curve" smooth="yes"/>
-			<point x="457.8483861224" y="282"/>
+			<point x="457.84839" y="282"/>
 			<point x="496" y="267"/>
 			<point x="486" y="222" type="curve" smooth="yes"/>
 			<point x="478" y="187"/>
 			<point x="403" y="161"/>
 			<point x="260" y="161" type="curve" smooth="yes"/>
 			<point x="148" y="161"/>
-			<point x="152.609375" y="189"/>
+			<point x="152.60938" y="189"/>
 			<point x="102" y="189" type="curve" smooth="yes"/>
 			<point x="57" y="189"/>
-			<point x="31.7157885659" y="158.7216329891"/>
+			<point x="31.71579" y="158.72163"/>
 			<point x="24" y="121" type="curve" smooth="yes"/>
-			<point x="9.8327266024" y="55.223373511"/>
+			<point x="9.83273" y="55.22337"/>
 			<point x="63" y="-12"/>
 			<point x="260" y="-12" type="curve" smooth="yes"/>
 			<point x="482" y="-12"/>
@@ -51,8 +51,16 @@
 			<point x="596.73392" y="389"/>
 			<point x="654.73392" y="462"/>
 			<point x="668.73392" y="532" type="curve" smooth="yes"/>
-			<point x="690.8215285887" y="641.4340607349"/>
-			<point x="622.942922781" y="712"/>
+			<point x="690.82153" y="641.43406"/>
+			<point x="622.94292" y="712"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:37 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

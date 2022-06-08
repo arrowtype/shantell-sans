@@ -3,7 +3,32 @@
 	<unicode hex="00E7"/>
 	<advance width="482"/>
 	<outline>
-		<component base="c" xOffset="0.0241467795"/>
-		<component base="cedillacomb" xOffset="269.0241467795"/>
+		<component base="c"/>
+		<component base="cedillacomb" xOffset="269"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>c</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>cedillacomb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 02:14:18 +0000</string>
+		</dict>
+	</lib>
 </glyph>

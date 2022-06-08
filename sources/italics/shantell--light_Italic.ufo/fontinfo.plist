@@ -15,50 +15,34 @@
 		<key>guidelines</key>
 		<array>
 			<dict>
-				<key>angle</key>
-				<integer>0</integer>
 				<key>identifier</key>
 				<string>ALLUDBg4M6</string>
 				<key>name</key>
 				<string>overshoot</string>
-				<key>x</key>
-				<integer>0</integer>
 				<key>y</key>
 				<integer>720</integer>
 			</dict>
 			<dict>
-				<key>angle</key>
-				<integer>0</integer>
 				<key>identifier</key>
 				<string>UjWfPTeB4F</string>
 				<key>name</key>
 				<string>overshoot</string>
-				<key>x</key>
-				<integer>0</integer>
 				<key>y</key>
 				<integer>770</integer>
 			</dict>
 			<dict>
-				<key>angle</key>
-				<integer>0</integer>
 				<key>identifier</key>
 				<string>k1wc4W2JcR</string>
 				<key>name</key>
 				<string>overshoot</string>
-				<key>x</key>
-				<integer>0</integer>
 				<key>y</key>
 				<integer>505</integer>
 			</dict>
 			<dict>
-				<key>angle</key>
-				<integer>0</integer>
 				<key>identifier</key>
 				<string>UcYoBkf7aH</string>
 				<key>name</key>
 				<string>overshoot</string>
-				<key>x</key>
-				<integer>0</integer>
 				<key>y</key>
 				<integer>-270</integer>
 			</dict>
@@ -115,8 +99,6 @@
 		<integer>320</integer>
 		<key>postscriptBlueValues</key>
 		<array>
-			<integer>-270</integer>
-			<integer>-250</integer>
 			<integer>-20</integer>
 			<integer>0</integer>
 			<integer>485</integer>
@@ -132,6 +114,8 @@
 		<key>postscriptFamilyOtherBlues</key>
 		<array>
 		</array>
+		<key>postscriptFontName</key>
+		<string>ShantellSans-Light</string>
 		<key>postscriptOtherBlues</key>
 		<array>
 		</array>
@@ -143,8 +127,10 @@
 		</array>
 		<key>styleMapFamilyName</key>
 		<string>Shantell Sans Light</string>
+		<key>styleMapStyleName</key>
+		<string>regular</string>
 		<key>styleName</key>
-		<string>Light Italic</string>
+		<string>Light</string>
 		<key>unitsPerEm</key>
 		<integer>1000</integer>
 		<key>versionMajor</key>

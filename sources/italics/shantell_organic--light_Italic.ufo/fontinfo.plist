@@ -15,52 +15,42 @@
 		<key>guidelines</key>
 		<array>
 			<dict>
-				<key>angle</key>
-				<integer>0</integer>
+				<key>identifier</key>
+				<string>PtjNqJLBqi</string>
 				<key>name</key>
 				<string>overshoot</string>
-				<key>x</key>
-				<integer>0</integer>
 				<key>y</key>
 				<integer>720</integer>
 			</dict>
 			<dict>
-				<key>angle</key>
-				<integer>0</integer>
+				<key>identifier</key>
+				<string>qa6TuBPmII</string>
 				<key>name</key>
 				<string>overshoot</string>
-				<key>x</key>
-				<integer>0</integer>
 				<key>y</key>
 				<integer>770</integer>
 			</dict>
 			<dict>
-				<key>angle</key>
-				<integer>0</integer>
+				<key>identifier</key>
+				<string>xVjleFWOUd</string>
 				<key>name</key>
 				<string>overshoot</string>
-				<key>x</key>
-				<integer>0</integer>
 				<key>y</key>
 				<integer>505</integer>
 			</dict>
 			<dict>
-				<key>angle</key>
-				<integer>0</integer>
+				<key>identifier</key>
+				<string>OjRdUj4rjB</string>
 				<key>name</key>
 				<string>overshoot</string>
-				<key>x</key>
-				<integer>0</integer>
 				<key>y</key>
 				<integer>-270</integer>
 			</dict>
 			<dict>
-				<key>angle</key>
-				<integer>0</integer>
+				<key>identifier</key>
+				<string>wYSqe3zgEI</string>
 				<key>name</key>
 				<string>overshoot</string>
-				<key>x</key>
-				<integer>0</integer>
 				<key>y</key>
 				<integer>-20</integer>
 			</dict>
@@ -83,6 +73,8 @@
 		<string>Arrow Type</string>
 		<key>openTypeNameManufacturerURL</key>
 		<string>https://arrowtype.com</string>
+		<key>openTypeNamePreferredSubfamilyName</key>
+		<string>Irregular Light Italic</string>
 		<key>openTypeOS2TypoAscender</key>
 		<integer>1020</integer>
 		<key>openTypeOS2TypoDescender</key>
@@ -101,8 +93,6 @@
 		<integer>320</integer>
 		<key>postscriptBlueValues</key>
 		<array>
-			<integer>-270</integer>
-			<integer>-250</integer>
 			<integer>-20</integer>
 			<integer>0</integer>
 			<integer>485</integer>
@@ -118,6 +108,8 @@
 		<key>postscriptFamilyOtherBlues</key>
 		<array>
 		</array>
+		<key>postscriptFontName</key>
+		<string>ShantellSans-IrregularLightItalic</string>
 		<key>postscriptOtherBlues</key>
 		<array>
 		</array>
@@ -128,7 +120,7 @@
 		<array>
 		</array>
 		<key>styleMapFamilyName</key>
-		<string>Shantell Sans Irregular Light</string>
+		<string>Shantell Sans Ir Light Italic</string>
 		<key>styleMapStyleName</key>
 		<string>regular</string>
 		<key>styleName</key>

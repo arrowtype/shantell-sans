@@ -3,7 +3,32 @@
 	<unicode hex="04C2"/>
 	<advance width="878"/>
 	<outline>
-		<component base="zhecyr" xOffset="-0.7730234128"/>
-		<component base="brevecomb-cy" xOffset="183.2269765872"/>
+		<component base="zhecyr"/>
+		<component base="brevecomb-cy" xOffset="183.227"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>zhecyr</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>brevecomb-cy</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 02:14:18 +0000</string>
+		</dict>
+	</lib>
 </glyph>

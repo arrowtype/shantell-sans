@@ -4,30 +4,38 @@
 	<advance width="619"/>
 	<outline>
 		<contour>
-			<point x="504.3236768415" y="453" type="curve" smooth="yes"/>
-			<point x="482.3236768415" y="453"/>
-			<point x="466.3236768415" y="438"/>
-			<point x="463.3236768415" y="424" type="curve" smooth="yes" identifier="mFhrCv8lXj"/>
-			<point x="460.3236768415" y="408"/>
-			<point x="469.3236768415" y="394"/>
-			<point x="492.3236768415" y="394" type="curve" smooth="yes"/>
-			<point x="591.3236768415" y="394"/>
-			<point x="650.3236768415" y="437"/>
-			<point x="664.3236768415" y="503" type="curve" smooth="yes" identifier="BxVXOkckcn"/>
-			<point x="677.3236768415" y="570"/>
-			<point x="656.3236768415" y="608"/>
-			<point x="625.3236768415" y="608" type="curve" smooth="yes"/>
-			<point x="607.3236768415" y="608"/>
-			<point x="594.3236768415" y="596"/>
-			<point x="591.3236768415" y="578" type="curve" smooth="yes" identifier="m1YxP3D764"/>
-			<point x="586.3236768415" y="553"/>
-			<point x="606.3236768415" y="539"/>
-			<point x="600.3236768415" y="508" type="curve" smooth="yes" identifier="LNuNlxSlXL"/>
-			<point x="593.3236768415" y="474"/>
-			<point x="561.3236768415" y="453"/>
+			<point x="504.32368" y="453" type="curve" smooth="yes"/>
+			<point x="482.32368" y="453"/>
+			<point x="466.32368" y="438"/>
+			<point x="463.32368" y="424" type="curve" smooth="yes"/>
+			<point x="460.32368" y="408"/>
+			<point x="469.32368" y="394"/>
+			<point x="492.32368" y="394" type="curve" smooth="yes"/>
+			<point x="591.32368" y="394"/>
+			<point x="648" y="427"/>
+			<point x="662" y="493" type="curve" smooth="yes"/>
+			<point x="675" y="560"/>
+			<point x="656.32368" y="608"/>
+			<point x="625.32368" y="608" type="curve" smooth="yes"/>
+			<point x="607.32368" y="608"/>
+			<point x="594.32368" y="596"/>
+			<point x="591.32368" y="578" type="curve" smooth="yes"/>
+			<point x="586.32368" y="553"/>
+			<point x="606.32368" y="539"/>
+			<point x="600.32368" y="508" type="curve" smooth="yes"/>
+			<point x="593.32368" y="474"/>
+			<point x="561.32368" y="453"/>
 		</contour>
-		<component base="u" xOffset="4.5301683424"/>
+		<component base="u" xOffset="4.53"/>
 	</outline>
-	<anchor name="top" x="332.3242406603" y="460"/>
-	<anchor name="bottom" x="251.923698904" y="18"/>
+	<anchor name="top" x="332.32424" y="460"/>
+	<anchor name="bottom" x="251.9237" y="18"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 02:12:36 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
 </glyph>

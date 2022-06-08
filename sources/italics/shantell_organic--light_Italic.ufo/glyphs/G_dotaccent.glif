@@ -3,7 +3,32 @@
 	<unicode hex="0120"/>
 	<advance width="742"/>
 	<outline>
-		<component base="G" xOffset="4.7622553516"/>
-		<component base="dotaccentcmb" xOffset="488.7622553516" yOffset="216"/>
+		<component base="G" xOffset="5"/>
+		<component base="dotaccentcmb" xOffset="489" yOffset="216"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>G</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>dotaccentcmb</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-06 19:19:21 +0000</string>
+		</dict>
+	</lib>
 </glyph>
