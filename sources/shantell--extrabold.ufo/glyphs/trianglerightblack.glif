@@ -12,7 +12,7 @@
 			<point x="90" y="-7"/>
 			<point x="155" y="-7" type="curve" smooth="yes"/>
 			<point x="189" y="-7"/>
-			<point x="215.7451490508" y="1.2923675778"/>
+			<point x="216" y="1"/>
 			<point x="264" y="32" type="curve" smooth="yes"/>
 			<point x="409" y="126"/>
 			<point x="628" y="188"/>
@@ -33,10 +33,10 @@
 			<point x="187" y="664"/>
 			<point x="187" y="618" type="curve" smooth="yes"/>
 			<point x="187" y="572"/>
-			<point x="206.9592983895" y="542.5839315538"/>
+			<point x="207" y="543"/>
 			<point x="241" y="526" type="curve" smooth="yes"/>
 			<point x="366" y="468"/>
-			<point x="481.9279829436" y="392.6605925461"/>
+			<point x="482" y="393"/>
 			<point x="560" y="296" type="curve"/>
 			<point x="536" y="390" type="line"/>
 			<point x="469" y="297"/>
@@ -46,7 +46,7 @@
 			<point x="225" y="213"/>
 			<point x="229" y="279"/>
 			<point x="229" y="343" type="curve" smooth="yes"/>
-			<point x="229" y="454.4080882353"/>
+			<point x="229" y="454"/>
 			<point x="218" y="539"/>
 			<point x="218" y="616" type="curve" smooth="yes"/>
 			<point x="218" y="680"/>
@@ -59,7 +59,6 @@
 			<point x="51" y="478"/>
 		</contour>
 	</outline>
-	<guideline name="capCenter" x="0" y="350" angle="0" identifier="lT1XZXDpQn"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
