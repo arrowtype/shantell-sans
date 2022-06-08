@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="integral" format="2">
-	<advance width="482"/>
 	<unicode hex="222B"/>
+	<advance width="482"/>
 	<outline>
 		<contour>
-			<point x="287.77361" y="213" type="curve" smooth="yes"/>
-			<point x="398.77361" y="585"/>
-			<point x="450.77361" y="649"/>
+			<point x="291" y="213" type="curve" smooth="yes"/>
+			<point x="401.8735202567" y="584.5761219414"/>
+			<point x="451.7134714348" y="649"/>
 			<point x="517.77361" y="649" type="curve" smooth="yes"/>
 			<point x="558.77361" y="649"/>
 			<point x="580.77361" y="681"/>
@@ -14,11 +14,11 @@
 			<point x="601.77361" y="783"/>
 			<point x="560.77361" y="810"/>
 			<point x="511.77361" y="810" type="curve" smooth="yes"/>
-			<point x="374.77361" y="810"/>
-			<point x="255.77361" y="710"/>
-			<point x="139.77361" y="315" type="curve" smooth="yes"/>
-			<point x="24.77361" y="-77"/>
-			<point x="-7.22639" y="-96"/>
+			<point x="373.7521461022" y="810"/>
+			<point x="253.0689036876" y="710.2346289363"/>
+			<point x="137" y="315" type="curve" smooth="yes"/>
+			<point x="22.1157939241" y="-76.6052937543"/>
+			<point x="-8.1211029032" y="-96"/>
 			<point x="-77.22639" y="-96" type="curve" smooth="yes"/>
 			<point x="-127.22639" y="-96"/>
 			<point x="-150.22639" y="-123"/>
@@ -26,16 +26,16 @@
 			<point x="-170.22639" y="-227"/>
 			<point x="-129.22639" y="-255"/>
 			<point x="-78.22639" y="-255" type="curve" smooth="yes"/>
-			<point x="88.77361" y="-255"/>
-			<point x="175.77361" y="-160"/>
+			<point x="90.2457606284" y="-255"/>
+			<point x="178.9180153304" y="-160.2730382299"/>
 		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 02:12:57 +0000</string>
+			<string>2022-06-07 15:53:42 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

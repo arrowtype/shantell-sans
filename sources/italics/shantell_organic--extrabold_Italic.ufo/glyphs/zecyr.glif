@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zecyr" format="2">
-	<advance width="567"/>
 	<unicode hex="0437"/>
-	<guideline x="39.41" y="263" angle="90" identifier="5pv7sr0WZR"/>
-	<guideline x="42.41" y="278" angle="90" identifier="ix0anRrM36"/>
-	<guideline x="39.41" y="263" angle="90" identifier="AJVdwzBkqH"/>
-	<guideline x="42.41" y="278" angle="90" identifier="B3eDkwXKdX"/>
-	<anchor x="326.12627" y="515" name="top"/>
+	<advance width="567"/>
 	<outline>
 		<contour>
 			<point x="69.12564" y="436" type="curve" smooth="yes"/>
@@ -60,6 +55,11 @@
 			<point x="87.12564" y="524"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="326.12627" y="515"/>
+	<guideline x="39.41" y="263" angle="90" identifier="5pv7sr0WZR"/>
+	<guideline x="42.41" y="278" angle="90" identifier="ix0anRrM36"/>
+	<guideline x="39.41" y="263" angle="90" identifier="AJVdwzBkqH"/>
+	<guideline x="42.41" y="278" angle="90" identifier="B3eDkwXKdX"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

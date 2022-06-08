@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ylongcyr" format="2">
-	<advance width="905"/>
 	<unicode hex="042B"/>
-	<anchor x="531.74885" y="700" name="top"/>
+	<advance width="905"/>
 	<outline>
 		<contour>
 			<point x="916.74799" y="628" type="curve" smooth="yes"/>
@@ -77,6 +76,7 @@
 			<point x="302.74799" y="516"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="531.74885" y="700"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

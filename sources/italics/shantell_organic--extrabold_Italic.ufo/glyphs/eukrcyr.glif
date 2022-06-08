@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eukrcyr" format="2">
-	<advance width="545"/>
 	<unicode hex="0454"/>
-	<guideline x="39.41" y="263" angle="90" identifier="n4jm0tBg3Y"/>
-	<guideline x="42.41" y="278" angle="90" identifier="a7QVIHyV5D"/>
+	<advance width="545"/>
 	<outline>
 		<contour>
 			<point x="498.23862" y="138" type="curve" smooth="yes"/>
@@ -62,6 +60,8 @@
 			<point x="408.23862" y="308"/>
 		</contour>
 	</outline>
+	<guideline x="39.41" y="263" angle="90" identifier="n4jm0tBg3Y"/>
+	<guideline x="42.41" y="278" angle="90" identifier="a7QVIHyV5D"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

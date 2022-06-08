@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dzhecyr" format="2">
-	<advance width="655"/>
 	<unicode hex="045F"/>
-	<guideline x="39.41" y="263" angle="90" identifier="rQENFQOEUJ"/>
-	<guideline x="42.41" y="278" angle="90" identifier="rKZszPBnKc"/>
+	<advance width="655"/>
 	<outline>
 		<contour>
 			<point x="186.79395" y="-3" type="curve" smooth="yes"/>
@@ -68,6 +66,8 @@
 			<point x="380.79395" y="129" type="curve"/>
 		</contour>
 	</outline>
+	<guideline x="39.41" y="263" angle="90" identifier="rQENFQOEUJ"/>
+	<guideline x="42.41" y="278" angle="90" identifier="rKZszPBnKc"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

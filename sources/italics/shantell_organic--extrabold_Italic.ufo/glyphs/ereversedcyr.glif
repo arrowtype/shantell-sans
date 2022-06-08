@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ereversedcyr" format="2">
-	<advance width="589"/>
 	<unicode hex="044D"/>
-	<guideline x="39.41" y="263" angle="90" identifier="n4jm0tBg3Y"/>
-	<guideline x="42.41" y="278" angle="90" identifier="a7QVIHyV5D"/>
-	<guideline x="39.41" y="263" angle="90" identifier="JNJX8kAXkD"/>
-	<guideline x="42.41" y="278" angle="90" identifier="GPS9Qb41By"/>
-	<anchor x="343.9789" y="515" name="top"/>
+	<advance width="589"/>
 	<outline>
 		<contour>
 			<point x="362.97826" y="520" type="curve" smooth="yes"/>
@@ -65,6 +60,11 @@
 			<point x="296.97826" y="315"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="343.9789" y="515"/>
+	<guideline x="39.41" y="263" angle="90" identifier="n4jm0tBg3Y"/>
+	<guideline x="42.41" y="278" angle="90" identifier="a7QVIHyV5D"/>
+	<guideline x="39.41" y="263" angle="90" identifier="JNJX8kAXkD"/>
+	<guideline x="42.41" y="278" angle="90" identifier="GPS9Qb41By"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

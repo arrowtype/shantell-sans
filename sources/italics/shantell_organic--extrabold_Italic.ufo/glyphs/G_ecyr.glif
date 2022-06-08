@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Gecyr" format="2">
-	<advance width="587"/>
 	<unicode hex="0413"/>
-	<anchor x="399.76985" y="700" name="top"/>
+	<advance width="587"/>
 	<outline>
 		<contour>
 			<point x="329.76899" y="605" type="curve"/>
@@ -49,6 +48,7 @@
 			<point x="262.76899" y="686"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="399.76985" y="700"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

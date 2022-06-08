@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="c" format="2">
-	<advance width="542"/>
 	<unicode hex="0063"/>
-	<anchor x="331.75874" y="485" name="top"/>
-	<anchor x="229.95818" y="31" name="bottom"/>
+	<advance width="542"/>
 	<outline>
 		<contour>
 			<point x="467" y="162" type="curve" smooth="yes"/>
@@ -38,6 +36,8 @@
 			<point x="448" y="71"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="331.75874" y="485"/>
+	<anchor name="bottom" x="229.95818" y="31"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

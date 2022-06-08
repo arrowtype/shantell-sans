@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cedi" format="2">
-	<advance width="700"/>
 	<unicode hex="20B5"/>
+	<advance width="700"/>
 	<outline>
 		<contour>
-			<point x="535.43702" y="711" type="curve" smooth="yes"/>
-			<point x="321.43702" y="711"/>
-			<point x="105.43702" y="538"/>
-			<point x="58.43702" y="304" type="curve" smooth="yes"/>
-			<point x="21.43702" y="121"/>
-			<point x="106.43702" y="-10"/>
-			<point x="307.43702" y="-10" type="curve" smooth="yes"/>
-			<point x="490.43702" y="-10"/>
-			<point x="614.43702" y="76"/>
+			<point x="515" y="711" type="curve" smooth="yes"/>
+			<point x="311.7672955975" y="711"/>
+			<point x="106.6960767724" y="546.5294035051"/>
+			<point x="62" y="324" type="curve" smooth="yes"/>
+			<point x="22.6219502971" y="129.2382947126"/>
+			<point x="113.2771084337" y="-10"/>
+			<point x="328" y="-10" type="curve" smooth="yes"/>
+			<point x="499.4569774847" y="-10"/>
+			<point x="614.481082915" y="76.222633676"/>
 			<point x="633.43702" y="172" type="curve" smooth="yes"/>
 			<point x="641.43702" y="210"/>
-			<point x="629.43702" y="236"/>
-			<point x="587.43702" y="236" type="curve" smooth="yes"/>
-			<point x="513.43702" y="236"/>
+			<point x="622" y="246"/>
+			<point x="580" y="246" type="curve" smooth="yes"/>
+			<point x="506" y="246"/>
 			<point x="491.43702" y="157"/>
 			<point x="344.43702" y="157" type="curve" smooth="yes"/>
 			<point x="254.43702" y="157"/>
@@ -35,8 +35,8 @@
 			<point x="662.43702" y="441"/>
 			<point x="705.43702" y="489"/>
 			<point x="717.43702" y="550" type="curve" smooth="yes"/>
-			<point x="738.43702" y="653"/>
-			<point x="681.43702" y="711"/>
+			<point x="738.5361811272" y="653.4863617191"/>
+			<point x="677.3945325275" y="711"/>
 		</contour>
 		<contour>
 			<point x="200.43702" y="-30" type="curve" smooth="yes"/>
@@ -72,9 +72,9 @@
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 02:13:02 +0000</string>
+			<string>2022-06-07 15:53:42 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

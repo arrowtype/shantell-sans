@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="AE" format="2">
-	<advance width="1117"/>
 	<unicode hex="00C6"/>
-	<anchor x="681.48095" y="700" name="top"/>
+	<advance width="1117"/>
 	<outline>
 		<contour>
 			<point x="652.48009" y="502" type="curve" smooth="yes"/>
@@ -90,6 +89,7 @@
 			<point x="518" y="-7"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="681.48095" y="700"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

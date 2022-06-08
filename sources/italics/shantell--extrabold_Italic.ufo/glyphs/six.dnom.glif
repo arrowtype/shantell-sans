@@ -3,26 +3,26 @@
 	<advance width="540"/>
 	<outline>
 		<contour>
-			<point x="372.38618" y="335" type="curve" smooth="yes"/>
-			<point x="403.38618" y="354"/>
-			<point x="407.38618" y="366"/>
-			<point x="411.38618" y="383" type="curve" smooth="yes"/>
-			<point x="417.38618" y="422"/>
-			<point x="389.38618" y="461"/>
-			<point x="348.38618" y="461" type="curve" smooth="yes"/>
-			<point x="321.38618" y="461"/>
-			<point x="307.38618" y="455"/>
-			<point x="272.38618" y="432" type="curve" smooth="yes"/>
-			<point x="133.38618" y="342"/>
-			<point x="48.38618" y="249"/>
-			<point x="32.38618" y="155" type="curve" smooth="yes"/>
-			<point x="16.38618" y="61"/>
+			<point x="373" y="334" type="curve" smooth="yes"/>
+			<point x="404" y="353"/>
+			<point x="409" y="365"/>
+			<point x="412" y="382" type="curve" smooth="yes"/>
+			<point x="419.0384757855" y="421.2143650905"/>
+			<point x="385.6940388111" y="461"/>
+			<point x="338" y="461" type="curve" smooth="yes"/>
+			<point x="311" y="461"/>
+			<point x="293" y="454"/>
+			<point x="258" y="431" type="curve" smooth="yes"/>
+			<point x="123" y="344"/>
+			<point x="51.9806290899" y="268.886195903"/>
+			<point x="36" y="175" type="curve" smooth="yes"/>
+			<point x="20" y="81"/>
 			<point x="80.38618" y="-6"/>
 			<point x="238.38618" y="-6" type="curve" smooth="yes"/>
 			<point x="370.38618" y="-6"/>
-			<point x="469.38618" y="56"/>
-			<point x="486.38618" y="157" type="curve" smooth="yes"/>
-			<point x="500.38618" y="235"/>
+			<point x="465" y="36"/>
+			<point x="482" y="137" type="curve" smooth="yes"/>
+			<point x="496" y="215"/>
 			<point x="461.38618" y="281"/>
 			<point x="386.38618" y="281" type="curve" smooth="yes"/>
 			<point x="269.38618" y="281"/>
@@ -44,7 +44,7 @@
 			<point x="175.38618" y="142"/>
 			<point x="179.38618" y="160" type="curve" smooth="yes"/>
 			<point x="191.38618" y="220"/>
-			<point x="274.38618" y="274"/>
+			<point x="275" y="273"/>
 		</contour>
 	</outline>
 	<lib>
@@ -52,7 +52,7 @@
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
 			<string>2022-06-07 15:53:42 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

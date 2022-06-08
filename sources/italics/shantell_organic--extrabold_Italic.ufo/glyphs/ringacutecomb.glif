@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ringacutecomb" format="2">
-	<advance width="0"/>
-	<anchor x="51.4756" y="515" name="_top"/>
-	<anchor x="79.67578" y="656" name="_ring"/>
 	<outline>
 		<contour>
-			<point x="69.47497" y="557" type="curve" smooth="yes"/>
-			<point x="170.47497" y="557"/>
-			<point x="261.47497" y="632"/>
-			<point x="281.47497" y="731" type="curve" smooth="yes"/>
-			<point x="301.47497" y="829"/>
-			<point x="247.47497" y="890"/>
-			<point x="133.47497" y="890" type="curve" smooth="yes"/>
-			<point x="66.47497" y="890"/>
-			<point x="19.47497" y="852"/>
+			<point x="79" y="557" type="curve" smooth="yes"/>
+			<point x="175.3642795281" y="557"/>
+			<point x="257.0351999979" y="612.1742399897"/>
+			<point x="277" y="711" type="curve" smooth="yes"/>
+			<point x="297.0604020945" y="809.295970263"/>
+			<point x="245.3201277157" y="890"/>
+			<point x="123" y="890" type="curve" smooth="yes"/>
+			<point x="61.6598628226" y="890"/>
+			<point x="19.4471183907" y="851.8523864709"/>
 			<point x="9.47497" y="799" type="curve" smooth="yes"/>
 			<point x="0.47497" y="755"/>
 			<point x="15.47497" y="738"/>
@@ -36,19 +33,19 @@
 			<point x="133.47497" y="778"/>
 			<point x="149.47497" y="800"/>
 			<point x="154.47497" y="825" type="curve" smooth="yes"/>
-			<point x="162.47497" y="863"/>
-			<point x="139.47497" y="897"/>
-			<point x="106.47497" y="897" type="curve" smooth="yes"/>
-			<point x="26.47497" y="897"/>
-			<point x="-74.52503" y="813"/>
-			<point x="-91.52503" y="731" type="curve" smooth="yes"/>
-			<point x="-111.52503" y="630"/>
-			<point x="-43.52503" y="557"/>
+			<point x="162.5567303721" y="863.3883617675"/>
+			<point x="136.201541875" y="897"/>
+			<point x="96" y="897" type="curve" smooth="yes"/>
+			<point x="19.8976614831" y="897"/>
+			<point x="-71.4757058406" y="830.5289482983"/>
+			<point x="-89" y="746" type="curve" smooth="yes"/>
+			<point x="-108.5546974348" y="647.2487779542"/>
+			<point x="-41.5524916118" y="557"/>
 		</contour>
 		<contour>
-			<point x="311.47497" y="962" type="curve" smooth="yes"/>
-			<point x="321.47497" y="1015"/>
-			<point x="298.47497" y="1042"/>
+			<point x="311" y="962" type="curve" smooth="yes"/>
+			<point x="320.997417753" y="1014.9863140911"/>
+			<point x="298.0980096825" y="1042"/>
 			<point x="248.47497" y="1042" type="curve" smooth="yes"/>
 			<point x="209.47497" y="1042"/>
 			<point x="181.47497" y="1029"/>
@@ -59,19 +56,21 @@
 			<point x="67.47497" y="882"/>
 			<point x="54.47497" y="867"/>
 			<point x="50.47497" y="845" type="curve" smooth="yes"/>
-			<point x="44.47497" y="817"/>
-			<point x="62.47497" y="798"/>
-			<point x="104.47497" y="798" type="curve" smooth="yes"/>
-			<point x="194.47497" y="798"/>
-			<point x="293.47497" y="872"/>
+			<point x="44.4772771809" y="817.0107668441"/>
+			<point x="62.3694211111" y="798"/>
+			<point x="104" y="798" type="curve" smooth="yes"/>
+			<point x="194" y="798"/>
+			<point x="293" y="872"/>
 		</contour>
 	</outline>
+	<anchor name="_top" x="51.4756" y="515"/>
+	<anchor name="_ring" x="79.67578" y="656"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 02:13:02 +0000</string>
+			<string>2022-06-07 15:53:42 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

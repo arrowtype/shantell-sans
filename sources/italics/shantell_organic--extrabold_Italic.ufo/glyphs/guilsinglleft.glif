@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="guilsinglleft" format="2">
-	<advance width="385"/>
 	<unicode hex="2039"/>
-	<guideline x="113.41" y="361" angle="0" identifier="MD08xPDkZs"/>
+	<advance width="385"/>
 	<outline>
 		<contour>
-			<point x="330.27927" y="355" type="curve" smooth="yes"/>
-			<point x="359.27927" y="372"/>
-			<point x="373.27927" y="391"/>
-			<point x="378.27927" y="417" type="curve" smooth="yes"/>
-			<point x="388.27927" y="467"/>
-			<point x="364.27927" y="498"/>
-			<point x="322.27927" y="498" type="curve" smooth="yes"/>
-			<point x="300.27927" y="498"/>
-			<point x="275.27927" y="489"/>
-			<point x="242.27927" y="470" type="curve" smooth="yes"/>
-			<point x="189.27927" y="439"/>
-			<point x="105.27927" y="366"/>
-			<point x="47.27927" y="301" type="curve" smooth="yes"/>
-			<point x="28.27927" y="279"/>
-			<point x="18.27927" y="249"/>
-			<point x="23.27927" y="220" type="curve" smooth="yes"/>
-			<point x="36.27927" y="138"/>
-			<point x="88.27927" y="61"/>
-			<point x="151.27927" y="31" type="curve" smooth="yes"/>
-			<point x="175.27927" y="20"/>
-			<point x="197.27927" y="12"/>
-			<point x="218.27927" y="12" type="curve" smooth="yes"/>
-			<point x="267.27927" y="12"/>
-			<point x="315.27927" y="36"/>
-			<point x="326.27927" y="88" type="curve" smooth="yes"/>
-			<point x="333.27927" y="123"/>
-			<point x="318.27927" y="142"/>
-			<point x="294.27927" y="150" type="curve" smooth="yes"/>
-			<point x="240.27927" y="170"/>
-			<point x="188.27927" y="227"/>
-			<point x="179.27927" y="282" type="curve"/>
-			<point x="166.27927" y="216" type="line"/>
-			<point x="199.27927" y="253"/>
-			<point x="257.27927" y="312"/>
+			<point x="329" y="351" type="curve" smooth="yes"/>
+			<point x="358" y="368"/>
+			<point x="372" y="387"/>
+			<point x="377" y="413" type="curve" smooth="yes"/>
+			<point x="387.5649157025" y="465.8245785125"/>
+			<point x="360" y="498"/>
+			<point x="309" y="498" type="curve" smooth="yes"/>
+			<point x="287" y="498"/>
+			<point x="262" y="489"/>
+			<point x="229" y="470" type="curve" smooth="yes"/>
+			<point x="179.7657565589" y="441.2026123269"/>
+			<point x="100" y="381"/>
+			<point x="47" y="317" type="curve" smooth="yes"/>
+			<point x="28" y="294"/>
+			<point x="20" y="257"/>
+			<point x="27" y="225" type="curve" smooth="yes"/>
+			<point x="43" y="139"/>
+			<point x="89" y="68"/>
+			<point x="151" y="33" type="curve" smooth="yes"/>
+			<point x="175" y="20"/>
+			<point x="197" y="12"/>
+			<point x="224" y="12" type="curve" smooth="yes"/>
+			<point x="267" y="12"/>
+			<point x="314.5593355916" y="34.6441318877"/>
+			<point x="325" y="84" type="curve" smooth="yes"/>
+			<point x="332" y="119"/>
+			<point x="317" y="138"/>
+			<point x="293" y="146" type="curve" smooth="yes"/>
+			<point x="239" y="166"/>
+			<point x="191" y="215"/>
+			<point x="178" y="278" type="curve"/>
+			<point x="165" y="212" type="line"/>
+			<point x="198" y="249"/>
+			<point x="256" y="308"/>
 		</contour>
 	</outline>
+	<guideline x="111.8" y="361" angle="0" identifier="MD08xPDkZs"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 02:12:53 +0000</string>
+			<string>2022-06-07 15:53:42 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

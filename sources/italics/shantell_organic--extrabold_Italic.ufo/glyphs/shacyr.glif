@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shacyr" format="2">
-	<advance width="1036"/>
 	<unicode hex="0448"/>
-	<guideline x="39.41" y="263" angle="90" identifier="rQENFQOEUJ"/>
-	<guideline x="42.41" y="278" angle="90" identifier="rKZszPBnKc"/>
+	<advance width="1036"/>
 	<outline>
 		<contour>
 			<point x="614.98908" y="352" type="curve" smooth="yes"/>
@@ -76,6 +74,8 @@
 			<point x="277.98908" y="394"/>
 		</contour>
 	</outline>
+	<guideline x="39.41" y="263" angle="90" identifier="rQENFQOEUJ"/>
+	<guideline x="42.41" y="278" angle="90" identifier="rKZszPBnKc"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="brevecomb-cy" format="2">
 	<advance width="369"/>
-	<anchor x="244.92075" y="515" name="top"/>
 	<outline>
 		<contour>
 			<point x="287.92012" y="710" type="curve" smooth="yes"/>
@@ -30,6 +29,7 @@
 			<point x="310.92012" y="710"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="244.92075" y="515"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

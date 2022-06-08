@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mu.math" format="2">
-	<advance width="700"/>
 	<unicode hex="00B5"/>
+	<advance width="700"/>
 	<outline>
 		<contour>
 			<point x="258.76842" y="379" type="curve" smooth="yes"/>
@@ -15,9 +15,9 @@
 			<point x="40.76842" y="225"/>
 			<point x="53.76842" y="178" type="curve"/>
 			<point x="37.76842" y="112"/>
-			<point x="22.76842" y="47"/>
-			<point x="8.76842" y="-24" type="curve" smooth="yes"/>
-			<point x="-11.23158" y="-127"/>
+			<point x="17" y="41"/>
+			<point x="3" y="-31" type="curve" smooth="yes"/>
+			<point x="-16" y="-137"/>
 			<point x="23.76842" y="-158"/>
 			<point x="67.76842" y="-158" type="curve" smooth="yes"/>
 			<point x="113.76842" y="-158"/>
@@ -33,15 +33,15 @@
 			<point x="414.76842" y="23"/>
 			<point x="449.76842" y="96" type="curve"/>
 			<point x="456.76842" y="67"/>
-			<point x="466.76842" y="43"/>
-			<point x="482.76842" y="16" type="curve" smooth="yes"/>
-			<point x="490.76842" y="4"/>
-			<point x="504.76842" y="-7"/>
-			<point x="529.76842" y="-7" type="curve" smooth="yes"/>
-			<point x="605.76842" y="-7"/>
-			<point x="665.76842" y="105"/>
-			<point x="634.76842" y="147" type="curve" smooth="yes"/>
-			<point x="594.76842" y="202"/>
+			<point x="466" y="43"/>
+			<point x="479" y="22" type="curve" smooth="yes"/>
+			<point x="490" y="4"/>
+			<point x="505" y="-7"/>
+			<point x="530" y="-7" type="curve" smooth="yes"/>
+			<point x="618" y="-7"/>
+			<point x="672" y="98"/>
+			<point x="635" y="147" type="curve" smooth="yes"/>
+			<point x="595" y="202"/>
 			<point x="588.76842" y="277"/>
 			<point x="611.76842" y="422" type="curve" smooth="yes"/>
 			<point x="621.76842" y="486"/>
@@ -68,7 +68,7 @@
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
 			<string>2022-06-07 15:53:42 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

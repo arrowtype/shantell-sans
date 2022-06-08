@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="E" format="2">
-	<advance width="684"/>
 	<unicode hex="0045"/>
-	<anchor x="462.52587" y="740" name="top"/>
-	<anchor x="296.52493" y="-25" name="bottom"/>
-	<anchor x="511.12498" y="18" name="ogonek"/>
+	<advance width="684"/>
 	<outline>
 		<contour>
 			<point x="129.52496" y="523" type="curve" smooth="yes"/>
@@ -76,6 +73,9 @@
 			<point x="132.52496" y="544"/>
 		</contour>
 	</outline>
+	<anchor name="top" x="462.52587" y="740"/>
+	<anchor name="bottom" x="296.52493" y="-25"/>
+	<anchor name="ogonek" x="511.12498" y="18"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

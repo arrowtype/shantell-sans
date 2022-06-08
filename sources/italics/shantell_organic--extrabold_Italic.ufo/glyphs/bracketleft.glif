@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bracketleft" format="2">
-	<advance width="553"/>
 	<unicode hex="005B"/>
+	<advance width="513"/>
 	<outline>
 		<contour>
-			<point x="519.68496" y="643" type="curve" smooth="yes"/>
-			<point x="582.68496" y="643"/>
-			<point x="620.68496" y="706"/>
-			<point x="629.68496" y="750" type="curve" smooth="yes"/>
-			<point x="637.68496" y="788"/>
-			<point x="618.68496" y="819"/>
-			<point x="566.68496" y="819" type="curve" smooth="yes"/>
-			<point x="487.68496" y="819"/>
-			<point x="389.68496" y="795"/>
-			<point x="291.68496" y="795" type="curve" smooth="yes"/>
-			<point x="248.68496" y="795"/>
-			<point x="205.68496" y="765"/>
-			<point x="189.68496" y="723" type="curve" smooth="yes"/>
-			<point x="142.68496" y="600"/>
-			<point x="111.68496" y="349"/>
+			<point x="479.68496" y="643" type="curve" smooth="yes"/>
+			<point x="542.68496" y="643"/>
+			<point x="580.68496" y="706"/>
+			<point x="589.68496" y="750" type="curve" smooth="yes"/>
+			<point x="597.68496" y="788"/>
+			<point x="578.68496" y="819"/>
+			<point x="526.68496" y="819" type="curve" smooth="yes"/>
+			<point x="459.68496" y="819"/>
+			<point x="376.68496" y="805"/>
+			<point x="293.68496" y="805" type="curve" smooth="yes"/>
+			<point x="250.68496" y="805"/>
+			<point x="207.68496" y="775"/>
+			<point x="191.68496" y="733" type="curve" smooth="yes"/>
+			<point x="143.68496" y="607"/>
+			<point x="111.68496" y="351"/>
 			<point x="85.68496" y="248" type="curve" smooth="yes"/>
 			<point x="56.68496" y="134"/>
 			<point x="-13.31504" y="-110"/>
@@ -29,42 +29,42 @@
 			<point x="129.68496" y="-270"/>
 			<point x="154.68496" y="-265"/>
 			<point x="189.68496" y="-262" type="curve" smooth="yes"/>
-			<point x="224.68496" y="-258"/>
-			<point x="261.68496" y="-257"/>
-			<point x="308.68496" y="-257" type="curve" smooth="yes"/>
-			<point x="390.68496" y="-257"/>
-			<point x="437.68496" y="-218"/>
-			<point x="450.68496" y="-153" type="curve" smooth="yes"/>
-			<point x="458.68496" y="-113"/>
-			<point x="436.68496" y="-86"/>
-			<point x="395.68496" y="-86" type="curve" smooth="yes"/>
-			<point x="362.68496" y="-86"/>
-			<point x="326.68496" y="-89"/>
-			<point x="285.68496" y="-89" type="curve" smooth="yes"/>
-			<point x="225.68496" y="-89"/>
-			<point x="183.68496" y="-94"/>
+			<point x="212.68496" y="-259"/>
+			<point x="236.68496" y="-259"/>
+			<point x="267.68496" y="-259" type="curve" smooth="yes"/>
+			<point x="342.68496" y="-259"/>
+			<point x="387.68496" y="-220"/>
+			<point x="400.68496" y="-155" type="curve" smooth="yes"/>
+			<point x="408.68496" y="-115"/>
+			<point x="385.68496" y="-88"/>
+			<point x="344.68496" y="-88" type="curve" smooth="yes"/>
+			<point x="314.68496" y="-88"/>
+			<point x="282.68496" y="-91"/>
+			<point x="245.68496" y="-91" type="curve" smooth="yes"/>
+			<point x="199.68496" y="-91"/>
+			<point x="167.68496" y="-97"/>
 			<point x="116.68496" y="-106" type="curve"/>
 			<point x="205.68496" y="-133" type="line"/>
 			<point x="164.68496" y="-40"/>
 			<point x="237.68496" y="152"/>
 			<point x="259.68496" y="238" type="curve" smooth="yes"/>
-			<point x="284.68496" y="333"/>
-			<point x="311.68496" y="574"/>
-			<point x="356.68496" y="691" type="curve"/>
-			<point x="257.68496" y="619" type="line"/>
-			<point x="312.68496" y="619"/>
-			<point x="424.68496" y="645"/>
-			<point x="486.68496" y="645" type="curve" smooth="yes"/>
-			<point x="499.68496" y="645"/>
-			<point x="509.68496" y="643"/>
+			<point x="284.68496" y="335"/>
+			<point x="312.68496" y="582"/>
+			<point x="358.68496" y="701" type="curve"/>
+			<point x="259.68496" y="629" type="line"/>
+			<point x="304.68496" y="629"/>
+			<point x="395.68496" y="645"/>
+			<point x="446.68496" y="645" type="curve" smooth="yes"/>
+			<point x="459.68496" y="645"/>
+			<point x="469.68496" y="643"/>
 		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 02:12:50 +0000</string>
+			<string>2022-06-07 15:53:42 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

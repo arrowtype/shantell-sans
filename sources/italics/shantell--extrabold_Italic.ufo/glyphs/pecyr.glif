@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pecyr" format="2">
-	<advance width="654"/>
 	<unicode hex="043F"/>
-	<guideline x="37.8" y="263" angle="90" identifier="rQENFQOEUJ"/>
-	<guideline x="40.8" y="278" angle="90" identifier="rKZszPBnKc"/>
+	<advance width="654"/>
 	<outline>
 		<contour>
 			<point x="79.26037" y="235" type="curve" smooth="yes"/>
@@ -59,6 +57,8 @@
 			<point x="95.26037" y="317"/>
 		</contour>
 	</outline>
+	<guideline x="37.8" y="263" angle="90" identifier="rQENFQOEUJ"/>
+	<guideline x="40.8" y="278" angle="90" identifier="rKZszPBnKc"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

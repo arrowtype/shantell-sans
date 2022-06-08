@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Agrave" format="2">
-	<advance width="780"/>
 	<unicode hex="00C0"/>
-	<guideline x="300.8" y="1016" angle="0" identifier="qC4ZmDTznB"/>
+	<advance width="780"/>
 	<outline>
 		<component base="A" xOffset="-3"/>
 		<component base="gravecomb" xOffset="458" yOffset="185"/>
 	</outline>
+	<guideline x="300.8" y="1016" angle="0" identifier="qC4ZmDTznB"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>

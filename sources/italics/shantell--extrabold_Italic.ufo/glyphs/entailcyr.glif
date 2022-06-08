@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="entailcyr" format="2">
-	<advance width="761"/>
 	<unicode hex="04A3"/>
-	<guideline x="37.8" y="263" angle="90" identifier="rQENFQOEUJ"/>
-	<guideline x="40.8" y="278" angle="90" identifier="rKZszPBnKc"/>
-	<guideline x="37.8" y="263" angle="90" identifier="5E34WgFDuY"/>
-	<guideline x="40.8" y="278" angle="90" identifier="Kcc90PHHKR"/>
-	<guideline x="37.8" y="263" angle="90" identifier="zF1gezmNwb"/>
-	<guideline x="40.8" y="278" angle="90" identifier="GTqYHIda0t"/>
+	<advance width="761"/>
 	<outline>
 		<contour>
 			<point x="201.21901" y="57" type="curve" smooth="yes"/>
@@ -89,6 +83,12 @@
 			<point x="411.21901" y="-8"/>
 		</contour>
 	</outline>
+	<guideline x="37.8" y="263" angle="90" identifier="rQENFQOEUJ"/>
+	<guideline x="40.8" y="278" angle="90" identifier="rKZszPBnKc"/>
+	<guideline x="37.8" y="263" angle="90" identifier="5E34WgFDuY"/>
+	<guideline x="40.8" y="278" angle="90" identifier="Kcc90PHHKR"/>
+	<guideline x="37.8" y="263" angle="90" identifier="zF1gezmNwb"/>
+	<guideline x="40.8" y="278" angle="90" identifier="GTqYHIda0t"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

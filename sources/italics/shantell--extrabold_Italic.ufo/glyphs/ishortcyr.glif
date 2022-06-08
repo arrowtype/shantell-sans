@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ishortcyr" format="2">
-	<advance width="708"/>
 	<unicode hex="0439"/>
-	<guideline x="228.8" y="515" angle="90" identifier="p0aJ1s3JmT"/>
-	<guideline x="244.8" y="464" angle="90" identifier="XJW6VjdRJe"/>
+	<advance width="708"/>
 	<outline>
 		<contour>
 			<point x="430.80009" y="710" type="curve" smooth="yes"/>
@@ -33,6 +31,8 @@
 		</contour>
 		<component base="icyr"/>
 	</outline>
+	<guideline x="228.8" y="515" angle="90" identifier="p0aJ1s3JmT"/>
+	<guideline x="244.8" y="464" angle="90" identifier="XJW6VjdRJe"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

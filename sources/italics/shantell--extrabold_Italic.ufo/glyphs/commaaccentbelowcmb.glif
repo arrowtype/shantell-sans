@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="commaaccentbelowcmb" format="2">
-	<advance width="0"/>
 	<unicode hex="0326"/>
-	<anchor x="-51.71719" y="0" name="_bottom"/>
 	<outline>
 		<contour>
 			<point x="-80.71719" y="-96" type="curve" smooth="yes"/>
@@ -28,12 +26,13 @@
 			<point x="-14.71719" y="-96"/>
 		</contour>
 	</outline>
+	<anchor name="_bottom" x="-51.71719" y="0"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
 			<string>2022-06-07 15:53:33 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

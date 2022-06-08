@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Chevertcyr" format="2">
-	<advance width="677"/>
 	<unicode hex="04B8"/>
-	<guideline x="544.8" y="346" angle="90" identifier="QSeZTfUsVl"/>
-	<guideline x="490.8" y="356" angle="90" identifier="y4a83ysajM"/>
-	<guideline x="498.8" y="417" angle="90" identifier="5MAjum6Wvb"/>
+	<advance width="677"/>
 	<outline>
 		<contour>
 			<point x="300.26765" y="634" type="curve" smooth="yes"/>
@@ -81,6 +78,9 @@
 			<point x="416.26765" y="583"/>
 		</contour>
 	</outline>
+	<guideline x="544.8" y="346" angle="90" identifier="QSeZTfUsVl"/>
+	<guideline x="490.8" y="356" angle="90" identifier="y4a83ysajM"/>
+	<guideline x="498.8" y="417" angle="90" identifier="5MAjum6Wvb"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

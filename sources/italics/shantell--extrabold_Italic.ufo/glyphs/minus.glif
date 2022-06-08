@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="minus" format="2">
-	<advance width="700"/>
 	<unicode hex="2212"/>
-	<guideline x="-49.2" y="780" angle="0" identifier="bGST42QdTW"/>
-	<guideline x="-49.2" y="-80" angle="0" identifier="M2lEtHAWgu"/>
+	<advance width="700"/>
 	<outline>
 		<contour>
 			<point x="195.8979" y="233" type="curve" smooth="yes"/>
@@ -26,12 +24,14 @@
 			<point x="122.8979" y="233"/>
 		</contour>
 	</outline>
+	<guideline x="-49.2" y="780" angle="0" identifier="bGST42QdTW"/>
+	<guideline x="-49.2" y="-80" angle="0" identifier="M2lEtHAWgu"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
 			<string>2022-06-07 15:53:42 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

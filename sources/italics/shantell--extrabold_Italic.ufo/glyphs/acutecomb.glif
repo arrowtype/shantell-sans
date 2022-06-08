@@ -1,37 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acutecomb" format="2">
-	<advance width="0"/>
 	<unicode hex="0301"/>
-	<anchor x="52.0772" y="515" name="_top"/>
-	<anchor x="47.47717" y="492" name="_side"/>
 	<outline>
 		<contour>
-			<point x="278.07657" y="753" type="curve" smooth="yes"/>
-			<point x="289.07657" y="811"/>
-			<point x="264.07657" y="840"/>
+			<point x="281" y="753" type="curve" smooth="yes"/>
+			<point x="292.0167596494" y="811.0883690603"/>
+			<point x="266.3981173529" y="840"/>
 			<point x="210.07657" y="840" type="curve" smooth="yes"/>
-			<point x="168.07657" y="840"/>
-			<point x="137.07657" y="826"/>
-			<point x="110.07657" y="779" type="curve" smooth="yes"/>
-			<point x="88.07657" y="739"/>
-			<point x="71.07657" y="715"/>
-			<point x="37.07657" y="687" type="curve" smooth="yes"/>
-			<point x="13.07657" y="667"/>
-			<point x="0.07657" y="650"/>
-			<point x="-4.92343" y="627" type="curve" smooth="yes"/>
-			<point x="-10.92343" y="596"/>
-			<point x="8.07657" y="575"/>
-			<point x="54.07657" y="575" type="curve" smooth="yes"/>
-			<point x="151.07657" y="575"/>
-			<point x="258.07657" y="656"/>
+			<point x="166.7844106" y="840"/>
+			<point x="134.2084791666" y="826.3629081789"/>
+			<point x="107" y="779" type="curve" smooth="yes"/>
+			<point x="86.1979341029" y="741.1780620053"/>
+			<point x="70.1431248394" y="718.4708086913"/>
+			<point x="38" y="692" type="curve" smooth="yes"/>
+			<point x="14" y="672"/>
+			<point x="1" y="655"/>
+			<point x="-4" y="632" type="curve" smooth="yes"/>
+			<point x="-10.5691765261" y="598.059254615"/>
+			<point x="9.4406779661" y="575"/>
+			<point x="57" y="575" type="curve" smooth="yes"/>
+			<point x="154" y="575"/>
+			<point x="261" y="656"/>
 		</contour>
 	</outline>
+	<anchor name="_top" x="52.0772" y="515"/>
+	<anchor name="_side" x="47.47717" y="492"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
 			<string>2022-06-07 15:53:33 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

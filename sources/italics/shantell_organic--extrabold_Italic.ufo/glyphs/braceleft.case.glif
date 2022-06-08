@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="braceleft.case" format="2">
 	<advance width="453"/>
-	<guideline x="-47.59" y="780" angle="0" identifier="Nnezee5Yms"/>
-	<guideline x="-47.59" y="-80" angle="0" identifier="jmF8rj4KbY"/>
 	<outline>
 		<contour>
 			<point x="438.67857" y="609" type="curve" smooth="yes"/>
 			<point x="486.67857" y="617"/>
 			<point x="518.67857" y="641"/>
 			<point x="527.67857" y="687" type="curve" smooth="yes"/>
-			<point x="537.67857" y="734"/>
-			<point x="503.67857" y="780"/>
-			<point x="444.67857" y="780" type="curve" smooth="yes"/>
-			<point x="306.67857" y="780"/>
-			<point x="199.67857" y="678"/>
-			<point x="181.67857" y="591" type="curve" smooth="yes"/>
-			<point x="169.67857" y="529"/>
-			<point x="211.67857" y="509"/>
+			<point x="537.6768959093" y="733.9921317737"/>
+			<point x="504" y="780"/>
+			<point x="445" y="780" type="curve" smooth="yes"/>
+			<point x="312" y="780"/>
+			<point x="204" y="702"/>
+			<point x="186" y="611" type="curve" smooth="yes"/>
+			<point x="172" y="540"/>
+			<point x="212.9757770524" y="515.3419011453"/>
 			<point x="202.67857" y="465" type="curve" smooth="yes"/>
 			<point x="197.67857" y="442"/>
 			<point x="186.67857" y="430"/>
@@ -30,17 +28,17 @@
 			<point x="162.67857" y="234"/>
 			<point x="169.67857" y="225"/>
 			<point x="164.67857" y="201" type="curve" smooth="yes"/>
-			<point x="158.67857" y="170"/>
-			<point x="122.67857" y="150"/>
-			<point x="110.67857" y="90" type="curve" smooth="yes"/>
-			<point x="93.67857" y="5"/>
-			<point x="172.67857" y="-80"/>
-			<point x="274.67857" y="-80" type="curve" smooth="yes"/>
-			<point x="340.67857" y="-80"/>
-			<point x="397.67857" y="-32"/>
-			<point x="408.67857" y="25" type="curve" smooth="yes"/>
-			<point x="416.67857" y="66"/>
-			<point x="396.67857" y="85"/>
+			<point x="159.2142827628" y="172.7678492745"/>
+			<point x="125.9291897349" y="154.6459486747"/>
+			<point x="115" y="100" type="curve" smooth="yes"/>
+			<point x="97.0539369511" y="10.2696847553"/>
+			<point x="175" y="-80"/>
+			<point x="275" y="-80" type="curve" smooth="yes"/>
+			<point x="346" y="-80"/>
+			<point x="399" y="-37"/>
+			<point x="409" y="15" type="curve" smooth="yes"/>
+			<point x="418" y="62"/>
+			<point x="396.9356198561" y="84.9848794202"/>
 			<point x="362.67857" y="87" type="curve" smooth="yes"/>
 			<point x="319.67857" y="91"/>
 			<point x="303.67857" y="105"/>
@@ -62,12 +60,14 @@
 			<point x="387.67857" y="601"/>
 		</contour>
 	</outline>
+	<guideline x="-49.2" y="780" angle="0" identifier="Nnezee5Yms"/>
+	<guideline x="-49.2" y="-80" angle="0" identifier="jmF8rj4KbY"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 02:13:02 +0000</string>
+			<string>2022-06-07 15:53:42 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

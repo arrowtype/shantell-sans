@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bracketangleright.case" format="2">
 	<advance width="378"/>
-	<guideline x="-47.59" y="780" angle="0" identifier="LFVsIg8BKB"/>
-	<guideline x="-47.59" y="-80" angle="0" identifier="vgL7WoSfNm"/>
 	<outline>
 		<contour>
 			<point x="358.92254" y="429" type="curve" smooth="yes"/>
@@ -12,18 +10,18 @@
 			<point x="291.92254" y="755"/>
 			<point x="254.92254" y="782"/>
 			<point x="204.92254" y="782" type="curve" smooth="yes"/>
-			<point x="130.92254" y="782"/>
-			<point x="88.92254" y="726"/>
-			<point x="101.92254" y="653" type="curve" smooth="yes"/>
-			<point x="129.92254" y="489"/>
-			<point x="183.92254" y="410"/>
-			<point x="181.92254" y="245" type="curve"/>
-			<point x="219.92254" y="433" type="line"/>
-			<point x="153.92254" y="276"/>
-			<point x="57.92254" y="174"/>
-			<point x="-8.07746" y="63" type="curve" smooth="yes"/>
-			<point x="-66.07746" y="-33"/>
-			<point x="-41.07746" y="-89"/>
+			<point x="131.6966374757" y="782"/>
+			<point x="91.1748590434" y="731.4027146025"/>
+			<point x="103" y="665" type="curve" smooth="yes"/>
+			<point x="131" y="501"/>
+			<point x="185" y="422"/>
+			<point x="183" y="257" type="curve"/>
+			<point x="221" y="445" type="line"/>
+			<point x="155" y="288"/>
+			<point x="59" y="186"/>
+			<point x="-7" y="75" type="curve" smooth="yes"/>
+			<point x="-68.0243028086" y="-26.0057425798"/>
+			<point x="-39.173112093" y="-89"/>
 			<point x="34.92254" y="-89" type="curve" smooth="yes"/>
 			<point x="96.92254" y="-89"/>
 			<point x="133.92254" y="-59"/>
@@ -38,12 +36,14 @@
 			<point x="364.92254" y="382"/>
 		</contour>
 	</outline>
+	<guideline x="-49.2" y="780" angle="0" identifier="LFVsIg8BKB"/>
+	<guideline x="-49.2" y="-80" angle="0" identifier="vgL7WoSfNm"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 02:13:02 +0000</string>
+			<string>2022-06-07 15:53:42 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="decyr" format="2">
-	<advance width="720"/>
 	<unicode hex="0434"/>
-	<guideline x="37.8" y="263" angle="90" identifier="lzbgqFALBt"/>
-	<guideline x="40.8" y="278" angle="90" identifier="yZdi7ROcbI"/>
+	<advance width="720"/>
 	<outline>
 		<contour>
 			<point x="65.02087" y="110" type="curve"/>
@@ -75,6 +73,8 @@
 			<point x="593.02087" y="2" type="curve"/>
 		</contour>
 	</outline>
+	<guideline x="37.8" y="263" angle="90" identifier="lzbgqFALBt"/>
+	<guideline x="40.8" y="278" angle="90" identifier="yZdi7ROcbI"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>

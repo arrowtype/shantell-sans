@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ldot" format="2">
-	<advance width="448"/>
 	<unicode hex="0140"/>
+	<advance width="448"/>
 	<outline>
 		<contour>
 			<point x="395.63547" y="310" type="curve" smooth="yes"/>
@@ -17,14 +17,14 @@
 			<point x="297.63547" y="353"/>
 			<point x="329.63547" y="310"/>
 		</contour>
-		<component base="l" xOffset="-3.770"/>
+		<component base="l" xOffset="-3.77"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
 			<string>2022-06-07 02:13:02 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

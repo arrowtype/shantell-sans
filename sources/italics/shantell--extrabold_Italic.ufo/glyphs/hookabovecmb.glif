@@ -1,43 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hookabovecmb" format="2">
-	<advance width="0"/>
 	<unicode hex="0309"/>
-	<anchor x="51.67465" y="515" name="_top"/>
-	<anchor x="17.07468" y="542" name="_side"/>
 	<outline>
 		<contour>
-			<point x="57.67402" y="557" type="curve" smooth="yes"/>
-			<point x="148.67402" y="557"/>
-			<point x="229.67402" y="622"/>
-			<point x="245.67402" y="698" type="curve" smooth="yes"/>
-			<point x="263.67402" y="791"/>
-			<point x="219.67402" y="846"/>
-			<point x="123.67402" y="846" type="curve" smooth="yes"/>
-			<point x="28.67402" y="846"/>
-			<point x="-35.32598" y="805"/>
-			<point x="-47.32598" y="746" type="curve" smooth="yes"/>
-			<point x="-55.32598" y="703"/>
-			<point x="-34.32598" y="680"/>
+			<point x="65" y="557" type="curve" smooth="yes"/>
+			<point x="148" y="557"/>
+			<point x="230" y="618"/>
+			<point x="245" y="690" type="curve" smooth="yes"/>
+			<point x="264" y="789"/>
+			<point x="212" y="846"/>
+			<point x="110" y="846" type="curve" smooth="yes"/>
+			<point x="21" y="846"/>
+			<point x="-34" y="810"/>
+			<point x="-46" y="751" type="curve" smooth="yes"/>
+			<point x="-54" y="708"/>
+			<point x="-34.0756739286" y="680"/>
 			<point x="8.67402" y="680" type="curve" smooth="yes"/>
 			<point x="25.67402" y="680"/>
 			<point x="43.67402" y="687"/>
 			<point x="52.67402" y="687" type="curve" smooth="yes"/>
 			<point x="65.67402" y="687"/>
-			<point x="71.67402" y="680"/>
-			<point x="68.67402" y="667" type="curve" smooth="yes"/>
-			<point x="63.67402" y="639"/>
-			<point x="23.67402" y="636"/>
-			<point x="16.67402" y="598" type="curve" smooth="yes"/>
-			<point x="11.67402" y="574"/>
-			<point x="20.67402" y="557"/>
+			<point x="71" y="680"/>
+			<point x="69" y="668" type="curve" smooth="yes"/>
+			<point x="64" y="641"/>
+			<point x="23" y="638"/>
+			<point x="17" y="602" type="curve" smooth="yes"/>
+			<point x="12" y="579"/>
+			<point x="22" y="557"/>
 		</contour>
 	</outline>
+	<anchor name="_top" x="51.67465" y="515"/>
+	<anchor name="_side" x="17.07468" y="542"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
 			<string>2022-06-07 15:53:42 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

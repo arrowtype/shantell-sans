@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lslash" format="2">
-	<advance width="403"/>
 	<unicode hex="0142"/>
+	<advance width="403"/>
 	<outline>
 		<contour>
 			<point x="169.88797" y="298" type="curve" smooth="yes"/>
@@ -23,14 +23,14 @@
 			<point x="93.88797" y="275"/>
 			<point x="129.88797" y="284"/>
 		</contour>
-		<component base="l" xOffset="-3.518"/>
+		<component base="l" xOffset="-1.912"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 02:12:50 +0000</string>
+			<string>2022-06-07 20:50:20 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>
