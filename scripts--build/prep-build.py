@@ -67,6 +67,9 @@ altsToMake += "0123456789!\"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~“”‘’"
 # some glyphs just need to stick together or they look broken
 glyphsToDecompose = "ij oe".split()
 
+# adding because they trip up cu2qu in the build, likely because they are decomposed only in some generated sources
+glyphsToDecompose += "arrowNE arrowNW arrowSW arrowSE invertedbrevecmb bracketangleright dotbelowcmb caroncomb".split()
+
 glyphsToNotShift ="\
     onesuperior twosuperior threesuperior fraction zero.dnom one.dnom two.dnom three.dnom \
     four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr \
