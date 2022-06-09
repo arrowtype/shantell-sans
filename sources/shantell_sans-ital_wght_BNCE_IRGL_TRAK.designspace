@@ -89,6 +89,38 @@
         <dimension name="Bounce" xvalue="-100"/>
       </location>
     </source>
+    <source filename="shantell_bounce--extrabold_italic.ufo" familyname="Shantell Sans" stylename="ExtraBold Bounce">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="shantell_bounce--light_italic.ufo" familyname="Shantell Sans" stylename="Light Bounce">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="shantell_reverse_bounce--extrabold_italic.ufo" familyname="Shantell Sans" stylename="ExtraBold Bounce Reverse">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="-100"/>
+      </location>
+    </source>
+    <source filename="shantell_reverse_bounce--light_italic.ufo" familyname="Shantell Sans" stylename="Light Bounce Reverse">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="-100"/>
+      </location>
+    </source>
     <source filename="shantell--light_italic.ufo" familyname="Shantell Sans" stylename="Light">
       <lib copy="1"/>
       <groups copy="1"/>

@@ -20,6 +20,7 @@ import shutil
 from fontParts.fontshell import RFont as Font
 from fontParts.world import *
 from random import random
+import math
 
 # --------------------------------------------------------
 # START configuration
@@ -30,18 +31,18 @@ sources = {
     "extrabold": "sources/shantell--extrabold.ufo",
     "irregularLight": "sources/shantell_organic--light.ufo",
     "irregularExtrabold": "sources/shantell_organic--extrabold.ufo",
-    "bounceLight": "sources/shantell_bounce--light.ufo",
-    "bounceExtrabold": "sources/shantell_bounce--extrabold.ufo",
-    "bounceReverseLight": "sources/shantell_reverse_bounce--light.ufo",
-    "bounceReverseExtrabold": "sources/shantell_reverse_bounce--extrabold.ufo",
+    # "bounceLight": "sources/shantell_bounce--light.ufo",
+    # "bounceExtrabold": "sources/shantell_bounce--extrabold.ufo",
+    # "bounceReverseLight": "sources/shantell_reverse_bounce--light.ufo",
+    # "bounceReverseExtrabold": "sources/shantell_reverse_bounce--extrabold.ufo",
     "lightItalic": "sources/italics/shantell--light_italic.ufo",
     "extraboldItalic": "sources/italics/shantell--extrabold_italic.ufo",
     "irregularLightItalic": "sources/italics/shantell_organic--light_italic.ufo",
     "irregularExtraboldItalic": "sources/italics/shantell_organic--extrabold_italic.ufo",
-    "bounceLightItalic": "sources/shantell_bounce--light_italic.ufo",
-    "bounceExtraboldItalic": "sources/shantell_bounce--extrabold_italic.ufo",
-    "bounceReverseLightItalic": "sources/shantell_reverse_bounce--light_italic.ufo",
-    "bounceReverseExtraboldItalic": "sources/shantell_reverse_bounce--extrabold_italic.ufo",
+    # "bounceLightItalic": "sources/italics/shantell_bounce--light_italic.ufo",
+    # "bounceExtraboldItalic": "sources/italics/shantell_bounce--extrabold_italic.ufo",
+    # "bounceReverseLightItalic": "sources/italics/shantell_reverse_bounce--light_italic.ufo",
+    # "bounceReverseExtraboldItalic": "sources/italics/shantell_reverse_bounce--extrabold_italic.ufo",
 }
 
 # where prepped UFOs are put
@@ -113,14 +114,19 @@ def makePrepDir():
             pass
 
         # make bounce UFOs
-        if name in ["light","extrabold"]:
-            bounceCopy = prepDir+'/'+os.path.split(sources[f"bounce{name.title()}"])[1]
+        if name in ["light","extrabold","lightItalic","extraboldItalic"]:
+            # bounceCopy = prepDir+'/'+os.path.split(sources[f"bounce{name[0].upper() + name[1:]}"])[1]
+            bounceCopy = prepDir+'/'+os.path.split(sources[name])[1].replace("shantell--","shantell_bounce--")
+            print(bounceCopy)
             if not os.path.exists(bounceCopy):
                 shutil.copytree(source, bounceCopy)
 
         # make bounce-reverse UFOs
-        if name in ["light","extrabold"]:
-            bounceReverseCopy = prepDir+'/'+os.path.split(sources[f"bounceReverse{name.title()}"])[1]
+        if name in ["light","extrabold","lightItalic","extraboldItalic"]:
+            # we have to also format the names to find the other paths
+            # bounceReverseCopy = prepDir+'/'+os.path.split(sources[f"bounceReverse{name[0].upper() + name[1:]}"])[1]
+            bounceReverseCopy = prepDir+'/'+os.path.split(sources[name])[1].replace("shantell--","shantell_reverse_bounce--")
+            print(bounceReverseCopy)
             if not os.path.exists(bounceReverseCopy):
                 shutil.copytree(source, bounceReverseCopy)
 
@@ -298,9 +304,24 @@ def positiveOrNegative():
     return 1 if random() < 0.5 else -1
 
 
+def italicBounceShift(yShift, glyphName, font):
+    """
+        Return necessary x shift for a given y shift and italic angle.
+    """
+
+    if font.info.italicAngle == None:
+        return(0)
+
+    if abs(font.info.italicAngle) > 0:
+        xShift = yShift * math.tan(math.radians(-font.info.italicAngle))
+        return xShift
+
+
 def makeBounce(font, glyph, randomLimit=100, minShift=50, factor=1):
     """
-        Determine pseudo-random bounce, then move the glyph
+        Determine pseudo-random bounce, then move the glyph.
+
+        Used if the font doesn't yet have a bounce dict to record prior bounce runs.
     """
 
     moveY=0
@@ -308,12 +329,12 @@ def makeBounce(font, glyph, randomLimit=100, minShift=50, factor=1):
     # alt 1 → shift downwards
     if 'alt1' in glyph.name and glyph.name.split(".")[0]:
         moveY = round((randomLimit-minShift) * random() + minShift) * -1 * factor
-        glyph.moveBy((0,moveY))
+        glyph.moveBy((italicBounceShift(moveY, glyph.name, font), moveY))
 
     # alt 2 → shift upwards
     if 'alt2' in glyph.name and glyph.name.split(".")[0]:
         moveY = round((randomLimit-minShift) * random() + minShift) * factor
-        glyph.moveBy((0,moveY))
+        glyph.moveBy((italicBounceShift(moveY, glyph.name, font), moveY))
 
     # alt 3 or more → shift up or down by up to 66% (not necessarily needed)
     if 'alt' in glyph.name and \
@@ -321,18 +342,15 @@ def makeBounce(font, glyph, randomLimit=100, minShift=50, factor=1):
         'alt1' not in glyph.name and \
         'alt2' not in glyph.name:
         moveY = round((randomLimit-minShift) * random() + (minShift*0.66)) * positiveOrNegative() * factor # reduce shift other alt glyphs
-        glyph.moveBy((0,moveY))
+        glyph.moveBy((italicBounceShift(moveY, glyph.name, font), moveY))
 
     # non-alt glyphs → shift up or down by up to 20%
     if 'alt' not in glyph.name and glyph.name:
         # moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative() * factor
         moveY = round((randomLimit-minShift) * random() + (minShift*0.2)) * positiveOrNegative() * factor # mostly remove minShift for default glyphs, so more are in the middle
-        glyph.moveBy((0,moveY))
+        glyph.moveBy((italicBounceShift(moveY, glyph.name, font), moveY))
 
     if moveY == 0:
-        # print("moveY = 0:")
-        # print("\t",font.path)
-        # print("\t",glyph.name)
         pass
 
     return moveY
@@ -402,7 +420,7 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
                 try:
                     # try: look up bounce dict in the core light/extrabold font, use in this font
                     moveY = baseFont.lib["com.arrowtype.glyphBounces"][g.name] * factor
-                    g.moveBy((0,moveY))
+                    g.moveBy((italicBounceShift(moveY, g.name, font),moveY))
                 except KeyError:
                     # except KeyError: generate bounce value and add to core light/extrabold font
                     moveY = makeBounce(font, g, randomLimit, minShift, factor)
@@ -433,7 +451,7 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
                             if c.baseGlyph is not mainBase:
                                 c.moveBy((0,baseShift))
                         # move glyph to normal position to "reset" it
-                        g.moveBy((0,-baseShift))
+                        g.moveBy((italicBounceShift(moveY, g.name, font),-baseShift))
 
                     #  correct single-component glyphs like oslash, lslash
                     else:
@@ -448,7 +466,7 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
                 # move full glyph again # BUT WAIT, this just breaks it? ... does it need all components moved separately, rather than the whole thing moved?
                 try:
                     moveY = baseFont.lib["com.arrowtype.glyphBounces"][g.name] * factor
-                    g.moveBy((0,moveY))
+                    g.moveBy((italicBounceShift(moveY, g.name, font),moveY))
                 except KeyError:
                     moveY = makeBounce(font, g, randomLimit, minShift, factor)
                     recordBounce(baseFont, g.name, moveY)
