@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ohorn" format="2">
+	<unicode hex="01A0"/>
+	<advance width="657"/>
+	<outline>
+		<contour>
+			<point x="491.40579" y="590" type="curve" smooth="yes"/>
+			<point x="458.40579" y="590"/>
+			<point x="437.40579" y="575"/>
+			<point x="428.40579" y="531" type="curve" smooth="yes"/>
+			<point x="419.40579" y="485"/>
+			<point x="440.40579" y="451"/>
+			<point x="504.40579" y="451" type="curve" smooth="yes"/>
+			<point x="642.40579" y="451"/>
+			<point x="725" y="504"/>
+			<point x="744" y="600" type="curve" smooth="yes"/>
+			<point x="759" y="675"/>
+			<point x="726.40579" y="722"/>
+			<point x="654.40579" y="722" type="curve" smooth="yes"/>
+			<point x="608.40579" y="722"/>
+			<point x="579.40579" y="700"/>
+			<point x="573.40579" y="668" type="curve" smooth="yes"/>
+			<point x="570.40579" y="653"/>
+			<point x="571.40579" y="645"/>
+			<point x="568.40579" y="630" type="curve" smooth="yes"/>
+			<point x="562.40579" y="602"/>
+			<point x="531.40579" y="590"/>
+		</contour>
+		<component base="O"/>
+	</outline>
+	<anchor name="top" x="384.40655" y="620"/>
+	<anchor name="bottom" x="278.60587" y="66"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 02:13:02 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

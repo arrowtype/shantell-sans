@@ -37,7 +37,7 @@ addExtremesToNewFonts = False
 
 outputFolder = "italics"
 
-italicAngle = 9.46 # (Clockwise is positive, here.) this will be flipped to negative when entered into font info
+italicAngle = 11.31 # (Clockwise is positive, here.) this will be flipped to negative when entered into font info
 setSkew = italicAngle
 setRotation = 0
 # ucRounds = "B C D G J O P R S U OE Ohorn Omega IJ zero two three five six eight nine zero.onum two.onum three.onum five.onum six.onum eight.onum nine.onum percent perthousand at ampersand section dollar cent sterling Euro copyright degree dollar.open cent.open question questiondown C.RECT D.RECT G.RECT O.RECT P.RECT R.RECT U.RECT OE.RECT Ohorn.RECT Germandbls.RECT R.grot two.tnum three.tnum five.tnum two.onum_tnum D.sups G.sups O.sups R.sups S.sups a.sups d.sups e.sups g.sups h.sups m.sups n.sups o.sups s.sups u.sups U.sups brevecomb ringcomb partialdiff infinity registered two.onum_tnum three.onum_tnum five.onum_tnum asterisk".split(" ")
@@ -362,8 +362,9 @@ def copySpacing(originalFont, slantedFont):
             g.angledLeftMargin = originalFont[g.name].leftMargin
             # g.angledRightMargin = originalFont[g.name].rightMargin
             g.width = originalFont[g.name].width
-        except (KeyError, TypeError):
-            print(f"Could copy spacing of /{g.name} in {originalFont}")
+        except (KeyError, TypeError) as e:
+            print(f"Couldn’t copy spacing of /{g.name} in {originalFont.info.styleName}")
+            print(e)
 
 
 # Get input font paths

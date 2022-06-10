@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gestrokecyr" format="2">
+	<unicode hex="0493"/>
+	<advance width="546"/>
+	<outline>
+		<contour>
+			<point x="82.59944" y="162" type="curve" smooth="yes"/>
+			<point x="117.59944" y="162"/>
+			<point x="221.59944" y="167"/>
+			<point x="281.59944" y="167" type="curve" smooth="yes"/>
+			<point x="331.59944" y="167"/>
+			<point x="363.59944" y="182"/>
+			<point x="371.59944" y="220" type="curve" smooth="yes"/>
+			<point x="379.59944" y="259"/>
+			<point x="353.59944" y="304"/>
+			<point x="276.59944" y="304" type="curve" smooth="yes"/>
+			<point x="236.59944" y="304"/>
+			<point x="120.59944" y="296"/>
+			<point x="75.59944" y="293" type="curve" smooth="yes"/>
+			<point x="17.59944" y="289"/>
+			<point x="5.59944" y="272"/>
+			<point x="-0.40056" y="239" type="curve" smooth="yes"/>
+			<point x="-10.40056" y="191"/>
+			<point x="27.59944" y="162"/>
+		</contour>
+		<component base="gecyr" xOffset="13.799"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:53:42 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
+</glyph>

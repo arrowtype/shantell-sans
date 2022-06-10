@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zetailcyr" format="2">
+	<unicode hex="0498"/>
+	<advance width="606"/>
+	<outline>
+		<contour>
+			<point x="209.79351" y="13" type="curve" smooth="yes"/>
+			<point x="203.79351" y="-13"/>
+			<point x="185.79351" y="-77"/>
+			<point x="179.79351" y="-107" type="curve" smooth="yes"/>
+			<point x="172.79351" y="-140"/>
+			<point x="182.79351" y="-177"/>
+			<point x="218.79351" y="-177" type="curve" smooth="yes"/>
+			<point x="231.79351" y="-177"/>
+			<point x="242.79351" y="-160"/>
+			<point x="245.79351" y="-143" type="curve" smooth="yes"/>
+			<point x="250.79351" y="-118"/>
+			<point x="260.79351" y="-59"/>
+			<point x="272.79351" y="2" type="curve" smooth="yes"/>
+			<point x="278.79351" y="31"/>
+			<point x="269.79351" y="44"/>
+			<point x="252.79351" y="44" type="curve" smooth="yes"/>
+			<point x="236.79351" y="44"/>
+			<point x="212.79351" y="32"/>
+		</contour>
+		<component base="Zecyr"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 02:12:36 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
+</glyph>

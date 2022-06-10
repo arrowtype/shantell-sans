@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ushortcyr" format="2">
+	<unicode hex="040E"/>
+	<advance width="641"/>
+	<outline>
+		<contour>
+			<point x="465.40579" y="859" type="curve" smooth="yes"/>
+			<point x="442.40579" y="859"/>
+			<point x="433.40579" y="882"/>
+			<point x="423.40579" y="906" type="curve" smooth="yes"/>
+			<point x="414.40579" y="928"/>
+			<point x="398.40579" y="945"/>
+			<point x="372.40579" y="945" type="curve" smooth="yes"/>
+			<point x="327.40579" y="945"/>
+			<point x="291.40579" y="917"/>
+			<point x="282.40579" y="868" type="curve" smooth="yes"/>
+			<point x="266.40579" y="789"/>
+			<point x="319.40579" y="731"/>
+			<point x="420.40579" y="731" type="curve" smooth="yes"/>
+			<point x="544.40579" y="731"/>
+			<point x="658.40579" y="809"/>
+			<point x="671.40579" y="877" type="curve" smooth="yes"/>
+			<point x="679.40579" y="913"/>
+			<point x="667.40579" y="935"/>
+			<point x="635.40579" y="935" type="curve" smooth="yes"/>
+			<point x="613.40579" y="935"/>
+			<point x="588.40579" y="918"/>
+			<point x="565.40579" y="904" type="curve" smooth="yes"/>
+			<point x="531.40579" y="883"/>
+			<point x="484.40579" y="859"/>
+		</contour>
+		<component base="Ucyr"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 02:13:02 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
+</glyph>

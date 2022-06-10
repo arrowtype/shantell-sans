@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="o" format="2">
+	<unicode hex="006F"/>
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="265" y="-12" type="curve" smooth="yes"/>
+			<point x="399" y="-12"/>
+			<point x="505" y="88"/>
+			<point x="534" y="236" type="curve" smooth="yes"/>
+			<point x="565" y="388"/>
+			<point x="503.69458" y="494"/>
+			<point x="371.69458" y="494" type="curve" smooth="yes"/>
+			<point x="284.69458" y="494"/>
+			<point x="186.69458" y="417"/>
+			<point x="176.69458" y="363" type="curve" smooth="yes"/>
+			<point x="172.69458" y="343"/>
+			<point x="178.69458" y="334"/>
+			<point x="196.69458" y="334" type="curve" smooth="yes"/>
+			<point x="222.69458" y="334"/>
+			<point x="225.69458" y="358"/>
+			<point x="263.69458" y="390" type="curve" smooth="yes"/>
+			<point x="296.69458" y="417"/>
+			<point x="322.69458" y="434"/>
+			<point x="367.69458" y="434" type="curve" smooth="yes"/>
+			<point x="453.69458" y="434"/>
+			<point x="491.69458" y="365"/>
+			<point x="468.69458" y="252" type="curve" smooth="yes"/>
+			<point x="444.65047" y="127.77208"/>
+			<point x="363.723" y="48"/>
+			<point x="264" y="48" type="curve" smooth="yes"/>
+			<point x="161.56315" y="48"/>
+			<point x="108.75695" y="124.3092"/>
+			<point x="132.69458" y="243" type="curve" smooth="yes"/>
+			<point x="147" y="324"/>
+			<point x="181" y="364"/>
+			<point x="260.69458" y="405" type="curve" smooth="yes"/>
+			<point x="291" y="421"/>
+			<point x="298.69458" y="436"/>
+			<point x="303.69458" y="458" type="curve" smooth="yes"/>
+			<point x="306.69458" y="474"/>
+			<point x="297.69458" y="479"/>
+			<point x="282.69458" y="479" type="curve" smooth="yes"/>
+			<point x="240.69458" y="479"/>
+			<point x="100" y="410"/>
+			<point x="69" y="256" type="curve" smooth="yes"/>
+			<point x="39" y="100"/>
+			<point x="108" y="-12"/>
+		</contour>
+	</outline>
+	<anchor name="top" x="369.69518" y="485"/>
+	<anchor name="bottom" x="261.69458" y="0"/>
+	<anchor name="ogonek" x="396.09463" y="37"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:52:21 +0000</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

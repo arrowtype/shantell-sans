@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ishortcyr" format="2">
+	<unicode hex="0419"/>
+	<advance width="703"/>
+	<outline>
+		<contour>
+			<point x="478.85312" y="815" type="curve" smooth="yes"/>
+			<point x="448.85312" y="815"/>
+			<point x="427.85312" y="836"/>
+			<point x="414.85312" y="858" type="curve" smooth="yes"/>
+			<point x="402.85312" y="878"/>
+			<point x="395.85312" y="901"/>
+			<point x="369.85312" y="901" type="curve" smooth="yes"/>
+			<point x="347.85312" y="901"/>
+			<point x="332.85312" y="885"/>
+			<point x="328.85312" y="866" type="curve" smooth="yes"/>
+			<point x="321.85312" y="832"/>
+			<point x="360.85312" y="757"/>
+			<point x="463.85312" y="757" type="curve" smooth="yes"/>
+			<point x="558.85312" y="757"/>
+			<point x="647.85312" y="819"/>
+			<point x="653.85312" y="851" type="curve" smooth="yes"/>
+			<point x="656.85312" y="866"/>
+			<point x="649.85312" y="880"/>
+			<point x="629.85312" y="880" type="curve" smooth="yes"/>
+			<point x="607.85312" y="880"/>
+			<point x="587.85312" y="860"/>
+			<point x="564.85312" y="846" type="curve" smooth="yes"/>
+			<point x="529.85312" y="824"/>
+			<point x="509.85312" y="815"/>
+		</contour>
+		<component base="Icyr"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2022-06-07 15:52:58 +0000</string>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
+</glyph>

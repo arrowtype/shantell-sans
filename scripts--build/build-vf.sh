@@ -2,11 +2,12 @@
 
 set -e
 
-DS="sources/wght_BNCE_IRGL_TRAK--prepped/shantell_sans-wght_BNCE_IRGL_TRAK.designspace"
+# DS="sources/wght_BNCE_IRGL_TRAK--prepped/shantell_sans-wght_BNCE_IRGL_TRAK.designspace"
+DS="sources/ital_wght_BNCE_IRGL_TRAK--prepped/shantell_sans-ital_wght_BNCE_IRGL_TRAK.designspace"
 outputDir="fonts/Shantell Sans/Desktop"
 webDir="fonts/Shantell Sans/Web"
 vfName="Shantell_Sans-Variable.ttf"
-finalVfName="ShantellSans[BNCE,IRGL,TRAK,wght].ttf"
+finalVfName="ShantellSans[BNCE,IRGL,TRAK,ital,wght].ttf"
 
 mkdir -p "$outputDir"
 

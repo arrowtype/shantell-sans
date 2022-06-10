@@ -22,9 +22,18 @@ AXES = [
         ],
     ),
     dict(
+        tag="ital",
+        name="Italic",
+        ordering=1,
+        values=[
+            dict(nominalValue=0, rangeMinValue=0, rangeMaxValue=0, name="Upright", flags=0x2, linkedValue=1),
+            dict(nominalValue=1, rangeMinValue=0.00001, rangeMaxValue=1,  name="Italic"),
+        ],
+    ),
+    dict(
         tag="BNCE",
         name="Bounce",
-        ordering=1,
+        ordering=2,
         values=[
             dict(nominalValue=0, rangeMinValue=0, rangeMaxValue=0, name="No Bounce", flags=0x2),
             dict(nominalValue=50, rangeMinValue=0.00001, rangeMaxValue=75,  name="SemiBouncy"),
@@ -34,10 +43,19 @@ AXES = [
     dict(
         tag="IRGL",
         name="Irregularity",
-        ordering=2,
+        ordering=3,
         values=[
             dict(nominalValue=0, rangeMinValue=0, rangeMaxValue=25, name="Normalized", flags=0x2),
             dict(nominalValue=100, rangeMinValue=25.00001, rangeMaxValue=100,  name="Irregular"),
+        ],
+    ),
+    dict(
+        tag="TRAK",
+        name="Tracking",
+        ordering=4,
+        values=[
+            dict(nominalValue=0, rangeMinValue=0, rangeMaxValue=0, name="No Tracking", flags=0x2),
+            dict(nominalValue=500, rangeMinValue=0.00001, rangeMaxValue=500,  name="Tracked"),
         ],
     ),
 ]
