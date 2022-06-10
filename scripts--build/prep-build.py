@@ -71,6 +71,9 @@ glyphsToDecompose = "ij oe".split()
 # adding because they trip up cu2qu in the build, likely because they are decomposed only in some generated sources
 glyphsToDecompose += "arrowNE arrowNW arrowSW arrowSE invertedbrevecmb bracketangleright dotbelowcmb caroncomb".split()
 
+# fontTools.varLib says these are incompatible, if they aren't decomposed first. See issue 
+glyphsToDecompose += "Aring Yukrcyr Iocyr lj nj iocyr iukrcyr jecyr Lj Nj onequarter onehalf threequarters onethird twothirds oneeighth threeeighths fiveeighths seveneighths bulletoperator ijacute fi f_f_i Iigrave Esdescender esdescender periodcentered Iigrave-cy.loclBGR Esdescender-cy.loclBSH esdescender-cy.loclBSH Esdescender-cy.loclCHU esdescender-cy.loclCHU periodcentered.loclCAT_case".split()
+
 glyphsToNotShift ="\
     onesuperior twosuperior threesuperior fraction zero.dnom one.dnom two.dnom three.dnom \
     four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr \
