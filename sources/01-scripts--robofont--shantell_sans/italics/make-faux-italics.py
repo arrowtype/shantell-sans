@@ -35,7 +35,7 @@ openNewFonts = False
 saveNewFonts = True
 addExtremesToNewFonts = False
 
-outputFolder = "italics"
+outputFolder = "italics--generated"
 
 italicAngle = 11.31 # (Clockwise is positive, here.) this will be flipped to negative when entered into font info
 setSkew = italicAngle
@@ -385,7 +385,7 @@ for fontPath in inputFonts:
     if not os.path.exists(italicDir):
         os.makedirs(italicDir)
 
-    slantedFontPath = italicDir + "/" + f"{fontFile.replace('.ufo','_Italic.ufo')}"
+    slantedFontPath = italicDir + "/" + f"{fontFile.replace('.ufo','_italic_generated.ufo')}"
 
     # delete faux-italic UFO if it already exists, to avoid filesystem clashes
     if os.path.exists(slantedFontPath):
