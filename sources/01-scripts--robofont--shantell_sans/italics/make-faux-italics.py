@@ -344,8 +344,9 @@ def correctAnchors(font):
     """
 
     for glyph in font:
-        for anchor in glyph.anchors:
-            anchor.x += math.tan(math.radians(-font.info.italicAngle)) * anchor.y
+        if len(glyph.anchors) > 0:
+            for anchor in glyph.anchors:
+                anchor.x += math.tan(math.radians(-font.info.italicAngle)) * anchor.y
 
 
 def copySpacing(originalFont, slantedFont):
