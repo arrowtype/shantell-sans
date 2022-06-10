@@ -4,31 +4,31 @@
 	<advance width="555"/>
 	<outline>
 		<contour>
-			<point x="164" y="276" type="curve" smooth="yes"/>
-			<point x="213" y="276"/>
-			<point x="332" y="288"/>
-			<point x="468" y="288" type="curve" smooth="yes"/>
-			<point x="492" y="288"/>
-			<point x="505" y="298"/>
-			<point x="505" y="310" type="curve" smooth="yes"/>
-			<point x="505" y="325"/>
-			<point x="481" y="346"/>
-			<point x="396" y="346" type="curve" smooth="yes"/>
-			<point x="330" y="346"/>
-			<point x="183" y="337"/>
-			<point x="110" y="333" type="curve" smooth="yes"/>
-			<point x="83" y="331"/>
-			<point x="72" y="321"/>
-			<point x="72" y="308" type="curve" smooth="yes"/>
-			<point x="72" y="290"/>
-			<point x="96" y="276"/>
+			<point x="164" y="249" type="curve" smooth="yes"/>
+			<point x="213" y="249"/>
+			<point x="341" y="274"/>
+			<point x="477" y="274" type="curve" smooth="yes"/>
+			<point x="501" y="274"/>
+			<point x="514" y="281"/>
+			<point x="514" y="293" type="curve" smooth="yes"/>
+			<point x="514" y="308"/>
+			<point x="490" y="329"/>
+			<point x="405" y="329" type="curve" smooth="yes"/>
+			<point x="339" y="329"/>
+			<point x="183" y="307"/>
+			<point x="110" y="303" type="curve" smooth="yes"/>
+			<point x="83" y="301"/>
+			<point x="72" y="291"/>
+			<point x="72" y="278" type="curve" smooth="yes"/>
+			<point x="72" y="260"/>
+			<point x="96" y="249"/>
 		</contour>
 		<component base="Ustraightcyr"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.9272,0.8867,1,1</string>
+			<string>0.7336,0.5157,0.996,1</string>
 		</dict>
 	</lib>
 </glyph>

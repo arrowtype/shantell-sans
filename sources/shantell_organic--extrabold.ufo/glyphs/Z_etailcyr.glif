@@ -4,31 +4,31 @@
 	<advance width="606"/>
 	<outline>
 		<contour>
-			<point x="217" y="21" type="curve" smooth="yes"/>
-			<point x="217" y="-10"/>
-			<point x="202" y="-86"/>
-			<point x="202" y="-123" type="curve" smooth="yes"/>
-			<point x="202" y="-163"/>
-			<point x="236" y="-207"/>
-			<point x="303" y="-207" type="curve" smooth="yes"/>
-			<point x="346" y="-207"/>
-			<point x="376" y="-168"/>
-			<point x="376" y="-128" type="curve" smooth="yes"/>
-			<point x="376" y="-95"/>
-			<point x="367" y="-19"/>
-			<point x="367" y="61" type="curve" smooth="yes"/>
-			<point x="367" y="87"/>
-			<point x="345" y="99"/>
+			<point x="224" y="50" type="curve" smooth="yes"/>
+			<point x="224" y="20.1639344262"/>
+			<point x="223" y="-41"/>
+			<point x="223" y="-90" type="curve" smooth="yes"/>
+			<point x="223" y="-165"/>
+			<point x="256.6633663366" y="-217"/>
+			<point x="323" y="-217" type="curve" smooth="yes"/>
+			<point x="366" y="-217"/>
+			<point x="396" y="-178"/>
+			<point x="396" y="-138" type="curve" smooth="yes"/>
+			<point x="396" y="-78"/>
+			<point x="362" y="-8"/>
+			<point x="362" y="62" type="curve" smooth="yes"/>
+			<point x="362" y="87"/>
+			<point x="342.2" y="99"/>
 			<point x="317" y="99" type="curve" smooth="yes"/>
-			<point x="274" y="99"/>
-			<point x="217" y="69"/>
+			<point x="277.01" y="99"/>
+			<point x="224" y="80"/>
 		</contour>
 		<component base="Zecyr"/>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.9272,0.8867,1,1</string>
+			<string>0.7336,0.5157,0.996,1</string>
 		</dict>
 	</lib>
 </glyph>
