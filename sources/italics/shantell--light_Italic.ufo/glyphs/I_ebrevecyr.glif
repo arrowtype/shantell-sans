@@ -1,25 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Iebrevecyr" format="2">
 	<unicode hex="04D6"/>
-	<advance width="704"/>
+	<advance width="633"/>
 	<outline>
+		<contour>
+			<point x="493.7923593966" y="827" type="curve" smooth="yes"/>
+			<point x="448.7923593966" y="827"/>
+			<point x="425.7923593966" y="863"/>
+			<point x="410.7923593966" y="897" type="curve" smooth="yes"/>
+			<point x="402.7923593966" y="916"/>
+			<point x="395.7923593966" y="941"/>
+			<point x="371.7923593966" y="941" type="curve" smooth="yes"/>
+			<point x="354.7923593966" y="941"/>
+			<point x="343.7923593966" y="928"/>
+			<point x="339.7923593966" y="911" type="curve" smooth="yes" identifier="d0Fs9xsYHa"/>
+			<point x="331.7923593966" y="871"/>
+			<point x="371.7923593966" y="767"/>
+			<point x="482.7923593966" y="767" type="curve" smooth="yes"/>
+			<point x="555.7923593966" y="767"/>
+			<point x="641.7923593966" y="816"/>
+			<point x="650.7923593966" y="858" type="curve" smooth="yes" identifier="aboo0xSbLX"/>
+			<point x="652.7923593966" y="869"/>
+			<point x="647.7923593966" y="880"/>
+			<point x="631.7923593966" y="880" type="curve" smooth="yes"/>
+			<point x="615.7923593966" y="880"/>
+			<point x="594.7923593966" y="864"/>
+			<point x="568.7923593966" y="850" type="curve" smooth="yes"/>
+			<point x="543.7923593966" y="837"/>
+			<point x="521.7923593966" y="827"/>
+		</contour>
 		<component base="E"/>
 	</outline>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>0</integer>
-					<key>name</key>
-					<string>E</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 02:14:18 +0000</string>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
 		</dict>
 	</lib>
 </glyph>

@@ -1,60 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Gecyr" format="2">
 	<unicode hex="0413"/>
-	<advance width="516"/>
+	<advance width="506"/>
 	<outline>
 		<contour>
-			<point x="265.32929" y="656" type="curve"/>
-			<point x="190.32929" y="651" type="line"/>
-			<point x="179.32929" y="555"/>
-			<point x="159.32929" y="446"/>
-			<point x="140.32929" y="350" type="curve" smooth="yes"/>
-			<point x="113.32929" y="213"/>
-			<point x="74.32929" y="100"/>
-			<point x="69.32929" y="73" type="curve" smooth="yes"/>
-			<point x="62.32929" y="41"/>
-			<point x="71.32929" y="9"/>
-			<point x="93.32929" y="9" type="curve" smooth="yes"/>
-			<point x="112.32929" y="9"/>
-			<point x="122.32929" y="25"/>
-			<point x="132.32929" y="48" type="curve" smooth="yes"/>
-			<point x="147.32929" y="87"/>
-			<point x="180.32929" y="202"/>
-			<point x="211.32929" y="353" type="curve" smooth="yes"/>
-			<point x="230.32929" y="449"/>
-			<point x="252.32929" y="563"/>
+			<point x="265.3292852084" y="656" type="curve"/>
+			<point x="190.3292852084" y="651" type="line"/>
+			<point x="179.3292852084" y="555"/>
+			<point x="159.3292852084" y="446"/>
+			<point x="140.3292852084" y="350" type="curve" smooth="yes" identifier="Z1DRxEVPEo"/>
+			<point x="113.3292852084" y="213"/>
+			<point x="74.3292852084" y="100"/>
+			<point x="69.3292852084" y="73" type="curve" smooth="yes" identifier="xe1T9Ni3ZW"/>
+			<point x="62.3292852084" y="41"/>
+			<point x="71.3292852084" y="9"/>
+			<point x="93.3292852084" y="9" type="curve" smooth="yes"/>
+			<point x="112.3292852084" y="9"/>
+			<point x="122.3292852084" y="25"/>
+			<point x="132.3292852084" y="48" type="curve" smooth="yes"/>
+			<point x="147.3292852084" y="87"/>
+			<point x="180.3292852084" y="202"/>
+			<point x="211.3292852084" y="353" type="curve" smooth="yes" identifier="PtyftbekVn"/>
+			<point x="230.3292852084" y="449"/>
+			<point x="252.3292852084" y="563"/>
 		</contour>
 		<contour>
-			<point x="199.32929" y="682" type="curve" smooth="yes"/>
-			<point x="155.32929" y="678"/>
-			<point x="136.32929" y="666"/>
-			<point x="133.32929" y="651" type="curve" smooth="yes"/>
-			<point x="130.32929" y="635"/>
-			<point x="150.32929" y="618"/>
-			<point x="190.32929" y="618" type="curve" smooth="yes"/>
-			<point x="255.32929" y="618"/>
-			<point x="314.32929" y="627"/>
-			<point x="406.32929" y="627" type="curve" smooth="yes"/>
-			<point x="474.32929" y="627"/>
-			<point x="502.32929" y="623"/>
-			<point x="534.32929" y="623" type="curve" smooth="yes"/>
-			<point x="565.32929" y="623"/>
-			<point x="585.32929" y="632"/>
-			<point x="588.32929" y="647" type="curve" smooth="yes"/>
-			<point x="593.32929" y="671"/>
-			<point x="546.32929" y="692"/>
-			<point x="473.32929" y="692" type="curve" smooth="yes"/>
-			<point x="382.32929" y="692"/>
-			<point x="244.32929" y="686"/>
+			<point x="199.3292852084" y="682" type="curve" smooth="yes"/>
+			<point x="155.3292852084" y="678"/>
+			<point x="136.3292852084" y="666"/>
+			<point x="133.3292852084" y="651" type="curve" smooth="yes" identifier="L7tMHnj4uF"/>
+			<point x="130.3292852084" y="635"/>
+			<point x="150.3292852084" y="618"/>
+			<point x="190.3292852084" y="618" type="curve" smooth="yes"/>
+			<point x="256.3292852084" y="618"/>
+			<point x="314.3292852084" y="627"/>
+			<point x="406.3292852084" y="627" type="curve" smooth="yes"/>
+			<point x="474.3292852084" y="627"/>
+			<point x="502.3292852084" y="623"/>
+			<point x="534.3292852084" y="623" type="curve" smooth="yes"/>
+			<point x="565.3292852084" y="623"/>
+			<point x="585.3292852084" y="632"/>
+			<point x="588.3292852084" y="647" type="curve" smooth="yes" identifier="bzFPqy5DI5"/>
+			<point x="593.3292852084" y="671"/>
+			<point x="546.3292852084" y="692"/>
+			<point x="473.3292852084" y="692" type="curve" smooth="yes"/>
+			<point x="382.3292852084" y="692"/>
+			<point x="244.3292852084" y="686"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="373.33014" y="700"/>
+	<anchor name="top" x="373.3301431935" y="700"/>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 02:12:36 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>1,1,0,1</string>
 		</dict>
 	</lib>
 </glyph>

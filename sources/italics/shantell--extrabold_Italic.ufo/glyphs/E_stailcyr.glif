@@ -4,33 +4,31 @@
 	<advance width="621"/>
 	<outline>
 		<contour>
-			<point x="215.80009" y="21" type="curve" smooth="yes"/>
-			<point x="209.80009" y="-10"/>
-			<point x="179.80009" y="-86"/>
-			<point x="171.80009" y="-123" type="curve" smooth="yes"/>
-			<point x="163.80009" y="-163"/>
-			<point x="189.80009" y="-207"/>
-			<point x="256.80009" y="-207" type="curve" smooth="yes"/>
-			<point x="299.80009" y="-207"/>
-			<point x="336.80009" y="-168"/>
-			<point x="344.80009" y="-128" type="curve" smooth="yes"/>
-			<point x="351.80009" y="-95"/>
-			<point x="357.80009" y="-19"/>
-			<point x="373.80009" y="61" type="curve" smooth="yes"/>
-			<point x="378.80009" y="87"/>
-			<point x="359.80009" y="99"/>
-			<point x="331.80009" y="99" type="curve" smooth="yes"/>
-			<point x="288.80009" y="99"/>
-			<point x="225.80009" y="69"/>
+			<point x="213.4943124158" y="21" type="curve" smooth="yes" identifier="ZxOx8ERHsl"/>
+			<point x="207.4943124158" y="-10"/>
+			<point x="177.4943124158" y="-86"/>
+			<point x="169.4943124158" y="-123" type="curve" smooth="yes" identifier="x9ITIhVxK4"/>
+			<point x="161.4943124158" y="-163"/>
+			<point x="187.4943124158" y="-207"/>
+			<point x="254.4943124158" y="-207" type="curve" smooth="yes"/>
+			<point x="297.4943124158" y="-207"/>
+			<point x="334.4943124158" y="-168"/>
+			<point x="342.4943124158" y="-128" type="curve" smooth="yes" identifier="N2UlSHydL5"/>
+			<point x="349.4943124158" y="-95"/>
+			<point x="355.4943124158" y="-19"/>
+			<point x="371.4943124158" y="61" type="curve" smooth="yes" identifier="VIA81T6RYI"/>
+			<point x="376.4943124158" y="87"/>
+			<point x="357.4943124158" y="99"/>
+			<point x="329.4943124158" y="99" type="curve" smooth="yes"/>
+			<point x="286.4943124158" y="99"/>
+			<point x="223.4943124158" y="69"/>
 		</contour>
-		<component base="C"/>
+		<component base="C" xOffset="-2.3057752213"/>
 	</outline>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 15:53:42 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>1,1,0,1</string>
 		</dict>
 	</lib>
 </glyph>

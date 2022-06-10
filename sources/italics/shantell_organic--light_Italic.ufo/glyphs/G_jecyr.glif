@@ -1,34 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Gjecyr" format="2">
 	<unicode hex="0403"/>
-	<advance width="590"/>
+	<advance width="506"/>
 	<outline>
 		<component base="Gecyr"/>
-		<component base="acutecomb" xOffset="339" yOffset="185"/>
+		<component base="acutecomb" xOffset="325" yOffset="215"/>
 	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>0</integer>
-					<key>name</key>
-					<string>Gecyr</string>
-				</dict>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>1</integer>
-					<key>name</key>
-					<string>acutecomb</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:21 +0000</string>
-		</dict>
-	</lib>
 </glyph>

@@ -1,34 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Umacroncyr" format="2">
 	<unicode hex="04EE"/>
-	<advance width="641"/>
+	<advance width="612"/>
 	<outline>
-		<component base="Ucyr" xOffset="5"/>
-		<component base="macroncomb" xOffset="370" yOffset="185"/>
+		<component base="Ucyr" xOffset="4.9235490711"/>
+		<component base="macroncomb" xOffset="356.9235490711" yOffset="215"/>
 	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>0</integer>
-					<key>name</key>
-					<string>Ucyr</string>
-				</dict>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>1</integer>
-					<key>name</key>
-					<string>macroncomb</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:21 +0000</string>
-		</dict>
-	</lib>
 </glyph>

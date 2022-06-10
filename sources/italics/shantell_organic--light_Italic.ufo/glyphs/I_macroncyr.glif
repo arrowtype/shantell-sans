@@ -1,34 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Imacroncyr" format="2">
 	<unicode hex="04E2"/>
-	<advance width="742"/>
+	<advance width="697"/>
 	<outline>
-		<component base="Icyr" xOffset="4"/>
-		<component base="macroncomb" xOffset="410" yOffset="185"/>
+		<component base="Icyr" xOffset="4.499823781"/>
+		<component base="macroncomb" xOffset="408.499823781" yOffset="215"/>
 	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>0</integer>
-					<key>name</key>
-					<string>Icyr</string>
-				</dict>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>1</integer>
-					<key>name</key>
-					<string>macroncomb</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:21 +0000</string>
-		</dict>
-	</lib>
 </glyph>

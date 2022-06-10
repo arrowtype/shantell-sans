@@ -3,32 +3,6 @@
 	<unicode hex="0450"/>
 	<advance width="562"/>
 	<outline>
-		<component base="e"/>
-		<component base="gravecomb" xOffset="309"/>
+		<component base="egrave" xOffset="5.2019891913"/>
 	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>0</integer>
-					<key>name</key>
-					<string>e</string>
-				</dict>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>1</integer>
-					<key>name</key>
-					<string>gravecomb</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:21 +0000</string>
-		</dict>
-	</lib>
 </glyph>

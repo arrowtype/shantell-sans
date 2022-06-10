@@ -1,34 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="igravecyr" format="2">
 	<unicode hex="045D"/>
-	<advance width="708"/>
+	<advance width="641"/>
 	<outline>
-		<component base="icyr"/>
-		<component base="gravecomb" xOffset="348"/>
+		<component base="icyr" xOffset="4.6882252405"/>
+		<component base="gravecomb" xOffset="300.6882252405"/>
 	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>0</integer>
-					<key>name</key>
-					<string>icyr</string>
-				</dict>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>1</integer>
-					<key>name</key>
-					<string>gravecomb</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:21 +0000</string>
-		</dict>
-	</lib>
 </glyph>

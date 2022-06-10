@@ -1,34 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ylongdieresiscyr" format="2">
 	<unicode hex="04F8"/>
-	<advance width="905"/>
+	<advance width="834"/>
 	<outline>
-		<component base="Ylongcyr" xOffset="4"/>
-		<component base="dieresiscomb" xOffset="484" yOffset="185"/>
+		<component base="Ylongcyr" xOffset="4.3934235881"/>
+		<component base="dieresiscomb" xOffset="469.3934235881" yOffset="215"/>
 	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>0</integer>
-					<key>name</key>
-					<string>Ylongcyr</string>
-				</dict>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>1</integer>
-					<key>name</key>
-					<string>dieresiscomb</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:21 +0000</string>
-		</dict>
-	</lib>
 </glyph>

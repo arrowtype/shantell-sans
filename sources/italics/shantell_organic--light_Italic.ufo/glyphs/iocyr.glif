@@ -3,23 +3,6 @@
 	<unicode hex="0451"/>
 	<advance width="562"/>
 	<outline>
-		<component base="edieresis" xOffset="5"/>
+		<component base="edieresis" xOffset="-5.2019891913"/>
 	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>0</integer>
-					<key>name</key>
-					<string>edieresis</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:21 +0000</string>
-		</dict>
-	</lib>
 </glyph>

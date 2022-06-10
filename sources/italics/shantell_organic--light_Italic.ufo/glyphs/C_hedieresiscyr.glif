@@ -1,34 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Chedieresiscyr" format="2">
 	<unicode hex="04F4"/>
-	<advance width="677"/>
+	<advance width="612"/>
 	<outline>
-		<component base="Checyr" xOffset="5"/>
-		<component base="dieresiscomb" xOffset="373" yOffset="185"/>
+		<component base="Checyr" xOffset="4.6602643666"/>
+		<component base="dieresiscomb" xOffset="339.6602643666" yOffset="215"/>
 	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>0</integer>
-					<key>name</key>
-					<string>Checyr</string>
-				</dict>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>1</integer>
-					<key>name</key>
-					<string>dieresiscomb</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:21 +0000</string>
-		</dict>
-	</lib>
 </glyph>

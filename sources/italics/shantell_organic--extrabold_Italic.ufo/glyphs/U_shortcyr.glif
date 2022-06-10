@@ -1,42 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ushortcyr" format="2">
 	<unicode hex="040E"/>
-	<advance width="641"/>
+	<advance width="667"/>
 	<outline>
 		<contour>
-			<point x="465.40579" y="859" type="curve" smooth="yes"/>
-			<point x="442.40579" y="859"/>
-			<point x="433.40579" y="882"/>
-			<point x="423.40579" y="906" type="curve" smooth="yes"/>
-			<point x="414.40579" y="928"/>
-			<point x="398.40579" y="945"/>
-			<point x="372.40579" y="945" type="curve" smooth="yes"/>
-			<point x="327.40579" y="945"/>
-			<point x="291.40579" y="917"/>
-			<point x="282.40579" y="868" type="curve" smooth="yes"/>
-			<point x="266.40579" y="789"/>
-			<point x="319.40579" y="731"/>
-			<point x="420.40579" y="731" type="curve" smooth="yes"/>
-			<point x="544.40579" y="731"/>
-			<point x="658.40579" y="809"/>
-			<point x="671.40579" y="877" type="curve" smooth="yes"/>
-			<point x="679.40579" y="913"/>
-			<point x="667.40579" y="935"/>
-			<point x="635.40579" y="935" type="curve" smooth="yes"/>
-			<point x="613.40579" y="935"/>
-			<point x="588.40579" y="918"/>
-			<point x="565.40579" y="904" type="curve" smooth="yes"/>
-			<point x="531.40579" y="883"/>
-			<point x="484.40579" y="859"/>
+			<point x="484.8574368572" y="902" type="curve" smooth="yes"/>
+			<point x="450.8574368572" y="902"/>
+			<point x="433.8574368572" y="923"/>
+			<point x="419.8574368572" y="949" type="curve" smooth="yes"/>
+			<point x="407.8574368572" y="971"/>
+			<point x="394.8574368572" y="988"/>
+			<point x="368.8574368572" y="988" type="curve" smooth="yes"/>
+			<point x="323.8574368572" y="988"/>
+			<point x="287.8574368572" y="960"/>
+			<point x="277.8574368572" y="911" type="curve" smooth="yes" identifier="SI6n4Tg1xm"/>
+			<point x="261.8574368572" y="829"/>
+			<point x="321.8574368572" y="768"/>
+			<point x="432.8574368572" y="768" type="curve" smooth="yes"/>
+			<point x="541.8574368572" y="768"/>
+			<point x="670.8574368572" y="823"/>
+			<point x="684.8574368572" y="897" type="curve" smooth="yes" identifier="lCV2FsvnQn"/>
+			<point x="691.8574368572" y="932"/>
+			<point x="679.8574368572" y="953"/>
+			<point x="646.8574368572" y="953" type="curve" smooth="yes"/>
+			<point x="624.8574368572" y="953"/>
+			<point x="604.8574368572" y="940"/>
+			<point x="576.8574368572" y="927" type="curve" smooth="yes"/>
+			<point x="546.8574368572" y="913"/>
+			<point x="511.8574368572" y="902"/>
 		</contour>
-		<component base="Ucyr"/>
+		<component base="Ucyr" xOffset="-3.5483503056"/>
 	</outline>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 02:13:02 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>1,1,0,1</string>
 		</dict>
 	</lib>
 </glyph>

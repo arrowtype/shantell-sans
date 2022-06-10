@@ -4,33 +4,31 @@
 	<advance width="555"/>
 	<outline>
 		<contour>
-			<point x="166.46929" y="276" type="curve" smooth="yes"/>
-			<point x="215.46929" y="276"/>
-			<point x="337.46929" y="288"/>
-			<point x="473.46929" y="288" type="curve" smooth="yes"/>
-			<point x="497.46929" y="288"/>
-			<point x="512.46929" y="298"/>
-			<point x="514.46929" y="310" type="curve" smooth="yes"/>
-			<point x="517.46929" y="325"/>
-			<point x="497.46929" y="346"/>
-			<point x="412.46929" y="346" type="curve" smooth="yes"/>
-			<point x="346.46929" y="346"/>
-			<point x="197.46929" y="337"/>
-			<point x="124.46929" y="333" type="curve" smooth="yes"/>
-			<point x="96.46929" y="331"/>
-			<point x="83.46929" y="321"/>
-			<point x="81.46929" y="308" type="curve" smooth="yes"/>
-			<point x="77.46929" y="290"/>
-			<point x="98.46929" y="276"/>
+			<point x="160.4528167616" y="249" type="curve" smooth="yes"/>
+			<point x="209.4528167616" y="249"/>
+			<point x="342.4528167616" y="274"/>
+			<point x="478.4528167616" y="274" type="curve" smooth="yes"/>
+			<point x="502.4528167616" y="274"/>
+			<point x="516.4528167616" y="281"/>
+			<point x="519.4528167616" y="293" type="curve" smooth="yes" identifier="APmHQhoCAi"/>
+			<point x="522.4528167616" y="308"/>
+			<point x="502.4528167616" y="329"/>
+			<point x="417.4528167616" y="329" type="curve" smooth="yes"/>
+			<point x="351.4528167616" y="329"/>
+			<point x="190.4528167616" y="307"/>
+			<point x="117.4528167616" y="303" type="curve" smooth="yes"/>
+			<point x="89.4528167616" y="301"/>
+			<point x="76.4528167616" y="291"/>
+			<point x="74.4528167616" y="278" type="curve" smooth="yes" identifier="zINjyecLe8"/>
+			<point x="70.4528167616" y="260"/>
+			<point x="92.4528167616" y="249"/>
 		</contour>
-		<component base="Ustraightcyr" xOffset="0.676"/>
+		<component base="Ustraightcyr" xOffset="-0.3406917375"/>
 	</outline>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 02:12:36 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>1,1,0,1</string>
 		</dict>
 	</lib>
 </glyph>

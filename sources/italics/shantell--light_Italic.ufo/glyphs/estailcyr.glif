@@ -4,30 +4,28 @@
 	<advance width="539"/>
 	<outline>
 		<contour>
-			<point x="193.79236" y="-20" type="curve" smooth="yes"/>
-			<point x="182.79236" y="-73"/>
-			<point x="176.79236" y="-141"/>
-			<point x="225.79236" y="-141" type="curve" smooth="yes"/>
-			<point x="240.79236" y="-141"/>
-			<point x="248.79236" y="-132"/>
-			<point x="249.79236" y="-124" type="curve" smooth="yes"/>
-			<point x="254.79236" y="-100"/>
-			<point x="246.79236" y="-60"/>
-			<point x="256.79236" y="-10" type="curve" smooth="yes"/>
-			<point x="262.79236" y="19"/>
-			<point x="251.79236" y="32"/>
-			<point x="236.79236" y="32" type="curve" smooth="yes"/>
-			<point x="211.79236" y="32"/>
-			<point x="199.79236" y="10"/>
+			<point x="193.2213780642" y="-20" type="curve" smooth="yes" identifier="dYi2rSlQMp"/>
+			<point x="182.2213780642" y="-73"/>
+			<point x="176.2213780642" y="-141"/>
+			<point x="225.2213780642" y="-141" type="curve" smooth="yes"/>
+			<point x="240.2213780642" y="-141"/>
+			<point x="248.2213780642" y="-132"/>
+			<point x="249.2213780642" y="-124" type="curve" smooth="yes" identifier="VyuyNgoAcG"/>
+			<point x="254.2213780642" y="-100"/>
+			<point x="246.2213780642" y="-60"/>
+			<point x="256.2213780642" y="-10" type="curve" smooth="yes" identifier="WMoN6a8CMn"/>
+			<point x="262.2213780642" y="19"/>
+			<point x="251.2213780642" y="32"/>
+			<point x="236.2213780642" y="32" type="curve" smooth="yes"/>
+			<point x="211.2213780642" y="32"/>
+			<point x="199.2213780642" y="10"/>
 		</contour>
-		<component base="c"/>
+		<component base="c" xOffset="-0.5709813324"/>
 	</outline>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 15:52:58 +0000</string>
 			<key>public.markColor</key>
-			<string>0.97,0.9,0,1</string>
+			<string>1,1,0,1</string>
 		</dict>
 	</lib>
 </glyph>
