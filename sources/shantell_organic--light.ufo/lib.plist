@@ -54,6 +54,8 @@
 		<false/>
 		<key>com.schriftgestaltung.useNiceNames</key>
 		<true/>
+		<key>com.typemytype.glyphBuilder.lastSavedFileName</key>
+		<string>ShantellSansCyr</string>
 		<key>com.typemytype.robofont.compileSettings.MacRomanFirst</key>
 		<false/>
 		<key>com.typemytype.robofont.compileSettings.autohint</key>
@@ -73,6 +75,18 @@
 		<key>com.typemytype.robofont.compileSettings.releaseMode</key>
 		<false/>
 		<key>com.typemytype.robofont.generateFeaturesWithFontTools</key>
+		<false/>
+		<key>com.typemytype.robofont.guideline.magnetic.3iYjQrrVXy</key>
+		<integer>5</integer>
+		<key>com.typemytype.robofont.guideline.magnetic.SFKJZFva33</key>
+		<integer>5</integer>
+		<key>com.typemytype.robofont.guideline.magnetic.yqOblCn160</key>
+		<integer>5</integer>
+		<key>com.typemytype.robofont.guideline.showMeasurements.3iYjQrrVXy</key>
+		<false/>
+		<key>com.typemytype.robofont.guideline.showMeasurements.SFKJZFva33</key>
+		<false/>
+		<key>com.typemytype.robofont.guideline.showMeasurements.yqOblCn160</key>
 		<false/>
 		<key>com.typemytype.robofont.italicSlantOffset</key>
 		<integer>0</integer>
@@ -1805,6 +1819,9 @@
 			<string>dotmacroncomb</string>
 			<string>ringacutecomb</string>
 			<string>tildemacroncomb</string>
+			<string>cyrbreve</string>
+			<string>hungarumlautcomb</string>
+			<string>yukrcyr_yukrcyr</string>
 			<string>doublebarvertical</string>
 			<string>trianglerightblack</string>
 		</array>

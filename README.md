@@ -10,7 +10,7 @@ Rather than trying to exactly mimim or “replace” Shantell’s writing, Shant
 
 ### Variable Axes
 
-Shantell’s writing is dynamic & doesn’t adhere to a rigid baseline or precise metrics, so Shantell Sans employs *variable axes* are to reflect this flexibility in a fluid range of styles.
+Shantell’s writing is dynamic and doesn’t adhere to a rigid baseline or precise metrics, so Shantell Sans employs *variable axes* are to reflect this flexibility in a fluid range of styles.
 
 ![Axes in Shantell Sans](specimens/axes.png)
 
