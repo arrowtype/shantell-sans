@@ -1,34 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ocircumflexhoi" format="2">
-	<unicode hex="1ED5"/>
-	<advance width="628"/>
-	<outline>
-		<component base="o"/>
-		<component base="circumflexhookabovecomb" xOffset="311" yOffset="-25"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>0</integer>
-					<key>name</key>
-					<string>o</string>
-				</dict>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>1</integer>
-					<key>name</key>
-					<string>circumflexhookabovecomb</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:26 +0000</string>
-		</dict>
-	</lib>
+  <advance width="628"/>
+  <unicode hex="1ED5"/>
+  <anchor x="276.596" y="32.0" name="bottom"/>
+  <anchor x="434.596" y="77.0" name="ogonek"/>
+  <anchor x="363.196" y="490.0" name="top"/>
+  <outline>
+    <component base="o"/>
+    <component base="circumflexhookabovecomb" xOffset="311" yOffset="-25"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>o</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>circumflexhookabovecomb</string>
+        </dict>
+      </array>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

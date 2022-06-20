@@ -1,8 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Yukrcyr" format="2">
-	<unicode hex="0407"/>
-	<advance width="610"/>
-	<outline>
-		<component base="Idieresis" xOffset="0.0015966717"/>
-	</outline>
+  <advance width="610"/>
+  <unicode hex="0407"/>
+  <anchor x="228.793" y="0.0" name="bottom"/>
+  <anchor x="395.39300000000003" y="3.0" name="ogonek"/>
+  <anchor x="425.685" y="835.0" name="top"/>
+  <outline>
+    <component base="Idieresis" xOffset="0.002"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.733,0.518,0.996,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

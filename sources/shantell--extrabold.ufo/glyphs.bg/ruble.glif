@@ -1,35 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ruble" format="2">
-	<unicode hex="20BD"/>
-	<advance width="521"/>
-	<outline>
-		<contour>
-			<point x="-297" y="294" type="qcurve" smooth="yes"/>
-			<point x="-536" y="294" type="line"/>
-			<point x="-536" y="342" type="line"/>
-			<point x="-297" y="342" type="line" smooth="yes"/>
-			<point x="-207" y="342"/>
-			<point x="-111" y="422"/>
-			<point x="-111" y="497" type="qcurve" smooth="yes"/>
-			<point x="-111" y="571"/>
-			<point x="-207" y="651"/>
-			<point x="-297" y="652" type="qcurve" smooth="yes"/>
-			<point x="-407" y="652" type="line"/>
-			<point x="-407" y="0" type="line"/>
-			<point x="-460" y="0" type="line"/>
-			<point x="-460" y="700" type="line"/>
-			<point x="-297" y="700" type="line" smooth="yes"/>
-			<point x="-179" y="700"/>
-			<point x="-53" y="585"/>
-			<point x="-53" y="498" type="qcurve" smooth="yes"/>
-			<point x="-53" y="401"/>
-			<point x="-179" y="294"/>
-		</contour>
-		<contour>
-			<point x="-159" y="189" type="line"/>
-			<point x="-159" y="141" type="line"/>
-			<point x="-536" y="141" type="line"/>
-			<point x="-536" y="189" type="line"/>
-		</contour>
-	</outline>
+  <advance width="700"/>
+  <unicode hex="20BD"/>
+  <outline>
+    <contour>
+      <point x="-297" y="294" type="qcurve" smooth="yes"/>
+      <point x="-536" y="294" type="line"/>
+      <point x="-536" y="342" type="line"/>
+      <point x="-297" y="342" type="line" smooth="yes"/>
+      <point x="-207" y="342"/>
+      <point x="-111" y="422"/>
+      <point x="-111" y="497" type="qcurve" smooth="yes"/>
+      <point x="-111" y="571"/>
+      <point x="-207" y="651"/>
+      <point x="-297" y="652" type="qcurve" smooth="yes"/>
+      <point x="-407" y="652" type="line"/>
+      <point x="-407" y="0" type="line"/>
+      <point x="-460" y="0" type="line"/>
+      <point x="-460" y="700" type="line"/>
+      <point x="-297" y="700" type="line" smooth="yes"/>
+      <point x="-179" y="700"/>
+      <point x="-53" y="585"/>
+      <point x="-53" y="498" type="qcurve" smooth="yes"/>
+      <point x="-53" y="401"/>
+      <point x="-179" y="294"/>
+    </contour>
+    <contour>
+      <point x="-159" y="189" type="line"/>
+      <point x="-159" y="141" type="line"/>
+      <point x="-536" y="141" type="line"/>
+      <point x="-536" y="189" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

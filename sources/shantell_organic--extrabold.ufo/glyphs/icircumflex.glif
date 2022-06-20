@@ -1,15 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="icircumflex" format="2">
-	<unicode hex="00EE"/>
-	<advance width="348"/>
-	<outline>
-		<component base="idotless"/>
-		<component base="circumflexcomb" xOffset="162"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
-		</dict>
-	</lib>
+  <advance width="348"/>
+  <unicode hex="00EE"/>
+  <anchor x="162" y="0" name="bottom"/>
+  <anchor x="216" y="0" name="ogonek"/>
+  <anchor x="162" y="773" name="top"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="circumflexcomb" xOffset="162"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

@@ -1,8 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fitacyr" format="2">
-	<unicode hex="0473"/>
-	<advance width="664"/>
-	<outline>
-		<component base="obarcyr" xOffset="-2.0513154237"/>
-	</outline>
+  <advance width="664"/>
+  <unicode hex="0473"/>
+  <anchor x="395.69800000000004" y="515.0" name="top"/>
+  <outline>
+    <component base="obarcyr" xOffset="-2.051"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.733,0.518,0.996,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

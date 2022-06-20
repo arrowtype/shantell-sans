@@ -1,9 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ogravedbl" format="2">
-	<unicode hex="020C"/>
-	<advance width="726"/>
-	<outline>
-		<component base="O"/>
-		<component base="gravedoublecmb" xOffset="402" yOffset="215"/>
-	</outline>
+  <advance width="726"/>
+  <unicode hex="020C"/>
+  <anchor x="310.628" y="0.0" name="bottom"/>
+  <anchor x="442.428" y="29.0" name="ogonek"/>
+  <anchor x="496.071" y="925.0" name="top"/>
+  <outline>
+    <component base="O"/>
+    <component base="gravedoublecmb" xOffset="402" yOffset="215"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

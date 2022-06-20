@@ -1,9 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lj" format="2">
-	<unicode hex="01C9"/>
-	<advance width="579"/>
-	<outline>
-		<component base="l"/>
-		<component base="j" xOffset="338"/>
-	</outline>
+  <advance width="579"/>
+  <unicode hex="01C9"/>
+  <anchor x="144.213" y="0.0" name="bottom"/>
+  <anchor x="229.214" y="750.0" name="top_1"/>
+  <anchor x="499.36400000000003" y="620.0" name="top_2"/>
+  <outline>
+    <component base="l"/>
+    <component base="j" xOffset="338"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

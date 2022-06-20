@@ -1,15 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="abrevecyr" format="2">
-	<unicode hex="04D1"/>
-	<advance width="704"/>
-	<outline>
-		<component base="a"/>
-		<component base="brevecomb-cy" xOffset="144"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.9935,0.7078,0.8306,1</string>
-		</dict>
-	</lib>
+  <advance width="704"/>
+  <unicode hex="04D1"/>
+  <anchor x="347" y="0" name="bottom"/>
+  <anchor x="622" y="0" name="ogonek"/>
+  <anchor x="338" y="515" name="top_1"/>
+  <anchor x="338" y="515" name="top_2"/>
+  <outline>
+    <component base="a"/>
+    <component base="brevecomb-cy" xOffset="144"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.992,0.706,0.831,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

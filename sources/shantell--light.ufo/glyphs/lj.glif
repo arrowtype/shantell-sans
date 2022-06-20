@@ -1,15 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lj" format="2">
-	<unicode hex="01C9"/>
-	<advance width="545"/>
-	<outline>
-		<component base="l"/>
-		<component base="j" xOffset="304"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
-		</dict>
-	</lib>
+  <advance width="545"/>
+  <unicode hex="01C9"/>
+  <anchor x="202" y="0" name="bottom"/>
+  <anchor x="137" y="750" name="top_1"/>
+  <anchor x="406" y="650" name="top_2"/>
+  <outline>
+    <component base="l"/>
+    <component base="j" xOffset="304"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

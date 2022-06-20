@@ -1,13 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="pe-cy.loclBGR" format="2">
-	<advance width="707"/>
-	<outline>
-		<component base="n"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.7336,0.5157,0.996,1</string>
-		</dict>
-	</lib>
+  <advance width="707"/>
+  <anchor x="348" y="0" name="bottom"/>
+  <anchor x="348" y="515" name="top"/>
+  <outline>
+    <component base="n"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.733,0.518,0.996,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

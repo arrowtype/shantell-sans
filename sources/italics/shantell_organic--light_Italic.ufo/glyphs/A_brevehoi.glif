@@ -1,34 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Abrevehoi" format="2">
-	<unicode hex="1EB2"/>
-	<advance width="713"/>
-	<outline>
-		<component base="A" xOffset="4"/>
-		<component base="brevehookabovecomb" xOffset="436" yOffset="156"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>0</integer>
-					<key>name</key>
-					<string>A</string>
-				</dict>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>1</integer>
-					<key>name</key>
-					<string>brevehookabovecomb</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:21 +0000</string>
-		</dict>
-	</lib>
+  <advance width="713"/>
+  <unicode hex="1EB2"/>
+  <anchor x="319.872" y="48.0" name="bottom"/>
+  <anchor x="561.472" y="26.0" name="ogonek"/>
+  <anchor x="484.673" y="642.0" name="ring"/>
+  <anchor x="484.473" y="641.0" name="top"/>
+  <outline>
+    <component base="A" xOffset="4"/>
+    <component base="brevehookabovecomb" xOffset="436" yOffset="156"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>A</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>brevehookabovecomb</string>
+        </dict>
+      </array>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

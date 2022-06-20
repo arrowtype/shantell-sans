@@ -1,7 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Zedescender-cy.loclBSH" format="2">
-	<advance width="606"/>
-	<outline>
-		<component base="Zetailcyr"/>
-	</outline>
+  <advance width="606"/>
+  <anchor x="391.092" y="700.0" name="top"/>
+  <outline>
+    <component base="Zetailcyr"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.169,0.216,0.263,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

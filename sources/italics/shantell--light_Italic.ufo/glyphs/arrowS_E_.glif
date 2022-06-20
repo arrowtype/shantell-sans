@@ -1,9 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="arrowSE" format="2">
-	<unicode hex="2198"/>
-	<advance width="700"/>
-	<outline>
-		<component base="arrowup" xScale="-0.7071" xyScale="-0.7071" yxScale="0.7071" yScale="-0.7071" xOffset="409.316" yOffset="852"/>
-	</outline>
-	<guideline x="301.79" identifier="www8zJhngq"/>
+  <advance width="700"/>
+  <unicode hex="2198"/>
+  <guideline x="301.79" identifier="www8zJhngq"/>
+  <outline>
+    <component base="arrowup" xScale="-0.7071" xyScale="-0.7071" yxScale="0.7071" yScale="-0.7071" xOffset="409.316" yOffset="852"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

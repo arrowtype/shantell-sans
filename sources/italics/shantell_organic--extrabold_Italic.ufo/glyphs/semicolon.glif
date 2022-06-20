@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="semicolon" format="2">
-	<unicode hex="003B"/>
-	<advance width="318"/>
-	<outline>
-		<contour>
-			<point x="168.33679" y="335" type="curve" smooth="yes"/>
-			<point x="252.33679" y="335"/>
-			<point x="304.33679" y="378"/>
-			<point x="314.33679" y="428" type="curve" smooth="yes"/>
-			<point x="324.33679" y="479"/>
-			<point x="304.33679" y="528"/>
-			<point x="229.33679" y="528" type="curve" smooth="yes"/>
-			<point x="154.33679" y="528"/>
-			<point x="87.33679" y="490"/>
-			<point x="73.33679" y="422" type="curve" smooth="yes"/>
-			<point x="62.33679" y="364"/>
-			<point x="94.33679" y="335"/>
-		</contour>
-		<component base="comma" xOffset="-2.463"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 15:53:42 +0000</string>
-			<key>public.markColor</key>
-			<string>0.67,0.95,0.38,1</string>
-		</dict>
-	</lib>
+  <advance width="318"/>
+  <unicode hex="003B"/>
+  <outline>
+    <contour>
+      <point x="168.337" y="335" type="curve" smooth="yes"/>
+      <point x="252.337" y="335"/>
+      <point x="304.337" y="378"/>
+      <point x="314.337" y="428" type="curve" smooth="yes"/>
+      <point x="324.337" y="479"/>
+      <point x="304.337" y="528"/>
+      <point x="229.337" y="528" type="curve" smooth="yes"/>
+      <point x="154.337" y="528"/>
+      <point x="87.337" y="490"/>
+      <point x="73.337" y="422" type="curve" smooth="yes"/>
+      <point x="62.337" y="364"/>
+      <point x="94.337" y="335"/>
+    </contour>
+    <component base="comma" xOffset="-2.463"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

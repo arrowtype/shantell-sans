@@ -1,15 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="chedieresiscyr" format="2">
-	<unicode hex="04F5"/>
-	<advance width="539"/>
-	<outline>
-		<component base="checyr"/>
-		<component base="dieresiscomb" xOffset="278"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.9935,0.7078,0.8306,1</string>
-		</dict>
-	</lib>
+  <advance width="539"/>
+  <unicode hex="04F5"/>
+  <anchor x="277" y="660" name="top"/>
+  <outline>
+    <component base="checyr"/>
+    <component base="dieresiscomb" xOffset="278"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.992,0.706,0.831,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

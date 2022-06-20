@@ -1,28 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Checyr" format="2">
-	<unicode hex="0427"/>
-	<advance width="677"/>
-	<outline>
-		<contour>
-			<point x="155" y="674" type="move"/>
-			<point x="141" y="588"/>
-			<point x="132" y="457"/>
-			<point x="145" y="387" type="curve" smooth="yes"/>
-			<point x="158" y="319"/>
-			<point x="191" y="281"/>
-			<point x="248" y="281" type="curve" smooth="yes"/>
-			<point x="322" y="281"/>
-			<point x="412" y="380"/>
-			<point x="456" y="488" type="curve" smooth="yes"/>
-			<point x="494" y="582"/>
-			<point x="499" y="648"/>
-			<point x="504" y="661" type="curve" smooth="yes"/>
-			<point x="509" y="674"/>
-			<point x="527" y="669"/>
-			<point x="527" y="633" type="curve" smooth="yes"/>
-			<point x="527" y="559"/>
-			<point x="450" y="206"/>
-			<point x="507" y="21" type="curve"/>
-		</contour>
-	</outline>
+  <advance width="608"/>
+  <unicode hex="0427"/>
+  <outline>
+    <contour>
+      <point x="155" y="674" type="move"/>
+      <point x="141" y="588"/>
+      <point x="132" y="457"/>
+      <point x="145" y="387" type="curve" smooth="yes"/>
+      <point x="158" y="319"/>
+      <point x="191" y="281"/>
+      <point x="248" y="281" type="curve" smooth="yes"/>
+      <point x="322" y="281"/>
+      <point x="412" y="380"/>
+      <point x="456" y="488" type="curve" smooth="yes"/>
+      <point x="494" y="582"/>
+      <point x="499" y="648"/>
+      <point x="504" y="661" type="curve" smooth="yes"/>
+      <point x="509" y="674"/>
+      <point x="527" y="669"/>
+      <point x="527" y="633" type="curve" smooth="yes"/>
+      <point x="527" y="559"/>
+      <point x="450" y="206"/>
+      <point x="507" y="21" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

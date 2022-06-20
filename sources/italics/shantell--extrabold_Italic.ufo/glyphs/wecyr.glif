@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="wecyr" format="2">
-	<unicode hex="051D"/>
-	<advance width="917"/>
-	<outline>
-		<component base="w" xOffset="-1.8481049234"/>
-	</outline>
+  <advance width="917"/>
+  <unicode hex="051D"/>
+  <anchor x="391.104" y="0.0" name="bottom"/>
+  <anchor x="494.10499999999996" y="515.0" name="top"/>
+  <outline>
+    <component base="w" xOffset="-1.848"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.733,0.518,0.996,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

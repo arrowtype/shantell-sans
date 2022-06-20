@@ -1,9 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gjecyr" format="2">
-	<unicode hex="0403"/>
-	<advance width="587"/>
-	<outline>
-		<component base="Gecyr"/>
-		<component base="acutecomb" xOffset="348" yOffset="185"/>
-	</outline>
+  <advance width="587"/>
+  <unicode hex="0403"/>
+  <anchor x="399.77" y="700.0" name="top"/>
+  <outline>
+    <component base="Gecyr"/>
+    <component base="acutecomb" xOffset="348" yOffset="185"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.992,0.706,0.831,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

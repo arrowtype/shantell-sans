@@ -1,18 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Aringacute" format="2">
-	<unicode hex="01FA"/>
-	<advance width="713"/>
-	<outline>
-		<component base="A"/>
-		<component base="ringacutecomb" xOffset="400" yOffset="44"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.4747,0.4711,0.5534,0.4845</string>
-		</dict>
-	</lib>
-	<note>
-but maybe there should be a ringacutecomb.A connected at "top" instead?
-</note>
+  <advance width="713"/>
+  <unicode hex="01FA"/>
+  <anchor x="355" y="48" name="bottom"/>
+  <anchor x="601" y="26" name="ogonek"/>
+  <anchor x="401" y="642" name="ring"/>
+  <anchor x="401" y="641" name="top"/>
+  <outline>
+    <component base="A"/>
+    <component base="ringacutecomb" xOffset="400" yOffset="44"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

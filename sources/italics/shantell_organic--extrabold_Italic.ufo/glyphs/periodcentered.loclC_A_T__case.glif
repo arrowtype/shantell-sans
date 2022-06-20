@@ -1,7 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="periodcentered.loclCAT_case" format="2">
-	<advance width="369"/>
-	<outline>
-		<component base="periodcentered.case"/>
-	</outline>
+  <advance width="369"/>
+  <outline>
+    <component base="periodcentered.case"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

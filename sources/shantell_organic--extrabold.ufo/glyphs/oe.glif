@@ -1,9 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="oe" format="2">
-	<unicode hex="0153"/>
-	<advance width="1054"/>
-	<outline>
-		<component base="o"/>
-		<component base="e" xOffset="438"/>
-	</outline>
+  <advance width="1054"/>
+  <unicode hex="0153"/>
+  <anchor x="321" y="32" name="bottom_1"/>
+  <anchor x="753" y="-37" name="bottom_2"/>
+  <anchor x="470" y="77" name="ogonek_1"/>
+  <anchor x="967" y="9" name="ogonek_2"/>
+  <anchor x="316" y="490" name="top_1"/>
+  <anchor x="780" y="550" name="top_2"/>
+  <outline>
+    <component base="o"/>
+    <component base="e" xOffset="438"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

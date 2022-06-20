@@ -1,8 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="belowbrevecmb" format="2">
-	<unicode hex="032E"/>
-	<outline>
-		<component base="brevecomb" xOffset="-168" yOffset="-839"/>
-	</outline>
-	<anchor name="_bottom" x="-47.20764" y="0"/>
+  <unicode hex="032E"/>
+  <anchor x="-47.208" y="0" name="_bottom"/>
+  <outline>
+    <component base="brevecomb" xOffset="-168" yOffset="-839"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

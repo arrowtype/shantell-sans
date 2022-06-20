@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ccaron" format="2">
-	<unicode hex="010C"/>
-	<advance width="604"/>
-	<outline>
-		<component base="C"/>
-		<component base="caroncomb" xOffset="339" yOffset="133"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
-		</dict>
-	</lib>
+  <advance width="604"/>
+  <unicode hex="010C"/>
+  <anchor x="308" y="73" name="bottom"/>
+  <anchor x="339" y="618" name="top"/>
+  <outline>
+    <component base="C"/>
+    <component base="caroncomb" xOffset="339" yOffset="133"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

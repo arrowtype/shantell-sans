@@ -1,22 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-	<dict>
-		<key>color</key>
-		<string>0.5,1,0,0.7</string>
-		<key>lib</key>
-		<dict>
-			<key>com.typemytype.robofont.layerShow</key>
-			<true/>
-			<key>org.unifiedfontobject.normalizer.imageReferences</key>
-			<dict>
-				<key>encyr.glif</key>
-				<string>S_creenshot 2021-10-15 at 15.00.49.png</string>
-				<key>icyr.glif</key>
-				<string>S_creenshot 2021-10-15 at 15.01.07.png</string>
-			</dict>
-			<key>org.unifiedfontobject.normalizer.modTimes</key>
-			<string>version: 0.6.1
+  <dict>
+    <key>lib</key>
+    <dict>
+      <key>com.typemytype.robofont.layerShow</key>
+      <integer>1</integer>
+      <key>org.unifiedfontobject.normalizer.imageReferences</key>
+      <dict>
+        <key>encyr.glif</key>
+        <string>S_creenshot 2021-10-15 at 15.00.49.png</string>
+        <key>icyr.glif</key>
+        <string>S_creenshot 2021-10-15 at 15.01.07.png</string>
+      </dict>
+      <key>org.unifiedfontobject.normalizer.modTimes</key>
+      <string>version: 0.6.1
 1596316559.6 A_.glif
 1601344707.2 A_E_.glif
 1648605866.0 B_ecyr.glif
@@ -208,6 +206,6 @@
 1648605866.0 zecyr.glif
 1596421388.4 zero.glif
 1648605866.0 zhecyr.glif</string>
-		</dict>
-	</dict>
+    </dict>
+  </dict>
 </plist>

@@ -1,34 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ahoi" format="2">
-	<unicode hex="1EA2"/>
-	<advance width="780"/>
-	<outline>
-		<component base="A"/>
-		<component base="hookabovecmb" xOffset="461" yOffset="185"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>0</integer>
-					<key>name</key>
-					<string>A</string>
-				</dict>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>1</integer>
-					<key>name</key>
-					<string>hookabovecmb</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-05-26 17:19:19 +0000</string>
-		</dict>
-	</lib>
+  <advance width="780"/>
+  <unicode hex="1EA2"/>
+  <anchor x="372.042" y="0.0" name="bottom"/>
+  <anchor x="650.042" y="0.0" name="ogonek"/>
+  <anchor x="511.843" y="699.0" name="ring"/>
+  <anchor x="512.043" y="700.0" name="top"/>
+  <outline>
+    <component base="A"/>
+    <component base="hookabovecmb" xOffset="461" yOffset="185"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>A</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>hookabovecmb</string>
+        </dict>
+      </array>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

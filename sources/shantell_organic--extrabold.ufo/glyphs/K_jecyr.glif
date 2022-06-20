@@ -1,15 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Kjecyr" format="2">
-	<unicode hex="040C"/>
-	<advance width="699"/>
-	<outline>
-		<component base="K"/>
-		<component base="acutecomb" xOffset="331" yOffset="185"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.9935,0.7078,0.8306,1</string>
-		</dict>
-	</lib>
+  <advance width="699"/>
+  <unicode hex="040C"/>
+  <anchor x="331" y="0" name="bottom"/>
+  <anchor x="331" y="700" name="top"/>
+  <outline>
+    <component base="K"/>
+    <component base="acutecomb" xOffset="331" yOffset="185"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.992,0.706,0.831,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

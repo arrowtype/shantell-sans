@@ -1,9 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="NJ" format="2">
-	<unicode hex="01CA"/>
-	<advance width="1449"/>
-	<outline>
-		<component base="N"/>
-		<component base="J" xOffset="801"/>
-	</outline>
+  <advance width="1449"/>
+  <unicode hex="01CA"/>
+  <anchor x="336.332" y="0.0" name="bottom_1"/>
+  <anchor x="1059.445" y="0.0" name="bottom_2"/>
+  <anchor x="476.333" y="700.0" name="top_1"/>
+  <anchor x="1229.446" y="700.0" name="top_2"/>
+  <outline>
+    <component base="N"/>
+    <component base="J" xOffset="801"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

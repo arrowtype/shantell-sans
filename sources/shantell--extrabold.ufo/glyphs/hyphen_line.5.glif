@@ -1,17 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hyphen_line.5" format="2">
-	<advance width="2655"/>
-	<outline>
-		<component base="hyphen.line"/>
-		<component base="hyphen.line" xOffset="531"/>
-		<component base="hyphen.line" xOffset="1062"/>
-		<component base="hyphen.line" xOffset="1593"/>
-		<component base="hyphen.line" xOffset="2124"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.65,0,1,1</string>
-		</dict>
-	</lib>
+  <advance width="2655"/>
+  <outline>
+    <component base="hyphen.line"/>
+    <component base="hyphen.line" xOffset="531"/>
+    <component base="hyphen.line" xOffset="1062"/>
+    <component base="hyphen.line" xOffset="1593"/>
+    <component base="hyphen.line" xOffset="2124"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

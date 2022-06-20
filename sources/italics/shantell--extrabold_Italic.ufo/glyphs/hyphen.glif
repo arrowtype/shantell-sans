@@ -1,35 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hyphen" format="2">
-	<unicode hex="002D"/>
-	<advance width="531"/>
-	<outline>
-		<contour>
-			<point x="189.31512" y="176" type="curve" smooth="yes"/>
-			<point x="222.31512" y="176"/>
-			<point x="277.31512" y="186"/>
-			<point x="423.31512" y="186" type="curve" smooth="yes"/>
-			<point x="454.31512" y="186"/>
-			<point x="476.31512" y="207"/>
-			<point x="483.31512" y="240" type="curve" smooth="yes"/>
-			<point x="491.31512" y="281"/>
-			<point x="462.31512" y="349"/>
-			<point x="343.31512" y="349" type="curve" smooth="yes"/>
-			<point x="260.31512" y="349"/>
-			<point x="179.31512" y="349"/>
-			<point x="90.31512" y="323" type="curve" smooth="yes"/>
-			<point x="60.31512" y="315"/>
-			<point x="51.31512" y="301"/>
-			<point x="47.31512" y="279" type="curve" smooth="yes"/>
-			<point x="37.31512" y="229"/>
-			<point x="84.31512" y="176"/>
-		</contour>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 15:53:42 +0000</string>
-			<key>public.markColor</key>
-			<string>0.67,0.95,0.38,1</string>
-		</dict>
-	</lib>
+  <advance width="531"/>
+  <unicode hex="002D"/>
+  <outline>
+    <contour>
+      <point x="189.315" y="176" type="curve" smooth="yes"/>
+      <point x="222.315" y="176"/>
+      <point x="277.315" y="186"/>
+      <point x="423.315" y="186" type="curve" smooth="yes"/>
+      <point x="454.315" y="186"/>
+      <point x="476.315" y="207"/>
+      <point x="483.315" y="240" type="curve" smooth="yes"/>
+      <point x="491.315" y="281"/>
+      <point x="462.315" y="349"/>
+      <point x="343.315" y="349" type="curve" smooth="yes"/>
+      <point x="260.315" y="349"/>
+      <point x="179.315" y="349"/>
+      <point x="90.315" y="323" type="curve" smooth="yes"/>
+      <point x="60.315" y="315"/>
+      <point x="51.315" y="301"/>
+      <point x="47.315" y="279" type="curve" smooth="yes"/>
+      <point x="37.315" y="229"/>
+      <point x="84.315" y="176"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

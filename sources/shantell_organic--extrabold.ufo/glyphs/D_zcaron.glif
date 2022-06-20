@@ -1,16 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Dzcaron" format="2">
-	<unicode hex="01C5"/>
-	<advance width="1320"/>
-	<outline>
-		<component base="D"/>
-		<component base="z" xOffset="687"/>
-		<component base="caroncomb" xOffset="984"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
-		</dict>
-	</lib>
+  <advance width="1320"/>
+  <unicode hex="01C5"/>
+  <anchor x="233" y="43" name="bottom_1"/>
+  <anchor x="997" y="-65" name="bottom_2"/>
+  <anchor x="370" y="643" name="top_1"/>
+  <anchor x="984" y="515" name="top_2"/>
+  <outline>
+    <component base="D"/>
+    <component base="z" xOffset="687"/>
+    <component base="caroncomb" xOffset="984"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

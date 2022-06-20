@@ -1,15 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhorngrave" format="2">
-	<unicode hex="1EEB"/>
-	<advance width="717"/>
-	<outline>
-		<component base="uhorn"/>
-		<component base="gravecomb" xOffset="316" yOffset="-36"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
-		</dict>
-	</lib>
+  <advance width="717"/>
+  <unicode hex="1EEB"/>
+  <anchor x="316" y="23" name="bottom"/>
+  <anchor x="388" y="28" name="ogonek"/>
+  <anchor x="316" y="479" name="top"/>
+  <outline>
+    <component base="uhorn"/>
+    <component base="gravecomb" xOffset="316" yOffset="-36"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

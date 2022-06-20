@@ -1,34 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="oe" format="2">
-	<unicode hex="0153"/>
-	<advance width="966"/>
-	<outline>
-		<component base="o"/>
-		<component base="e" xOffset="424"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>0</integer>
-					<key>name</key>
-					<string>o</string>
-				</dict>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>1</integer>
-					<key>name</key>
-					<string>e</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:21 +0000</string>
-		</dict>
-	</lib>
+  <advance width="966"/>
+  <unicode hex="0153"/>
+  <anchor x="251.649" y="36.0" name="bottom_1"/>
+  <anchor x="620.795" y="-36.0" name="bottom_2"/>
+  <anchor x="360.449" y="65.0" name="ogonek_1"/>
+  <anchor x="765.1949999999999" y="-9.0" name="ogonek_2"/>
+  <anchor x="340.45" y="450.0" name="top_1"/>
+  <anchor x="779.396" y="522.0" name="top_2"/>
+  <outline>
+    <component base="o"/>
+    <component base="e" xOffset="424"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>o</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>e</string>
+        </dict>
+      </array>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

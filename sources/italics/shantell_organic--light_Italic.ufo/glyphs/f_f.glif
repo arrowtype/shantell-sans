@@ -1,9 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="f_f" format="2">
-	<unicode hex="FB00"/>
-	<advance width="884"/>
-	<outline>
-		<component base="f"/>
-		<component base="f" xOffset="442"/>
-	</outline>
+  <advance width="884"/>
+  <unicode hex="FB00"/>
+  <anchor x="56" y="-168" name="bottom_1"/>
+  <anchor x="498" y="-168" name="bottom_2"/>
+  <anchor x="340.601" y="750.0" name="top_1"/>
+  <anchor x="782.601" y="750.0" name="top_2"/>
+  <outline>
+    <component base="f"/>
+    <component base="f" xOffset="442"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

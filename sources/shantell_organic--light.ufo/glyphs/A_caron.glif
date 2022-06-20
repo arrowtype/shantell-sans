@@ -1,15 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Acaron" format="2">
-	<unicode hex="01CD"/>
-	<advance width="713"/>
-	<outline>
-		<component base="A"/>
-		<component base="caroncomb" xOffset="401" yOffset="156"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
-		</dict>
-	</lib>
+  <advance width="713"/>
+  <unicode hex="01CD"/>
+  <anchor x="355" y="48" name="bottom"/>
+  <anchor x="601" y="26" name="ogonek"/>
+  <anchor x="401" y="642" name="ring"/>
+  <anchor x="401" y="641" name="top"/>
+  <outline>
+    <component base="A"/>
+    <component base="caroncomb" xOffset="401" yOffset="156"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

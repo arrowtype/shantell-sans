@@ -1,15 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="egrave" format="2">
-	<unicode hex="00E8"/>
-	<advance width="617"/>
-	<outline>
-		<component base="e"/>
-		<component base="gravecomb" xOffset="300"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.75,0.75,0.75,1</string>
-		</dict>
-	</lib>
+  <advance width="617"/>
+  <unicode hex="00E8"/>
+  <anchor x="309" y="0" name="bottom"/>
+  <anchor x="505" y="41" name="ogonek"/>
+  <anchor x="309" y="515" name="top"/>
+  <outline>
+    <component base="e"/>
+    <component base="gravecomb" xOffset="300"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

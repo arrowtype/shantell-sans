@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Jecyr" format="2">
-	<unicode hex="0408"/>
-	<advance width="648"/>
-	<outline>
-		<component base="J" xOffset="-2.354936275"/>
-	</outline>
+  <advance width="648"/>
+  <unicode hex="0408"/>
+  <anchor x="256.09" y="0.0" name="bottom"/>
+  <anchor x="426.091" y="700.0" name="top"/>
+  <outline>
+    <component base="J" xOffset="-2.355"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.733,0.518,0.996,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

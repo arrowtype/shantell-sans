@@ -1,7 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ge-cy.loclSRB" format="2">
-	<advance width="422"/>
-	<outline>
-		<component base="gecyr"/>
-	</outline>
+  <advance width="422"/>
+  <anchor x="292.755" y="485.0" name="top"/>
+  <outline>
+    <component base="gecyr"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.169,0.216,0.263,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

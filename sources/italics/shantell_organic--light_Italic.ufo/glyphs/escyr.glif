@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="escyr" format="2">
-	<unicode hex="0441"/>
-	<advance width="482"/>
-	<outline>
-		<component base="c" xOffset="4.3674920604"/>
-	</outline>
+  <advance width="482"/>
+  <unicode hex="0441"/>
+  <anchor x="243.328" y="34.0" name="bottom"/>
+  <anchor x="312.72900000000004" y="436.0" name="top"/>
+  <outline>
+    <component base="c" xOffset="4.367"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.733,0.518,0.996,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

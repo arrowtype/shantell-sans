@@ -1,31 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="estailcyr" format="2">
-	<unicode hex="04AB"/>
-	<advance width="539"/>
-	<outline>
-		<contour>
-			<point x="193.2213780642" y="-20" type="curve" smooth="yes" identifier="dYi2rSlQMp"/>
-			<point x="182.2213780642" y="-73"/>
-			<point x="176.2213780642" y="-141"/>
-			<point x="225.2213780642" y="-141" type="curve" smooth="yes"/>
-			<point x="240.2213780642" y="-141"/>
-			<point x="248.2213780642" y="-132"/>
-			<point x="249.2213780642" y="-124" type="curve" smooth="yes" identifier="VyuyNgoAcG"/>
-			<point x="254.2213780642" y="-100"/>
-			<point x="246.2213780642" y="-60"/>
-			<point x="256.2213780642" y="-10" type="curve" smooth="yes" identifier="WMoN6a8CMn"/>
-			<point x="262.2213780642" y="19"/>
-			<point x="251.2213780642" y="32"/>
-			<point x="236.2213780642" y="32" type="curve" smooth="yes"/>
-			<point x="211.2213780642" y="32"/>
-			<point x="199.2213780642" y="10"/>
-		</contour>
-		<component base="c" xOffset="-0.5709813324"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>1,1,0,1</string>
-		</dict>
-	</lib>
+  <advance width="539"/>
+  <unicode hex="04AB"/>
+  <anchor x="230.65" y="0.0" name="bottom"/>
+  <anchor x="327.65099999999995" y="485.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="193.221" y="-20" type="curve" smooth="yes"/>
+      <point x="182.221" y="-73"/>
+      <point x="176.221" y="-141"/>
+      <point x="225.221" y="-141" type="curve" smooth="yes"/>
+      <point x="240.221" y="-141"/>
+      <point x="248.221" y="-132"/>
+      <point x="249.221" y="-124" type="curve" smooth="yes"/>
+      <point x="254.221" y="-100"/>
+      <point x="246.221" y="-60"/>
+      <point x="256.221" y="-10" type="curve" smooth="yes"/>
+      <point x="262.221" y="19"/>
+      <point x="251.221" y="32"/>
+      <point x="236.221" y="32" type="curve" smooth="yes"/>
+      <point x="211.221" y="32"/>
+      <point x="199.221" y="10"/>
+    </contour>
+    <component base="c" xOffset="-0.571"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

@@ -1,10 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="f_f_i" format="2">
-	<unicode hex="FB03"/>
-	<advance width="1160"/>
-	<outline>
-		<component base="f"/>
-		<component base="f" xOffset="442"/>
-		<component base="i" xOffset="884"/>
-	</outline>
+  <advance width="1160"/>
+  <unicode hex="FB03"/>
+  <anchor x="56" y="-168" name="bottom_1"/>
+  <anchor x="498" y="-168" name="bottom_2"/>
+  <anchor x="976.987" y="0.0" name="bottom_3"/>
+  <anchor x="986.987" y="0.0" name="ogonek"/>
+  <anchor x="340.601" y="750.0" name="top_1"/>
+  <anchor x="782.601" y="750.0" name="top_2"/>
+  <anchor x="1100.364" y="620.0" name="top_3"/>
+  <outline>
+    <component base="f"/>
+    <component base="f" xOffset="442"/>
+    <component base="i" xOffset="884"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

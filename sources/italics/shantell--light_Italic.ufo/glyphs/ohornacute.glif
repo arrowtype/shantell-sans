@@ -1,9 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ohornacute" format="2">
-	<unicode hex="1EDB"/>
-	<advance width="605"/>
-	<outline>
-		<component base="ohorn"/>
-		<component base="acutecomb" xOffset="321"/>
-	</outline>
+  <advance width="605"/>
+  <unicode hex="1EDB"/>
+  <anchor x="261.792" y="0.0" name="bottom"/>
+  <anchor x="396.095" y="37.0" name="ogonek"/>
+  <anchor x="369.793" y="485.0" name="top"/>
+  <outline>
+    <component base="ohorn"/>
+    <component base="acutecomb" xOffset="321"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

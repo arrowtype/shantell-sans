@@ -1,8 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Iegravecyr" format="2">
-	<unicode hex="0400"/>
-	<advance width="704"/>
-	<outline>
-		<component base="Egrave"/>
-	</outline>
+  <advance width="704"/>
+  <unicode hex="0400"/>
+  <anchor x="333.029" y="0.0" name="bottom"/>
+  <anchor x="578.829" y="54.0" name="ogonek"/>
+  <anchor x="473.03" y="700.0" name="top"/>
+  <outline>
+    <component base="Egrave"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.733,0.518,0.996,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

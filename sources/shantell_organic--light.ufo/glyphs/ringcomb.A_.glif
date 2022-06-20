@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ringcomb.A" format="2">
-	<outline>
-		<component base="ringcomb" yOffset="40"/>
-	</outline>
-	<anchor name="_ring" x="0" y="636"/>
-	<anchor name="top" x="0" y="758"/>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>1,0,0,0.5</string>
-		</dict>
-	</lib>
+  <anchor x="0" y="636" name="_ring"/>
+  <anchor x="0" y="758" name="top"/>
+  <outline>
+    <component base="ringcomb" yOffset="40"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

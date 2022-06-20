@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Vecyr" format="2">
-	<unicode hex="0412"/>
-	<advance width="579"/>
-	<outline>
-		<component base="B"/>
-	</outline>
+  <advance width="579"/>
+  <unicode hex="0412"/>
+  <anchor x="203.808" y="0.0" name="bottom"/>
+  <anchor x="386.809" y="700.0" name="top"/>
+  <outline>
+    <component base="B"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.733,0.518,0.996,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

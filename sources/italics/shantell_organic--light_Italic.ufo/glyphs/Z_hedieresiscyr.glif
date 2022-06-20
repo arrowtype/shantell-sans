@@ -1,9 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Zhedieresiscyr" format="2">
-	<unicode hex="04DC"/>
-	<advance width="852"/>
-	<outline>
-		<component base="Zhecyr"/>
-		<component base="dieresiscomb" xOffset="465" yOffset="215"/>
-	</outline>
+  <advance width="852"/>
+  <unicode hex="04DC"/>
+  <anchor x="546.683" y="865.0" name="top"/>
+  <outline>
+    <component base="Zhecyr"/>
+    <component base="dieresiscomb" xOffset="465" yOffset="215"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.992,0.706,0.831,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

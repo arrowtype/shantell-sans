@@ -1,9 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ntilde" format="2">
-	<unicode hex="00F1"/>
-	<advance width="612"/>
-	<outline>
-		<component base="n"/>
-		<component base="tildecomb" xOffset="305"/>
-	</outline>
+  <advance width="612"/>
+  <unicode hex="00F1"/>
+  <anchor x="270.43" y="0.0" name="bottom"/>
+  <anchor x="396.545" y="700.0" name="top"/>
+  <outline>
+    <component base="n"/>
+    <component base="tildecomb" xOffset="305"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

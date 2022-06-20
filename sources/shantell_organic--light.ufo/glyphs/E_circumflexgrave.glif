@@ -1,15 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ecircumflexgrave" format="2">
-	<unicode hex="1EC0"/>
-	<advance width="663"/>
-	<outline>
-		<component base="E"/>
-		<component base="circumflexgravecomb" xOffset="368" yOffset="239"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.4747,0.4711,0.5534,0.4845</string>
-		</dict>
-	</lib>
+  <advance width="663"/>
+  <unicode hex="1EC0"/>
+  <anchor x="352" y="-18" name="bottom"/>
+  <anchor x="576" y="36" name="ogonek"/>
+  <anchor x="368" y="724" name="top"/>
+  <outline>
+    <component base="E"/>
+    <component base="circumflexgravecomb" xOffset="368" yOffset="239"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

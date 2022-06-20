@@ -1,30 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="comma" format="2">
-	<unicode hex="002C"/>
-	<advance width="234"/>
-	<outline>
-		<contour>
-			<point x="112" y="147" type="curve" smooth="yes"/>
-			<point x="91" y="147"/>
-			<point x="78" y="130"/>
-			<point x="78" y="96" type="curve" smooth="yes"/>
-			<point x="78" y="23"/>
-			<point x="65" y="-30"/>
-			<point x="36" y="-84" type="curve" smooth="yes"/>
-			<point x="21" y="-113"/>
-			<point x="14" y="-131"/>
-			<point x="14" y="-144" type="curve" smooth="yes"/>
-			<point x="14" y="-158"/>
-			<point x="24" y="-168"/>
-			<point x="39" y="-168" type="curve" smooth="yes"/>
-			<point x="60.7222222222" y="-168"/>
-			<point x="77" y="-158"/>
-			<point x="90" y="-136" type="curve" smooth="yes"/>
-			<point x="130" y="-70"/>
-			<point x="153" y="24"/>
-			<point x="153" y="86" type="curve" smooth="yes"/>
-			<point x="153" y="128"/>
-			<point x="138.6976744186" y="147"/>
-		</contour>
-	</outline>
+  <advance width="234"/>
+  <unicode hex="002C"/>
+  <outline>
+    <contour>
+      <point x="112" y="147" type="curve" smooth="yes"/>
+      <point x="91" y="147"/>
+      <point x="78" y="130"/>
+      <point x="78" y="96" type="curve" smooth="yes"/>
+      <point x="78" y="23"/>
+      <point x="65" y="-30"/>
+      <point x="36" y="-84" type="curve" smooth="yes"/>
+      <point x="21" y="-113"/>
+      <point x="14" y="-131"/>
+      <point x="14" y="-144" type="curve" smooth="yes"/>
+      <point x="14" y="-158"/>
+      <point x="24" y="-168"/>
+      <point x="39" y="-168" type="curve" smooth="yes"/>
+      <point x="60.722" y="-168"/>
+      <point x="77" y="-158"/>
+      <point x="90" y="-136" type="curve" smooth="yes"/>
+      <point x="130" y="-70"/>
+      <point x="153" y="24"/>
+      <point x="153" y="86" type="curve" smooth="yes"/>
+      <point x="153" y="128"/>
+      <point x="138.698" y="147"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

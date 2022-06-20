@@ -1,10 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="seveneighths" format="2">
-	<unicode hex="215E"/>
-	<advance width="1100"/>
-	<outline>
-		<component base="seven.numr"/>
-		<component base="fraction" xOffset="440"/>
-		<component base="eight.dnom" xOffset="660"/>
-	</outline>
+  <advance width="1100"/>
+  <unicode hex="215E"/>
+  <outline>
+    <component base="seven.numr"/>
+    <component base="fraction" xOffset="440"/>
+    <component base="eight.dnom" xOffset="660"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

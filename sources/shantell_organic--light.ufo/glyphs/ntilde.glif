@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ntilde" format="2">
-	<unicode hex="00F1"/>
-	<advance width="612"/>
-	<outline>
-		<component base="n"/>
-		<component base="tildecomb" xOffset="305" yOffset="-30"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
-		</dict>
-	</lib>
+  <advance width="612"/>
+  <unicode hex="00F1"/>
+  <anchor x="319" y="0" name="bottom"/>
+  <anchor x="305" y="670" name="top"/>
+  <outline>
+    <component base="n"/>
+    <component base="tildecomb" xOffset="305" yOffset="-30"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

@@ -1,11 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="emcyr" format="2">
-	<advance width="799"/>
-	<guideline x="694" y="542" angle="90" identifier="gUAQefNe1j"/>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.9272,0.8867,1,1</string>
-		</dict>
-	</lib>
+  <advance width="809"/>
+  <unicode hex="043C"/>
+  <guideline x="694" y="542" angle="90" identifier="gUAQefNe1j"/>
+  <outline>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

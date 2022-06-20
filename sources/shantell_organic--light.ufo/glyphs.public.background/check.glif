@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="check" format="2">
-	<advance width="900"/>
-	<outline>
-		<contour>
-			<point x="97" y="290" type="move"/>
-			<point x="170" y="227"/>
-			<point x="246" y="79"/>
-			<point x="359" y="22" type="curve"/>
-			<point x="479" y="252"/>
-			<point x="636" y="479"/>
-			<point x="806" y="676" type="curve"/>
-		</contour>
-	</outline>
+  <outline>
+    <contour>
+      <point x="97" y="290" type="move"/>
+      <point x="170" y="227"/>
+      <point x="246" y="79"/>
+      <point x="359" y="22" type="curve"/>
+      <point x="479" y="252"/>
+      <point x="636" y="479"/>
+      <point x="806" y="676" type="curve"/>
+    </contour>
+  </outline>
 </glyph>

@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="nine.superior" format="2">
-	<unicode hex="2079"/>
-	<advance width="440"/>
-	<outline>
-		<component base="nine.dnom" xOffset="20" yOffset="405"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
-		</dict>
-	</lib>
+  <advance width="440"/>
+  <unicode hex="2079"/>
+  <outline>
+    <component base="nine.dnom" xOffset="20" yOffset="405"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

@@ -1,34 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gestrokecyr" format="2">
-	<unicode hex="0492"/>
-	<advance width="590"/>
-	<outline>
-		<contour>
-			<point x="112.4057871628" y="267" type="curve" smooth="yes"/>
-			<point x="170.4057871628" y="267"/>
-			<point x="289.4057871628" y="303"/>
-			<point x="448.4057871628" y="303" type="curve" smooth="yes"/>
-			<point x="480.4057871628" y="303"/>
-			<point x="504.4057871628" y="330"/>
-			<point x="510.4057871628" y="360" type="curve" smooth="yes" identifier="uX98hqfwAS"/>
-			<point x="517.4057871628" y="394"/>
-			<point x="488.4057871628" y="450"/>
-			<point x="378.4057871628" y="450" type="curve" smooth="yes"/>
-			<point x="302.4057871628" y="450"/>
-			<point x="172.4057871628" y="443"/>
-			<point x="79.4057871628" y="406" type="curve" smooth="yes"/>
-			<point x="51.4057871628" y="395"/>
-			<point x="41.4057871628" y="384"/>
-			<point x="36.4057871628" y="362" type="curve" smooth="yes" identifier="SxyROh6w4G"/>
-			<point x="27.4057871628" y="316"/>
-			<point x="42.4057871628" y="267"/>
-		</contour>
-		<component base="Gecyr" xOffset="-4"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>1,1,0,1</string>
-		</dict>
-	</lib>
+  <advance width="590"/>
+  <unicode hex="0492"/>
+  <anchor x="395.77" y="700.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="112.406" y="267" type="curve" smooth="yes"/>
+      <point x="170.406" y="267"/>
+      <point x="289.406" y="303"/>
+      <point x="448.406" y="303" type="curve" smooth="yes"/>
+      <point x="480.406" y="303"/>
+      <point x="504.406" y="330"/>
+      <point x="510.406" y="360" type="curve" smooth="yes"/>
+      <point x="517.406" y="394"/>
+      <point x="488.406" y="450"/>
+      <point x="378.406" y="450" type="curve" smooth="yes"/>
+      <point x="302.406" y="450"/>
+      <point x="172.406" y="443"/>
+      <point x="79.406" y="406" type="curve" smooth="yes"/>
+      <point x="51.406" y="395"/>
+      <point x="41.406" y="384"/>
+      <point x="36.406" y="362" type="curve" smooth="yes"/>
+      <point x="27.406" y="316"/>
+      <point x="42.406" y="267"/>
+    </contour>
+    <component base="Gecyr" xOffset="-4"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

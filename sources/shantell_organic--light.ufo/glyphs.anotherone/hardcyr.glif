@@ -1,19 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hardcyr" format="2">
-	<advance width="621"/>
-	<guideline x="177" y="150" angle="90" identifier="NQt60oWmSh"/>
-	<guideline x="87" y="263" angle="90" identifier="55wn4vuwvT"/>
-	<guideline x="90" y="278" angle="90" identifier="FH9W4J5yk1"/>
-	<guideline x="87" y="263" angle="90" identifier="AZWDyj2lEk"/>
-	<guideline x="90" y="278" angle="90" identifier="2n062Scq9I"/>
-	<guideline x="87" y="263" angle="90" identifier="vV6AR5TnkJ"/>
-	<guideline x="90" y="278" angle="90" identifier="5zsGWQIfEH"/>
-	<guideline x="87" y="263" angle="90" identifier="eg5AhK5R7P"/>
-	<guideline x="90" y="278" angle="90" identifier="AEjwDqtCct"/>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.9272,0.8867,1,1</string>
-		</dict>
-	</lib>
+  <advance width="579"/>
+  <unicode hex="044A"/>
+  <guideline x="177" y="150" angle="90" identifier="NQt60oWmSh"/>
+  <guideline x="87" y="263" angle="90" identifier="55wn4vuwvT"/>
+  <guideline x="90" y="278" angle="90" identifier="FH9W4J5yk1"/>
+  <guideline x="87" y="263" angle="90" identifier="AZWDyj2lEk"/>
+  <guideline x="90" y="278" angle="90" identifier="2n062Scq9I"/>
+  <guideline x="87" y="263" angle="90" identifier="vV6AR5TnkJ"/>
+  <guideline x="90" y="278" angle="90" identifier="5zsGWQIfEH"/>
+  <guideline x="87" y="263" angle="90" identifier="eg5AhK5R7P"/>
+  <guideline x="90" y="278" angle="90" identifier="AEjwDqtCct"/>
+  <outline>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

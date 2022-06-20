@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Encyr" format="2">
-	<unicode hex="041D"/>
-	<advance width="715"/>
-	<outline>
-		<component base="H" xOffset="-2.904753498"/>
-	</outline>
+  <advance width="715"/>
+  <unicode hex="041D"/>
+  <anchor x="304.99" y="0.0" name="bottom"/>
+  <anchor x="444.99100000000004" y="700.0" name="top"/>
+  <outline>
+    <component base="H" xOffset="-2.905"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.639,0.612,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

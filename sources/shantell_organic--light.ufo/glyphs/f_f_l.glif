@@ -1,16 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="f_f_l" format="2">
-	<unicode hex="FB04"/>
-	<advance width="1222"/>
-	<outline>
-		<component base="f"/>
-		<component base="f" xOffset="442"/>
-		<component base="l" xOffset="884"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
-		</dict>
-	</lib>
+  <advance width="1222"/>
+  <unicode hex="FB04"/>
+  <anchor x="138" y="-168" name="bottom_1"/>
+  <anchor x="580" y="-168" name="bottom_2"/>
+  <anchor x="1076" y="0" name="bottom_3"/>
+  <anchor x="239" y="750" name="top_1"/>
+  <anchor x="681" y="750" name="top_2"/>
+  <anchor x="1011" y="750" name="top_3"/>
+  <outline>
+    <component base="f"/>
+    <component base="f" xOffset="442"/>
+    <component base="l" xOffset="884"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

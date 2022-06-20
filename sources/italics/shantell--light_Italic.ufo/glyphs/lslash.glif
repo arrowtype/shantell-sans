@@ -1,36 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lslash" format="2">
-	<unicode hex="0142"/>
-	<advance width="353"/>
-	<outline>
-		<contour>
-			<point x="121.63685" y="323" type="curve" smooth="yes"/>
-			<point x="152.63685" y="338"/>
-			<point x="198.63685" y="354"/>
-			<point x="334.63685" y="426" type="curve" smooth="yes"/>
-			<point x="379.63685" y="450"/>
-			<point x="379.63685" y="493"/>
-			<point x="350.63685" y="493" type="curve" smooth="yes"/>
-			<point x="335.63685" y="493"/>
-			<point x="324.63685" y="489"/>
-			<point x="288.63685" y="471" type="curve" smooth="yes"/>
-			<point x="203.63685" y="427"/>
-			<point x="151.63685" y="410"/>
-			<point x="76.63685" y="371" type="curve" smooth="yes"/>
-			<point x="35.63685" y="348"/>
-			<point x="42.63685" y="309"/>
-			<point x="72.63685" y="309" type="curve" smooth="yes"/>
-			<point x="84.63685" y="309"/>
-			<point x="101.63685" y="313"/>
-		</contour>
-		<component base="l" xOffset="34.844"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 15:52:26 +0000</string>
-			<key>public.markColor</key>
-			<string>0.67,0.95,0.38,1</string>
-		</dict>
-	</lib>
+  <advance width="353"/>
+  <unicode hex="0142"/>
+  <anchor x="189.057" y="0.0" name="bottom"/>
+  <anchor x="274.058" y="750.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="121.637" y="323" type="curve" smooth="yes"/>
+      <point x="152.637" y="338"/>
+      <point x="198.637" y="354"/>
+      <point x="334.637" y="426" type="curve" smooth="yes"/>
+      <point x="379.637" y="450"/>
+      <point x="379.637" y="493"/>
+      <point x="350.637" y="493" type="curve" smooth="yes"/>
+      <point x="335.637" y="493"/>
+      <point x="324.637" y="489"/>
+      <point x="288.637" y="471" type="curve" smooth="yes"/>
+      <point x="203.637" y="427"/>
+      <point x="151.637" y="410"/>
+      <point x="76.637" y="371" type="curve" smooth="yes"/>
+      <point x="35.637" y="348"/>
+      <point x="42.637" y="309"/>
+      <point x="72.637" y="309" type="curve" smooth="yes"/>
+      <point x="84.637" y="309"/>
+      <point x="101.637" y="313"/>
+    </contour>
+    <component base="l" xOffset="34.844"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

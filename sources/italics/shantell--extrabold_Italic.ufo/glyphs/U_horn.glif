@@ -1,41 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Uhorn" format="2">
-	<unicode hex="01AF"/>
-	<advance width="824"/>
-	<outline>
-		<contour>
-			<point x="712.80009" y="680" type="curve" smooth="yes"/>
-			<point x="664.80009" y="680"/>
-			<point x="634.80009" y="662"/>
-			<point x="624.80009" y="609" type="curve" smooth="yes"/>
-			<point x="614.80009" y="559"/>
-			<point x="635.80009" y="521"/>
-			<point x="701.80009" y="521" type="curve" smooth="yes"/>
-			<point x="826.80009" y="521"/>
-			<point x="901" y="564"/>
-			<point x="920" y="660" type="curve" smooth="yes"/>
-			<point x="935" y="735"/>
-			<point x="903.80009" y="792"/>
-			<point x="831.80009" y="792" type="curve" smooth="yes"/>
-			<point x="785.80009" y="792"/>
-			<point x="756.80009" y="770"/>
-			<point x="750.80009" y="738" type="curve" smooth="yes"/>
-			<point x="747.80009" y="723"/>
-			<point x="748.80009" y="715"/>
-			<point x="745.80009" y="700" type="curve" smooth="yes"/>
-			<point x="742.80009" y="686"/>
-			<point x="729.80009" y="680"/>
-		</contour>
-		<component base="U"/>
-	</outline>
-	<anchor name="top" x="445.80095" y="700"/>
-	<anchor name="bottom" x="305.80009" y="0"/>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 15:53:42 +0000</string>
-			<key>public.markColor</key>
-			<string>0.67,0.95,0.38,1</string>
-		</dict>
-	</lib>
+  <advance width="824"/>
+  <unicode hex="01AF"/>
+  <anchor x="305.8" y="0" name="bottom"/>
+  <anchor x="445.801" y="700" name="top"/>
+  <anchor x="433.186" y="11.0" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="712.8" y="680" type="curve" smooth="yes"/>
+      <point x="664.8" y="680"/>
+      <point x="634.8" y="662"/>
+      <point x="624.8" y="609" type="curve" smooth="yes"/>
+      <point x="614.8" y="559"/>
+      <point x="635.8" y="521"/>
+      <point x="701.8" y="521" type="curve" smooth="yes"/>
+      <point x="826.8" y="521"/>
+      <point x="901" y="564"/>
+      <point x="920" y="660" type="curve" smooth="yes"/>
+      <point x="935" y="735"/>
+      <point x="903.8" y="792"/>
+      <point x="831.8" y="792" type="curve" smooth="yes"/>
+      <point x="785.8" y="792"/>
+      <point x="756.8" y="770"/>
+      <point x="750.8" y="738" type="curve" smooth="yes"/>
+      <point x="747.8" y="723"/>
+      <point x="748.8" y="715"/>
+      <point x="745.8" y="700" type="curve" smooth="yes"/>
+      <point x="742.8" y="686"/>
+      <point x="729.8" y="680"/>
+    </contour>
+    <component base="U"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

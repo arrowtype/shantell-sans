@@ -1,7 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="de-cy.loclSRB" format="2">
-	<advance width="611"/>
-	<outline>
-		<component base="decyr"/>
-	</outline>
+  <advance width="611"/>
+  <outline>
+    <component base="decyr"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.169,0.216,0.263,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

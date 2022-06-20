@@ -1,15 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Uring" format="2">
-	<unicode hex="016E"/>
-	<advance width="659"/>
-	<outline>
-		<component base="U"/>
-		<component base="ringcomb" xOffset="329" yOffset="95"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
-		</dict>
-	</lib>
+  <advance width="659"/>
+  <unicode hex="016E"/>
+  <anchor x="338" y="50" name="bottom"/>
+  <anchor x="464" y="73" name="ogonek"/>
+  <anchor x="329" y="853" name="top"/>
+  <outline>
+    <component base="U"/>
+    <component base="ringcomb" xOffset="329" yOffset="95"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

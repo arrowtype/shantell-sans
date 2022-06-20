@@ -1,43 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="encyr" format="2">
-	<advance width="612"/>
-	<image fileName="S_creenshot 2021-10-15 at 15.00.49.png" xScale="1.25145047" yScale="1.25145047" xOffset="-15.101801821" yOffset="-86.5127252276"/>
-	<outline>
-		<contour>
-			<point x="151" y="473" type="move"/>
-			<point x="154" y="425"/>
-			<point x="148" y="316"/>
-			<point x="148" y="260" type="curve" smooth="yes"/>
-			<point x="148" y="144"/>
-			<point x="157" y="24"/>
-			<point x="157" y="24" type="curve"/>
-			<point x="119" y="95"/>
-			<point x="127" y="200"/>
-			<point x="155" y="251" type="curve"/>
-			<point x="254" y="251"/>
-			<point x="359" y="257"/>
-			<point x="461" y="284" type="curve"/>
-		</contour>
-		<contour>
-			<point x="509" y="472" type="move"/>
-			<point x="509" y="472"/>
-			<point x="489" y="369"/>
-			<point x="489" y="278" type="curve" smooth="yes"/>
-			<point x="489" y="191"/>
-			<point x="496" y="94"/>
-			<point x="523" y="22" type="curve"/>
-		</contour>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.typemytype.robofont.Image.Brightness</key>
-			<real>0.5960051417</real>
-			<key>com.typemytype.robofont.Image.Contrast</key>
-			<integer>1</integer>
-			<key>com.typemytype.robofont.Image.Saturation</key>
-			<integer>1</integer>
-			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
-		</dict>
-	</lib>
+  <image fileName="S_creenshot 2021-10-15 at 15.00.49.png" xScale="1.25145" yScale="1.25145" xOffset="-15.102" yOffset="-86.513"/>
+  <outline>
+    <contour>
+      <point x="151" y="473" type="move"/>
+      <point x="154" y="425"/>
+      <point x="148" y="316"/>
+      <point x="148" y="260" type="curve" smooth="yes"/>
+      <point x="148" y="144"/>
+      <point x="157" y="24"/>
+      <point x="157" y="24" type="curve"/>
+      <point x="119" y="95"/>
+      <point x="127" y="200"/>
+      <point x="155" y="251" type="curve"/>
+      <point x="254" y="251"/>
+      <point x="359" y="257"/>
+      <point x="461" y="284" type="curve"/>
+    </contour>
+    <contour>
+      <point x="509" y="472" type="move"/>
+      <point x="509" y="472"/>
+      <point x="489" y="369"/>
+      <point x="489" y="278" type="curve" smooth="yes"/>
+      <point x="489" y="191"/>
+      <point x="496" y="94"/>
+      <point x="523" y="22" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.backgroundImage.alpha</key>
+      <integer>50</integer>
+      <key>com.schriftgestaltung.backgroundImage.crop</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+      </array>
+      <key>com.schriftgestaltung.backgroundImage.locked</key>
+      <false/>
+    </dict>
+  </lib>
 </glyph>

@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni0122" format="2">
-	<unicode hex="0122"/>
-	<advance width="742"/>
-	<outline>
-		<component base="G"/>
-		<component base="commaaccentbelowcmb" xOffset="344"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
-		</dict>
-	</lib>
+  <advance width="742"/>
+  <unicode hex="0122"/>
+  <anchor x="344" y="0" name="bottom"/>
+  <anchor x="421" y="700" name="top"/>
+  <outline>
+    <component base="G"/>
+    <component base="commaaccentbelowcmb" xOffset="344"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

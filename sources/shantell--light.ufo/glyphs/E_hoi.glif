@@ -1,15 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ehoi" format="2">
-	<unicode hex="1EBA"/>
-	<advance width="633"/>
-	<outline>
-		<component base="E"/>
-		<component base="hookabovecmb" xOffset="365" yOffset="215"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
-		</dict>
-	</lib>
+  <advance width="633"/>
+  <unicode hex="1EBA"/>
+  <anchor x="361" y="0" name="bottom"/>
+  <anchor x="546" y="37" name="ogonek"/>
+  <anchor x="365" y="700" name="top"/>
+  <outline>
+    <component base="E"/>
+    <component base="hookabovecmb" xOffset="365" yOffset="215"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

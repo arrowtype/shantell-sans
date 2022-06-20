@@ -1,9 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Umacroncyr" format="2">
-	<unicode hex="04EE"/>
-	<advance width="612"/>
-	<outline>
-		<component base="Ucyr" xOffset="4.9235490711"/>
-		<component base="macroncomb" xOffset="356.9235490711" yOffset="215"/>
-	</outline>
+  <advance width="612"/>
+  <unicode hex="04EE"/>
+  <anchor x="405.642" y="700.0" name="top"/>
+  <outline>
+    <component base="Ucyr" xOffset="4.924"/>
+    <component base="macroncomb" xOffset="356.924" yOffset="215"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.992,0.706,0.831,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

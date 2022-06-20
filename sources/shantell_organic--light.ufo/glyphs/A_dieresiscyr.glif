@@ -1,15 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Adieresiscyr" format="2">
-	<unicode hex="04D2"/>
-	<advance width="713"/>
-	<outline>
-		<component base="A"/>
-		<component base="dieresiscomb" xOffset="401" yOffset="156"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.9935,0.7078,0.8306,1</string>
-		</dict>
-	</lib>
+  <advance width="713"/>
+  <unicode hex="04D2"/>
+  <anchor x="355" y="48" name="bottom"/>
+  <anchor x="601" y="26" name="ogonek"/>
+  <anchor x="401" y="642" name="ring"/>
+  <anchor x="400" y="816" name="top"/>
+  <outline>
+    <component base="A"/>
+    <component base="dieresiscomb" xOffset="401" yOffset="156"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.992,0.706,0.831,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

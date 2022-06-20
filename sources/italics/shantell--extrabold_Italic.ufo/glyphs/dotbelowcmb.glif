@@ -1,8 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotbelowcmb" format="2">
-	<unicode hex="0323"/>
-	<outline>
-		<component base="dotaccentcmb" xScale="1.1159" yScale="1.0623" xOffset="-173.292" yOffset="-873"/>
-	</outline>
-	<anchor name="_bottom" x="-52.49178" y="0"/>
+  <unicode hex="0323"/>
+  <anchor x="-52.492" y="0" name="_bottom"/>
+  <outline>
+    <component base="dotaccentcmb" xScale="1.1159" yScale="1.0623" xOffset="-173.292" yOffset="-873"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ymacron" format="2">
-	<unicode hex="0232"/>
-	<advance width="636"/>
-	<outline>
-		<component base="Y"/>
-		<component base="macroncomb" xOffset="300" yOffset="129"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
-		</dict>
-	</lib>
+  <advance width="636"/>
+  <unicode hex="0232"/>
+  <anchor x="237" y="29" name="bottom"/>
+  <anchor x="300" y="644" name="top"/>
+  <outline>
+    <component base="Y"/>
+    <component base="macroncomb" xOffset="300" yOffset="129"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

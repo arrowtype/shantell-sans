@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iocyr" format="2">
-	<unicode hex="0451"/>
-	<advance width="617"/>
-	<outline>
-		<component base="edieresis"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.7336,0.5157,0.996,1</string>
-		</dict>
-	</lib>
+  <advance width="617"/>
+  <unicode hex="0451"/>
+  <anchor x="309" y="0" name="bottom"/>
+  <anchor x="505" y="41" name="ogonek"/>
+  <anchor x="302" y="750" name="top"/>
+  <outline>
+    <component base="edieresis"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.733,0.518,0.996,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

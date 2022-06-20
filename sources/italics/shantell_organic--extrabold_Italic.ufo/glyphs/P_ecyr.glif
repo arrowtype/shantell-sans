@@ -1,70 +1,72 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Pecyr" format="2">
-	<unicode hex="041F"/>
-	<advance width="694"/>
-	<outline>
-		<contour>
-			<point x="66.4398292214" y="149" type="curve" smooth="yes" identifier="SgJusPGcwx"/>
-			<point x="52.4398292214" y="81"/>
-			<point x="82.4398292214" y="41"/>
-			<point x="133.4398292214" y="41" type="curve" smooth="yes"/>
-			<point x="181.4398292214" y="41"/>
-			<point x="208.4398292214" y="68"/>
-			<point x="227.4398292214" y="115" type="curve" smooth="yes"/>
-			<point x="243.4398292214" y="154"/>
-			<point x="280.4398292214" y="294"/>
-			<point x="296.4398292214" y="374" type="curve" smooth="yes" identifier="lP9pXlRPuu"/>
-			<point x="313.4398292214" y="462"/>
-			<point x="324.4398292214" y="538"/>
-			<point x="306.4398292214" y="615" type="curve"/>
-			<point x="127.4398292214" y="575" type="line"/>
-			<point x="145.4398292214" y="514"/>
-			<point x="138.4398292214" y="433"/>
-			<point x="124.4398292214" y="363" type="curve" smooth="yes" identifier="Y7IDTxyYlj"/>
-			<point x="107.4398292214" y="280"/>
-			<point x="74.4398292214" y="189"/>
-		</contour>
-		<contour>
-			<point x="94.4398292214" y="610" type="curve" smooth="yes" identifier="pxHwRJmBxb"/>
-			<point x="88.4398292214" y="579"/>
-			<point x="94.4398292214" y="519"/>
-			<point x="161.4398292214" y="519" type="curve" smooth="yes"/>
-			<point x="194.4398292214" y="519"/>
-			<point x="312.4398292214" y="527"/>
-			<point x="404.4398292214" y="527" type="curve" smooth="yes"/>
-			<point x="451.4398292214" y="527"/>
-			<point x="492.4398292214" y="525"/>
-			<point x="531.4398292214" y="518" type="curve"/>
-			<point x="507.4398292214" y="561" type="line"/>
-			<point x="485.4398292214" y="452"/>
-			<point x="445.4398292214" y="301"/>
-			<point x="429.4398292214" y="223" type="curve" smooth="yes"/>
-			<point x="393.4398292214" y="54"/>
-			<point x="403.4398292214" y="-20"/>
-			<point x="487.4398292214" y="-20" type="curve" smooth="yes"/>
-			<point x="537.4398292214" y="-20"/>
-			<point x="580.4398292214" y="26"/>
-			<point x="587.4398292214" y="58" type="curve" smooth="yes" identifier="Y3H5WuWZLu"/>
-			<point x="596.4398292214" y="103"/>
-			<point x="590.4398292214" y="176"/>
-			<point x="607.4398292214" y="256" type="curve" smooth="yes"/>
-			<point x="622.4398292214" y="325"/>
-			<point x="655.4398292214" y="441"/>
-			<point x="674.4398292214" y="537" type="curve" smooth="yes" identifier="4GtcjeinfE"/>
-			<point x="692.4398292214" y="626"/>
-			<point x="656.4398292214" y="683"/>
-			<point x="542.4398292214" y="683" type="curve" smooth="yes"/>
-			<point x="454.4398292214" y="683"/>
-			<point x="337.4398292214" y="686"/>
-			<point x="253.4398292214" y="686" type="curve" smooth="yes"/>
-			<point x="180.4398292214" y="686"/>
-			<point x="108.4398292214" y="680"/>
-		</contour>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>1,1,0,1</string>
-		</dict>
-	</lib>
+  <advance width="694"/>
+  <unicode hex="041F"/>
+  <outline>
+    <contour>
+      <point x="66.44" y="149" type="curve" smooth="yes"/>
+      <point x="52.44" y="81"/>
+      <point x="82.44" y="41"/>
+      <point x="133.44" y="41" type="curve" smooth="yes"/>
+      <point x="181.44" y="41"/>
+      <point x="208.44" y="68"/>
+      <point x="227.44" y="115" type="curve" smooth="yes"/>
+      <point x="243.44" y="154"/>
+      <point x="280.44" y="294"/>
+      <point x="296.44" y="374" type="curve" smooth="yes"/>
+      <point x="313.44" y="462"/>
+      <point x="324.44" y="538"/>
+      <point x="306.44" y="615" type="curve"/>
+      <point x="127.44" y="575" type="line"/>
+      <point x="145.44" y="514"/>
+      <point x="138.44" y="433"/>
+      <point x="124.44" y="363" type="curve" smooth="yes"/>
+      <point x="107.44" y="280"/>
+      <point x="74.44" y="189"/>
+    </contour>
+    <contour>
+      <point x="94.44" y="610" type="curve" smooth="yes"/>
+      <point x="88.44" y="579"/>
+      <point x="94.44" y="519"/>
+      <point x="161.44" y="519" type="curve" smooth="yes"/>
+      <point x="194.44" y="519"/>
+      <point x="312.44" y="527"/>
+      <point x="404.44" y="527" type="curve" smooth="yes"/>
+      <point x="451.44" y="527"/>
+      <point x="492.44" y="525"/>
+      <point x="531.44" y="518" type="curve"/>
+      <point x="507.44" y="561" type="line"/>
+      <point x="485.44" y="452"/>
+      <point x="445.44" y="301"/>
+      <point x="429.44" y="223" type="curve" smooth="yes"/>
+      <point x="393.44" y="54"/>
+      <point x="403.44" y="-20"/>
+      <point x="487.44" y="-20" type="curve" smooth="yes"/>
+      <point x="537.44" y="-20"/>
+      <point x="580.44" y="26"/>
+      <point x="587.44" y="58" type="curve" smooth="yes"/>
+      <point x="596.44" y="103"/>
+      <point x="590.44" y="176"/>
+      <point x="607.44" y="256" type="curve" smooth="yes"/>
+      <point x="622.44" y="325"/>
+      <point x="655.44" y="441"/>
+      <point x="674.44" y="537" type="curve" smooth="yes"/>
+      <point x="692.44" y="626"/>
+      <point x="656.44" y="683"/>
+      <point x="542.44" y="683" type="curve" smooth="yes"/>
+      <point x="454.44" y="683"/>
+      <point x="337.44" y="686"/>
+      <point x="253.44" y="686" type="curve" smooth="yes"/>
+      <point x="180.44" y="686"/>
+      <point x="108.44" y="680"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

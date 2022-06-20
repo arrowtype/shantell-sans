@@ -1,9 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Scedilla" format="2">
-	<unicode hex="015E"/>
-	<advance width="561"/>
-	<outline>
-		<component base="S"/>
-		<component base="cedillacomb" xOffset="274" yOffset="25"/>
-	</outline>
+  <advance width="561"/>
+  <unicode hex="015E"/>
+  <anchor x="225.673" y="25.0" name="bottom"/>
+  <anchor x="377.874" y="636.0" name="top"/>
+  <outline>
+    <component base="S"/>
+    <component base="cedillacomb" xOffset="274" yOffset="25"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

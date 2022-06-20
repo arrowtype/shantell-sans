@@ -1,34 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ustraightstrokecyr" format="2">
-	<unicode hex="04B0"/>
-	<advance width="626"/>
-	<outline>
-		<contour>
-			<point x="159.282892721" y="237" type="curve" smooth="yes"/>
-			<point x="209.282892721" y="237"/>
-			<point x="350.282892721" y="247"/>
-			<point x="487.282892721" y="247" type="curve" smooth="yes"/>
-			<point x="519.282892721" y="247"/>
-			<point x="544.282892721" y="274"/>
-			<point x="550.282892721" y="304" type="curve" smooth="yes" identifier="3PXr1n4NWC"/>
-			<point x="557.282892721" y="338"/>
-			<point x="535.282892721" y="385"/>
-			<point x="425.282892721" y="385" type="curve" smooth="yes"/>
-			<point x="361.282892721" y="385"/>
-			<point x="206.282892721" y="390"/>
-			<point x="131.282892721" y="368" type="curve" smooth="yes"/>
-			<point x="101.282892721" y="360"/>
-			<point x="87.282892721" y="348"/>
-			<point x="82.282892721" y="326" type="curve" smooth="yes" identifier="mEGAhPKhZt"/>
-			<point x="73.282892721" y="280"/>
-			<point x="89.282892721" y="237"/>
-		</contour>
-		<component base="Ustraightcyr" xOffset="-0.517194916"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>1,1,0,1</string>
-		</dict>
-	</lib>
+  <advance width="626"/>
+  <unicode hex="04B0"/>
+  <outline>
+    <contour>
+      <point x="159.283" y="237" type="curve" smooth="yes"/>
+      <point x="209.283" y="237"/>
+      <point x="350.283" y="247"/>
+      <point x="487.283" y="247" type="curve" smooth="yes"/>
+      <point x="519.283" y="247"/>
+      <point x="544.283" y="274"/>
+      <point x="550.283" y="304" type="curve" smooth="yes"/>
+      <point x="557.283" y="338"/>
+      <point x="535.283" y="385"/>
+      <point x="425.283" y="385" type="curve" smooth="yes"/>
+      <point x="361.283" y="385"/>
+      <point x="206.283" y="390"/>
+      <point x="131.283" y="368" type="curve" smooth="yes"/>
+      <point x="101.283" y="360"/>
+      <point x="87.283" y="348"/>
+      <point x="82.283" y="326" type="curve" smooth="yes"/>
+      <point x="73.283" y="280"/>
+      <point x="89.283" y="237"/>
+    </contour>
+    <component base="Ustraightcyr" xOffset="-0.517"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

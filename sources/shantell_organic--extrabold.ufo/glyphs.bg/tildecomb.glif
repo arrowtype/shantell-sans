@@ -1,32 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tildecomb" format="2">
-	<advance width="600"/>
-	<outline>
-		<contour>
-			<point x="-143" y="563" type="curve" smooth="yes"/>
-			<point x="-99" y="563"/>
-			<point x="-103" y="603"/>
-			<point x="-55" y="603" type="curve" smooth="yes"/>
-			<point x="-4" y="603"/>
-			<point x="30" y="567"/>
-			<point x="88" y="567" type="curve" smooth="yes"/>
-			<point x="181" y="567"/>
-			<point x="234" y="624"/>
-			<point x="234" y="706" type="curve" smooth="yes"/>
-			<point x="234" y="753"/>
-			<point x="219" y="773"/>
-			<point x="190" y="773" type="curve" smooth="yes"/>
-			<point x="151" y="773"/>
-			<point x="137" y="733"/>
-			<point x="94" y="733" type="curve" smooth="yes"/>
-			<point x="45" y="733"/>
-			<point x="-1" y="782"/>
-			<point x="-78" y="782" type="curve" smooth="yes"/>
-			<point x="-194" y="782"/>
-			<point x="-234" y="730"/>
-			<point x="-234" y="676" type="curve" smooth="yes"/>
-			<point x="-234" y="620"/>
-			<point x="-200" y="563"/>
-		</contour>
-	</outline>
+  <unicode hex="0303"/>
+  <outline>
+    <contour>
+      <point x="-143" y="563" type="curve" smooth="yes"/>
+      <point x="-99" y="563"/>
+      <point x="-103" y="603"/>
+      <point x="-55" y="603" type="curve" smooth="yes"/>
+      <point x="-4" y="603"/>
+      <point x="30" y="567"/>
+      <point x="88" y="567" type="curve" smooth="yes"/>
+      <point x="181" y="567"/>
+      <point x="234" y="624"/>
+      <point x="234" y="706" type="curve" smooth="yes"/>
+      <point x="234" y="753"/>
+      <point x="219" y="773"/>
+      <point x="190" y="773" type="curve" smooth="yes"/>
+      <point x="151" y="773"/>
+      <point x="137" y="733"/>
+      <point x="94" y="733" type="curve" smooth="yes"/>
+      <point x="45" y="733"/>
+      <point x="-1" y="782"/>
+      <point x="-78" y="782" type="curve" smooth="yes"/>
+      <point x="-194" y="782"/>
+      <point x="-234" y="730"/>
+      <point x="-234" y="676" type="curve" smooth="yes"/>
+      <point x="-234" y="620"/>
+      <point x="-200" y="563"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

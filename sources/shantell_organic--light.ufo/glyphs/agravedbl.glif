@@ -1,15 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="agravedbl" format="2">
-	<unicode hex="0201"/>
-	<advance width="644"/>
-	<outline>
-		<component base="a"/>
-		<component base="gravedoublecmb" xOffset="329"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
-		</dict>
-	</lib>
+  <advance width="644"/>
+  <unicode hex="0201"/>
+  <anchor x="329" y="25" name="bottom"/>
+  <anchor x="584" y="-35" name="ogonek"/>
+  <anchor x="329" y="710" name="top"/>
+  <outline>
+    <component base="a"/>
+    <component base="gravedoublecmb" xOffset="329"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

@@ -1,9 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="udieresiscyr" format="2">
-	<unicode hex="04F1"/>
-	<advance width="623"/>
-	<outline>
-		<component base="y" xOffset="-4.418407788"/>
-		<component base="dieresiscomb" xOffset="305.581592212" yOffset="48"/>
-	</outline>
+  <advance width="623"/>
+  <unicode hex="04F1"/>
+  <anchor x="213.569" y="-250.0" name="bottom"/>
+  <anchor x="406.3" y="798.0" name="top"/>
+  <outline>
+    <component base="y" xOffset="-4.418"/>
+    <component base="dieresiscomb" xOffset="305.582" yOffset="48"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.992,0.706,0.831,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

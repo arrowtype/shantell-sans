@@ -1,42 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ishortcyr" format="2">
-	<unicode hex="0439"/>
-	<advance width="641"/>
-	<outline>
-		<contour>
-			<point x="342.7935084991" y="656" type="curve" smooth="yes"/>
-			<point x="314.7935084991" y="656"/>
-			<point x="302.7935084991" y="669"/>
-			<point x="289.7935084991" y="687" type="curve" smooth="yes"/>
-			<point x="277.7935084991" y="705"/>
-			<point x="267.7935084991" y="727"/>
-			<point x="249.7935084991" y="727" type="curve" smooth="yes"/>
-			<point x="232.7935084991" y="727"/>
-			<point x="219.7935084991" y="713"/>
-			<point x="214.7935084991" y="691" type="curve" smooth="yes" identifier="ESUFb4z3W7"/>
-			<point x="207.7935084991" y="654"/>
-			<point x="242.7935084991" y="590"/>
-			<point x="324.7935084991" y="590" type="curve" smooth="yes"/>
-			<point x="424.7935084991" y="590"/>
-			<point x="508.7935084991" y="678"/>
-			<point x="520.7935084991" y="733" type="curve" smooth="yes"/>
-			<point x="523.7935084991" y="748"/>
-			<point x="516.7935084991" y="760"/>
-			<point x="502.7935084991" y="760" type="curve" smooth="yes"/>
-			<point x="479.7935084991" y="760"/>
-			<point x="450.7935084991" y="715"/>
-			<point x="419.7935084991" y="689" type="curve" smooth="yes"/>
-			<point x="394.7935084991" y="668"/>
-			<point x="368.7935084991" y="656"/>
-		</contour>
-		<component base="icyr"/>
-	</outline>
-	<guideline x="224.7935084991" y="515" angle="90" identifier="p0aJ1s3JmT"/>
-	<guideline x="240.7935084991" y="464" angle="90" identifier="XJW6VjdRJe"/>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>1,1,0,1</string>
-		</dict>
-	</lib>
+  <advance width="641"/>
+  <unicode hex="0439"/>
+  <guideline x="224.794" y="515" angle="90" identifier="p0aJ1s3JmT"/>
+  <guideline x="240.794" y="464" angle="90" identifier="XJW6VjdRJe"/>
+  <anchor x="344.482" y="485.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="342.794" y="656" type="curve" smooth="yes"/>
+      <point x="314.794" y="656"/>
+      <point x="302.794" y="669"/>
+      <point x="289.794" y="687" type="curve" smooth="yes"/>
+      <point x="277.794" y="705"/>
+      <point x="267.794" y="727"/>
+      <point x="249.794" y="727" type="curve" smooth="yes"/>
+      <point x="232.794" y="727"/>
+      <point x="219.794" y="713"/>
+      <point x="214.794" y="691" type="curve" smooth="yes"/>
+      <point x="207.794" y="654"/>
+      <point x="242.794" y="590"/>
+      <point x="324.794" y="590" type="curve" smooth="yes"/>
+      <point x="424.794" y="590"/>
+      <point x="508.794" y="678"/>
+      <point x="520.794" y="733" type="curve" smooth="yes"/>
+      <point x="523.794" y="748"/>
+      <point x="516.794" y="760"/>
+      <point x="502.794" y="760" type="curve" smooth="yes"/>
+      <point x="479.794" y="760"/>
+      <point x="450.794" y="715"/>
+      <point x="419.794" y="689" type="curve" smooth="yes"/>
+      <point x="394.794" y="668"/>
+      <point x="368.794" y="656"/>
+    </contour>
+    <component base="icyr"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

@@ -1,9 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="abrevecyr" format="2">
-	<unicode hex="04D1"/>
-	<advance width="704"/>
-	<outline>
-		<component base="a" xOffset="-4.0044671603"/>
-		<component base="brevecomb-cy" xOffset="119.9955328397" yOffset="-27"/>
-	</outline>
+  <advance width="704"/>
+  <unicode hex="04D1"/>
+  <anchor x="274.397" y="35.0" name="bottom"/>
+  <anchor x="566.997" y="-22.0" name="ogonek"/>
+  <anchor x="364.998" y="488.0" name="top_1"/>
+  <anchor x="364.917" y="488.0" name="top_2"/>
+  <outline>
+    <component base="a" xOffset="-4.004"/>
+    <component base="brevecomb-cy" xOffset="119.996" yOffset="-27"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.992,0.706,0.831,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

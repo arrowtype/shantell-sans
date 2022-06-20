@@ -1,15 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ibreve" format="2">
-	<unicode hex="012D"/>
-	<advance width="276"/>
-	<outline>
-		<component base="idotless"/>
-		<component base="brevecomb" xOffset="136"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
-		</dict>
-	</lib>
+  <advance width="276"/>
+  <unicode hex="012D"/>
+  <anchor x="136" y="0" name="bottom"/>
+  <anchor x="159" y="0" name="ogonek"/>
+  <anchor x="136" y="703" name="top"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="brevecomb" xOffset="136"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>

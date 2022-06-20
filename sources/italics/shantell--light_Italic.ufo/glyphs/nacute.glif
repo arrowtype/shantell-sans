@@ -1,9 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="nacute" format="2">
-	<unicode hex="0144"/>
-	<advance width="612"/>
-	<outline>
-		<component base="n"/>
-		<component base="acutecomb" xOffset="305"/>
-	</outline>
+  <advance width="612"/>
+  <unicode hex="0144"/>
+  <anchor x="270.43" y="0.0" name="bottom"/>
+  <anchor x="353.43" y="485.0" name="top"/>
+  <outline>
+    <component base="n"/>
+    <component base="acutecomb" xOffset="305"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
 </glyph>
