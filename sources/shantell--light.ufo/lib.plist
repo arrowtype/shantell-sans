@@ -3953,6 +3953,8 @@
 		<false/>
 		<key>com.schriftgestaltung.useNiceNames</key>
 		<true/>
+		<key>com.typemytype.glyphBuilder.lastSavedFileName</key>
+		<string>ShantellSansCyr-caps</string>
 		<key>com.typemytype.robofont.compileSettings.MacRomanFirst</key>
 		<false/>
 		<key>com.typemytype.robofont.compileSettings.autohint</key>
@@ -3977,12 +3979,20 @@
 		<integer>5</integer>
 		<key>com.typemytype.robofont.guideline.magnetic.4ZRCapcn0v</key>
 		<integer>5</integer>
+		<key>com.typemytype.robofont.guideline.magnetic.CckKJLBlcX</key>
+		<integer>5</integer>
+		<key>com.typemytype.robofont.guideline.magnetic.Ryiz6dJj4p</key>
+		<integer>5</integer>
 		<key>com.typemytype.robofont.guideline.magnetic.zWEIZwiIBY</key>
 		<integer>5</integer>
 		<key>com.typemytype.robofont.guideline.showMeasurements.3cJLHGGhls</key>
 		<false/>
 		<key>com.typemytype.robofont.guideline.showMeasurements.4ZRCapcn0v</key>
 		<true/>
+		<key>com.typemytype.robofont.guideline.showMeasurements.CckKJLBlcX</key>
+		<false/>
+		<key>com.typemytype.robofont.guideline.showMeasurements.Ryiz6dJj4p</key>
+		<false/>
 		<key>com.typemytype.robofont.guideline.showMeasurements.zWEIZwiIBY</key>
 		<false/>
 		<key>com.typemytype.robofont.italicSlantOffset</key>
@@ -5704,7 +5714,6 @@
 			<string>macronbelowcmb</string>
 			<string>primemod</string>
 			<string>primedblmod</string>
-			<string>cheabkhcyr</string>
 			<string>breveacutecomb</string>
 			<string>brevegravecomb</string>
 			<string>brevehookabovecomb</string>
@@ -5719,6 +5728,8 @@
 			<string>tildemacroncomb</string>
 			<string>doublebarvertical</string>
 			<string>trianglerightblack</string>
+			<string>yukrcyr_yukrcyr</string>
+			<string>yukrcyr_yukrcyr.ss01</string>
 		</array>
 		<key>public.postscriptNames</key>
 		<dict>
