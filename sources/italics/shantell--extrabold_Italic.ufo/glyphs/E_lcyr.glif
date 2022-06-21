@@ -1,57 +1,55 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Elcyr" format="2">
-  <advance width="719"/>
-  <unicode hex="041B"/>
-  <guideline x="45.8" y="658" angle="0" identifier="b3w6f6co8h"/>
-  <guideline x="45.8" y="658" angle="0" identifier="jdn5JLBvkG"/>
-  <guideline x="45.8" y="658" angle="0" identifier="mF84iu6Knu"/>
-  <outline>
-    <contour>
-      <point x="-16.679" y="68" type="curve" smooth="yes"/>
-      <point x="-24.679" y="28"/>
-      <point x="4.321" y="-17"/>
-      <point x="52.321" y="-17" type="curve" smooth="yes"/>
-      <point x="85.321" y="-17"/>
-      <point x="103.321" y="-7"/>
-      <point x="127.321" y="19" type="curve" smooth="yes"/>
-      <point x="165.321" y="61"/>
-      <point x="223.321" y="150"/>
-      <point x="281.321" y="257" type="curve" smooth="yes"/>
-      <point x="343.321" y="369"/>
-      <point x="394.321" y="477"/>
-      <point x="437.321" y="515" type="curve"/>
-      <point x="421.321" y="525" type="line"/>
-      <point x="448.321" y="438"/>
-      <point x="465.321" y="215"/>
-      <point x="462.321" y="54" type="curve" smooth="yes"/>
-      <point x="461.321" y="4"/>
-      <point x="471.321" y="-17"/>
-      <point x="522.321" y="-17" type="curve" smooth="yes"/>
-      <point x="574.321" y="-17"/>
-      <point x="630.321" y="30"/>
-      <point x="639.321" y="76" type="curve" smooth="yes"/>
-      <point x="663.321" y="194"/>
-      <point x="604.321" y="560"/>
-      <point x="588.321" y="616" type="curve" smooth="yes"/>
-      <point x="571.321" y="676"/>
-      <point x="520.321" y="712"/>
-      <point x="457.321" y="712" type="curve" smooth="yes"/>
-      <point x="410.321" y="712"/>
-      <point x="379.321" y="695"/>
-      <point x="331.321" y="629" type="curve" smooth="yes"/>
-      <point x="303.321" y="591"/>
-      <point x="207.321" y="448"/>
-      <point x="131.321" y="313" type="curve" smooth="yes"/>
-      <point x="73.321" y="211"/>
-      <point x="-6.679" y="121"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,1,0,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="041B"/>
+	<advance width="719"/>
+	<outline>
+		<contour>
+			<point x="-16.6790123457" y="68" type="curve" smooth="yes" identifier="jYD6e3kB9F"/>
+			<point x="-24.6790123457" y="28"/>
+			<point x="4.3209876543" y="-17"/>
+			<point x="52.3209876543" y="-17" type="curve" smooth="yes"/>
+			<point x="85.3209876543" y="-17"/>
+			<point x="103.3209876543" y="-7"/>
+			<point x="127.3209876543" y="19" type="curve" smooth="yes"/>
+			<point x="165.3209876543" y="61"/>
+			<point x="223.3209876543" y="150"/>
+			<point x="281.3209876543" y="257" type="curve" smooth="yes"/>
+			<point x="343.3209876543" y="369"/>
+			<point x="394.3209876543" y="477"/>
+			<point x="437.3209876543" y="515" type="curve"/>
+			<point x="421.3209876543" y="525" type="line"/>
+			<point x="448.3209876543" y="438"/>
+			<point x="465.3209876543" y="215"/>
+			<point x="462.3209876543" y="54" type="curve" smooth="yes"/>
+			<point x="461.3209876543" y="4"/>
+			<point x="471.3209876543" y="-17"/>
+			<point x="522.3209876543" y="-17" type="curve" smooth="yes"/>
+			<point x="574.3209876543" y="-17"/>
+			<point x="630.3209876543" y="30"/>
+			<point x="639.3209876543" y="76" type="curve" smooth="yes" identifier="bAj3EWvQUb"/>
+			<point x="663.3209876543" y="194"/>
+			<point x="604.3209876543" y="560"/>
+			<point x="588.3209876543" y="616" type="curve" smooth="yes"/>
+			<point x="571.3209876543" y="676"/>
+			<point x="520.3209876543" y="712"/>
+			<point x="457.3209876543" y="712" type="curve" smooth="yes"/>
+			<point x="410.3209876543" y="712"/>
+			<point x="379.3209876543" y="695"/>
+			<point x="331.3209876543" y="629" type="curve" smooth="yes"/>
+			<point x="303.3209876543" y="591"/>
+			<point x="207.3209876543" y="448"/>
+			<point x="131.3209876543" y="313" type="curve" smooth="yes"/>
+			<point x="73.3209876543" y="211"/>
+			<point x="-6.6790123457" y="121"/>
+		</contour>
+	</outline>
+	<guideline x="45.8000876371" y="658" angle="0" identifier="b3w6f6co8h"/>
+	<guideline x="45.8000876371" y="658" angle="0" identifier="jdn5JLBvkG"/>
+	<guideline x="45.8000876371" y="658" angle="0" identifier="mF84iu6Knu"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+		</dict>
+	</lib>
 </glyph>

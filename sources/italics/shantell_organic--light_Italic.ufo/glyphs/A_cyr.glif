@@ -1,20 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Acyr" format="2">
-  <advance width="713"/>
-  <unicode hex="0410"/>
-  <anchor x="315.872" y="48.0" name="bottom"/>
-  <anchor x="557.472" y="26.0" name="ogonek"/>
-  <anchor x="480.673" y="642.0" name="ring"/>
-  <anchor x="480.473" y="641.0" name="top"/>
-  <outline>
-    <component base="A"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.733,0.518,0.996,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0410"/>
+	<advance width="713"/>
+	<outline>
+		<component base="A"/>
+	</outline>
+	<anchor name="bottom" x="311.3935673323" y="48"/>
+	<anchor name="ogonek" x="552.9935403671" y="26"/>
+	<anchor name="ring" x="476.194295394" y="642"/>
+	<anchor name="top" x="475.9942941683" y="641"/>
 </glyph>

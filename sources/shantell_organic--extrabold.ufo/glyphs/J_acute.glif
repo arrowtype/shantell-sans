@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Jacute" format="2">
-  <advance width="655"/>
-  <anchor x="314" y="29" name="bottom"/>
-  <anchor x="344" y="654" name="top"/>
-  <outline>
-    <component base="J"/>
-    <component base="acutecomb" xOffset="344" yOffset="139"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0,0,0.502</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<advance width="655"/>
+	<outline>
+		<component base="J"/>
+		<component base="acutecomb" xOffset="344" yOffset="139"/>
+	</outline>
+	<anchor name="bottom" x="314" y="29"/>
+	<anchor name="top" x="344" y="654"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,0,0,0.502</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

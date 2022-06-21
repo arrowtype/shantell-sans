@@ -1,36 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ycircumflex" format="2">
-  <advance width="623"/>
-  <unicode hex="0177"/>
-  <anchor x="214.987" y="-250.0" name="bottom"/>
-  <anchor x="395.476" y="753.0" name="top"/>
-  <outline>
-    <component base="y" xOffset="-3"/>
-    <component base="circumflexcomb" xOffset="297"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>y</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>circumflexcomb</string>
-        </dict>
-      </array>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0177"/>
+	<advance width="623"/>
+	<outline>
+		<component base="y" xOffset="-3"/>
+		<component base="circumflexcomb" xOffset="297"/>
+	</outline>
+	<anchor name="bottom" x="214.987" y="-250"/>
+	<anchor name="top" x="395.476" y="753"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>y</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>circumflexcomb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

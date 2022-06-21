@@ -1,23 +1,23 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_f_i" format="2">
-  <advance width="1148"/>
-  <unicode hex="FB03"/>
-  <anchor x="120.248" y="0.0" name="bottom_1"/>
-  <anchor x="537.248" y="0.0" name="bottom_2"/>
-  <anchor x="943.045" y="0.0" name="bottom_3"/>
-  <anchor x="997.045" y="0.0" name="ogonek"/>
-  <anchor x="387.249" y="750.0" name="top_1"/>
-  <anchor x="804.249" y="750.0" name="top_2"/>
-  <anchor x="1091.201" y="742.0" name="top_3"/>
-  <outline>
-    <component base="f"/>
-    <component base="f" xOffset="417"/>
-    <component base="i" xOffset="834"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="FB03"/>
+	<advance width="1148"/>
+	<outline>
+		<component base="f"/>
+		<component base="f" xOffset="417"/>
+		<component base="i" xOffset="834"/>
+	</outline>
+	<anchor name="bottom_1" x="120.248" y="0"/>
+	<anchor name="bottom_2" x="537.248" y="0"/>
+	<anchor name="bottom_3" x="943.045" y="0"/>
+	<anchor name="ogonek" x="997.045" y="0"/>
+	<anchor name="top_1" x="387.249" y="750"/>
+	<anchor name="top_2" x="804.249" y="750"/>
+	<anchor name="top_3" x="1091.201" y="742"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

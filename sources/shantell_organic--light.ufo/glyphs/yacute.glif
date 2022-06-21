@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yacute" format="2">
-  <advance width="563"/>
-  <unicode hex="00FD"/>
-  <anchor x="282" y="-250" name="bottom"/>
-  <anchor x="270" y="536" name="top"/>
-  <outline>
-    <component base="y"/>
-    <component base="acutecomb" xOffset="270" yOffset="21"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="00FD"/>
+	<advance width="563"/>
+	<outline>
+		<component base="y"/>
+		<component base="acutecomb" xOffset="270" yOffset="21"/>
+	</outline>
+	<anchor name="bottom" x="282" y="-250"/>
+	<anchor name="top" x="270" y="536"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

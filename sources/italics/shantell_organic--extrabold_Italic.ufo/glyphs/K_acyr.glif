@@ -1,18 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Kacyr" format="2">
-  <advance width="699"/>
-  <unicode hex="041A"/>
-  <anchor x="276.13399999999996" y="0.0" name="bottom"/>
-  <anchor x="416.135" y="700.0" name="top"/>
-  <outline>
-    <component base="K" xOffset="-3.636"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.733,0.518,0.996,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="041A"/>
+	<advance width="699"/>
+	<outline>
+		<component base="K" xOffset="-3.6359064748"/>
+	</outline>
+	<anchor name="bottom" x="279.769880688" y="0"/>
+	<anchor name="top" x="419.7707386731" y="700"/>
 </glyph>

@@ -1,19 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="odieresiscyr" format="2">
-  <advance width="600"/>
-  <unicode hex="04E7"/>
-  <anchor x="261.695" y="0.0" name="bottom"/>
-  <anchor x="396.095" y="37.0" name="ogonek"/>
-  <anchor x="402.683" y="650.0" name="top"/>
-  <outline>
-    <component base="odieresis"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.733,0.518,0.996,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="04E7"/>
+	<advance width="600"/>
+	<outline>
+		<component base="odieresis"/>
+	</outline>
+	<anchor name="bottom" x="261.7923593966" y="0"/>
+	<anchor name="ogonek" x="396.1924047472" y="37"/>
+	<anchor name="top" x="402.793156097" y="650"/>
 </glyph>

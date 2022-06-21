@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Scommaaccent" format="2">
-  <advance width="561"/>
-  <unicode hex="0218"/>
-  <anchor x="269" y="0" name="bottom"/>
-  <anchor x="299" y="700" name="top"/>
-  <outline>
-    <component base="S"/>
-    <component base="commaaccentbelowcmb" xOffset="269"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0,0,0.502</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0218"/>
+	<advance width="561"/>
+	<outline>
+		<component base="S"/>
+		<component base="commaaccentbelowcmb" xOffset="269"/>
+	</outline>
+	<anchor name="bottom" x="269" y="0"/>
+	<anchor name="top" x="299" y="700"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,0,0,0.502</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

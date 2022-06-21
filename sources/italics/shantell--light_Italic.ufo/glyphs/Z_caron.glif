@@ -1,36 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Zcaron" format="2">
-  <advance width="636"/>
-  <unicode hex="017D"/>
-  <anchor x="271.009" y="0.0" name="bottom"/>
-  <anchor x="411.01" y="700.0" name="top"/>
-  <outline>
-    <component base="Z"/>
-    <component base="caroncomb" xOffset="356" yOffset="185"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>Z</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>caroncomb</string>
-        </dict>
-      </array>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="017D"/>
+	<advance width="636"/>
+	<outline>
+		<component base="Z"/>
+		<component base="caroncomb" xOffset="356" yOffset="185"/>
+	</outline>
+	<anchor name="bottom" x="271.009" y="0"/>
+	<anchor name="top" x="411.01" y="700"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>Z</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>caroncomb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

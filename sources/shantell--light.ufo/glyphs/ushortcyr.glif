@@ -1,20 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ushortcyr" format="2">
-  <advance width="563"/>
-  <unicode hex="045E"/>
-  <anchor x="282" y="-250" name="bottom"/>
-  <anchor x="270" y="485" name="top_1"/>
-  <anchor x="270" y="485" name="top_2"/>
-  <outline>
-    <component base="y"/>
-    <component base="brevecomb-cy" xOffset="76" yOffset="-30"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.992,0.706,0.831,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="045E"/>
+	<advance width="563"/>
+	<outline>
+		<component base="y"/>
+		<component base="brevecomb-cy" xOffset="76" yOffset="-30"/>
+	</outline>
+	<anchor name="bottom" x="282" y="-250"/>
+	<anchor name="top_1" x="270" y="485"/>
+	<anchor name="top_2" x="270" y="485"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.992,0.706,0.831,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Idotbelow" format="2">
-  <advance width="607"/>
-  <unicode hex="1ECA"/>
-  <anchor x="307" y="59" name="bottom"/>
-  <anchor x="526" y="62" name="ogonek"/>
-  <anchor x="310" y="627" name="top"/>
-  <outline>
-    <component base="I"/>
-    <component base="dotbelowcmb" xOffset="307" yOffset="59"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="1ECA"/>
+	<advance width="607"/>
+	<outline>
+		<component base="I"/>
+		<component base="dotbelowcmb" xOffset="307" yOffset="59"/>
+	</outline>
+	<anchor name="bottom" x="307" y="59"/>
+	<anchor name="ogonek" x="526" y="62"/>
+	<anchor name="top" x="310" y="627"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

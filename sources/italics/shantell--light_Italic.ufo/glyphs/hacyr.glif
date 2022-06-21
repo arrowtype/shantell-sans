@@ -1,18 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hacyr" format="2">
-  <advance width="504"/>
-  <unicode hex="0445"/>
-  <anchor x="209.417" y="0.0" name="bottom"/>
-  <anchor x="292.418" y="485.0" name="top"/>
-  <outline>
-    <component base="x"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.733,0.518,0.996,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0445"/>
+	<advance width="504"/>
+	<outline>
+		<component base="x"/>
+	</outline>
+	<anchor name="bottom" x="209.7923593966" y="0"/>
+	<anchor name="top" x="292.7929538577" y="485"/>
 </glyph>

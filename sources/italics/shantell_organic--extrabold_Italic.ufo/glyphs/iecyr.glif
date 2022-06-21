@@ -1,19 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iecyr" format="2">
-  <advance width="657"/>
-  <unicode hex="0435"/>
-  <anchor x="255.63" y="-37.0" name="bottom"/>
-  <anchor x="478.83" y="9.0" name="ogonek"/>
-  <anchor x="400.03" y="550.0" name="top"/>
-  <outline>
-    <component base="e"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.733,0.518,0.996,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0435"/>
+	<advance width="657"/>
+	<outline>
+		<component base="e"/>
+	</outline>
+	<anchor name="bottom" x="260.0057418122" y="-37"/>
+	<anchor name="ogonek" x="483.205798194" y="9"/>
+	<anchor name="top" x="404.4064612939" y="550"/>
 </glyph>

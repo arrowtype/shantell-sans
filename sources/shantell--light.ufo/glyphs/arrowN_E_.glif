@@ -1,29 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arrowNE" format="2">
-  <advance width="700"/>
-  <unicode hex="2197"/>
-  <image fileName="arrowup.png" xScale="3.69864" yScale="3.69864" xOffset="-127.018" yOffset="-172.175"/>
-  <guideline x="350" identifier="WhJZ6mh5H2"/>
-  <outline>
-    <component base="arrowdown" xScale="-0.70711" xyScale="0.70711" yxScale="-0.70711" yScale="-0.70711" xOffset="847" yOffset="345"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.backgroundImage.alpha</key>
-      <integer>50</integer>
-      <key>com.schriftgestaltung.backgroundImage.crop</key>
-      <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
-      </array>
-      <key>com.schriftgestaltung.backgroundImage.locked</key>
-      <false/>
-      <key>com.typemytype.robofont.Image.Sharpness</key>
-      <real>0.4</real>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="2197"/>
+	<advance width="700"/>
+	<image fileName="arrowup.png" xScale="3.69864" yScale="3.69864" xOffset="-127.018" yOffset="-172.175"/>
+	<outline>
+		<component base="arrowdown" xScale="-0.70711" xyScale="0.70711" yxScale="-0.70711" yScale="-0.70711" xOffset="847" yOffset="345"/>
+	</outline>
+	<guideline x="350" identifier="WhJZ6mh5H2"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
+			<key>com.typemytype.robofont.Image.Sharpness</key>
+			<real>0.4</real>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

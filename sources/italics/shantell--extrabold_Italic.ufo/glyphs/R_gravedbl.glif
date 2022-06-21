@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Rgravedbl" format="2">
-  <advance width="756"/>
-  <unicode hex="0210"/>
-  <anchor x="317.22" y="0.0" name="bottom"/>
-  <anchor x="496.344" y="895.0" name="top"/>
-  <outline>
-    <component base="R"/>
-    <component base="gravedoublecmb" xOffset="406" yOffset="185"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0210"/>
+	<advance width="756"/>
+	<outline>
+		<component base="R"/>
+		<component base="gravedoublecmb" xOffset="406" yOffset="185"/>
+	</outline>
+	<anchor name="bottom" x="317.22" y="0"/>
+	<anchor name="top" x="496.344" y="895"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

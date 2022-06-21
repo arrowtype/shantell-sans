@@ -1,18 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ylongdieresiscyr" format="2">
-  <advance width="812"/>
-  <unicode hex="04F9"/>
-  <anchor x="495.718" y="750.0" name="top"/>
-  <outline>
-    <component base="ylongcyr"/>
-    <component base="dieresiscomb" xOffset="395"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.992,0.706,0.831,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="04F9"/>
+	<advance width="812"/>
+	<outline>
+		<component base="ylongcyr" xOffset="-2.2217591643"/>
+		<component base="dieresiscomb" xOffset="392.7782408357"/>
+	</outline>
+	<anchor name="top" x="495.5792477425" y="750"/>
 </glyph>

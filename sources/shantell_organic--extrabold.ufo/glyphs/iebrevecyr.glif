@@ -1,21 +1,21 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iebrevecyr" format="2">
-  <advance width="657"/>
-  <unicode hex="04D7"/>
-  <anchor x="315" y="-37" name="bottom"/>
-  <anchor x="529" y="9" name="ogonek"/>
-  <anchor x="342" y="550" name="top_1"/>
-  <anchor x="342" y="550" name="top_2"/>
-  <outline>
-    <component base="e"/>
-    <component base="brevecomb-cy" xOffset="148" yOffset="35"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.992,0.706,0.831,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="04D7"/>
+	<advance width="657"/>
+	<outline>
+		<component base="e"/>
+		<component base="brevecomb-cy" xOffset="148" yOffset="35"/>
+	</outline>
+	<anchor name="bottom" x="315" y="-37"/>
+	<anchor name="ogonek" x="529" y="9"/>
+	<anchor name="top_1" x="342" y="550"/>
+	<anchor name="top_2" x="342" y="550"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.992,0.706,0.831,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

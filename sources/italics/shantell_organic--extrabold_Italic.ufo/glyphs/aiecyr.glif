@@ -1,17 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aiecyr" format="2">
-  <advance width="927"/>
-  <unicode hex="04D5"/>
-  <anchor x="528.643" y="515.0" name="top"/>
-  <outline>
-    <component base="ae"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.733,0.518,0.996,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="04D5"/>
+	<advance width="927"/>
+	<outline>
+		<component base="ae" xOffset="-3.7638276496"/>
+	</outline>
+	<anchor name="top" x="528.6425907451" y="515"/>
 </glyph>

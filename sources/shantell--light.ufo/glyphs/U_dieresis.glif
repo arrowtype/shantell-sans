@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Udieresis" format="2">
-  <advance width="650"/>
-  <unicode hex="00DC"/>
-  <anchor x="337" y="0" name="bottom"/>
-  <anchor x="446" y="12" name="ogonek"/>
-  <anchor x="339" y="835" name="top"/>
-  <outline>
-    <component base="U"/>
-    <component base="dieresiscomb" xOffset="339" yOffset="185"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="00DC"/>
+	<advance width="650"/>
+	<outline>
+		<component base="U"/>
+		<component base="dieresiscomb" xOffset="339" yOffset="185"/>
+	</outline>
+	<anchor name="bottom" x="337" y="0"/>
+	<anchor name="ogonek" x="446" y="12"/>
+	<anchor name="top" x="339" y="835"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

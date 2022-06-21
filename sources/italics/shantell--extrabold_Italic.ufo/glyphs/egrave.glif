@@ -1,37 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="egrave" format="2">
-  <advance width="617"/>
-  <unicode hex="00E8"/>
-  <anchor x="257.656" y="0.0" name="bottom"/>
-  <anchor x="461.856" y="41.0" name="ogonek"/>
-  <anchor x="360.657" y="515.0" name="top"/>
-  <outline>
-    <component base="e"/>
-    <component base="gravecomb" xOffset="300"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>e</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>gravecomb</string>
-        </dict>
-      </array>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="00E8"/>
+	<advance width="617"/>
+	<outline>
+		<component base="e"/>
+		<component base="gravecomb" xOffset="300"/>
+	</outline>
+	<anchor name="bottom" x="257.656" y="0"/>
+	<anchor name="ogonek" x="461.856" y="41"/>
+	<anchor name="top" x="360.657" y="515"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>e</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>gravecomb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

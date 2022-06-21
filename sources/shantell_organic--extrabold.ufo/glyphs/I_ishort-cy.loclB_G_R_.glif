@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Iishort-cy.loclBGR" format="2">
-  <advance width="746"/>
-  <anchor x="373" y="700" name="top"/>
-  <outline>
-    <component base="Ishortcyr"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.169,0.216,0.263,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<advance width="746"/>
+	<outline>
+		<component base="Ishortcyr"/>
+	</outline>
+	<anchor name="top" x="373" y="700"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.169,0.216,0.263,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

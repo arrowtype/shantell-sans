@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ecaron" format="2">
-  <advance width="562"/>
-  <unicode hex="011B"/>
-  <anchor x="272" y="0" name="bottom"/>
-  <anchor x="423" y="32" name="ogonek"/>
-  <anchor x="299" y="485" name="top"/>
-  <outline>
-    <component base="e"/>
-    <component base="caroncomb" xOffset="299"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="011B"/>
+	<advance width="562"/>
+	<outline>
+		<component base="e"/>
+		<component base="caroncomb" xOffset="299"/>
+	</outline>
+	<anchor name="bottom" x="272" y="0"/>
+	<anchor name="ogonek" x="423" y="32"/>
+	<anchor name="top" x="299" y="485"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gbreve" format="2">
-  <advance width="700"/>
-  <unicode hex="011F"/>
-  <anchor x="378" y="-250" name="bottom"/>
-  <anchor x="317" y="807" name="top"/>
-  <outline>
-    <component base="g"/>
-    <component base="brevecomb" xOffset="317" yOffset="54"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="011F"/>
+	<advance width="700"/>
+	<outline>
+		<component base="g"/>
+		<component base="brevecomb" xOffset="317" yOffset="54"/>
+	</outline>
+	<anchor name="bottom" x="378" y="-250"/>
+	<anchor name="top" x="317" y="807"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

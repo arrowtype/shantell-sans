@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ograve" format="2">
-  <advance width="678"/>
-  <unicode hex="00F2"/>
-  <anchor x="346" y="0" name="bottom"/>
-  <anchor x="502" y="37" name="ogonek"/>
-  <anchor x="346" y="515" name="top"/>
-  <outline>
-    <component base="o"/>
-    <component base="gravecomb" xOffset="353"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="00F2"/>
+	<advance width="678"/>
+	<outline>
+		<component base="o"/>
+		<component base="gravecomb" xOffset="353"/>
+	</outline>
+	<anchor name="bottom" x="346" y="0"/>
+	<anchor name="ogonek" x="502" y="37"/>
+	<anchor name="top" x="346" y="515"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

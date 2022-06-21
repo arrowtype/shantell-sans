@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fl" format="2">
-  <advance width="653"/>
-  <unicode hex="FB02"/>
-  <anchor x="75.6" y="0.0" name="bottom_1"/>
-  <anchor x="503.21299999999997" y="0.0" name="bottom_2"/>
-  <anchor x="342.601" y="750.0" name="top_1"/>
-  <anchor x="588.2139999999999" y="750.0" name="top_2"/>
-  <outline>
-    <component base="f"/>
-    <component base="l" xOffset="349"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="FB02"/>
+	<advance width="653"/>
+	<outline>
+		<component base="f"/>
+		<component base="l" xOffset="349"/>
+	</outline>
+	<anchor name="bottom_1" x="75.6" y="0"/>
+	<anchor name="bottom_2" x="503.213" y="0"/>
+	<anchor name="top_1" x="342.601" y="750"/>
+	<anchor name="top_2" x="588.214" y="750"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

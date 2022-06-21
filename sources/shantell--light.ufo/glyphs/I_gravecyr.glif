@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Igravecyr" format="2">
-  <advance width="703"/>
-  <unicode hex="040D"/>
-  <anchor x="353" y="700" name="top"/>
-  <outline>
-    <component base="Icyr"/>
-    <component base="gravecomb" xOffset="353" yOffset="215"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.992,0.706,0.831,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="040D"/>
+	<advance width="703"/>
+	<outline>
+		<component base="Icyr"/>
+		<component base="gravecomb" xOffset="353" yOffset="215"/>
+	</outline>
+	<anchor name="top" x="353" y="700"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.992,0.706,0.831,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

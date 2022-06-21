@@ -1,28 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="de-cy.loclBGR" format="2">
-  <advance width="660"/>
-  <anchor x="267.545" y="-250.0" name="bottom"/>
-  <anchor x="348.946" y="532.0" name="top"/>
-  <outline>
-    <component base="g" xOffset="5"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>g</string>
-        </dict>
-      </array>
-      <key>public.markColor</key>
-      <string>0.733,0.518,0.996,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<advance width="610"/>
+	<outline>
+		<component base="g"/>
+	</outline>
+	<anchor name="bottom" x="257.7932020758" y="-250"/>
+	<anchor name="top" x="339.1941605678" y="532"/>
 </glyph>

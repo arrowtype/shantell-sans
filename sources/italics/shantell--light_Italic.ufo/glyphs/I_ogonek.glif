@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Iogonek" format="2">
-  <advance width="547"/>
-  <unicode hex="012E"/>
-  <anchor x="228.791" y="0.0" name="bottom"/>
-  <anchor x="395.391" y="3.0" name="ogonek"/>
-  <anchor x="368.792" y="700.0" name="top"/>
-  <outline>
-    <component base="I"/>
-    <component base="ogonekcmb" xOffset="386.998" yOffset="3"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="012E"/>
+	<advance width="547"/>
+	<outline>
+		<component base="I"/>
+		<component base="ogonekcmb" xOffset="386.998" yOffset="3"/>
+	</outline>
+	<anchor name="bottom" x="228.791" y="0"/>
+	<anchor name="ogonek" x="395.391" y="3"/>
+	<anchor name="top" x="368.792" y="700"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

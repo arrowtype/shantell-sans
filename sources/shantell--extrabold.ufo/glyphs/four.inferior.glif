@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="four.inferior" format="2">
-  <advance width="540"/>
-  <unicode hex="2084"/>
-  <outline>
-    <component base="four.dnom" xOffset="43" yOffset="-150"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="2084"/>
+	<advance width="540"/>
+	<outline>
+		<component base="four.dnom" xOffset="43" yOffset="-150"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

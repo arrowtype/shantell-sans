@@ -1,19 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uacutedblcyr" format="2">
-  <advance width="623"/>
-  <unicode hex="04F3"/>
-  <anchor x="215.174" y="-250.0" name="bottom"/>
-  <anchor x="348.175" y="515.0" name="top"/>
-  <outline>
-    <component base="y" xOffset="-2.813"/>
-    <component base="hungarumlautcmb" xOffset="297.187"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.992,0.706,0.831,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="04F3"/>
+	<advance width="623"/>
+	<outline>
+		<component base="y" xOffset="-2.8127082623"/>
+		<component base="hungarumlautcmb" xOffset="297.1872917377"/>
+	</outline>
+	<anchor name="bottom" x="217.9870729516" y="-250"/>
+	<anchor name="top" x="350.9880106067" y="515"/>
 </glyph>

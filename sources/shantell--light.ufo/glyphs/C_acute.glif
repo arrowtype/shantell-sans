@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Cacute" format="2">
-  <advance width="633"/>
-  <unicode hex="0106"/>
-  <anchor x="332" y="0" name="bottom"/>
-  <anchor x="375" y="700" name="top"/>
-  <outline>
-    <component base="C"/>
-    <component base="acutecomb" xOffset="370" yOffset="185"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0106"/>
+	<advance width="633"/>
+	<outline>
+		<component base="C"/>
+		<component base="acutecomb" xOffset="370" yOffset="185"/>
+	</outline>
+	<anchor name="bottom" x="332" y="0"/>
+	<anchor name="top" x="375" y="700"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

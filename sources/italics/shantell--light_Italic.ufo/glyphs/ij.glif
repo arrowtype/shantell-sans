@@ -1,21 +1,21 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ij" format="2">
-  <advance width="517"/>
-  <unicode hex="0133"/>
-  <anchor x="87.987" y="0.0" name="bottom"/>
-  <anchor x="110.987" y="0.0" name="ogonek"/>
-  <anchor x="217.364" y="652.0" name="top_1"/>
-  <anchor x="437.36400000000003" y="620.0" name="top_2"/>
-  <outline>
-    <component base="i"/>
-    <component base="j" xOffset="276"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0133"/>
+	<advance width="517"/>
+	<outline>
+		<component base="i"/>
+		<component base="j" xOffset="276"/>
+	</outline>
+	<anchor name="bottom" x="87.987" y="0"/>
+	<anchor name="ogonek" x="110.987" y="0"/>
+	<anchor name="top_1" x="217.364" y="652"/>
+	<anchor name="top_2" x="437.364" y="620"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.75,0.75,0.75,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

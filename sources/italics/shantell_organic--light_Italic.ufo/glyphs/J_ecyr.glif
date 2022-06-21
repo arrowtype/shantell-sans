@@ -1,18 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Jecyr" format="2">
-  <advance width="648"/>
-  <unicode hex="0408"/>
-  <anchor x="250.512" y="31.0" name="bottom"/>
-  <anchor x="373.713" y="647.0" name="top"/>
-  <outline>
-    <component base="J" xOffset="4.259"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.733,0.518,0.996,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0408"/>
+	<advance width="648"/>
+	<outline>
+		<component base="J" xOffset="4.2592822423"/>
+	</outline>
+	<anchor name="bottom" x="246.2528287379" y="31"/>
+	<anchor name="top" x="369.4535837648" y="647"/>
 </glyph>

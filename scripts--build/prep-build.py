@@ -17,6 +17,7 @@
 
 import os
 import shutil
+from typing import Type
 from fontParts.fontshell import RFont as Font
 from fontParts.world import *
 from random import random
@@ -307,17 +308,23 @@ def positiveOrNegative():
     return 1 if random() < 0.5 else -1
 
 
-def italicBounceShift(yShift, glyphName, font):
+def italicBounceShift(yShift, font):
     """
         Return necessary x shift for a given y shift and italic angle.
     """
 
-    if font.info.italicAngle == None:
-        return(0)
+    if font.info.italicAngle == None or font.info.italicAngle == 0:
+        return 0
 
     if abs(font.info.italicAngle) > 0:
         xShift = yShift * math.tan(math.radians(-font.info.italicAngle))
-        return xShift
+
+        # print("xShift is", xShift)
+
+        if xShift is None:
+            return 0
+        else:
+            return xShift
 
 
 def makeBounce(font, glyph, randomLimit=100, minShift=50, factor=1):
@@ -332,12 +339,12 @@ def makeBounce(font, glyph, randomLimit=100, minShift=50, factor=1):
     # alt 1 → shift downwards
     if 'alt1' in glyph.name and glyph.name.split(".")[0]:
         moveY = round((randomLimit-minShift) * random() + minShift) * -1 * factor
-        glyph.moveBy((italicBounceShift(moveY, glyph.name, font), moveY))
+        glyph.moveBy((italicBounceShift(moveY, font), moveY))
 
     # alt 2 → shift upwards
     if 'alt2' in glyph.name and glyph.name.split(".")[0]:
         moveY = round((randomLimit-minShift) * random() + minShift) * factor
-        glyph.moveBy((italicBounceShift(moveY, glyph.name, font), moveY))
+        glyph.moveBy((italicBounceShift(moveY, font), moveY))
 
     # alt 3 or more → shift up or down by up to 66% (not necessarily needed)
     if 'alt' in glyph.name and \
@@ -345,13 +352,14 @@ def makeBounce(font, glyph, randomLimit=100, minShift=50, factor=1):
         'alt1' not in glyph.name and \
         'alt2' not in glyph.name:
         moveY = round((randomLimit-minShift) * random() + (minShift*0.66)) * positiveOrNegative() * factor # reduce shift other alt glyphs
-        glyph.moveBy((italicBounceShift(moveY, glyph.name, font), moveY))
+
+        glyph.moveBy((italicBounceShift(moveY, font), moveY))
 
     # non-alt glyphs → shift up or down by up to 20%
     if 'alt' not in glyph.name and glyph.name:
         # moveY = round((randomLimit-minShift) * random() + minShift) * positiveOrNegative() * factor
         moveY = round((randomLimit-minShift) * random() + (minShift*0.2)) * positiveOrNegative() * factor # mostly remove minShift for default glyphs, so more are in the middle
-        glyph.moveBy((italicBounceShift(moveY, glyph.name, font), moveY))
+        glyph.moveBy((italicBounceShift(moveY, font), moveY))
 
     if moveY == 0:
         pass
@@ -423,8 +431,12 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
                 try:
                     # try: look up bounce dict in the core light/extrabold font, use in this font
                     moveY = baseFont.lib["com.arrowtype.glyphBounces"][g.name] * factor
-                    g.moveBy((italicBounceShift(moveY, g.name, font),moveY))
+                    g.moveBy((italicBounceShift(moveY, font),moveY))
+
+                # y bounce not yet generated
                 except KeyError:
+                    print(g.name)
+                    print((italicBounceShift(moveY, font),moveY))
                     # except KeyError: generate bounce value and add to core light/extrabold font
                     moveY = makeBounce(font, g, randomLimit, minShift, factor)
                     recordBounce(baseFont, g.name, moveY)
@@ -454,7 +466,7 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
                             if c.baseGlyph is not mainBase:
                                 c.moveBy((0,baseShift))
                         # move glyph to normal position to "reset" it
-                        g.moveBy((italicBounceShift(moveY, g.name, font),-baseShift))
+                        g.moveBy((italicBounceShift(moveY, font),-baseShift))
 
                     #  correct single-component glyphs like oslash, lslash
                     else:
@@ -469,7 +481,7 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
                 # move full glyph again # BUT WAIT, this just breaks it? ... does it need all components moved separately, rather than the whole thing moved?
                 try:
                     moveY = baseFont.lib["com.arrowtype.glyphBounces"][g.name] * factor
-                    g.moveBy((italicBounceShift(moveY, g.name, font),moveY))
+                    g.moveBy((italicBounceShift(moveY, font),moveY))
                 except KeyError:
                     moveY = makeBounce(font, g, randomLimit, minShift, factor)
                     recordBounce(baseFont, g.name, moveY)

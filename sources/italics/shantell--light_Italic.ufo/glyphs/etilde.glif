@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="etilde" format="2">
-  <advance width="562"/>
-  <unicode hex="1EBD"/>
-  <anchor x="223.073" y="0.0" name="bottom"/>
-  <anchor x="380.473" y="32.0" name="ogonek"/>
-  <anchor x="390.545" y="700.0" name="top"/>
-  <outline>
-    <component base="e"/>
-    <component base="tildecomb" xOffset="299"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="1EBD"/>
+	<advance width="562"/>
+	<outline>
+		<component base="e"/>
+		<component base="tildecomb" xOffset="299"/>
+	</outline>
+	<anchor name="bottom" x="223.073" y="0"/>
+	<anchor name="ogonek" x="380.473" y="32"/>
+	<anchor name="top" x="390.545" y="700"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

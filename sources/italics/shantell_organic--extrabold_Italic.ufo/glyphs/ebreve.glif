@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ebreve" format="2">
-  <advance width="657"/>
-  <unicode hex="0115"/>
-  <anchor x="255.63" y="-37.0" name="bottom"/>
-  <anchor x="478.83" y="9.0" name="ogonek"/>
-  <anchor x="448.01800000000003" y="785.0" name="top"/>
-  <outline>
-    <component base="e"/>
-    <component base="brevecomb" xOffset="349" yOffset="35"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0115"/>
+	<advance width="657"/>
+	<outline>
+		<component base="e"/>
+		<component base="brevecomb" xOffset="349" yOffset="35"/>
+	</outline>
+	<anchor name="bottom" x="255.63" y="-37"/>
+	<anchor name="ogonek" x="478.83" y="9"/>
+	<anchor name="top" x="448.018" y="785"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

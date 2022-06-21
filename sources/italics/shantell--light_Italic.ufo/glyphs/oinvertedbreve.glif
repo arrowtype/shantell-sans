@@ -1,37 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oinvertedbreve" format="2">
-  <advance width="600"/>
-  <unicode hex="020F"/>
-  <anchor x="261.695" y="0.0" name="bottom"/>
-  <anchor x="396.095" y="37.0" name="ogonek"/>
-  <anchor x="417.563" y="720.0" name="top"/>
-  <outline>
-    <component base="o"/>
-    <component base="invertedbrevecmb" xOffset="315" yOffset="-30"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>o</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>invertedbrevecmb</string>
-        </dict>
-      </array>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="020F"/>
+	<advance width="600"/>
+	<outline>
+		<component base="o"/>
+		<component base="invertedbrevecmb" xOffset="315" yOffset="-30"/>
+	</outline>
+	<anchor name="bottom" x="261.695" y="0"/>
+	<anchor name="ogonek" x="396.095" y="37"/>
+	<anchor name="top" x="417.563" y="720"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>o</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>invertedbrevecmb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

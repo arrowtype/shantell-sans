@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ccedilla" format="2">
-  <advance width="542"/>
-  <unicode hex="00E7"/>
-  <anchor x="229.958" y="31.0" name="bottom"/>
-  <anchor x="331.759" y="485.0" name="top"/>
-  <outline>
-    <component base="c"/>
-    <component base="cedillacomb" xOffset="280" yOffset="31"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="00E7"/>
+	<advance width="542"/>
+	<outline>
+		<component base="c"/>
+		<component base="cedillacomb" xOffset="280" yOffset="31"/>
+	</outline>
+	<anchor name="bottom" x="229.958" y="31"/>
+	<anchor name="top" x="331.759" y="485"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

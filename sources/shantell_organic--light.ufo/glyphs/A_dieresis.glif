@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Adieresis" format="2">
-  <advance width="713"/>
-  <unicode hex="00C4"/>
-  <anchor x="355" y="48" name="bottom"/>
-  <anchor x="601" y="26" name="ogonek"/>
-  <anchor x="401" y="642" name="ring"/>
-  <anchor x="400" y="816" name="top"/>
-  <outline>
-    <component base="A"/>
-    <component base="dieresiscomb" xOffset="401" yOffset="156"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="00C4"/>
+	<advance width="713"/>
+	<outline>
+		<component base="A"/>
+		<component base="dieresiscomb" xOffset="401" yOffset="156"/>
+	</outline>
+	<anchor name="bottom" x="355" y="48"/>
+	<anchor name="ogonek" x="601" y="26"/>
+	<anchor name="ring" x="401" y="642"/>
+	<anchor name="top" x="400" y="816"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

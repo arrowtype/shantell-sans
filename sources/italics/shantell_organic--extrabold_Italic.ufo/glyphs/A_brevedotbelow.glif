@@ -1,47 +1,47 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Abrevedotbelow" format="2">
-  <advance width="780"/>
-  <unicode hex="1EB6"/>
-  <anchor x="363.66" y="54.0" name="bottom"/>
-  <anchor x="643.26" y="17.0" name="ogonek"/>
-  <anchor x="486.46" y="633.0" name="ring"/>
-  <anchor x="533.018" y="869.0" name="top"/>
-  <outline>
-    <component base="A"/>
-    <component base="brevecomb" xOffset="434" yOffset="119"/>
-    <component base="dotbelowcmb" xOffset="415" yOffset="54"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>A</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>brevecomb</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>2</integer>
-          <key>name</key>
-          <string>dotbelowcmb</string>
-        </dict>
-      </array>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="1EB6"/>
+	<advance width="780"/>
+	<outline>
+		<component base="A"/>
+		<component base="brevecomb" xOffset="434" yOffset="119"/>
+		<component base="dotbelowcmb" xOffset="415" yOffset="54"/>
+	</outline>
+	<anchor name="bottom" x="363.66" y="54"/>
+	<anchor name="ogonek" x="643.26" y="17"/>
+	<anchor name="ring" x="486.46" y="633"/>
+	<anchor name="top" x="533.018" y="869"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>A</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>brevecomb</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>dotbelowcmb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

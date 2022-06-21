@@ -1,37 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ecircumflexacute" format="2">
-  <advance width="537"/>
-  <unicode hex="1EBF"/>
-  <anchor x="201.795" y="-36.0" name="bottom"/>
-  <anchor x="346.195" y="-9.0" name="ogonek"/>
-  <anchor x="360.396" y="522.0" name="top"/>
-  <outline>
-    <component base="e" xOffset="5"/>
-    <component base="circumflexacutecomb" xOffset="311" yOffset="37"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>e</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>circumflexacutecomb</string>
-        </dict>
-      </array>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="1EBF"/>
+	<advance width="537"/>
+	<outline>
+		<component base="e" xOffset="5"/>
+		<component base="circumflexacutecomb" xOffset="311" yOffset="37"/>
+	</outline>
+	<anchor name="bottom" x="201.795" y="-36"/>
+	<anchor name="ogonek" x="346.195" y="-9"/>
+	<anchor name="top" x="360.396" y="522"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>e</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>circumflexacutecomb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

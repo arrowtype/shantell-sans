@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uhorntilde" format="2">
-  <advance width="824"/>
-  <unicode hex="1EEE"/>
-  <anchor x="355" y="0" name="bottom"/>
-  <anchor x="482" y="11" name="ogonek"/>
-  <anchor x="355" y="945" name="top"/>
-  <outline>
-    <component base="Uhorn"/>
-    <component base="tildecomb" xOffset="355" yOffset="185"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="1EEE"/>
+	<advance width="824"/>
+	<outline>
+		<component base="Uhorn"/>
+		<component base="tildecomb" xOffset="355" yOffset="185"/>
+	</outline>
+	<anchor name="bottom" x="355" y="0"/>
+	<anchor name="ogonek" x="482" y="11"/>
+	<anchor name="top" x="355" y="945"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

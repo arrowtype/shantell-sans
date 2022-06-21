@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ymacron" format="2">
-  <advance width="563"/>
-  <unicode hex="0233"/>
-  <anchor x="282" y="-250" name="bottom"/>
-  <anchor x="270" y="485" name="top"/>
-  <outline>
-    <component base="y"/>
-    <component base="macroncomb" xOffset="270"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0233"/>
+	<advance width="563"/>
+	<outline>
+		<component base="y"/>
+		<component base="macroncomb" xOffset="270"/>
+	</outline>
+	<anchor name="bottom" x="282" y="-250"/>
+	<anchor name="top" x="270" y="485"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

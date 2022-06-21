@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uinvertedbreve" format="2">
-  <advance width="659"/>
-  <unicode hex="0216"/>
-  <anchor x="338" y="50" name="bottom"/>
-  <anchor x="464" y="73" name="ogonek"/>
-  <anchor x="329" y="845" name="top"/>
-  <outline>
-    <component base="U"/>
-    <component base="invertedbrevecmb" xOffset="329" yOffset="95"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0216"/>
+	<advance width="659"/>
+	<outline>
+		<component base="U"/>
+		<component base="invertedbrevecmb" xOffset="329" yOffset="95"/>
+	</outline>
+	<anchor name="bottom" x="338" y="50"/>
+	<anchor name="ogonek" x="464" y="73"/>
+	<anchor name="top" x="329" y="845"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

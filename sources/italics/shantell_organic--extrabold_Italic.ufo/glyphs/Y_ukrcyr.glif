@@ -1,19 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Yukrcyr" format="2">
-  <advance width="610"/>
-  <unicode hex="0407"/>
-  <anchor x="276.006" y="53.0" name="bottom"/>
-  <anchor x="489.20599999999996" y="69.0" name="ogonek"/>
-  <anchor x="440.553" y="863.0" name="top"/>
-  <outline>
-    <component base="Idieresis" xOffset="3.835"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.733,0.518,0.996,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0407"/>
+	<advance width="610"/>
+	<outline>
+		<component base="Idieresis"/>
+	</outline>
+	<anchor name="bottom" x="280.0058521245" y="53"/>
+	<anchor name="ogonek" x="493.2058717356" y="69"/>
+	<anchor name="top" x="442.0068449358" y="863"/>
 </glyph>

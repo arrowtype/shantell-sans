@@ -1,18 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Dzecyr" format="2">
-  <advance width="578"/>
-  <unicode hex="0405"/>
-  <anchor x="236.737" y="25.0" name="bottom"/>
-  <anchor x="364.138" y="662.0" name="top"/>
-  <outline>
-    <component base="S"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.733,0.518,0.996,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0405"/>
+	<advance width="563"/>
+	<outline>
+		<component base="S" xOffset="-3.6683569295"/>
+	</outline>
+	<anchor name="bottom" x="236.7374608757" y="25"/>
+	<anchor name="top" x="364.1382416421" y="662"/>
 </glyph>

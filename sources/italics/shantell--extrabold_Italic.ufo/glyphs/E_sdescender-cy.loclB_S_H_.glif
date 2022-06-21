@@ -1,28 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Esdescender-cy.loclBSH" format="2">
-  <advance width="682"/>
-  <anchor x="280.494" y="0.0" name="bottom"/>
-  <anchor x="467.495" y="700.0" name="top"/>
-  <outline>
-    <component base="Ccedilla"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>Ccedilla</string>
-        </dict>
-      </array>
-      <key>public.markColor</key>
-      <string>0.169,0.216,0.263,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<advance width="682"/>
+	<outline>
+		<component base="Ccedilla"/>
+	</outline>
+	<anchor name="bottom" x="282.8000876371" y="0"/>
+	<anchor name="top" x="469.8009456222" y="700"/>
 </glyph>

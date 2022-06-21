@@ -1,37 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Zetailcyr" format="2">
-  <advance width="606"/>
-  <unicode hex="0498"/>
-  <anchor x="391.092" y="700.0" name="top"/>
-  <outline>
-    <contour>
-      <point x="171.8" y="21" type="curve" smooth="yes"/>
-      <point x="165.8" y="-10"/>
-      <point x="135.8" y="-86"/>
-      <point x="127.8" y="-123" type="curve" smooth="yes"/>
-      <point x="119.8" y="-163"/>
-      <point x="145.8" y="-207"/>
-      <point x="212.8" y="-207" type="curve" smooth="yes"/>
-      <point x="255.8" y="-207"/>
-      <point x="292.8" y="-168"/>
-      <point x="300.8" y="-128" type="curve" smooth="yes"/>
-      <point x="307.8" y="-95"/>
-      <point x="313.8" y="-19"/>
-      <point x="329.8" y="61" type="curve" smooth="yes"/>
-      <point x="334.8" y="87"/>
-      <point x="315.8" y="99"/>
-      <point x="287.8" y="99" type="curve" smooth="yes"/>
-      <point x="244.8" y="99"/>
-      <point x="181.8" y="69"/>
-    </contour>
-    <component base="Zecyr"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,1,0,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0498"/>
+	<advance width="606"/>
+	<outline>
+		<contour>
+			<point x="171.8000876371" y="21" type="curve" smooth="yes" identifier="3jC58CERlu"/>
+			<point x="165.8000876371" y="-10"/>
+			<point x="135.8000876371" y="-86"/>
+			<point x="127.8000876371" y="-123" type="curve" smooth="yes" identifier="UTNhPtaPUX"/>
+			<point x="119.8000876371" y="-163"/>
+			<point x="145.8000876371" y="-207"/>
+			<point x="212.8000876371" y="-207" type="curve" smooth="yes"/>
+			<point x="255.8000876371" y="-207"/>
+			<point x="292.8000876371" y="-168"/>
+			<point x="300.8000876371" y="-128" type="curve" smooth="yes" identifier="QLQPmZqYT2"/>
+			<point x="307.8000876371" y="-95"/>
+			<point x="313.8000876371" y="-19"/>
+			<point x="329.8000876371" y="61" type="curve" smooth="yes" identifier="sZns0voE66"/>
+			<point x="334.8000876371" y="87"/>
+			<point x="315.8000876371" y="99"/>
+			<point x="287.8000876371" y="99" type="curve" smooth="yes"/>
+			<point x="244.8000876371" y="99"/>
+			<point x="181.8000876371" y="69"/>
+		</contour>
+		<component base="Zecyr"/>
+	</outline>
+	<anchor name="top" x="392.8009456222" y="700"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+		</dict>
+	</lib>
 </glyph>

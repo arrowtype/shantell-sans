@@ -1,46 +1,46 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ocircumflexdotbelow" format="2">
-  <advance width="687"/>
-  <unicode hex="1ED8"/>
-  <anchor x="303.912" y="44.0" name="bottom"/>
-  <anchor x="435.712" y="73.0" name="ogonek"/>
-  <anchor x="457.722" y="812.0" name="top"/>
-  <outline>
-    <component base="O" xOffset="4"/>
-    <component base="circumflexcomb" xOffset="370" yOffset="131"/>
-    <component base="dotbelowcmb" xOffset="353" yOffset="44"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>O</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>circumflexcomb</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>2</integer>
-          <key>name</key>
-          <string>dotbelowcmb</string>
-        </dict>
-      </array>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="1ED8"/>
+	<advance width="687"/>
+	<outline>
+		<component base="O" xOffset="4"/>
+		<component base="circumflexcomb" xOffset="370" yOffset="131"/>
+		<component base="dotbelowcmb" xOffset="353" yOffset="44"/>
+	</outline>
+	<anchor name="bottom" x="303.912" y="44"/>
+	<anchor name="ogonek" x="435.712" y="73"/>
+	<anchor name="top" x="457.722" y="812"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>O</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>circumflexcomb</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>dotbelowcmb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

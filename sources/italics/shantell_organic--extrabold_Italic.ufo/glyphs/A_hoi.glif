@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ahoi" format="2">
-  <advance width="780"/>
-  <unicode hex="1EA2"/>
-  <anchor x="363.66" y="54.0" name="bottom"/>
-  <anchor x="643.26" y="17.0" name="ogonek"/>
-  <anchor x="486.46" y="633.0" name="ring"/>
-  <anchor x="485.66" y="634.0" name="top"/>
-  <outline>
-    <component base="A"/>
-    <component base="hookabovecmb" xOffset="434" yOffset="119"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="1EA2"/>
+	<advance width="780"/>
+	<outline>
+		<component base="A"/>
+		<component base="hookabovecmb" xOffset="434" yOffset="119"/>
+	</outline>
+	<anchor name="bottom" x="363.66" y="54"/>
+	<anchor name="ogonek" x="643.26" y="17"/>
+	<anchor name="ring" x="486.46" y="633"/>
+	<anchor name="top" x="485.66" y="634"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

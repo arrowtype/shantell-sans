@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0136" format="2">
-  <advance width="699"/>
-  <unicode hex="0136"/>
-  <anchor x="331" y="0" name="bottom"/>
-  <anchor x="331" y="700" name="top"/>
-  <outline>
-    <component base="K"/>
-    <component base="commaaccentbelowcmb" xOffset="331"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0136"/>
+	<advance width="699"/>
+	<outline>
+		<component base="K"/>
+		<component base="commaaccentbelowcmb" xOffset="331"/>
+	</outline>
+	<anchor name="bottom" x="331" y="0"/>
+	<anchor name="top" x="331" y="700"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

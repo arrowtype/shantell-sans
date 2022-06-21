@@ -1,37 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ugravedbl" format="2">
-  <advance width="650"/>
-  <unicode hex="0214"/>
-  <anchor x="304.875" y="51.0" name="bottom"/>
-  <anchor x="416.275" y="63.0" name="ogonek"/>
-  <anchor x="459.071" y="838.0" name="top"/>
-  <outline>
-    <component base="U"/>
-    <component base="gravedoublecmb" xOffset="365" yOffset="128"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>U</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>gravedoublecmb</string>
-        </dict>
-      </array>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0214"/>
+	<advance width="650"/>
+	<outline>
+		<component base="U"/>
+		<component base="gravedoublecmb" xOffset="365" yOffset="128"/>
+	</outline>
+	<anchor name="bottom" x="304.875" y="51"/>
+	<anchor name="ogonek" x="416.275" y="63"/>
+	<anchor name="top" x="459.071" y="838"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>U</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>gravedoublecmb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

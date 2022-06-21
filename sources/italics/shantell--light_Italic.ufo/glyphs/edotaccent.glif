@@ -1,37 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="edotaccent" format="2">
-  <advance width="562"/>
-  <unicode hex="0117"/>
-  <anchor x="223.073" y="0.0" name="bottom"/>
-  <anchor x="380.473" y="32.0" name="ogonek"/>
-  <anchor x="379.36400000000003" y="652.0" name="top"/>
-  <outline>
-    <component base="e"/>
-    <component base="dotaccentcmb" xOffset="298" yOffset="2"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>e</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>dotaccentcmb</string>
-        </dict>
-      </array>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0117"/>
+	<advance width="562"/>
+	<outline>
+		<component base="e"/>
+		<component base="dotaccentcmb" xOffset="298" yOffset="2"/>
+	</outline>
+	<anchor name="bottom" x="223.073" y="0"/>
+	<anchor name="ogonek" x="380.473" y="32"/>
+	<anchor name="top" x="379.364" y="652"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>e</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>dotaccentcmb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

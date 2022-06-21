@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ccaron" format="2">
-  <advance width="682"/>
-  <unicode hex="010C"/>
-  <anchor x="332" y="0" name="bottom"/>
-  <anchor x="379" y="700" name="top"/>
-  <outline>
-    <component base="C"/>
-    <component base="caroncomb" xOffset="411" yOffset="185"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="010C"/>
+	<advance width="682"/>
+	<outline>
+		<component base="C"/>
+		<component base="caroncomb" xOffset="411" yOffset="185"/>
+	</outline>
+	<anchor name="bottom" x="332" y="0"/>
+	<anchor name="top" x="379" y="700"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

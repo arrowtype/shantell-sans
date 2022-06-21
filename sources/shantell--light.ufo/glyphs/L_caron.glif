@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lcaron" format="2">
-  <advance width="586"/>
-  <unicode hex="013D"/>
-  <anchor x="289" y="0" name="bottom"/>
-  <anchor x="157" y="700" name="top"/>
-  <outline>
-    <component base="L"/>
-    <component base="quotesingle" xOffset="317" yOffset="-6"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.949,0.949,0.251</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="013D"/>
+	<advance width="586"/>
+	<outline>
+		<component base="L"/>
+		<component base="quotesingle" xOffset="317" yOffset="-6"/>
+	</outline>
+	<anchor name="bottom" x="289" y="0"/>
+	<anchor name="top" x="157" y="700"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0,0.949,0.949,0.251</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

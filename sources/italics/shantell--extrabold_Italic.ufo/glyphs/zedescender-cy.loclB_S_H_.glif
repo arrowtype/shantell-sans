@@ -1,16 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zedescender-cy.loclBSH" format="2">
-  <advance width="546"/>
-  <anchor x="325.369" y="515.0" name="top"/>
-  <outline>
-    <component base="zetailcyr"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.169,0.216,0.263,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<advance width="546"/>
+	<outline>
+		<component base="zetailcyr"/>
+	</outline>
+	<anchor name="top" x="327.800718869" y="515"/>
 </glyph>

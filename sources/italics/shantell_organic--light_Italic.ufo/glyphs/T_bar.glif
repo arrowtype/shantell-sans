@@ -1,38 +1,38 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tbar" format="2">
-  <advance width="647"/>
-  <unicode hex="0166"/>
-  <anchor x="303.256" y="35.0" name="bottom"/>
-  <anchor x="412.65599999999995" y="612.0" name="top"/>
-  <outline>
-    <contour>
-      <point x="154.307" y="300" type="curve" smooth="yes"/>
-      <point x="207.307" y="300"/>
-      <point x="294.307" y="310"/>
-      <point x="532.307" y="310" type="curve" smooth="yes"/>
-      <point x="564.307" y="310"/>
-      <point x="585.307" y="321"/>
-      <point x="589.307" y="339" type="curve" smooth="yes"/>
-      <point x="591.307" y="352"/>
-      <point x="574.307" y="373"/>
-      <point x="512.307" y="373" type="curve" smooth="yes"/>
-      <point x="387.307" y="373"/>
-      <point x="267.307" y="367"/>
-      <point x="135.307" y="359" type="curve" smooth="yes"/>
-      <point x="109.307" y="357"/>
-      <point x="99.307" y="341"/>
-      <point x="97.307" y="330" type="curve" smooth="yes"/>
-      <point x="94.307" y="315"/>
-      <point x="113.307" y="300"/>
-    </contour>
-    <component base="T" xOffset="-0.487"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0166"/>
+	<advance width="647"/>
+	<outline>
+		<contour>
+			<point x="154.307" y="300" type="curve" smooth="yes"/>
+			<point x="207.307" y="300"/>
+			<point x="294.307" y="310"/>
+			<point x="532.307" y="310" type="curve" smooth="yes"/>
+			<point x="564.307" y="310"/>
+			<point x="585.307" y="321"/>
+			<point x="589.307" y="339" type="curve" smooth="yes"/>
+			<point x="591.307" y="352"/>
+			<point x="574.307" y="373"/>
+			<point x="512.307" y="373" type="curve" smooth="yes"/>
+			<point x="387.307" y="373"/>
+			<point x="267.307" y="367"/>
+			<point x="135.307" y="359" type="curve" smooth="yes"/>
+			<point x="109.307" y="357"/>
+			<point x="99.307" y="341"/>
+			<point x="97.307" y="330" type="curve" smooth="yes"/>
+			<point x="94.307" y="315"/>
+			<point x="113.307" y="300"/>
+		</contour>
+		<component base="T" xOffset="-0.487"/>
+	</outline>
+	<anchor name="bottom" x="303.256" y="35"/>
+	<anchor name="top" x="412.656" y="612"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

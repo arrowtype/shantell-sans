@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ubreve" format="2">
-  <advance width="650"/>
-  <unicode hex="016C"/>
-  <anchor x="344" y="51" name="bottom"/>
-  <anchor x="453" y="63" name="ogonek"/>
-  <anchor x="339" y="801" name="top"/>
-  <outline>
-    <component base="U"/>
-    <component base="brevecomb" xOffset="339" yOffset="98"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="016C"/>
+	<advance width="650"/>
+	<outline>
+		<component base="U"/>
+		<component base="brevecomb" xOffset="339" yOffset="98"/>
+	</outline>
+	<anchor name="bottom" x="344" y="51"/>
+	<anchor name="ogonek" x="453" y="63"/>
+	<anchor name="top" x="339" y="801"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

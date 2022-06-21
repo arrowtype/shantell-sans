@@ -1,35 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shchacyr" format="2">
-  <advance width="991"/>
-  <unicode hex="0449"/>
-  <image fileName="S_creenshot 2021-10-22 at 12.22.27.png" xScale="1.32352" yScale="1.32352" xOffset="-8.806" yOffset="-398.52"/>
-  <outline>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.backgroundImage.alpha</key>
-      <integer>50</integer>
-      <key>com.schriftgestaltung.backgroundImage.crop</key>
-      <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
-      </array>
-      <key>com.schriftgestaltung.backgroundImage.locked</key>
-      <false/>
-      <key>com.typemytype.robofont.Image.Brightness</key>
-      <real>0.49058</real>
-      <key>com.typemytype.robofont.Image.Contrast</key>
-      <integer>1</integer>
-      <key>com.typemytype.robofont.Image.Saturation</key>
-      <integer>1</integer>
-      <key>com.typemytype.robofont.Image.Sharpness</key>
-      <real>0.4</real>
-      <key>public.markColor</key>
-      <string>1,1,0,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0449"/>
+	<advance width="991"/>
+	<image fileName="S_creenshot 2021-10-22 at 12.22.27.png" xScale="1.32352" yScale="1.32352" xOffset="-8.806" yOffset="-398.52"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
+			<key>com.typemytype.robofont.Image.Brightness</key>
+			<real>0.49058</real>
+			<key>com.typemytype.robofont.Image.Contrast</key>
+			<integer>1</integer>
+			<key>com.typemytype.robofont.Image.Saturation</key>
+			<integer>1</integer>
+			<key>com.typemytype.robofont.Image.Sharpness</key>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

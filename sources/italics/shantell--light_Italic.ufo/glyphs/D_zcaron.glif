@@ -1,20 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Dzcaron" format="2">
-  <advance width="1244"/>
-  <unicode hex="01C5"/>
-  <anchor x="163.17" y="0.0" name="bottom_1"/>
-  <anchor x="899.489" y="0.0" name="bottom_2"/>
-  <anchor x="438.171" y="700.0" name="top_1"/>
-  <anchor x="979.49" y="485.0" name="top_2"/>
-  <outline>
-    <component base="D"/>
-    <component base="z" xOffset="641"/>
-    <component base="caroncomb" xOffset="931"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="01C5"/>
+	<advance width="1244"/>
+	<outline>
+		<component base="D"/>
+		<component base="z" xOffset="641"/>
+		<component base="caroncomb" xOffset="931"/>
+	</outline>
+	<anchor name="bottom_1" x="163.17" y="0"/>
+	<anchor name="bottom_2" x="899.489" y="0"/>
+	<anchor name="top_1" x="438.171" y="700"/>
+	<anchor name="top_2" x="979.49" y="485"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

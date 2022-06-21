@@ -1,21 +1,21 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ijacute" format="2">
-  <advance width="517"/>
-  <unicode hex="E132"/>
-  <anchor x="136" y="0" name="bottom"/>
-  <anchor x="146" y="0" name="ogonek"/>
-  <anchor x="136" y="485" name="top_1"/>
-  <anchor x="362" y="485" name="top_2"/>
-  <outline>
-    <component base="iacute"/>
-    <component base="jacute" xOffset="276"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0,0,0.502</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="E132"/>
+	<advance width="517"/>
+	<outline>
+		<component base="iacute"/>
+		<component base="jacute" xOffset="276"/>
+	</outline>
+	<anchor name="bottom" x="136" y="0"/>
+	<anchor name="ogonek" x="146" y="0"/>
+	<anchor name="top_1" x="136" y="485"/>
+	<anchor name="top_2" x="362" y="485"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,0,0,0.502</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

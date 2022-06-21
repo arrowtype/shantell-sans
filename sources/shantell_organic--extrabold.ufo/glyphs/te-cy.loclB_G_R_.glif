@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="te-cy.loclBGR" format="2">
-  <advance width="977"/>
-  <anchor x="482" y="52" name="bottom"/>
-  <anchor x="508" y="470" name="top"/>
-  <outline>
-    <component base="m"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.733,0.518,0.996,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<advance width="977"/>
+	<outline>
+		<component base="m"/>
+	</outline>
+	<anchor name="bottom" x="482" y="52"/>
+	<anchor name="top" x="508" y="470"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.733,0.518,0.996,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

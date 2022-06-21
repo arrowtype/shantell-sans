@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acircumflexhoi" format="2">
-  <advance width="644"/>
-  <unicode hex="1EA9"/>
-  <anchor x="285.993" y="25.0" name="bottom"/>
-  <anchor x="528.993" y="-35.0" name="ogonek"/>
-  <anchor x="377.994" y="485.0" name="top"/>
-  <outline>
-    <component base="a"/>
-    <component base="circumflexhookabovecomb" xOffset="329"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="1EA9"/>
+	<advance width="644"/>
+	<outline>
+		<component base="a"/>
+		<component base="circumflexhookabovecomb" xOffset="329"/>
+	</outline>
+	<anchor name="bottom" x="285.993" y="25"/>
+	<anchor name="ogonek" x="528.993" y="-35"/>
+	<anchor name="top" x="377.994" y="485"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

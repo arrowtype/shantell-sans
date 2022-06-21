@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uhoi" format="2">
-  <advance width="659"/>
-  <unicode hex="1EE6"/>
-  <anchor x="296.457" y="50.0" name="bottom"/>
-  <anchor x="427.057" y="73.0" name="ogonek"/>
-  <anchor x="399.458" y="610.0" name="top"/>
-  <outline>
-    <component base="U"/>
-    <component base="hookabovecmb" xOffset="348" yOffset="95"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="1EE6"/>
+	<advance width="659"/>
+	<outline>
+		<component base="U"/>
+		<component base="hookabovecmb" xOffset="348" yOffset="95"/>
+	</outline>
+	<anchor name="bottom" x="296.457" y="50"/>
+	<anchor name="ogonek" x="427.057" y="73"/>
+	<anchor name="top" x="399.458" y="610"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

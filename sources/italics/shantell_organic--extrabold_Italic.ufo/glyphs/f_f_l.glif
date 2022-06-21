@@ -1,22 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_f_l" format="2">
-  <advance width="1487"/>
-  <unicode hex="FB04"/>
-  <anchor x="111.248" y="-195.0" name="bottom_1"/>
-  <anchor x="643.248" y="-195.0" name="bottom_2"/>
-  <anchor x="1245.635" y="0.0" name="bottom_3"/>
-  <anchor x="387.249" y="750.0" name="top_1"/>
-  <anchor x="919.249" y="750.0" name="top_2"/>
-  <anchor x="1326.636" y="750.0" name="top_3"/>
-  <outline>
-    <component base="f"/>
-    <component base="f" xOffset="532"/>
-    <component base="l" xOffset="1064"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="FB04"/>
+	<advance width="1487"/>
+	<outline>
+		<component base="f"/>
+		<component base="f" xOffset="532"/>
+		<component base="l" xOffset="1064"/>
+	</outline>
+	<anchor name="bottom_1" x="111.248" y="-195"/>
+	<anchor name="bottom_2" x="643.248" y="-195"/>
+	<anchor name="bottom_3" x="1245.635" y="0"/>
+	<anchor name="top_1" x="387.249" y="750"/>
+	<anchor name="top_2" x="919.249" y="750"/>
+	<anchor name="top_3" x="1326.636" y="750"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

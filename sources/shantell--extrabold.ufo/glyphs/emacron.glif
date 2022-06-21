@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="emacron" format="2">
-  <advance width="617"/>
-  <unicode hex="0113"/>
-  <anchor x="309" y="0" name="bottom"/>
-  <anchor x="505" y="41" name="ogonek"/>
-  <anchor x="309" y="515" name="top"/>
-  <outline>
-    <component base="e"/>
-    <component base="macroncomb" xOffset="300"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0113"/>
+	<advance width="617"/>
+	<outline>
+		<component base="e"/>
+		<component base="macroncomb" xOffset="300"/>
+	</outline>
+	<anchor name="bottom" x="309" y="0"/>
+	<anchor name="ogonek" x="505" y="41"/>
+	<anchor name="top" x="309" y="515"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

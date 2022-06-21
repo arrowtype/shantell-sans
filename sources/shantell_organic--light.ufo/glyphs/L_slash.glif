@@ -1,38 +1,38 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lslash" format="2">
-  <advance width="556"/>
-  <unicode hex="0141"/>
-  <anchor x="289.0" y="49.4" name="bottom"/>
-  <anchor x="171.3" y="612.9" name="top"/>
-  <outline>
-    <contour>
-      <point x="111" y="218" type="curve" smooth="yes"/>
-      <point x="143.331" y="239.824"/>
-      <point x="185.391" y="264.208"/>
-      <point x="330" y="366" type="curve" smooth="yes"/>
-      <point x="370" y="395"/>
-      <point x="345" y="436"/>
-      <point x="320" y="436" type="curve" smooth="yes"/>
-      <point x="306" y="436"/>
-      <point x="296" y="431"/>
-      <point x="266" y="409" type="curve" smooth="yes"/>
-      <point x="176.846" y="342.335"/>
-      <point x="131.89" y="322.422"/>
-      <point x="54" y="263" type="curve" smooth="yes"/>
-      <point x="20" y="236"/>
-      <point x="38" y="201"/>
-      <point x="67" y="201" type="curve" smooth="yes"/>
-      <point x="78" y="201"/>
-      <point x="94" y="206"/>
-    </contour>
-    <component base="L"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0141"/>
+	<advance width="556"/>
+	<outline>
+		<contour>
+			<point x="111" y="218" type="curve" smooth="yes"/>
+			<point x="143.331" y="239.824"/>
+			<point x="185.391" y="264.208"/>
+			<point x="330" y="366" type="curve" smooth="yes"/>
+			<point x="370" y="395"/>
+			<point x="345" y="436"/>
+			<point x="320" y="436" type="curve" smooth="yes"/>
+			<point x="306" y="436"/>
+			<point x="296" y="431"/>
+			<point x="266" y="409" type="curve" smooth="yes"/>
+			<point x="176.846" y="342.335"/>
+			<point x="131.89" y="322.422"/>
+			<point x="54" y="263" type="curve" smooth="yes"/>
+			<point x="20" y="236"/>
+			<point x="38" y="201"/>
+			<point x="67" y="201" type="curve" smooth="yes"/>
+			<point x="78" y="201"/>
+			<point x="94" y="206"/>
+		</contour>
+		<component base="L"/>
+	</outline>
+	<anchor name="bottom" x="289" y="49.4"/>
+	<anchor name="top" x="171.3" y="612.9"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

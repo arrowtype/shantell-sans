@@ -1,37 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Gestrokecyr" format="2">
-  <advance width="526"/>
-  <unicode hex="0492"/>
-  <anchor x="398.02299999999997" y="700.0" name="top"/>
-  <outline>
-    <contour>
-      <point x="115.487" y="301" type="curve" smooth="yes"/>
-      <point x="164.487" y="301"/>
-      <point x="263.487" y="322"/>
-      <point x="399.487" y="322" type="curve" smooth="yes"/>
-      <point x="423.487" y="322"/>
-      <point x="440.487" y="332"/>
-      <point x="443.487" y="344" type="curve" smooth="yes"/>
-      <point x="446.487" y="359"/>
-      <point x="419.487" y="385"/>
-      <point x="330.487" y="385" type="curve" smooth="yes"/>
-      <point x="264.487" y="385"/>
-      <point x="148.487" y="369"/>
-      <point x="73.487" y="362" type="curve" smooth="yes"/>
-      <point x="46.487" y="360"/>
-      <point x="33.487" y="350"/>
-      <point x="31.487" y="338" type="curve" smooth="yes"/>
-      <point x="27.487" y="320"/>
-      <point x="47.487" y="301"/>
-    </contour>
-    <component base="Gecyr" xOffset="24.693"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,1,0,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0492"/>
+	<advance width="541"/>
+	<outline>
+		<contour>
+			<point x="123.4869131851" y="301" type="curve" smooth="yes"/>
+			<point x="172.4869131851" y="301"/>
+			<point x="271.4869131851" y="322"/>
+			<point x="407.4869131851" y="322" type="curve" smooth="yes"/>
+			<point x="431.4869131851" y="322"/>
+			<point x="448.4869131851" y="332"/>
+			<point x="451.4869131851" y="344" type="curve" smooth="yes" identifier="yGH14aPnfs"/>
+			<point x="454.4869131851" y="359"/>
+			<point x="427.4869131851" y="385"/>
+			<point x="338.4869131851" y="385" type="curve" smooth="yes"/>
+			<point x="272.4869131851" y="385"/>
+			<point x="156.4869131851" y="369"/>
+			<point x="81.4869131851" y="362" type="curve" smooth="yes"/>
+			<point x="54.4869131851" y="360"/>
+			<point x="41.4869131851" y="350"/>
+			<point x="39.4869131851" y="338" type="curve" smooth="yes" identifier="PEAU8HrGSb"/>
+			<point x="35.4869131851" y="320"/>
+			<point x="55.4869131851" y="301"/>
+		</contour>
+		<component base="Gecyr" xOffset="32.6934046861"/>
+	</outline>
+	<anchor name="top" x="401.4877711702" y="700"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+		</dict>
+	</lib>
 </glyph>

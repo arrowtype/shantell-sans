@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uhungarumlaut" format="2">
-  <advance width="650"/>
-  <unicode hex="0170"/>
-  <anchor x="344" y="51" name="bottom"/>
-  <anchor x="453" y="63" name="ogonek"/>
-  <anchor x="340" y="613" name="top"/>
-  <outline>
-    <component base="U"/>
-    <component base="hungarumlautcmb" xOffset="339" yOffset="98"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0170"/>
+	<advance width="650"/>
+	<outline>
+		<component base="U"/>
+		<component base="hungarumlautcmb" xOffset="339" yOffset="98"/>
+	</outline>
+	<anchor name="bottom" x="344" y="51"/>
+	<anchor name="ogonek" x="453" y="63"/>
+	<anchor name="top" x="340" y="613"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

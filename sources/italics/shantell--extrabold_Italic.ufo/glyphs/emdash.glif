@@ -1,35 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="emdash" format="2">
-  <advance width="1000"/>
-  <unicode hex="2014"/>
-  <outline>
-    <contour>
-      <point x="189.272" y="176" type="curve" smooth="yes"/>
-      <point x="289.272" y="176"/>
-      <point x="452.272" y="186"/>
-      <point x="895.272" y="186" type="curve" smooth="yes"/>
-      <point x="926.272" y="186"/>
-      <point x="948.272" y="207"/>
-      <point x="955.272" y="240" type="curve" smooth="yes"/>
-      <point x="963.272" y="280"/>
-      <point x="933.272" y="347"/>
-      <point x="814.272" y="347" type="curve" smooth="yes"/>
-      <point x="573.272" y="347"/>
-      <point x="340.272" y="340"/>
-      <point x="90.272" y="323" type="curve" smooth="yes"/>
-      <point x="58.272" y="321"/>
-      <point x="49.272" y="300"/>
-      <point x="44.272" y="276" type="curve" smooth="yes"/>
-      <point x="34.272" y="227"/>
-      <point x="83.272" y="176"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="2014"/>
+	<advance width="1000"/>
+	<outline>
+		<contour>
+			<point x="189.272" y="176" type="curve" smooth="yes"/>
+			<point x="289.272" y="176"/>
+			<point x="452.272" y="186"/>
+			<point x="895.272" y="186" type="curve" smooth="yes"/>
+			<point x="926.272" y="186"/>
+			<point x="948.272" y="207"/>
+			<point x="955.272" y="240" type="curve" smooth="yes"/>
+			<point x="963.272" y="280"/>
+			<point x="933.272" y="347"/>
+			<point x="814.272" y="347" type="curve" smooth="yes"/>
+			<point x="573.272" y="347"/>
+			<point x="340.272" y="340"/>
+			<point x="90.272" y="323" type="curve" smooth="yes"/>
+			<point x="58.272" y="321"/>
+			<point x="49.272" y="300"/>
+			<point x="44.272" y="276" type="curve" smooth="yes"/>
+			<point x="34.272" y="227"/>
+			<point x="83.272" y="176"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

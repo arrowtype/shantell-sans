@@ -1,27 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="che-cy.loclBGR" format="2">
-  <advance width="602"/>
-  <anchor x="390.675" y="515.0" name="top"/>
-  <outline>
-    <component base="checyr" xOffset="-4"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>checyr</string>
-        </dict>
-      </array>
-      <key>public.markColor</key>
-      <string>0.169,0.216,0.263,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<advance width="637"/>
+	<outline>
+		<component base="checyr" xOffset="-3.7309924003"/>
+	</outline>
+	<anchor name="top" x="394.6754259944" y="515"/>
 </glyph>

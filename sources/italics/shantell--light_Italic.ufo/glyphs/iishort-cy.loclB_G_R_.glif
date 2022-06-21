@@ -1,18 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iishort-cy.loclBGR" format="2">
-  <advance width="641"/>
-  <anchor x="354.286" y="515.0" name="top_1"/>
-  <anchor x="344.532" y="485.0" name="top_2"/>
-  <outline>
-    <component base="brevecomb-cy" xOffset="106"/>
-    <component base="icyr"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.169,0.216,0.263,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<advance width="644"/>
+	<outline>
+		<component base="brevecomb-cy" xOffset="105.7387411717"/>
+		<component base="icyr" xOffset="-0.2612588283"/>
+	</outline>
+	<anchor name="top_1" x="354.5317318002" y="515"/>
+	<anchor name="top_2" x="344.5316950294" y="485"/>
 </glyph>

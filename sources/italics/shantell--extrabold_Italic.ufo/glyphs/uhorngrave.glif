@@ -1,37 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uhorngrave" format="2">
-  <advance width="746"/>
-  <unicode hex="1EEB"/>
-  <anchor x="293.166" y="0.0" name="bottom"/>
-  <anchor x="364.532" y="5.0" name="ogonek"/>
-  <anchor x="396.167" y="515.0" name="top"/>
-  <outline>
-    <component base="uhorn" xOffset="2"/>
-    <component base="gravecomb" xOffset="343"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>uhorn</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>gravecomb</string>
-        </dict>
-      </array>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="1EEB"/>
+	<advance width="746"/>
+	<outline>
+		<component base="uhorn" xOffset="2"/>
+		<component base="gravecomb" xOffset="343"/>
+	</outline>
+	<anchor name="bottom" x="293.166" y="0"/>
+	<anchor name="ogonek" x="364.532" y="5"/>
+	<anchor name="top" x="396.167" y="515"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>uhorn</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>gravecomb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

@@ -1,18 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tecyr" format="2">
-  <advance width="625"/>
-  <unicode hex="0422"/>
-  <anchor x="294.616" y="43.0" name="bottom"/>
-  <anchor x="394.617" y="608.0" name="top"/>
-  <outline>
-    <component base="T" xOffset="-4.195"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.733,0.518,0.996,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0422"/>
+	<advance width="645"/>
+	<outline>
+		<component base="T" xOffset="-4.19478062"/>
+	</outline>
+	<anchor name="bottom" x="298.8110592476" y="43"/>
+	<anchor name="top" x="398.8117517641" y="608"/>
 </glyph>

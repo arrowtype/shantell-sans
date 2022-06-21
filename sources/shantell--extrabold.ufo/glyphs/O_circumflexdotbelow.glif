@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ocircumflexdotbelow" format="2">
-  <advance width="756"/>
-  <unicode hex="1ED8"/>
-  <anchor x="367" y="0" name="bottom"/>
-  <anchor x="510" y="29" name="ogonek"/>
-  <anchor x="367" y="938" name="top"/>
-  <outline>
-    <component base="O"/>
-    <component base="circumflexcomb" xOffset="367" yOffset="185"/>
-    <component base="dotbelowcmb" xOffset="367"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="1ED8"/>
+	<advance width="756"/>
+	<outline>
+		<component base="O"/>
+		<component base="circumflexcomb" xOffset="367" yOffset="185"/>
+		<component base="dotbelowcmb" xOffset="367"/>
+	</outline>
+	<anchor name="bottom" x="367" y="0"/>
+	<anchor name="ogonek" x="510" y="29"/>
+	<anchor name="top" x="367" y="938"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

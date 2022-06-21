@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="esdescender-cy.loclCHU" format="2">
-  <advance width="552"/>
-  <anchor x="295" y="0" name="bottom"/>
-  <anchor x="295" y="515" name="top"/>
-  <outline>
-    <component base="ccedilla"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.169,0.216,0.263,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<advance width="552"/>
+	<outline>
+		<component base="ccedilla"/>
+	</outline>
+	<anchor name="bottom" x="295" y="0"/>
+	<anchor name="top" x="295" y="515"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.169,0.216,0.263,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

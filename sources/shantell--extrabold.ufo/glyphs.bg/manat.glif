@@ -1,41 +1,41 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="manat" format="2">
-  <advance width="700"/>
-  <unicode hex="20BC"/>
-  <outline>
-    <contour>
-      <point x="-52" y="440" type="qcurve" smooth="yes"/>
-      <point x="-52" y="0" type="line"/>
-      <point x="-105" y="0" type="line"/>
-      <point x="-105" y="440" type="line" smooth="yes"/>
-      <point x="-105" y="533"/>
-      <point x="-202" y="633"/>
-      <point x="-292" y="633" type="qcurve" smooth="yes"/>
-      <point x="-383" y="633"/>
-      <point x="-480" y="533"/>
-      <point x="-480" y="440" type="qcurve" smooth="yes"/>
-      <point x="-480" y="0" type="line"/>
-      <point x="-533" y="0" type="line"/>
-      <point x="-533" y="440" type="line" smooth="yes"/>
-      <point x="-531" y="556"/>
-      <point x="-407" y="681"/>
-      <point x="-292" y="681" type="qcurve" smooth="yes"/>
-      <point x="-176" y="681"/>
-      <point x="-52" y="556"/>
-    </contour>
-    <contour>
-      <point x="-266" y="0" type="line"/>
-      <point x="-319" y="0" type="line"/>
-      <point x="-319" y="761" type="line"/>
-      <point x="-266" y="761" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="20BC"/>
+	<advance width="700"/>
+	<outline>
+		<contour>
+			<point x="-52" y="440" type="qcurve" smooth="yes"/>
+			<point x="-52" y="0" type="line"/>
+			<point x="-105" y="0" type="line"/>
+			<point x="-105" y="440" type="line" smooth="yes"/>
+			<point x="-105" y="533"/>
+			<point x="-202" y="633"/>
+			<point x="-292" y="633" type="qcurve" smooth="yes"/>
+			<point x="-383" y="633"/>
+			<point x="-480" y="533"/>
+			<point x="-480" y="440" type="qcurve" smooth="yes"/>
+			<point x="-480" y="0" type="line"/>
+			<point x="-533" y="0" type="line"/>
+			<point x="-533" y="440" type="line" smooth="yes"/>
+			<point x="-531" y="556"/>
+			<point x="-407" y="681"/>
+			<point x="-292" y="681" type="qcurve" smooth="yes"/>
+			<point x="-176" y="681"/>
+			<point x="-52" y="556"/>
+		</contour>
+		<contour>
+			<point x="-266" y="0" type="line"/>
+			<point x="-319" y="0" type="line"/>
+			<point x="-319" y="761" type="line"/>
+			<point x="-266" y="761" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

@@ -1,18 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Imacroncyr" format="2">
-  <advance width="742"/>
-  <unicode hex="04E2"/>
-  <anchor x="454.55699999999996" y="700.0" name="top"/>
-  <outline>
-    <component base="Icyr" xOffset="-2.622"/>
-    <component base="macroncomb" xOffset="403.378" yOffset="185"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.992,0.706,0.831,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="04E2"/>
+	<advance width="742"/>
+	<outline>
+		<component base="Icyr" xOffset="-2.621719284"/>
+		<component base="macroncomb" xOffset="403.378280716" yOffset="185"/>
+	</outline>
+	<anchor name="top" x="457.1792263382" y="700"/>
 </glyph>

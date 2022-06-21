@@ -1,37 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ehoi" format="2">
-  <advance width="657"/>
-  <unicode hex="1EBB"/>
-  <anchor x="251.63" y="-37.0" name="bottom"/>
-  <anchor x="474.83" y="9.0" name="ogonek"/>
-  <anchor x="396.03" y="550.0" name="top"/>
-  <outline>
-    <component base="e" xOffset="-4"/>
-    <component base="hookabovecmb" xOffset="345" yOffset="35"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>e</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>hookabovecmb</string>
-        </dict>
-      </array>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="1EBB"/>
+	<advance width="657"/>
+	<outline>
+		<component base="e" xOffset="-4"/>
+		<component base="hookabovecmb" xOffset="345" yOffset="35"/>
+	</outline>
+	<anchor name="bottom" x="251.63" y="-37"/>
+	<anchor name="ogonek" x="474.83" y="9"/>
+	<anchor name="top" x="396.03" y="550"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>e</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>hookabovecmb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

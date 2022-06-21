@@ -1,18 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="escyr" format="2">
-  <advance width="539"/>
-  <unicode hex="0441"/>
-  <anchor x="241.018" y="0.0" name="bottom"/>
-  <anchor x="344.018" y="515.0" name="top"/>
-  <outline>
-    <component base="c" xOffset="-2.391"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.733,0.518,0.996,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="0441"/>
+	<advance width="539"/>
+	<outline>
+		<component base="c"/>
+	</outline>
+	<anchor name="bottom" x="245.8000876371" y="0"/>
+	<anchor name="top" x="348.800718869" y="515"/>
 </glyph>

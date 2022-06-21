@@ -1,47 +1,47 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Dzcaron" format="2">
-  <advance width="1225"/>
-  <unicode hex="01C5"/>
-  <anchor x="190.006" y="42.0" name="bottom_1"/>
-  <anchor x="880.024" y="-28.0" name="bottom_2"/>
-  <anchor x="423.407" y="644.0" name="top_1"/>
-  <anchor x="986.825" y="511.0" name="top_2"/>
-  <outline>
-    <component base="D" xOffset="5"/>
-    <component base="z" xOffset="617"/>
-    <component base="caroncomb" xOffset="968" yOffset="26"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>D</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>z</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>2</integer>
-          <key>name</key>
-          <string>caroncomb</string>
-        </dict>
-      </array>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="01C5"/>
+	<advance width="1225"/>
+	<outline>
+		<component base="D" xOffset="5"/>
+		<component base="z" xOffset="617"/>
+		<component base="caroncomb" xOffset="968" yOffset="26"/>
+	</outline>
+	<anchor name="bottom_1" x="190.006" y="42"/>
+	<anchor name="bottom_2" x="880.024" y="-28"/>
+	<anchor name="top_1" x="423.407" y="644"/>
+	<anchor name="top_2" x="986.825" y="511"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>D</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>z</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>caroncomb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

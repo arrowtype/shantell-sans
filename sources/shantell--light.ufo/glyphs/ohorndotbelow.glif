@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ohorndotbelow" format="2">
-  <advance width="605"/>
-  <unicode hex="1EE3"/>
-  <anchor x="310" y="0" name="bottom"/>
-  <anchor x="437" y="37" name="ogonek"/>
-  <anchor x="321" y="485" name="top"/>
-  <outline>
-    <component base="ohorn"/>
-    <component base="dotbelowcmb" xOffset="310"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>public.verticalOrigin</key>
-      <integer>1020</integer>
-    </dict>
-  </lib>
+	<unicode hex="1EE3"/>
+	<advance width="605"/>
+	<outline>
+		<component base="ohorn"/>
+		<component base="dotbelowcmb" xOffset="310"/>
+	</outline>
+	<anchor name="bottom" x="310" y="0"/>
+	<anchor name="ogonek" x="437" y="37"/>
+	<anchor name="top" x="321" y="485"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>
