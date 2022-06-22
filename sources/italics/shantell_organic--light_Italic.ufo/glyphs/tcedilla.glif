@@ -6,6 +6,8 @@
 		<component base="t" xOffset="5"/>
 		<component base="cedillacomb" xOffset="247"/>
 	</outline>
+	<anchor name="bottom" x="199.647" y="0"/>
+	<anchor name="top" x="279.647" y="750"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,8 +29,10 @@
 					<string>cedillacomb</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:21 +0000</string>
+			<key>public.markColor</key>
+			<string>1,0,0,0.502</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

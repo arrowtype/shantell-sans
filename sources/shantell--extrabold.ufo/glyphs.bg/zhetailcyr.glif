@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zhetailcyr" format="2">
 	<unicode hex="0497"/>
-	<advance width="878"/>
+	<advance width="905"/>
 	<outline>
 		<contour>
 			<point x="541" y="443" type="curve" smooth="yes"/>
@@ -204,4 +204,12 @@
 			<point x="722" y="-8"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

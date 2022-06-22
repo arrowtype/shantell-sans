@@ -92,16 +92,18 @@
 			<point x="495" y="267" type="curve"/>
 			<point x="368" y="184" type="line"/>
 			<point x="422" y="122"/>
-			<point x="453.5596717219" y="61.6005050433"/>
+			<point x="453.56" y="61.601"/>
 		</contour>
 	</outline>
-	<guideline x="262.9807692308" y="312.9807692308" angle="90" identifier="ATaXbxe4rK"/>
-	<guideline x="115.8653846154" y="265.8653846154" angle="90" identifier="5dyO890EB6"/>
-	<guideline x="115.8653846154" y="265.8653846154" angle="90" identifier="B5GQpsI5QQ"/>
+	<guideline x="262.981" y="312.981" angle="90" identifier="ATaXbxe4rK"/>
+	<guideline x="115.865" y="265.865" angle="90" identifier="5dyO890EB6"/>
+	<guideline x="115.865" y="265.865" angle="90" identifier="B5GQpsI5QQ"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.7336,0.5157,0.996,1</string>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

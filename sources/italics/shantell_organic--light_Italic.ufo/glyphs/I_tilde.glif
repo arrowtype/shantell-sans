@@ -6,6 +6,9 @@
 		<component base="I" xOffset="5"/>
 		<component base="tildecomb" xOffset="343" yOffset="142"/>
 	</outline>
+	<anchor name="bottom" x="275.591" y="59"/>
+	<anchor name="ogonek" x="495.191" y="62"/>
+	<anchor name="top" x="434.545" y="842"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,8 +30,8 @@
 					<string>tildecomb</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:21 +0000</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

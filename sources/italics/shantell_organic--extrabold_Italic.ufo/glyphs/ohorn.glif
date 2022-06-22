@@ -4,38 +4,39 @@
 	<advance width="674"/>
 	<outline>
 		<contour>
-			<point x="506.40579" y="450" type="curve" smooth="yes"/>
-			<point x="469.40579" y="450"/>
-			<point x="439.40579" y="434"/>
-			<point x="429.40579" y="387" type="curve" smooth="yes"/>
-			<point x="424.40579" y="358"/>
-			<point x="444.40579" y="337"/>
-			<point x="501.40579" y="337" type="curve" smooth="yes"/>
-			<point x="613.40579" y="337"/>
+			<point x="506.406" y="450" type="curve" smooth="yes"/>
+			<point x="469.406" y="450"/>
+			<point x="439.406" y="434"/>
+			<point x="429.406" y="387" type="curve" smooth="yes"/>
+			<point x="424.406" y="358"/>
+			<point x="444.406" y="337"/>
+			<point x="501.406" y="337" type="curve" smooth="yes"/>
+			<point x="613.406" y="337"/>
 			<point x="679" y="376"/>
 			<point x="694" y="450" type="curve" smooth="yes"/>
 			<point x="707" y="517"/>
-			<point x="680.40579" y="560"/>
-			<point x="619.40579" y="560" type="curve" smooth="yes"/>
-			<point x="570.40579" y="560"/>
-			<point x="539.40579" y="530"/>
-			<point x="534.40579" y="503" type="curve" smooth="yes"/>
-			<point x="531.40579" y="490"/>
-			<point x="532.40579" y="483"/>
-			<point x="529.40579" y="469" type="curve" smooth="yes"/>
-			<point x="526.40579" y="457"/>
-			<point x="517.40579" y="450"/>
+			<point x="680.406" y="560"/>
+			<point x="619.406" y="560" type="curve" smooth="yes"/>
+			<point x="570.406" y="560"/>
+			<point x="539.406" y="530"/>
+			<point x="534.406" y="503" type="curve" smooth="yes"/>
+			<point x="531.406" y="490"/>
+			<point x="532.406" y="483"/>
+			<point x="529.406" y="469" type="curve" smooth="yes"/>
+			<point x="526.406" y="457"/>
+			<point x="517.406" y="450"/>
 		</contour>
 		<component base="o"/>
 	</outline>
-	<anchor name="top" x="366.40639" y="490"/>
-	<anchor name="bottom" x="279.80583" y="32"/>
+	<anchor name="bottom" x="279.806" y="32"/>
+	<anchor name="top" x="366.406" y="490"/>
+	<anchor name="ogonek" x="434.596" y="77"/>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 02:13:02 +0000</string>
 			<key>public.markColor</key>
 			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

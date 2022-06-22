@@ -6,6 +6,9 @@
 		<component base="Ohorn"/>
 		<component base="hookabovecmb" xOffset="329" yOffset="105"/>
 	</outline>
+	<anchor name="bottom" x="278.606" y="66"/>
+	<anchor name="ogonek" x="421.505" y="76"/>
+	<anchor name="top" x="384.407" y="620"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,8 +30,8 @@
 					<string>hookabovecmb</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:26 +0000</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

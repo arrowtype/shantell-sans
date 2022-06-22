@@ -6,6 +6,8 @@
 		<component base="S" xOffset="-2"/>
 		<component base="circumflexcomb" xOffset="329" yOffset="185"/>
 	</outline>
+	<anchor name="bottom" x="240.37" y="0"/>
+	<anchor name="top" x="427.476" y="938"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,8 +29,8 @@
 					<string>circumflexcomb</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-05-26 17:19:19 +0000</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

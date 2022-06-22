@@ -5,10 +5,15 @@
 	<outline>
 		<component base="a"/>
 	</outline>
+	<anchor name="bottom" x="323" y="35"/>
+	<anchor name="ogonek" x="627" y="-22"/>
+	<anchor name="top" x="323" y="488"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.7336,0.5157,0.996,1</string>
+			<string>0.733,0.518,0.996,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

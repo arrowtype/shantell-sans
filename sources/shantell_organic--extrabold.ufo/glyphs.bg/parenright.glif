@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="parenright" format="2">
 	<unicode hex="0029"/>
-	<advance width="484"/>
+	<advance width="514"/>
 	<outline>
-		<contour identifier="xOStrOGOHz">
+		<contour>
 			<point x="165" y="-172" type="move"/>
 			<point x="304" y="-74"/>
 			<point x="391" y="81"/>
@@ -13,4 +13,12 @@
 			<point x="162" y="724" type="curve"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

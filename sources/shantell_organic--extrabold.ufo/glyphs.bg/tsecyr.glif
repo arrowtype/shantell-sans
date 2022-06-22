@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tsecyr" format="2">
-	<advance width="698"/>
+	<unicode hex="0446"/>
+	<advance width="724"/>
 	<outline>
 		<contour>
 			<point x="251" y="413" type="curve" smooth="yes"/>
@@ -97,7 +98,7 @@
 			<point x="696" y="6"/>
 			<point x="696" y="44" type="curve" smooth="yes"/>
 			<point x="696" y="127"/>
-			<point x="639.9955725803" y="159"/>
+			<point x="639.996" y="159"/>
 			<point x="542" y="159" type="curve" smooth="yes"/>
 			<point x="475" y="159"/>
 			<point x="340" y="149"/>
@@ -133,4 +134,12 @@
 			<point x="584" y="415"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shacyr" format="2">
-	<advance width="829"/>
-	<image fileName="S_creenshot 2021-10-22 at 12.22.24.png" xScale="1.1619990872" yScale="1.1619990872" xOffset="-26.7408407363" yOffset="-125"/>
+	<unicode hex="0448"/>
+	<advance width="1036"/>
+	<image fileName="S_creenshot 2021-10-22 at 12.22.24.png" xScale="1.162" yScale="1.162" xOffset="-26.741" yOffset="-125"/>
 	<outline>
 		<contour>
 			<point x="150" y="439" type="move"/>
@@ -30,14 +31,29 @@
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
 			<key>com.typemytype.robofont.Image.Brightness</key>
-			<real>0.4245328605</real>
+			<real>0.42453</real>
 			<key>com.typemytype.robofont.Image.Contrast</key>
 			<integer>1</integer>
 			<key>com.typemytype.robofont.Image.Saturation</key>
 			<integer>1</integer>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

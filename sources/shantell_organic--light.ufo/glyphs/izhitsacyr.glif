@@ -5,7 +5,7 @@
 	<outline>
 		<contour>
 			<point x="440" y="406" type="curve" smooth="yes"/>
-			<point x="455" y="442.4727272727"/>
+			<point x="455" y="442.473"/>
 			<point x="470" y="465"/>
 			<point x="488" y="465" type="curve" smooth="yes"/>
 			<point x="515.9" y="465"/>
@@ -15,17 +15,17 @@
 			<point x="584" y="447"/>
 			<point x="584" y="456" type="curve" smooth="yes"/>
 			<point x="584" y="492"/>
-			<point x="546.5942028986" y="535"/>
+			<point x="546.594" y="535"/>
 			<point x="495" y="535" type="curve" smooth="yes"/>
 			<point x="454" y="535"/>
 			<point x="420" y="514"/>
 			<point x="390" y="461" type="curve" smooth="yes"/>
-			<point x="334" y="358.4811083123"/>
-			<point x="309" y="212.4677871148"/>
+			<point x="334" y="358.481"/>
+			<point x="309" y="212.468"/>
 			<point x="253" y="54" type="curve"/>
 			<point x="285" y="57" type="line"/>
-			<point x="238.1803278689" y="127.1739130435"/>
-			<point x="206.9672131148" y="240.5317725753"/>
+			<point x="238.18" y="127.174"/>
+			<point x="206.967" y="240.532"/>
 			<point x="173" y="326" type="curve" smooth="yes"/>
 			<point x="147" y="389"/>
 			<point x="127" y="452"/>
@@ -36,8 +36,8 @@
 			<point x="41" y="398"/>
 			<point x="70" y="402"/>
 			<point x="129" y="246" type="curve" smooth="yes"/>
-			<point x="161.5048543689" y="162.0038610039"/>
-			<point x="192.2038834951" y="60.3243243243"/>
+			<point x="161.505" y="162.004"/>
+			<point x="192.204" y="60.324"/>
 			<point x="222" y="17" type="curve" smooth="yes"/>
 			<point x="240" y="-9"/>
 			<point x="253" y="-20"/>
@@ -46,13 +46,15 @@
 			<point x="304" y="-11"/>
 			<point x="313" y="15" type="curve" smooth="yes"/>
 			<point x="363" y="161"/>
-			<point x="402" y="317.7427821522"/>
+			<point x="402" y="317.743"/>
 		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.7336,0.5157,0.996,1</string>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

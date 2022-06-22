@@ -6,10 +6,13 @@
 		<component base="uhorn"/>
 		<component base="acutecomb" xOffset="287"/>
 	</outline>
+	<anchor name="bottom" x="287" y="0"/>
+	<anchor name="ogonek" x="366" y="12"/>
+	<anchor name="top" x="287" y="485"/>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

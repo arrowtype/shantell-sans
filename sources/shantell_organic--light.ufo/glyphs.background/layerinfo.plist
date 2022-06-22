@@ -6,8 +6,17 @@
 		<string>0,0.8,0.2,0.7</string>
 		<key>lib</key>
 		<dict>
+			<key>com.schriftgestaltung.layerId</key>
+			<string>7935B80B-A64F-401A-8DD5-1AE603C24DD5</string>
+			<key>com.schriftgestaltung.layerOrderInGlyph.tse-cy.loclBGR</key>
+			<integer>10</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.tshecyr</key>
+			<integer>9</integer>
 			<key>com.typemytype.robofont.layerShowStroke</key>
-			<true/>
+			<integer>1</integer>
+			<key>org.unifiedfontobject.normalizer.imageReferences</key>
+			<dict>
+			</dict>
 		</dict>
 	</dict>
 </plist>

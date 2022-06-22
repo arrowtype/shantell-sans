@@ -6,10 +6,12 @@
 		<component base="w"/>
 		<component base="gravecomb" xOffset="444"/>
 	</outline>
+	<anchor name="bottom" x="444" y="0"/>
+	<anchor name="top" x="444" y="515"/>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="radical" format="2">
 	<unicode hex="221A"/>
-	<advance width="500"/>
+	<advance width="700"/>
 	<outline>
 		<contour>
 			<point x="46" y="497" type="curve" smooth="yes"/>
-			<point x="76.4537175963" y="500.3837463996"/>
-			<point x="115.1011329774" y="528"/>
+			<point x="76.454" y="500.384"/>
+			<point x="115.101" y="528"/>
 			<point x="142" y="528" type="curve" smooth="yes"/>
 			<point x="184" y="528"/>
 			<point x="222" y="498"/>
@@ -46,11 +46,19 @@
 			<point x="138" y="344"/>
 			<point x="76" y="322"/>
 			<point x="56" y="322" type="curve" smooth="yes"/>
-			<point x="5.4117647059" y="322"/>
+			<point x="5.412" y="322"/>
 			<point x="-32" y="390"/>
 			<point x="-32" y="410" type="curve" smooth="yes"/>
 			<point x="-32" y="453"/>
 			<point x="2" y="492"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

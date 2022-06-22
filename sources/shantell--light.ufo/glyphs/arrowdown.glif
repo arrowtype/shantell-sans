@@ -2,7 +2,7 @@
 <glyph name="arrowdown" format="2">
 	<unicode hex="2193"/>
 	<advance width="700"/>
-	<image fileName="arrowup.png" xScale="3.6986364914" yScale="3.6986364914" xOffset="-127.0179086528" yOffset="-172.1752845864" color="0,0,0,0.18758"/>
+	<image fileName="arrowup.png" xScale="3.69864" yScale="3.69864" xOffset="-127.018" yOffset="-172.175"/>
 	<outline>
 		<contour>
 			<point x="107" y="266" type="curve" smooth="yes"/>
@@ -70,11 +70,26 @@
 			<point x="289" y="697"/>
 		</contour>
 	</outline>
-	<guideline x="350" y="0" angle="90" identifier="WhJZ6mh5H2"/>
+	<guideline x="350" identifier="WhJZ6mh5H2"/>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

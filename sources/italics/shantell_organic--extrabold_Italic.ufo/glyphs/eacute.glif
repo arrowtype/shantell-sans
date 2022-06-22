@@ -6,6 +6,9 @@
 		<component base="e"/>
 		<component base="acutecomb" xOffset="349" yOffset="35"/>
 	</outline>
+	<anchor name="bottom" x="255.63" y="-37"/>
+	<anchor name="ogonek" x="478.83" y="9"/>
+	<anchor name="top" x="400.03" y="550"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,8 +30,8 @@
 					<string>acutecomb</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:26 +0000</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

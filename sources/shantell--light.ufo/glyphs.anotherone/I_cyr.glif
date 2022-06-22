@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Icyr" format="2">
 	<unicode hex="0418"/>
-	<advance width="742"/>
+	<advance width="703"/>
 	<outline>
 		<contour>
 			<point x="145" y="683" type="move"/>
@@ -31,4 +31,12 @@
 			<point x="598" y="21" type="curve"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

@@ -4,14 +4,15 @@
 	<advance width="241"/>
 	<outline>
 		<component base="jdotless"/>
-		<component base="dotaccentcmb" xOffset="86" yOffset="-30"/>
+		<component base="dotaccentcmb" xOffset="102"/>
 	</outline>
+	<anchor name="top" x="102" y="650"/>
 	<lib>
 		<dict>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
-			<key>public.markColor</key>
-			<string>0.8708,0.8708,0.8708,0.4845</string>
+			<real>0.4</real>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

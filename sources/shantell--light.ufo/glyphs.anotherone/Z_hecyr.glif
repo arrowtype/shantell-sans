@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Zhecyr" format="2">
 	<unicode hex="0416"/>
-	<advance width="939"/>
+	<advance width="896"/>
 	<outline>
 		<contour>
 			<point x="436" y="687" type="move"/>
@@ -109,4 +109,12 @@
 			<point x="41" y="35"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

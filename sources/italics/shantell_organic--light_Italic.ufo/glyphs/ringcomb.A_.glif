@@ -3,6 +3,14 @@
 	<outline>
 		<component base="ringcomb" xOffset="8" yOffset="40"/>
 	</outline>
-	<anchor name="_ring" x="73.99429" y="636"/>
-	<anchor name="top" x="98.39444" y="758"/>
+	<anchor name="_ring" x="73.994" y="636"/>
+	<anchor name="top" x="98.394" y="758"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,0,0,0.502</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

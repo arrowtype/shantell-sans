@@ -6,10 +6,13 @@
 		<component base="U"/>
 		<component base="hookabovecmb" xOffset="340" yOffset="128"/>
 	</outline>
+	<anchor name="bottom" x="344" y="51"/>
+	<anchor name="ogonek" x="453" y="63"/>
+	<anchor name="top" x="340" y="613"/>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

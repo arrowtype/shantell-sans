@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yatcyr" format="2">
-	<advance width="603"/>
+	<unicode hex="0463"/>
+	<advance width="635"/>
 	<outline>
 		<contour>
 			<point x="268" y="717" type="curve" smooth="yes"/>
@@ -73,4 +74,12 @@
 			<point x="56" y="398"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

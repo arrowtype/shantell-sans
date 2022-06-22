@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seven" format="2">
-	<advance width="700"/>
 	<outline>
-		<contour identifier="pWQOUXkwQn">
+		<contour>
 			<point x="128" y="597" type="move"/>
 			<point x="203" y="628"/>
 			<point x="299" y="650"/>
@@ -14,10 +13,10 @@
 			<point x="376" y="235"/>
 			<point x="360" y="51" type="curve" smooth="yes"/>
 		</contour>
-		<contour identifier="KowoCqVp6J">
+		<contour>
 			<point x="220" y="286" type="move"/>
 			<point x="304" y="281"/>
-			<point x="417.5193505543" y="321.9827748112"/>
+			<point x="417.519" y="321.983"/>
 			<point x="592" y="314" type="curve" smooth="yes"/>
 		</contour>
 	</outline>

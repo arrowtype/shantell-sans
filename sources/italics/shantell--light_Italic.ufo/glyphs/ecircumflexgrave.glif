@@ -6,4 +6,13 @@
 		<component base="e"/>
 		<component base="circumflexgravecomb" xOffset="299"/>
 	</outline>
+	<anchor name="bottom" x="223.073" y="0"/>
+	<anchor name="ogonek" x="380.473" y="32"/>
+	<anchor name="top" x="347.073" y="485"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

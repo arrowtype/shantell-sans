@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="becyr" format="2">
 	<unicode hex="0431"/>
-	<advance width="599"/>
+	<advance width="619"/>
 	<outline>
 		<contour>
 			<point x="101" y="316" type="move"/>
@@ -76,4 +76,12 @@
 			<point x="193" y="267" type="curve"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

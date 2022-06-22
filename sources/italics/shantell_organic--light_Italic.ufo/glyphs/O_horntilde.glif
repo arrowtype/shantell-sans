@@ -6,6 +6,9 @@
 		<component base="Ohorn"/>
 		<component base="tildecomb" xOffset="366" yOffset="131"/>
 	</outline>
+	<anchor name="bottom" x="295.594" y="44"/>
+	<anchor name="ogonek" x="431.712" y="73"/>
+	<anchor name="top" x="457.545" y="831"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,8 +30,8 @@
 					<string>tildecomb</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:21 +0000</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

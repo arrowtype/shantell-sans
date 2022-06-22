@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="chetailcyr" format="2">
-	<advance width="671"/>
+	<unicode hex="04B7"/>
+	<advance width="721"/>
 	<outline>
 		<contour>
 			<point x="467" y="312" type="curve"/>
@@ -63,4 +64,12 @@
 			<point x="563" y="385"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

@@ -7,10 +7,13 @@
 		<component base="circumflexcomb" xOffset="366" yOffset="225"/>
 		<component base="dotbelowcmb" xOffset="353" yOffset="-25"/>
 	</outline>
+	<anchor name="bottom" x="353" y="-25"/>
+	<anchor name="ogonek" x="559" y="18"/>
+	<anchor name="top" x="366" y="998"/>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

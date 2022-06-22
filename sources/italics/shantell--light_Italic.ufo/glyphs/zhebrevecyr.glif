@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zhebrevecyr" format="2">
 	<unicode hex="04C2"/>
-	<advance width="878"/>
+	<advance width="706"/>
 	<outline>
 		<component base="zhecyr"/>
 		<component base="brevecomb-cy" xOffset="184"/>
 	</outline>
+	<anchor name="top_1" x="424.7929538577" y="485"/>
+	<anchor name="top_2" x="432.7929906285" y="515"/>
 </glyph>

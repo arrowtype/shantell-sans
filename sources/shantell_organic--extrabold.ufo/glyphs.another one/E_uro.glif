@@ -3,19 +3,19 @@
 	<unicode hex="20AC"/>
 	<advance width="700"/>
 	<outline>
-		<contour identifier="2nPL013zHO">
+		<contour>
 			<point x="109" y="362" type="move"/>
 			<point x="208" y="385"/>
 			<point x="381" y="418"/>
 			<point x="548" y="423" type="curve" smooth="yes"/>
 		</contour>
-		<contour identifier="69w2mPZuuK">
+		<contour>
 			<point x="160" y="214" type="move"/>
 			<point x="262" y="222"/>
 			<point x="462" y="259"/>
 			<point x="582" y="266" type="curve" smooth="yes"/>
 		</contour>
-		<contour identifier="05tidJLBUg">
+		<contour>
 			<point x="545" y="628" type="move"/>
 			<point x="332" y="555"/>
 			<point x="236" y="435"/>
@@ -28,4 +28,12 @@
 			<point x="577" y="93" type="curve" smooth="yes"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

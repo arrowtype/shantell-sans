@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="j" format="2">
-	<advance width="420"/>
+	<unicode hex="006A"/>
+	<advance width="241"/>
 	<outline>
 		<contour>
 			<point x="87" y="-247" type="curve"/>
@@ -61,4 +62,10 @@
 			<point x="125" y="612"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

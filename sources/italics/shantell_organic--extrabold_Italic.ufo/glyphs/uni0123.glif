@@ -6,6 +6,8 @@
 		<component base="g"/>
 		<component base="commaturnedabovecmb" xOffset="328" yOffset="54"/>
 	</outline>
+	<anchor name="bottom" x="276.701" y="-250"/>
+	<anchor name="top" x="427.96" y="814"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,8 +29,8 @@
 					<string>commaturnedabovecmb</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:26 +0000</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

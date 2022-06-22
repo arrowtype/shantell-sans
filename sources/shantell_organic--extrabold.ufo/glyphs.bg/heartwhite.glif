@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heartwhite" format="2">
 	<unicode hex="2661"/>
-	<advance width="910"/>
+	<advance width="899"/>
 	<outline>
-		<contour identifier="VDuPYKJxlH">
+		<contour>
 			<point x="512" y="485" type="move"/>
 			<point x="461" y="572"/>
 			<point x="403" y="624"/>
@@ -25,4 +25,12 @@
 			<point x="464" y="401" type="curve" smooth="yes"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

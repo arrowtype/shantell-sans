@@ -6,6 +6,10 @@
 		<component base="A" xOffset="4"/>
 		<component base="brevetildecomb" xOffset="436" yOffset="156"/>
 	</outline>
+	<anchor name="bottom" x="319.872" y="48"/>
+	<anchor name="ogonek" x="561.472" y="26"/>
+	<anchor name="ring" x="484.673" y="642"/>
+	<anchor name="top" x="484.473" y="641"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,8 +31,8 @@
 					<string>brevetildecomb</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:21 +0000</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

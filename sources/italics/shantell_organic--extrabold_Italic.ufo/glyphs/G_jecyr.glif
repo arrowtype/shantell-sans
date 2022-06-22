@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Gjecyr" format="2">
 	<unicode hex="0403"/>
-	<advance width="587"/>
+	<advance width="585"/>
 	<outline>
-		<component base="Gecyr"/>
-		<component base="acutecomb" xOffset="348" yOffset="185"/>
+		<component base="Gecyr" xOffset="-3.6367972793"/>
+		<component base="acutecomb" xOffset="344.3632027207" yOffset="185"/>
 	</outline>
+	<anchor name="top" x="399.7698478686" y="700"/>
 </glyph>

@@ -57,11 +57,13 @@
 			<point x="143" y="20"/>
 		</contour>
 	</outline>
-	<guideline x="101.4423076923" y="378.3653846154" angle="90" identifier="b1V3DjCVlD"/>
+	<guideline x="101.442" y="378.365" angle="90" identifier="b1V3DjCVlD"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.7336,0.5157,0.996,1</string>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

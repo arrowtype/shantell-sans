@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Getailcyr" format="2">
-	<advance width="590"/>
+	<unicode hex="04F6"/>
+	<advance width="587"/>
 	<outline>
 		<contour>
 			<point x="135" y="705" type="curve" smooth="yes"/>
@@ -50,8 +51,8 @@
 			<point x="203" y="3"/>
 			<point x="204" y="-9"/>
 			<point x="204" y="-22" type="curve" smooth="yes"/>
-			<point x="204" y="-63.5282499337"/>
-			<point x="188" y="-95.7830444066"/>
+			<point x="204" y="-63.528"/>
+			<point x="188" y="-95.783"/>
 			<point x="188" y="-125" type="curve" smooth="yes"/>
 			<point x="188" y="-172"/>
 			<point x="234" y="-198"/>
@@ -66,4 +67,12 @@
 			<point x="320" y="115"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="radical" format="2">
 	<unicode hex="221A"/>
-	<advance width="500"/>
+	<advance width="700"/>
 	<outline>
 		<contour>
 			<point x="66" y="420" type="move"/>
@@ -16,4 +16,12 @@
 			<point x="459" y="625" type="curve"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

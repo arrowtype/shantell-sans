@@ -7,7 +7,7 @@
 		<key>capHeight</key>
 		<integer>700</integer>
 		<key>copyright</key>
-		<string>Copyright 2021 The Shantell Sans Project Authors (https://github.com/arrowtype/shantell-sans)</string>
+		<string>Copyright 2022 The Shantell Sans Project Authors (https://github.com/arrowtype/shantell-sans)</string>
 		<key>descender</key>
 		<integer>-250</integer>
 		<key>familyName</key>
@@ -73,8 +73,14 @@
 		<string>Arrow Type</string>
 		<key>openTypeNameManufacturerURL</key>
 		<string>https://arrowtype.com</string>
+		<key>openTypeNamePreferredFamilyName</key>
+		<string>Shantell Sans</string>
 		<key>openTypeNamePreferredSubfamilyName</key>
 		<string>Irregular Light Italic</string>
+		<key>openTypeOS2Type</key>
+		<array>
+			<integer>3</integer>
+		</array>
 		<key>openTypeOS2TypoAscender</key>
 		<integer>1020</integer>
 		<key>openTypeOS2TypoDescender</key>
@@ -82,7 +88,7 @@
 		<key>openTypeOS2TypoLineGap</key>
 		<integer>0</integer>
 		<key>openTypeOS2VendorID</key>
-		<string>ARRW</string>
+		<string>@</string>
 		<key>openTypeOS2WeightClass</key>
 		<integer>400</integer>
 		<key>openTypeOS2WidthClass</key>
@@ -91,6 +97,12 @@
 		<integer>1020</integer>
 		<key>openTypeOS2WinDescent</key>
 		<integer>320</integer>
+		<key>openTypeVheaVertTypoAscender</key>
+		<integer>500</integer>
+		<key>openTypeVheaVertTypoDescender</key>
+		<integer>-500</integer>
+		<key>openTypeVheaVertTypoLineGap</key>
+		<integer>1000</integer>
 		<key>postscriptBlueValues</key>
 		<array>
 			<integer>-20</integer>
@@ -119,6 +131,10 @@
 		<key>postscriptStemSnapV</key>
 		<array>
 		</array>
+		<key>postscriptUnderlinePosition</key>
+		<integer>-100</integer>
+		<key>postscriptUnderlineThickness</key>
+		<integer>50</integer>
 		<key>styleMapFamilyName</key>
 		<string>Shantell Sans Ir Light Italic</string>
 		<key>styleMapStyleName</key>

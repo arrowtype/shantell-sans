@@ -6,6 +6,8 @@
 		<component base="Z"/>
 		<component base="dotaccentcmb" xOffset="336" yOffset="153"/>
 	</outline>
+	<anchor name="bottom" x="282.155" y="26"/>
+	<anchor name="top" x="433.201" y="895"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,8 +29,8 @@
 					<string>dotaccentcmb</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:26 +0000</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

@@ -2,7 +2,7 @@
 <glyph name="litre" format="2">
 	<unicode hex="2113"/>
 	<advance width="580"/>
-	<image fileName="litre.png" xScale="1.2542459223" yScale="1.2542459223" xOffset="11.6226095165" yOffset="-115.8371713503" color="0,0,0,0.20887"/>
+	<image fileName="litre.png" xScale="1.25425" yScale="1.25425" xOffset="11.623" yOffset="-115.837"/>
 	<outline>
 		<contour>
 			<point x="50" y="191" type="curve" smooth="yes"/>
@@ -57,6 +57,17 @@
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
 			<key>com.typemytype.robofont.Image.Brightness</key>
 			<integer>0</integer>
 			<key>com.typemytype.robofont.Image.Contrast</key>
@@ -64,7 +75,11 @@
 			<key>com.typemytype.robofont.Image.Saturation</key>
 			<integer>1</integer>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

@@ -4,10 +4,13 @@
 	<outline>
 		<component base="gecyr"/>
 	</outline>
+	<anchor name="top" x="252" y="485"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.9272,0.8867,1,1</string>
+			<string>0.169,0.216,0.263,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

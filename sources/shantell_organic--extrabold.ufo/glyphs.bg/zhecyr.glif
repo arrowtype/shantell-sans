@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zhecyr" format="2">
-	<advance width="951"/>
-	<image fileName="S_creenshot 2021-10-21 at 17.50.28.png" xScale="3.0379263102" yScale="3.0379263102" xOffset="-112.240667944" yOffset="-189.8943269619"/>
+	<unicode hex="0436"/>
+	<advance width="906"/>
+	<image fileName="S_creenshot 2021-10-21 at 17.50.28.png" xScale="3.03793" yScale="3.03793" xOffset="-112.241" yOffset="-189.894"/>
 	<outline>
 		<contour>
 			<point x="541" y="443" type="curve" smooth="yes"/>
@@ -99,14 +100,29 @@
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
 			<key>com.typemytype.robofont.Image.Brightness</key>
-			<real>0.5289143324</real>
+			<real>0.52891</real>
 			<key>com.typemytype.robofont.Image.Contrast</key>
 			<integer>1</integer>
 			<key>com.typemytype.robofont.Image.Saturation</key>
 			<integer>1</integer>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

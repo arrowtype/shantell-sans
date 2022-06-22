@@ -6,10 +6,12 @@
 		<component base="G"/>
 		<component base="caroncomb" xOffset="493" yOffset="185"/>
 	</outline>
+	<anchor name="bottom" x="385" y="0"/>
+	<anchor name="top" x="493" y="700"/>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

@@ -6,10 +6,13 @@
 		<component base="Ohorn"/>
 		<component base="gravecomb" xOffset="308" yOffset="105"/>
 	</outline>
+	<anchor name="bottom" x="313" y="66"/>
+	<anchor name="ogonek" x="457" y="75.8"/>
+	<anchor name="top" x="308" y="620"/>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

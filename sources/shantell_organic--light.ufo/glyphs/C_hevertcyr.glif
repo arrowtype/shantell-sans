@@ -78,13 +78,15 @@
 			<point x="280" y="513"/>
 		</contour>
 	</outline>
-	<guideline x="594.2307692308" y="345.6730769231" angle="90" identifier="QSeZTfUsVl"/>
-	<guideline x="539.9038461538" y="356.25" angle="90" identifier="y4a83ysajM"/>
-	<guideline x="548.0769230769" y="417.3076923077" angle="90" identifier="5MAjum6Wvb"/>
+	<guideline x="594.231" y="345.673" angle="90" identifier="QSeZTfUsVl"/>
+	<guideline x="539.904" y="356.25" angle="90" identifier="y4a83ysajM"/>
+	<guideline x="548.077" y="417.308" angle="90" identifier="5MAjum6Wvb"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.7336,0.5157,0.996,1</string>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

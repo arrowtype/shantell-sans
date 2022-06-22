@@ -2,29 +2,29 @@
 <glyph name="J" format="2">
 	<unicode hex="004A"/>
 	<advance width="584"/>
-	<image fileName="B_.png" xScale="2.611894476" yScale="2.611894476" xOffset="-1334.7903116164" yOffset="-291.367864743" color="0,0,0,0.25523"/>
+	<image fileName="B_.png" xScale="2.61189" yScale="2.61189" xOffset="-1334.79" yOffset="-291.368"/>
 	<outline>
 		<contour>
 			<point x="279" y="18" type="curve" smooth="yes"/>
-			<point x="416.012987013" y="18"/>
+			<point x="416.013" y="18"/>
 			<point x="490" y="80"/>
 			<point x="490" y="216" type="curve" smooth="yes"/>
-			<point x="490" y="309.7290640394"/>
-			<point x="440.5467092289" y="468.9429161587"/>
+			<point x="490" y="309.729"/>
+			<point x="440.547" y="468.943"/>
 			<point x="401" y="575" type="curve" smooth="yes"/>
-			<point x="387.1656020793" y="614.526851202"/>
-			<point x="375.2222222222" y="629"/>
+			<point x="387.166" y="614.527"/>
+			<point x="375.222" y="629"/>
 			<point x="345" y="629" type="curve" smooth="yes"/>
 			<point x="319" y="629"/>
 			<point x="321" y="597"/>
 			<point x="333" y="568" type="curve" smooth="yes"/>
-			<point x="373.583693612" y="468.0255352485"/>
-			<point x="422" y="307.3994910941"/>
+			<point x="373.584" y="468.026"/>
+			<point x="422" y="307.399"/>
 			<point x="422" y="222" type="curve" smooth="yes"/>
 			<point x="422" y="127"/>
-			<point x="386.9079754601" y="83"/>
+			<point x="386.908" y="83"/>
 			<point x="279" y="83" type="curve" smooth="yes"/>
-			<point x="201.0148148148" y="83"/>
+			<point x="201.015" y="83"/>
 			<point x="167" y="119"/>
 			<point x="167" y="173" type="curve" smooth="yes"/>
 			<point x="167" y="217"/>
@@ -36,13 +36,13 @@
 			<point x="146" y="281"/>
 			<point x="99" y="221"/>
 			<point x="99" y="161" type="curve" smooth="yes"/>
-			<point x="99" y="71.7283236994"/>
-			<point x="172.5960591133" y="18"/>
+			<point x="99" y="71.728"/>
+			<point x="172.596" y="18"/>
 		</contour>
 		<contour>
 			<point x="115" y="587" type="curve" smooth="yes"/>
-			<point x="207.1629213483" y="587"/>
-			<point x="351.6547619048" y="599"/>
+			<point x="207.163" y="587"/>
+			<point x="351.655" y="599"/>
 			<point x="501" y="599" type="curve" smooth="yes"/>
 			<point x="534" y="599"/>
 			<point x="551" y="610"/>
@@ -50,8 +50,8 @@
 			<point x="551" y="658"/>
 			<point x="527" y="665"/>
 			<point x="505" y="665" type="curve" smooth="yes"/>
-			<point x="336.5384615385" y="665"/>
-			<point x="250.652173913" y="653"/>
+			<point x="336.538" y="665"/>
+			<point x="250.652" y="653"/>
 			<point x="130" y="653" type="curve" smooth="yes"/>
 			<point x="89" y="653"/>
 			<point x="83" y="666"/>
@@ -63,14 +63,29 @@
 			<point x="79" y="587"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="289" y="647"/>
 	<anchor name="bottom" x="289" y="31"/>
+	<anchor name="top" x="289" y="647"/>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
 			<key>com.typemytype.robofont.Image.Brightness</key>
-			<real>-0.3985985816</real>
+			<real>-0.3986</real>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

@@ -2,7 +2,7 @@
 <glyph name="zero" format="2">
 	<unicode hex="0030"/>
 	<advance width="700"/>
-	<image fileName="zero.png" xScale="2.3662938837" yScale="2.3662938837" xOffset="-8471.8248343698" yOffset="-212.644631698" color="0,0,0,0.16492"/>
+	<image fileName="zero.png" xScale="2.36629" yScale="2.36629" xOffset="-8471.825" yOffset="-212.645"/>
 	<outline>
 		<contour>
 			<point x="275" y="510" type="curve" smooth="yes"/>
@@ -12,16 +12,16 @@
 			<point x="301" y="578"/>
 			<point x="292" y="583"/>
 			<point x="275" y="583" type="curve" smooth="yes"/>
-			<point x="211.2843137255" y="583"/>
-			<point x="81" y="455.6900958466"/>
+			<point x="211.284" y="583"/>
+			<point x="81" y="455.69"/>
 			<point x="81" y="290" type="curve" smooth="yes"/>
 			<point x="81" y="129"/>
 			<point x="187" y="59"/>
 			<point x="317" y="59" type="curve" smooth="yes"/>
 			<point x="464" y="59"/>
-			<point x="618" y="175.2663551402"/>
+			<point x="618" y="175.266"/>
 			<point x="618" y="417" type="curve" smooth="yes"/>
-			<point x="618" y="568.0476190476"/>
+			<point x="618" y="568.048"/>
 			<point x="552" y="661"/>
 			<point x="400" y="661" type="curve" smooth="yes"/>
 			<point x="265" y="661"/>
@@ -37,20 +37,31 @@
 			<point x="328" y="596"/>
 			<point x="400" y="596" type="curve" smooth="yes"/>
 			<point x="513" y="596"/>
-			<point x="551" y="520.1790393013"/>
+			<point x="551" y="520.179"/>
 			<point x="551" y="417" type="curve" smooth="yes"/>
-			<point x="551" y="227.4419889503"/>
+			<point x="551" y="227.442"/>
 			<point x="444" y="125"/>
 			<point x="317" y="125" type="curve" smooth="yes"/>
 			<point x="195" y="125"/>
 			<point x="148" y="196"/>
 			<point x="148" y="290" type="curve" smooth="yes"/>
-			<point x="148" y="384.4166666667"/>
-			<point x="212.0340770462" y="460.9236188742"/>
+			<point x="148" y="384.417"/>
+			<point x="212.034" y="460.924"/>
 		</contour>
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
 			<key>com.typemytype.robofont.Image.Brightness</key>
 			<integer>0</integer>
 			<key>com.typemytype.robofont.Image.Contrast</key>
@@ -58,7 +69,11 @@
 			<key>com.typemytype.robofont.Image.Saturation</key>
 			<integer>1</integer>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

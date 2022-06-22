@@ -6,10 +6,13 @@
 		<component base="O"/>
 		<component base="circumflexacutecomb" xOffset="367" yOffset="185"/>
 	</outline>
+	<anchor name="bottom" x="367" y="0"/>
+	<anchor name="ogonek" x="510" y="29"/>
+	<anchor name="top" x="367" y="700"/>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

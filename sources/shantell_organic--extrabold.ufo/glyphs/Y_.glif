@@ -14,8 +14,8 @@
 			<point x="502" y="653"/>
 			<point x="487" y="648"/>
 			<point x="459" y="626" type="curve" smooth="yes"/>
-			<point x="308.1856054793" y="508.2912042765"/>
-			<point x="175.1002943652" y="296.237031662"/>
+			<point x="308.186" y="508.291"/>
+			<point x="175.1" y="296.237"/>
 			<point x="149" y="159" type="curve" smooth="yes"/>
 			<point x="132" y="74"/>
 			<point x="162" y="16"/>
@@ -24,7 +24,7 @@
 			<point x="287" y="37"/>
 			<point x="294" y="67" type="curve" smooth="yes"/>
 			<point x="327" y="217"/>
-			<point x="436.3211672597" y="388.6519489627"/>
+			<point x="436.321" y="388.652"/>
 		</contour>
 		<contour>
 			<point x="176" y="600" type="curve" smooth="yes"/>
@@ -32,12 +32,12 @@
 			<point x="127" y="654"/>
 			<point x="95" y="654" type="curve" smooth="yes"/>
 			<point x="54" y="654"/>
-			<point x="21" y="620.6279069767"/>
+			<point x="21" y="620.628"/>
 			<point x="21" y="572" type="curve" smooth="yes"/>
 			<point x="21" y="529"/>
 			<point x="33" y="500"/>
 			<point x="53" y="472" type="curve" smooth="yes"/>
-			<point x="109.0079248465" y="394.7769521055"/>
+			<point x="109.008" y="394.777"/>
 			<point x="160" y="374"/>
 			<point x="238" y="270" type="curve" smooth="yes"/>
 			<point x="250" y="253"/>
@@ -50,12 +50,16 @@
 			<point x="236" y="493"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="300" y="644"/>
 	<anchor name="bottom" x="237" y="29"/>
+	<anchor name="top" x="300" y="644"/>
 	<lib>
 		<dict>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

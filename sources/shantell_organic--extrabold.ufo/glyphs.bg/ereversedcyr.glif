@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ereversedcyr" format="2">
-	<advance width="526"/>
-	<image fileName="S_creenshot 2021-10-22 at 12.23.05.png" xScale="1.6553623656" yScale="1.568570546" xOffset="-13.9101662217" yOffset="-120.2225704933"/>
+	<unicode hex="044D"/>
+	<advance width="580"/>
+	<image fileName="S_creenshot 2021-10-22 at 12.23.05.png" xScale="1.65536" yScale="1.56857" xOffset="-13.91" yOffset="-120.223"/>
 	<outline>
 		<contour>
 			<point x="102" y="420" type="move"/>
@@ -11,7 +12,7 @@
 			<point x="355" y="484"/>
 			<point x="446" y="410"/>
 			<point x="446" y="274" type="curve" smooth="yes"/>
-			<point x="446" y="135.409421468"/>
+			<point x="446" y="135.409"/>
 			<point x="336" y="68"/>
 			<point x="244" y="68" type="curve" smooth="yes"/>
 			<point x="169" y="68"/>
@@ -27,14 +28,29 @@
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
 			<key>com.typemytype.robofont.Image.Brightness</key>
-			<real>0.6073614955</real>
+			<real>0.60736</real>
 			<key>com.typemytype.robofont.Image.Contrast</key>
 			<integer>1</integer>
 			<key>com.typemytype.robofont.Image.Saturation</key>
 			<integer>1</integer>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

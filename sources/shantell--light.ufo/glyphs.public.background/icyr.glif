@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="icyr" format="2">
-	<unicode hex="0438"/>
-	<advance width="573"/>
 	<image fileName="S_creenshot 2021-10-15 at 15.01.07.png" xOffset="147" yOffset="112"/>
 	<outline>
 		<contour>
@@ -28,14 +26,17 @@
 	</outline>
 	<lib>
 		<dict>
-			<key>com.typemytype.robofont.Image.Brightness</key>
-			<real>0.5619361997</real>
-			<key>com.typemytype.robofont.Image.Contrast</key>
-			<integer>1</integer>
-			<key>com.typemytype.robofont.Image.Saturation</key>
-			<integer>1</integer>
-			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
 		</dict>
 	</lib>
 </glyph>

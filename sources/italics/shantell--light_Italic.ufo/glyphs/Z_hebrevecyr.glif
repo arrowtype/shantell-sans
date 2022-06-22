@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Zhebrevecyr" format="2">
 	<unicode hex="04C1"/>
-	<advance width="939"/>
+	<advance width="896"/>
 	<outline>
 		<contour>
 			<point x="569.7923593966" y="825" type="curve" smooth="yes"/>
@@ -13,13 +13,13 @@
 			<point x="460.7923593966" y="918" type="curve" smooth="yes"/>
 			<point x="438.7923593966" y="918"/>
 			<point x="422.7923593966" y="902"/>
-			<point x="419.7923593966" y="883" type="curve" smooth="yes" identifier="8j4G20WSe3"/>
+			<point x="419.7923593966" y="883" type="curve" smooth="yes" identifier="qnxzvmqYiy"/>
 			<point x="411.7923593966" y="846"/>
 			<point x="453.7923593966" y="765"/>
 			<point x="552.7923593966" y="765" type="curve" smooth="yes"/>
 			<point x="648.7923593966" y="765"/>
 			<point x="735.7923593966" y="826"/>
-			<point x="742.7923593966" y="858" type="curve" smooth="yes" identifier="9W9VYEDIg2"/>
+			<point x="742.7923593966" y="858" type="curve" smooth="yes" identifier="CnVD0BgOOb"/>
 			<point x="744.7923593966" y="872"/>
 			<point x="738.7923593966" y="886"/>
 			<point x="720.7923593966" y="886" type="curve" smooth="yes"/>
@@ -31,6 +31,7 @@
 		</contour>
 		<component base="Zhecyr"/>
 	</outline>
+	<anchor name="top" x="527.7932173817" y="700"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>

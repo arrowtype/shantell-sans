@@ -6,7 +6,7 @@
 		<contour>
 			<point x="361" y="0" type="curve" smooth="yes"/>
 			<point x="544" y="0"/>
-			<point x="651" y="81.1412429379"/>
+			<point x="651" y="81.141"/>
 			<point x="651" y="167" type="curve" smooth="yes"/>
 			<point x="651" y="210"/>
 			<point x="634" y="236"/>
@@ -15,7 +15,7 @@
 			<point x="496" y="167"/>
 			<point x="365" y="167" type="curve" smooth="yes"/>
 			<point x="281" y="167"/>
-			<point x="228" y="218.2837837838"/>
+			<point x="228" y="218.284"/>
 			<point x="228" y="305" type="curve" smooth="yes"/>
 			<point x="228" y="424"/>
 			<point x="297" y="522"/>
@@ -32,13 +32,13 @@
 			<point x="605" y="336"/>
 			<point x="659" y="437"/>
 			<point x="659" y="524" type="curve" smooth="yes"/>
-			<point x="659" y="642.5882352941"/>
+			<point x="659" y="642.588"/>
 			<point x="585" y="700"/>
 			<point x="425" y="700" type="curve" smooth="yes"/>
 			<point x="208" y="700"/>
-			<point x="49" y="531.4256926952"/>
+			<point x="49" y="531.426"/>
 			<point x="49" y="304" type="curve" smooth="yes"/>
-			<point x="49" y="126.8280254777"/>
+			<point x="49" y="126.828"/>
 			<point x="160" y="0"/>
 		</contour>
 		<contour>
@@ -79,11 +79,11 @@
 			<point x="118" y="-79"/>
 			<point x="158" y="-111"/>
 			<point x="208" y="-112" type="curve" smooth="yes"/>
-			<point x="256.9987940263" y="-112.9999753883"/>
-			<point x="280" y="-81.9512195122"/>
+			<point x="256.999" y="-113"/>
+			<point x="280" y="-81.951"/>
 			<point x="280" y="-35" type="curve" smooth="yes"/>
-			<point x="280" y="8.3461538462"/>
-			<point x="284.4242819505" y="63.826044141"/>
+			<point x="280" y="8.346"/>
+			<point x="284.424" y="63.826"/>
 			<point x="293" y="126" type="curve"/>
 		</contour>
 		<contour>
@@ -98,8 +98,16 @@
 			<point x="510" y="-95"/>
 			<point x="510" y="-45" type="curve" smooth="yes"/>
 			<point x="510" y="9"/>
-			<point x="513.686154919" y="65.6104731254"/>
+			<point x="513.686" y="65.61"/>
 			<point x="519" y="123" type="curve"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

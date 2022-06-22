@@ -24,7 +24,7 @@
 			<point x="525" y="454"/>
 			<point x="511" y="482"/>
 			<point x="479" y="501" type="curve" smooth="yes"/>
-			<point x="440.3477535959" y="524.1913478425"/>
+			<point x="440.348" y="524.191"/>
 			<point x="370" y="525"/>
 			<point x="299" y="525" type="curve" smooth="yes"/>
 			<point x="238" y="525"/>
@@ -69,4 +69,12 @@
 			<point x="204" y="210" type="curve"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

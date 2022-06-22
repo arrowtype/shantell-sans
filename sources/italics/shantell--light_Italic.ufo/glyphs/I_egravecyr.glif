@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Iegravecyr" format="2">
 	<unicode hex="0400"/>
-	<advance width="663"/>
+	<advance width="633"/>
 	<outline>
 		<component base="Egrave"/>
 	</outline>
+	<anchor name="bottom" x="312.7923593966" y="0"/>
+	<anchor name="ogonek" x="505.1924047472" y="37"/>
+	<anchor name="top" x="456.7932173817" y="700"/>
 </glyph>

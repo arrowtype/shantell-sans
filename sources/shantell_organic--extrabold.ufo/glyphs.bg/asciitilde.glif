@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="asciitilde" format="2">
+	<unicode hex="007E"/>
+	<advance width="700"/>
 	<outline>
 		<contour>
 			<point x="-119" y="583" type="line"/>
@@ -84,4 +86,12 @@
 			<point x="93" y="185"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

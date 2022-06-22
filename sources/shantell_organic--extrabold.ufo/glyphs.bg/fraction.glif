@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fraction" format="2">
 	<unicode hex="2044"/>
-	<advance width="220"/>
+	<advance width="380"/>
 	<outline>
 		<contour>
 			<point x="591" y="726"/>
@@ -24,4 +24,12 @@
 			<point x="536" y="756" type="curve" smooth="yes"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

@@ -2,7 +2,7 @@
 <glyph name="Euro" format="2">
 	<unicode hex="20AC"/>
 	<advance width="700"/>
-	<image fileName="E_uro.png" xScale="0.9811876976" yScale="0.9811876976" xOffset="-35" yOffset="-90" color="0,0,0,0.27836"/>
+	<image fileName="E_uro.png" xScale="0.98119" yScale="0.98119" xOffset="-35" yOffset="-90"/>
 	<outline>
 		<contour>
 			<point x="566" y="643" type="curve" smooth="yes"/>
@@ -34,7 +34,7 @@
 			<point x="261" y="164"/>
 			<point x="261" y="302" type="curve" smooth="yes"/>
 			<point x="261" y="450"/>
-			<point x="362.1736653027" y="567.4351149415"/>
+			<point x="362.174" y="567.435"/>
 		</contour>
 		<contour>
 			<point x="80" y="410" type="curve" smooth="yes"/>
@@ -64,8 +64,8 @@
 			<point x="97" y="189"/>
 			<point x="113" y="174"/>
 			<point x="138" y="174" type="curve" smooth="yes"/>
-			<point x="227.1167883212" y="174"/>
-			<point x="432.1022352861" y="204.8364165081"/>
+			<point x="227.117" y="174"/>
+			<point x="432.102" y="204.836"/>
 			<point x="559" y="212" type="curve" smooth="yes"/>
 			<point x="612" y="215"/>
 			<point x="630" y="235"/>
@@ -73,12 +73,23 @@
 			<point x="630" y="273"/>
 			<point x="619" y="284"/>
 			<point x="593" y="284" type="curve" smooth="yes"/>
-			<point x="474.393258427" y="284"/>
-			<point x="283.9193037377" y="256.2449765374"/>
+			<point x="474.393" y="284"/>
+			<point x="283.919" y="256.245"/>
 		</contour>
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
 			<key>com.typemytype.robofont.Image.Brightness</key>
 			<integer>0</integer>
 			<key>com.typemytype.robofont.Image.Contrast</key>
@@ -86,9 +97,11 @@
 			<key>com.typemytype.robofont.Image.Saturation</key>
 			<integer>1</integer>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
 			<key>public.markColor</key>
-			<string>0,0.95,0.95,0.25</string>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

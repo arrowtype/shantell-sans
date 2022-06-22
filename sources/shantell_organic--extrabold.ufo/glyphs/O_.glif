@@ -38,17 +38,25 @@
 			<point x="394" y="472.3"/>
 			<point x="453.4" y="383.05"/>
 			<point x="453.4" y="310.4" type="curve" smooth="yes"/>
-			<point x="453.4" y="248.7195402299"/>
-			<point x="386.3485875706" y="200.2"/>
+			<point x="453.4" y="248.72"/>
+			<point x="386.349" y="200.2"/>
 			<point x="309" y="200.2" type="curve" smooth="yes"/>
-			<point x="248.6928571428" y="200.2"/>
-			<point x="202.05" y="232.5551948052"/>
+			<point x="248.693" y="200.2"/>
+			<point x="202.05" y="232.555"/>
 			<point x="202.05" y="300.4" type="curve" smooth="yes"/>
-			<point x="202.05" y="349.885078534"/>
+			<point x="202.05" y="349.885"/>
 			<point x="217.55" y="383.6"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="314" y="629.15"/>
 	<anchor name="bottom" x="314" y="46.8"/>
 	<anchor name="ogonek" x="457" y="75.8"/>
+	<anchor name="top" x="314" y="629.15"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

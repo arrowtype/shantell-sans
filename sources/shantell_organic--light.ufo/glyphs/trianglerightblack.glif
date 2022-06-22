@@ -59,11 +59,13 @@
 			<point x="55" y="482"/>
 		</contour>
 	</outline>
-	<guideline name="capCenter" x="0" y="350" angle="0" identifier="lT1XZXDpQn"/>
+	<guideline name="capCenter" y="350" identifier="lT1XZXDpQn"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0,0.95,0.95,0.25</string>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

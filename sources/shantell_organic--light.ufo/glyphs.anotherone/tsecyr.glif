@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tsecyr" format="2">
-	<advance width="607"/>
+	<unicode hex="0446"/>
+	<advance width="638"/>
 	<outline>
 		<contour>
 			<point x="159" y="458" type="curve" smooth="yes"/>
@@ -72,7 +73,9 @@
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.9272,0.8867,1,1</string>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

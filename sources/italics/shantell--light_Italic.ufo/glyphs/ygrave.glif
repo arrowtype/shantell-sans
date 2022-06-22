@@ -6,4 +6,12 @@
 		<component base="y"/>
 		<component base="gravecomb" xOffset="270"/>
 	</outline>
+	<anchor name="bottom" x="182.818" y="-250"/>
+	<anchor name="top" x="317.819" y="485"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

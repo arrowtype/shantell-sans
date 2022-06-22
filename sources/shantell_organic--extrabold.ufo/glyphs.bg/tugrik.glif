@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tugrik" format="2">
+	<unicode hex="20AE"/>
 	<advance width="665"/>
 	<outline>
 		<contour>
@@ -86,4 +87,12 @@
 			<point x="252" y="248"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

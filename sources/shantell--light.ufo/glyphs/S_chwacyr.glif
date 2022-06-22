@@ -45,15 +45,17 @@
 			<point x="55" y="415"/>
 		</contour>
 	</outline>
-	<guideline x="537.5" y="632.6923076923" angle="90" identifier="Ovo68woMtl"/>
-	<guideline x="-165.3846153846" y="348.0769230769" angle="90" identifier="z0dkOIsaat"/>
-	<guideline x="537.5" y="632.6923076923" angle="90" identifier="04COhzMve8"/>
-	<guideline x="-165.3846153846" y="348.0769230769" angle="90" identifier="MfRpKxGlT6"/>
-	<guideline x="105.2884615385" y="510.5769230769" angle="90" identifier="IMRKYFwy3a"/>
+	<guideline x="537.5" y="632.692" angle="90" identifier="Ovo68woMtl"/>
+	<guideline x="-165.385" y="348.077" angle="90" identifier="z0dkOIsaat"/>
+	<guideline x="537.5" y="632.692" angle="90" identifier="04COhzMve8"/>
+	<guideline x="-165.385" y="348.077" angle="90" identifier="MfRpKxGlT6"/>
+	<guideline x="105.288" y="510.577" angle="90" identifier="IMRKYFwy3a"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.7336,0.5157,0.996,1</string>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

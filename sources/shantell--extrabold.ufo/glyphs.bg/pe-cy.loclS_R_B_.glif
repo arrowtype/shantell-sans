@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pe-cy.loclSRB" format="2">
-	<advance width="708"/>
+	<advance width="654"/>
 	<outline>
 		<contour>
 			<point x="227" y="572" type="curve" smooth="yes"/>
@@ -74,4 +74,12 @@
 			<point x="229" y="199"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.169,0.216,0.263,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

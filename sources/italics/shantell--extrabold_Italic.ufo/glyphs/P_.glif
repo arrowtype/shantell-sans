@@ -21,15 +21,15 @@
 			<point x="484" y="496"/>
 			<point x="477" y="460" type="curve" smooth="yes"/>
 			<point x="464" y="395"/>
-			<point x="383.66422" y="348"/>
-			<point x="302.66422" y="348" type="curve" smooth="yes"/>
-			<point x="245.66422" y="348"/>
-			<point x="236.66422" y="366"/>
-			<point x="211.66422" y="366" type="curve" smooth="yes"/>
-			<point x="176.66422" y="366"/>
-			<point x="144.66422" y="344"/>
-			<point x="136.66422" y="303" type="curve" smooth="yes"/>
-			<point x="123.66422" y="241"/>
+			<point x="383.664" y="348"/>
+			<point x="302.664" y="348" type="curve" smooth="yes"/>
+			<point x="245.664" y="348"/>
+			<point x="236.664" y="366"/>
+			<point x="211.664" y="366" type="curve" smooth="yes"/>
+			<point x="176.664" y="366"/>
+			<point x="144.664" y="344"/>
+			<point x="136.664" y="303" type="curve" smooth="yes"/>
+			<point x="123.664" y="241"/>
 			<point x="190" y="183"/>
 			<point x="297" y="183" type="curve" smooth="yes"/>
 			<point x="458" y="183"/>
@@ -45,14 +45,14 @@
 			<point x="61" y="311"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="427.66508" y="700"/>
-	<anchor name="bottom" x="134.66422" y="0"/>
+	<anchor name="bottom" x="134.664" y="0"/>
+	<anchor name="top" x="427.665" y="700"/>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 15:53:14 +0000</string>
 			<key>public.markColor</key>
 			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

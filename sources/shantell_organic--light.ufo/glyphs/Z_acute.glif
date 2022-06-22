@@ -6,10 +6,12 @@
 		<component base="Z"/>
 		<component base="acutecomb" xOffset="322" yOffset="151"/>
 	</outline>
+	<anchor name="bottom" x="331" y="29"/>
+	<anchor name="top" x="322" y="666"/>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

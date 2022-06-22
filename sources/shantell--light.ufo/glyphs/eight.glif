@@ -2,7 +2,7 @@
 <glyph name="eight" format="2">
 	<unicode hex="0038"/>
 	<advance width="700"/>
-	<image fileName="zero.png" xScale="2.3662938837" yScale="2.3662938837" xOffset="-7182.8248343698" yOffset="-192.644631698" color="0,0,0,0.16492"/>
+	<image fileName="zero.png" xScale="2.36629" yScale="2.36629" xOffset="-7182.825" yOffset="-192.645"/>
 	<outline>
 		<contour>
 			<point x="446" y="646" type="curve" smooth="yes"/>
@@ -15,11 +15,11 @@
 			<point x="190" y="711"/>
 			<point x="95" y="650"/>
 			<point x="93" y="547" type="curve" smooth="yes"/>
-			<point x="91.9951228642" y="473.6439690869"/>
-			<point x="123.876552534" y="421.0438924324"/>
+			<point x="91.995" y="473.644"/>
+			<point x="123.877" y="421.044"/>
 			<point x="349" y="341" type="curve" smooth="yes"/>
-			<point x="491.8927426564" y="290.038252619"/>
-			<point x="526" y="252.5933333333"/>
+			<point x="491.893" y="290.038"/>
+			<point x="526" y="252.593"/>
 			<point x="526" y="192" type="curve" smooth="yes"/>
 			<point x="526" y="99"/>
 			<point x="414" y="53"/>
@@ -38,9 +38,9 @@
 			<point x="577" y="535"/>
 			<point x="577" y="609" type="curve" smooth="yes"/>
 			<point x="577" y="628"/>
-			<point x="562.8596491228" y="643"/>
+			<point x="562.86" y="643"/>
 			<point x="546" y="643" type="curve" smooth="yes"/>
-			<point x="528.7777777778" y="643"/>
+			<point x="528.778" y="643"/>
 			<point x="522" y="631"/>
 			<point x="513" y="602" type="curve" smooth="yes"/>
 			<point x="487" y="512"/>
@@ -55,20 +55,35 @@
 			<point x="505" y="-12"/>
 			<point x="593" y="87"/>
 			<point x="593" y="190" type="curve" smooth="yes"/>
-			<point x="593" y="262.3396226415"/>
-			<point x="580.2824942527" y="328.2599658505"/>
+			<point x="593" y="262.34"/>
+			<point x="580.282" y="328.26"/>
 			<point x="374" y="403" type="curve" smooth="yes"/>
-			<point x="181.3605250435" y="473.2331419112"/>
-			<point x="160" y="504.2867132867"/>
+			<point x="181.361" y="473.233"/>
+			<point x="160" y="504.287"/>
 			<point x="160" y="545" type="curve" smooth="yes"/>
 			<point x="160" y="617"/>
-			<point x="252.7300157411" y="650.4686701563"/>
+			<point x="252.73" y="650.469"/>
 		</contour>
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

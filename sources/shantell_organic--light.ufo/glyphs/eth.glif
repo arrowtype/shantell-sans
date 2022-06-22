@@ -5,14 +5,14 @@
 	<outline>
 		<contour>
 			<point x="194" y="680" type="curve" smooth="yes"/>
-			<point x="360.4767871042" y="547.9666860898"/>
-			<point x="458" y="373.9775196703"/>
+			<point x="360.477" y="547.967"/>
+			<point x="458" y="373.978"/>
 			<point x="458" y="239" type="curve" smooth="yes"/>
 			<point x="458" y="101"/>
 			<point x="387" y="55"/>
 			<point x="289" y="55" type="curve" smooth="yes"/>
 			<point x="209" y="55"/>
-			<point x="133" y="97.7397260274"/>
+			<point x="133" y="97.74"/>
 			<point x="133" y="211" type="curve" smooth="yes"/>
 			<point x="133" y="279"/>
 			<point x="167" y="355"/>
@@ -35,8 +35,8 @@
 			<point x="455" y="-10"/>
 			<point x="525" y="82"/>
 			<point x="525" y="239" type="curve" smooth="yes"/>
-			<point x="525" y="387.8670520231"/>
-			<point x="423.2723166455" y="578.2462103798"/>
+			<point x="525" y="387.867"/>
+			<point x="423.272" y="578.246"/>
 			<point x="238" y="728" type="curve" smooth="yes"/>
 			<point x="208" y="751"/>
 			<point x="194" y="760"/>
@@ -49,8 +49,8 @@
 		</contour>
 		<contour>
 			<point x="130" y="521" type="curve" smooth="yes"/>
-			<point x="233.2974928339" y="563.5969042614"/>
-			<point x="312.7648123802" y="583.1832827275"/>
+			<point x="233.297" y="563.597"/>
+			<point x="312.765" y="583.183"/>
 			<point x="469" y="597" type="curve" smooth="yes"/>
 			<point x="494" y="599"/>
 			<point x="504" y="606"/>
@@ -58,8 +58,8 @@
 			<point x="504" y="643"/>
 			<point x="483" y="658"/>
 			<point x="458" y="658" type="curve" smooth="yes"/>
-			<point x="362.9864864865" y="658"/>
-			<point x="252.2506602419" y="631.5342113467"/>
+			<point x="362.986" y="658"/>
+			<point x="252.251" y="631.534"/>
 			<point x="142" y="593" type="curve" smooth="yes"/>
 			<point x="89" y="574"/>
 			<point x="81" y="560"/>
@@ -71,7 +71,9 @@
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0,0.95,0.95,0.25</string>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

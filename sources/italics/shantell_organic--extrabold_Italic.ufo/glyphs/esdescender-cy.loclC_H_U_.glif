@@ -4,21 +4,6 @@
 	<outline>
 		<component base="ccedilla"/>
 	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>0</integer>
-					<key>name</key>
-					<string>ccedilla</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:26 +0000</string>
-		</dict>
-	</lib>
+	<anchor name="bottom" x="233.6058251593" y="31"/>
+	<anchor name="top" x="335.4063816239" y="485"/>
 </glyph>

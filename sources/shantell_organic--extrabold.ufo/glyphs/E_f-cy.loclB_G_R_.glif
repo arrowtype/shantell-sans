@@ -26,41 +26,43 @@
 			<point x="541" y="229"/>
 			<point x="541" y="393" type="curve" smooth="yes"/>
 			<point x="541" y="600"/>
-			<point x="528.3333333333" y="715"/>
+			<point x="528.333" y="715"/>
 		</contour>
 		<contour>
 			<point x="423" y="551" type="curve"/>
 			<point x="391" y="688" type="line"/>
-			<point x="195" y="678.7169811321"/>
-			<point x="48" y="558.0377358491"/>
+			<point x="195" y="678.717"/>
+			<point x="48" y="558.038"/>
 			<point x="48" y="360" type="curve" smooth="yes"/>
-			<point x="48" y="173.7974276527"/>
-			<point x="154.6516853933" y="69"/>
+			<point x="48" y="173.797"/>
+			<point x="154.652" y="69"/>
 			<point x="384" y="69" type="curve" smooth="yes"/>
-			<point x="668.2799097065" y="69"/>
-			<point x="847" y="202.1685714286"/>
+			<point x="668.28" y="69"/>
+			<point x="847" y="202.169"/>
 			<point x="847" y="436" type="curve" smooth="yes"/>
-			<point x="847" y="569.9569536424"/>
-			<point x="757" y="707.1684210526"/>
+			<point x="847" y="569.957"/>
+			<point x="757" y="707.168"/>
 			<point x="514" y="715" type="curve"/>
 			<point x="498" y="573" type="line"/>
-			<point x="617" y="571.0784313725"/>
-			<point x="684" y="521.1176470588"/>
+			<point x="617" y="571.078"/>
+			<point x="684" y="521.118"/>
 			<point x="684" y="426" type="curve" smooth="yes"/>
-			<point x="684" y="267.1398963731"/>
-			<point x="574" y="216.9417040359"/>
+			<point x="684" y="267.14"/>
+			<point x="574" y="216.942"/>
 			<point x="384" y="216" type="curve" smooth="yes"/>
 			<point x="273" y="215"/>
-			<point x="215" y="253.756097561"/>
+			<point x="215" y="253.756"/>
 			<point x="215" y="360" type="curve" smooth="yes"/>
-			<point x="215" y="463.4143646409"/>
-			<point x="277" y="539.3922651934"/>
+			<point x="215" y="463.414"/>
+			<point x="277" y="539.392"/>
 		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.7336,0.5157,0.996,1</string>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

@@ -2,7 +2,7 @@
 <glyph name="parenright" format="2">
 	<unicode hex="0029"/>
 	<advance width="494"/>
-	<image fileName="parenleft.png" xScale="2.5963710802" yScale="2.5963710802" xOffset="-2052.7459756108" yOffset="-485.3762351949" color="0,0,0,0.18426"/>
+	<image fileName="parenleft.png" xScale="2.59637" yScale="2.59637" xOffset="-2052.746" yOffset="-485.376"/>
 	<outline>
 		<contour>
 			<point x="68" y="-129" type="curve" smooth="yes"/>
@@ -39,8 +39,23 @@
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

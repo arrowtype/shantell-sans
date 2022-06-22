@@ -101,12 +101,14 @@
 			<point x="380" y="301"/>
 		</contour>
 	</outline>
-	<guideline x="228.8461538462" y="355.7692307692" angle="90" identifier="JUwCnAo7xy"/>
-	<guideline x="131.25" y="424.0384615385" angle="90" identifier="pv43GWLurq"/>
+	<guideline x="228.846" y="355.769" angle="90" identifier="JUwCnAo7xy"/>
+	<guideline x="131.25" y="424.038" angle="90" identifier="pv43GWLurq"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.7336,0.5157,0.996,1</string>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

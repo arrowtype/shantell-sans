@@ -43,6 +43,14 @@
 			<point x="302" y="33"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="345" y="683"/>
 	<anchor name="bottom" x="361" y="44"/>
+	<anchor name="top" x="345" y="683"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

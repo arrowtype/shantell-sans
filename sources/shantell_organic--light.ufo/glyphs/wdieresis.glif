@@ -6,10 +6,12 @@
 		<component base="w"/>
 		<component base="dieresiscomb" xOffset="437" yOffset="-41"/>
 	</outline>
+	<anchor name="bottom" x="451" y="30"/>
+	<anchor name="top" x="436" y="619"/>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dong" format="2">
-	<advance width="593"/>
+	<unicode hex="20AB"/>
+	<advance width="700"/>
 	<outline>
 		<contour>
 			<point x="-659" y="230" type="qcurve" smooth="yes"/>
@@ -52,4 +53,12 @@
 			<point x="-151" y="-62" type="line"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

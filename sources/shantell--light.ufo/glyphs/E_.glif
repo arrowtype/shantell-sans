@@ -11,8 +11,8 @@
 			<point x="68" y="119"/>
 			<point x="175" y="-7"/>
 			<point x="361" y="-7" type="curve" smooth="yes"/>
-			<point x="521.1954022989" y="-7"/>
-			<point x="592" y="52.0227272727"/>
+			<point x="521.195" y="-7"/>
+			<point x="592" y="52.023"/>
 			<point x="592" y="91" type="curve" smooth="yes"/>
 			<point x="592" y="107"/>
 			<point x="586" y="119"/>
@@ -34,8 +34,8 @@
 		</contour>
 		<contour>
 			<point x="155" y="281" type="curve" smooth="yes"/>
-			<point x="219.5538986092" y="295.9690199673"/>
-			<point x="343.2310338048" y="314.4063717699"/>
+			<point x="219.554" y="295.969"/>
+			<point x="343.231" y="314.406"/>
 			<point x="429" y="320" type="curve" smooth="yes"/>
 			<point x="467" y="322"/>
 			<point x="502" y="330"/>
@@ -43,8 +43,8 @@
 			<point x="502" y="376"/>
 			<point x="492" y="386"/>
 			<point x="456" y="386" type="curve" smooth="yes"/>
-			<point x="397.9860656719" y="385.0642913818"/>
-			<point x="261.5577249945" y="367.9367118923"/>
+			<point x="397.986" y="385.064"/>
+			<point x="261.558" y="367.937"/>
 			<point x="165" y="352" type="curve" smooth="yes"/>
 			<point x="122" y="345"/>
 			<point x="98" y="330"/>
@@ -54,8 +54,8 @@
 		</contour>
 		<contour>
 			<point x="128" y="616" type="curve" smooth="yes"/>
-			<point x="204.3386727689" y="616"/>
-			<point x="278.7688787185" y="643"/>
+			<point x="204.339" y="616"/>
+			<point x="278.769" y="643"/>
 			<point x="545" y="643" type="curve" smooth="yes"/>
 			<point x="578" y="643"/>
 			<point x="590" y="660"/>
@@ -63,8 +63,8 @@
 			<point x="590" y="697"/>
 			<point x="580" y="708"/>
 			<point x="561" y="708" type="curve" smooth="yes"/>
-			<point x="438.4817987152" y="708"/>
-			<point x="248.1652813992" y="698.041439087"/>
+			<point x="438.482" y="708"/>
+			<point x="248.165" y="698.041"/>
 			<point x="114" y="676" type="curve" smooth="yes"/>
 			<point x="95" y="672"/>
 			<point x="87" y="656"/>
@@ -73,7 +73,15 @@
 			<point x="101" y="616"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="365" y="700"/>
 	<anchor name="bottom" x="361" y="0"/>
 	<anchor name="ogonek" x="546" y="37"/>
+	<anchor name="top" x="365" y="700"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

@@ -6,6 +6,10 @@
 		<component base="i" xOffset="5"/>
 		<component base="j" xOffset="281"/>
 	</outline>
+	<anchor name="bottom" x="97.987" y="0"/>
+	<anchor name="ogonek" x="107.987" y="0"/>
+	<anchor name="top_1" x="221.364" y="620"/>
+	<anchor name="top_2" x="442.364" y="620"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,8 +31,10 @@
 					<string>j</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:21 +0000</string>
+			<key>public.markColor</key>
+			<string>0.75,0.75,0.75,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

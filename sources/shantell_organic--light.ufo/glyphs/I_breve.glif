@@ -6,10 +6,13 @@
 		<component base="I"/>
 		<component base="brevecomb" xOffset="310" yOffset="142"/>
 	</outline>
+	<anchor name="bottom" x="307" y="59"/>
+	<anchor name="ogonek" x="526" y="62"/>
+	<anchor name="top" x="310" y="845"/>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

@@ -2,7 +2,7 @@
 <glyph name="braceleft" format="2">
 	<unicode hex="007B"/>
 	<advance width="553"/>
-	<image fileName="braceleft000000000000001.png" xScale="2.7649451141" yScale="2.7649451141" xOffset="-30.9991468395" yOffset="-416.5270469168" color="0,0,0,0.24164"/>
+	<image fileName="braceleft000000000000001.png" xScale="2.76495" yScale="2.76495" xOffset="-30.999" yOffset="-416.527"/>
 	<outline>
 		<contour>
 			<point x="448" y="638" type="curve" smooth="yes"/>
@@ -21,11 +21,11 @@
 			<point x="201" y="383"/>
 			<point x="170" y="353"/>
 			<point x="65" y="319" type="curve" smooth="yes"/>
-			<point x="23.5367939997" y="305.1789313332"/>
-			<point x="10" y="276.9047619048"/>
+			<point x="23.537" y="305.179"/>
+			<point x="10" y="276.905"/>
 			<point x="10" y="251" type="curve" smooth="yes"/>
-			<point x="10" y="194.8095238095"/>
-			<point x="34.8072951975" y="158.0287007153"/>
+			<point x="10" y="194.81"/>
+			<point x="34.807" y="158.029"/>
 			<point x="82" y="151" type="curve" smooth="yes"/>
 			<point x="197" y="133"/>
 			<point x="216" y="121"/>
@@ -40,10 +40,10 @@
 			<point x="535" y="-216"/>
 			<point x="535" y="-159" type="curve" smooth="yes"/>
 			<point x="535" y="-116"/>
-			<point x="510.9854068299" y="-95.9991415782"/>
+			<point x="510.985" y="-96"/>
 			<point x="477" y="-94" type="curve" smooth="yes"/>
 			<point x="391" y="-88"/>
-			<point x="354" y="-69.2307692308"/>
+			<point x="354" y="-69.231"/>
 			<point x="354" y="-38" type="curve" smooth="yes"/>
 			<point x="354" y="3"/>
 			<point x="392" y="51"/>
@@ -64,8 +64,23 @@
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

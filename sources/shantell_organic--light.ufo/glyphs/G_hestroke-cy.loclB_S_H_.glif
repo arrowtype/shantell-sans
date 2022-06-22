@@ -4,8 +4,8 @@
 	<outline>
 		<contour>
 			<point x="227" y="340" type="curve" smooth="yes"/>
-			<point x="257.9550561798" y="340"/>
-			<point x="341.2134831461" y="357"/>
+			<point x="257.955" y="340"/>
+			<point x="341.213" y="357"/>
 			<point x="417" y="357" type="curve" smooth="yes"/>
 			<point x="441" y="357"/>
 			<point x="454" y="367"/>
@@ -13,8 +13,8 @@
 			<point x="454" y="394"/>
 			<point x="430" y="415"/>
 			<point x="345" y="415" type="curve" smooth="yes"/>
-			<point x="313.2380952381" y="415"/>
-			<point x="242.0476190476" y="402.4"/>
+			<point x="313.238" y="415"/>
+			<point x="242.048" y="402.4"/>
 			<point x="207" y="397" type="curve" smooth="yes"/>
 			<point x="180" y="395"/>
 			<point x="169" y="385"/>
@@ -70,7 +70,9 @@
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.7336,0.5157,0.996,1</string>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

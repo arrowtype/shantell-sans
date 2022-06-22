@@ -6,10 +6,13 @@
 		<component base="L"/>
 		<component base="j" xOffset="556"/>
 	</outline>
+	<anchor name="bottom" x="289" y="49.4"/>
+	<anchor name="top_1" x="171.3" y="612.9"/>
+	<anchor name="top_2" x="642" y="620"/>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

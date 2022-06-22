@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="naira" format="2">
 	<unicode hex="20A6"/>
-	<advance width="492"/>
+	<advance width="700"/>
 	<outline>
 		<contour>
 			<point x="-510" y="411" type="line"/>
@@ -52,12 +52,12 @@
 		<contour>
 			<point x="69" y="483" type="curve" smooth="yes"/>
 			<point x="27" y="473"/>
-			<point x="11" y="447.8666666667"/>
+			<point x="11" y="447.867"/>
 			<point x="11" y="421" type="curve" smooth="yes"/>
 			<point x="11" y="386"/>
 			<point x="44" y="366"/>
 			<point x="75" y="366" type="curve" smooth="yes"/>
-			<point x="91.6307977737" y="366"/>
+			<point x="91.631" y="366"/>
 			<point x="119" y="368"/>
 			<point x="158" y="370" type="curve" smooth="yes"/>
 			<point x="213" y="373"/>
@@ -77,7 +77,7 @@
 			<point x="11" y="190"/>
 			<point x="48" y="165"/>
 			<point x="85" y="165" type="curve" smooth="yes"/>
-			<point x="104.2679245283" y="165"/>
+			<point x="104.268" y="165"/>
 			<point x="137" y="168"/>
 			<point x="159" y="169" type="curve" smooth="yes"/>
 			<point x="221" y="172"/>
@@ -87,7 +87,7 @@
 			<point x="231" y="291"/>
 			<point x="180" y="291" type="curve" smooth="yes"/>
 			<point x="153" y="291"/>
-			<point x="112.3170704534" y="289.8309216229"/>
+			<point x="112.317" y="289.831"/>
 		</contour>
 		<contour>
 			<point x="527" y="511" type="curve" smooth="yes"/>
@@ -130,4 +130,12 @@
 			<point x="570" y="314"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

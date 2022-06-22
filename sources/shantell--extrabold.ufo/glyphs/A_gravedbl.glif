@@ -6,10 +6,14 @@
 		<component base="A"/>
 		<component base="gravedoublecmb" xOffset="424" yOffset="185"/>
 	</outline>
+	<anchor name="bottom" x="424" y="0"/>
+	<anchor name="ogonek" x="702" y="0"/>
+	<anchor name="ring" x="424" y="699"/>
+	<anchor name="top" x="424" y="895"/>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

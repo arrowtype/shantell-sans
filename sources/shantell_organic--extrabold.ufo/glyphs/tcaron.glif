@@ -28,10 +28,14 @@
 		</contour>
 		<component base="t"/>
 	</outline>
+	<anchor name="bottom" x="273" y="0"/>
+	<anchor name="top" x="129" y="750"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

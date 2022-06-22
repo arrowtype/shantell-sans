@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Xatailcyr" format="2">
+	<unicode hex="04B2"/>
 	<advance width="771"/>
 	<outline>
 		<contour>
@@ -71,4 +72,12 @@
 			<point x="453" y="353"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

@@ -6,4 +6,13 @@
 		<component base="a"/>
 		<component base="ringcomb" xOffset="320"/>
 	</outline>
+	<anchor name="bottom" x="271.579" y="0"/>
+	<anchor name="ogonek" x="511.179" y="-7"/>
+	<anchor name="top" x="428.285" y="786"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="asterisk" format="2">
 	<unicode hex="002A"/>
-	<advance width="600"/>
+	<advance width="520"/>
 	<outline>
 		<contour>
 			<point x="237" y="716" type="move"/>
@@ -12,17 +12,25 @@
 			<point x="263" y="375"/>
 			<point x="281" y="286" type="curve"/>
 		</contour>
-		<contour identifier="zzFbpI35zt">
+		<contour>
 			<point x="414" y="644" type="move"/>
 			<point x="368" y="570"/>
 			<point x="194" y="473"/>
 			<point x="129" y="374" type="curve" smooth="yes"/>
 		</contour>
-		<contour identifier="yoa6PU5MTz">
+		<contour>
 			<point x="75" y="600" type="move"/>
 			<point x="165" y="548"/>
 			<point x="311" y="499"/>
 			<point x="431" y="435" type="curve" smooth="yes"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

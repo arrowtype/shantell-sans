@@ -6,6 +6,9 @@
 		<component base="o"/>
 		<component base="dotmacroncomb" xOffset="311" yOffset="-25"/>
 	</outline>
+	<anchor name="bottom" x="276.596" y="32"/>
+	<anchor name="ogonek" x="434.596" y="77"/>
+	<anchor name="top" x="363.196" y="490"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,8 +30,8 @@
 					<string>dotmacroncomb</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:26 +0000</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

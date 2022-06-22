@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="i" format="2">
+	<unicode hex="0069"/>
 	<advance width="348"/>
 	<outline>
 		<contour>
@@ -37,4 +38,10 @@
 			<point x="108" y="589"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

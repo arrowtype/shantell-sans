@@ -31,12 +31,15 @@
 		</contour>
 		<component base="icyr"/>
 	</outline>
-	<guideline x="277.8846153846" y="515.3846153846" angle="90" identifier="p0aJ1s3JmT"/>
-	<guideline x="294.2307692308" y="464.4230769231" angle="90" identifier="XJW6VjdRJe"/>
+	<anchor name="top" x="348" y="515"/>
+	<guideline x="277.885" y="515.385" angle="90" identifier="p0aJ1s3JmT"/>
+	<guideline x="294.231" y="464.423" angle="90" identifier="XJW6VjdRJe"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.7336,0.5157,0.996,1</string>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

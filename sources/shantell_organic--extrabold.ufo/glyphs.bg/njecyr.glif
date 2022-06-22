@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="njecyr" format="2">
-	<advance width="916"/>
+	<unicode hex="045A"/>
+	<advance width="919"/>
 	<outline>
 		<contour>
 			<point x="79" y="212" type="line"/>
@@ -81,4 +82,12 @@
 			<point x="578" y="527"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

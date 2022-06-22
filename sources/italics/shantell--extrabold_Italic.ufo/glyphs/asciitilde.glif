@@ -15,7 +15,7 @@
 			<point x="638" y="178"/>
 			<point x="659" y="280" type="curve" smooth="yes"/>
 			<point x="673" y="346"/>
-			<point x="652.8888888889" y="381"/>
+			<point x="652.889" y="381"/>
 			<point x="604" y="381" type="curve" smooth="yes"/>
 			<point x="540" y="381"/>
 			<point x="517" y="301"/>
@@ -27,15 +27,15 @@
 			<point x="65" y="319"/>
 			<point x="49" y="240" type="curve" smooth="yes"/>
 			<point x="38" y="184"/>
-			<point x="58.6176470588" y="121"/>
+			<point x="58.618" y="121"/>
 		</contour>
 	</outline>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 15:53:42 +0000</string>
 			<key>public.markColor</key>
 			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

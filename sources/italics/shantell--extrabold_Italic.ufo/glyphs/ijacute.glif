@@ -6,6 +6,10 @@
 		<component base="iacute" xOffset="-2"/>
 		<component base="jacute" xOffset="346"/>
 	</outline>
+	<anchor name="bottom" x="109.045" y="0"/>
+	<anchor name="ogonek" x="163.045" y="0"/>
+	<anchor name="top_1" x="212.045" y="515"/>
+	<anchor name="top_2" x="529.458" y="515"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,8 +31,10 @@
 					<string>jacute</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-05-26 17:19:19 +0000</string>
+			<key>public.markColor</key>
+			<string>1,0,0,0.502</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

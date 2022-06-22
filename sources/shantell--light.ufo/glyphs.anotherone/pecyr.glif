@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pecyr" format="2">
 	<unicode hex="043F"/>
-	<advance width="595"/>
+	<advance width="550"/>
 	<outline>
 		<contour>
 			<point x="87" y="25" type="curve" smooth="yes"/>
@@ -57,7 +57,9 @@
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.9272,0.8867,1,1</string>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

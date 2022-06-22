@@ -36,12 +36,14 @@
 			<point x="340" y="382"/>
 		</contour>
 	</outline>
-	<guideline x="0" y="780" angle="0" identifier="LFVsIg8BKB"/>
-	<guideline x="0" y="-80" angle="0" identifier="vgL7WoSfNm"/>
+	<guideline y="780" identifier="LFVsIg8BKB"/>
+	<guideline y="-80" identifier="vgL7WoSfNm"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.75,0.75,0.75,1</string>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

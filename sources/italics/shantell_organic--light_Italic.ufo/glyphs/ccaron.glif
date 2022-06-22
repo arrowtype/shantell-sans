@@ -6,6 +6,8 @@
 		<component base="c" xOffset="8"/>
 		<component base="caroncomb" xOffset="262" yOffset="-79"/>
 	</outline>
+	<anchor name="bottom" x="246.961" y="34"/>
+	<anchor name="top" x="316.362" y="436"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,8 +29,8 @@
 					<string>caroncomb</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:21 +0000</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="parenleft" format="2">
 	<unicode hex="0028"/>
-	<advance width="600"/>
+	<advance width="499"/>
 	<outline>
 		<contour>
 			<point x="323" y="765" type="move"/>
@@ -22,4 +22,12 @@
 			<point x="356" y="-175" type="curve"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

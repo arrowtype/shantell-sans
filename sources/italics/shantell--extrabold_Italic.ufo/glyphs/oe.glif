@@ -6,6 +6,12 @@
 		<component base="o"/>
 		<component base="e" xOffset="438"/>
 	</outline>
+	<anchor name="bottom_1" x="294.63" y="0"/>
+	<anchor name="bottom_2" x="695.656" y="0"/>
+	<anchor name="ogonek_1" x="458.03" y="37"/>
+	<anchor name="ogonek_2" x="899.856" y="41"/>
+	<anchor name="top_1" x="397.631" y="515"/>
+	<anchor name="top_2" x="798.657" y="515"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,8 +33,8 @@
 					<string>e</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-05-26 17:19:19 +0000</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

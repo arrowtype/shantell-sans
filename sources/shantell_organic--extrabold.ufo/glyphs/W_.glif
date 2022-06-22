@@ -14,11 +14,11 @@
 			<point x="53" y="396"/>
 			<point x="97" y="261"/>
 			<point x="152" y="142" type="curve" smooth="yes"/>
-			<point x="186.040357068" y="68.083796081"/>
+			<point x="186.04" y="68.084"/>
 			<point x="216" y="55"/>
 			<point x="253" y="55" type="curve" smooth="yes"/>
 			<point x="296" y="55"/>
-			<point x="317.6742210385" y="74.7847027488"/>
+			<point x="317.674" y="74.785"/>
 			<point x="334" y="118" type="curve" smooth="yes"/>
 			<point x="372" y="216"/>
 			<point x="417" y="291"/>
@@ -63,8 +63,8 @@
 			<point x="244" y="426"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="467" y="540"/>
 	<anchor name="bottom" x="467" y="67"/>
+	<anchor name="top" x="467" y="540"/>
 	<lib>
 		<dict>
 			<key>com.typemytype.robofont.Image.Brightness</key>
@@ -74,7 +74,11 @@
 			<key>com.typemytype.robofont.Image.Saturation</key>
 			<integer>1</integer>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

@@ -3,11 +3,91 @@
 <plist version="1.0">
 	<dict>
 		<key>color</key>
-		<string>0,0.4,0.2,0.7</string>
+		<string>0,0.8,0.2,0.7</string>
 		<key>lib</key>
 		<dict>
+			<key>com.schriftgestaltung.layerId</key>
+			<string>18251D55-BCE1-4E30-8030-E4DF05EC5197</string>
+			<key>com.schriftgestaltung.layerOrderInGlyph.Decyr</key>
+			<integer>15</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.Efcyr</key>
+			<integer>16</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.Elcyr</key>
+			<integer>15</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.Eukrcyr</key>
+			<integer>8</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.Euro</key>
+			<integer>15</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.Icyr</key>
+			<integer>16</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.Katailcyr</key>
+			<integer>14</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.Kaverticalstrokecyr</key>
+			<integer>12</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.Njecyr</key>
+			<integer>8</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.Tshecyr</key>
+			<integer>10</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.Zecyr</key>
+			<integer>16</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.acutecomb</key>
+			<integer>10</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.approxequal</key>
+			<integer>11</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.asciitilde</key>
+			<integer>12</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.becyr</key>
+			<integer>14</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.braceleft</key>
+			<integer>11</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.braceright</key>
+			<integer>13</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.cedillacomb</key>
+			<integer>10</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.circumflexcomb</key>
+			<integer>12</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.decyr</key>
+			<integer>16</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.efcyr</key>
+			<integer>16</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.elcyr</key>
+			<integer>16</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.ge-cy.loclBGR</key>
+			<integer>16</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.gravecomb</key>
+			<integer>10</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.hookabovecmb</key>
+			<integer>10</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.hryvnia</key>
+			<integer>14</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.hungarumlautcmb</key>
+			<integer>12</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.kacyr</key>
+			<integer>14</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.kaverticalstrokecyr</key>
+			<integer>14</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.ogonekcmb</key>
+			<integer>12</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.paragraph</key>
+			<integer>13</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.radical</key>
+			<integer>11</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.ringcomb</key>
+			<integer>12</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.shchacyr</key>
+			<integer>16</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.tildecomb</key>
+			<integer>12</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.ustraightcyr</key>
+			<integer>11</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.vecyr</key>
+			<integer>14</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.xatailcyr</key>
+			<integer>14</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.zhecyr</key>
+			<integer>16</integer>
 			<key>com.typemytype.robofont.layerShowStroke</key>
-			<false/>
+			<integer>0</integer>
 			<key>org.unifiedfontobject.normalizer.imageReferences</key>
 			<dict>
 			</dict>

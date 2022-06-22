@@ -7,6 +7,9 @@
 		<component base="circumflexcomb" xOffset="334" yOffset="114"/>
 		<component base="dotbelowcmb" xOffset="320" yOffset="47"/>
 	</outline>
+	<anchor name="bottom" x="269.705" y="47"/>
+	<anchor name="ogonek" x="418.505" y="76"/>
+	<anchor name="top" x="432.476" y="867"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -36,8 +39,8 @@
 					<string>dotbelowcmb</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:26 +0000</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

@@ -11,15 +11,15 @@
 			<point x="112" y="-246"/>
 			<point x="112" y="-220" type="curve" smooth="yes"/>
 			<point x="112" y="-202"/>
-			<point x="97.7407407407" y="-192"/>
+			<point x="97.741" y="-192"/>
 			<point x="57" y="-192" type="curve" smooth="yes"/>
-			<point x="-16.4848484848" y="-192"/>
-			<point x="-40" y="-169.3125"/>
+			<point x="-16.485" y="-192"/>
+			<point x="-40" y="-169.312"/>
 			<point x="-40" y="-126" type="curve" smooth="yes"/>
-			<point x="-40" y="-76.8333333333"/>
-			<point x="-11.7724058537" y="-30.4672704648"/>
+			<point x="-40" y="-76.833"/>
+			<point x="-11.772" y="-30.467"/>
 			<point x="40" y="-8" type="curve" smooth="yes"/>
-			<point x="61.2119347457" y="0.8383061441"/>
+			<point x="61.212" y="0.838"/>
 			<point x="65" y="6"/>
 			<point x="65" y="16" type="curve" smooth="yes"/>
 			<point x="65" y="27"/>
@@ -30,5 +30,13 @@
 		</contour>
 	</outline>
 	<anchor name="_ogonek" x="57" y="0"/>
-	<guideline x="26" y="-177" angle="48.1449574647" identifier="4uLH7EeGYo"/>
+	<guideline x="26" y="-177" angle="48.145" identifier="4uLH7EeGYo"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

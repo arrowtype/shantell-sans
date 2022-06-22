@@ -4,12 +4,14 @@
 	<outline>
 		<component base="exclamdown" yOffset="210"/>
 	</outline>
-	<guideline x="0" y="780" angle="0"/>
-	<guideline x="0" y="-80" angle="0"/>
+	<guideline y="780"/>
+	<guideline y="-80"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
 			<string>0.75,0.75,0.75,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

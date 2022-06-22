@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Geupcyr" format="2">
-	<advance width="533"/>
+	<unicode hex="0490"/>
+	<advance width="592"/>
 	<outline>
 		<contour>
 			<point x="271" y="625" type="line"/>
@@ -53,4 +54,12 @@
 			<point x="51" y="698"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

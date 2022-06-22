@@ -14,22 +14,22 @@
 			<point x="805" y="416"/>
 			<point x="786" y="439"/>
 			<point x="689" y="439" type="curve" smooth="yes"/>
-			<point x="573.6318318594" y="437.0278945617"/>
-			<point x="484.6586019161" y="423.5975805748"/>
+			<point x="573.632" y="437.028"/>
+			<point x="484.659" y="423.598"/>
 			<point x="406" y="400" type="curve" smooth="yes"/>
-			<point x="353.9665457156" y="385.1332987759"/>
+			<point x="353.967" y="385.133"/>
 			<point x="340" y="368"/>
 			<point x="340" y="333" type="curve" smooth="yes"/>
 			<point x="340" y="282"/>
-			<point x="381.5384615385" y="246"/>
+			<point x="381.538" y="246"/>
 		</contour>
 		<contour>
 			<point x="715" y="-118" type="curve" smooth="yes"/>
-			<point x="755.1818181818" y="-118"/>
-			<point x="783" y="-95.0746268657"/>
+			<point x="755.182" y="-118"/>
+			<point x="783" y="-95.075"/>
 			<point x="783" y="-54" type="curve" smooth="yes"/>
-			<point x="783" y="-30.1265822785"/>
-			<point x="779.6875606659" y="-20.4688796045"/>
+			<point x="783" y="-30.127"/>
+			<point x="779.688" y="-20.469"/>
 			<point x="757" y="28" type="curve" smooth="yes"/>
 			<point x="724" y="95"/>
 			<point x="714" y="147"/>
@@ -44,7 +44,7 @@
 			<point x="402" y="162"/>
 			<point x="309" y="162" type="curve" smooth="yes"/>
 			<point x="256" y="162"/>
-			<point x="229" y="191.6091954023"/>
+			<point x="229" y="191.609"/>
 			<point x="229" y="254" type="curve" smooth="yes"/>
 			<point x="229" y="364"/>
 			<point x="340" y="514"/>
@@ -68,13 +68,21 @@
 			<point x="515" y="27"/>
 			<point x="599" y="100" type="curve"/>
 			<point x="550" y="124" type="line"/>
-			<point x="564.7728350925" y="32.4084224267"/>
-			<point x="580.9477782801" y="-7.9091796175"/>
+			<point x="564.773" y="32.408"/>
+			<point x="580.948" y="-7.909"/>
 			<point x="604" y="-48" type="curve" smooth="yes"/>
-			<point x="633.3536000841" y="-94.2883693633"/>
-			<point x="662.9380530973" y="-118"/>
+			<point x="633.354" y="-94.288"/>
+			<point x="662.938" y="-118"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="451" y="700"/>
 	<anchor name="bottom" x="400" y="0"/>
+	<anchor name="top" x="451" y="700"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

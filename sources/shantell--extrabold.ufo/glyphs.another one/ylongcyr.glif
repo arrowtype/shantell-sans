@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ylongcyr" format="2">
 	<unicode hex="044B"/>
-	<advance width="812"/>
+	<advance width="814"/>
 	<outline>
 		<contour>
 			<point x="223" y="454" type="curve" smooth="yes"/>
@@ -74,4 +74,12 @@
 			<point x="220" y="509"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

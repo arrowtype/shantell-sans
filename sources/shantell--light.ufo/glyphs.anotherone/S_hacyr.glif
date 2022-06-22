@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Shacyr" format="2">
 	<unicode hex="0428"/>
-	<advance width="973"/>
+	<advance width="951"/>
 	<outline>
 		<contour>
 			<point x="145" y="684" type="move"/>
@@ -25,4 +25,12 @@
 			<point x="459" y="58" type="curve"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

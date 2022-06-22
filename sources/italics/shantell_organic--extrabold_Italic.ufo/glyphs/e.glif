@@ -48,15 +48,15 @@
 			<point x="205" y="176"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="400.03044" y="550"/>
-	<anchor name="bottom" x="255.62972" y="-37"/>
-	<anchor name="ogonek" x="478.82977" y="9"/>
+	<anchor name="bottom" x="255.63" y="-37"/>
+	<anchor name="ogonek" x="478.83" y="9"/>
+	<anchor name="top" x="400.03" y="550"/>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 02:11:36 +0000</string>
 			<key>public.markColor</key>
 			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

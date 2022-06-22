@@ -5,10 +5,14 @@
 	<outline>
 		<component base="w"/>
 	</outline>
+	<anchor name="bottom" x="451" y="30"/>
+	<anchor name="top" x="437" y="444"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.7336,0.5157,0.996,1</string>
+			<string>0.733,0.518,0.996,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

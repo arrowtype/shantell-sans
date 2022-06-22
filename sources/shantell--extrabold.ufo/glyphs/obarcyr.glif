@@ -70,12 +70,14 @@
 		</contour>
 	</outline>
 	<anchor name="top" x="346" y="515"/>
-	<guideline x="86.5384615385" y="263.4615384615" angle="90" identifier="CB8mICpc1y"/>
-	<guideline x="89.9038461538" y="278.3653846154" angle="90" identifier="ESe4gH2bJH"/>
+	<guideline x="86.538" y="263.462" angle="90" identifier="CB8mICpc1y"/>
+	<guideline x="89.904" y="278.365" angle="90" identifier="ESe4gH2bJH"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.7336,0.5157,0.996,1</string>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>
