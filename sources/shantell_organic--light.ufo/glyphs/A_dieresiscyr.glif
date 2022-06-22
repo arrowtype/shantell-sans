@@ -6,10 +6,16 @@
 		<component base="A"/>
 		<component base="dieresiscomb" xOffset="401" yOffset="156"/>
 	</outline>
+	<anchor name="bottom" x="355" y="48"/>
+	<anchor name="ogonek" x="601" y="26"/>
+	<anchor name="ring" x="401" y="642"/>
+	<anchor name="top" x="400" y="816"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.9935,0.7078,0.8306,1</string>
+			<string>0.992,0.706,0.831,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

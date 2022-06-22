@@ -6,10 +6,11 @@
 		<component base="jdotless"/>
 		<component base="circumflexcomb" xOffset="134"/>
 	</outline>
+	<anchor name="top" x="134" y="753"/>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

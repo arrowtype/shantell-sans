@@ -4,33 +4,35 @@
 	<advance width="403"/>
 	<outline>
 		<contour>
-			<point x="169.88797" y="298" type="curve" smooth="yes"/>
-			<point x="207.88797" y="311"/>
-			<point x="253.88797" y="329"/>
-			<point x="410.88797" y="407" type="curve" smooth="yes"/>
-			<point x="464.88797" y="433"/>
-			<point x="476.88797" y="528"/>
-			<point x="373.88797" y="528" type="curve" smooth="yes"/>
-			<point x="348.88797" y="528"/>
-			<point x="315.88797" y="521"/>
-			<point x="276.88797" y="502" type="curve" smooth="yes"/>
-			<point x="180.88797" y="455"/>
-			<point x="111.88797" y="435"/>
-			<point x="16.88797" y="376" type="curve" smooth="yes"/>
-			<point x="-41.11203" y="340"/>
-			<point x="-5.11203" y="275"/>
-			<point x="65.88797" y="275" type="curve" smooth="yes"/>
-			<point x="93.88797" y="275"/>
-			<point x="129.88797" y="284"/>
+			<point x="169.888" y="298" type="curve" smooth="yes"/>
+			<point x="207.888" y="311"/>
+			<point x="253.888" y="329"/>
+			<point x="410.888" y="407" type="curve" smooth="yes"/>
+			<point x="464.888" y="433"/>
+			<point x="476.888" y="528"/>
+			<point x="373.888" y="528" type="curve" smooth="yes"/>
+			<point x="348.888" y="528"/>
+			<point x="315.888" y="521"/>
+			<point x="276.888" y="502" type="curve" smooth="yes"/>
+			<point x="180.888" y="455"/>
+			<point x="111.888" y="435"/>
+			<point x="16.888" y="376" type="curve" smooth="yes"/>
+			<point x="-41.112" y="340"/>
+			<point x="-5.112" y="275"/>
+			<point x="65.888" y="275" type="curve" smooth="yes"/>
+			<point x="93.888" y="275"/>
+			<point x="129.888" y="284"/>
 		</contour>
 		<component base="l" xOffset="-1.912"/>
 	</outline>
+	<anchor name="bottom" x="180.13" y="0"/>
+	<anchor name="top" x="261.131" y="750"/>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 20:50:20 +0000</string>
 			<key>public.markColor</key>
 			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

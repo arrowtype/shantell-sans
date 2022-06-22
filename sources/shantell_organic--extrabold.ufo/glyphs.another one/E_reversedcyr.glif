@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ereversedcyr" format="2">
-	<advance width="638"/>
+	<unicode hex="042D"/>
+	<advance width="670"/>
 	<outline>
 		<contour>
 			<point x="53" y="632" type="curve"/>
@@ -61,4 +62,12 @@
 			<point x="176" y="421"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

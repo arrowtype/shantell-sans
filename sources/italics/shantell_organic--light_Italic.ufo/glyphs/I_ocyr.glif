@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Iocyr" format="2">
 	<unicode hex="0401"/>
-	<advance width="633"/>
+	<advance width="663"/>
 	<outline>
-		<component base="Edieresis"/>
+		<component base="Edieresis" xOffset="-4.7533029826"/>
 	</outline>
+	<anchor name="bottom" x="290.440183454" y="-18"/>
+	<anchor name="ogonek" x="525.2402496414" y="36"/>
+	<anchor name="top" x="488.8413074145" y="899"/>
 </glyph>

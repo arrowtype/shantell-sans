@@ -6,10 +6,12 @@
 		<component base="n"/>
 		<component base="tildecomb" xOffset="348"/>
 	</outline>
+	<anchor name="bottom" x="348" y="0"/>
+	<anchor name="top" x="348" y="760"/>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

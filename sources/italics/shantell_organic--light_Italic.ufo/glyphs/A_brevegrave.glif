@@ -6,4 +6,14 @@
 		<component base="A"/>
 		<component base="brevegravecomb" xOffset="432" yOffset="156"/>
 	</outline>
+	<anchor name="bottom" x="315.872" y="48"/>
+	<anchor name="ogonek" x="557.472" y="26"/>
+	<anchor name="ring" x="480.673" y="642"/>
+	<anchor name="top" x="480.473" y="641"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

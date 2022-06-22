@@ -5,11 +5,11 @@
 	<outline>
 		<contour>
 			<point x="224" y="50" type="curve" smooth="yes"/>
-			<point x="224" y="20.1639344262"/>
+			<point x="224" y="20.164"/>
 			<point x="223" y="-41"/>
 			<point x="223" y="-90" type="curve" smooth="yes"/>
 			<point x="223" y="-165"/>
-			<point x="256.6633663366" y="-217"/>
+			<point x="256.663" y="-217"/>
 			<point x="323" y="-217" type="curve" smooth="yes"/>
 			<point x="366" y="-217"/>
 			<point x="396" y="-178"/>
@@ -25,10 +25,13 @@
 		</contour>
 		<component base="Zecyr"/>
 	</outline>
+	<anchor name="top" x="303" y="700"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.7336,0.5157,0.996,1</string>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

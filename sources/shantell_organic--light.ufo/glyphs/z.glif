@@ -2,7 +2,7 @@
 <glyph name="z" format="2">
 	<unicode hex="007A"/>
 	<advance width="613"/>
-	<image fileName="b.png" xScale="2.580311745" yScale="2.580311745" xOffset="-7272.5472265012" yOffset="-580.570142633" color="0,0,0,0.24109"/>
+	<image fileName="b.png" xScale="2.58031" yScale="2.58031" xOffset="-7272.547" yOffset="-580.57"/>
 	<outline>
 		<contour>
 			<point x="116" y="492" type="curve" smooth="yes"/>
@@ -54,14 +54,27 @@
 			<point x="176" y="511"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="316" y="511"/>
 	<anchor name="bottom" x="317" y="-28"/>
+	<anchor name="top" x="316" y="511"/>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
 			<key>public.markColor</key>
-			<string>0,0.5,1,0.25</string>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zhecyr" format="2">
 	<unicode hex="0436"/>
-	<advance width="798"/>
+	<advance width="706"/>
 	<outline>
 		<contour>
 			<point x="465" y="464" type="curve" smooth="yes"/>
@@ -178,7 +178,9 @@
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.9272,0.8867,1,1</string>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

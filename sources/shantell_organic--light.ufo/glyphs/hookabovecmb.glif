@@ -29,6 +29,14 @@
 			<point x="-20" y="553"/>
 		</contour>
 	</outline>
-	<anchor name="_top" x="0" y="485"/>
 	<anchor name="_side" x="0" y="522"/>
+	<anchor name="_top" x="0" y="485"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

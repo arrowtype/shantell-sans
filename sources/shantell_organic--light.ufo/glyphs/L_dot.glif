@@ -19,10 +19,14 @@
 		</contour>
 		<component base="L"/>
 	</outline>
+	<anchor name="bottom" x="289" y="49.4"/>
+	<anchor name="top" x="171.3" y="612.9"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>1,0,0,0.5</string>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

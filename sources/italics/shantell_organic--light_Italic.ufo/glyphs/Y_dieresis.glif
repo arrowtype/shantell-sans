@@ -6,6 +6,8 @@
 		<component base="Y" xOffset="4"/>
 		<component base="dieresiscomb" xOffset="327" yOffset="121"/>
 	</outline>
+	<anchor name="bottom" x="187.758" y="33"/>
+	<anchor name="top" x="408.683" y="771"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,8 +29,8 @@
 					<string>dieresiscomb</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:21 +0000</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

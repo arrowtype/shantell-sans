@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ruble" format="2">
-	<advance width="521"/>
+	<unicode hex="20BD"/>
+	<advance width="700"/>
 	<outline>
 		<contour>
 			<point x="-297" y="294" type="qcurve" smooth="yes"/>
@@ -31,4 +32,12 @@
 			<point x="-536" y="189" type="line"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

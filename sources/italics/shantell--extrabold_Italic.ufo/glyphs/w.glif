@@ -10,38 +10,36 @@
 			<point x="129" y="529" type="curve" smooth="yes"/>
 			<point x="71" y="529"/>
 			<point x="19" y="479"/>
-			<point x="41.95198" y="405" type="curve" smooth="yes"/>
+			<point x="41.952" y="405" type="curve" smooth="yes"/>
 			<point x="56" y="360"/>
-			<point x="60.95198" y="298"/>
-			<point x="68.95198" y="182" type="curve" smooth="yes"/>
-			<point x="79.95198" y="45"/>
-			<point x="117.95198" y="-15"/>
-			<point x="198.95198" y="-15" type="curve" smooth="yes"/>
-			<point x="238.95198" y="-15"/>
-			<point x="283.95198" y="16"/>
-			<point x="319.95198" y="72" type="curve" smooth="yes"/>
-			<point x="394.95198" y="183"/>
+			<point x="60.952" y="298"/>
+			<point x="68.952" y="182" type="curve" smooth="yes"/>
+			<point x="79.952" y="45"/>
+			<point x="117.952" y="-15"/>
+			<point x="198.952" y="-15" type="curve" smooth="yes"/>
+			<point x="238.952" y="-15"/>
+			<point x="283.952" y="16"/>
+			<point x="319.952" y="72" type="curve" smooth="yes"/>
+			<point x="394.952" y="183"/>
 			<point x="420" y="270"/>
-			<point x="480" y="335" type="curve" smooth="yes"/>
-			<point x="511" y="366"/>
-			<point x="435" y="367"/>
-			<point x="453" y="342" type="curve" smooth="yes"/>
+			<point x="480" y="335" type="curve"/>
+			<point x="453" y="342" type="line"/>
 			<point x="480" y="301"/>
-			<point x="470.95198" y="189"/>
-			<point x="513.95198" y="82" type="curve" smooth="yes"/>
-			<point x="542.95198" y="11"/>
-			<point x="577.95198" y="-13"/>
-			<point x="627.95198" y="-13" type="curve" smooth="yes"/>
-			<point x="671.95198" y="-13"/>
-			<point x="732.95198" y="19"/>
-			<point x="795.95198" y="157" type="curve" smooth="yes"/>
-			<point x="834.95198" y="238"/>
-			<point x="856.95198" y="315"/>
-			<point x="915.95198" y="373" type="curve" smooth="yes"/>
-			<point x="933.95198" y="391"/>
-			<point x="948.95198" y="411"/>
-			<point x="952.95198" y="432" type="curve" smooth="yes"/>
-			<point x="962.95198" y="481"/>
+			<point x="470.952" y="189"/>
+			<point x="513.952" y="82" type="curve" smooth="yes"/>
+			<point x="542.952" y="11"/>
+			<point x="577.952" y="-13"/>
+			<point x="627.952" y="-13" type="curve" smooth="yes"/>
+			<point x="671.952" y="-13"/>
+			<point x="732.952" y="19"/>
+			<point x="795.952" y="157" type="curve" smooth="yes"/>
+			<point x="834.952" y="238"/>
+			<point x="856.952" y="315"/>
+			<point x="915.952" y="373" type="curve" smooth="yes"/>
+			<point x="933.952" y="391"/>
+			<point x="948.952" y="411"/>
+			<point x="952.952" y="432" type="curve" smooth="yes"/>
+			<point x="962.952" y="481"/>
 			<point x="924" y="528"/>
 			<point x="876" y="528" type="curve" smooth="yes"/>
 			<point x="821" y="528"/>
@@ -49,10 +47,8 @@
 			<point x="752" y="442" type="curve" smooth="yes"/>
 			<point x="705" y="367"/>
 			<point x="669" y="215"/>
-			<point x="611" y="160" type="curve" smooth="yes"/>
-			<point x="575" y="126"/>
-			<point x="722" y="147"/>
-			<point x="669" y="172" type="curve" smooth="yes"/>
+			<point x="611" y="160" type="curve"/>
+			<point x="669" y="172" type="line"/>
 			<point x="615" y="199"/>
 			<point x="635" y="259"/>
 			<point x="612" y="381" type="curve" smooth="yes"/>
@@ -64,22 +60,20 @@
 			<point x="319" y="368" type="curve" smooth="yes"/>
 			<point x="256" y="260"/>
 			<point x="248" y="228"/>
-			<point x="192" y="162" type="curve" smooth="yes"/>
-			<point x="173" y="141"/>
-			<point x="275" y="139"/>
-			<point x="257" y="163" type="curve" smooth="yes"/>
+			<point x="192" y="162" type="curve"/>
+			<point x="257" y="163" type="line"/>
 			<point x="204" y="233"/>
 			<point x="237" y="375"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="495.95261" y="515"/>
-	<anchor name="bottom" x="392.95198" y="0"/>
+	<anchor name="bottom" x="392.952" y="0"/>
+	<anchor name="top" x="495.953" y="515"/>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 15:53:25 +0000</string>
 			<key>public.markColor</key>
 			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

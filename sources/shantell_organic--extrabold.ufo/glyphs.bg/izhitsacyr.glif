@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="izhitsacyr" format="2">
+	<unicode hex="0475"/>
 	<advance width="632"/>
 	<outline>
 		<contour>
@@ -45,4 +46,12 @@
 			<point x="152" y="107"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

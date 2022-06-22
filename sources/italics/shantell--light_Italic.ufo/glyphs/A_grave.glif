@@ -6,6 +6,10 @@
 		<component base="A" xOffset="-1"/>
 		<component base="gravecomb" xOffset="437" yOffset="185"/>
 	</outline>
+	<anchor name="bottom" x="304.675" y="0"/>
+	<anchor name="ogonek" x="568.675" y="0"/>
+	<anchor name="ring" x="490.476" y="699"/>
+	<anchor name="top" x="490.676" y="700"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,8 +31,8 @@
 					<string>gravecomb</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 02:14:18 +0000</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

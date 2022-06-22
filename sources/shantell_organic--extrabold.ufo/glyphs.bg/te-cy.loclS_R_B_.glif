@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="te-cy.loclSRB" format="2">
-	<advance width="1004"/>
+	<advance width="651"/>
 	<outline>
 		<contour>
 			<point x="232" y="571" type="curve" smooth="yes"/>
@@ -107,4 +107,12 @@
 			<point x="254" y="393"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.169,0.216,0.263,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

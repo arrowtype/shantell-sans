@@ -8,9 +8,9 @@ for fontPath in inputFonts:
     # for other font info attributes, see
     # http://unifiedfontobject.org/versions/ufo3/fontinfo.plist/
 
-    f.info.openTypeOS2VendorID = "ARRW"
+    f.info.openTypeOS2VendorID = "@"
 
-    f.info.copyright = "Copyright 2021 The Shantell Sans Project Authors (https://github.com/arrowtype/shantell-sans)"
+    f.info.copyright = "Copyright 2022 The Shantell Sans Project Authors (https://github.com/arrowtype/shantell-sans)"
 
     f.info.unitsPerEm = 1000
 
@@ -38,6 +38,10 @@ for fontPath in inputFonts:
             {
             'name': 'flattenComponents', 
             'pre': 1
+            },
+            {
+            'name': 'EraseOpenCorners', 
+            'pre': 0
             },
     ]
 

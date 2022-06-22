@@ -6,10 +6,12 @@
 		<component base="d"/>
 		<component base="quotesingle" xOffset="651" yOffset="97"/>
 	</outline>
+	<anchor name="bottom" x="309" y="31"/>
+	<anchor name="top" x="528" y="750"/>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

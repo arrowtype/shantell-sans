@@ -3,24 +3,24 @@
 <plist version="1.0">
 	<array>
 		<array>
-			<string>foreground</string>
-			<string>glyphs</string>
+			<string>public.background</string>
+			<string>glyphs.public.background</string>
 		</array>
 		<array>
 			<string>bg</string>
 			<string>glyphs.bg</string>
 		</array>
 		<array>
-			<string>another one</string>
-			<string>glyphs.another one</string>
-		</array>
-		<array>
 			<string>background</string>
 			<string>glyphs.background</string>
 		</array>
 		<array>
-			<string>public.background</string>
-			<string>glyphs.public.background</string>
+			<string>another one</string>
+			<string>glyphs.another one</string>
+		</array>
+		<array>
+			<string>foreground</string>
+			<string>glyphs</string>
 		</array>
 	</array>
 </plist>

@@ -8,8 +8,8 @@
 			<point x="472" y="18"/>
 			<point x="559" y="95"/>
 			<point x="559" y="266" type="curve" smooth="yes"/>
-			<point x="559" y="339.7508305648"/>
-			<point x="533.5897122423" y="474.5659563055"/>
+			<point x="559" y="339.751"/>
+			<point x="533.59" y="474.566"/>
 			<point x="507" y="547" type="curve" smooth="yes"/>
 			<point x="483" y="612"/>
 			<point x="442" y="630"/>
@@ -17,8 +17,8 @@
 			<point x="333" y="632"/>
 			<point x="305" y="600"/>
 			<point x="319" y="563" type="curve" smooth="yes"/>
-			<point x="350.9662446803" y="487.194334044"/>
-			<point x="381" y="359.9828178694"/>
+			<point x="350.966" y="487.194"/>
+			<point x="381" y="359.983"/>
 			<point x="381" y="292" type="curve" smooth="yes"/>
 			<point x="381" y="222"/>
 			<point x="363" y="191"/>
@@ -26,7 +26,7 @@
 			<point x="254" y="191"/>
 			<point x="239" y="213"/>
 			<point x="239" y="234" type="curve" smooth="yes"/>
-			<point x="239" y="258.6133333333"/>
+			<point x="239" y="258.613"/>
 			<point x="265" y="267"/>
 			<point x="265" y="305" type="curve" smooth="yes"/>
 			<point x="265" y="335"/>
@@ -41,7 +41,7 @@
 		<contour>
 			<point x="172" y="482" type="curve" smooth="yes"/>
 			<point x="264" y="482"/>
-			<point x="409.6213017751" y="500"/>
+			<point x="409.621" y="500"/>
 			<point x="560" y="500" type="curve" smooth="yes"/>
 			<point x="606" y="500"/>
 			<point x="630" y="521"/>
@@ -49,10 +49,10 @@
 			<point x="630" y="649"/>
 			<point x="542" y="668"/>
 			<point x="464" y="668" type="curve" smooth="yes"/>
-			<point x="341.130044843" y="668"/>
+			<point x="341.13" y="668"/>
 			<point x="278" y="653"/>
 			<point x="190" y="653" type="curve" smooth="yes"/>
-			<point x="143.7441860465" y="653"/>
+			<point x="143.744" y="653"/>
 			<point x="128" y="668"/>
 			<point x="73" y="668" type="curve" smooth="yes"/>
 			<point x="33" y="668"/>
@@ -62,14 +62,18 @@
 			<point x="90" y="482"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="344" y="654"/>
 	<anchor name="bottom" x="314" y="29"/>
+	<anchor name="top" x="344" y="654"/>
 	<lib>
 		<dict>
 			<key>com.typemytype.robofont.Image.Brightness</key>
-			<real>-0.3985985816</real>
+			<real>-0.3986</real>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

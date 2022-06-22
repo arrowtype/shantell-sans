@@ -2,7 +2,7 @@
 <glyph name="vecyr" format="2">
 	<unicode hex="0432"/>
 	<advance width="518"/>
-	<image fileName="S_creenshot 2021-10-21 at 10.59.17.png" xScale="1.1312097236" yScale="1.1312097236" xOffset="9.6388327519" yOffset="-102.4116300683"/>
+	<image fileName="S_creenshot 2021-10-21 at 10.59.17.png" xScale="1.13121" yScale="1.13121" xOffset="9.639" yOffset="-102.412"/>
 	<outline>
 		<contour>
 			<point x="234" y="-15" type="curve" smooth="yes"/>
@@ -66,16 +66,29 @@
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
 			<key>com.typemytype.robofont.Image.Brightness</key>
-			<real>0.5031411052</real>
+			<real>0.50314</real>
 			<key>com.typemytype.robofont.Image.Contrast</key>
 			<integer>1</integer>
 			<key>com.typemytype.robofont.Image.Saturation</key>
 			<integer>1</integer>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
 			<key>public.markColor</key>
-			<string>0.7336,0.5157,0.996,1</string>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

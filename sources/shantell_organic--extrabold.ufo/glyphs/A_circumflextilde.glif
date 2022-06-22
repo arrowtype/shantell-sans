@@ -6,10 +6,14 @@
 		<component base="A"/>
 		<component base="circumflextildecomb" xOffset="410" yOffset="119"/>
 	</outline>
+	<anchor name="bottom" x="404" y="54"/>
+	<anchor name="ogonek" x="691" y="17"/>
+	<anchor name="ring" x="411" y="633"/>
+	<anchor name="top" x="410" y="634"/>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

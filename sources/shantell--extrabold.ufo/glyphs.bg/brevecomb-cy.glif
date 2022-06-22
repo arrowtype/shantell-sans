@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="brevecomb-cy" format="2">
-	<advance width="369"/>
 	<outline>
 		<contour>
 			<point x="0" y="707" type="curve" smooth="yes"/>
@@ -29,4 +28,14 @@
 			<point x="-42" y="707"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.originalWidth</key>
+			<integer>369</integer>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

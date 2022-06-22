@@ -3,7 +3,7 @@
 	<unicode hex="00A3"/>
 	<advance width="700"/>
 	<outline>
-		<contour identifier="hf3HSdONXI">
+		<contour>
 			<point x="470" y="514" type="move"/>
 			<point x="473" y="519"/>
 			<point x="474" y="524"/>
@@ -39,7 +39,7 @@
 			<point x="554" y="98"/>
 			<point x="578" y="126" type="curve" smooth="yes"/>
 		</contour>
-		<contour identifier="pOMD72OWau">
+		<contour>
 			<point x="159" y="331" type="move"/>
 			<point x="240" y="338"/>
 			<point x="403" y="346"/>
@@ -49,4 +49,12 @@
 			<point x="544" y="342" type="curve" smooth="yes"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

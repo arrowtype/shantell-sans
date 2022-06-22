@@ -3,19 +3,19 @@
 <plist version="1.0">
 	<dict>
 		<key>color</key>
-		<string>0.5,1,0,0.7</string>
+		<string>1,0.75,0,0.7</string>
 		<key>lib</key>
 		<dict>
 			<key>com.typemytype.robofont.layerShow</key>
-			<true/>
+			<integer>1</integer>
 			<key>com.typemytype.robofont.layerShowStroke</key>
-			<true/>
+			<integer>1</integer>
 			<key>org.unifiedfontobject.normalizer.imageReferences</key>
 			<dict>
 				<key>encyr.glif</key>
-				<string>S_creenshot 2021-10-15 at 15.00.49.png</string>
+				<string>S</string>
 				<key>icyr.glif</key>
-				<string>S_creenshot 2021-10-15 at 15.01.07.png</string>
+				<string>S</string>
 			</dict>
 		</dict>
 	</dict>

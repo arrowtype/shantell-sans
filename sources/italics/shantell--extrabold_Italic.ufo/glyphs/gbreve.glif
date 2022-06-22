@@ -6,6 +6,8 @@
 		<component base="g" xOffset="-2"/>
 		<component base="brevecomb" xOffset="305"/>
 	</outline>
+	<anchor name="bottom" x="265.108" y="-250"/>
+	<anchor name="top" x="404.018" y="750"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,8 +29,8 @@
 					<string>brevecomb</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-05-26 17:19:19 +0000</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

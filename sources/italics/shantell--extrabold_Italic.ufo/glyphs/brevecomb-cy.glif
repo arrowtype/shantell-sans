@@ -1,39 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="brevecomb-cy" format="2">
-	<advance width="369"/>
 	<outline>
 		<contour>
-			<point x="287.9201171732" y="710" type="curve" smooth="yes"/>
-			<point x="255.9201171732" y="710"/>
-			<point x="256.9201171732" y="735"/>
-			<point x="249.9201171732" y="757" type="curve" smooth="yes"/>
-			<point x="242.9201171732" y="784"/>
-			<point x="227.9201171732" y="799"/>
-			<point x="199.9201171732" y="799" type="curve" smooth="yes"/>
-			<point x="155.9201171732" y="799"/>
-			<point x="116.9201171732" y="770"/>
-			<point x="105.9201171732" y="714" type="curve" smooth="yes" identifier="HJBbbwlUGc"/>
-			<point x="92.9201171732" y="649"/>
-			<point x="146.9201171732" y="582"/>
-			<point x="237.9201171732" y="582" type="curve" smooth="yes"/>
-			<point x="371.9201171732" y="582"/>
-			<point x="475.9201171732" y="678"/>
-			<point x="487.9201171732" y="741" type="curve" smooth="yes" identifier="L2XyWn61HO"/>
-			<point x="494.9201171732" y="773"/>
-			<point x="479.9201171732" y="795"/>
-			<point x="441.9201171732" y="795" type="curve" smooth="yes"/>
-			<point x="410.9201171732" y="795"/>
-			<point x="387.9201171732" y="778"/>
-			<point x="362.9201171732" y="758" type="curve" smooth="yes"/>
-			<point x="337.9201171732" y="738"/>
-			<point x="310.9201171732" y="710"/>
+			<point x="287.92" y="710" type="curve" smooth="yes"/>
+			<point x="255.92" y="710"/>
+			<point x="256.92" y="735"/>
+			<point x="249.92" y="757" type="curve" smooth="yes"/>
+			<point x="242.92" y="784"/>
+			<point x="227.92" y="799"/>
+			<point x="199.92" y="799" type="curve" smooth="yes"/>
+			<point x="155.92" y="799"/>
+			<point x="116.92" y="770"/>
+			<point x="105.92" y="714" type="curve" smooth="yes"/>
+			<point x="92.92" y="649"/>
+			<point x="146.92" y="582"/>
+			<point x="237.92" y="582" type="curve" smooth="yes"/>
+			<point x="371.92" y="582"/>
+			<point x="475.92" y="678"/>
+			<point x="487.92" y="741" type="curve" smooth="yes"/>
+			<point x="494.92" y="773"/>
+			<point x="479.92" y="795"/>
+			<point x="441.92" y="795" type="curve" smooth="yes"/>
+			<point x="410.92" y="795"/>
+			<point x="387.92" y="778"/>
+			<point x="362.92" y="758" type="curve" smooth="yes"/>
+			<point x="337.92" y="738"/>
+			<point x="310.92" y="710"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="244.9207484051" y="515"/>
+	<anchor name="top" x="244.921" y="515"/>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.Glyphs.originalWidth</key>
+			<integer>369</integer>
 			<key>public.markColor</key>
 			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

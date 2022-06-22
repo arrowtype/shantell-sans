@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Esdescender-cy.loclCHU" format="2">
-	<advance width="682"/>
+	<advance width="604"/>
 	<outline>
 		<component base="Ccedilla"/>
 	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>0</integer>
-					<key>name</key>
-					<string>Ccedilla</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:21 +0000</string>
-		</dict>
-	</lib>
+	<anchor name="bottom" x="269.3935979747" y="73"/>
+	<anchor name="top" x="409.3942659774" y="618"/>
 </glyph>

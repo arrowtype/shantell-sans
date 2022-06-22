@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zecyr" format="2">
 	<unicode hex="0437"/>
-	<advance width="498"/>
-	<image fileName="S_creenshot 2021-10-21 at 17.50.32.png" xScale="2.9268468447" yScale="2.7254122805" xOffset="-60.448361848" yOffset="-100.5636879627"/>
+	<advance width="546"/>
+	<image fileName="S_creenshot 2021-10-21 at 17.50.32.png" xScale="2.92685" yScale="2.72541" xOffset="-60.448" yOffset="-100.564"/>
 	<outline>
 		<contour>
 			<point x="107" y="427" type="move"/>
@@ -40,14 +40,29 @@
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
 			<key>com.typemytype.robofont.Image.Brightness</key>
-			<real>0.4664143026</real>
+			<real>0.46641</real>
 			<key>com.typemytype.robofont.Image.Contrast</key>
 			<integer>1</integer>
 			<key>com.typemytype.robofont.Image.Saturation</key>
 			<integer>1</integer>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

@@ -66,14 +66,22 @@
 			<point x="360" y="752"/>
 			<point x="202" y="735"/>
 			<point x="79" y="695" type="curve" smooth="yes"/>
-			<point x="42.1810460377" y="682.06361077"/>
+			<point x="42.181" y="682.064"/>
 			<point x="30" y="664"/>
 			<point x="30" y="632" type="curve" smooth="yes"/>
 			<point x="30" y="589"/>
 			<point x="75" y="544"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="366" y="740"/>
 	<anchor name="bottom" x="353" y="-25"/>
 	<anchor name="ogonek" x="559" y="18"/>
+	<anchor name="top" x="366" y="740"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

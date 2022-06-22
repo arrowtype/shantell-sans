@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ishortcyr" format="2">
-	<advance width="693"/>
+	<unicode hex="0439"/>
+	<advance width="723"/>
 	<outline>
 		<contour>
 			<point x="329" y="707" type="curve" smooth="yes"/>
@@ -29,4 +30,12 @@
 			<point x="287" y="707"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

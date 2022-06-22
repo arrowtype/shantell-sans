@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="five" format="2">
+	<unicode hex="0035"/>
 	<advance width="700"/>
 	<outline>
 		<contour>
@@ -50,7 +51,7 @@
 			<point x="604" y="663"/>
 			<point x="580" y="633"/>
 		</contour>
-		<contour identifier="Kvnf9Hrekp">
+		<contour>
 			<point x="541" y="689" type="move"/>
 			<point x="421" y="676"/>
 			<point x="348" y="622"/>
@@ -69,4 +70,12 @@
 			<point x="193" y="51" type="curve" smooth="yes"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

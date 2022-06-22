@@ -6,6 +6,10 @@
 		<component base="A"/>
 		<component base="ringacutecomb" xOffset="406" yOffset="-23"/>
 	</outline>
+	<anchor name="bottom" x="363.66" y="54"/>
+	<anchor name="ogonek" x="643.26" y="17"/>
+	<anchor name="ring" x="486.46" y="633"/>
+	<anchor name="top" x="485.66" y="634"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,8 +31,8 @@
 					<string>ringacutecomb</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:26 +0000</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

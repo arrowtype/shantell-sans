@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="four" format="2">
+	<unicode hex="0034"/>
 	<advance width="700"/>
 	<outline>
 		<contour>
@@ -48,7 +49,7 @@
 			<point x="417" y="-21"/>
 			<point x="382" y="-5"/>
 		</contour>
-		<contour identifier="GP39eYndiI">
+		<contour>
 			<point x="428" y="46" type="move"/>
 			<point x="363" y="230"/>
 			<point x="440" y="450"/>
@@ -64,4 +65,12 @@
 			<point x="676" y="363" type="curve" smooth="yes"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

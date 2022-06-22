@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="germandbls" format="2">
 	<unicode hex="00DF"/>
-	<advance width="723"/>
+	<advance width="698"/>
 	<outline>
 		<contour>
 			<point x="180" y="-10" type="curve" smooth="yes"/>
@@ -68,4 +68,12 @@
 			<point x="362" y="-10"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

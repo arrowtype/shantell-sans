@@ -36,14 +36,18 @@
 			<point x="122" y="45"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="158" y="644"/>
 	<anchor name="bottom" x="264" y="52"/>
+	<anchor name="top" x="158" y="644"/>
 	<lib>
 		<dict>
 			<key>com.typemytype.robofont.Image.Brightness</key>
-			<real>-0.3985985816</real>
+			<real>-0.3986</real>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

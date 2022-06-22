@@ -6,10 +6,14 @@
 		<component base="f"/>
 		<component base="f" xOffset="442"/>
 	</outline>
+	<anchor name="bottom_1" x="138" y="-168"/>
+	<anchor name="bottom_2" x="580" y="-168"/>
+	<anchor name="top_1" x="239" y="750"/>
+	<anchor name="top_2" x="681" y="750"/>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

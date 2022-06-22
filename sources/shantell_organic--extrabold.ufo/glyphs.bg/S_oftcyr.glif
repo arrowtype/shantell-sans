@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Softcyr" format="2">
-	<advance width="655"/>
+	<unicode hex="042C"/>
+	<advance width="637"/>
 	<outline>
 		<contour>
 			<point x="216" y="709"/>
@@ -45,4 +46,12 @@
 			<point x="158" y="709" type="curve" smooth="yes"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

@@ -6,10 +6,14 @@
 		<component base="T"/>
 		<component base="commaaccentbelowcmb" xOffset="319"/>
 	</outline>
+	<anchor name="bottom" x="330" y="0"/>
+	<anchor name="top" x="319" y="700"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.75,0.75,0.75,1</string>
+			<string>1,0,0,0.502</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

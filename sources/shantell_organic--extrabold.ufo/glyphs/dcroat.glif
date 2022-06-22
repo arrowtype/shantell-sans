@@ -25,10 +25,14 @@
 		</contour>
 		<component base="d"/>
 	</outline>
+	<anchor name="bottom" x="309" y="31"/>
+	<anchor name="top" x="528" y="750"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0,0.95,0.95,0.25</string>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

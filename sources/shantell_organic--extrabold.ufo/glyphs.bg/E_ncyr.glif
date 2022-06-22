@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Encyr" format="2">
-	<advance width="715"/>
+	<unicode hex="041D"/>
+	<advance width="730"/>
 	<outline>
 		<contour>
 			<point x="261" y="596" type="curve" smooth="yes"/>
@@ -75,7 +76,9 @@
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.6393,0.6135,0.999,1</string>
+			<string>0.639,0.612,1,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

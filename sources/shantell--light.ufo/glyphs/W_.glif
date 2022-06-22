@@ -2,7 +2,7 @@
 <glyph name="W" format="2">
 	<unicode hex="0057"/>
 	<advance width="948"/>
-	<image fileName="W_.png" xScale="2.149419181" yScale="2.149419181" xOffset="-6246.5221094932" yOffset="-188.078106569" color="0,0,0,0.26332"/>
+	<image fileName="W_.png" xScale="2.14942" yScale="2.14942" xOffset="-6246.522" yOffset="-188.078"/>
 	<outline>
 		<contour>
 			<point x="131" y="637" type="curve" smooth="yes"/>
@@ -64,10 +64,21 @@
 			<point x="140" y="505"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="478" y="700"/>
 	<anchor name="bottom" x="478" y="0"/>
+	<anchor name="top" x="478" y="700"/>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
 			<key>com.typemytype.robofont.Image.Brightness</key>
 			<integer>0</integer>
 			<key>com.typemytype.robofont.Image.Contrast</key>
@@ -75,7 +86,11 @@
 			<key>com.typemytype.robofont.Image.Saturation</key>
 			<integer>1</integer>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

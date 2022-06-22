@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Shchacyr" format="2">
 	<unicode hex="0429"/>
-	<advance width="1079"/>
+	<advance width="1044"/>
 	<outline>
 		<contour>
 			<point x="585" y="605" type="curve" smooth="yes"/>
@@ -86,4 +86,12 @@
 			<point x="255" y="668"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

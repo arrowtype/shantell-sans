@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ii-cy.loclBGR" format="2">
-	<advance width="698"/>
+	<advance width="723"/>
 	<outline>
 		<contour>
 			<point x="239" y="402"/>
@@ -57,4 +57,12 @@
 			<point x="239" y="446" type="curve" smooth="yes"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.169,0.216,0.263,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

@@ -55,7 +55,7 @@
 		<contour>
 			<point x="150" y="713" type="curve" smooth="yes"/>
 			<point x="106" y="713"/>
-			<point x="85" y="679.023255814"/>
+			<point x="85" y="679.023"/>
 			<point x="85" y="634" type="curve" smooth="yes"/>
 			<point x="85" y="624"/>
 			<point x="87" y="602"/>
@@ -83,9 +83,9 @@
 			<point x="964" y="-183"/>
 			<point x="982" y="-156" type="curve" smooth="yes"/>
 			<point x="1021" y="-98"/>
-			<point x="1053" y="-9.4664832642"/>
+			<point x="1053" y="-9.466"/>
 			<point x="1053" y="48" type="curve" smooth="yes"/>
-			<point x="1053" y="131.6928434352"/>
+			<point x="1053" y="131.693"/>
 			<point x="995" y="184"/>
 			<point x="899" y="184" type="curve" smooth="yes"/>
 			<point x="777" y="184"/>
@@ -104,7 +104,9 @@
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.7336,0.5157,0.996,1</string>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

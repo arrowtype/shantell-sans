@@ -4,5 +4,13 @@
 	<outline>
 		<component base="dotaccentcmb" yScale="0.8063" xOffset="-173.523" yOffset="-723"/>
 	</outline>
-	<anchor name="_bottom" x="-76.11711" y="0"/>
+	<anchor name="_bottom" x="-76.117" y="0"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Zhecyr" format="2">
 	<unicode hex="0416"/>
-	<advance width="984"/>
+	<advance width="939"/>
 	<outline>
 		<contour>
 			<point x="514" y="630" type="move"/>
@@ -14,7 +14,7 @@
 		</contour>
 		<contour>
 			<point x="904" y="627" type="move"/>
-			<point x="793.8526936695" y="544.9294580283"/>
+			<point x="793.853" y="544.929"/>
 			<point x="665" y="398"/>
 			<point x="656" y="346" type="curve" smooth="yes"/>
 			<point x="646" y="285"/>
@@ -31,4 +31,12 @@
 			<point x="183" y="620" type="curve"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

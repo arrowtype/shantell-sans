@@ -6,13 +6,13 @@
 		<contour>
 			<point x="341" y="652" type="curve" smooth="yes"/>
 			<point x="183" y="652"/>
-			<point x="111" y="537.2508038585"/>
+			<point x="111" y="537.251"/>
 			<point x="111" y="371" type="curve" smooth="yes"/>
-			<point x="111" y="301.4272300469"/>
+			<point x="111" y="301.427"/>
 			<point x="116" y="235"/>
 			<point x="116" y="159" type="curve" smooth="yes"/>
 			<point x="116" y="73"/>
-			<point x="104" y="47.7225433526"/>
+			<point x="104" y="47.723"/>
 			<point x="104" y="15" type="curve" smooth="yes"/>
 			<point x="104" y="-7"/>
 			<point x="114" y="-13"/>
@@ -23,28 +23,28 @@
 			<point x="186" y="190"/>
 			<point x="178" y="252"/>
 			<point x="178" y="364" type="curve" smooth="yes"/>
-			<point x="178" y="516.4047619048"/>
+			<point x="178" y="516.405"/>
 			<point x="228" y="586"/>
 			<point x="348" y="586" type="curve" smooth="yes"/>
 			<point x="455" y="586"/>
-			<point x="540" y="520.6573426573"/>
+			<point x="540" y="520.657"/>
 			<point x="540" y="330" type="curve" smooth="yes"/>
-			<point x="540" y="276.1843575419"/>
-			<point x="533" y="210.094972067"/>
+			<point x="540" y="276.184"/>
+			<point x="533" y="210.095"/>
 			<point x="533" y="161" type="curve" smooth="yes"/>
-			<point x="533" y="32.7422680412"/>
+			<point x="533" y="32.742"/>
 			<point x="566" y="-13"/>
 			<point x="595" y="-13" type="curve" smooth="yes"/>
 			<point x="614" y="-13"/>
 			<point x="625" y="-2"/>
 			<point x="625" y="23" type="curve" smooth="yes"/>
-			<point x="625" y="64.0802139037"/>
-			<point x="601" y="74.7967914439"/>
+			<point x="625" y="64.08"/>
+			<point x="601" y="74.797"/>
 			<point x="601" y="190" type="curve" smooth="yes"/>
 			<point x="601" y="225.5"/>
-			<point x="606" y="281.5526315789"/>
+			<point x="606" y="281.553"/>
 			<point x="606" y="332" type="curve" smooth="yes"/>
-			<point x="606" y="524.9142857143"/>
+			<point x="606" y="524.914"/>
 			<point x="527" y="652"/>
 		</contour>
 		<contour>
@@ -74,4 +74,12 @@
 			<point x="399" y="643"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

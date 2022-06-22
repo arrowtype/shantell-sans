@@ -5,6 +5,8 @@
 		<component base="J"/>
 		<component base="acutecomb" xOffset="372" yOffset="139"/>
 	</outline>
+	<anchor name="bottom" x="267.573" y="29"/>
+	<anchor name="top" x="422.573" y="654"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -26,8 +28,10 @@
 					<string>acutecomb</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:26 +0000</string>
+			<key>public.markColor</key>
+			<string>1,0,0,0.502</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

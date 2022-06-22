@@ -6,6 +6,10 @@
 		<component base="L"/>
 		<component base="J" xOffset="506"/>
 	</outline>
+	<anchor name="bottom_1" x="223.24" y="52"/>
+	<anchor name="bottom_2" x="773.573" y="29"/>
+	<anchor name="top_1" x="235.641" y="644"/>
+	<anchor name="top_2" x="928.573" y="654"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,8 +31,8 @@
 					<string>J</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:26 +0000</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

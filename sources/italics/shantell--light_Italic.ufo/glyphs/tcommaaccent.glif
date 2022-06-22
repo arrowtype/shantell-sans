@@ -6,6 +6,8 @@
 		<component base="t"/>
 		<component base="commaaccentbelowcmb" xOffset="243"/>
 	</outline>
+	<anchor name="bottom" x="195.27" y="0"/>
+	<anchor name="top" x="242.271" y="700"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,8 +29,10 @@
 					<string>commaaccentbelowcmb</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 02:14:18 +0000</string>
+			<key>public.markColor</key>
+			<string>1,0,0,0.502</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

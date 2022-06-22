@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Checyr" format="2">
-	<advance width="677"/>
+	<unicode hex="0427"/>
+	<advance width="612"/>
 	<outline>
 		<contour>
 			<point x="155" y="674" type="move"/>
@@ -24,4 +25,12 @@
 			<point x="507" y="21" type="curve"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

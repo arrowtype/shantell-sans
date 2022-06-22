@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yusbigcyr" format="2">
-	<advance width="695"/>
+	<unicode hex="046B"/>
+	<advance width="707"/>
 	<outline>
 		<contour>
 			<point x="49" y="69" type="move"/>
@@ -32,8 +33,16 @@
 		<contour>
 			<point x="320" y="63" type="move"/>
 			<point x="325" y="135"/>
-			<point x="314.2352941176" y="216.4862745098"/>
+			<point x="314.235" y="216.486"/>
 			<point x="312" y="222" type="curve"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

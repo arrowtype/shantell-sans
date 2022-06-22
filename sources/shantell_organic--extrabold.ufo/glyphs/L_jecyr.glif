@@ -62,13 +62,15 @@
 			<point x="589" y="399"/>
 		</contour>
 	</outline>
-	<guideline x="94.7115384615" y="657.6923076923" angle="0" identifier="b3w6f6co8h"/>
-	<guideline x="94.7115384615" y="657.6923076923" angle="0" identifier="jdn5JLBvkG"/>
-	<guideline x="94.7115384615" y="657.6923076923" angle="0" identifier="mF84iu6Knu"/>
+	<guideline x="94.712" y="657.692" angle="0" identifier="b3w6f6co8h"/>
+	<guideline x="94.712" y="657.692" angle="0" identifier="jdn5JLBvkG"/>
+	<guideline x="94.712" y="657.692" angle="0" identifier="mF84iu6Knu"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.7336,0.5157,0.996,1</string>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

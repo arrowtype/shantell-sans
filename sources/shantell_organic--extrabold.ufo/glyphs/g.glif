@@ -64,12 +64,14 @@
 			<point x="565" y="528"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="317" y="569"/>
 	<anchor name="bottom" x="378" y="-250"/>
+	<anchor name="top" x="317" y="569"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0,0.5,1,0.25</string>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

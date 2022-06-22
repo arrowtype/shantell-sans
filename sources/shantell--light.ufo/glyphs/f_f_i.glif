@@ -7,10 +7,17 @@
 		<component base="f" xOffset="349"/>
 		<component base="i" xOffset="698"/>
 	</outline>
+	<anchor name="bottom_1" x="124" y="0"/>
+	<anchor name="bottom_2" x="473" y="0"/>
+	<anchor name="bottom_3" x="834" y="0"/>
+	<anchor name="ogonek" x="857" y="0"/>
+	<anchor name="top_1" x="241" y="750"/>
+	<anchor name="top_2" x="590" y="750"/>
+	<anchor name="top_3" x="834" y="652"/>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

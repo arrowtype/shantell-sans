@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ii-cy.loclBGR" format="2">
-	<advance width="708"/>
+	<advance width="723"/>
 	<outline>
-		<component base="icyr"/>
+		<component base="icyr" xOffset="-4.039644894"/>
 	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>0</integer>
-					<key>name</key>
-					<string>icyr</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:26 +0000</string>
-		</dict>
-	</lib>
+	<anchor name="top" x="403.3667735007" y="515"/>
 </glyph>

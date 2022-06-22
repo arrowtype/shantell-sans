@@ -6,9 +6,9 @@
 		<contour>
 			<point x="153" y="298" type="curve" smooth="yes"/>
 			<point x="209" y="298"/>
-			<point x="301.4282238443" y="312"/>
+			<point x="301.428" y="312"/>
 			<point x="557" y="312" type="curve" smooth="yes"/>
-			<point x="582.0980392157" y="312"/>
+			<point x="582.098" y="312"/>
 			<point x="597" y="323"/>
 			<point x="597" y="341" type="curve" smooth="yes"/>
 			<point x="597" y="359"/>
@@ -21,15 +21,17 @@
 			<point x="95" y="348"/>
 			<point x="95" y="337" type="curve" smooth="yes"/>
 			<point x="95" y="313"/>
-			<point x="119.1666666667" y="298"/>
+			<point x="119.167" y="298"/>
 		</contour>
 	</outline>
-	<guideline x="0" y="780" angle="0" identifier="bGST42QdTW"/>
-	<guideline x="0" y="-80" angle="0" identifier="M2lEtHAWgu"/>
+	<guideline y="780" identifier="bGST42QdTW"/>
+	<guideline y="-80" identifier="M2lEtHAWgu"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.75,0.75,0.75,1</string>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

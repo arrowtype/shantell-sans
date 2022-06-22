@@ -6,10 +6,12 @@
 		<component base="s"/>
 		<component base="cedillacomb" xOffset="250" yOffset="-42"/>
 	</outline>
+	<anchor name="bottom" x="251" y="-42"/>
+	<anchor name="top" x="264" y="584"/>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

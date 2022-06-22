@@ -6,6 +6,10 @@
 		<component base="A"/>
 		<component base="invertedbrevecmb" xOffset="426" yOffset="126"/>
 	</outline>
+	<anchor name="bottom" x="315.872" y="48"/>
+	<anchor name="ogonek" x="557.472" y="26"/>
+	<anchor name="ring" x="480.673" y="642"/>
+	<anchor name="top" x="528.563" y="876"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,8 +31,8 @@
 					<string>invertedbrevecmb</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:21 +0000</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

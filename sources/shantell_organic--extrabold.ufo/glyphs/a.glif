@@ -53,7 +53,15 @@
 			<point x="357" y="426"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="323" y="488"/>
 	<anchor name="bottom" x="323" y="35"/>
 	<anchor name="ogonek" x="627" y="-22"/>
+	<anchor name="top" x="323" y="488"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

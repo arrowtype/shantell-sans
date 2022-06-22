@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="litre" format="2">
 	<unicode hex="2113"/>
-	<advance width="500"/>
+	<advance width="700"/>
 	<outline>
-		<contour identifier="N6iDGwDALm">
+		<contour>
 			<point x="61" y="179" type="move"/>
 			<point x="383" y="308"/>
 			<point x="516" y="488"/>
@@ -22,4 +22,12 @@
 			<point x="495" y="148" type="curve" smooth="yes"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

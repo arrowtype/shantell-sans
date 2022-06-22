@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ka-cy.loclBGR" format="2">
-	<advance width="678"/>
+	<advance width="565"/>
 	<outline>
-		<component base="k" xOffset="6"/>
+		<component base="k" xOffset="7"/>
 	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>0</integer>
-					<key>name</key>
-					<string>k</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:21 +0000</string>
-		</dict>
-	</lib>
+	<anchor name="bottom" x="216.7935084991" y="0"/>
+	<anchor name="top" x="279.7944277688" y="750"/>
 </glyph>

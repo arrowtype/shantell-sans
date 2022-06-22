@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="s" format="2">
-	<advance width="537"/>
+	<unicode hex="0073"/>
+	<advance width="547"/>
 	<outline>
 		<contour>
 			<point x="196.275" y="-87.575" type="curve" smooth="yes"/>
@@ -41,4 +42,12 @@
 			<point x="73.225" y="-87.575"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

@@ -2,24 +2,24 @@
 <glyph name="M" format="2">
 	<unicode hex="004D"/>
 	<advance width="916"/>
-	<image fileName="B_.png" xScale="2.611894476" yScale="2.611894476" xOffset="-3165.7903116164" yOffset="-300.367864743" color="0,0,0,0.25523"/>
+	<image fileName="B_.png" xScale="2.61189" yScale="2.61189" xOffset="-3165.79" yOffset="-300.368"/>
 	<outline>
 		<contour>
 			<point x="183" y="426" type="line"/>
-			<point x="177.9615320991" y="491.5000827112"/>
-			<point x="156.5588235294" y="541"/>
+			<point x="177.962" y="491.5"/>
+			<point x="156.559" y="541"/>
 			<point x="125" y="541" type="curve" smooth="yes"/>
 			<point x="108" y="541"/>
 			<point x="99" y="533"/>
 			<point x="99" y="520" type="curve" smooth="yes"/>
-			<point x="99" y="494.3756613757"/>
-			<point x="123" y="471.4021164021"/>
+			<point x="99" y="494.376"/>
+			<point x="123" y="471.402"/>
 			<point x="123" y="353" type="curve" smooth="yes"/>
 			<point x="123" y="295"/>
 			<point x="113" y="240"/>
 			<point x="113" y="155" type="curve" smooth="yes"/>
 			<point x="113" y="51"/>
-			<point x="140.862745098" y="35"/>
+			<point x="140.863" y="35"/>
 			<point x="162" y="35" type="curve" smooth="yes"/>
 			<point x="178" y="35"/>
 			<point x="190" y="47"/>
@@ -80,14 +80,29 @@
 			<point x="174" y="427" type="curve"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="476" y="594"/>
 	<anchor name="bottom" x="458" y="48"/>
+	<anchor name="top" x="476" y="594"/>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
 			<key>com.typemytype.robofont.Image.Brightness</key>
-			<real>-0.3985985816</real>
+			<real>-0.3986</real>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

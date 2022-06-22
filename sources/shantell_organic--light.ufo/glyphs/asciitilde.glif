@@ -2,7 +2,7 @@
 <glyph name="asciitilde" format="2">
 	<unicode hex="007E"/>
 	<advance width="700"/>
-	<image fileName="S_creen S_hot 2020-09-24 at 10.58.01 P_M_.png" xScale="5.8856538257" yScale="5.8856538257" xOffset="-8568.9909182198" yOffset="-705.563910406" color="0,0,0,0.31859"/>
+	<image fileName="S_creen S_hot 2020-09-24 at 10.58.01 P_M_.png" xScale="5.88565" yScale="5.88565" xOffset="-8568.991" yOffset="-705.564"/>
 	<outline>
 		<contour>
 			<point x="113" y="185" type="curve" smooth="yes"/>
@@ -33,6 +33,17 @@
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
 			<key>com.typemytype.robofont.Image.Brightness</key>
 			<integer>0</integer>
 			<key>com.typemytype.robofont.Image.Contrast</key>
@@ -40,9 +51,11 @@
 			<key>com.typemytype.robofont.Image.Saturation</key>
 			<integer>1</integer>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
 			<key>public.markColor</key>
-			<string>1,1,0,1</string>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

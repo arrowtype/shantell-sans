@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hardcyr" format="2">
-	<advance width="621"/>
+	<unicode hex="044A"/>
+	<advance width="579"/>
 	<guideline x="177" y="150" angle="90" identifier="NQt60oWmSh"/>
 	<guideline x="87" y="263" angle="90" identifier="55wn4vuwvT"/>
 	<guideline x="90" y="278" angle="90" identifier="FH9W4J5yk1"/>
@@ -13,7 +14,9 @@
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.9272,0.8867,1,1</string>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

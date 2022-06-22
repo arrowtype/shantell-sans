@@ -6,10 +6,14 @@
 		<component base="zhecyr"/>
 		<component base="brevecomb-cy" xOffset="258"/>
 	</outline>
+	<anchor name="top_1" x="451" y="515"/>
+	<anchor name="top_2" x="452" y="515"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.7336,0.5157,0.996,1</string>
+			<string>0.992,0.706,0.831,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

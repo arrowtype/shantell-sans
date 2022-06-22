@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eight" format="2">
+	<unicode hex="0038"/>
 	<advance width="700"/>
 	<outline>
-		<contour identifier="ErmADlJaVL">
+		<contour>
 			<point x="378" y="673" type="move"/>
 			<point x="293" y="663"/>
 			<point x="202" y="620"/>
@@ -21,4 +22,12 @@
 			<point x="525" y="574" type="curve" smooth="yes"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="djecyr" format="2">
-	<advance width="661"/>
+	<unicode hex="0452"/>
+	<advance width="698"/>
 	<outline>
 		<contour>
 			<point x="637" y="171" type="curve" smooth="yes"/>
@@ -71,4 +72,12 @@
 			<point x="18" y="538"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

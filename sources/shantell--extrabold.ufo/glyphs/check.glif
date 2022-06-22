@@ -2,7 +2,7 @@
 <glyph name="check" format="2">
 	<unicode hex="2713"/>
 	<advance width="900"/>
-	<image fileName="check.png" xScale="3.2364580794" yScale="3.2364580794" xOffset="-100.4823169745" yOffset="-219.4863834558" color="0,0,0,0.33887"/>
+	<image fileName="check.png" xScale="3.23646" yScale="3.23646" xOffset="-100.482" yOffset="-219.486"/>
 	<outline>
 		<contour>
 			<point x="166" y="370" type="curve" smooth="yes"/>
@@ -40,6 +40,17 @@
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
 			<key>com.typemytype.robofont.Image.Brightness</key>
 			<integer>0</integer>
 			<key>com.typemytype.robofont.Image.Contrast</key>
@@ -47,9 +58,11 @@
 			<key>com.typemytype.robofont.Image.Saturation</key>
 			<integer>1</integer>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
 			<key>public.markColor</key>
-			<string>0,0.95,0.95,0.25</string>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

@@ -2,7 +2,7 @@
 <glyph name="heartwhite" format="2">
 	<unicode hex="2661"/>
 	<advance width="899"/>
-	<image fileName="heartwhite.png" xScale="2.3975871566" yScale="2.3975871566" xOffset="-28.1964063412" yOffset="-113.4402793074" color="0,0,0,0.20363"/>
+	<image fileName="heartwhite.png" xScale="2.39759" yScale="2.39759" xOffset="-28.196" yOffset="-113.44"/>
 	<outline>
 		<contour>
 			<point x="401" y="470" type="curve" smooth="yes"/>
@@ -57,6 +57,17 @@
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
 			<key>com.typemytype.robofont.Image.Brightness</key>
 			<integer>0</integer>
 			<key>com.typemytype.robofont.Image.Contrast</key>
@@ -64,7 +75,11 @@
 			<key>com.typemytype.robofont.Image.Saturation</key>
 			<integer>1</integer>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

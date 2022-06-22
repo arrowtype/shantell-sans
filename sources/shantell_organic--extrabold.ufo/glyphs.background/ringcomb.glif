@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ringcomb" format="2">
+	<unicode hex="030A"/>
 	<outline>
 		<contour>
 			<point x="0" y="1168" type="curve" smooth="yes"/>
@@ -30,4 +31,12 @@
 			<point x="72" y="1312"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

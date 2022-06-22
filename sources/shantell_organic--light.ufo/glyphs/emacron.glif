@@ -6,10 +6,13 @@
 		<component base="e"/>
 		<component base="macroncomb" xOffset="299" yOffset="7"/>
 	</outline>
+	<anchor name="bottom" x="252" y="-36"/>
+	<anchor name="ogonek" x="391" y="-9"/>
+	<anchor name="top" x="299" y="522"/>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

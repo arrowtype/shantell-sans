@@ -7,10 +7,14 @@
 		<component base="Z" xOffset="687"/>
 		<component base="caroncomb" xOffset="1059" yOffset="185"/>
 	</outline>
+	<anchor name="bottom_1" x="241" y="0"/>
+	<anchor name="bottom_2" x="1024" y="0"/>
+	<anchor name="top_1" x="385" y="700"/>
+	<anchor name="top_2" x="1024" y="700"/>
 	<lib>
 		<dict>
-			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

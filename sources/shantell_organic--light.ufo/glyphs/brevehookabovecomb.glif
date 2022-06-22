@@ -29,11 +29,11 @@
 		</contour>
 		<contour>
 			<point x="-11" y="711" type="curve" smooth="yes"/>
-			<point x="55.4186046512" y="711"/>
-			<point x="108" y="749.0392156863"/>
+			<point x="55.419" y="711"/>
+			<point x="108" y="749.039"/>
 			<point x="108" y="808" type="curve" smooth="yes"/>
-			<point x="108" y="867.1028037383"/>
-			<point x="66.8534482759" y="910"/>
+			<point x="108" y="867.103"/>
+			<point x="66.853" y="910"/>
 			<point x="-3" y="910" type="curve" smooth="yes"/>
 			<point x="-74" y="910"/>
 			<point x="-109" y="885"/>
@@ -45,9 +45,9 @@
 			<point x="-47" y="845"/>
 			<point x="-7" y="845" type="curve" smooth="yes"/>
 			<point x="23.6" y="845"/>
-			<point x="38" y="831.8292682927"/>
+			<point x="38" y="831.829"/>
 			<point x="38" y="809" type="curve" smooth="yes"/>
-			<point x="38" y="754.8666666667"/>
+			<point x="38" y="754.867"/>
 			<point x="-51" y="778.2"/>
 			<point x="-51" y="739" type="curve" smooth="yes"/>
 			<point x="-51" y="724"/>
@@ -58,7 +58,9 @@
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0.5534,0.5534,0.5534,0.4845</string>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

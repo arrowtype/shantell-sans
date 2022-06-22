@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nine" format="2">
+	<unicode hex="0039"/>
 	<advance width="700"/>
 	<outline>
-		<contour identifier="o8nGHJk1jo">
+		<contour>
 			<point x="444" y="638" type="move"/>
 			<point x="427" y="645"/>
 			<point x="398" y="650"/>
@@ -74,4 +75,12 @@
 			<point x="423" y="578"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

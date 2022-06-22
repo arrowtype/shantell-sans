@@ -2,7 +2,7 @@
 <glyph name="Omega" format="2">
 	<unicode hex="03A9"/>
 	<advance width="870"/>
-	<image fileName="O_mega.png" xScale="1.064509859" yScale="1.4952846636" xOffset="9.6720307393" yOffset="-134.1873244877" color="0,0,0,0.30383"/>
+	<image fileName="O_mega.png" xScale="1.06451" yScale="1.49528" xOffset="9.672" yOffset="-134.187"/>
 	<outline>
 		<contour>
 			<point x="99" y="156" type="curve" smooth="yes"/>
@@ -62,12 +62,23 @@
 			<point x="103" y="240"/>
 			<point x="250" y="93" type="curve"/>
 			<point x="259" y="171" type="line"/>
-			<point x="192.883266332" y="166.7344042795"/>
+			<point x="192.883" y="166.734"/>
 			<point x="163" y="156"/>
 		</contour>
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
 			<key>com.typemytype.robofont.Image.Brightness</key>
 			<integer>0</integer>
 			<key>com.typemytype.robofont.Image.Contrast</key>
@@ -75,9 +86,11 @@
 			<key>com.typemytype.robofont.Image.Saturation</key>
 			<integer>1</integer>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
 			<key>public.markColor</key>
-			<string>1,0.65,0.65,1</string>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

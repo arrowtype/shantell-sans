@@ -2,23 +2,6 @@
 <glyph name="De-cy.loclBGR" format="2">
 	<advance width="836"/>
 	<outline>
-		<component base="Decyr"/>
+		<component base="Decyr" xOffset="0.0701637208"/>
 	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>0</integer>
-					<key>name</key>
-					<string>Decyr</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-07 02:14:18 +0000</string>
-		</dict>
-	</lib>
 </glyph>

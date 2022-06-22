@@ -6,4 +6,12 @@
 		<component base="G"/>
 		<component base="caroncomb" xOffset="464" yOffset="215"/>
 	</outline>
+	<anchor name="bottom" x="295.556" y="0"/>
+	<anchor name="top" x="512.557" y="700"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

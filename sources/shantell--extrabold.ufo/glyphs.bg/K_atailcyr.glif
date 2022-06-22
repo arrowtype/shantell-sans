@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Katailcyr" format="2">
 	<unicode hex="049A"/>
-	<advance width="684"/>
+	<advance width="694"/>
 	<outline>
 		<contour>
 			<point x="163" y="-12" type="curve" smooth="yes"/>
@@ -69,4 +69,12 @@
 			<point x="457" y="-5"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bracketleft" format="2">
 	<unicode hex="005B"/>
-	<advance width="509"/>
+	<advance width="553"/>
 	<outline>
-		<contour identifier="kiaNeNIzxI">
+		<contour>
 			<point x="452" y="731" type="move"/>
 			<point x="378" y="742"/>
 			<point x="202" y="700"/>
@@ -21,4 +21,12 @@
 			<point x="454" y="-174" type="curve" smooth="yes"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="elcyr" format="2">
-	<advance width="619"/>
+	<unicode hex="043B"/>
+	<advance width="638"/>
 	<outline>
 		<contour>
 			<point x="103" y="68" type="move"/>
@@ -18,4 +19,12 @@
 			<point x="564" y="69" type="curve"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

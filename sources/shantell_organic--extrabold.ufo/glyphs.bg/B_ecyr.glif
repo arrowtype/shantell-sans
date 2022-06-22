@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Becyr" format="2">
-	<advance width="676"/>
+	<unicode hex="0411"/>
+	<advance width="668"/>
 	<outline>
 		<contour>
 			<point x="112" y="702" type="curve" smooth="yes"/>
@@ -66,4 +67,12 @@
 			<point x="97" y="619" type="curve"/>
 		</contour>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

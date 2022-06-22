@@ -6,6 +6,8 @@
 		<component base="d" xOffset="4"/>
 		<component base="quotesingle" xOffset="556.429" yOffset="97"/>
 	</outline>
+	<anchor name="bottom" x="250.423" y="31"/>
+	<anchor name="top" x="574.223" y="750"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,8 +29,8 @@
 					<string>quotesingle</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:21 +0000</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

@@ -6,6 +6,9 @@
 		<component base="U"/>
 		<component base="ogonekcmb" xOffset="410" yOffset="63"/>
 	</outline>
+	<anchor name="bottom" x="304.875" y="51"/>
+	<anchor name="ogonek" x="416.275" y="63"/>
+	<anchor name="top" x="413.276" y="613"/>
 	<lib>
 		<dict>
 			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,8 +30,8 @@
 					<string>ogonekcmb</string>
 				</dict>
 			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2022-06-06 19:19:21 +0000</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

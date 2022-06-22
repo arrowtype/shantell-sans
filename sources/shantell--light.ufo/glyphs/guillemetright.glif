@@ -2,7 +2,7 @@
 <glyph name="guillemetright" format="2">
 	<unicode hex="00BB"/>
 	<advance width="618"/>
-	<image fileName="arrowleft.png" xScale="2.1162818124" yScale="2.1162818124" xOffset="-1624.14535703" yOffset="-44.6958330494" color="0,0,0,0.25121"/>
+	<image fileName="arrowleft.png" xScale="2.11628" yScale="2.11628" xOffset="-1624.145" yOffset="-44.696"/>
 	<outline>
 		<contour>
 			<point x="356" y="111" type="curve" smooth="yes"/>
@@ -79,10 +79,23 @@
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
 			<key>public.markColor</key>
-			<string>0,0.95,0.95,0.25</string>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

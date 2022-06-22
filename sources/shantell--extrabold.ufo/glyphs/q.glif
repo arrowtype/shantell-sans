@@ -29,7 +29,7 @@
 			<point x="557" y="-64" type="curve"/>
 			<point x="576" y="-78" type="line"/>
 			<point x="570" y="32"/>
-			<point x="570.9096434032" y="88.849673988"/>
+			<point x="570.91" y="88.85"/>
 			<point x="572" y="151" type="curve"/>
 			<point x="577" y="171"/>
 			<point x="602" y="218"/>
@@ -68,6 +68,14 @@
 			<point x="88" y="-10"/>
 		</contour>
 	</outline>
-	<anchor name="top" x="338" y="515"/>
 	<anchor name="bottom" x="503" y="-250"/>
+	<anchor name="top" x="338" y="515"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

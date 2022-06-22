@@ -3,6 +3,12 @@
 	<unicode hex="2197"/>
 	<advance width="700"/>
 	<outline>
-		<component base="arrowdown" xScale="-0.7071067812" xyScale="0.7071067812" yxScale="-0.7071067812" yScale="-0.7071067812" xOffset="847" yOffset="345"/>
+		<component base="arrowdown" xScale="-0.70711" xyScale="0.70711" yxScale="-0.70711" yScale="-0.70711" xOffset="847" yOffset="345"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

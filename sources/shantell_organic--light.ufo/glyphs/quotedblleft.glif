@@ -2,7 +2,7 @@
 <glyph name="quotedblleft" format="2">
 	<unicode hex="201C"/>
 	<advance width="471"/>
-	<image fileName="quoteleft.png" xScale="2.7154088417" yScale="2.7154088417" xOffset="-110.4273808669" yOffset="-445.4316255776" color="0,0,0,0.31832"/>
+	<image fileName="quoteleft.png" xScale="2.71541" yScale="2.71541" xOffset="-110.427" yOffset="-445.432"/>
 	<outline>
 		<contour>
 			<point x="223" y="809" type="curve" smooth="yes"/>
@@ -53,8 +53,23 @@
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
 			<key>com.typemytype.robofont.Image.Sharpness</key>
-			<real>0.400000006</real>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>
