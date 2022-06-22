@@ -3847,6 +3847,10 @@
 			<integer>-27</integer>
 			<key>yukrcyr</key>
 			<integer>27</integer>
+			<key>yukrcyr_yukrcyr</key>
+			<real>18.75</real>
+			<key>yukrcyr_yukrcyr.ss01</key>
+			<integer>-15</integer>
 			<key>yusbigcyr</key>
 			<real>29.25</real>
 			<key>yusbigcyr.alt1</key>
@@ -3960,6 +3964,12 @@
 				<string>flattenComponents</string>
 				<key>pre</key>
 				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>EraseOpenCorners</string>
+				<key>pre</key>
+				<integer>0</integer>
 			</dict>
 		</array>
 		<key>com.loicsander.scaleFast</key>

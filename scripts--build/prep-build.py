@@ -75,6 +75,9 @@ glyphsToDecompose += "arrowNE arrowNW arrowSW arrowSE invertedbrevecmb bracketan
 # fontTools.varLib says these are incompatible, if they aren't decomposed first. See issue 
 glyphsToDecompose += "Aring Yukrcyr Iocyr lj nj iocyr iukrcyr jecyr Lj Nj onequarter onehalf threequarters onethird twothirds oneeighth threeeighths fiveeighths seveneighths bulletoperator ijacute fi f_f_i Iigrave Esdescender esdescender periodcentered Iigrave-cy.loclBGR Esdescender-cy.loclBSH esdescender-cy.loclBSH Esdescender-cy.loclCHU esdescender-cy.loclCHU periodcentered.loclCAT_case".split()
 
+# testing whether these need to be decomposed ...
+# glyphsToDecompose += "Ljecyr Emcyr vecyr kabashkcyr ylongcyr geupcyr Icyr Dzhecyr elcyr Iigrave-cy.loclBGR".split()
+
 glyphsToNotShift ="\
     onesuperior twosuperior threesuperior fraction zero.dnom one.dnom two.dnom three.dnom \
     four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr \
