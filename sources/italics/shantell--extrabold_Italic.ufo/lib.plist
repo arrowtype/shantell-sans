@@ -999,11 +999,21 @@
 		<array>
 			<dict>
 				<key>name</key>
-				<string>eraseOpenCorners</string>
-				<key>namespace</key>
-				<string>glyphsLib.filters</string>
+				<string>decomposeTransformedComponents</string>
 				<key>pre</key>
-				<true/>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>flattenComponents</string>
+				<key>pre</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>EraseOpenCorners</string>
+				<key>pre</key>
+				<integer>0</integer>
 			</dict>
 		</array>
 		<key>com.schriftgestaltung.Glyphs.glyphUserData..notdef</key>
