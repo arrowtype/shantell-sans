@@ -2,6 +2,14 @@
 <glyph name="De-cy.loclBGR" format="2">
 	<advance width="836"/>
 	<outline>
-		<component base="Decyr" xOffset="0.0701637208"/>
+		<component base="Decyr" xOffset="0.07"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.169,0.216,0.263,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

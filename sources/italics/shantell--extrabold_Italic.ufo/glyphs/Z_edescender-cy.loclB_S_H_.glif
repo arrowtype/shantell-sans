@@ -4,5 +4,13 @@
 	<outline>
 		<component base="Zetailcyr"/>
 	</outline>
-	<anchor name="top" x="392.8009456222" y="700"/>
+	<anchor name="top" x="392.801" y="700"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.169,0.216,0.263,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

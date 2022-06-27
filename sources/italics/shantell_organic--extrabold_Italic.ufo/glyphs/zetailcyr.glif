@@ -4,29 +4,31 @@
 	<advance width="567"/>
 	<outline>
 		<contour>
-			<point x="161.4057871628" y="-45" type="curve" smooth="yes" identifier="Yg8pbzndr4"/>
-			<point x="141.4057871628" y="-144"/>
-			<point x="174.4057871628" y="-202"/>
-			<point x="235.4057871628" y="-202" type="curve" smooth="yes"/>
-			<point x="278.4057871628" y="-202"/>
-			<point x="311.4057871628" y="-163"/>
-			<point x="319.4057871628" y="-123" type="curve" smooth="yes" identifier="USaUfwmAil"/>
-			<point x="326.4057871628" y="-91"/>
-			<point x="308.4057871628" y="-29"/>
-			<point x="313.4057871628" y="-5" type="curve" smooth="yes" identifier="sZVsHggsVv"/>
-			<point x="324.4057871628" y="52"/>
-			<point x="291.4057871628" y="72"/>
-			<point x="242.4057871628" y="72" type="curve" smooth="yes"/>
-			<point x="204.4057871628" y="72"/>
-			<point x="180.4057871628" y="52"/>
+			<point x="161.406" y="-45" type="curve" smooth="yes"/>
+			<point x="141.406" y="-144"/>
+			<point x="174.406" y="-202"/>
+			<point x="235.406" y="-202" type="curve" smooth="yes"/>
+			<point x="278.406" y="-202"/>
+			<point x="311.406" y="-163"/>
+			<point x="319.406" y="-123" type="curve" smooth="yes"/>
+			<point x="326.406" y="-91"/>
+			<point x="308.406" y="-29"/>
+			<point x="313.406" y="-5" type="curve" smooth="yes"/>
+			<point x="324.406" y="52"/>
+			<point x="291.406" y="72"/>
+			<point x="242.406" y="72" type="curve" smooth="yes"/>
+			<point x="204.406" y="72"/>
+			<point x="180.406" y="52"/>
 		</contour>
 		<component base="zecyr"/>
 	</outline>
-	<anchor name="top" x="341.2064907106" y="574"/>
+	<anchor name="top" x="341.206" y="574"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
 			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iocyr" format="2">
 	<unicode hex="0451"/>
-	<advance width="537"/>
+	<advance width="580"/>
 	<outline>
-		<component base="edieresis" xOffset="-5.2019891913"/>
+		<component base="edieresis"/>
 	</outline>
-	<anchor name="bottom" x="186.3914751829" y="-36"/>
-	<anchor name="ogonek" x="330.7915082766" y="-9"/>
-	<anchor name="top" x="372.992336845" y="667"/>
+	<anchor name="bottom" x="186.391" y="-36"/>
+	<anchor name="ogonek" x="330.792" y="-9"/>
+	<anchor name="top" x="372.992" y="667"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.733,0.518,0.996,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

@@ -4,32 +4,34 @@
 	<advance width="590"/>
 	<outline>
 		<contour>
-			<point x="108.3569770956" y="267" type="curve" smooth="yes"/>
-			<point x="158.3569770956" y="267"/>
-			<point x="258.3569770956" y="283"/>
-			<point x="395.3569770956" y="283" type="curve" smooth="yes"/>
-			<point x="427.3569770956" y="283"/>
-			<point x="451.3569770956" y="310"/>
-			<point x="457.3569770956" y="340" type="curve" smooth="yes" identifier="oeyUsJzEc7"/>
-			<point x="464.3569770956" y="374"/>
-			<point x="435.3569770956" y="430"/>
-			<point x="325.3569770956" y="430" type="curve" smooth="yes"/>
-			<point x="261.3569770956" y="430"/>
-			<point x="151.3569770956" y="428"/>
-			<point x="75.3569770956" y="406" type="curve" smooth="yes"/>
-			<point x="46.3569770956" y="398"/>
-			<point x="37.3569770956" y="384"/>
-			<point x="32.3569770956" y="362" type="curve" smooth="yes" identifier="1JYRqFZ86h"/>
-			<point x="23.3569770956" y="316"/>
-			<point x="38.3569770956" y="267"/>
+			<point x="108.357" y="267" type="curve" smooth="yes"/>
+			<point x="158.357" y="267"/>
+			<point x="258.357" y="283"/>
+			<point x="395.357" y="283" type="curve" smooth="yes"/>
+			<point x="427.357" y="283"/>
+			<point x="451.357" y="310"/>
+			<point x="457.357" y="340" type="curve" smooth="yes"/>
+			<point x="464.357" y="374"/>
+			<point x="435.357" y="430"/>
+			<point x="325.357" y="430" type="curve" smooth="yes"/>
+			<point x="261.357" y="430"/>
+			<point x="151.357" y="428"/>
+			<point x="75.357" y="406" type="curve" smooth="yes"/>
+			<point x="46.357" y="398"/>
+			<point x="37.357" y="384"/>
+			<point x="32.357" y="362" type="curve" smooth="yes"/>
+			<point x="23.357" y="316"/>
+			<point x="38.357" y="267"/>
 		</contour>
-		<component base="Gecyr" xOffset="-1.4431105415"/>
+		<component base="Gecyr" xOffset="-1.443"/>
 	</outline>
-	<anchor name="top" x="391.3578350807" y="700"/>
+	<anchor name="top" x="391.358" y="700"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
 			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

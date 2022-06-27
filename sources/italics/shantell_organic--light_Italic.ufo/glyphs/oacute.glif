@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oacute" format="2">
 	<unicode hex="00F3"/>
-	<advance width="560"/>
+	<advance width="545"/>
 	<outline>
-		<component base="o" xOffset="5"/>
-		<component base="acutecomb" xOffset="291" yOffset="-65"/>
+		<component base="o"/>
+		<component base="acutecomb" xOffset="284" yOffset="-35"/>
 	</outline>
 	<anchor name="bottom" x="256.649" y="36"/>
 	<anchor name="ogonek" x="365.449" y="65"/>

@@ -2,8 +2,16 @@
 <glyph name="pe-cy.loclBGR" format="2">
 	<advance width="692"/>
 	<outline>
-		<component base="n" xOffset="-1.8150236077"/>
+		<component base="n" xOffset="-1.815"/>
 	</outline>
-	<anchor name="bottom" x="296.9850640293" y="0"/>
-	<anchor name="top" x="399.9856952612" y="515"/>
+	<anchor name="bottom" x="296.985" y="0"/>
+	<anchor name="top" x="399.986" y="515"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.733,0.518,0.996,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

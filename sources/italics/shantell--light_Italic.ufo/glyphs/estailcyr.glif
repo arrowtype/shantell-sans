@@ -20,14 +20,16 @@
 			<point x="202" y="44"/>
 			<point x="179" y="-33"/>
 		</contour>
-		<component base="c" xOffset="-0.5709813324"/>
+		<component base="c" xOffset="-0.571"/>
 	</outline>
-	<anchor name="bottom" x="231.2213780642" y="0"/>
-	<anchor name="top" x="328.2219725253" y="485"/>
+	<anchor name="bottom" x="231.221" y="0"/>
+	<anchor name="top" x="328.222" y="485"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
 			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

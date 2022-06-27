@@ -8,7 +8,6 @@
 
 import sys
 import os
-from fontParts.fontshell import RFont as Font
 import subprocess
 
 dirToEdit = sys.argv[1]

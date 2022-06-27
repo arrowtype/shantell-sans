@@ -6,6 +6,14 @@
 		<component base="y"/>
 		<component base="macroncomb" xOffset="270"/>
 	</outline>
-	<anchor name="bottom" x="183.7920529733" y="-250"/>
-	<anchor name="top" x="318.7929538577" y="485"/>
+	<anchor name="bottom" x="183.792" y="-250"/>
+	<anchor name="top" x="318.793" y="485"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.992,0.706,0.831,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

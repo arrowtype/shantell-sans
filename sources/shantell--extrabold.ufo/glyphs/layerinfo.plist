@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 	<dict>
-		<key>color</key>
-		<string>0.5,0,0.5,0.7</string>
 		<key>lib</key>
 		<dict>
 			<key>com.schriftgestaltung.layerId</key>
@@ -765,7 +763,7 @@
 			<key>com.schriftgestaltung.layerOrderInGlyph.brevecomb-cy</key>
 			<integer>1</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.brevecomb-cy.case</key>
-			<integer>4</integer>
+			<integer>3</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.brevegravecomb</key>
 			<integer>1</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.brevehookabovecomb</key>
@@ -1139,7 +1137,7 @@
 			<key>com.schriftgestaltung.layerOrderInGlyph.hungarumlautcmb</key>
 			<integer>1</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.hungarumlautcomb</key>
-			<integer>5</integer>
+			<integer>3</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.hyphen</key>
 			<integer>1</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.hyphen.case</key>
@@ -1517,7 +1515,7 @@
 			<key>com.schriftgestaltung.layerOrderInGlyph.otildemacron</key>
 			<integer>1</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.overlaystrokeshortcmb</key>
-			<integer>4</integer>
+			<integer>3</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.p</key>
 			<integer>1</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.palochkacyr</key>
@@ -1957,49 +1955,49 @@
 			<key>org.unifiedfontobject.normalizer.imageReferences</key>
 			<dict>
 				<key>E_uro.glif</key>
-				<string>E</string>
+				<string>E_uro.png</string>
 				<key>O_mega.glif</key>
-				<string>O</string>
+				<string>O_mega.png</string>
 				<key>approxequal.glif</key>
-				<string>S</string>
+				<string>S_creen S_hot 2020-09-24 at 10.58.01 P_M_.png</string>
 				<key>arrowN_W_.glif</key>
-				<string>a</string>
+				<string>arrowup.png</string>
 				<key>arrowS_E_.glif</key>
-				<string>a</string>
+				<string>arrowup.png</string>
 				<key>arrowS_W_.glif</key>
-				<string>a</string>
+				<string>arrowup.png</string>
 				<key>asciitilde.glif</key>
-				<string>S</string>
+				<string>S_creen S_hot 2020-09-24 at 10.58.01 P_M_.png</string>
 				<key>asterisk.glif</key>
-				<string>a</string>
+				<string>asterisk000000000000001.png</string>
 				<key>braceleft.glif</key>
-				<string>b</string>
+				<string>braceleft000000000000001.png</string>
 				<key>braceright.glif</key>
-				<string>p</string>
+				<string>parenleft.png</string>
 				<key>bracketleft.glif</key>
-				<string>p</string>
+				<string>parenleft.png</string>
 				<key>bracketright.glif</key>
-				<string>p</string>
+				<string>parenleft.png</string>
 				<key>cedillacomb.glif</key>
-				<string>S</string>
+				<string>S_creen S_hot 2020-09-24 at 10.58.01 P_M_.png</string>
 				<key>check.glif</key>
-				<string>c</string>
+				<string>check.png</string>
 				<key>circumflexcomb.glif</key>
-				<string>a</string>
+				<string>accents.png</string>
 				<key>heartwhite.glif</key>
-				<string>h</string>
+				<string>heartwhite.png</string>
 				<key>numbersign.glif</key>
-				<string>n</string>
+				<string>numbersign.png</string>
 				<key>parenleft.glif</key>
-				<string>p</string>
+				<string>parenleft.png</string>
 				<key>parenright.glif</key>
-				<string>p</string>
+				<string>parenleft.png</string>
 				<key>quoteleft.glif</key>
-				<string>q</string>
+				<string>quoteleft.png</string>
 				<key>quoteright.glif</key>
-				<string>q</string>
+				<string>quoteleft.png</string>
 				<key>tildecomb.glif</key>
-				<string>S</string>
+				<string>S_creen S_hot 2020-09-24 at 10.58.01 P_M_.png</string>
 			</dict>
 			<key>org.unifiedfontobject.normalizer.modTimes</key>
 			<string>version: 0.6.1

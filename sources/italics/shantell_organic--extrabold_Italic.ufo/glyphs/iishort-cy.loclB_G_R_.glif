@@ -2,9 +2,17 @@
 <glyph name="iishort-cy.loclBGR" format="2">
 	<advance width="723"/>
 	<outline>
-		<component base="brevecomb-cy" xOffset="134.960355106"/>
-		<component base="icyr" xOffset="-4.039644894"/>
+		<component base="brevecomb-cy" xOffset="134.96"/>
+		<component base="icyr" xOffset="-4.04"/>
 	</outline>
-	<anchor name="top_1" x="384.3667735007" y="515"/>
-	<anchor name="top_2" x="403.3667735007" y="515"/>
+	<anchor name="top_1" x="384.367" y="515"/>
+	<anchor name="top_2" x="403.367" y="515"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.169,0.216,0.263,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

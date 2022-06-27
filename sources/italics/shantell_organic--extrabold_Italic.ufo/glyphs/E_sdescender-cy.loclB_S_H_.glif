@@ -4,6 +4,14 @@
 	<outline>
 		<component base="Ccedilla"/>
 	</outline>
-	<anchor name="bottom" x="283.2058656071" y="64"/>
-	<anchor name="top" x="419.6065421897" y="616"/>
+	<anchor name="bottom" x="283.206" y="64"/>
+	<anchor name="top" x="419.607" y="616"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.169,0.216,0.263,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

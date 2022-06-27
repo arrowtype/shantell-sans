@@ -5,7 +5,15 @@
 	<outline>
 		<component base="Egrave"/>
 	</outline>
-	<anchor name="bottom" x="295.1934864366" y="-18"/>
-	<anchor name="ogonek" x="529.993552624" y="36"/>
-	<anchor name="top" x="459.5943959008" y="724"/>
+	<anchor name="bottom" x="295.193" y="-18"/>
+	<anchor name="ogonek" x="529.994" y="36"/>
+	<anchor name="top" x="459.594" y="724"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.733,0.518,0.996,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

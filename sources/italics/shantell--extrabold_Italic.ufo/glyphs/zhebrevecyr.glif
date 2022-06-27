@@ -6,6 +6,14 @@
 		<component base="zhecyr"/>
 		<component base="brevecomb-cy" xOffset="258"/>
 	</outline>
-	<anchor name="top_1" x="504.800718869" y="515"/>
-	<anchor name="top_2" x="505.800718869" y="515"/>
+	<anchor name="top_1" x="504.801" y="515"/>
+	<anchor name="top_2" x="505.801" y="515"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.992,0.706,0.831,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>
