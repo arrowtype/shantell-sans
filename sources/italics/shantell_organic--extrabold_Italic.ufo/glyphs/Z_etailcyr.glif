@@ -4,32 +4,34 @@
 	<advance width="606"/>
 	<outline>
 		<contour>
-			<point x="186.4057871628" y="50" type="curve" smooth="yes" identifier="HCDsw5DbPm"/>
-			<point x="180.4057871628" y="20"/>
-			<point x="167.4057871628" y="-41"/>
-			<point x="157.4057871628" y="-90" type="curve" smooth="yes" identifier="qhTcwy46C7"/>
-			<point x="142.4057871628" y="-165"/>
-			<point x="165.4057871628" y="-217"/>
-			<point x="232.4057871628" y="-217" type="curve" smooth="yes"/>
-			<point x="275.4057871628" y="-217"/>
-			<point x="312.4057871628" y="-178"/>
-			<point x="320.4057871628" y="-138" type="curve" smooth="yes" identifier="SkcSjQ1pEI"/>
-			<point x="332.4057871628" y="-78"/>
-			<point x="312.4057871628" y="-8"/>
-			<point x="326.4057871628" y="62" type="curve" smooth="yes" identifier="aHMHo937EB"/>
-			<point x="331.4057871628" y="87"/>
-			<point x="314.4057871628" y="99"/>
-			<point x="289.4057871628" y="99" type="curve" smooth="yes"/>
-			<point x="249.4057871628" y="99"/>
-			<point x="192.4057871628" y="80"/>
+			<point x="186.406" y="50" type="curve" smooth="yes"/>
+			<point x="180.406" y="20"/>
+			<point x="167.406" y="-41"/>
+			<point x="157.406" y="-90" type="curve" smooth="yes"/>
+			<point x="142.406" y="-165"/>
+			<point x="165.406" y="-217"/>
+			<point x="232.406" y="-217" type="curve" smooth="yes"/>
+			<point x="275.406" y="-217"/>
+			<point x="312.406" y="-178"/>
+			<point x="320.406" y="-138" type="curve" smooth="yes"/>
+			<point x="332.406" y="-78"/>
+			<point x="312.406" y="-8"/>
+			<point x="326.406" y="62" type="curve" smooth="yes"/>
+			<point x="331.406" y="87"/>
+			<point x="314.406" y="99"/>
+			<point x="289.406" y="99" type="curve" smooth="yes"/>
+			<point x="249.406" y="99"/>
+			<point x="192.406" y="80"/>
 		</contour>
 		<component base="Zecyr"/>
 	</outline>
-	<anchor name="top" x="395.4066451479" y="700"/>
+	<anchor name="top" x="395.407" y="700"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
 			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

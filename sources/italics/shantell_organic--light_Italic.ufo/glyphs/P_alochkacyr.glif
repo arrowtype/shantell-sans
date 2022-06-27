@@ -4,33 +4,35 @@
 	<advance width="261"/>
 	<outline>
 		<contour>
-			<point x="111.1036604499" y="58" type="curve" smooth="yes"/>
-			<point x="126.1036604499" y="58"/>
-			<point x="139.1036604499" y="74"/>
-			<point x="144.1036604499" y="100" type="curve" smooth="yes" identifier="txYAe1zcrr"/>
-			<point x="153.1036604499" y="143"/>
-			<point x="185.1036604499" y="326"/>
-			<point x="221.1036604499" y="504" type="curve" smooth="yes" identifier="Th01VO646H"/>
-			<point x="239.1036604499" y="593"/>
-			<point x="224.1036604499" y="631"/>
-			<point x="193.1036604499" y="631" type="curve" smooth="yes"/>
-			<point x="177.1036604499" y="631"/>
-			<point x="168.1036604499" y="618"/>
-			<point x="161.1036604499" y="587" type="curve" smooth="yes" identifier="Nvq7w6TqMl"/>
-			<point x="155.1036604499" y="554"/>
-			<point x="135.1036604499" y="403"/>
-			<point x="112.1036604499" y="289" type="curve" smooth="yes" identifier="WAH6aRNtvP"/>
-			<point x="104.1036604499" y="248"/>
-			<point x="82.1036604499" y="155"/>
-			<point x="78.1036604499" y="137" type="curve" smooth="yes" identifier="xjyFJB5Xl6"/>
-			<point x="68.1036604499" y="84"/>
-			<point x="83.1036604499" y="58"/>
+			<point x="111.104" y="58" type="curve" smooth="yes"/>
+			<point x="126.104" y="58"/>
+			<point x="139.104" y="74"/>
+			<point x="144.104" y="100" type="curve" smooth="yes"/>
+			<point x="153.104" y="143"/>
+			<point x="185.104" y="326"/>
+			<point x="221.104" y="504" type="curve" smooth="yes"/>
+			<point x="239.104" y="593"/>
+			<point x="224.104" y="631"/>
+			<point x="193.104" y="631" type="curve" smooth="yes"/>
+			<point x="177.104" y="631"/>
+			<point x="168.104" y="618"/>
+			<point x="161.104" y="587" type="curve" smooth="yes"/>
+			<point x="155.104" y="554"/>
+			<point x="135.104" y="403"/>
+			<point x="112.104" y="289" type="curve" smooth="yes"/>
+			<point x="104.104" y="248"/>
+			<point x="82.104" y="155"/>
+			<point x="78.104" y="137" type="curve" smooth="yes"/>
+			<point x="68.104" y="84"/>
+			<point x="83.104" y="58"/>
 		</contour>
 	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
 			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

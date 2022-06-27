@@ -2,7 +2,15 @@
 <glyph name="ii-cy.loclBGR" format="2">
 	<advance width="641"/>
 	<outline>
-		<component base="icyr" xOffset="4.6882252405"/>
+		<component base="icyr" xOffset="4.688"/>
 	</outline>
-	<anchor name="top" x="344.4823282006" y="485"/>
+	<anchor name="top" x="344.482" y="485"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.169,0.216,0.263,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

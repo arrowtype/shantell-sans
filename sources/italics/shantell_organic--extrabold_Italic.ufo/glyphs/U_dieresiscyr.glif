@@ -6,5 +6,13 @@
 		<component base="Ucyr"/>
 		<component base="dieresiscomb" xOffset="365" yOffset="185"/>
 	</outline>
-	<anchor name="top" x="467.4069331857" y="935"/>
+	<anchor name="top" x="467.407" y="935"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.992,0.706,0.831,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

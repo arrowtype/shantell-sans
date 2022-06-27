@@ -5,8 +5,16 @@
 	<outline>
 		<component base="A"/>
 	</outline>
-	<anchor name="bottom" x="311.3935673323" y="48"/>
-	<anchor name="ogonek" x="552.9935403671" y="26"/>
-	<anchor name="ring" x="476.194295394" y="642"/>
-	<anchor name="top" x="475.9942941683" y="641"/>
+	<anchor name="bottom" x="311.394" y="48"/>
+	<anchor name="ogonek" x="552.994" y="26"/>
+	<anchor name="ring" x="476.194" y="642"/>
+	<anchor name="top" x="475.994" y="641"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.733,0.518,0.996,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

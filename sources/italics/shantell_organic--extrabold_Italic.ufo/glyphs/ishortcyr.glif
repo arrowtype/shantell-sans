@@ -4,40 +4,42 @@
 	<advance width="723"/>
 	<outline>
 		<contour>
-			<point x="400.3661422688" y="670" type="curve" smooth="yes"/>
-			<point x="368.3661422688" y="670"/>
-			<point x="369.3661422688" y="695"/>
-			<point x="362.3661422688" y="717" type="curve" smooth="yes"/>
-			<point x="355.3661422688" y="744"/>
-			<point x="340.3661422688" y="759"/>
-			<point x="312.3661422688" y="759" type="curve" smooth="yes"/>
-			<point x="268.3661422688" y="759"/>
-			<point x="229.3661422688" y="730"/>
-			<point x="218.3661422688" y="674" type="curve" smooth="yes" identifier="5bU4TFHdpF"/>
-			<point x="205.3661422688" y="609"/>
-			<point x="259.3661422688" y="542"/>
-			<point x="350.3661422688" y="542" type="curve" smooth="yes"/>
-			<point x="496.3661422688" y="542"/>
-			<point x="612.3661422688" y="662"/>
-			<point x="628.3661422688" y="741" type="curve" smooth="yes" identifier="w6dZLQcyxC"/>
-			<point x="635.3661422688" y="773"/>
-			<point x="620.3661422688" y="795"/>
-			<point x="582.3661422688" y="795" type="curve" smooth="yes"/>
-			<point x="553.3661422688" y="795"/>
-			<point x="534.3661422688" y="782"/>
-			<point x="508.3661422688" y="758" type="curve" smooth="yes"/>
-			<point x="471.3661422688" y="726"/>
-			<point x="432.3661422688" y="670"/>
+			<point x="400.366" y="670" type="curve" smooth="yes"/>
+			<point x="368.366" y="670"/>
+			<point x="369.366" y="695"/>
+			<point x="362.366" y="717" type="curve" smooth="yes"/>
+			<point x="355.366" y="744"/>
+			<point x="340.366" y="759"/>
+			<point x="312.366" y="759" type="curve" smooth="yes"/>
+			<point x="268.366" y="759"/>
+			<point x="229.366" y="730"/>
+			<point x="218.366" y="674" type="curve" smooth="yes"/>
+			<point x="205.366" y="609"/>
+			<point x="259.366" y="542"/>
+			<point x="350.366" y="542" type="curve" smooth="yes"/>
+			<point x="496.366" y="542"/>
+			<point x="612.366" y="662"/>
+			<point x="628.366" y="741" type="curve" smooth="yes"/>
+			<point x="635.366" y="773"/>
+			<point x="620.366" y="795"/>
+			<point x="582.366" y="795" type="curve" smooth="yes"/>
+			<point x="553.366" y="795"/>
+			<point x="534.366" y="782"/>
+			<point x="508.366" y="758" type="curve" smooth="yes"/>
+			<point x="471.366" y="726"/>
+			<point x="432.366" y="670"/>
 		</contour>
-		<component base="icyr" xOffset="-4.039644894"/>
+		<component base="icyr" xOffset="-4.04"/>
 	</outline>
-	<anchor name="top" x="403.3667735007" y="515"/>
-	<guideline x="230.4057871628" y="515" angle="90" identifier="p0aJ1s3JmT"/>
-	<guideline x="246.4057871628" y="464" angle="90" identifier="XJW6VjdRJe"/>
+	<anchor name="top" x="403.367" y="515"/>
+	<guideline x="230.406" y="515" angle="90" identifier="p0aJ1s3JmT"/>
+	<guideline x="246.406" y="464" angle="90" identifier="XJW6VjdRJe"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
 			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

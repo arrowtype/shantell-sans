@@ -5,7 +5,15 @@
 	<outline>
 		<component base="odieresis"/>
 	</outline>
-	<anchor name="bottom" x="246.993552624" y="36"/>
-	<anchor name="ogonek" x="355.7935881691" y="65"/>
-	<anchor name="top" x="363.7942377864" y="595"/>
+	<anchor name="bottom" x="246.994" y="36"/>
+	<anchor name="ogonek" x="355.794" y="65"/>
+	<anchor name="top" x="363.794" y="595"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.733,0.518,0.996,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

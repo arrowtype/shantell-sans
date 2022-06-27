@@ -44,7 +44,6 @@
 		<array>
 			<string>C</string>
 			<string>Estailcyr</string>
-			<string>aiecyr</string>
 			<string>Ccircumflex</string>
 			<string>Cdotaccent</string>
 		</array>
@@ -52,10 +51,13 @@
 		<array>
 			<string>D</string>
 			<string>Dcaron</string>
+			<string>Schwacyr</string>
 		</array>
 		<key>public.kern1.KO_Decyr</key>
 		<array>
 			<string>Decyr</string>
+			<string>lslash</string>
+			<string>Chetailcyr</string>
 		</array>
 		<key>public.kern1.KO_E</key>
 		<array>
@@ -77,6 +79,14 @@
 			<string>Ecircumflexhoi</string>
 			<string>Ecircumflextilde</string>
 			<string>Ecircumflexdotbelow</string>
+			<string>Egrave</string>
+			<string>Eacute</string>
+			<string>Ecircumflex</string>
+			<string>Edieresis</string>
+			<string>Ebreve</string>
+			<string>Edotaccent</string>
+			<string>Ecaron</string>
+			<string>Aiecyr</string>
 		</array>
 		<key>public.kern1.KO_Efcyr</key>
 		<array>
@@ -88,7 +98,8 @@
 		<array>
 			<string>Djecyr</string>
 			<string>Elcyr</string>
-			<string>yatcyr</string>
+			<string>aeacute</string>
+			<string>aiecyr</string>
 		</array>
 		<key>public.kern1.KO_Emcyr</key>
 		<array>
@@ -97,6 +108,9 @@
 			<string>uni0146</string>
 			<string>ncaron</string>
 			<string>Emcyr</string>
+			<string>Zacute</string>
+			<string>Zdotaccent</string>
+			<string>Zcaron</string>
 		</array>
 		<key>public.kern1.KO_Ereversedcyr</key>
 		<array>
@@ -143,6 +157,7 @@
 			<string>Itilde</string>
 			<string>Ihoi</string>
 			<string>Idotbelow</string>
+			<string>Yukrcyr</string>
 		</array>
 		<key>public.kern1.KO_Iacute</key>
 		<array>
@@ -153,7 +168,6 @@
 			<string>Imacron</string>
 			<string>Ibreve</string>
 			<string>Idotaccent</string>
-			<string>Yukrcyr</string>
 		</array>
 		<key>public.kern1.KO_Iukrcyr</key>
 		<array>
@@ -162,7 +176,6 @@
 		<key>public.kern1.KO_J</key>
 		<array>
 			<string>J</string>
-			<string>Oslashacute</string>
 			<string>IJ</string>
 			<string>Jcircumflex</string>
 		</array>
@@ -172,10 +185,6 @@
 			<string>uni0136</string>
 			<string>Kjecyr</string>
 			<string>Kacyr</string>
-		</array>
-		<key>public.kern1.KO_Katailcyr</key>
-		<array>
-			<string>Katailcyr</string>
 		</array>
 		<key>public.kern1.KO_L</key>
 		<array>
@@ -187,6 +196,9 @@
 		<key>public.kern1.KO_M</key>
 		<array>
 			<string>M</string>
+			<string>ljecyr</string>
+			<string>njecyr</string>
+			<string>yatcyr</string>
 		</array>
 		<key>public.kern1.KO_N</key>
 		<array>
@@ -202,6 +214,7 @@
 			<string>Imacroncyr</string>
 			<string>Idieresiscyr</string>
 			<string>Ylongdieresiscyr</string>
+			<string>Chedieresiscyr</string>
 		</array>
 		<key>public.kern1.KO_O</key>
 		<array>
@@ -227,15 +240,25 @@
 			<string>Ocircumflexhoi</string>
 			<string>Ocircumflextilde</string>
 			<string>Ocircumflexdotbelow</string>
+			<string>Fitacyr</string>
 		</array>
 		<key>public.kern1.KO_P</key>
 		<array>
 			<string>P</string>
 			<string>Ercyr</string>
 		</array>
+		<key>public.kern1.KO_Pecyr</key>
+		<array>
+			<string>Pecyr</string>
+			<string>Yacyr</string>
+		</array>
 		<key>public.kern1.KO_Q</key>
 		<array>
 			<string>Q</string>
+			<string>oe</string>
+			<string>tbar</string>
+			<string>eukrcyr</string>
+			<string>pi</string>
 		</array>
 		<key>public.kern1.KO_R</key>
 		<array>
@@ -253,7 +276,6 @@
 			<string>Scaron</string>
 			<string>Scommaaccent</string>
 			<string>Dzecyr</string>
-			<string>Aiecyr</string>
 			<string>Scircumflex</string>
 		</array>
 		<key>public.kern1.KO_T</key>
@@ -266,14 +288,19 @@
 		</array>
 		<key>public.kern1.KO_Tsecyr</key>
 		<array>
-			<string>lslash</string>
 			<string>Tsecyr</string>
 			<string>yusbigcyr</string>
-			<string>Chetailcyr</string>
 		</array>
 		<key>public.kern1.KO_U</key>
 		<array>
 			<string>U</string>
+			<string>Uogonek</string>
+			<string>Utilde</string>
+			<string>Udotbelow</string>
+			<string>Uhoi</string>
+		</array>
+		<key>public.kern1.KO_Uacute</key>
+		<array>
 			<string>Ugrave</string>
 			<string>Uacute</string>
 			<string>Ucircumflex</string>
@@ -282,11 +309,9 @@
 			<string>Ubreve</string>
 			<string>Uring</string>
 			<string>Uhungarumlaut</string>
-			<string>Uogonek</string>
 			<string>Ucaron</string>
-			<string>Utilde</string>
-			<string>Udotbelow</string>
-			<string>Uhoi</string>
+			<string>Oslashacute</string>
+			<string>chedieresiscyr</string>
 		</array>
 		<key>public.kern1.KO_Ucyr</key>
 		<array>
@@ -295,12 +320,14 @@
 			<string>Umacroncyr</string>
 			<string>Udieresiscyr</string>
 			<string>Uacutedblcyr</string>
+			<string>dcroat</string>
 		</array>
 		<key>public.kern1.KO_V</key>
 		<array>
 			<string>V</string>
 			<string>Izhitsacyr</string>
 			<string>Ustraightcyr</string>
+			<string>Ydotbelow</string>
 		</array>
 		<key>public.kern1.KO_W</key>
 		<array>
@@ -326,22 +353,13 @@
 			<string>Ycircumflex</string>
 			<string>Ymacron</string>
 			<string>Ygrave</string>
-			<string>Ydotbelow</string>
 			<string>Yhoi</string>
 			<string>Ytilde</string>
 		</array>
 		<key>public.kern1.KO_Z</key>
 		<array>
 			<string>Z</string>
-			<string>Checyr</string>
-			<string>Yacyr</string>
-			<string>Chedieresiscyr</string>
-		</array>
-		<key>public.kern1.KO_Zecyr</key>
-		<array>
-			<string>Zecyr</string>
-			<string>Zedieresiscyr</string>
-			<string>oinvertedbreve</string>
+			<string>Kabashkcyr</string>
 		</array>
 		<key>public.kern1.KO_Zhecyr</key>
 		<array>
@@ -402,39 +420,15 @@
 			<string>c</string>
 			<string>escyr</string>
 			<string>cdotaccent</string>
-		</array>
-		<key>public.kern1.KO_ccedilla</key>
-		<array>
-			<string>OE</string>
-			<string>ccedilla</string>
-			<string>cacute</string>
-			<string>ccaron</string>
+			<string>estailcyr</string>
 		</array>
 		<key>public.kern1.KO_checyr</key>
 		<array>
 			<string>checyr</string>
 		</array>
-		<key>public.kern1.KO_chetailcyr</key>
-		<array>
-			<string>chetailcyr</string>
-		</array>
 		<key>public.kern1.KO_d</key>
 		<array>
-			<string>Zacute</string>
-			<string>Zdotaccent</string>
-			<string>Zcaron</string>
 			<string>d</string>
-		</array>
-		<key>public.kern1.KO_dcroat</key>
-		<array>
-			<string>icircumflex</string>
-			<string>dcroat</string>
-			<string>Uhorn</string>
-			<string>Uhornacute</string>
-			<string>Uhorngrave</string>
-			<string>Uhornhoi</string>
-			<string>Uhorntilde</string>
-			<string>Uhorndotbelow</string>
 		</array>
 		<key>public.kern1.KO_decyr</key>
 		<array>
@@ -443,6 +437,11 @@
 		<key>public.kern1.KO_djecyr</key>
 		<array>
 			<string>djecyr</string>
+			<string>Ldot</string>
+			<string>Omega</string>
+			<string>germandbls</string>
+			<string>Shhacyr</string>
+			<string>ustraightstrokecyr</string>
 		</array>
 		<key>public.kern1.KO_e</key>
 		<array>
@@ -467,16 +466,17 @@
 			<string>ecircumflexhoi</string>
 			<string>ecircumflextilde</string>
 			<string>ecircumflexdotbelow</string>
+			<string>iegravecyr</string>
+			<string>iocyr</string>
 		</array>
 		<key>public.kern1.KO_efcyr</key>
 		<array>
 			<string>efcyr</string>
 			<string>Yatcyr</string>
+			<string>Njecyr</string>
 		</array>
 		<key>public.kern1.KO_elcyr</key>
 		<array>
-			<string>lacute</string>
-			<string>uni013C</string>
 			<string>elcyr</string>
 		</array>
 		<key>public.kern1.KO_emcyr</key>
@@ -489,18 +489,14 @@
 		</array>
 		<key>public.kern1.KO_entailcyr</key>
 		<array>
-			<string>zhetailcyr</string>
 			<string>Entailcyr</string>
 			<string>entailcyr</string>
+			<string>chetailcyr</string>
 		</array>
 		<key>public.kern1.KO_ereversedcyr</key>
 		<array>
 			<string>ereversedcyr</string>
-		</array>
-		<key>public.kern1.KO_eukrcyr</key>
-		<array>
-			<string>tbar</string>
-			<string>eukrcyr</string>
+			<string>Softcyr</string>
 		</array>
 		<key>public.kern1.KO_f</key>
 		<array>
@@ -522,18 +518,8 @@
 			<string>gestrokecyr</string>
 			<string>engecyr</string>
 			<string>getailcyr</string>
-		</array>
-		<key>public.kern1.KO_gehookcyr</key>
-		<array>
-			<string>Shchacyr</string>
-			<string>gehookcyr</string>
-		</array>
-		<key>public.kern1.KO_germandbls</key>
-		<array>
-			<string>Omega</string>
-			<string>germandbls</string>
-			<string>Zetailcyr</string>
-			<string>ustraightstrokecyr</string>
+			<string>Eth</string>
+			<string>Dcroat</string>
 		</array>
 		<key>public.kern1.KO_guillemetleft</key>
 		<array>
@@ -551,6 +537,7 @@
 		<array>
 			<string>h</string>
 			<string>hcircumflex</string>
+			<string>shhacyr</string>
 		</array>
 		<key>public.kern1.KO_hardcyr</key>
 		<array>
@@ -566,15 +553,20 @@
 			<string>iogonek</string>
 			<string>ihoi</string>
 			<string>idotbelow</string>
+			<string>itilde</string>
+			<string>iukrcyr</string>
+			<string>yukrcyr</string>
 		</array>
 		<key>public.kern1.KO_iacute</key>
 		<array>
 			<string>igrave</string>
 			<string>iacute</string>
-			<string>idieresis</string>
-			<string>imacron</string>
-			<string>ibreve</string>
-			<string>yukrcyr</string>
+			<string>Uhorn</string>
+			<string>Uhornacute</string>
+			<string>Uhorngrave</string>
+			<string>Uhornhoi</string>
+			<string>Uhorntilde</string>
+			<string>Uhorndotbelow</string>
 		</array>
 		<key>public.kern1.KO_icyr</key>
 		<array>
@@ -585,31 +577,21 @@
 			<string>imacroncyr</string>
 			<string>idieresiscyr</string>
 		</array>
-		<key>public.kern1.KO_iocyr</key>
-		<array>
-			<string>Egrave</string>
-			<string>Eacute</string>
-			<string>Ecircumflex</string>
-			<string>Edieresis</string>
-			<string>Ebreve</string>
-			<string>Edotaccent</string>
-			<string>Ecaron</string>
-			<string>pi</string>
-			<string>iegravecyr</string>
-			<string>iocyr</string>
-		</array>
-		<key>public.kern1.KO_iukrcyr</key>
+		<key>public.kern1.KO_idotless</key>
 		<array>
 			<string>idotless</string>
-			<string>iukrcyr</string>
+		</array>
+		<key>public.kern1.KO_imacron</key>
+		<array>
+			<string>icircumflex</string>
+			<string>idieresis</string>
+			<string>imacron</string>
+			<string>ibreve</string>
 		</array>
 		<key>public.kern1.KO_j</key>
 		<array>
 			<string>j</string>
 			<string>ij</string>
-		</array>
-		<key>public.kern1.KO_jecyr</key>
-		<array>
 			<string>jecyr</string>
 		</array>
 		<key>public.kern1.KO_k</key>
@@ -655,6 +637,8 @@
 			<string>ocircumflexacute</string>
 			<string>ocircumflexgrave</string>
 			<string>ocircumflextilde</string>
+			<string>ocircumflexdotbelow</string>
+			<string>odieresiscyr</string>
 		</array>
 		<key>public.kern1.KO_oacute</key>
 		<array>
@@ -665,33 +649,21 @@
 			<string>omacron</string>
 			<string>obreve</string>
 			<string>eth</string>
-			<string>odieresiscyr</string>
+			<string>dzhecyr</string>
 		</array>
 		<key>public.kern1.KO_obarcyr</key>
 		<array>
-			<string>thorn</string>
-			<string>Softcyr</string>
 			<string>obarcyr</string>
-		</array>
-		<key>public.kern1.KO_oe</key>
-		<array>
-			<string>oe</string>
-			<string>Ldot</string>
-			<string>zetailcyr</string>
-			<string>Shhacyr</string>
+			<string>oinvertedbreve</string>
+			<string>Zecyr</string>
+			<string>Zedieresiscyr</string>
+			<string>Zetailcyr</string>
+			<string>fitacyr</string>
 		</array>
 		<key>public.kern1.KO_oslash</key>
 		<array>
-			<string>Eth</string>
-			<string>Dcroat</string>
 			<string>oslash</string>
 			<string>oslashacute</string>
-			<string>ohorn</string>
-			<string>ohornacute</string>
-			<string>ohorngrave</string>
-			<string>ohornhoi</string>
-			<string>ohorntilde</string>
-			<string>ohorndotbelow</string>
 		</array>
 		<key>public.kern1.KO_p</key>
 		<array>
@@ -769,16 +741,8 @@
 		</array>
 		<key>public.kern1.KO_schwacyr</key>
 		<array>
-			<string>Njecyr</string>
 			<string>schwacyr</string>
-		</array>
-		<key>public.kern1.KO_shchacyr</key>
-		<array>
-			<string>shchacyr</string>
-		</array>
-		<key>public.kern1.KO_shhacyr</key>
-		<array>
-			<string>shhacyr</string>
+			<string>thorn</string>
 		</array>
 		<key>public.kern1.KO_slash</key>
 		<array>
@@ -787,8 +751,6 @@
 		<key>public.kern1.KO_softcyr</key>
 		<array>
 			<string>softcyr</string>
-			<string>ljecyr</string>
-			<string>njecyr</string>
 		</array>
 		<key>public.kern1.KO_t</key>
 		<array>
@@ -803,6 +765,7 @@
 		<key>public.kern1.KO_tsecyr</key>
 		<array>
 			<string>tsecyr</string>
+			<string>shchacyr</string>
 		</array>
 		<key>public.kern1.KO_u</key>
 		<array>
@@ -823,7 +786,6 @@
 			<string>uring</string>
 			<string>uhungarumlaut</string>
 			<string>ucaron</string>
-			<string>Yucyr</string>
 		</array>
 		<key>public.kern1.KO_uhorn</key>
 		<array>
@@ -838,6 +800,7 @@
 		<key>public.kern1.KO_ustraightcyr</key>
 		<array>
 			<string>ustraightcyr</string>
+			<string>Yucyr</string>
 		</array>
 		<key>public.kern1.KO_v</key>
 		<array>
@@ -864,6 +827,11 @@
 		<key>public.kern1.KO_xatailcyr</key>
 		<array>
 			<string>xatailcyr</string>
+			<string>Shchacyr</string>
+			<string>Katailcyr</string>
+			<string>Xatailcyr</string>
+			<string>gehookcyr</string>
+			<string>zhetailcyr</string>
 		</array>
 		<key>public.kern1.KO_y</key>
 		<array>
@@ -886,13 +854,13 @@
 		<key>public.kern1.KO_yacyr</key>
 		<array>
 			<string>yacyr</string>
-			<string>ocircumflexdotbelow</string>
+			<string>ae</string>
 		</array>
 		<key>public.kern1.KO_ylongcyr</key>
 		<array>
-			<string>ae</string>
 			<string>ylongcyr</string>
 			<string>ylongdieresiscyr</string>
+			<string>Ishortcyr</string>
 		</array>
 		<key>public.kern1.KO_yucyr</key>
 		<array>
@@ -911,7 +879,7 @@
 		<array>
 			<string>zecyr</string>
 			<string>zedieresiscyr</string>
-			<string>aeacute</string>
+			<string>zetailcyr</string>
 		</array>
 		<key>public.kern1.KO_zhecyr</key>
 		<array>
@@ -939,20 +907,12 @@
 		<array>
 			<string>D</string>
 			<string>Dcaron</string>
-			<string>F</string>
-			<string>Tbar</string>
-			<string>Pecyr</string>
-			<string>Geupcyr</string>
-			<string>Gehookcyr</string>
-			<string>Palochkacyr</string>
-			<string>Getailcyr</string>
 			<string>Wecyr</string>
 			<string>Wdieresis</string>
 		</array>
 		<key>public.kern2.KO_Decyr</key>
 		<array>
 			<string>Decyr</string>
-			<string>ljecyr</string>
 		</array>
 		<key>public.kern2.KO_Dzhecyr</key>
 		<array>
@@ -961,18 +921,29 @@
 		<key>public.kern2.KO_Efcyr</key>
 		<array>
 			<string>Efcyr</string>
+			<string>izhitsacyr</string>
 		</array>
-		<key>public.kern2.KO_Emcyr</key>
+		<key>public.kern2.KO_Elcyr</key>
 		<array>
-			<string>Emcyr</string>
+			<string>aeacute</string>
+			<string>Ljecyr</string>
+			<string>Elcyr</string>
+			<string>ljecyr</string>
 		</array>
 		<key>public.kern2.KO_Ereversedcyr</key>
 		<array>
 			<string>Ereversedcyr</string>
 		</array>
-		<key>public.kern2.KO_Gecyr</key>
+		<key>public.kern2.KO_F</key>
 		<array>
+			<string>F</string>
+			<string>IJ</string>
 			<string>Gecyr</string>
+			<string>Gjecyr</string>
+			<string>Geupcyr</string>
+			<string>Gehookcyr</string>
+			<string>Palochkacyr</string>
+			<string>Getailcyr</string>
 		</array>
 		<key>public.kern2.KO_H</key>
 		<array>
@@ -1001,10 +972,6 @@
 			<string>Itilde</string>
 			<string>Ihoi</string>
 			<string>Idotbelow</string>
-		</array>
-		<key>public.kern2.KO_Icyr</key>
-		<array>
-			<string>Icyr</string>
 		</array>
 		<key>public.kern2.KO_J</key>
 		<array>
@@ -1076,6 +1043,12 @@
 		<array>
 			<string>P</string>
 			<string>Ercyr</string>
+			<string>Germandbls</string>
+		</array>
+		<key>public.kern2.KO_Pecyr</key>
+		<array>
+			<string>Tbar</string>
+			<string>Pecyr</string>
 		</array>
 		<key>public.kern2.KO_Q</key>
 		<array>
@@ -1097,7 +1070,6 @@
 			<string>Scaron</string>
 			<string>Scommaaccent</string>
 			<string>Dzecyr</string>
-			<string>ustraightstrokecyr</string>
 			<string>Scircumflex</string>
 		</array>
 		<key>public.kern2.KO_Schwacyr</key>
@@ -1119,6 +1091,12 @@
 			<string>Tcedilla</string>
 			<string>Tcommaaccent</string>
 			<string>Tecyr</string>
+			<string>Djecyr</string>
+			<string>Tshecyr</string>
+		</array>
+		<key>public.kern2.KO_Tsecyr</key>
+		<array>
+			<string>Tsecyr</string>
 		</array>
 		<key>public.kern2.KO_U</key>
 		<array>
@@ -1160,12 +1138,7 @@
 		<key>public.kern2.KO_V</key>
 		<array>
 			<string>V</string>
-			<string>Djecyr</string>
-			<string>Tshecyr</string>
-			<string>Hardcyr</string>
-			<string>Yatcyr</string>
 			<string>Izhitsacyr</string>
-			<string>Kabashkcyr</string>
 		</array>
 		<key>public.kern2.KO_W</key>
 		<array>
@@ -1177,10 +1150,7 @@
 		<array>
 			<string>X</string>
 			<string>Hacyr</string>
-			<string>zhecyr</string>
-			<string>zhetailcyr</string>
 			<string>Xatailcyr</string>
-			<string>zhedieresiscyr</string>
 		</array>
 		<key>public.kern2.KO_Y</key>
 		<array>
@@ -1194,6 +1164,9 @@
 			<string>Ydotbelow</string>
 			<string>Yhoi</string>
 			<string>Ytilde</string>
+			<string>Hardcyr</string>
+			<string>Yatcyr</string>
+			<string>Kabashkcyr</string>
 		</array>
 		<key>public.kern2.KO_Yacyr</key>
 		<array>
@@ -1213,15 +1186,14 @@
 		<key>public.kern2.KO_Zecyr</key>
 		<array>
 			<string>Zecyr</string>
+			<string>Zedieresiscyr</string>
+			<string>Zetailcyr</string>
 		</array>
 		<key>public.kern2.KO_Zhecyr</key>
 		<array>
 			<string>Zhecyr</string>
 			<string>Zhebrevecyr</string>
 			<string>Zhedieresiscyr</string>
-		</array>
-		<key>public.kern2.KO_Zhetailcyr</key>
-		<array>
 			<string>Zhetailcyr</string>
 		</array>
 		<key>public.kern2.KO_a</key>
@@ -1261,11 +1233,10 @@
 		<key>public.kern2.KO_b</key>
 		<array>
 			<string>b</string>
+			<string>palochkacyr</string>
 		</array>
 		<key>public.kern2.KO_becyr</key>
 		<array>
-			<string>Lslash</string>
-			<string>Eukrcyr</string>
 			<string>becyr</string>
 		</array>
 		<key>public.kern2.KO_c</key>
@@ -1295,21 +1266,16 @@
 			<string>d</string>
 			<string>dcaron</string>
 			<string>dcroat</string>
-			<string>ylongcyr</string>
-			<string>ylongdieresiscyr</string>
 			<string>Gdotaccent</string>
 			<string>Gcaron</string>
+			<string>Gcircumflex</string>
+			<string>AEacute</string>
+			<string>fitacyr</string>
+			<string>obarcyr</string>
 		</array>
 		<key>public.kern2.KO_decyr</key>
 		<array>
 			<string>decyr</string>
-		</array>
-		<key>public.kern2.KO_djecyr</key>
-		<array>
-			<string>germandbls</string>
-			<string>djecyr</string>
-			<string>tshecyr</string>
-			<string>Gestrokecyr</string>
 		</array>
 		<key>public.kern2.KO_e</key>
 		<array>
@@ -1362,10 +1328,12 @@
 		<array>
 			<string>eukrcyr</string>
 		</array>
+		<key>public.kern2.KO_exclam</key>
+		<array>
+			<string>exclam</string>
+		</array>
 		<key>public.kern2.KO_f</key>
 		<array>
-			<string>Oslashacute</string>
-			<string>Germandbls</string>
 			<string>f</string>
 		</array>
 		<key>public.kern2.KO_g</key>
@@ -1379,14 +1347,18 @@
 		</array>
 		<key>public.kern2.KO_gecyr</key>
 		<array>
-			<string>pi</string>
 			<string>gecyr</string>
 			<string>softcyr</string>
 			<string>gjecyr</string>
-			<string>dzhecyr</string>
 			<string>geupcyr</string>
 			<string>gehookcyr</string>
 			<string>getailcyr</string>
+			<string>shchacyr</string>
+		</array>
+		<key>public.kern2.KO_germandbls</key>
+		<array>
+			<string>germandbls</string>
+			<string>Gestrokecyr</string>
 		</array>
 		<key>public.kern2.KO_gestrokecyr</key>
 		<array>
@@ -1417,6 +1389,14 @@
 			<string>shhacyr</string>
 			<string>hcircumflex</string>
 			<string>hbar</string>
+			<string>tshecyr</string>
+		</array>
+		<key>public.kern2.KO_hardcyr</key>
+		<array>
+			<string>Eth</string>
+			<string>Dcroat</string>
+			<string>hardcyr</string>
+			<string>kabashkcyr</string>
 		</array>
 		<key>public.kern2.KO_hyphen</key>
 		<array>
@@ -1426,9 +1406,7 @@
 		<array>
 			<string>i</string>
 			<string>iacute</string>
-			<string>idotless</string>
 			<string>ij</string>
-			<string>Gjecyr</string>
 			<string>iukrcyr</string>
 			<string>ihoi</string>
 			<string>idotbelow</string>
@@ -1465,6 +1443,8 @@
 			<string>Katailcyr</string>
 			<string>Imacroncyr</string>
 			<string>Idieresiscyr</string>
+			<string>Eng</string>
+			<string>Icyr</string>
 		</array>
 		<key>public.kern2.KO_l</key>
 		<array>
@@ -1485,7 +1465,6 @@
 			<string>Nacute</string>
 			<string>uni0145</string>
 			<string>Ncaron</string>
-			<string>Eng</string>
 			<string>m</string>
 		</array>
 		<key>public.kern2.KO_n</key>
@@ -1510,7 +1489,6 @@
 			<string>Acyr</string>
 			<string>Abrevecyr</string>
 			<string>Adieresiscyr</string>
-			<string>AEacute</string>
 			<string>Adotbelow</string>
 			<string>Ahoi</string>
 			<string>Acircumflexacute</string>
@@ -1523,6 +1501,7 @@
 			<string>Abrevehoi</string>
 			<string>Abrevetilde</string>
 			<string>Abrevedotbelow</string>
+			<string>Aiecyr</string>
 		</array>
 		<key>public.kern2.KO_o</key>
 		<array>
@@ -1554,13 +1533,6 @@
 			<string>ohorntilde</string>
 			<string>ohorndotbelow</string>
 		</array>
-		<key>public.kern2.KO_obarcyr</key>
-		<array>
-			<string>fitacyr</string>
-			<string>obarcyr</string>
-			<string>Gcircumflex</string>
-			<string>aeacute</string>
-		</array>
 		<key>public.kern2.KO_p</key>
 		<array>
 			<string>p</string>
@@ -1584,15 +1556,13 @@
 		<key>public.kern2.KO_q</key>
 		<array>
 			<string>q</string>
-			<string>Ljecyr</string>
-			<string>Elcyr</string>
+			<string>Emcyr</string>
 		</array>
 		<key>public.kern2.KO_question</key>
 		<array>
 			<string>bracketangleright</string>
 			<string>question</string>
 			<string>trademark</string>
-			<string>tugrik</string>
 			<string>tenge</string>
 		</array>
 		<key>public.kern2.KO_quotedbl</key>
@@ -1615,6 +1585,8 @@
 		<array>
 			<string>quotesingle</string>
 			<string>won</string>
+			<string>naira</string>
+			<string>peso</string>
 		</array>
 		<key>public.kern2.KO_r</key>
 		<array>
@@ -1641,11 +1613,8 @@
 		</array>
 		<key>public.kern2.KO_shacyr</key>
 		<array>
-			<string>Oslash</string>
 			<string>OE</string>
 			<string>shacyr</string>
-			<string>shchacyr</string>
-			<string>Aiecyr</string>
 		</array>
 		<key>public.kern2.KO_slash</key>
 		<array>
@@ -1663,7 +1632,6 @@
 			<string>Edotaccent</string>
 			<string>Eogonek</string>
 			<string>Ecaron</string>
-			<string>IJ</string>
 			<string>t</string>
 			<string>tcaron</string>
 			<string>tcedilla</string>
@@ -1688,8 +1656,9 @@
 		</array>
 		<key>public.kern2.KO_tsecyr</key>
 		<array>
-			<string>Tsecyr</string>
 			<string>tsecyr</string>
+			<string>idotless</string>
+			<string>dzhecyr</string>
 		</array>
 		<key>public.kern2.KO_u</key>
 		<array>
@@ -1718,13 +1687,13 @@
 		<array>
 			<string>ustraightcyr</string>
 		</array>
+		<key>public.kern2.KO_ustraightstrokecyr</key>
+		<array>
+			<string>ustraightstrokecyr</string>
+		</array>
 		<key>public.kern2.KO_v</key>
 		<array>
 			<string>v</string>
-			<string>hardcyr</string>
-			<string>yatcyr</string>
-			<string>izhitsacyr</string>
-			<string>kabashkcyr</string>
 		</array>
 		<key>public.kern2.KO_vecyr</key>
 		<array>
@@ -1747,6 +1716,7 @@
 		<key>public.kern2.KO_xatailcyr</key>
 		<array>
 			<string>xatailcyr</string>
+			<string>Omega</string>
 		</array>
 		<key>public.kern2.KO_y</key>
 		<array>
@@ -1768,6 +1738,16 @@
 		<key>public.kern2.KO_yacyr</key>
 		<array>
 			<string>yacyr</string>
+			<string>Oslash</string>
+			<string>Oslashacute</string>
+		</array>
+		<key>public.kern2.KO_ylongcyr</key>
+		<array>
+			<string>Lslash</string>
+			<string>Eukrcyr</string>
+			<string>ylongcyr</string>
+			<string>ylongdieresiscyr</string>
+			<string>pi</string>
 		</array>
 		<key>public.kern2.KO_yucyr</key>
 		<array>
@@ -1793,10 +1773,15 @@
 		</array>
 		<key>public.kern2.KO_zecyr</key>
 		<array>
-			<string>Omega</string>
 			<string>zecyr</string>
 			<string>zetailcyr</string>
 			<string>zedieresiscyr</string>
+		</array>
+		<key>public.kern2.KO_zhecyr</key>
+		<array>
+			<string>zhecyr</string>
+			<string>zhedieresiscyr</string>
+			<string>zhetailcyr</string>
 		</array>
 	</dict>
 </plist>

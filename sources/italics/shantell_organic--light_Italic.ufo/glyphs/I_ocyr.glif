@@ -3,9 +3,17 @@
 	<unicode hex="0401"/>
 	<advance width="663"/>
 	<outline>
-		<component base="Edieresis" xOffset="-4.7533029826"/>
+		<component base="Edieresis" xOffset="-4.753"/>
 	</outline>
-	<anchor name="bottom" x="290.440183454" y="-18"/>
-	<anchor name="ogonek" x="525.2402496414" y="36"/>
-	<anchor name="top" x="488.8413074145" y="899"/>
+	<anchor name="bottom" x="290.44" y="-18"/>
+	<anchor name="ogonek" x="525.24" y="36"/>
+	<anchor name="top" x="488.841" y="899"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.733,0.518,0.996,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

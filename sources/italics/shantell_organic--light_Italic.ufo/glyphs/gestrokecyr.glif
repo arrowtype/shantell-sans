@@ -4,32 +4,34 @@
 	<advance width="453"/>
 	<outline>
 		<contour>
-			<point x="59.1979728679" y="214" type="curve" smooth="yes"/>
-			<point x="93.1979728679" y="214"/>
-			<point x="149.1979728679" y="232"/>
-			<point x="301.1979728679" y="232" type="curve" smooth="yes"/>
-			<point x="320.1979728679" y="232"/>
-			<point x="334.1979728679" y="240"/>
-			<point x="337.1979728679" y="253" type="curve" smooth="yes" identifier="s81MY5A1WS"/>
-			<point x="339.1979728679" y="266"/>
-			<point x="329.1979728679" y="286"/>
-			<point x="286.1979728679" y="286" type="curve" smooth="yes"/>
-			<point x="209.1979728679" y="286"/>
-			<point x="134.1979728679" y="279"/>
-			<point x="52.1979728679" y="268" type="curve" smooth="yes"/>
-			<point x="25.1979728679" y="266"/>
-			<point x="15.1979728679" y="252"/>
-			<point x="13.1979728679" y="242" type="curve" smooth="yes" identifier="hhPvc8Rufc"/>
-			<point x="11.1979728679" y="228"/>
-			<point x="24.1979728679" y="214"/>
+			<point x="59.198" y="214" type="curve" smooth="yes"/>
+			<point x="93.198" y="214"/>
+			<point x="149.198" y="232"/>
+			<point x="301.198" y="232" type="curve" smooth="yes"/>
+			<point x="320.198" y="232"/>
+			<point x="334.198" y="240"/>
+			<point x="337.198" y="253" type="curve" smooth="yes"/>
+			<point x="339.198" y="266"/>
+			<point x="329.198" y="286"/>
+			<point x="286.198" y="286" type="curve" smooth="yes"/>
+			<point x="209.198" y="286"/>
+			<point x="134.198" y="279"/>
+			<point x="52.198" y="268" type="curve" smooth="yes"/>
+			<point x="25.198" y="266"/>
+			<point x="15.198" y="252"/>
+			<point x="13.198" y="242" type="curve" smooth="yes"/>
+			<point x="11.198" y="228"/>
+			<point x="24.198" y="214"/>
 		</contour>
-		<component base="gecyr" xOffset="28.4044643688"/>
+		<component base="gecyr" xOffset="28.404"/>
 	</outline>
-	<anchor name="top" x="324.198567329" y="485"/>
+	<anchor name="top" x="324.199" y="485"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
 			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
 		</dict>
 	</lib>
 </glyph>

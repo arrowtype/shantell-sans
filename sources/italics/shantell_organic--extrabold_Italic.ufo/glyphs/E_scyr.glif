@@ -3,8 +3,16 @@
 	<unicode hex="0421"/>
 	<advance width="622"/>
 	<outline>
-		<component base="C" xOffset="-3.2504697545"/>
+		<component base="C" xOffset="-3.25"/>
 	</outline>
-	<anchor name="bottom" x="279.9553958526" y="64"/>
-	<anchor name="top" x="416.3560724351" y="616"/>
+	<anchor name="bottom" x="279.955" y="64"/>
+	<anchor name="top" x="416.356" y="616"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.733,0.518,0.996,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

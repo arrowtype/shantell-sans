@@ -2,7 +2,15 @@
 <glyph name="che-cy.loclBGR" format="2">
 	<advance width="513"/>
 	<outline>
-		<component base="checyr" xOffset="-0.5246349818"/>
+		<component base="checyr" xOffset="-0.525"/>
 	</outline>
-	<anchor name="top" x="310.2683188758" y="485"/>
+	<anchor name="top" x="310.268" y="485"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.169,0.216,0.263,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

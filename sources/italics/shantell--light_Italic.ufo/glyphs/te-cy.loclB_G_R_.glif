@@ -4,6 +4,14 @@
 	<outline>
 		<component base="m"/>
 	</outline>
-	<anchor name="bottom" x="374.7923593966" y="0"/>
-	<anchor name="top" x="488.7929538577" y="485"/>
+	<anchor name="bottom" x="374.792" y="0"/>
+	<anchor name="top" x="488.793" y="485"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.733,0.518,0.996,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

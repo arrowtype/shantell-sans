@@ -6,6 +6,14 @@
 		<component base="y"/>
 		<component base="dieresiscomb" xOffset="310" yOffset="48"/>
 	</outline>
-	<anchor name="bottom" x="222.4054807395" y="-250"/>
-	<anchor name="top" x="412.0067652658" y="798"/>
+	<anchor name="bottom" x="222.405" y="-250"/>
+	<anchor name="top" x="412.007" y="798"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.992,0.706,0.831,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

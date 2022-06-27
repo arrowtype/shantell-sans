@@ -3,9 +3,17 @@
 	<unicode hex="041E"/>
 	<advance width="687"/>
 	<outline>
-		<component base="O" xOffset="4.3186954114"/>
+		<component base="O" xOffset="4.319"/>
 	</outline>
-	<anchor name="bottom" x="299.9122578409" y="44"/>
-	<anchor name="ogonek" x="431.712293386" y="73"/>
-	<anchor name="top" x="414.3129589373" y="616"/>
+	<anchor name="bottom" x="299.912" y="44"/>
+	<anchor name="ogonek" x="431.712" y="73"/>
+	<anchor name="top" x="414.313" y="616"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.733,0.518,0.996,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>

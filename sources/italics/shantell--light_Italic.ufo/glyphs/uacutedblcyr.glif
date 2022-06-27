@@ -3,9 +3,17 @@
 	<unicode hex="04F3"/>
 	<advance width="563"/>
 	<outline>
-		<component base="y" xOffset="-0.9741845339"/>
-		<component base="hungarumlautcmb" xOffset="269.0258154661"/>
+		<component base="y" xOffset="-0.974"/>
+		<component base="hungarumlautcmb" xOffset="269.026"/>
 	</outline>
-	<anchor name="bottom" x="182.8178684394" y="-250"/>
-	<anchor name="top" x="317.8187693238" y="485"/>
+	<anchor name="bottom" x="182.818" y="-250"/>
+	<anchor name="top" x="317.819" y="485"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.992,0.706,0.831,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
 </glyph>
