@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iebrevecyr" format="2">
 	<unicode hex="04D7"/>
-	<advance width="537"/>
+	<advance width="580"/>
 	<outline>
 		<component base="e"/>
-		<component base="brevecomb-cy" xOffset="105" yOffset="7"/>
+		<component base="brevecomb-cy" xOffset="119"/>
 	</outline>
-	<anchor name="bottom" x="252" y="-36"/>
-	<anchor name="ogonek" x="391" y="-9"/>
-	<anchor name="top_1" x="299" y="522"/>
-	<anchor name="top_2" x="299" y="522"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
