@@ -69,9 +69,6 @@ glyphsToDecompose += "arrowNE arrowNW arrowSW arrowSE invertedbrevecmb bracketan
 # fontTools.varLib says these are incompatible, if they aren't decomposed first. See issue 
 glyphsToDecompose += "Aring Yukrcyr Iocyr lj nj iocyr iukrcyr jecyr Lj Nj onequarter onehalf threequarters onethird twothirds oneeighth threeeighths fiveeighths seveneighths bulletoperator ijacute fi f_f_i Iigrave Esdescender esdescender periodcentered Iigrave-cy.loclBGR Esdescender-cy.loclBSH esdescender-cy.loclBSH Esdescender-cy.loclCHU esdescender-cy.loclCHU periodcentered.loclCAT_case".split()
 
-# testing whether these need to be decomposed ...
-# glyphsToDecompose += "Ljecyr Emcyr vecyr kabashkcyr ylongcyr geupcyr Icyr Dzhecyr elcyr Iigrave-cy.loclBGR".split()
-
 glyphsToNotShift ="\
     onesuperior twosuperior threesuperior fraction zero.dnom one.dnom two.dnom three.dnom \
     four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr \
@@ -118,7 +115,6 @@ def makePrepDir():
         if name in ["light","extrabold","lightItalic","extraboldItalic"]:
             # bounceCopy = prepDir+'/'+os.path.split(sources[f"bounce{name[0].upper() + name[1:]}"])[1]
             bounceCopy = prepDir+'/'+os.path.split(sources[name])[1].replace("shantell--","shantell_bounce--")
-            # print(bounceCopy)
             if not os.path.exists(bounceCopy):
                 shutil.copytree(source, bounceCopy)
 
@@ -127,9 +123,9 @@ def makePrepDir():
             # we have to also format the names to find the other paths
             # bounceReverseCopy = prepDir+'/'+os.path.split(sources[f"bounceReverse{name[0].upper() + name[1:]}"])[1]
             bounceReverseCopy = prepDir+'/'+os.path.split(sources[name])[1].replace("shantell--","shantell_reverse_bounce--")
-            # print(bounceReverseCopy)
             if not os.path.exists(bounceReverseCopy):
                 shutil.copytree(source, bounceReverseCopy)
+
 
 def sortGlyphOrder(fonts):
     """
@@ -189,6 +185,7 @@ def removeGlyphs(font, names):
         if left in names or right in names:
             del font.kerning[(left, right)]
 
+
 def clearGuides(font):
     """
     Clears both font level and glyph level guides in a font.
@@ -225,6 +222,7 @@ def makeSourceFontsGlyphCompatible(fonts):
                     removed.append(name)
             if len(removed) != 0:
                 removeGlyphs(font, removed)
+
 
 def makeCompatible(fonts):
     """
@@ -271,8 +269,6 @@ def makeAlts(fonts, numOfAlts=2):
 
     altsToMakeGlyphNames = list(set(altsToMakeGlyphNames))
 
-    # print(" ".join(altsToMakeGlyphNames))
-
     for font in fonts:
 
         layer = font.getLayer(font.defaultLayerName)
@@ -297,9 +293,8 @@ def makeAlts(fonts, numOfAlts=2):
 
     return altsToMakeGlyphNames
 
+
 def findMainBaseGlyphName(font, glyph):
-    # print(font) # DEBUGGING
-    # print(glyph) # DEBUGGING
     return [c.baseGlyph for c in glyph.components if font[c.baseGlyph].width >= 1][0]
 
 
@@ -317,8 +312,6 @@ def italicBounceShift(yShift, font):
 
     if abs(font.info.italicAngle) > 0:
         xShift = yShift * math.tan(math.radians(-font.info.italicAngle))
-
-        # print("xShift is", xShift)
 
         if xShift is None:
             return 0
@@ -398,9 +391,6 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
         Shift glyphs in Bouncy sources.
     """
 
-    # print(font.path)
-    # print("factor is ", factor)
-
     glyphsToNotShift ="\
         onesuperior twosuperior threesuperior fraction zero.dnom one.dnom two.dnom three.dnom \
         four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr \
@@ -420,8 +410,6 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
         elif "extrabold" in font.path:
             baseFont = Font(sources["extrabold"])
 
-        # print(baseFont)
-
         for g in font:
             if g.name not in glyphsToNotShift and len(g.components) == 0:
 
@@ -434,8 +422,6 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
 
                 # y bounce not yet generated
                 except KeyError:
-                    # print(g.name)
-                    # print((italicBounceShift(moveY, font),moveY))
                     # except KeyError: generate bounce value and add to core light/extrabold font
                     moveY = makeBounce(font, g, randomLimit, minShift, factor)
                     recordBounce(baseFont, g.name, moveY)
@@ -487,9 +473,6 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
 
                 g.lib['com.arrowtype.yShift'] = moveY
 
-                # print(g.name, moveY)
-
-
         font.save()
         baseFont.save()
 
@@ -499,7 +482,6 @@ def makeComponentsAlts(fonts, numOfAlts=2):
        Set components to alt baseGlyphs – important for composed glyphs like i & j
     """
     for font in fonts:
-        # print(font)
         for glyph in font:
             if ".alt" in glyph.name and glyph.components:
                 suffix = glyph.name.split(".")[-1]
@@ -524,14 +506,12 @@ def interpolateAlts(normalFont, organicFont, altsMadeForList):
 
             # interpolate alt2 33% towards organicFont glyph
             factor = 0.33
-            # print(f'interpolating {g.name}…')
             organicFont[f'{g.name}.alt2'].interpolate(factor, normalFont[g.name], organicFont[g.name])
 
             try:
                 # IF USING 3 alts (4 total versions of each glyph)
                 # interpolate alt2 66% towards organicFont glyph
                 factor = 0.66
-                # print(f'interpolating {g.name}…')
                 organicFont[f'{g.name}.alt3'].interpolate(factor, normalFont[g.name], organicFont[g.name])
             except:
                 pass
@@ -572,8 +552,6 @@ def correctAccents(fonts):
                     commonAnchors = set(mainBaseAnchors.keys()).intersection(accentAnchors.keys())
 
                     if len(commonAnchors) == 0:
-                        # print("XXX no common anchors ", g.name, c.baseGlyph, commonAnchors)
-                        # print()
                         # if no common anchors, skip
                         pass
                     elif len(commonAnchors) == 1:
@@ -601,13 +579,9 @@ def correctAccents(fonts):
                     else:
                         pass
                         # TODO check if this needs special handling; it probably does
-                        # print("MULTIPLE COMMON ANCHORS!")
-                        # print("\t", g.name, c.baseGlyph, list(commonAnchors))
-                        # print()
 
         font.save()
 
-                    # get intersection
     print()
 
 
@@ -622,7 +596,6 @@ def extendKerning(fonts,numOfAlts=2):
     for font in fonts:
         # font.groups = coreGroups
 
-        # print("\n\n", font.path)
 
         # make list of all glyphs with any kerning
         kerning = font.kerning.keys()
@@ -763,7 +736,6 @@ feature calt {{
     with open(f"{prepDir}/cycle-calt.fea", "w") as file:
         file.write(calt)
 
-    # print(calt)
 
 
 
@@ -838,6 +810,8 @@ def makeTrackedUFO(font, tracking):
     
     font.save(prepDir + '/' + trackedPath)
 
+# end creating tracked UFO
+# ------------------------------------------
 
 def setLibKeys(font):
     """
@@ -860,12 +834,6 @@ def setLibKeys(font):
     ]
 
     font.save()
-
-
-
-
-# end creating tracked UFO
-# ------------------------------------------
 
 
 def main():
