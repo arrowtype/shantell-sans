@@ -19,6 +19,7 @@ import os
 import shutil
 from typing import Type
 from fontParts.fontshell import RFont as Font
+from ufonormalizer import normalizeUFO
 from fontParts.world import *
 from random import random
 import math
@@ -199,7 +200,7 @@ def clearGuides(font):
             glyph.clearGuidelines()
 
 
-def makeSourceFontsGlyphCompatible(fonts):
+def makePrepFontsGlyphCompatible(fonts):
     """
     Compares the glyphs of all *fonts* and removes glyphs that are not
     common to all the provided *fonts*.
@@ -474,7 +475,10 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
                 g.lib['com.arrowtype.yShift'] = moveY
 
         font.save()
-        baseFont.save()
+        # save any generated glyph bounce data to main source fonts
+        baseFont.save() 
+        # re-normalize main source fonts
+        normalizeUFO(baseFont.path, writeModTimes=False)
 
 
 def makeComponentsAlts(fonts, numOfAlts=2):
@@ -857,8 +861,8 @@ def main():
     # The sausage making
 
     print("🤖 Making source fonts compatible (removing unique glyphs, etc)")
-    makeSourceFontsGlyphCompatible(fonts)
-    makeCompatible(fonts)
+    makePrepFontsGlyphCompatible(fonts) # makes glyph sets the same in prepped fonts
+    makeCompatible(fonts)               # basic check for glyphs that aren’t compatible (useful but imperfect for VFs, as it relies on FontParts .isCompatible method)
 
     print("🤖 Decomposing digraphs")
     decomposeDigraphs(fonts)
