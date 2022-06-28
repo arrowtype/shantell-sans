@@ -45,12 +45,12 @@ sources = {
 prepDir = 'sources/ital_wght_BNCE_IRGL_TRAK--prepped'
 
 # designspaces copied into prepped folder
-designspaces = ["sources/shantell_sans-ital_wght_BNCE_IRGL_TRAK.designspace", "sources/shantell_sans-wght_BNCE_IRGL_TRAK--static.designspace"]
+designspaces = ["sources/shantell_sans-ital_wght_BNCE_IRGL_TRAK.designspace", "sources/shantell_sans-ital_wght_BNCE_IRGL_TRAK--static.designspace"]
 
 # features folder copied into prepped folder
 featuresDir = "sources/features/features"
 
-# NOTE: if you really want *all* characters to have alts, use this instead. But it makes the font filesize quite a bit bigger.
+# NOTE: if you really want *all* characters to have alts, use this instead. But it makes the font filesize quite a bit bigger. (Would need updating to include Cyrillics)       
 # altsToMake = "AÀÁÂÃÄÅĀĂĄǍBCÇĆČDĎEÈÉÊËĒĔĘĚFGĞHIÌÍÎÏĪĬĮİJKLMNÑŃŇOÒÓÔÕÖŌŎŐPQRŔŘSŚŞŠTŤUÙÚÛÜŪŬŮŰŲǓVWXYÝŸZŹŻŽÆØǾĲŁŒΩaàáâãäåāăąǎbcçćčdďeèéêëēĕęěfgğhiìíîïīĭįjklmnñńňoòóôõöōŏőpqrŕřsśşštťuùúûüūŭůűųǔvwxyýÿzźżžßæÞðþẞ"
 
 # letters to make alts for (all letters)
