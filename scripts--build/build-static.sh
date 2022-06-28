@@ -23,7 +23,8 @@ done
 # build static fonts
 
 # Build TTFs
-fontmake -o ttf -i -m $DS --output-dir "$outputDir/static-TTF"
+fontmake -o ttf -i -m $DS --output-dir "$outputDir/static-TTF" &
+wait
 
 # Build OTFs (don’t optimize the CFF table, because it takes a super long time for marginal benefit)
 fontmake -o otf -i -m $DS --optimize-cff=0 --output-dir "$outputDir/static-OTF" &
