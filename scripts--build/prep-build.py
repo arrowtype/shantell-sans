@@ -853,7 +853,7 @@ def main():
 
     print(f"🤖 Copying fonts to {prepDir}")
     makePrepDir() 
-    newFontPaths = [os.path.join(prepDir, path) for path in os.listdir(prepDir) if '.DS_Store' not in path]
+    newFontPaths = [os.path.join(prepDir, path) for path in os.listdir(prepDir) if '.ufo' in path]
 
     print("🤖 Opening fonts")
     fonts = [Font(path) for path in newFontPaths]
