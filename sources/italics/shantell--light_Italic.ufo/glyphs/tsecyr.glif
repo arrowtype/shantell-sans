@@ -4,8 +4,8 @@
 	<advance width="599"/>
 	<outline>
 		<contour>
-			<point x="213.648" y="467" type="curve" smooth="yes"/>
-			<point x="216.648" y="482"/>
+			<point x="217" y="469" type="curve" smooth="yes"/>
+			<point x="217" y="486"/>
 			<point x="208.648" y="497"/>
 			<point x="196.648" y="497" type="curve" smooth="yes"/>
 			<point x="168.648" y="497"/>
@@ -31,9 +31,9 @@
 			<point x="471.648" y="-123"/>
 			<point x="482.648" y="-102" type="curve" smooth="yes"/>
 			<point x="495.648" y="-73"/>
-			<point x="521.648" y="-4"/>
-			<point x="527.648" y="24" type="curve" smooth="yes"/>
-			<point x="532.648" y="51"/>
+			<point x="520" y="-13"/>
+			<point x="526" y="15" type="curve" smooth="yes"/>
+			<point x="531" y="42"/>
 			<point x="522.648" y="71"/>
 			<point x="479.648" y="71" type="curve" smooth="yes"/>
 			<point x="400.648" y="71"/>
@@ -43,7 +43,7 @@
 			<point x="111.648" y="83"/>
 			<point x="125.648" y="155" type="curve" smooth="yes"/>
 			<point x="150.648" y="280"/>
-			<point x="209.648" y="447"/>
+			<point x="217" y="451"/>
 		</contour>
 		<contour>
 			<point x="521.648" y="454" type="curve" smooth="yes"/>
@@ -70,7 +70,7 @@
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>1,1,0,1</string>
+			<string>0.67,0.95,0.38,1</string>
 			<key>public.verticalOrigin</key>
 			<integer>1020</integer>
 		</dict>
