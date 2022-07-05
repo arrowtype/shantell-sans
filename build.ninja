@@ -1,0 +1,66 @@
+# Rules
+
+# Convert glyphs file to UFO
+rule glyphs2ufo
+  command = fontmake -o ufo -g $in
+# Build a variable font from Designspace
+rule variable
+  command = fontmake -o variable -m $in $fontmake_args
+# Build a set of instance UFOs from Designspace
+rule instanceufo
+  command = fontmake -i -o ufo -m $in $fontmake_args
+# Build a TTF file from a UFO
+rule buildttf
+  command = fontmake -o ttf -u $in $fontmake_args --output-path $out
+# Build an OTF file from a UFO
+rule buildotf
+  command = fontmake -o otf -u $in $fontmake_args --output-path $out
+# Add a STAT table to a set of variable fonts
+rule genstat
+  command = gftools-gen-stat.py --inplace $other_args --axis-order $
+      $axis_order -- $in ; touch $stampfile
+# Run the font fixer in-place and touch a stamp file
+rule fix
+  command = gftools-fix-font.py -o $in $fixargs $in; touch $in.fixstamp
+# Run the ttfautohint in-place and touch a stamp file
+rule autohint
+  command = ttfautohint $in $in.autohinted; mv $in.autohinted $in; touch $
+      $in.autohintstamp
+# Create a web font
+rule webfont
+  command = fonttools ttLib.woff2 compress -o $out $in
+
+
+
+# VARIABLE FONTS
+
+build ./fonts/builder/variable/shantell-300_800[wght].ttf: variable $
+    sources/shantell-300_800.designspace
+  fontmake_args = --expand-features-to-instances --filter ... --filter $
+      FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter $
+      --output-path ./fonts/builder/variable/shantell-300_800[wght].ttf
+
+# Generate STAT tables
+build ./fonts/builder/variable/shantell-300_800[wght].ttf.statstamp: $
+    genstat ./fonts/builder/variable/shantell-300_800[wght].ttf
+  axis_order = wght
+  other_args = --src {'shantell-300_800[wght].ttf': [{'name': 'Weight', $
+      'tag': 'wght', 'values': [{'name': 'Light', 'value': 300}, {'name': $
+      'Regular', 'value': 400, 'linkedValue': 700, 'flags': 2}, {'name': $
+      'Medium', 'value': 500}, {'name': 'SemiBold', 'value': 600}, {'name': $
+      'Bold', 'value': 700}, {'name': 'ExtraBold', 'value': 800}]}]}
+  stampfile = ./fonts/builder/variable/shantell-300_800[wght].ttf.statstamp
+
+# Variable font post-processing
+build ./fonts/builder/variable/shantell-300_800[wght].ttf.fixstamp: fix $
+    ./fonts/builder/variable/shantell-300_800[wght].ttf | $
+    ./fonts/builder/variable/shantell-300_800[wght].ttf.statstamp
+
+# STATIC FONTS
+
+#   Interpolate UFOs for shantell-300_800.designspace
+build instances/Shantell_Sans-Light.ufo instances/Shantell_Sans-Regular.ufo $
+    instances/Shantell_Sans-Medium.ufo instances/Shantell_Sans-SemiBold.ufo $
+    instances/Shantell_Sans-Bold.ufo instances/Shantell_Sans-ExtraBold.ufo: $
+    instanceufo sources/shantell-300_800.designspace
+
