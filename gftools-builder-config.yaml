@@ -1,0 +1,16 @@
+# config.yaml
+sources:
+  # - sources/ital_wght_BNCE_IRGL_TRAK--prepped/shantell--light.ufo
+  # - sources/ital_wght_BNCE_IRGL_TRAK--prepped/shantell--extrabold.ufo
+  - sources/ital_wght_BNCE_IRGL_TRAK--prepped/shantell_sans-ital_wght_BNCE_IRGL_TRAK--static-ninja.designspace
+axisOrder:
+  - wght
+familyName: "Shantell Sans"
+instances:
+  ShantellSans[wght].ttf:
+    - familyName: "Shantell Sans"
+      styleName: "Regular"
+      coordinates:
+        wght: 400
+outputDir: "./fonts/builder"
+logLevel: "DEBUG"
