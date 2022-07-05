@@ -2,28 +2,6 @@
 <glyph name="ustraightstrokecyr" format="2">
 	<unicode hex="04B1"/>
 	<advance width="562"/>
-	<outline>
-		<contour>
-			<point x="413" y="132" type="curve" smooth="yes"/>
-			<point x="373" y="132"/>
-			<point x="163" y="135"/>
-			<point x="118" y="132" type="curve" smooth="yes"/>
-			<point x="61" y="128"/>
-			<point x="53" y="113"/>
-			<point x="53" y="80" type="curve" smooth="yes"/>
-			<point x="53" y="32"/>
-			<point x="97" y="-1"/>
-			<point x="152" y="-1" type="curve" smooth="yes"/>
-			<point x="187" y="-1"/>
-			<point x="386" y="-8"/>
-			<point x="446" y="-8" type="curve" smooth="yes"/>
-			<point x="496" y="-8"/>
-			<point x="525" y="10"/>
-			<point x="525" y="48" type="curve" smooth="yes"/>
-			<point x="525" y="87"/>
-			<point x="476" y="132"/>
-		</contour>
-	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>

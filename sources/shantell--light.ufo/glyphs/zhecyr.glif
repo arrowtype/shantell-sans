@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zhecyr" format="2">
 	<unicode hex="0436"/>
-	<advance width="706"/>
+	<advance width="711"/>
 	<outline>
 		<contour>
-			<point x="405" y="463" type="curve" smooth="yes"/>
-			<point x="405" y="487"/>
-			<point x="398" y="500"/>
+			<point x="407" y="463" type="curve" smooth="yes"/>
+			<point x="407" y="487"/>
+			<point x="399" y="500"/>
 			<point x="382" y="500" type="curve" smooth="yes"/>
 			<point x="357" y="500"/>
 			<point x="343" y="463"/>
@@ -20,14 +20,14 @@
 			<point x="322" y="40"/>
 			<point x="332" y="-12"/>
 			<point x="363" y="-12" type="curve" smooth="yes"/>
-			<point x="385" y="-12"/>
-			<point x="389" y="11"/>
-			<point x="389" y="35" type="curve" smooth="yes"/>
-			<point x="389" y="74"/>
-			<point x="384" y="209"/>
-			<point x="384" y="239" type="curve" smooth="yes"/>
-			<point x="384" y="358"/>
-			<point x="405" y="435"/>
+			<point x="387" y="-12"/>
+			<point x="391" y="11"/>
+			<point x="391" y="35" type="curve" smooth="yes"/>
+			<point x="391" y="74"/>
+			<point x="386" y="209"/>
+			<point x="386" y="239" type="curve" smooth="yes"/>
+			<point x="386" y="358"/>
+			<point x="407" y="435"/>
 		</contour>
 		<contour>
 			<point x="242" y="331" type="curve" smooth="yes"/>
@@ -64,49 +64,49 @@
 			<point x="273" y="306"/>
 		</contour>
 		<contour>
-			<point x="579" y="351" type="curve" smooth="yes"/>
-			<point x="632" y="397"/>
-			<point x="685" y="448"/>
-			<point x="685" y="475" type="curve" smooth="yes"/>
-			<point x="685" y="487"/>
-			<point x="677" y="499"/>
-			<point x="660" y="499" type="curve" smooth="yes"/>
-			<point x="643" y="499"/>
-			<point x="609" y="455"/>
-			<point x="567" y="416" type="curve" smooth="yes"/>
-			<point x="522" y="375"/>
-			<point x="427" y="296"/>
-			<point x="369" y="266" type="curve" smooth="yes"/>
-			<point x="366" y="264"/>
-			<point x="364" y="261"/>
-			<point x="364" y="258" type="curve" smooth="yes"/>
-			<point x="364" y="251"/>
-			<point x="368" y="245"/>
-			<point x="371" y="241" type="curve" smooth="yes"/>
-			<point x="405" y="198"/>
-			<point x="450" y="145"/>
-			<point x="512" y="92" type="curve" smooth="yes"/>
-			<point x="578" y="36"/>
-			<point x="637" y="-7"/>
-			<point x="669" y="-7" type="curve" smooth="yes"/>
-			<point x="687" y="-7"/>
-			<point x="699" y="6"/>
-			<point x="699" y="24" type="curve" smooth="yes"/>
-			<point x="699" y="36"/>
-			<point x="641" y="65"/>
-			<point x="566" y="125" type="curve" smooth="yes"/>
-			<point x="503" y="176"/>
-			<point x="451" y="242"/>
-			<point x="451" y="249" type="curve" smooth="yes"/>
-			<point x="451" y="255"/>
-			<point x="533" y="311"/>
+			<point x="581" y="351" type="curve" smooth="yes"/>
+			<point x="634" y="397"/>
+			<point x="687" y="448"/>
+			<point x="687" y="475" type="curve" smooth="yes"/>
+			<point x="687" y="487"/>
+			<point x="679" y="499"/>
+			<point x="662" y="499" type="curve" smooth="yes"/>
+			<point x="645" y="499"/>
+			<point x="611" y="455"/>
+			<point x="569" y="416" type="curve" smooth="yes"/>
+			<point x="524" y="375"/>
+			<point x="429" y="296"/>
+			<point x="371" y="266" type="curve" smooth="yes"/>
+			<point x="368" y="264"/>
+			<point x="366" y="261"/>
+			<point x="366" y="258" type="curve" smooth="yes"/>
+			<point x="366" y="251"/>
+			<point x="370" y="245"/>
+			<point x="373" y="241" type="curve" smooth="yes"/>
+			<point x="407" y="198"/>
+			<point x="452" y="145"/>
+			<point x="514" y="92" type="curve" smooth="yes"/>
+			<point x="580" y="36"/>
+			<point x="639" y="-7"/>
+			<point x="671" y="-7" type="curve" smooth="yes"/>
+			<point x="689" y="-7"/>
+			<point x="701" y="6"/>
+			<point x="701" y="24" type="curve" smooth="yes"/>
+			<point x="701" y="36"/>
+			<point x="643" y="65"/>
+			<point x="568" y="125" type="curve" smooth="yes"/>
+			<point x="505" y="176"/>
+			<point x="453" y="242"/>
+			<point x="453" y="249" type="curve" smooth="yes"/>
+			<point x="453" y="255"/>
+			<point x="535" y="311"/>
 		</contour>
 	</outline>
 	<anchor name="top" x="376" y="485"/>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>1,1,0,1</string>
+			<string>1,0.5311,0.1018,1</string>
 			<key>public.verticalOrigin</key>
 			<integer>1020</integer>
 		</dict>
