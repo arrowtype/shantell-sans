@@ -682,10 +682,14 @@
 		<string>arrowdown.glif</string>
 		<key>arrowleft</key>
 		<string>arrowleft.glif</string>
+		<key>arrowleftright</key>
+		<string>arrowleftright.glif</string>
 		<key>arrowright</key>
 		<string>arrowright.glif</string>
 		<key>arrowup</key>
 		<string>arrowup.glif</string>
+		<key>arrowupdown</key>
+		<string>arrowupdown.glif</string>
 		<key>asciicircum</key>
 		<string>asciicircum.glif</string>
 		<key>asciitilde</key>
@@ -712,6 +716,8 @@
 		<string>becyr.glif</string>
 		<key>belowbrevecmb</key>
 		<string>belowbrevecmb.glif</string>
+		<key>bitcoin</key>
+		<string>bitcoin.glif</string>
 		<key>braceleft</key>
 		<string>braceleft.glif</string>
 		<key>braceleft.case</key>
@@ -796,6 +802,10 @@
 		<string>chetailcyr.glif</string>
 		<key>chevertcyr</key>
 		<string>chevertcyr.glif</string>
+		<key>circleblack</key>
+		<string>circleblack.glif</string>
+		<key>circlewhite</key>
+		<string>circlewhite.glif</string>
 		<key>circumflex</key>
 		<string>circumflex.glif</string>
 		<key>circumflexacutecomb</key>
@@ -938,6 +948,8 @@
 		<string>emdash.glif</string>
 		<key>emdash.case</key>
 		<string>emdash.case.glif</string>
+		<key>emptyset</key>
+		<string>emptyset.glif</string>
 		<key>encyr</key>
 		<string>encyr.glif</string>
 		<key>endash</key>
@@ -966,6 +978,8 @@
 		<string>esdescender-cy.loclC_H_U_.glif</string>
 		<key>estailcyr</key>
 		<string>estailcyr.glif</string>
+		<key>estimated</key>
+		<string>estimated.glif</string>
 		<key>eth</key>
 		<string>eth.glif</string>
 		<key>etilde</key>
@@ -1050,6 +1064,10 @@
 		<string>ghestroke-cy.loclB_S_H_.glif</string>
 		<key>gjecyr</key>
 		<string>gjecyr.glif</string>
+		<key>gmtr:diamondblack</key>
+		<string>gmtr_diamondblack.glif</string>
+		<key>gmtr:diamondwhite</key>
+		<string>gmtr_diamondwhite.glif</string>
 		<key>grave</key>
 		<string>grave.glif</string>
 		<key>gravecomb</key>
@@ -1306,6 +1324,8 @@
 		<string>l.glif</string>
 		<key>lacute</key>
 		<string>lacute.glif</string>
+		<key>lari</key>
+		<string>lari.glif</string>
 		<key>lcaron</key>
 		<string>lcaron.glif</string>
 		<key>ldot</key>
@@ -1354,6 +1374,8 @@
 		<string>naira.glif</string>
 		<key>ncaron</key>
 		<string>ncaron.glif</string>
+		<key>newsheqel</key>
+		<string>newsheqel.glif</string>
 		<key>nine</key>
 		<string>nine.glif</string>
 		<key>nine.dnom</key>
@@ -1462,6 +1484,8 @@
 		<string>onethird.glif</string>
 		<key>oogonek</key>
 		<string>oogonek.glif</string>
+		<key>openbullet</key>
+		<string>openbullet.glif</string>
 		<key>ordfeminine</key>
 		<string>ordfeminine.glif</string>
 		<key>ordmasculine</key>
@@ -1576,6 +1600,8 @@
 		<string>rinvertedbreve.glif</string>
 		<key>ruble</key>
 		<string>ruble.glif</string>
+		<key>rupee</key>
+		<string>rupee.glif</string>
 		<key>s</key>
 		<string>s.glif</string>
 		<key>sacute</key>
@@ -1646,6 +1672,14 @@
 		<string>space.glif</string>
 		<key>space.frac</key>
 		<string>space.frac.glif</string>
+		<key>squareblack</key>
+		<string>squareblack.glif</string>
+		<key>squaresmallblack</key>
+		<string>squaresmallblack.glif</string>
+		<key>squaresmallwhite</key>
+		<string>squaresmallwhite.glif</string>
+		<key>squarewhite</key>
+		<string>squarewhite.glif</string>
 		<key>sterling</key>
 		<string>sterling.glif</string>
 		<key>summation</key>
@@ -1666,6 +1700,8 @@
 		<string>tecyr.glif</string>
 		<key>tenge</key>
 		<string>tenge.glif</string>
+		<key>thai:baht</key>
+		<string>thai_baht.glif</string>
 		<key>thorn</key>
 		<string>thorn.glif</string>
 		<key>three</key>
@@ -1692,8 +1728,38 @@
 		<string>tildemacroncomb.glif</string>
 		<key>trademark</key>
 		<string>trademark.glif</string>
+		<key>triangledownblack</key>
+		<string>triangledownblack.glif</string>
+		<key>triangledownsmallblack</key>
+		<string>triangledownsmallblack.glif</string>
+		<key>triangledownsmallwhite</key>
+		<string>triangledownsmallwhite.glif</string>
+		<key>triangledownwhite</key>
+		<string>triangledownwhite.glif</string>
+		<key>triangleleftblack</key>
+		<string>triangleleftblack.glif</string>
+		<key>triangleleftsmallblack</key>
+		<string>triangleleftsmallblack.glif</string>
+		<key>triangleleftsmallwhite</key>
+		<string>triangleleftsmallwhite.glif</string>
+		<key>triangleleftwhite</key>
+		<string>triangleleftwhite.glif</string>
 		<key>trianglerightblack</key>
 		<string>trianglerightblack.glif</string>
+		<key>trianglerightsmallblack</key>
+		<string>trianglerightsmallblack.glif</string>
+		<key>trianglerightsmallwhite</key>
+		<string>trianglerightsmallwhite.glif</string>
+		<key>trianglerightwhite</key>
+		<string>trianglerightwhite.glif</string>
+		<key>triangleupblack</key>
+		<string>triangleupblack.glif</string>
+		<key>triangleupsmallblack</key>
+		<string>triangleupsmallblack.glif</string>
+		<key>triangleupsmallwhite</key>
+		<string>triangleupsmallwhite.glif</string>
+		<key>triangleupwhite</key>
+		<string>triangleupwhite.glif</string>
 		<key>tse-cy.loclBGR</key>
 		<string>tse-cy.loclB_G_R_.glif</string>
 		<key>tsecyr</key>
@@ -1810,6 +1876,8 @@
 		<string>ve-cy.loclB_G_R_.glif</string>
 		<key>vecyr</key>
 		<string>vecyr.glif</string>
+		<key>verticalbardbl</key>
+		<string>verticalbardbl.glif</string>
 		<key>w</key>
 		<string>w.glif</string>
 		<key>wacute</key>
