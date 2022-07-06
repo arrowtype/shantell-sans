@@ -1,0 +1,46 @@
+# Character Set Check, 2022-07-05
+
+I’ve checked the latest font build (v1.002 at `ba599a3`), and the only characters not in the font that should be, according to currently GF Latin Plus and GF Cyrillic Plus glyphsets, are:
+
+```
+ȷ LATIN SMALL LETTER DOTLESS J
+฿ THAI CURRENCY SYMBOL BAHT
+‖ DOUBLE VERTICAL LINE
+₨ RUPEE SIGN
+₪ NEW SHEQEL SIGN
+₾ LARI SIGN
+₿ BITCOIN SIGN
+Ω OHM SIGN
+℮ ESTIMATED SYMBOL
+↔ LEFT RIGHT ARROW
+↕ UP DOWN ARROW
+∅ EMPTY SET
+■ BLACK SQUARE
+□ WHITE SQUARE
+▪ BLACK SMALL SQUARE
+▫ WHITE SMALL SQUARE
+▲ BLACK UP-POINTING TRIANGLE
+△ WHITE UP-POINTING TRIANGLE
+▴ BLACK UP-POINTING SMALL TRIANGLE
+▵ WHITE UP-POINTING SMALL TRIANGLE
+▷ WHITE RIGHT-POINTING TRIANGLE
+▸ BLACK RIGHT-POINTING SMALL TRIANGLE
+▹ WHITE RIGHT-POINTING SMALL TRIANGLE
+▼ BLACK DOWN-POINTING TRIANGLE
+▽ WHITE DOWN-POINTING TRIANGLE
+▾ BLACK DOWN-POINTING SMALL TRIANGLE
+▿ WHITE DOWN-POINTING SMALL TRIANGLE
+◀ BLACK LEFT-POINTING TRIANGLE
+◁ WHITE LEFT-POINTING TRIANGLE
+◂ BLACK LEFT-POINTING SMALL TRIANGLE
+◃ WHITE LEFT-POINTING SMALL TRIANGLE
+◆ BLACK DIAMOND
+◇ WHITE DIAMOND
+○ WHITE CIRCLE
+● BLACK CIRCLE
+◦ WHITE BULLET
+```
+
+Good news: the Cyrillic unicode coverage is all there! We do still need to test that all locl variants are there, but it seems to be very well handled by the Cyrillic contributors.
+
+I will track the additions of the above glyphs at https://github.com/arrowtype/shantell-sans/issues/83.
