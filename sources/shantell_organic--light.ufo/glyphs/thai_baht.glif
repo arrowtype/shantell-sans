@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="thai:baht" format="2">
+	<unicode hex="0E3F"/>
+	<advance width="579"/>
+	<outline>
+		<contour>
+			<point x="331" y="778" type="curve" smooth="yes"/>
+			<point x="331" y="816"/>
+			<point x="311" y="837"/>
+			<point x="291" y="837" type="curve" smooth="yes"/>
+			<point x="273" y="837"/>
+			<point x="263" y="819"/>
+			<point x="263" y="800" type="curve" smooth="yes"/>
+			<point x="263" y="764"/>
+			<point x="262" y="722"/>
+			<point x="260" y="675" type="curve"/>
+			<point x="328" y="664" type="line"/>
+			<point x="330" y="705"/>
+			<point x="331" y="743"/>
+		</contour>
+		<contour>
+			<point x="257" y="24" type="line"/>
+			<point x="260" y="-14"/>
+			<point x="264" y="-54"/>
+			<point x="270" y="-98" type="curve" smooth="yes"/>
+			<point x="273" y="-123"/>
+			<point x="287" y="-135"/>
+			<point x="303" y="-135" type="curve" smooth="yes"/>
+			<point x="316" y="-135"/>
+			<point x="334" y="-125"/>
+			<point x="334" y="-90" type="curve" smooth="yes"/>
+			<point x="334" y="-46"/>
+			<point x="330" y="-19"/>
+			<point x="327" y="36" type="curve"/>
+		</contour>
+		<component base="B"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>
