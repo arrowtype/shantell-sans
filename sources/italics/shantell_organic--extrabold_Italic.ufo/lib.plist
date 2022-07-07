@@ -4955,12 +4955,7 @@ nippid/space</string>
 			<string>Getailcyr</string>
 			<string>Qacyr</string>
 			<string>Wecyr</string>
-			<string>De-cy.loclBGR</string>
 			<string>Ef-cy.loclBGR</string>
-			<string>El-cy.loclBGR</string>
-			<string>Ii-cy.loclBGR</string>
-			<string>Iigrave-cy.loclBGR</string>
-			<string>Iishort-cy.loclBGR</string>
 			<string>acyr</string>
 			<string>abrevecyr</string>
 			<string>adieresiscyr</string>
@@ -5053,22 +5048,13 @@ nippid/space</string>
 			<string>qacyr</string>
 			<string>wecyr</string>
 			<string>yukrcyr_yukrcyr</string>
-			<string>yukrcyr_yukrcyr.ss01</string>
-			<string>che-cy.loclBGR</string>
 			<string>de-cy.loclBGR</string>
-			<string>el-cy.loclBGR</string>
-			<string>en-cy.loclBGR</string>
 			<string>ge-cy.loclBGR</string>
-			<string>hardsign-cy.loclBGR</string>
-			<string>ii-cy.loclBGR</string>
-			<string>iigrave-cy.loclBGR</string>
-			<string>iishort-cy.loclBGR</string>
 			<string>iu-cy.loclBGR</string>
 			<string>ka-cy.loclBGR</string>
 			<string>pe-cy.loclBGR</string>
 			<string>sha-cy.loclBGR</string>
 			<string>shcha-cy.loclBGR</string>
-			<string>softsign-cy.loclBGR</string>
 			<string>te-cy.loclBGR</string>
 			<string>tse-cy.loclBGR</string>
 			<string>ve-cy.loclBGR</string>
@@ -5081,13 +5067,8 @@ nippid/space</string>
 			<string>ghestroke-cy.loclBSH</string>
 			<string>zedescender-cy.loclBSH</string>
 			<string>be-cy.loclSRB</string>
-			<string>de-cy.loclSRB</string>
-			<string>ge-cy.loclSRB</string>
-			<string>pe-cy.loclSRB</string>
-			<string>te-cy.loclSRB</string>
 			<string>Esdescender-cy.loclCHU</string>
 			<string>esdescender-cy.loclCHU</string>
-			<string>gje-cy.loclMKD</string>
 			<string>apostrophemod</string>
 			<string>ordfeminine</string>
 			<string>ordmasculine</string>
@@ -5128,6 +5109,7 @@ nippid/space</string>
 			<string>dotmacroncomb</string>
 			<string>ringacutecomb</string>
 			<string>tildemacroncomb</string>
+			<string>overlaystrokeshortcmb</string>
 			<string>zero</string>
 			<string>one</string>
 			<string>two</string>
@@ -5246,6 +5228,7 @@ nippid/space</string>
 			<string>fraction</string>
 			<string>bar</string>
 			<string>brokenbar</string>
+			<string>verticalbardbl</string>
 			<string>at</string>
 			<string>ampersand</string>
 			<string>section</string>
@@ -5254,6 +5237,7 @@ nippid/space</string>
 			<string>numero</string>
 			<string>periodcentered</string>
 			<string>bullet</string>
+			<string>openbullet</string>
 			<string>minute</string>
 			<string>second</string>
 			<string>primemod</string>
@@ -5271,13 +5255,18 @@ nippid/space</string>
 			<string>approxequal</string>
 			<string>notequal</string>
 			<string>logicalnot</string>
+			<string>emptyset</string>
+			<string>estimated</string>
 			<string>mu.math</string>
 			<string>pi</string>
+			<string>ohm</string>
 			<string>commercialminussign</string>
 			<string>arrowleft</string>
 			<string>arrowup</string>
 			<string>arrowright</string>
 			<string>arrowdown</string>
+			<string>arrowleftright</string>
+			<string>arrowupdown</string>
 			<string>partialdiff</string>
 			<string>increment</string>
 			<string>product</string>
@@ -5310,6 +5299,11 @@ nippid/space</string>
 			<string>turkishlira</string>
 			<string>manat</string>
 			<string>ruble</string>
+			<string>thai:baht</string>
+			<string>rupee</string>
+			<string>newsheqel</string>
+			<string>lari</string>
+			<string>bitcoin</string>
 			<string>asciicircum</string>
 			<string>asciitilde</string>
 			<string>acute</string>
@@ -5334,10 +5328,33 @@ nippid/space</string>
 			<string>arrowSE</string>
 			<string>arrowSW</string>
 			<string>doublebarvertical</string>
+			<string>gmtr:diamondblack</string>
+			<string>gmtr:diamondwhite</string>
+			<string>circlewhite</string>
+			<string>circleblack</string>
+			<string>squareblack</string>
+			<string>squarewhite</string>
+			<string>squaresmallblack</string>
+			<string>squaresmallwhite</string>
+			<string>triangleupblack</string>
+			<string>triangleupwhite</string>
 			<string>trianglerightblack</string>
-			<string>lozenge</string>
+			<string>trianglerightwhite</string>
+			<string>triangledownblack</string>
+			<string>triangledownwhite</string>
+			<string>triangleleftblack</string>
+			<string>triangleleftwhite</string>
+			<string>triangleupsmallblack</string>
+			<string>triangleupsmallwhite</string>
+			<string>trianglerightsmallblack</string>
+			<string>trianglerightsmallwhite</string>
+			<string>triangledownsmallblack</string>
+			<string>triangledownsmallwhite</string>
+			<string>triangleleftsmallblack</string>
+			<string>triangleleftsmallwhite</string>
 			<string>heartwhite</string>
 			<string>heartblack</string>
+			<string>lozenge</string>
 			<string>check</string>
 			<string>checkheavy</string>
 			<string>uni00AD</string>
@@ -5363,6 +5380,7 @@ nippid/space</string>
 			<string>questiondown.case</string>
 			<string>periodcentered.case</string>
 			<string>bullet.case</string>
+			<string>openbullet.case</string>
 			<string>periodcentered.loclCAT</string>
 			<string>periodcentered.loclCAT_case</string>
 			<string>f_f</string>
@@ -5420,43 +5438,6 @@ nippid/space</string>
 			<string>hyphen_line.49</string>
 			<string>hyphen_line.50</string>
 			<string>.notdef</string>
-			<string>overlaystrokeshortcmb</string>
-			<string>thai:baht</string>
-			<string>verticalbardbl</string>
-			<string>rupee</string>
-			<string>newsheqel</string>
-			<string>lari</string>
-			<string>bitcoin</string>
-			<string>estimated</string>
-			<string>arrowleftright</string>
-			<string>arrowupdown</string>
-			<string>emptyset</string>
-			<string>squareblack</string>
-			<string>squarewhite</string>
-			<string>squaresmallblack</string>
-			<string>squaresmallwhite</string>
-			<string>triangleupblack</string>
-			<string>triangleupwhite</string>
-			<string>triangleupsmallblack</string>
-			<string>triangleupsmallwhite</string>
-			<string>trianglerightwhite</string>
-			<string>trianglerightsmallblack</string>
-			<string>trianglerightsmallwhite</string>
-			<string>triangledownblack</string>
-			<string>triangledownwhite</string>
-			<string>triangledownsmallblack</string>
-			<string>triangledownsmallwhite</string>
-			<string>triangleleftblack</string>
-			<string>triangleleftwhite</string>
-			<string>triangleleftsmallblack</string>
-			<string>triangleleftsmallwhite</string>
-			<string>gmtr:diamondblack</string>
-			<string>gmtr:diamondwhite</string>
-			<string>circlewhite</string>
-			<string>circleblack</string>
-			<string>openbullet</string>
-			<string>openbullet.case</string>
-			<string>ohm</string>
 		</array>
 		<key>public.postscriptNames</key>
 		<dict>
