@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="triangleleftblack" format="2">
-	<unicode hex="25C0"/>
-	<advance width="750"/>
+<glyph name="openbullet.case" format="2">
+	<advance width="500"/>
 	<outline>
-		<component base="trianglerightblack"/>
+		<component base="openbullet" yOffset="87"/>
 	</outline>
 	<lib>
 		<dict>

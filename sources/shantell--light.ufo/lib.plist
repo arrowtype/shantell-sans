@@ -4900,8 +4900,6 @@
 					<string>hyphen_line.49</string>
 					<string>hyphen_line.50</string>
 					<string>.notdef</string>
-					<string>hungarumlautcomb</string>
-					<string>overlaystrokeshortcmb</string>
 					<string>thai:baht</string>
 					<string>verticalbardbl</string>
 					<string>rupee</string>
@@ -4936,6 +4934,8 @@
 					<string>circlewhite</string>
 					<string>circleblack</string>
 					<string>openbullet</string>
+					<string>ohm</string>
+					<string>openbullet.case</string>
 				</array>
 				<key>type</key>
 				<string>glyphList</string>
@@ -10155,8 +10155,6 @@ nippid/space</string>
 			<string>hyphen_line.49</string>
 			<string>hyphen_line.50</string>
 			<string>.notdef</string>
-			<string>hungarumlautcomb</string>
-			<string>overlaystrokeshortcmb</string>
 			<string>thai:baht</string>
 			<string>verticalbardbl</string>
 			<string>rupee</string>
@@ -10192,9 +10190,8 @@ nippid/space</string>
 			<string>circleblack</string>
 			<string>openbullet</string>
 			<string>ohm</string>
-			<string>verticlebar</string>
-			<string>verticalbar</string>
-			<string>R/</string>
+			<string>openbullet.case</string>
+			<string>overlaystrokeshortcmb</string>
 		</array>
 		<key>public.postscriptNames</key>
 		<dict>

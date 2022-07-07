@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="triangledownsmallwhite" format="2">
 	<unicode hex="25BF"/>
-	<advance width="500"/>
+	<advance width="700"/>
+	<outline>
+		<component base="trianglerightsmallwhite" xScale="0" xyScale="-1" yxScale="1" yScale="0" xOffset="97" yOffset="613"/>
+	</outline>
 	<lib>
 		<dict>
 			<key>public.markColor</key>
-			<string>0,0.95,0.95,0.25</string>
+			<string>0.67,0.95,0.38,1</string>
 		</dict>
 	</lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="circlewhite" format="2">
-	<unicode hex="25CB"/>
+<glyph name="circleblack" format="2">
+	<unicode hex="25CF"/>
 	<advance width="800"/>
 	<outline>
 		<contour>
@@ -42,10 +42,4 @@
 			<point x="259" y="459"/>
 		</contour>
 	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.67,0.95,0.38,1</string>
-		</dict>
-	</lib>
 </glyph>
