@@ -1,5 +1,5 @@
-@lowercasePunc = [hyphen      endash      emdash      parenleft      parenright      bracketleft      bracketright      braceleft      braceright      bracketangleleft      bracketangleright      guilsinglleft      guilsinglright      guillemetleft      guillemetright      slash      backslash      at      exclamdown      questiondown      ];
-@uppercasePunc = [hyphen.case endash.case emdash.case parenleft.case parenright.case bracketleft.case bracketright.case braceleft.case braceright.case bracketangleleft.case bracketangleright.case guilsinglleft.case guilsinglright.case guillemetleft.case guillemetright.case slash.case backslash.case at.case exclamdown.case questiondown.case ];
+@lowercasePunc = [hyphen      endash      emdash      parenleft      parenright      bracketleft      bracketright      braceleft      braceright      bracketangleleft      bracketangleright      guilsinglleft      guilsinglright      guillemetleft      guillemetright      slash      backslash      at      exclamdown      questiondown      bullet      ];
+@uppercasePunc = [hyphen.case endash.case emdash.case parenleft.case parenright.case bracketleft.case bracketright.case braceleft.case braceright.case bracketangleleft.case bracketangleright.case guilsinglleft.case guilsinglright.case guillemetleft.case guillemetright.case slash.case backslash.case at.case exclamdown.case questiondown.case bullet.case ];
 
 feature case {
     sub @lowercasePunc by @uppercasePunc;
