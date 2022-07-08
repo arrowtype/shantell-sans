@@ -20,18 +20,20 @@
 
 """
 
-from vanilla.dialogs import *
+from vanilla import *
+from vanilla.dialogs import getFile
 from math import radians
 from fontTools.misc.transform import Transform
 from mojo.roboFont import CurrentGlyph, CurrentFont, RGlyph, RPoint
 import os
 import shutil
 import math
+from mojo.UI import OutputWindow
 
 # ------------------------------
 # set preferences below
 
-openNewFonts = False
+openNewFonts = True
 saveNewFonts = True
 addExtremesToNewFonts = False
 
@@ -51,16 +53,20 @@ roundSkew = italicAngle - roundRotatation
 
 # TODO: translate rounds to keep proper sidebearings/spacing
 
-dialogMessage = "Select UFOs to copy into italics folder"
+dialogMessage = f"Select UFOs to generate as faux italics in {outputFolder}"
 
 # ------------------------------
+
+# Open output window to show user that work is being done
+OutputWindow().show()
+
+print("\n---------------------------------\n\n🤖 Beep boop, I’m 'make-faux-italics.py'\n")
+print("🤖 Please select some upright UFOs to get started!\n")
 
 # Function mostly copied from the Slanter extension
 def getGlyph(glyph, font, skew, rotation, addComponents=False, skipComponents=False, addExtremes=False):
     skew = radians(skew)
     rotation = radians(-rotation)
-
-    # print(glyph.name)
 
     # To solve: "ValueError: Guideline names must be at least one character long."
     for guideline in glyph.guidelines:
@@ -210,7 +216,7 @@ def fixRoundOffset(font, ucRoundBasis="O", lcRoundBasis="o", roundOffset=False):
             ucBaseLeftMargin = (font[ucRoundBasis].angledLeftMargin + font[ucRoundBasis].angledRightMargin) / 2.0
             ucOffset = -font[ucRoundBasis].angledLeftMargin + ucBaseLeftMargin
         except:
-            print(f"WARNING: can’t correct x position of uppercase rounds in {font}")
+            print(f"🤖 Warning: can’t correct x position of uppercase rounds in {font} because it contains neither /O nor /at")
             pass
     
     try:
@@ -223,7 +229,7 @@ def fixRoundOffset(font, ucRoundBasis="O", lcRoundBasis="o", roundOffset=False):
             lcBaseLeftMargin = (font[ucRoundBasis].angledLeftMargin + font[ucRoundBasis].angledRightMargin) / 2.0
             lcOffset = -font[ucRoundBasis].angledLeftMargin + ucBaseLeftMargin
         except:
-            print(f"WARNING: can’t correct x position of lowercase rounds in {font}")
+            print(f"🤖 Warning: can’t correct x position of lowercase rounds in {font} because it contains no /e")
             pass
 
     try:
@@ -234,9 +240,9 @@ def fixRoundOffset(font, ucRoundBasis="O", lcRoundBasis="o", roundOffset=False):
 
         for glyph in font:
             if glyph.name in ucRounds:
-                glyph.move((ucOffset, 0))
+                glyph.moveBy((ucOffset, 0))
             if glyph.name in lcRounds:
-                glyph.move((lcOffset, 0))
+                glyph.moveBy((lcOffset, 0))
 
             # also offset anchors, which will be further corrected for slanting, below, in correctAnchors()
             for anchor in glyph.anchors:
@@ -247,7 +253,7 @@ def fixRoundOffset(font, ucRoundBasis="O", lcRoundBasis="o", roundOffset=False):
 
     except UnboundLocalError:
 
-        print("skipping circular glyph offset")
+        print("🤖 Skipping circular glyph offset")
         pass
 
 
@@ -288,6 +294,11 @@ def correctItalicOffset(font, offsetBasisGlyph="H", roundOffset=False):
             offsetBasisGlyph = "e"
         elif "o" in font.keys():
             offsetBasisGlyph = "o"
+        elif "A" in font.keys():
+            offsetBasisGlyph = "A"
+        else:
+            print("🤖 Can't correct italic offset because font excludes glyphs /H, /e, /o, and /A")
+            return
 
      # calculate offset value with offsetBasisGlyph
     baseLeftMargin = (font[offsetBasisGlyph].angledLeftMargin + font[offsetBasisGlyph].angledRightMargin) / 2.0
@@ -309,7 +320,7 @@ def correctItalicOffset(font, offsetBasisGlyph="H", roundOffset=False):
         # apply offset to all glyphs in font
         for glyphName in font.keys():
             with font[glyphName].undo():
-                font[glyphName].move((offset, 0))
+                font[glyphName].moveBy((offset, 0))
 
             # if the glyph is used as a component, revert component offset
             for composedGlyph in componentMap.get(glyphName, []):
@@ -317,7 +328,7 @@ def correctItalicOffset(font, offsetBasisGlyph="H", roundOffset=False):
                     if component.baseGlyph == glyphName:
                         # make sure it's not a flipped component
                         if glyphName not in flippedComponents:
-                            component.move((-offset, 0))
+                            component.moveBy((-offset, 0))
 
             # done with glyph
             font[glyphName].update()
@@ -327,13 +338,13 @@ def correctItalicOffset(font, offsetBasisGlyph="H", roundOffset=False):
             for component in font[glyphName].components:
                 # offset flipped components twice:
                 # baseGlyph offset + offset in the wrong direction
-                component.move((offset*2, 0))
+                component.moveBy((offset*2, 0))
 
                 # fix glyphs which use the flipped component as a component
                 for composedGlyph in componentMap.get(glyphName, []):
                     for component in font[composedGlyph].components:
                         if component.baseGlyph == glyphName:
-                            component.move((-offset, 0))
+                            component.moveBy((-offset, 0))
 
             # done with glyph
             font[glyphName].update()
@@ -364,19 +375,25 @@ def copySpacing(originalFont, slantedFont):
             # g.angledRightMargin = originalFont[g.name].rightMargin
             g.width = originalFont[g.name].width
         except (KeyError, TypeError) as e:
-            print(f"Couldn’t copy spacing of /{g.name} in {originalFont.info.styleName}")
-            print(e)
+            # you can't copy a left margin if there is nothing in a glyph (e.g. the /space glyph)
+            g.width = originalFont[g.name].width
 
+fonts = []
+newFonts = []
 
 # Get input font paths
-inputFonts = getFile(dialogMessage, allowsMultipleSelection=True, fileTypes=["ufo"])
+inputFontsPaths = getFile(dialogMessage, allowsMultipleSelection=True, fileTypes=["ufo"])
+print("---------------------------------\n\n🤖 Generating faux italics, please hold...\n")
+
+for fontPath in inputFontsPaths:
+    font = OpenFont(fontPath, showInterface=True)
+    fonts.append(font)
+
 
 # Go through input paths & use to generate slanted fonts
-for fontPath in inputFonts:
-    font = OpenFont(fontPath, showInterface=False)
+for font in fonts:
 
-    print("\n\n\n\n--------------------------------")
-    print(font.info.styleName, "\n\n")
+    print(f"\n🤖 Generating faux italic from\n🤖 {font.path}")
 
     # set up paths, clear existing UFOs
 
@@ -415,6 +432,8 @@ for fontPath in inputFonts:
     # TODO? correct for anchor alignment
     # TODO? correct for accent alignment
 
+    newFonts.append(slantedFont)
+
     if saveNewFonts:
         slantedFont.save(slantedFontPath)
 
@@ -422,5 +441,39 @@ for fontPath in inputFonts:
         slantedFont.openInterface()
     else:
         slantedFont.close()
+
+class ClosingUI:
+
+    def __init__(self):
+        self.w = Window((400, 160), "Italics Generated!")
+        yPos = 10
+        self.w.myTextBox = TextBox((10, yPos, -10, 17), "Italics generated at:")
+        yPos += 20
+        self.w.italicPath =  TextBox((10, yPos, -10, 17), f"📁 {'/'.join([path for path in italicDir.split('/')][3:])}", selectable=True, sizeStyle="small")
+        yPos += 30
+        self.w.closeOriginals = Button((10, yPos, -10, 20), "Close original UFOs", callback=self.closeOriginals)
+        yPos += 30
+        self.w.closeOriginalsAndNew = Button((10, yPos, -10, 20), "Close original and generated UFOs", callback=self.closeOriginalsAndNew)
+        yPos += 30
+        self.w.leaveOriginals = Button((10, yPos, -10, 20), "Leave all UFOs open", callback=self.leaveOriginals)
+        self.w.open()
     
-    font.close()
+    def closeOriginals(self, sender):
+        print("🤖 Closing original UFOs")
+        self.w.close()
+        for font in fonts:
+            font.close()
+
+    def closeOriginalsAndNew(self, sender):
+        print("🤖 Closing original and new UFOs")
+        self.w.close()
+        for font in fonts:
+            font.close()
+        for font in newFonts:
+            font.close()
+    
+    def leaveOriginals(self, sender):
+        print("🤖 Leaving all UFOs open")
+        self.w.close()
+
+ClosingUI()
