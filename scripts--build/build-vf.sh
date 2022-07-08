@@ -13,12 +13,12 @@ mkdir -p "$outputDir"
 
 vfPath="$outputDir/$vfName"
 
-# update feature code to point to correct feature file paths
-parentDir=$(dirname "$DS")
-for ufo in $parentDir/*.ufo; do
-    pwd
-    python "./scripts--build/helpers/update-feature-code-for-vf.py" "$ufo"    
-done
+# # update feature code to point to correct feature file paths
+# parentDir=$(dirname "$DS")
+# for ufo in $parentDir/*.ufo; do
+#     pwd
+#     python "./scripts--build/helpers/update-feature-code-for-vf.py" "$ufo"    
+# done
 
 
 fontmake -o variable -m $DS --output-path "$vfPath"

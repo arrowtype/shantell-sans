@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="triangleupsmallblack" format="2">
+	<unicode hex="25B4"/>
+	<advance width="700"/>
+	<outline>
+		<component base="trianglerightsmallblack" xScale="0" xyScale="1" yxScale="-1" yScale="0" xOffset="613" yOffset="-97"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

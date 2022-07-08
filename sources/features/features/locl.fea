@@ -43,9 +43,12 @@ feature locl {
             
     script cyrl;
         language BGR;
+            @BGRoff = [vecyr         gecyr         decyr         zhecyr         zecyr         kacyr         pecyr         tecyr         tsecyr         shacyr         shchacyr         yucyr         ];
+            @BGRon  = [ve-cy.loclBGR ge-cy.loclBGR de-cy.loclBGR zhe-cy.loclBGR ze-cy.loclBGR ka-cy.loclBGR pe-cy.loclBGR te-cy.loclBGR tse-cy.loclBGR sha-cy.loclBGR shcha-cy.loclBGR iu-cy.loclBGR ];
             lookup Bulgarian {
-                sub [vecyr gecyr decyr zhecyr zecyr icyr ishortcyr kacyr elcyr encyr pecyr tecyr tsecyr checyr shacyr shchacyr hardcyr softcyr yucyr igravecyr] by [ve-cy.loclBGR ge-cy.loclBGR de-cy.loclBGR zhe-cy.loclBGR ze-cy.loclBGR ii-cy.loclBGR iishort-cy.loclBGR ka-cy.loclBGR el-cy.loclBGR en-cy.loclBGR pe-cy.loclBGR te-cy.loclBGR tse-cy.loclBGR che-cy.loclBGR sha-cy.loclBGR shcha-cy.loclBGR hardsign-cy.loclBGR softsign-cy.loclBGR iu-cy.loclBGR iigrave-cy.loclBGR];
+                sub @BGRoff by @BGRon;
             } Bulgarian;
+            
             
         language SRB;
             lookup Serbian {
