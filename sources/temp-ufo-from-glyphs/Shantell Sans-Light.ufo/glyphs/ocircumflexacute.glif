@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ocircumflexacute" format="2">
+	<advance width="600" height="0"/>
+	<unicode hex="1ED1"/>
+	<anchor x="310" y="0" name="bottom"/>
+	<anchor x="437" y="37" name="ogonek"/>
+	<anchor x="321" y="485" name="top"/>
+	<outline>
+		<component base="o"/>
+		<component base="circumflexacutecomb" xOffset="321"/>
+	</outline>
+</glyph>

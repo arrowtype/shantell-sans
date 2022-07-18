@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="b" format="2">
+	<advance width="575" height="0"/>
+	<unicode hex="0062"/>
+	<anchor x="298" y="58" name="bottom"/>
+	<anchor x="135" y="750" name="top"/>
+	<outline>
+		<contour>
+			<point x="190" y="35" type="curve" smooth="yes"/>
+			<point x="348.51" y="35"/>
+			<point x="497" y="127"/>
+			<point x="497" y="285" type="curve" smooth="yes"/>
+			<point x="497" y="403"/>
+			<point x="441.439" y="453"/>
+			<point x="363" y="453" type="curve" smooth="yes"/>
+			<point x="287" y="453"/>
+			<point x="178.816" y="395.677"/>
+			<point x="150" y="232" type="curve"/>
+			<point x="166" y="231" type="line"/>
+			<point x="162.11" y="295.582"/>
+			<point x="156" y="346.03"/>
+			<point x="156" y="388" type="curve" smooth="yes"/>
+			<point x="156" y="552.958"/>
+			<point x="172" y="604.507"/>
+			<point x="172" y="693" type="curve" smooth="yes"/>
+			<point x="172" y="735"/>
+			<point x="152" y="759"/>
+			<point x="132" y="759" type="curve" smooth="yes"/>
+			<point x="114" y="759"/>
+			<point x="104" y="739"/>
+			<point x="104" y="718" type="curve" smooth="yes"/>
+			<point x="104" y="631.736"/>
+			<point x="88" y="568.764"/>
+			<point x="88" y="404" type="curve" smooth="yes"/>
+			<point x="88" y="348.102"/>
+			<point x="99.958" y="248.729"/>
+			<point x="117" y="155" type="curve" smooth="yes"/>
+			<point x="124" y="118"/>
+			<point x="133" y="94"/>
+			<point x="147" y="94" type="curve" smooth="yes"/>
+			<point x="158" y="94"/>
+			<point x="168" y="100"/>
+			<point x="173" y="123" type="curve" smooth="yes"/>
+			<point x="201.285" y="278.952"/>
+			<point x="265" y="387"/>
+			<point x="363" y="387" type="curve" smooth="yes"/>
+			<point x="416.186" y="387"/>
+			<point x="430" y="342"/>
+			<point x="430" y="294" type="curve" smooth="yes"/>
+			<point x="430" y="167"/>
+			<point x="319.191" y="100"/>
+			<point x="178" y="100" type="curve" smooth="yes"/>
+			<point x="154" y="100"/>
+			<point x="127" y="112"/>
+			<point x="110" y="112" type="curve" smooth="yes"/>
+			<point x="96" y="112"/>
+			<point x="86" y="103"/>
+			<point x="86" y="86" type="curve" smooth="yes"/>
+			<point x="86" y="49"/>
+			<point x="141" y="35"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnName</key>
+				<string>b</string>
+			</dict>
+			<key>com.typemytype.robofont.Image.Brightness</key>
+			<integer>0</integer>
+			<key>com.typemytype.robofont.Image.Contrast</key>
+			<integer>1</integer>
+			<key>com.typemytype.robofont.Image.Saturation</key>
+			<integer>1</integer>
+			<key>com.typemytype.robofont.Image.Sharpness</key>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

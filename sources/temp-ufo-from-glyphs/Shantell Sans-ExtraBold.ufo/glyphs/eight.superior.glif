@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eight.superior" format="2">
+	<advance width="540" height="0"/>
+	<unicode hex="2078"/>
+	<outline>
+		<component base="eight.dnom" xOffset="43" yOffset="400"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>NoKerning</string>
+					<key>R</key>
+					<string>NoKerning</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

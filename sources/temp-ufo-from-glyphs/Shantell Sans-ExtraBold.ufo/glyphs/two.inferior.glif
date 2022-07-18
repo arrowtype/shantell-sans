@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="two.inferior" format="2">
+	<advance width="540" height="0"/>
+	<unicode hex="2082"/>
+	<outline>
+		<component base="two.dnom" xOffset="43" yOffset="-150"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>NoKerning</string>
+					<key>R</key>
+					<string>NoKerning</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cedilla" format="2">
+	<advance width="616" height="0"/>
+	<unicode hex="00B8"/>
+	<outline>
+		<component base="cedillacomb" xOffset="321"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>NoKerning</string>
+					<key>R</key>
+					<string>NoKerning</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

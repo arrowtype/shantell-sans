@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="e" format="2">
+	<advance width="562" height="0"/>
+	<outline>
+		<contour>
+			<point x="142" y="230" type="move"/>
+			<point x="257" y="222"/>
+			<point x="414" y="285"/>
+			<point x="414" y="373" type="curve" smooth="yes"/>
+			<point x="414" y="441"/>
+			<point x="384" y="474"/>
+			<point x="313" y="474" type="curve" smooth="yes"/>
+			<point x="205" y="474"/>
+			<point x="95" y="331"/>
+			<point x="95" y="188" type="curve" smooth="yes"/>
+			<point x="95" y="93"/>
+			<point x="161" y="38"/>
+			<point x="245" y="38" type="curve" smooth="yes"/>
+			<point x="313" y="38"/>
+			<point x="394" y="47"/>
+			<point x="489" y="81" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnName</key>
+				<string>e</string>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

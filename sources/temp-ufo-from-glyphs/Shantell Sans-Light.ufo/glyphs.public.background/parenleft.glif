@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parenleft" format="2">
+	<advance width="421" height="0"/>
+	<outline>
+		<contour>
+			<point x="353" y="776" type="move"/>
+			<point x="231" y="615"/>
+			<point x="127" y="412"/>
+			<point x="127" y="176" type="curve" smooth="yes"/>
+			<point x="127" y="-41"/>
+			<point x="206" y="-168"/>
+			<point x="356" y="-226" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>NoKerning</string>
+					<key>R</key>
+					<string>parenthesis</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

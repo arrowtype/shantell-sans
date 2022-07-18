@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Imacroncyr" format="2">
+	<advance width="742" height="0"/>
+	<unicode hex="04E2"/>
+	<anchor x="369" y="700" name="top"/>
+	<outline>
+		<component base="Icyr"/>
+		<component base="macroncomb" xOffset="369" yOffset="185"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.99,0.71,0.83,1</string>
+		</dict>
+	</lib>
+</glyph>

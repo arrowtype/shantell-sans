@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="comma" format="2">
+	<advance width="234" height="0"/>
+	<outline>
+		<contour>
+			<point x="149" y="115" type="move"/>
+			<point x="145" y="47"/>
+			<point x="120" y="-25"/>
+			<point x="95" y="-67" type="curve" smooth="yes"/>
+		</contour>
+		<contour>
+			<point x="108" y="-141" type="curve" smooth="yes"/>
+			<point x="122" y="-141"/>
+			<point x="131" y="-136"/>
+			<point x="138" y="-124" type="curve" smooth="yes"/>
+			<point x="174" y="-62"/>
+			<point x="210" y="26"/>
+			<point x="210" y="108" type="curve" smooth="yes"/>
+			<point x="210" y="127"/>
+			<point x="194" y="142"/>
+			<point x="176" y="142" type="curve" smooth="yes"/>
+			<point x="158" y="142"/>
+			<point x="142" y="128"/>
+			<point x="142" y="110" type="curve" smooth="yes"/>
+			<point x="142" y="38"/>
+			<point x="112" y="-30"/>
+			<point x="85" y="-80" type="curve" smooth="yes"/>
+			<point x="67" y="-114"/>
+			<point x="91" y="-141"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>period</string>
+					<key>R</key>
+					<string>period</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

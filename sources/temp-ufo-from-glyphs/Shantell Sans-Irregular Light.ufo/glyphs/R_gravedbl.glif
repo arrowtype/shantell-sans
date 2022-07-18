@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Rgravedbl" format="2">
+	<advance width="700" height="0"/>
+	<unicode hex="0210"/>
+	<anchor x="312" y="0" name="bottom"/>
+	<anchor x="408" y="925" name="top"/>
+	<outline>
+		<component base="R"/>
+		<component base="gravedoublecmb" xOffset="408" yOffset="215"/>
+	</outline>
+</glyph>

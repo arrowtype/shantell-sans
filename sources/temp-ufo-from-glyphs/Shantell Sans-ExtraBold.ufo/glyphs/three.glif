@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="three" format="2">
+	<advance width="700" height="0"/>
+	<unicode hex="0033"/>
+	<outline>
+		<contour>
+			<point x="257" y="-12" type="curve"/>
+			<point x="488" y="-12"/>
+			<point x="668" y="59"/>
+			<point x="668" y="228" type="curve" smooth="yes"/>
+			<point x="668" y="325.893"/>
+			<point x="620" y="402"/>
+			<point x="417" y="404" type="curve"/>
+			<point x="423" y="365" type="line"/>
+			<point x="570.365" y="389.06"/>
+			<point x="614" y="462"/>
+			<point x="614" y="532" type="curve" smooth="yes"/>
+			<point x="614" y="641"/>
+			<point x="536" y="712"/>
+			<point x="372" y="712" type="curve" smooth="yes"/>
+			<point x="191.777" y="712"/>
+			<point x="42" y="619.742"/>
+			<point x="42" y="556" type="curve" smooth="yes"/>
+			<point x="42" y="510"/>
+			<point x="92" y="475"/>
+			<point x="120" y="475" type="curve" smooth="yes"/>
+			<point x="180.429" y="475"/>
+			<point x="220" y="547"/>
+			<point x="383" y="547" type="curve" smooth="yes"/>
+			<point x="422" y="547"/>
+			<point x="433" y="540"/>
+			<point x="433" y="522" type="curve" smooth="yes"/>
+			<point x="433" y="481"/>
+			<point x="373" y="452"/>
+			<point x="253" y="427" type="curve" smooth="yes"/>
+			<point x="223" y="421"/>
+			<point x="211" y="403"/>
+			<point x="211" y="377" type="curve" smooth="yes"/>
+			<point x="211" y="328"/>
+			<point x="238" y="282"/>
+			<point x="291" y="282" type="curve" smooth="yes"/>
+			<point x="458" y="282"/>
+			<point x="495" y="272"/>
+			<point x="495" y="239" type="curve" smooth="yes"/>
+			<point x="495" y="187"/>
+			<point x="389" y="161"/>
+			<point x="230" y="161" type="curve" smooth="yes"/>
+			<point x="156.361" y="161"/>
+			<point x="153" y="201"/>
+			<point x="112" y="201" type="curve" smooth="yes"/>
+			<point x="68.283" y="201"/>
+			<point x="51" y="165"/>
+			<point x="51" y="121" type="curve" smooth="yes"/>
+			<point x="51" y="42"/>
+			<point x="92.2" y="-12"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>NoKerning</string>
+					<key>R</key>
+					<string>NoKerning</string>
+				</dict>
+			</dict>
+			<key>com.typemytype.robofont.Image.Sharpness</key>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

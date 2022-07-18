@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acutecomb" format="2">
+	<advance width="0" height="0"/>
+	<outline>
+		<contour>
+			<point x="-75" y="604"/>
+			<point x="-64" y="592"/>
+			<point x="-41" y="592" type="curve" smooth="yes"/>
+			<point x="40" y="592"/>
+			<point x="131" y="696"/>
+			<point x="131" y="772" type="curve" smooth="yes"/>
+			<point x="131" y="799"/>
+			<point x="118" y="816"/>
+			<point x="86" y="816" type="curve" smooth="yes"/>
+			<point x="60" y="816"/>
+			<point x="51" y="806"/>
+			<point x="32" y="755" type="curve" smooth="yes"/>
+			<point x="-3" y="654"/>
+			<point x="-75" y="668"/>
+			<point x="-75" y="623" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>NoKerning</string>
+					<key>R</key>
+					<string>NoKerning</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

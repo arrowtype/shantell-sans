@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ylongdieresiscyr" format="2">
+	<advance width="827" height="0"/>
+	<unicode hex="04F8"/>
+	<anchor x="421" y="865" name="top"/>
+	<outline>
+		<component base="Ylongcyr"/>
+		<component base="dieresiscomb" xOffset="421" yOffset="215"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.99,0.71,0.83,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotmacroncomb" format="2">
+	<advance width="0" height="0"/>
+	<anchor x="0" y="515" name="_top"/>
+	<outline>
+		<contour>
+			<point x="-94.116" y="762.332" type="curve" smooth="yes"/>
+			<point x="-56.694" y="762.332"/>
+			<point x="3.757" y="772.887"/>
+			<point x="168.798" y="772.887" type="curve" smooth="yes"/>
+			<point x="198.544" y="772.887"/>
+			<point x="215.816" y="793.037"/>
+			<point x="215.816" y="824.702" type="curve" smooth="yes"/>
+			<point x="215.816" y="864.044"/>
+			<point x="174.556" y="929.292"/>
+			<point x="60.37" y="929.292" type="curve" smooth="yes"/>
+			<point x="-12.555" y="929.292"/>
+			<point x="-59.573" y="925.454"/>
+			<point x="-135.376" y="914.899" type="curve" smooth="yes"/>
+			<point x="-193.908" y="907.223"/>
+			<point x="-203.504" y="881.315"/>
+			<point x="-203.504" y="855.408" type="curve" smooth="yes"/>
+			<point x="-203.504" y="810.309"/>
+			<point x="-164.163" y="762.332"/>
+		</contour>
+		<contour>
+			<point x="7.355" y="562.738" type="curve" smooth="yes"/>
+			<point x="72.633" y="562.738"/>
+			<point x="97.457" y="604.111"/>
+			<point x="97.457" y="643.645" type="curve" smooth="yes"/>
+			<point x="97.457" y="685.136"/>
+			<point x="59.761" y="736.505"/>
+			<point x="-5.516" y="736.505" type="curve" smooth="yes"/>
+			<point x="-64.358" y="736.505"/>
+			<point x="-105.731" y="706.652"/>
+			<point x="-105.731" y="651.92" type="curve" smooth="yes"/>
+			<point x="-105.731" y="602.272"/>
+			<point x="-61.6" y="562.738"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>NoKerning</string>
+					<key>R</key>
+					<string>NoKerning</string>
+				</dict>
+			</dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

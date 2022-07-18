@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tecyr" format="2">
+	<advance width="651" height="0"/>
+	<unicode hex="0442"/>
+	<guideline x="87" y="263" angle="90" name=" [#rQENFQOEUJ]"/>
+	<guideline x="90" y="278" angle="90" name=" [#rKZszPBnKc]"/>
+	<guideline x="87" y="263" angle="90" name=" [#1UpiQWPmoV]"/>
+	<guideline x="90" y="278" angle="90" name=" [#pIIihmLULH]"/>
+	<guideline x="87" y="263" angle="90" name=" [#hyJR6poyuE]"/>
+	<guideline x="90" y="278" angle="90" name=" [#4Yiiv3MdKb]"/>
+	<guideline x="87" y="263" angle="90" name=" [#T8DsogrLo4]"/>
+	<guideline x="90" y="278" angle="90" name=" [#IrSbl1JKvh]"/>
+	<outline>
+		<contour>
+			<point x="101" y="271" type="curve" smooth="yes"/>
+			<point x="151" y="271"/>
+			<point x="201" y="306"/>
+			<point x="338" y="306" type="curve" smooth="yes"/>
+			<point x="418" y="306"/>
+			<point x="517" y="294"/>
+			<point x="553" y="294" type="curve" smooth="yes"/>
+			<point x="603" y="294"/>
+			<point x="644" y="338"/>
+			<point x="644" y="380" type="curve" smooth="yes"/>
+			<point x="644" y="422"/>
+			<point x="614" y="448"/>
+			<point x="568" y="455" type="curve" smooth="yes"/>
+			<point x="490" y="466"/>
+			<point x="427" y="470"/>
+			<point x="338" y="470" type="curve" smooth="yes"/>
+			<point x="199" y="470"/>
+			<point x="113" y="447"/>
+			<point x="67" y="427" type="curve" smooth="yes"/>
+			<point x="34" y="414"/>
+			<point x="15" y="390"/>
+			<point x="15" y="356" type="curve" smooth="yes"/>
+			<point x="15" y="309"/>
+			<point x="57" y="271"/>
+		</contour>
+		<contour>
+			<point x="340" y="18" type="curve" smooth="yes"/>
+			<point x="390" y="18"/>
+			<point x="432" y="52"/>
+			<point x="432" y="97" type="curve" smooth="yes"/>
+			<point x="432" y="133"/>
+			<point x="407" y="175"/>
+			<point x="407" y="252" type="curve" smooth="yes"/>
+			<point x="407" y="322"/>
+			<point x="400" y="441"/>
+			<point x="399" y="451" type="curve"/>
+			<point x="227" y="442" type="line"/>
+			<point x="227" y="410"/>
+			<point x="236" y="361"/>
+			<point x="236" y="286" type="curve" smooth="yes"/>
+			<point x="236" y="204"/>
+			<point x="241" y="108"/>
+			<point x="268" y="60" type="curve" smooth="yes"/>
+			<point x="286" y="29"/>
+			<point x="307" y="18"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnName</key>
+				<string>tecyr</string>
+			</dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="trianglerightblack" format="2">
+	<advance width="750" height="0"/>
+	<unicode hex="25B6"/>
+	<guideline y="350" name="capCenter [#lT1XZXDpQn]"/>
+	<outline>
+		<contour>
+			<point x="123" y="-9" type="curve" smooth="yes"/>
+			<point x="140" y="-9"/>
+			<point x="152" y="-5"/>
+			<point x="192" y="25" type="curve" smooth="yes"/>
+			<point x="349" y="142"/>
+			<point x="566" y="188"/>
+			<point x="691" y="319" type="curve" smooth="yes"/>
+			<point x="709" y="337"/>
+			<point x="714" y="348"/>
+			<point x="714" y="359" type="curve" smooth="yes"/>
+			<point x="714" y="369"/>
+			<point x="710" y="381"/>
+			<point x="701" y="390" type="curve" smooth="yes"/>
+			<point x="545" y="551"/>
+			<point x="210" y="708"/>
+			<point x="107" y="708" type="curve"/>
+			<point x="83" y="708"/>
+			<point x="70" y="691"/>
+			<point x="70" y="659" type="curve" smooth="yes"/>
+			<point x="70" y="586"/>
+			<point x="55" y="482"/>
+			<point x="55" y="344" type="curve" smooth="yes"/>
+			<point x="55" y="246"/>
+			<point x="59" y="156"/>
+			<point x="72" y="75" type="curve" smooth="yes"/>
+			<point x="83" y="3"/>
+			<point x="95" y="-9"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>NoKerning</string>
+					<key>R</key>
+					<string>NoKerning</string>
+				</dict>
+			</dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

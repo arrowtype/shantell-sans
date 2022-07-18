@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iebrevecyr" format="2">
+	<advance width="611" height="0"/>
+	<unicode hex="04D7"/>
+	<anchor x="309" y="0" name="bottom"/>
+	<anchor x="505" y="41" name="ogonek"/>
+	<anchor x="309" y="515" name="top_1"/>
+	<anchor x="309" y="515" name="top_2"/>
+	<outline>
+		<component base="e"/>
+		<component base="brevecomb-cy" xOffset="115"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.99,0.71,0.83,1</string>
+		</dict>
+	</lib>
+</glyph>

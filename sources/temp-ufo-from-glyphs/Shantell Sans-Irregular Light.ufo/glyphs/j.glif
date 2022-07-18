@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="j" format="2">
+	<advance width="241" height="0"/>
+	<unicode hex="006A"/>
+	<anchor x="86" y="620" name="top"/>
+	<outline>
+		<component base="jdotless"/>
+		<component base="dotaccentcmb" xOffset="86" yOffset="-30"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnName</key>
+				<string>j</string>
+			</dict>
+			<key>com.typemytype.robofont.Image.Sharpness</key>
+			<real>0.4</real>
+		</dict>
+	</lib>
+</glyph>

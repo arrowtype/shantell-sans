@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="belowbrevecmb" format="2">
+	<advance width="0" height="0"/>
+	<unicode hex="032E"/>
+	<anchor x="1" y="0" name="_bottom"/>
+	<outline>
+		<component base="brevecomb" yOffset="-848"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>NoKerning</string>
+					<key>R</key>
+					<string>NoKerning</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

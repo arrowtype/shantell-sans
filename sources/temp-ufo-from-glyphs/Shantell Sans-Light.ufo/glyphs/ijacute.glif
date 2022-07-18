@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ijacute" format="2">
+	<advance width="517" height="0"/>
+	<unicode hex="E132"/>
+	<anchor x="136" y="0" name="bottom"/>
+	<anchor x="159" y="0" name="ogonek"/>
+	<anchor x="136" y="485" name="top_1"/>
+	<anchor x="387" y="485" name="top_2"/>
+	<outline>
+		<component base="iacute"/>
+		<component base="jacute" xOffset="276"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>NoKerning</string>
+					<key>R</key>
+					<string>NoKerning</string>
+				</dict>
+			</dict>
+			<key>public.markColor</key>
+			<string>1,0,0,0.5</string>
+		</dict>
+	</lib>
+</glyph>

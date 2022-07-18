@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevecomb" format="2">
+	<advance width="0" height="0"/>
+	<unicode hex="0306"/>
+	<anchor x="0" y="515" name="_top"/>
+	<anchor x="0" y="753" name="top"/>
+	<outline>
+		<contour>
+			<point x="-11" y="581" type="curve" smooth="yes"/>
+			<point x="125" y="581"/>
+			<point x="205" y="648"/>
+			<point x="205" y="731" type="curve" smooth="yes"/>
+			<point x="205" y="780"/>
+			<point x="180" y="810"/>
+			<point x="129" y="810" type="curve" smooth="yes"/>
+			<point x="97" y="810"/>
+			<point x="84" y="794"/>
+			<point x="73" y="771" type="curve" smooth="yes"/>
+			<point x="63" y="751"/>
+			<point x="46" y="735"/>
+			<point x="0" y="735" type="curve" smooth="yes"/>
+			<point x="-42" y="735"/>
+			<point x="-56" y="752"/>
+			<point x="-67" y="772" type="curve" smooth="yes"/>
+			<point x="-78" y="793"/>
+			<point x="-96" y="805"/>
+			<point x="-126" y="805" type="curve" smooth="yes"/>
+			<point x="-171" y="805"/>
+			<point x="-205" y="780"/>
+			<point x="-205" y="731" type="curve" smooth="yes"/>
+			<point x="-205" y="652"/>
+			<point x="-123" y="581"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>NoKerning</string>
+					<key>R</key>
+					<string>NoKerning</string>
+				</dict>
+			</dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

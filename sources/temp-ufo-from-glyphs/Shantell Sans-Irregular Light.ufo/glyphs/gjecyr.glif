@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gjecyr" format="2">
+	<advance width="430" height="0"/>
+	<unicode hex="0453"/>
+	<anchor x="252" y="485" name="top"/>
+	<outline>
+		<component base="gecyr"/>
+		<component base="acutecomb" xOffset="252"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.99,0.71,0.83,1</string>
+		</dict>
+	</lib>
+</glyph>

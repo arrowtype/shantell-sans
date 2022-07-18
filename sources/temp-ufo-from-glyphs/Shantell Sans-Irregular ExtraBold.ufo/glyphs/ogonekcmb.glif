@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ogonekcmb" format="2">
+	<advance width="0" height="0"/>
+	<unicode hex="0328"/>
+	<guideline x="26" y="-177" angle="48.145" name=" [#4uLH7EeGYo]"/>
+	<anchor x="76" y="0" name="_ogonek"/>
+	<outline>
+		<contour>
+			<point x="29" y="-260" type="curve" smooth="yes"/>
+			<point x="93" y="-260"/>
+			<point x="142" y="-229"/>
+			<point x="142" y="-158" type="curve" smooth="yes"/>
+			<point x="142" y="-127"/>
+			<point x="129" y="-98"/>
+			<point x="83" y="-98" type="curve" smooth="yes"/>
+			<point x="43" y="-98"/>
+			<point x="31" y="-86"/>
+			<point x="31" y="-66" type="curve" smooth="yes"/>
+			<point x="31" y="-42"/>
+			<point x="43" y="-23"/>
+			<point x="70" y="-3" type="curve" smooth="yes"/>
+			<point x="85" y="7"/>
+			<point x="88" y="15"/>
+			<point x="88" y="21" type="curve" smooth="yes"/>
+			<point x="88" y="37.727"/>
+			<point x="71" y="44"/>
+			<point x="53" y="44" type="curve" smooth="yes"/>
+			<point x="-53" y="44"/>
+			<point x="-133" y="-34.462"/>
+			<point x="-133" y="-126" type="curve" smooth="yes"/>
+			<point x="-133" y="-205"/>
+			<point x="-73" y="-260"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>NoKerning</string>
+					<key>R</key>
+					<string>NoKerning</string>
+				</dict>
+			</dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

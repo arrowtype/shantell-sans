@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zedieresiscyr" format="2">
+	<advance width="493" height="0"/>
+	<unicode hex="04DF"/>
+	<anchor x="225" y="738" name="top"/>
+	<outline>
+		<component base="zecyr"/>
+		<component base="dieresiscomb" xOffset="226" yOffset="78"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.99,0.71,0.83,1</string>
+		</dict>
+	</lib>
+</glyph>

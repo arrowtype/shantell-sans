@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ustraightstrokecyr" format="2">
+	<advance width="581" height="0"/>
+	<unicode hex="04B0"/>
+	<outline>
+		<contour>
+			<point x="164" y="249" type="curve" smooth="yes"/>
+			<point x="213" y="249"/>
+			<point x="341" y="274"/>
+			<point x="477" y="274" type="curve" smooth="yes"/>
+			<point x="501" y="274"/>
+			<point x="514" y="281"/>
+			<point x="514" y="293" type="curve" smooth="yes"/>
+			<point x="514" y="308"/>
+			<point x="490" y="329"/>
+			<point x="405" y="329" type="curve" smooth="yes"/>
+			<point x="339" y="329"/>
+			<point x="183" y="307"/>
+			<point x="110" y="303" type="curve" smooth="yes"/>
+			<point x="83" y="301"/>
+			<point x="72" y="291"/>
+			<point x="72" y="278" type="curve" smooth="yes"/>
+			<point x="72" y="260"/>
+			<point x="96" y="249"/>
+		</contour>
+		<component base="Ustraightcyr"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+		</dict>
+	</lib>
+</glyph>

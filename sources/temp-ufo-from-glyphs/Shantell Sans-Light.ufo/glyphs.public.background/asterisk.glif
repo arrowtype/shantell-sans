@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asterisk" format="2">
+	<advance width="480" height="0"/>
+	<outline>
+		<contour>
+			<point x="237" y="716" type="move"/>
+			<point x="260" y="688"/>
+			<point x="277" y="642"/>
+			<point x="277" y="565" type="curve" smooth="yes"/>
+			<point x="277" y="491"/>
+			<point x="263" y="375"/>
+			<point x="281" y="286" type="curve"/>
+		</contour>
+		<contour>
+			<point x="426" y="631" type="move"/>
+			<point x="381" y="558"/>
+			<point x="193" y="472"/>
+			<point x="119" y="383" type="curve"/>
+		</contour>
+		<contour>
+			<point x="89" y="613" type="move"/>
+			<point x="178" y="561"/>
+			<point x="312" y="498"/>
+			<point x="427" y="410" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>quotes</string>
+					<key>R</key>
+					<string>quotes</string>
+				</dict>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

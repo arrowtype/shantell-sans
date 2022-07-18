@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gravecomb" format="2">
+	<advance width="0" height="0"/>
+	<unicode hex="0300"/>
+	<anchor x="0" y="492" name="_side"/>
+	<anchor x="0" y="515" name="_top"/>
+	<outline>
+		<contour>
+			<point x="-11" y="585" type="curve" smooth="yes"/>
+			<point x="43" y="585"/>
+			<point x="70" y="609"/>
+			<point x="70" y="647" type="curve" smooth="yes"/>
+			<point x="70" y="699"/>
+			<point x="18.252" y="700.21"/>
+			<point x="-7" y="769" type="curve" smooth="yes"/>
+			<point x="-23" y="813"/>
+			<point x="-53" y="829"/>
+			<point x="-90" y="829" type="curve" smooth="yes"/>
+			<point x="-155.581" y="829"/>
+			<point x="-184" y="794"/>
+			<point x="-184" y="740" type="curve" smooth="yes"/>
+			<point x="-184" y="668"/>
+			<point x="-89" y="585"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>NoKerning</string>
+					<key>R</key>
+					<string>NoKerning</string>
+				</dict>
+			</dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

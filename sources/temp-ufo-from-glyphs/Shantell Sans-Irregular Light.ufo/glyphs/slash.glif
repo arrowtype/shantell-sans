@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slash" format="2">
+	<advance width="330" height="0"/>
+	<unicode hex="002F"/>
+	<outline>
+		<contour>
+			<point x="40" y="-148" type="curve" smooth="yes"/>
+			<point x="58" y="-148"/>
+			<point x="72" y="-135"/>
+			<point x="78" y="-106" type="curve" smooth="yes"/>
+			<point x="135" y="179"/>
+			<point x="206" y="465"/>
+			<point x="392" y="773" type="curve" smooth="yes"/>
+			<point x="420" y="820"/>
+			<point x="395" y="850"/>
+			<point x="372" y="850" type="curve" smooth="yes"/>
+			<point x="354" y="850"/>
+			<point x="341" y="837"/>
+			<point x="322" y="805" type="curve" smooth="yes"/>
+			<point x="148" y="511"/>
+			<point x="62" y="213"/>
+			<point x="2" y="-91" type="curve" smooth="yes"/>
+			<point x="-4" y="-127"/>
+			<point x="12" y="-148"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>slash</string>
+					<key>R</key>
+					<string>slash</string>
+				</dict>
+			</dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

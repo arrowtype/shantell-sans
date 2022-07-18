@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="l" format="2">
+	<advance width="423" height="0"/>
+	<unicode hex="006C"/>
+	<anchor x="233" y="0" name="bottom"/>
+	<anchor x="164" y="750" name="top"/>
+	<outline>
+		<contour>
+			<point x="245" y="-11" type="curve" smooth="yes"/>
+			<point x="347" y="-11"/>
+			<point x="429" y="39.286"/>
+			<point x="429" y="121" type="curve" smooth="yes"/>
+			<point x="429" y="162"/>
+			<point x="418" y="192"/>
+			<point x="384" y="192" type="curve" smooth="yes"/>
+			<point x="351.44" y="192"/>
+			<point x="323.32" y="164"/>
+			<point x="273" y="164" type="curve" smooth="yes"/>
+			<point x="249" y="164"/>
+			<point x="229" y="170"/>
+			<point x="229" y="347" type="curve" smooth="yes"/>
+			<point x="229" y="473.287"/>
+			<point x="251" y="554.652"/>
+			<point x="251" y="625" type="curve" smooth="yes"/>
+			<point x="251" y="720"/>
+			<point x="217" y="760"/>
+			<point x="157" y="760" type="curve" smooth="yes"/>
+			<point x="114" y="760"/>
+			<point x="91" y="741"/>
+			<point x="83" y="696" type="curve" smooth="yes"/>
+			<point x="64.675" y="595.646"/>
+			<point x="52" y="493.739"/>
+			<point x="52" y="367" type="curve" smooth="yes"/>
+			<point x="52" y="26"/>
+			<point x="166" y="-11"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnName</key>
+				<string>l</string>
+			</dict>
+			<key>com.typemytype.robofont.Image.Sharpness</key>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

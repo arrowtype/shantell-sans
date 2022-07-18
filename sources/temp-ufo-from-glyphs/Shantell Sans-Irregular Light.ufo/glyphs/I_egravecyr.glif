@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Iegravecyr" format="2">
+	<advance width="663" height="0"/>
+	<unicode hex="0400"/>
+	<anchor x="352" y="-18" name="bottom"/>
+	<anchor x="576" y="36" name="ogonek"/>
+	<anchor x="368" y="724" name="top"/>
+	<outline>
+		<component base="Egrave"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.73,0.52,1,1</string>
+		</dict>
+	</lib>
+</glyph>

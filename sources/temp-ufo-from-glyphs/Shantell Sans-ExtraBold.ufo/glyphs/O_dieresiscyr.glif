@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Odieresiscyr" format="2">
+	<advance width="766" height="0"/>
+	<unicode hex="04E6"/>
+	<anchor x="367" y="0" name="bottom"/>
+	<anchor x="510" y="29" name="ogonek"/>
+	<anchor x="374" y="935" name="top"/>
+	<outline>
+		<component base="Odieresis"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.73,0.52,1,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Yukrcyr" format="2">
+	<advance width="610" height="0"/>
+	<unicode hex="0407"/>
+	<anchor x="317" y="53" name="bottom"/>
+	<anchor x="527" y="69" name="ogonek"/>
+	<anchor x="317" y="863" name="top"/>
+	<outline>
+		<component base="Idieresis"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.73,0.52,1,1</string>
+		</dict>
+	</lib>
+</glyph>

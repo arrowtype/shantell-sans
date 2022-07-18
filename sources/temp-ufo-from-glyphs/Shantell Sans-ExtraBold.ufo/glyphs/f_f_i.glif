@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="f_f_i" format="2">
+	<advance width="1148" height="0"/>
+	<unicode hex="FB03"/>
+	<anchor x="172" y="0" name="bottom_1"/>
+	<anchor x="589" y="0" name="bottom_2"/>
+	<anchor x="996" y="0" name="bottom_3"/>
+	<anchor x="1050" y="0" name="ogonek"/>
+	<anchor x="289" y="750" name="top_1"/>
+	<anchor x="706" y="750" name="top_2"/>
+	<anchor x="996" y="742" name="top_3"/>
+	<outline>
+		<component base="f"/>
+		<component base="f" xOffset="417"/>
+		<component base="i" xOffset="834"/>
+	</outline>
+</glyph>

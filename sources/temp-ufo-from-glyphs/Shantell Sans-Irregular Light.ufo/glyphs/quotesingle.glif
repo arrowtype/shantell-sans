@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotesingle" format="2">
+	<advance width="259" height="0"/>
+	<unicode hex="0027"/>
+	<outline>
+		<contour>
+			<point x="118" y="425" type="curve" smooth="yes"/>
+			<point x="133.077" y="425"/>
+			<point x="141" y="435"/>
+			<point x="146" y="451" type="curve" smooth="yes"/>
+			<point x="168" y="516"/>
+			<point x="184" y="610"/>
+			<point x="167" y="690" type="curve" smooth="yes"/>
+			<point x="164" y="706"/>
+			<point x="149" y="717"/>
+			<point x="133" y="717" type="curve" smooth="yes"/>
+			<point x="110" y="717"/>
+			<point x="95.294" y="698.176"/>
+			<point x="100" y="677" type="curve" smooth="yes"/>
+			<point x="115" y="607"/>
+			<point x="100" y="534"/>
+			<point x="85" y="480" type="curve" smooth="yes"/>
+			<point x="74.05" y="443.167"/>
+			<point x="97.257" y="425"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>quotes</string>
+					<key>R</key>
+					<string>quotes</string>
+				</dict>
+			</dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

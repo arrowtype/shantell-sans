@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Acyr" format="2">
+	<advance width="713" height="0"/>
+	<unicode hex="0410"/>
+	<anchor x="355" y="48" name="bottom"/>
+	<anchor x="601" y="26" name="ogonek"/>
+	<anchor x="401" y="642" name="ring"/>
+	<anchor x="401" y="641" name="top"/>
+	<outline>
+		<component base="A"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.73,0.52,1,1</string>
+		</dict>
+	</lib>
+</glyph>

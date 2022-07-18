@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedbl" format="2">
+	<advance width="548" height="0"/>
+	<unicode hex="0022"/>
+	<outline>
+		<contour>
+			<point x="130" y="347" type="curve" smooth="yes"/>
+			<point x="169.462" y="347"/>
+			<point x="196.937" y="367.826"/>
+			<point x="211" y="407" type="curve" smooth="yes"/>
+			<point x="240" y="488"/>
+			<point x="249" y="582"/>
+			<point x="235" y="647" type="curve" smooth="yes"/>
+			<point x="226.989" y="684.053"/>
+			<point x="193.737" y="715"/>
+			<point x="137" y="715" type="curve" smooth="yes"/>
+			<point x="84" y="715"/>
+			<point x="58" y="677"/>
+			<point x="64" y="621" type="curve" smooth="yes"/>
+			<point x="70" y="569"/>
+			<point x="61" y="505"/>
+			<point x="46" y="461" type="curve" smooth="yes"/>
+			<point x="31" y="416"/>
+			<point x="73" y="347"/>
+		</contour>
+		<contour>
+			<point x="397" y="347" type="curve" smooth="yes"/>
+			<point x="435" y="347"/>
+			<point x="461" y="368"/>
+			<point x="475" y="407" type="curve" smooth="yes"/>
+			<point x="503.687" y="488.115"/>
+			<point x="512.837" y="585.767"/>
+			<point x="499" y="651" type="curve" smooth="yes"/>
+			<point x="490.626" y="687.638"/>
+			<point x="459" y="715"/>
+			<point x="404" y="715" type="curve" smooth="yes"/>
+			<point x="350" y="715"/>
+			<point x="329" y="678"/>
+			<point x="331" y="621" type="curve" smooth="yes"/>
+			<point x="333" y="568"/>
+			<point x="323" y="505"/>
+			<point x="312" y="445" type="curve" smooth="yes"/>
+			<point x="302" y="389"/>
+			<point x="341" y="347"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.glyph.userData</key>
+			<dict>
+				<key>KernOnSpecialSpacing</key>
+				<dict>
+					<key>L</key>
+					<string>quotes</string>
+					<key>R</key>
+					<string>quotes</string>
+				</dict>
+			</dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>
