@@ -2,21 +2,50 @@
 import glyphsLib
 from glyphsLib import GSFont
 
-print(glyphsLib.__version__)
+# print(glyphsLib.__version__)
 
-print(GSFont)
+# print(GSFont)
 
 glyphs_file = "sources/shantellsans-wght_ital_IRGL.glyphs"
 
-font =  GSFont(glyphs_file)
+gsfont =  GSFont(glyphs_file)
 
-print(font)
+# print(gsfont)
 
-userData = font.userData
+# userData = gsfont.userData
 
-# userData["bounces"] = {}
-# userData["bounces"]["A"] = 36
+# # userData["bounces"] = {}
+# # userData["bounces"]["A"] = 36
 
-del userData["bounces"] # reverse the test
+# del userData["bounces"] # reverse the test
 
-font.save(glyphs_file)
+# gsfont.save(glyphs_file)
+
+# converts to UFO and returns namedtuple
+sourceUfos = glyphsLib.build_masters(
+    glyphs_file,
+    "notes/2022_07_15-glyphsLib-userData-tests/UFO"
+    # designspace_path=options.designspace_path,
+    # minimize_glyphs_diffs=options.no_preserve_glyphsapp_metadata,
+    # propagate_anchors=options.propagate_anchors,
+    # normalize_ufos=options.normalize_ufos,
+    # create_background_layers=options.create_background_layers,
+    # generate_GDEF=options.generate_GDEF,
+    # store_editor_state=not options.no_store_editor_state,
+    # write_skipexportglyphs=options.write_public_skip_export_glyphs,
+    # ufo_module=__import__(options.ufo_module),
+)[0]
+
+
+print()
+print()
+print()
+
+print(sourceUfos.values())
+
+for font in sourceUfos.values():
+    print(font.info.styleName)
+
+mainUFOpath = [font.path for font in sourceUfos.values() if font.info.styleName == "ExtraBold"][0]
+
+print(mainUFOpath)
