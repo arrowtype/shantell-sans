@@ -464,7 +464,7 @@ def shiftGlyphs(font,gsfont,randomLimit=100,minShift=50,factor=1):
                 except KeyError:
                     # except KeyError: generate bounce value and add to core light/extrabold font
                     moveY = makeBounce(font, g, randomLimit, minShift, factor)
-                    recordBounceGlyphsApp(gsfont, glyphName, moveY)
+                    recordBounceGlyphsApp(gsfont, g.name, moveY)
 
                 # record shift in the glyph’s lib for later use
                 g.lib['com.arrowtype.yShift'] = moveY
@@ -509,7 +509,7 @@ def shiftGlyphs(font,gsfont,randomLimit=100,minShift=50,factor=1):
                     g.moveBy((italicBounceShift(moveY, font),moveY))
                 except KeyError:
                     moveY = makeBounce(font, g, randomLimit, minShift, factor)
-                    recordBounce(baseFont, g.name, moveY)
+                    recordBounceGlyphsApp(gsfont, g.name, moveY)
 
                 g.lib['com.arrowtype.yShift'] = moveY
 
@@ -517,7 +517,7 @@ def shiftGlyphs(font,gsfont,randomLimit=100,minShift=50,factor=1):
         # save any generated glyph bounce data to main source fonts
         baseFont.save() 
         # re-normalize main source fonts
-        normalizeUFO(baseFont.path, writeModTimes=False)
+        # normalizeUFO(baseFont.path, writeModTimes=False)
 
 
 def makeComponentsAlts(fonts, numOfAlts=2):
