@@ -51,7 +51,7 @@ featuresDir = "sources/features/features"
 # letters to make alts for (all letters)
 altsToMake = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzßæÞðþẞ"
 altsToMake += "ÉéÓóÍíÁáÈèÜüÇçÃãÖöÄäÑñ"
-altsToMake += "ЂЄЉЊЋЏБГДЖЗИЛМПУФЦЧШЩЪЫЬЭЮЯѢѪѴҐҔҖҚҜҠҢҤҮҲҶҸҺӀӋӘӶбвгджзиклмнптфцчшщъыьэюяђєљњћџѣѫѵґҕҗқҝҡңҥүұҳҷҹӌӏәөӷ"
+altsToMake += "ЂЄЅІЇЈЉЊЋЏАБВГЃДЕЀЁЖЗИЍЙӢКЌЛМНОПРСТУЎӮФХЦЧШЩЪЫЬЭЮЯѢѲѴҐҒҖҚҢҮҰҲҶҺӀӘӨабвгѓдеѐёжзийѝӣкќлмнопрстуўӯфхцчшщъыьэюяђєѕіїјљњћџѣѳѵґғҗқңүұҳҷһӏәө"
 
 # numbers & basic symbols
 altsToMake += "0123456789!\"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~“”‘’"
@@ -86,12 +86,12 @@ trackedPath = "shantell_tracked--light.ufo"
 # --------------------------------------------------------
 
 # add just the basic upper & lowercase (used later in the calt code generator)
-uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-lowercase = "abcdefghijklmnopqrstuvwxyz"
+uppercase = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z".split(" ")
+lowercase = "a b c d e f g h i j k l m n o p q r s t u v w x y z".split(" ")
 
 # add Cyrillic basic upper & lowercase
-uppercase += "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ"
-lowercase += "абвгдеёжзийклмнопрстуфхцчшщъыьэюя"
+uppercase += "Djecyr Eukrcyr Dzecyr Iukrcyr Yukrcyr Jecyr Ljecyr Njecyr Tshecyr Dzhecyr Acyr Becyr Vecyr Gecyr Gjecyr Decyr Iecyr Iegravecyr Iocyr Zhecyr Zecyr Icyr Igravecyr Ishortcyr Imacroncyr Kacyr Kjecyr Elcyr Emcyr Encyr Ocyr Pecyr Ercyr Escyr Tecyr Ucyr Ushortcyr Umacroncyr Efcyr Hacyr Tsecyr Checyr Shacyr Shchacyr Hardcyr Ylongcyr Softcyr Ereversedcyr Yucyr Yacyr Yatcyr Fitacyr Izhitsacyr Geupcyr Gestrokecyr Zhetailcyr Katailcyr Entailcyr Ustraightcyr Ustraightstrokecyr Xatailcyr Chetailcyr Shhacyr Palochkacyr Schwacyr Obarcyr".split(" ")
+lowercase += "acyr becyr vecyr gecyr gjecyr decyr iecyr iegravecyr iocyr zhecyr zecyr icyr ishortcyr igravecyr imacroncyr kacyr kjecyr elcyr emcyr encyr ocyr pecyr ercyr escyr tecyr ucyr ushortcyr umacroncyr efcyr hacyr tsecyr checyr shacyr shchacyr hardcyr ylongcyr softcyr ereversedcyr yucyr yacyr djecyr eukrcyr dzecyr iukrcyr yukrcyr jecyr ljecyr njecyr tshecyr dzhecyr yatcyr fitacyr izhitsacyr geupcyr gestrokecyr zhetailcyr katailcyr entailcyr ustraightcyr ustraightstrokecyr xatailcyr chetailcyr shhacyr palochkacyr schwacyr obarcyr".split(" ")
 
 # get integer unicode values for string of characters from above
 altsToMakeList = [ord(char) for char in altsToMake]
@@ -109,15 +109,6 @@ def convertGlyphs2UFO(glyphs_file, outputDir):
     sourceUfos = build_masters(
         glyphs_file,
         outputDir
-        # designspace_path=options.designspace_path,
-        # minimize_glyphs_diffs=options.no_preserve_glyphsapp_metadata,
-        # propagate_anchors=options.propagate_anchors,
-        # normalize_ufos=options.normalize_ufos,
-        # create_background_layers=options.create_background_layers,
-        # generate_GDEF=options.generate_GDEF,
-        # store_editor_state=not options.no_store_editor_state,
-        # write_skipexportglyphs=options.write_public_skip_export_glyphs,
-        # ufo_module=__import__(options.ufo_module),
     )[0]
 
     return sourceUfos
@@ -455,14 +446,13 @@ def shiftGlyphs(font,gsfont,randomLimit=100,minShift=50,factor=1):
                 moveY = 0
 
                 try:
-                    # try: look up bounce dict in the core light/extrabold font, use in this font
-                    # moveY = baseFont.lib["com.arrowtype.glyphBounces"][g.name] * factor
+                    # try: look up bounce dict in the core extrabold master userData, use in this font
                     moveY = glyphBounceDict[g.name] * factor
                     g.moveBy((italicBounceShift(moveY, font),moveY))
 
                 # y bounce not yet generated
                 except KeyError:
-                    # except KeyError: generate bounce value and add to core light/extrabold font
+                    # except KeyError: generate bounce value and add to the core extrabold master userData
                     moveY = makeBounce(font, g, randomLimit, minShift, factor)
                     recordBounceGlyphsApp(gsfont, g.name, moveY)
 
@@ -505,7 +495,7 @@ def shiftGlyphs(font,gsfont,randomLimit=100,minShift=50,factor=1):
 
                 # move full glyph again # BUT WAIT, this just breaks it? ... does it need all components moved separately, rather than the whole thing moved?
                 try:
-                    moveY = baseFont.lib["com.arrowtype.glyphBounces"][g.name] * factor
+                    moveY = glyphBounceDict[g.name] * factor
                     g.moveBy((italicBounceShift(moveY, font),moveY))
                 except KeyError:
                     moveY = makeBounce(font, g, randomLimit, minShift, factor)
@@ -514,10 +504,6 @@ def shiftGlyphs(font,gsfont,randomLimit=100,minShift=50,factor=1):
                 g.lib['com.arrowtype.yShift'] = moveY
 
         font.save()
-        # save any generated glyph bounce data to main source fonts
-        baseFont.save() 
-        # re-normalize main source fonts
-        # normalizeUFO(baseFont.path, writeModTimes=False)
 
 
 def makeComponentsAlts(fonts, numOfAlts=2):
@@ -927,15 +913,14 @@ def main():
     print("🤖 Shifting bouncy alts")
     for font in fonts:
         if "bounce" in font.path and "reverse_bounce" not in font.path:
-            shiftGlyphs(font, gsfont, factor=0.75, mainUFOpath) # factor 0.75 makes moves of up to 75 units
+            shiftGlyphs(font, gsfont, factor=0.75) # factor 0.75 makes moves of up to 75 units
     
     # split into separate loop so reverse sources always go second
     for font in fonts:
         if "reverse_bounce" in font.path:
             print("reverse bounces for ", font.path)
-            shiftGlyphs(font, gsfont, factor=-0.75, mainUFOpath) # factor -0.75 makes moves of up to -75 units
+            shiftGlyphs(font, gsfont, factor=-0.75) # factor -0.75 makes moves of up to -75 units
 
-    
     # save any bounce values recorded into Glyphs source
     gsfont.save(glyphsFile)
 
