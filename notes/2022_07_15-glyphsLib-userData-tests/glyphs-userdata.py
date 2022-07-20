@@ -14,8 +14,9 @@ print(font)
 
 userData = font.userData
 
-userData["bounces"] = {}
+# userData["bounces"] = {}
+# userData["bounces"]["A"] = 36
 
-userData["bounces"]["A"] = 36
+del userData["bounces"] # reverse the test
 
 font.save(glyphs_file)
