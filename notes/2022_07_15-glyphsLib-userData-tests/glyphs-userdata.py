@@ -16,6 +16,6 @@ userData = font.userData
 
 userData["bounces"] = {}
 
-userData["bounces"]["A"] = 33
+userData["bounces"]["A"] = 36
 
-help(font.save(glyphs_file))
+font.save(glyphs_file)
