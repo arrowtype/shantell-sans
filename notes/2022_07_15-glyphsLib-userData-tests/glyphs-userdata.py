@@ -7,7 +7,6 @@ from glyphsLib import GSFont
 # print(GSFont)
 
 glyphs_file = "sources/shantellsans-wght_ital_IRGL.glyphs"
-
 gsfont =  GSFont(glyphs_file)
 
 # print(gsfont)
@@ -41,11 +40,8 @@ print()
 print()
 print()
 
-print(sourceUfos.values())
+# mainUFOpath = [font.path for font in sourceUfos.values() if font.info.styleName == "ExtraBold"][0]
 
-for font in sourceUfos.values():
-    print(font.info.styleName)
+glyphBounceDict = [master for master in gsfont.masters if master.name == "ExtraBold"][0].userData["com.arrowtype.glyphBounces"]
 
-mainUFOpath = [font.path for font in sourceUfos.values() if font.info.styleName == "ExtraBold"][0]
-
-print(mainUFOpath)
+print(glyphBounceDict["g"])

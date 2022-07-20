@@ -382,7 +382,19 @@ def makeBounce(font, glyph, randomLimit=100, minShift=50, factor=1):
     return moveY
 
 
-# def recordBounceGlyphs(gsfont, glyphName, moveY):
+def recordBounceGlyphsApp(gsfont, glyphName, moveY):
+    """
+        Record generated pseudo-random bounces in GlyphsApp source.
+    """
+
+    mainMaster = [master for master in gsfont.masters if master.name == "ExtraBold"][0]
+    glyphBounceDict = mainMaster.userData["com.arrowtype.glyphBounces"]
+
+    try:
+        glyphBounceDict[glyphName] = moveY
+    except KeyError:
+        glyphBounceDict = {}
+        glyphBounceDict[glyphName] = moveY
 
 
 def recordBounce(font, glyphName, moveY):
@@ -412,9 +424,11 @@ def resetBounces():
     extrabold.save()
 
 
-def shiftGlyphs(font,mainUFOpath,randomLimit=100,minShift=50,factor=1):
+def shiftGlyphs(font,gsfont,randomLimit=100,minShift=50,factor=1):
     """
         Shift glyphs in Bouncy sources.
+
+        gsfont is a Glyphs source opened by glyphsLib.
     """
 
     glyphsToNotShift ="\
@@ -429,12 +443,11 @@ def shiftGlyphs(font,mainUFOpath,randomLimit=100,minShift=50,factor=1):
         caron breve tilde macron dieresis dotaccent ring cedilla ogonek ogonekcmb \
     ".split()
 
+    # get glyphBounces dict from ExtraBold source
+    mainMaster = [master for master in gsfont.masters if master.name == "ExtraBold"][0]
+    glyphBounceDict = mainMaster.userData["com.arrowtype.glyphBounces"]
+
     if "bounce" in font.path:
-        # determine whether style is light or extrabold bouncy, then open that base font
-        if "light" in font.path:
-            baseFont = Font(sources["light"])
-        elif "extrabold" in font.path:
-            baseFont = Font(sources["extrabold"])
 
         for g in font:
             if g.name not in glyphsToNotShift and len(g.components) == 0:
@@ -443,14 +456,15 @@ def shiftGlyphs(font,mainUFOpath,randomLimit=100,minShift=50,factor=1):
 
                 try:
                     # try: look up bounce dict in the core light/extrabold font, use in this font
-                    moveY = baseFont.lib["com.arrowtype.glyphBounces"][g.name] * factor
+                    # moveY = baseFont.lib["com.arrowtype.glyphBounces"][g.name] * factor
+                    moveY = glyphBounceDict[g.name] * factor
                     g.moveBy((italicBounceShift(moveY, font),moveY))
 
                 # y bounce not yet generated
                 except KeyError:
                     # except KeyError: generate bounce value and add to core light/extrabold font
                     moveY = makeBounce(font, g, randomLimit, minShift, factor)
-                    recordBounce(baseFont, g.name, moveY)
+                    recordBounceGlyphsApp(gsfont, glyphName, moveY)
 
                 # record shift in the glyph’s lib for later use
                 g.lib['com.arrowtype.yShift'] = moveY
@@ -867,8 +881,8 @@ def setLibKeys(font):
 
 def main():
 
-    # coverting from Glyphs to UFO
-    # gsfont =  GSFont(glyphsFile)
+    # opening glyphs source in memory
+    gsfont =  GSFont(glyphsFile)
     
     # clean up previous run
     if os.path.exists(ufosDir):
@@ -909,19 +923,21 @@ def main():
     print("🤖 Making composed alts point to alt components")
     makeComponentsAlts(fonts)
 
-    mainUFOpath = [font.path for font in sourceUfos.values() if font.info.styleName == "ExtraBold"][0]
-
     # shift alts in bounce fonts
     print("🤖 Shifting bouncy alts")
     for font in fonts:
         if "bounce" in font.path and "reverse_bounce" not in font.path:
-            shiftGlyphs(font, factor=0.75, mainUFOpath) # factor 0.75 makes moves of up to 75 units
+            shiftGlyphs(font, gsfont, factor=0.75, mainUFOpath) # factor 0.75 makes moves of up to 75 units
     
     # split into separate loop so reverse sources always go second
     for font in fonts:
         if "reverse_bounce" in font.path:
             print("reverse bounces for ", font.path)
-            shiftGlyphs(font, factor=-0.75, mainUFOpath) # factor -0.75 makes moves of up to -75 units
+            shiftGlyphs(font, gsfont, factor=-0.75, mainUFOpath) # factor -0.75 makes moves of up to -75 units
+
+    
+    # save any bounce values recorded into Glyphs source
+    gsfont.save(glyphsFile)
 
     # interpolate alts in irregular fonts
     print("🤖 Interpolating organic alts")
