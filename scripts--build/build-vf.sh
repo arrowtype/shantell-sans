@@ -21,7 +21,8 @@ vfPath="$outputDir/$vfName"
 # done
 
 
-fontmake -o variable -m $DS --output-path "$vfPath"
+fontmake -o variable -m $DS --output-path "$vfPath" 
+# fontmake -o variable -m $DS --output-path "$vfPath" --no-production-names # TESTING no prod names TODO: remove it and find better script fix
 
 # add STAT table
 python3 "./scripts--build/helpers/add-STAT.py" "$vfPath"
