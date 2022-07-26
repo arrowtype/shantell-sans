@@ -1745,6 +1745,8 @@
 			<real>62.25</real>
 			<key>belowbrevecmb</key>
 			<real>27.75</real>
+			<key>bitcoin</key>
+			<integer>-18</integer>
 			<key>braceleft</key>
 			<integer>63</integer>
 			<key>braceleft.alt1</key>
@@ -1905,6 +1907,10 @@
 			<real>48.75</real>
 			<key>chevertcyr.alt3</key>
 			<real>33.75</real>
+			<key>circleblack</key>
+			<integer>-18</integer>
+			<key>circlewhite</key>
+			<real>-38.25</real>
 			<key>circumflexacutecomb</key>
 			<real>-36.75</real>
 			<key>circumflexcomb.alt1</key>
@@ -2171,6 +2177,8 @@
 			<real>-76.5</real>
 			<key>emdash.case</key>
 			<real>88.5</real>
+			<key>emptyset</key>
+			<integer>30</integer>
 			<key>en-cy.loclBGR</key>
 			<real>-36.75</real>
 			<key>encyr</key>
@@ -2243,6 +2251,8 @@
 			<real>33.75</real>
 			<key>estailcyr</key>
 			<integer>-36</integer>
+			<key>estimated</key>
+			<real>14.25</real>
 			<key>eth</key>
 			<integer>-60</integer>
 			<key>eth.alt1</key>
@@ -2391,6 +2401,10 @@
 			<real>7.5</real>
 			<key>gjecyr</key>
 			<integer>-24</integer>
+			<key>gmtr:diamondblack</key>
+			<real>34.5</real>
+			<key>gmtr:diamondwhite</key>
+			<real>-32.25</real>
 			<key>gnrl:hyphen</key>
 			<integer>72</integer>
 			<key>grave.alt1</key>
@@ -2805,6 +2819,8 @@
 			<integer>90</integer>
 			<key>lacute</key>
 			<integer>-51</integer>
+			<key>lari</key>
+			<real>-28.5</real>
 			<key>lcaron</key>
 			<integer>18</integer>
 			<key>ldot</key>
@@ -2893,6 +2909,8 @@
 			<integer>135</integer>
 			<key>ncaron.alt3</key>
 			<integer>-102</integer>
+			<key>newsheqel</key>
+			<integer>-33</integer>
 			<key>nine</key>
 			<real>34.5</real>
 			<key>nine.alt1</key>
@@ -3019,6 +3037,8 @@
 			<real>88.5</real>
 			<key>ogravedbl</key>
 			<real>-12.75</real>
+			<key>ohm</key>
+			<real>8.25</real>
 			<key>ohoi</key>
 			<real>-26.25</real>
 			<key>ohorn</key>
@@ -3071,6 +3091,10 @@
 			<integer>72</integer>
 			<key>oogonek</key>
 			<real>27.75</real>
+			<key>openbullet</key>
+			<real>-9.75</real>
+			<key>openbullet.case</key>
+			<real>26.25</real>
 			<key>ordfeminine</key>
 			<real>-79.5</real>
 			<key>ordmasculine</key>
@@ -3089,6 +3113,8 @@
 			<real>118.5</real>
 			<key>otildemacron</key>
 			<real>-33.75</real>
+			<key>overlaystrokeshortcmb</key>
+			<real>-15.75</real>
 			<key>p</key>
 			<real>-73.5</real>
 			<key>p.alt1</key>
@@ -3305,6 +3331,8 @@
 			<real>-14.25</real>
 			<key>ruble</key>
 			<real>-32.25</real>
+			<key>rupee</key>
+			<real>-9.75</real>
 			<key>s</key>
 			<real>40.5</real>
 			<key>s.alt1</key>
@@ -3433,6 +3461,14 @@
 			<integer>-48</integer>
 			<key>space.frac</key>
 			<real>-64.5</real>
+			<key>squareblack</key>
+			<integer>-9</integer>
+			<key>squaresmallblack</key>
+			<integer>36</integer>
+			<key>squaresmallwhite</key>
+			<real>9.75</real>
+			<key>squarewhite</key>
+			<real>-7.5</real>
 			<key>sterling</key>
 			<real>-82.5</real>
 			<key>summation</key>
@@ -3473,6 +3509,8 @@
 			<real>35.25</real>
 			<key>tenge</key>
 			<real>20.25</real>
+			<key>thai:baht</key>
+			<integer>-36</integer>
 			<key>thorn</key>
 			<integer>69</integer>
 			<key>thorn.alt1</key>
@@ -3505,8 +3543,38 @@
 			<real>40.5</real>
 			<key>trademark</key>
 			<integer>-18</integer>
+			<key>triangledownblack</key>
+			<real>15.75</real>
+			<key>triangledownsmallblack</key>
+			<real>10.5</real>
+			<key>triangledownsmallwhite</key>
+			<integer>12</integer>
+			<key>triangledownwhite</key>
+			<real>-34.5</real>
+			<key>triangleleftblack</key>
+			<integer>24</integer>
+			<key>triangleleftsmallblack</key>
+			<integer>12</integer>
+			<key>triangleleftsmallwhite</key>
+			<real>36.75</real>
+			<key>triangleleftwhite</key>
+			<integer>-30</integer>
 			<key>trianglerightblack</key>
 			<integer>27</integer>
+			<key>trianglerightsmallblack</key>
+			<real>40.5</real>
+			<key>trianglerightsmallwhite</key>
+			<integer>45</integer>
+			<key>trianglerightwhite</key>
+			<real>34.5</real>
+			<key>triangleupblack</key>
+			<real>9.75</real>
+			<key>triangleupsmallblack</key>
+			<integer>21</integer>
+			<key>triangleupsmallwhite</key>
+			<real>-30.75</real>
+			<key>triangleupwhite</key>
+			<real>-42.75</real>
 			<key>tse-cy.loclBGR</key>
 			<real>13.5</real>
 			<key>tsecyr</key>
@@ -3729,6 +3797,8 @@
 			<real>72.75</real>
 			<key>vecyr.alt3</key>
 			<real>-36.75</real>
+			<key>verticalbardbl</key>
+			<integer>24</integer>
 			<key>w</key>
 			<integer>-48</integer>
 			<key>w.alt1</key>
