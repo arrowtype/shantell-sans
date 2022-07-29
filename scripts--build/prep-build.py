@@ -898,7 +898,9 @@ def main():
 
     print("🤖 Making source fonts compatible (removing unique glyphs, etc)")
     makePrepFontsGlyphCompatible(fonts) # makes glyph sets the same in prepped fonts
-    makeCompatible(fonts)               # basic check for glyphs that aren’t compatible (useful but imperfect for VFs, as it relies on FontParts .isCompatible method)
+
+    ## removing this as we finalize the fonts ... we want to catch any incompatible glyphs
+    # makeCompatible(fonts)               # basic check for glyphs that aren’t compatible (useful but imperfect for VFs, as it relies on FontParts .isCompatible method)
 
     print("🤖 Decomposing digraphs")
     decomposeDigraphs(fonts)
