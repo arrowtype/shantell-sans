@@ -388,31 +388,17 @@ def recordBounceGlyphsApp(gsfont, glyphName, moveY):
         glyphBounceDict[glyphName] = moveY
 
 
-def recordBounce(font, glyphName, moveY):
-    """
-        Record amount of Y-axis movement for a given glyph in the font lib.
-    """
-    try:
-        font.lib["com.arrowtype.glyphBounces"][glyphName] = moveY
-    except KeyError:
-        font.lib["com.arrowtype.glyphBounces"] = {}
-        font.lib["com.arrowtype.glyphBounces"][glyphName] = moveY
-
-
-def resetBounces():
+def resetBounces(gsfont):
     """
         ONLY USE if you want to blow up the previously-set bounce values.
 
         Only use during active design, not afterward when repeating the build to refine/fix issues.
     """
 
-    light = Font(sources["light"])
-    light.lib["com.arrowtype.glyphBounces"].clear()
-    light.save()
+    mainMaster = [master for master in gsfont.masters if master.name == "ExtraBold"][0]
+    del mainMaster.userData["com.arrowtype.glyphBounces"]
 
-    extrabold = Font(sources["extrabold"])
-    extrabold.lib["com.arrowtype.glyphBounces"].clear()
-    extrabold.save()
+    mainMaster.userData["com.arrowtype.glyphBounces"] = {}
 
 
 def shiftGlyphs(font,gsfont,randomLimit=100,minShift=50,factor=1):
@@ -884,8 +870,8 @@ def main():
 
     # TODO: add step to write these new bounces to Glyphs source
     # ONLY DO THE FOLLOWING IF YOU WANT TO COMPLETELY SHIFT/CHANGE BOUNCY STYLES
-    # print("🤖 Resetting bounce randomization in sources")
-    # resetBounces()
+    print("🤖 Resetting bounce randomization in sources")
+    resetBounces(gsfont)
 
     print(f"🤖 Copying fonts to {prepDir}")
     makePrepDir(ufosDir, sourceUfos)
@@ -913,13 +899,13 @@ def main():
     print("🤖 Shifting bouncy alts")
     for font in fonts:
         if "bounce" in font.path and "reverse_bounce" not in font.path:
-            shiftGlyphs(font, gsfont, factor=0.75) # factor 0.75 makes moves of up to 75 units
+            shiftGlyphs(font, gsfont, factor=1.25) # factor 1 makes moves of up to 100 units
     
     # split into separate loop so reverse sources always go second
     for font in fonts:
         if "reverse_bounce" in font.path:
             print("reverse bounces for ", font.path)
-            shiftGlyphs(font, gsfont, factor=-0.75) # factor -0.75 makes moves of up to -75 units
+            shiftGlyphs(font, gsfont, factor=-1.25) # factor -1 makes moves of up to -100 units
 
     # save any bounce values recorded into Glyphs source
     gsfont.save(glyphsFile)
