@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Uhornhoi" format="2">
+	<unicode hex="1EEC"/>
+	<advance width="750"/>
+	<outline>
+		<component base="Uhorn"/>
+		<component base="hookabovecmb" xOffset="329" yOffset="95"/>
+	</outline>
+	<anchor name="bottom" x="338" y="50"/>
+	<anchor name="ogonek" x="464" y="73"/>
+	<anchor name="top" x="329" y="610"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

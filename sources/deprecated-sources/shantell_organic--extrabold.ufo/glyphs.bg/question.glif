@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="question" format="2">
+	<unicode hex="003F"/>
+	<advance width="541"/>
+	<outline>
+		<contour>
+			<point x="105" y="591" type="move"/>
+			<point x="144" y="611"/>
+			<point x="212" y="625"/>
+			<point x="262" y="625" type="curve" smooth="yes"/>
+			<point x="371" y="625"/>
+			<point x="426" y="565"/>
+			<point x="426" y="513" type="curve" smooth="yes"/>
+			<point x="426" y="464"/>
+			<point x="398" y="425"/>
+			<point x="341" y="399" type="curve" smooth="yes"/>
+			<point x="252" y="358"/>
+			<point x="240" y="330"/>
+			<point x="240" y="307" type="curve" smooth="yes"/>
+			<point x="240" y="283"/>
+			<point x="252" y="260"/>
+			<point x="283" y="240" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

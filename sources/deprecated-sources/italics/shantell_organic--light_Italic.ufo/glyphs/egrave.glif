@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="egrave" format="2">
+	<unicode hex="00E8"/>
+	<advance width="580"/>
+	<outline>
+		<component base="e"/>
+		<component base="gravecomb" xOffset="347" yOffset="37"/>
+	</outline>
+	<anchor name="bottom" x="196.795" y="-36"/>
+	<anchor name="ogonek" x="341.195" y="-9"/>
+	<anchor name="top" x="355.396" y="522"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>e</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>gravecomb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

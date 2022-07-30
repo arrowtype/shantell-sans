@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="semicolon" format="2">
+	<unicode hex="003B"/>
+	<advance width="318"/>
+	<outline>
+		<contour>
+			<point x="153" y="335" type="curve" smooth="yes"/>
+			<point x="236.581" y="335"/>
+			<point x="280" y="378.315"/>
+			<point x="280" y="428" type="curve" smooth="yes"/>
+			<point x="280" y="478.833"/>
+			<point x="250.31" y="528"/>
+			<point x="175" y="528" type="curve" smooth="yes"/>
+			<point x="100.872" y="528"/>
+			<point x="41" y="490.458"/>
+			<point x="41" y="422" type="curve" smooth="yes"/>
+			<point x="41" y="363.701"/>
+			<point x="78.639" y="335"/>
+		</contour>
+		<component base="comma"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

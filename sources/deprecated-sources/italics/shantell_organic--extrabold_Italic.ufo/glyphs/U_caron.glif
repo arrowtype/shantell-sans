@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ucaron" format="2">
+	<unicode hex="01D3"/>
+	<advance width="659"/>
+	<outline>
+		<component base="U"/>
+		<component base="caroncomb" xOffset="348" yOffset="95"/>
+	</outline>
+	<anchor name="bottom" x="296.457" y="50"/>
+	<anchor name="ogonek" x="427.057" y="73"/>
+	<anchor name="top" x="399.458" y="610"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>U</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>caroncomb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

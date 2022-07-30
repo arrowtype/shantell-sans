@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ebreve" format="2">
+	<unicode hex="0114"/>
+	<advance width="684"/>
+	<outline>
+		<component base="E" xOffset="-4"/>
+		<component base="brevecomb" xOffset="407" yOffset="225"/>
+	</outline>
+	<anchor name="bottom" x="292.525" y="-25"/>
+	<anchor name="ogonek" x="507.125" y="18"/>
+	<anchor name="top" x="506.018" y="975"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>E</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>brevecomb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

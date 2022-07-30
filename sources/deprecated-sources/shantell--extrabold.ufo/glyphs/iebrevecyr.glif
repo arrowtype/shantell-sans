@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iebrevecyr" format="2">
+	<unicode hex="04D7"/>
+	<advance width="611"/>
+	<outline>
+		<component base="e"/>
+		<component base="brevecomb-cy" xOffset="115"/>
+	</outline>
+	<anchor name="bottom" x="309" y="0"/>
+	<anchor name="ogonek" x="505" y="41"/>
+	<anchor name="top_1" x="309" y="515"/>
+	<anchor name="top_2" x="309" y="515"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.992,0.706,0.831,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

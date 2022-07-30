@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="estailcyr" format="2">
+	<unicode hex="04AB"/>
+	<advance width="482"/>
+	<outline>
+		<contour>
+			<point x="210.161" y="18" type="curve" smooth="yes"/>
+			<point x="191.161" y="-74"/>
+			<point x="198.161" y="-143"/>
+			<point x="247.161" y="-143" type="curve" smooth="yes"/>
+			<point x="262.161" y="-143"/>
+			<point x="270.161" y="-134"/>
+			<point x="272.161" y="-126" type="curve" smooth="yes"/>
+			<point x="277.161" y="-100"/>
+			<point x="255.161" y="-58"/>
+			<point x="273.161" y="28" type="curve" smooth="yes"/>
+			<point x="278.161" y="57"/>
+			<point x="278.161" y="70"/>
+			<point x="263.161" y="70" type="curve" smooth="yes"/>
+			<point x="238.161" y="70"/>
+			<point x="216.161" y="48"/>
+		</contour>
+		<component base="c" xOffset="4.367"/>
+	</outline>
+	<anchor name="bottom" x="238.961" y="34"/>
+	<anchor name="top" x="308.362" y="436"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

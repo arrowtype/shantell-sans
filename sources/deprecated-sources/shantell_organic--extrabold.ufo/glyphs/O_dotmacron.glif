@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Odotmacron" format="2">
+	<unicode hex="0230"/>
+	<advance width="657"/>
+	<outline>
+		<component base="O"/>
+		<component base="dotmacroncomb" xOffset="314" yOffset="114"/>
+	</outline>
+	<anchor name="bottom" x="314" y="46.8"/>
+	<anchor name="ogonek" x="457" y="75.8"/>
+	<anchor name="top" x="314" y="629.15"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

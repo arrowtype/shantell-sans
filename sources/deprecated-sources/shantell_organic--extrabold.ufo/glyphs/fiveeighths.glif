@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fiveeighths" format="2">
+	<unicode hex="215D"/>
+	<advance width="1460"/>
+	<outline>
+		<component base="five.numr"/>
+		<component base="fraction" xOffset="540"/>
+		<component base="eight.dnom" xOffset="920"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ecircumflextilde" format="2">
+	<unicode hex="1EC5"/>
+	<advance width="562"/>
+	<outline>
+		<component base="e"/>
+		<component base="circumflexcomb" xOffset="299"/>
+		<component base="tildecomb" xOffset="299" yOffset="196"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.5534,0.5534,0.5534,0.4845</string>
+		</dict>
+	</lib>
+</glyph>

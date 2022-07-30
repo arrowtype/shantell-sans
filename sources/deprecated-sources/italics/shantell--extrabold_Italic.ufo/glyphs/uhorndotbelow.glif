@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uhorndotbelow" format="2">
+	<unicode hex="1EF1"/>
+	<advance width="746"/>
+	<outline>
+		<component base="uhorn"/>
+		<component base="dotbelowcmb" xOffset="342"/>
+	</outline>
+	<anchor name="bottom" x="291.166" y="0"/>
+	<anchor name="ogonek" x="362.532" y="5"/>
+	<anchor name="top" x="394.167" y="515"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>uhorn</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>dotbelowcmb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

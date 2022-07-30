@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="increment" format="2">
+	<unicode hex="2206"/>
+	<advance width="700"/>
+	<outline>
+		<contour>
+			<point x="596" y="71" type="move"/>
+			<point x="469" y="182"/>
+			<point x="489" y="391"/>
+			<point x="348" y="628" type="curve"/>
+			<point x="247" y="441"/>
+			<point x="209" y="286"/>
+			<point x="128" y="89" type="curve"/>
+		</contour>
+		<contour>
+			<point x="105" y="76" type="move"/>
+			<point x="246" y="66"/>
+			<point x="364" y="99"/>
+			<point x="573" y="82" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

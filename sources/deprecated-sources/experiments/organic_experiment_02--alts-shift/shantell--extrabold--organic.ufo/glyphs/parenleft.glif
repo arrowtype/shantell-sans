@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parenleft" format="2">
+	<unicode hex="0028"/>
+	<advance width="519"/>
+	<image fileName="parenleft.png" xScale="2.5963710802" yScale="2.5963710802" xOffset="-138.7459756108" yOffset="-555.3762351949" color="0,0,0,0.18426"/>
+	<outline>
+		<contour>
+			<point x="441" y="591.5579066288" type="curve" smooth="yes"/>
+			<point x="341" y="473.5579066288"/>
+			<point x="245" y="311.5579066288"/>
+			<point x="245" y="121.5579066288" type="curve" smooth="yes"/>
+			<point x="245" y="-40.4420933712"/>
+			<point x="319" y="-148.4420933712"/>
+			<point x="439" y="-188.4420933712" type="curve" smooth="yes"/>
+			<point x="483" y="-203.4420933712"/>
+			<point x="499" y="-216.4420933712"/>
+			<point x="499" y="-247.4420933712" type="curve" smooth="yes"/>
+			<point x="499" y="-296.4420933712"/>
+			<point x="448" y="-327.4420933712"/>
+			<point x="402" y="-327.4420933712" type="curve" smooth="yes"/>
+			<point x="381" y="-327.4420933712"/>
+			<point x="366" y="-325.4420933712"/>
+			<point x="321" y="-307.4420933712" type="curve" smooth="yes"/>
+			<point x="186" y="-251.4420933712"/>
+			<point x="69" y="-123.4420933712"/>
+			<point x="69" y="121.5579066288" type="curve" smooth="yes"/>
+			<point x="69" y="353.5579066288"/>
+			<point x="181" y="555.5579066288"/>
+			<point x="310" y="708.5579066288" type="curve" smooth="yes"/>
+			<point x="333" y="736.5579066288"/>
+			<point x="358" y="746.5579066288"/>
+			<point x="383" y="746.5579066288" type="curve" smooth="yes"/>
+			<point x="428" y="746.5579066288"/>
+			<point x="474" y="700.5579066288"/>
+			<point x="474" y="655.5579066288" type="curve" smooth="yes"/>
+			<point x="474" y="635.5579066288"/>
+			<point x="464" y="618.5579066288"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.typemytype.robofont.Image.Brightness</key>
+			<integer>0</integer>
+			<key>com.typemytype.robofont.Image.Contrast</key>
+			<integer>1</integer>
+			<key>com.typemytype.robofont.Image.Saturation</key>
+			<integer>1</integer>
+			<key>com.typemytype.robofont.Image.Sharpness</key>
+			<real>0.400000006</real>
+		</dict>
+	</lib>
+</glyph>

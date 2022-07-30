@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Einvertedbreve" format="2">
+	<unicode hex="0206"/>
+	<advance width="663"/>
+	<outline>
+		<component base="E" xOffset="5"/>
+		<component base="invertedbrevecmb" xOffset="415" yOffset="209"/>
+	</outline>
+	<anchor name="bottom" x="304.947" y="-18"/>
+	<anchor name="ogonek" x="539.747" y="36"/>
+	<anchor name="top" x="517.563" y="959"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>E</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>invertedbrevecmb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

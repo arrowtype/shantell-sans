@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ocircumflextilde" format="2">
+	<unicode hex="1ED7"/>
+	<advance width="600"/>
+	<outline>
+		<component base="o"/>
+		<component base="circumflextildecomb" xOffset="321"/>
+	</outline>
+	<anchor name="bottom" x="261.695" y="0"/>
+	<anchor name="ogonek" x="396.095" y="37"/>
+	<anchor name="top" x="369.695" y="485"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="commaturnedabovecmb" format="2">
+	<unicode hex="0312"/>
+	<outline>
+		<contour>
+			<point x="67.594" y="567" type="curve" smooth="yes"/>
+			<point x="91.594" y="567"/>
+			<point x="105.594" y="582"/>
+			<point x="112.594" y="616" type="curve" smooth="yes"/>
+			<point x="118.594" y="645"/>
+			<point x="124.594" y="666"/>
+			<point x="145.594" y="695" type="curve" smooth="yes"/>
+			<point x="165.594" y="723"/>
+			<point x="170.594" y="733"/>
+			<point x="172.594" y="745" type="curve" smooth="yes"/>
+			<point x="175.594" y="759"/>
+			<point x="167.594" y="768"/>
+			<point x="150.594" y="768" type="curve" smooth="yes"/>
+			<point x="133.594" y="768"/>
+			<point x="114.594" y="761"/>
+			<point x="95.594" y="741" type="curve" smooth="yes"/>
+			<point x="62.594" y="707"/>
+			<point x="37.594" y="659"/>
+			<point x="31.594" y="628" type="curve" smooth="yes"/>
+			<point x="22.594" y="583"/>
+			<point x="37.594" y="567"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="48.595" y="485"/>
+	<anchor name="top" x="93.595" y="710"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

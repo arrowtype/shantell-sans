@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="300" maximum="800" default="300"/>
+    <axis tag="ORGN" name="Organic" minimum="25" maximum="75" default="25"/>
+  </axes>
+  <sources>
+    <source filename="shantell--light.ufo" familyname="Shantell Sans" stylename="Light">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Organic" xvalue="25"/>
+      </location>
+    </source>
+    <source filename="shantell--extrabold.ufo" familyname="Shantell Sans" stylename="ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Organic" xvalue="25"/>
+      </location>
+    </source>
+    <source filename="shantell--light--organic.ufo" familyname="Shantell Sans" stylename="Light">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Organic" xvalue="75"/>
+      </location>
+    </source>
+    <source filename="shantell--extrabold--organic.ufo" familyname="Shantell Sans" stylename="ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Organic" xvalue="75"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance familyname="Shantell Sans" stylename="Light" filename="instances/Shantell_Sans-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Organic" xvalue="25"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Regular" filename="instances/Shantell_Sans-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Organic" xvalue="25"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Medium" filename="instances/Shantell_Sans-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Organic" xvalue="25"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="SemiBold" filename="instances/Shantell_Sans-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Organic" xvalue="25"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Bold" filename="instances/Shantell_Sans-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Organic" xvalue="25"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="ExtraBold" filename="instances/Shantell_Sans-ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Organic" xvalue="25"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>com.letterror.mathModelPref</key>
+      <string>previewVarLib</string>
+      <key>com.letterror.skateboard.interactionSources</key>
+      <dict>
+        <key>horizontal</key>
+        <array/>
+        <key>ignore</key>
+        <array/>
+        <key>vertical</key>
+        <array>
+          <string>Weight</string>
+        </array>
+      </dict>
+      <key>com.letterror.skateboard.previewLocation</key>
+      <dict>
+        <key>Weight</key>
+        <real>600.0</real>
+      </dict>
+      <key>com.letterror.skateboard.previewText</key>
+      <string>0123456789</string>
+    </dict>
+  </lib>
+</designspace>

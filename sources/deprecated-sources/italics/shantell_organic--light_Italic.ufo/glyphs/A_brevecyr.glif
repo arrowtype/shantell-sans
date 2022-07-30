@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Abrevecyr" format="2">
+	<unicode hex="04D0"/>
+	<advance width="713"/>
+	<outline>
+		<contour>
+			<point x="506.272" y="767" type="curve" smooth="yes"/>
+			<point x="461.272" y="767"/>
+			<point x="438.272" y="803"/>
+			<point x="423.272" y="837" type="curve" smooth="yes"/>
+			<point x="415.272" y="856"/>
+			<point x="408.272" y="881"/>
+			<point x="384.272" y="881" type="curve" smooth="yes"/>
+			<point x="367.272" y="881"/>
+			<point x="356.272" y="868"/>
+			<point x="352.272" y="851" type="curve" smooth="yes"/>
+			<point x="344.272" y="811"/>
+			<point x="384.272" y="707"/>
+			<point x="495.272" y="707" type="curve" smooth="yes"/>
+			<point x="568.272" y="707"/>
+			<point x="654.272" y="756"/>
+			<point x="663.272" y="798" type="curve" smooth="yes"/>
+			<point x="665.272" y="809"/>
+			<point x="660.272" y="820"/>
+			<point x="644.272" y="820" type="curve" smooth="yes"/>
+			<point x="628.272" y="820"/>
+			<point x="607.272" y="804"/>
+			<point x="581.272" y="790" type="curve" smooth="yes"/>
+			<point x="556.272" y="777"/>
+			<point x="534.272" y="767"/>
+		</contour>
+		<component base="A" xOffset="4.478"/>
+	</outline>
+	<anchor name="bottom" x="320.35" y="48"/>
+	<anchor name="ogonek" x="561.95" y="26"/>
+	<anchor name="ring" x="485.151" y="642"/>
+	<anchor name="top" x="484.951" y="641"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

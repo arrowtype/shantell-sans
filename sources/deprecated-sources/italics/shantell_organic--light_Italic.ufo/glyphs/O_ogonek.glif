@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Oogonek" format="2">
+	<unicode hex="01EA"/>
+	<advance width="687"/>
+	<outline>
+		<component base="O"/>
+		<component base="ogonekcmb" xOffset="425" yOffset="73"/>
+	</outline>
+	<anchor name="bottom" x="299.912" y="44"/>
+	<anchor name="ogonek" x="431.712" y="73"/>
+	<anchor name="top" x="414.313" y="616"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>O</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>ogonekcmb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

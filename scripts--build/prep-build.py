@@ -23,23 +23,18 @@ from ufonormalizer import normalizeUFO
 from fontParts.world import *
 from random import random
 import math
+from glyphsLib import GSFont, build_masters
 
 # --------------------------------------------------------
 # START configuration
 
+# the single source of truth
+glyphsFile = "sources/shantellsans-wght_ital_IRGL.glyphs"
+
 releaseGlyphOrder = ".notdef space space.frac uni00A0 A Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek Acaron Aringacute Agravedbl Ainvertedbreve Adotbelow Ahoi Acircumflexacute Acircumflexgrave Acircumflexhoi Acircumflextilde Acircumflexdotbelow Abreveacute Abrevegrave Abrevehoi Abrevetilde Abrevedotbelow B C Ccedilla Cacute Ccircumflex Cdotaccent Ccaron D Dcaron E Egrave Eacute Ecircumflex Edieresis Emacron Ebreve Edotaccent Eogonek Ecaron Egravedbl Einvertedbreve Edotbelow Ehoi Etilde Ecircumflexacute Ecircumflexgrave Ecircumflexhoi Ecircumflextilde Ecircumflexdotbelow F G Gcircumflex Gbreve Gdotaccent uni0122 Gcaron H Hcircumflex I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent Igravedbl Iinvertedbreve Ihoi Idotbelow J Jacute Jcircumflex K uni0136 L Lacute uni013B Lcaron M N Ntilde Nacute uni0145 Ncaron O Ograve Oacute Ocircumflex Otilde Odieresis Omacron Obreve Ohungarumlaut Ohorn Oogonek Ogravedbl Oinvertedbreve Odieresismacron Otildemacron Odotmacron Odotbelow Ohoi Ocircumflexacute Ocircumflexgrave Ocircumflexhoi Ocircumflextilde Ocircumflexdotbelow Ohornacute Ohorngrave Ohornhoi Ohorntilde Ohorndotbelow P Q R Racute uni0156 Rcaron Rgravedbl Rinvertedbreve S Sacute Scircumflex Scedilla Scaron Scommaaccent T Tcedilla Tcaron Tcommaaccent U Ugrave Uacute Ucircumflex Udieresis Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Uhorn Ucaron Ugravedbl Uinvertedbreve Udotbelow Uhoi Uhornacute Uhorngrave Uhornhoi Uhorntilde Uhorndotbelow V W Wcircumflex Wgrave Wacute Wdieresis X Y Yacute Ycircumflex Ydieresis Ymacron Ygrave Ydotbelow Yhoi Ytilde Z Zacute Zdotaccent Zcaron AE AEacute Eth Oslash Oslashacute Thorn Dcroat Hbar IJ IJacute Ldot Lslash Eng OE Tbar Schwa DZcaron LJ NJ Dzcaron Lj Nj Germandbls Omega a agrave aacute acircumflex atilde adieresis aring amacron abreve aogonek acaron aringacute agravedbl ainvertedbreve adotbelow ahoi acircumflexacute acircumflexgrave acircumflexhoi acircumflextilde acircumflexdotbelow abreveacute abrevegrave abrevehoi abrevetilde abrevedotbelow b c ccedilla cacute ccircumflex cdotaccent ccaron d dcaron e egrave eacute ecircumflex edieresis emacron ebreve edotaccent eogonek ecaron egravedbl einvertedbreve edotbelow ehoi etilde ecircumflexacute ecircumflexgrave ecircumflexhoi ecircumflextilde ecircumflexdotbelow f g gcircumflex gbreve gdotaccent uni0123 gcaron h hcircumflex i igrave iacute icircumflex idieresis itilde imacron ibreve iogonek igravedbl iinvertedbreve ihoi idotbelow j jcircumflex k uni0137 l lacute uni013C lcaron m n ntilde nacute uni0146 ncaron o ograve oacute ocircumflex otilde odieresis omacron obreve ohungarumlaut ohorn oogonek ogravedbl oinvertedbreve odieresismacron otildemacron odotmacron odotbelow ohoi ocircumflexacute ocircumflexgrave ocircumflexhoi ocircumflextilde ocircumflexdotbelow ohornacute ohorngrave ohornhoi ohorntilde ohorndotbelow p q r racute uni0157 rcaron rgravedbl rinvertedbreve s sacute scircumflex scedilla scaron scommaaccent t tcedilla tcaron tcommaaccent u ugrave uacute ucircumflex udieresis utilde umacron ubreve uring uhungarumlaut uogonek uhorn ucaron ugravedbl uinvertedbreve udotbelow uhoi uhornacute uhorngrave uhornhoi uhorntilde uhorndotbelow v w wcircumflex wgrave wacute wdieresis x y yacute ydieresis ycircumflex ymacron ygrave ydotbelow yhoi ytilde z zacute zdotaccent zcaron germandbls ae aeacute eth oslash oslashacute thorn dcroat hbar idotless ij ijacute kra ldot lslash eng oe tbar dzcaron lj nj schwa idotaccent jacute jdotless Djecyr Eukrcyr Dzecyr Iukrcyr Yukrcyr Jecyr Ljecyr Njecyr Tshecyr Dzhecyr Acyr Abrevecyr Adieresiscyr Becyr Vecyr Gecyr Gjecyr Decyr Iecyr Iegravecyr Iocyr Iebrevecyr Zhecyr Zhebrevecyr Zhedieresiscyr Zecyr Zedieresiscyr Icyr Igravecyr Ishortcyr Imacroncyr Idieresiscyr Kacyr Kjecyr Elcyr Emcyr Encyr Ocyr Odieresiscyr Pecyr Ercyr Escyr Tecyr Ucyr Ushortcyr Umacroncyr Udieresiscyr Uacutedblcyr Efcyr Hacyr Tsecyr Checyr Chedieresiscyr Shacyr Shchacyr Hardcyr Ylongcyr Ylongdieresiscyr Softcyr Ereversedcyr Yucyr Yacyr Yatcyr Yusbigcyr Fitacyr Izhitsacyr Geupcyr Gestrokecyr Gehookcyr Zhetailcyr Zetailcyr Katailcyr Kaverticalstrokecyr Kabashkcyr Entailcyr Engecyr Estailcyr Ustraightcyr Ustraightstrokecyr Xatailcyr Chetailcyr Chevertcyr Shhacyr Palochkacyr Chekhakascyr Aiecyr Schwacyr Obarcyr Getailcyr Qacyr Wecyr De-cy.loclBGR Ef-cy.loclBGR El-cy.loclBGR Ii-cy.loclBGR Iigrave-cy.loclBGR Iishort-cy.loclBGR acyr abrevecyr adieresiscyr becyr vecyr gecyr gjecyr decyr iecyr iegravecyr iocyr iebrevecyr zhecyr zhebrevecyr zhedieresiscyr zecyr zedieresiscyr icyr ishortcyr igravecyr imacroncyr idieresiscyr kacyr kjecyr elcyr emcyr encyr ocyr odieresiscyr pecyr ercyr escyr tecyr ucyr ushortcyr umacroncyr udieresiscyr uacutedblcyr efcyr hacyr tsecyr checyr chedieresiscyr shacyr shchacyr hardcyr ylongcyr ylongdieresiscyr softcyr ereversedcyr yucyr yacyr djecyr eukrcyr dzecyr iukrcyr yukrcyr jecyr ljecyr njecyr tshecyr dzhecyr yatcyr yusbigcyr fitacyr izhitsacyr geupcyr gestrokecyr gehookcyr zhetailcyr zetailcyr katailcyr kaverticalstrokecyr kabashkcyr entailcyr engecyr estailcyr ustraightcyr ustraightstrokecyr xatailcyr chetailcyr chevertcyr shhacyr chekhakascyr palochkacyr aiecyr schwacyr obarcyr getailcyr qacyr wecyr yukrcyr_yukrcyr yukrcyr_yukrcyr.ss01 che-cy.loclBGR de-cy.loclBGR el-cy.loclBGR en-cy.loclBGR ge-cy.loclBGR hardsign-cy.loclBGR ii-cy.loclBGR iigrave-cy.loclBGR iishort-cy.loclBGR iu-cy.loclBGR ka-cy.loclBGR pe-cy.loclBGR sha-cy.loclBGR shcha-cy.loclBGR softsign-cy.loclBGR te-cy.loclBGR tse-cy.loclBGR ve-cy.loclBGR ze-cy.loclBGR zhe-cy.loclBGR Esdescender-cy.loclBSH Ghestroke-cy.loclBSH Zedescender-cy.loclBSH esdescender-cy.loclBSH ghestroke-cy.loclBSH zedescender-cy.loclBSH be-cy.loclSRB de-cy.loclSRB ge-cy.loclSRB pe-cy.loclSRB te-cy.loclSRB Esdescender-cy.loclCHU esdescender-cy.loclCHU gje-cy.loclMKD apostrophemod ordfeminine ordmasculine gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcmb dieresiscomb hookabovecmb ringcomb ringcomb.A hungarumlautcmb caroncomb gravedoublecmb invertedbrevecmb commaturnedabovecmb horncmb dotbelowcmb dieresisbelowcmb commaaccentbelowcmb cedillacomb ogonekcmb belowbrevecmb macronbelowcmb breveacutecomb brevecomb-cy brevegravecomb brevehookabovecomb brevetildecomb circumflexacutecomb circumflexgravecomb circumflexhookabovecomb circumflextildecomb dieresismacroncomb dotmacroncomb ringacutecomb tildemacroncomb zero one two three four five six seven eight nine period.tnum comma.tnum colon.tnum slash.tnum zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr zero.pnum one.pnum two.pnum three.pnum four.pnum five.pnum six.pnum seven.pnum eight.pnum nine.pnum zero.inferior one.inferior two.inferior three.inferior four.inferior five.inferior six.inferior seven.inferior eight.inferior nine.inferior zero.superior four.superior five.superior six.superior seven.superior eight.superior nine.superior onesuperior twosuperior threesuperior onequarter onehalf threequarters onethird twothirds oneeighth threeeighths fiveeighths seveneighths underscore hyphen uni2010 endash emdash parenleft parenright bracketleft bracketright braceleft braceright bracketangleleft bracketangleright numbersign percent perthousand quotesingle quotedbl quoteleft quoteright quotedblleft quotedblright quotesinglbase quotedblbase guilsinglleft guilsinglright guillemetleft guillemetright asterisk dagger daggerdbl period comma colon semicolon ellipsis exclam exclamdown question questiondown slash backslash fraction bar brokenbar at ampersand section paragraph litre numero periodcentered bullet minute second primemod primedblmod plus minus plusminus divide multiply equal less greater lessequal greaterequal approxequal notequal logicalnot mu.math pi commercialminussign arrowleft arrowup arrowright arrowdown partialdiff increment product summation divisionslash bulletoperator radical infinity integral dollar cent sterling currency yen colonmonetary lira naira won dong Euro fhook kip tugrik peso guarani hryvnia cedi tenge indianrupee turkishlira manat ruble asciicircum asciitilde acute grave hungarumlaut circumflex caron breve tilde macron dieresis dotaccent ring cedilla ogonek copyright registered trademark degree arrowNW arrowNE arrowSE arrowSW doublebarvertical trianglerightblack lozenge heartwhite heartblack check checkheavy uni00AD hyphen.case endash.case emdash.case parenleft.case parenright.case bracketleft.case bracketright.case braceleft.case braceright.case bracketangleleft.case bracketangleright.case guilsinglleft.case guilsinglright.case guillemetleft.case guillemetright.case slash.case backslash.case at.case exclamdown.case questiondown.case periodcentered.case bullet.case periodcentered.loclCAT periodcentered.loclCAT_case f_f fi fl f_f_i f_f_l hyphen.line hyphen_line.3 hyphen_line.4 hyphen_line.5 hyphen_line.6 hyphen_line.7 hyphen_line.8 hyphen_line.9 hyphen_line.10 hyphen_line.11 hyphen_line.12 hyphen_line.13 hyphen_line.14 hyphen_line.15 hyphen_line.16 hyphen_line.17 hyphen_line.18 hyphen_line.19 hyphen_line.20 hyphen_line.21 hyphen_line.22 hyphen_line.23 hyphen_line.24 hyphen_line.25 hyphen_line.26 hyphen_line.27 hyphen_line.28 hyphen_line.29 hyphen_line.30 hyphen_line.31 hyphen_line.32 hyphen_line.33 hyphen_line.34 hyphen_line.35 hyphen_line.36 hyphen_line.37 hyphen_line.38 hyphen_line.39 hyphen_line.40 hyphen_line.41 hyphen_line.42 hyphen_line.43 hyphen_line.44 hyphen_line.45 hyphen_line.46 hyphen_line.47 hyphen_line.48 hyphen_line.49 hyphen_line.50".split(" ")
 
-# 8 manually-drawn sources to look for; matches a short name to a filepath to use in makePrepDir()
-sources = {
-    "light": "sources/shantell--light.ufo",
-    "extrabold": "sources/shantell--extrabold.ufo",
-    "irregularLight": "sources/shantell_organic--light.ufo",
-    "irregularExtrabold": "sources/shantell_organic--extrabold.ufo",
-    "lightItalic": "sources/italics/shantell--light_italic.ufo",
-    "extraboldItalic": "sources/italics/shantell--extrabold_italic.ufo",
-    "irregularLightItalic": "sources/italics/shantell_organic--light_italic.ufo",
-    "irregularExtraboldItalic": "sources/italics/shantell_organic--extrabold_italic.ufo",
-}
+# directory to output UFOs converted from GlyphsApp source
+ufosDir = 'sources/ital_wght_IRGL--UFOs'
 
 # where prepped UFOs are put
 prepDir = 'sources/ital_wght_BNCE_IRGL_TRAK--prepped'
@@ -56,7 +51,7 @@ featuresDir = "sources/features/features"
 # letters to make alts for (all letters)
 altsToMake = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzßæÞðþẞ"
 altsToMake += "ÉéÓóÍíÁáÈèÜüÇçÃãÖöÄäÑñ"
-altsToMake += "ЂЄЉЊЋЏБГДЖЗИЛМПУФЦЧШЩЪЫЬЭЮЯѢѪѴҐҔҖҚҜҠҢҤҮҲҶҸҺӀӋӘӶбвгджзиклмнптфцчшщъыьэюяђєљњћџѣѫѵґҕҗқҝҡңҥүұҳҷҹӌӏәөӷ"
+altsToMake += "ЂЄЅІЇЈЉЊЋЏАБВГЃДЕЀЁЖЗИЍЙӢКЌЛМНОПРСТУЎӮФХЦЧШЩЪЫЬЭЮЯѢѲѴҐҒҖҚҢҮҰҲҶҺӀӘӨабвгѓдеѐёжзийѝӣкќлмнопрстуўӯфхцчшщъыьэюяђєѕіїјљњћџѣѳѵґғҗқңүұҳҷһӏәө"
 
 # numbers & basic symbols
 altsToMake += "0123456789!\"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~“”‘’"
@@ -91,41 +86,59 @@ trackedPath = "shantell_tracked--light.ufo"
 # --------------------------------------------------------
 
 # add just the basic upper & lowercase (used later in the calt code generator)
-uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-lowercase = "abcdefghijklmnopqrstuvwxyz"
+uppercase = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z".split(" ")
+lowercase = "a b c d e f g h i j k l m n o p q r s t u v w x y z".split(" ")
+
+# add Cyrillic basic upper & lowercase
+uppercase += "Djecyr Eukrcyr Dzecyr Iukrcyr Yukrcyr Jecyr Ljecyr Njecyr Tshecyr Dzhecyr Acyr Becyr Vecyr Gecyr Gjecyr Decyr Iecyr Iegravecyr Iocyr Zhecyr Zecyr Icyr Igravecyr Ishortcyr Imacroncyr Kacyr Kjecyr Elcyr Emcyr Encyr Ocyr Pecyr Ercyr Escyr Tecyr Ucyr Ushortcyr Umacroncyr Efcyr Hacyr Tsecyr Checyr Shacyr Shchacyr Hardcyr Ylongcyr Softcyr Ereversedcyr Yucyr Yacyr Yatcyr Fitacyr Izhitsacyr Geupcyr Gestrokecyr Zhetailcyr Katailcyr Entailcyr Ustraightcyr Ustraightstrokecyr Xatailcyr Chetailcyr Shhacyr Palochkacyr Schwacyr Obarcyr".split(" ")
+lowercase += "acyr becyr vecyr gecyr gjecyr decyr iecyr iegravecyr iocyr zhecyr zecyr icyr ishortcyr igravecyr imacroncyr kacyr kjecyr elcyr emcyr encyr ocyr pecyr ercyr escyr tecyr ucyr ushortcyr umacroncyr efcyr hacyr tsecyr checyr shacyr shchacyr hardcyr ylongcyr softcyr ereversedcyr yucyr yacyr djecyr eukrcyr dzecyr iukrcyr yukrcyr jecyr ljecyr njecyr tshecyr dzhecyr yatcyr fitacyr izhitsacyr geupcyr gestrokecyr zhetailcyr katailcyr entailcyr ustraightcyr ustraightstrokecyr xatailcyr chetailcyr shhacyr palochkacyr schwacyr obarcyr".split(" ")
 
 # get integer unicode values for string of characters from above
 altsToMakeList = [ord(char) for char in altsToMake]
 
 
+def makeUFOsDir():
+    if not os.path.exists(ufosDir):
+        os.mkdir(ufosDir)
+
+
+def convertGlyphs2UFO(glyphs_file, outputDir):
+
+    # build UFOs from Glyphs source, using glyphsLib
+    # also gets the output dict of source filenames, ufoLib2 Font objects
+    sourceUfos = build_masters(
+        glyphs_file,
+        outputDir
+    )[0]
+
+    return sourceUfos
+
+
 # make folder 'wght_bnce_dynm' & copy in sources
-def makePrepDir():
+def makePrepDir(ufosDir, sourceUfos):
     if not os.path.exists(prepDir):
         os.mkdir(prepDir)
 
-    for name, source in sources.items():
+    for filename, font in sourceUfos.items():
         try:
-            copyTo = prepDir+'/'+os.path.split(source)[1]
-            # destination = shutil.copytree(src, dest)
+            copyTo = prepDir+'/'+filename
             if not os.path.exists(copyTo):
-                shutil.copytree(source, copyTo)
+                shutil.copytree(font.path, copyTo)
         except FileNotFoundError:
             pass
 
         # make bounce UFOs
-        if name in ["light","extrabold","lightItalic","extraboldItalic"]:
-            # bounceCopy = prepDir+'/'+os.path.split(sources[f"bounce{name[0].upper() + name[1:]}"])[1]
-            bounceCopy = prepDir+'/'+os.path.split(sources[name])[1].replace("shantell--","shantell_bounce--")
+        if font.info.styleName in ["Light","ExtraBold","Light Italic","ExtraBold Italic"]:
+            bounceCopy = prepDir + '/' + filename.replace("shantell--","shantell_bounce--")
             if not os.path.exists(bounceCopy):
-                shutil.copytree(source, bounceCopy)
+                shutil.copytree(font.path, bounceCopy)
 
         # make bounce-reverse UFOs
-        if name in ["light","extrabold","lightItalic","extraboldItalic"]:
+        if font.info.styleName in ["Light","ExtraBold","Light Italic","ExtraBold Italic"]:
             # we have to also format the names to find the other paths
-            # bounceReverseCopy = prepDir+'/'+os.path.split(sources[f"bounceReverse{name[0].upper() + name[1:]}"])[1]
-            bounceReverseCopy = prepDir+'/'+os.path.split(sources[name])[1].replace("shantell--","shantell_reverse_bounce--")
+            bounceReverseCopy = prepDir + '/' + filename.replace("shantell--","shantell_reverse_bounce--")
             if not os.path.exists(bounceReverseCopy):
-                shutil.copytree(source, bounceReverseCopy)
+                shutil.copytree(font.path, bounceReverseCopy)
 
 
 def sortGlyphOrder(fonts):
@@ -360,36 +373,39 @@ def makeBounce(font, glyph, randomLimit=100, minShift=50, factor=1):
     return moveY
 
 
-def recordBounce(font, glyphName, moveY):
+def recordBounceGlyphsApp(gsfont, glyphName, moveY):
     """
-        Record amount of Y-axis movement for a given glyph in the font lib.
+        Record generated pseudo-random bounces in GlyphsApp source.
     """
+
+    mainMaster = [master for master in gsfont.masters if master.name == "ExtraBold"][0]
+    glyphBounceDict = mainMaster.userData["com.arrowtype.glyphBounces"]
+
     try:
-        font.lib["com.arrowtype.glyphBounces"][glyphName] = moveY
+        glyphBounceDict[glyphName] = moveY
     except KeyError:
-        font.lib["com.arrowtype.glyphBounces"] = {}
-        font.lib["com.arrowtype.glyphBounces"][glyphName] = moveY
+        glyphBounceDict = {}
+        glyphBounceDict[glyphName] = moveY
 
 
-def resetBounces():
+def resetBounces(gsfont):
     """
         ONLY USE if you want to blow up the previously-set bounce values.
 
         Only use during active design, not afterward when repeating the build to refine/fix issues.
     """
 
-    light = Font(sources["light"])
-    light.lib["com.arrowtype.glyphBounces"].clear()
-    light.save()
+    mainMaster = [master for master in gsfont.masters if master.name == "ExtraBold"][0]
+    del mainMaster.userData["com.arrowtype.glyphBounces"]
 
-    extrabold = Font(sources["extrabold"])
-    extrabold.lib["com.arrowtype.glyphBounces"].clear()
-    extrabold.save()
+    mainMaster.userData["com.arrowtype.glyphBounces"] = {}
 
 
-def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
+def shiftGlyphs(font,gsfont,randomLimit=100,minShift=50,factor=1):
     """
         Shift glyphs in Bouncy sources.
+
+        gsfont is a Glyphs source opened by glyphsLib.
     """
 
     glyphsToNotShift ="\
@@ -404,12 +420,11 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
         caron breve tilde macron dieresis dotaccent ring cedilla ogonek ogonekcmb \
     ".split()
 
+    # get glyphBounces dict from ExtraBold source
+    mainMaster = [master for master in gsfont.masters if master.name == "ExtraBold"][0]
+    glyphBounceDict = mainMaster.userData["com.arrowtype.glyphBounces"]
+
     if "bounce" in font.path:
-        # determine whether style is light or extrabold bouncy, then open that base font
-        if "light" in font.path:
-            baseFont = Font(sources["light"])
-        elif "extrabold" in font.path:
-            baseFont = Font(sources["extrabold"])
 
         for g in font:
             if g.name not in glyphsToNotShift and len(g.components) == 0:
@@ -417,15 +432,15 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
                 moveY = 0
 
                 try:
-                    # try: look up bounce dict in the core light/extrabold font, use in this font
-                    moveY = baseFont.lib["com.arrowtype.glyphBounces"][g.name] * factor
+                    # try: look up bounce dict in the core extrabold master userData, use in this font
+                    moveY = glyphBounceDict[g.name] * factor
                     g.moveBy((italicBounceShift(moveY, font),moveY))
 
                 # y bounce not yet generated
                 except KeyError:
-                    # except KeyError: generate bounce value and add to core light/extrabold font
+                    # except KeyError: generate bounce value and add to the core extrabold master userData
                     moveY = makeBounce(font, g, randomLimit, minShift, factor)
-                    recordBounce(baseFont, g.name, moveY)
+                    recordBounceGlyphsApp(gsfont, g.name, moveY)
 
                 # record shift in the glyph’s lib for later use
                 g.lib['com.arrowtype.yShift'] = moveY
@@ -466,19 +481,15 @@ def shiftGlyphs(font,randomLimit=100,minShift=50,factor=1):
 
                 # move full glyph again # BUT WAIT, this just breaks it? ... does it need all components moved separately, rather than the whole thing moved?
                 try:
-                    moveY = baseFont.lib["com.arrowtype.glyphBounces"][g.name] * factor
+                    moveY = glyphBounceDict[g.name] * factor
                     g.moveBy((italicBounceShift(moveY, font),moveY))
                 except KeyError:
                     moveY = makeBounce(font, g, randomLimit, minShift, factor)
-                    recordBounce(baseFont, g.name, moveY)
+                    recordBounceGlyphsApp(gsfont, g.name, moveY)
 
                 g.lib['com.arrowtype.yShift'] = moveY
 
         font.save()
-        # save any generated glyph bounce data to main source fonts
-        baseFont.save() 
-        # re-normalize main source fonts
-        normalizeUFO(baseFont.path, writeModTimes=False)
 
 
 def makeComponentsAlts(fonts, numOfAlts=2):
@@ -842,17 +853,28 @@ def setLibKeys(font):
 
 def main():
 
-    # The setup
+    # opening glyphs source in memory
+    gsfont =  GSFont(glyphsFile)
+    
+    # clean up previous run
+    if os.path.exists(ufosDir):
+        shutil.rmtree(ufosDir,ignore_errors=True)
 
+    # convert UFOs from glyphs source
+    print(f"🤖 Generating UFO fonts to {ufosDir}")
+    sourceUfos = convertGlyphs2UFO(glyphsFile, ufosDir)
+
+    # The setup
     if os.path.exists(prepDir):
         shutil.rmtree(prepDir,ignore_errors=True)
 
+    # TODO: add step to write these new bounces to Glyphs source
     # ONLY DO THE FOLLOWING IF YOU WANT TO COMPLETELY SHIFT/CHANGE BOUNCY STYLES
-    # print("🤖 Resetting bounce randomization in sources")
-    # resetBounces()
+    print("🤖 Resetting bounce randomization in sources")
+    resetBounces(gsfont)
 
     print(f"🤖 Copying fonts to {prepDir}")
-    makePrepDir() 
+    makePrepDir(ufosDir, sourceUfos)
     newFontPaths = [os.path.join(prepDir, path) for path in os.listdir(prepDir) if '.ufo' in path]
 
     print("🤖 Opening fonts")
@@ -877,20 +899,27 @@ def main():
     print("🤖 Shifting bouncy alts")
     for font in fonts:
         if "bounce" in font.path and "reverse_bounce" not in font.path:
-            shiftGlyphs(font, factor=0.75) # factor 0.75 makes moves of up to 75 units
+            shiftGlyphs(font, gsfont, factor=1.25) # factor 1 makes moves of up to 100 units
     
     # split into separate loop so reverse sources always go second
     for font in fonts:
         if "reverse_bounce" in font.path:
             print("reverse bounces for ", font.path)
-            shiftGlyphs(font, factor=-0.75) # factor -0.75 makes moves of up to -75 units
+            shiftGlyphs(font, gsfont, factor=-1.25) # factor -1 makes moves of up to -100 units
+
+    # save any bounce values recorded into Glyphs source
+    gsfont.save(glyphsFile)
 
     # interpolate alts in irregular fonts
     print("🤖 Interpolating organic alts")
 
     # Dumb setup. Will it work?
-    interpolateAlts([f for f in fonts if "shantell--light" in f.path][0], [f for f in fonts if "organic--light" in f.path][0], altsMadeForList)
-    interpolateAlts([f for f in fonts if "shantell--extrabold" in f.path][0], [f for f in fonts if "organic--extrabold" in f.path][0], altsMadeForList)
+    # TODO: interpolate alts in italics
+    interpolateAlts([f for f in fonts if "shantell--light.ufo" in f.path][0], [f for f in fonts if "organic--light.ufo" in f.path][0], altsMadeForList)
+    interpolateAlts([f for f in fonts if "shantell--extrabold.ufo" in f.path][0], [f for f in fonts if "organic--extrabold.ufo" in f.path][0], altsMadeForList)
+    interpolateAlts([f for f in fonts if "shantell--light_italic.ufo" in f.path][0], [f for f in fonts if "organic--light_italic.ufo" in f.path][0], altsMadeForList)
+    interpolateAlts([f for f in fonts if "shantell--extrabold_italic.ufo" in f.path][0], [f for f in fonts if "organic--extrabold_italic.ufo" in f.path][0], altsMadeForList)
+
 
     # yes, this is needed twice. Once to make shifting work well, then again to make irregular sources compatible again after interpolation
     print("🤖 Making composed alts point to alt components – repeating to fix irregular sources")

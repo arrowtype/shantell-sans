@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Imacron" format="2">
+	<unicode hex="012A"/>
+	<advance width="607"/>
+	<outline>
+		<component base="I"/>
+		<component base="macroncomb" xOffset="310" yOffset="142"/>
+	</outline>
+	<anchor name="bottom" x="307" y="59"/>
+	<anchor name="ogonek" x="526" y="62"/>
+	<anchor name="top" x="310" y="627"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

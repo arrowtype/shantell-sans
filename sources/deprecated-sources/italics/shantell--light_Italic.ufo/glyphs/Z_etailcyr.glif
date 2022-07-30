@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zetailcyr" format="2">
+	<unicode hex="0498"/>
+	<advance width="606"/>
+	<outline>
+		<contour>
+			<point x="214.792" y="13" type="curve" smooth="yes"/>
+			<point x="208.792" y="-13"/>
+			<point x="190.792" y="-77"/>
+			<point x="184.792" y="-107" type="curve" smooth="yes"/>
+			<point x="177.792" y="-140"/>
+			<point x="187.792" y="-177"/>
+			<point x="223.792" y="-177" type="curve" smooth="yes"/>
+			<point x="236.792" y="-177"/>
+			<point x="247.792" y="-160"/>
+			<point x="250.792" y="-143" type="curve" smooth="yes"/>
+			<point x="255.792" y="-118"/>
+			<point x="265.792" y="-59"/>
+			<point x="277.792" y="2" type="curve" smooth="yes"/>
+			<point x="283.792" y="31"/>
+			<point x="274.792" y="44"/>
+			<point x="257.792" y="44" type="curve" smooth="yes"/>
+			<point x="241.792" y="44"/>
+			<point x="217.792" y="32"/>
+		</contour>
+		<component base="Zecyr"/>
+	</outline>
+	<anchor name="top" x="383.793" y="700"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

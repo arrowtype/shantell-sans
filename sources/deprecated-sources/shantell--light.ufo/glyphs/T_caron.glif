@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tcaron" format="2">
+	<unicode hex="0164"/>
+	<advance width="647"/>
+	<outline>
+		<component base="T"/>
+		<component base="caroncomb" xOffset="339" yOffset="185"/>
+	</outline>
+	<anchor name="bottom" x="317" y="0"/>
+	<anchor name="top" x="317" y="700"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>
