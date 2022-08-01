@@ -1,0 +1,8 @@
+feature pnum {
+	# inferiors
+	sub @numbers_dflt by @numbers_pnum;
+} pnum;
+
+feature tnum {
+	sub @punc_prop by @punc_tnum;
+} tnum;

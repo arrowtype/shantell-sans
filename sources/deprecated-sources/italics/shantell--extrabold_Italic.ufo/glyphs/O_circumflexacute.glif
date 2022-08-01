@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ocircumflexacute" format="2">
+	<unicode hex="1ED0"/>
+	<advance width="756"/>
+	<outline>
+		<component base="O" xOffset="-2"/>
+		<component base="circumflexacutecomb" xOffset="402" yOffset="185"/>
+	</outline>
+	<anchor name="bottom" x="313.881" y="0"/>
+	<anchor name="ogonek" x="462.681" y="29"/>
+	<anchor name="top" x="453.882" y="700"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>O</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>circumflexacutecomb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

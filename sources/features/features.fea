@@ -1,5 +1,6 @@
 languagesystem DFLT dflt;
 languagesystem latn dflt;
+languagesystem cyrl dflt; # ⚠️ very necessary!
 
 # include paths written relative to UFOs in varfontprep folders
 # `features` dir will be copied to varfontprep folder, and these includes will link to that

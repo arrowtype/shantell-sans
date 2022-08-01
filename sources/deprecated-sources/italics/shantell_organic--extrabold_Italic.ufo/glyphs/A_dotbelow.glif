@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Adotbelow" format="2">
+	<unicode hex="1EA0"/>
+	<advance width="780"/>
+	<outline>
+		<component base="A" xOffset="-4"/>
+		<component base="dotbelowcmb" xOffset="411" yOffset="54"/>
+	</outline>
+	<anchor name="bottom" x="359.66" y="54"/>
+	<anchor name="ogonek" x="639.26" y="17"/>
+	<anchor name="ring" x="482.46" y="633"/>
+	<anchor name="top" x="481.66" y="634"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>A</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>dotbelowcmb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

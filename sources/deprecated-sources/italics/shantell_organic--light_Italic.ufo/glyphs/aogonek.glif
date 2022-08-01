@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aogonek" format="2">
+	<unicode hex="0105"/>
+	<advance width="644"/>
+	<outline>
+		<component base="a"/>
+		<component base="ogonekcmb" xOffset="521" yOffset="-35"/>
+	</outline>
+	<anchor name="bottom" x="285.993" y="25"/>
+	<anchor name="ogonek" x="528.993" y="-35"/>
+	<anchor name="top" x="377.994" y="485"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

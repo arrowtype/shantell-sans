@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="udieresiscyr" format="2">
+	<unicode hex="04F1"/>
+	<advance width="563"/>
+	<outline>
+		<component base="y"/>
+		<component base="dieresiscomb" xOffset="270"/>
+	</outline>
+	<anchor name="bottom" x="183.792" y="-250"/>
+	<anchor name="top" x="351.793" y="650"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.992,0.706,0.831,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

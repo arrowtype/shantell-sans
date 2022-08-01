@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ishortcyr" format="2">
+	<unicode hex="0439"/>
+	<advance width="723"/>
+	<outline>
+		<contour>
+			<point x="318" y="670" type="curve" smooth="yes"/>
+			<point x="286" y="670"/>
+			<point x="282" y="695"/>
+			<point x="271" y="717" type="curve" smooth="yes"/>
+			<point x="258" y="744"/>
+			<point x="240" y="759"/>
+			<point x="212" y="759" type="curve" smooth="yes"/>
+			<point x="168" y="759"/>
+			<point x="135" y="730"/>
+			<point x="135" y="674" type="curve" smooth="yes"/>
+			<point x="135" y="609"/>
+			<point x="203" y="542"/>
+			<point x="294" y="542" type="curve" smooth="yes"/>
+			<point x="440" y="542"/>
+			<point x="532" y="662"/>
+			<point x="532" y="741" type="curve" smooth="yes"/>
+			<point x="532" y="773"/>
+			<point x="513" y="795"/>
+			<point x="475" y="795" type="curve" smooth="yes"/>
+			<point x="446" y="795"/>
+			<point x="430" y="782"/>
+			<point x="408" y="758" type="curve" smooth="yes"/>
+			<point x="378" y="726"/>
+			<point x="350" y="670"/>
+		</contour>
+		<component base="icyr"/>
+	</outline>
+	<anchor name="top" x="352" y="515"/>
+	<guideline x="277.885" y="515.385" angle="90" identifier="p0aJ1s3JmT"/>
+	<guideline x="294.231" y="464.423" angle="90" identifier="XJW6VjdRJe"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

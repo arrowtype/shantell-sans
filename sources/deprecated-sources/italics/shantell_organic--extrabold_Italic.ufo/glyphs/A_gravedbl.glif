@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Agravedbl" format="2">
+	<unicode hex="0200"/>
+	<advance width="780"/>
+	<outline>
+		<component base="A"/>
+		<component base="gravedoublecmb" xOffset="434" yOffset="119"/>
+	</outline>
+	<anchor name="bottom" x="363.66" y="54"/>
+	<anchor name="ogonek" x="643.26" y="17"/>
+	<anchor name="ring" x="486.46" y="633"/>
+	<anchor name="top" x="524.344" y="829"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

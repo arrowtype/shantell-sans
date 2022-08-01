@@ -2,7 +2,6 @@
 
 set -e
 
-# DS="sources/wght_BNCE_IRGL_TRAK--prepped/shantell_sans-wght_BNCE_IRGL_TRAK.designspace"
 DS="sources/ital_wght_BNCE_IRGL_TRAK--prepped/shantell_sans-ital_wght_BNCE_IRGL_TRAK.designspace"
 outputDir="fonts/Shantell Sans/Desktop"
 webDir="fonts/Shantell Sans/Web"
@@ -21,7 +20,8 @@ vfPath="$outputDir/$vfName"
 # done
 
 
-fontmake -o variable -m $DS --output-path "$vfPath"
+fontmake -o variable -m $DS --output-path "$vfPath" 
+# fontmake -o variable -m $DS --output-path "$vfPath" --no-production-names # TESTING no prod names TODO: remove it and find better script fix
 
 # add STAT table
 python3 "./scripts--build/helpers/add-STAT.py" "$vfPath"

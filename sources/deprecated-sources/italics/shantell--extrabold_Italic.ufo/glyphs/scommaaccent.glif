@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="scommaaccent" format="2">
+	<unicode hex="0219"/>
+	<advance width="537"/>
+	<outline>
+		<component base="s"/>
+		<component base="commaaccentbelowcmb" xOffset="262"/>
+	</outline>
+	<anchor name="bottom" x="210.592" y="0"/>
+	<anchor name="top" x="313.593" y="515"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,0,0,0.502</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

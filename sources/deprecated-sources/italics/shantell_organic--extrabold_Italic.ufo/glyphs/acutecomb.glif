@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acutecomb" format="2">
+	<unicode hex="0301"/>
+	<outline>
+		<contour>
+			<point x="281" y="753" type="curve" smooth="yes"/>
+			<point x="292.017" y="811.088"/>
+			<point x="266.398" y="840"/>
+			<point x="210.077" y="840" type="curve" smooth="yes"/>
+			<point x="166.784" y="840"/>
+			<point x="134.208" y="826.363"/>
+			<point x="107" y="779" type="curve" smooth="yes"/>
+			<point x="86.198" y="741.178"/>
+			<point x="70.143" y="718.471"/>
+			<point x="38" y="692" type="curve" smooth="yes"/>
+			<point x="14" y="672"/>
+			<point x="1" y="655"/>
+			<point x="-4" y="632" type="curve" smooth="yes"/>
+			<point x="-10.569" y="598.059"/>
+			<point x="9.441" y="575"/>
+			<point x="57" y="575" type="curve" smooth="yes"/>
+			<point x="154" y="575"/>
+			<point x="261" y="656"/>
+		</contour>
+	</outline>
+	<anchor name="_side" x="47.477" y="492"/>
+	<anchor name="_top" x="52.077" y="515"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

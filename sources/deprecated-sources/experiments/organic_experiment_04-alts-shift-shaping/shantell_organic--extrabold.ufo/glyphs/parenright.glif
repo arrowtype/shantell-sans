@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parenright" format="2">
+	<unicode hex="0029"/>
+	<advance width="514"/>
+	<image fileName="parenleft.png" xScale="2.5963710802" yScale="2.5963710802" xOffset="-2052.7459756108" yOffset="-485.3762351949" color="0,0,0,0.18426"/>
+	<outline>
+		<contour>
+			<point x="68" y="-286.1261271051" type="curve" smooth="yes"/>
+			<point x="189" y="-183.1261271051"/>
+			<point x="269" y="-55.1261271051"/>
+			<point x="269" y="109.8738728949" type="curve" smooth="yes"/>
+			<point x="269" y="292.8738728949"/>
+			<point x="200" y="410.8738728949"/>
+			<point x="87" y="485.8738728949" type="curve" smooth="yes"/>
+			<point x="42" y="515.8738728949"/>
+			<point x="20" y="546.8738728949"/>
+			<point x="20" y="581.8738728949" type="curve" smooth="yes"/>
+			<point x="20" y="624.8738728949"/>
+			<point x="58" y="654.8738728949"/>
+			<point x="107" y="654.8738728949" type="curve" smooth="yes"/>
+			<point x="144" y="654.8738728949"/>
+			<point x="163" y="649.8738728949"/>
+			<point x="194" y="629.8738728949" type="curve" smooth="yes"/>
+			<point x="342" y="535.8738728949"/>
+			<point x="445" y="349.8738728949"/>
+			<point x="445" y="109.8738728949" type="curve" smooth="yes"/>
+			<point x="445" y="-99.1261271051"/>
+			<point x="350" y="-276.1261271051"/>
+			<point x="203" y="-380.1261271051" type="curve" smooth="yes"/>
+			<point x="168" y="-405.1261271051"/>
+			<point x="135" y="-416.1261271051"/>
+			<point x="109" y="-416.1261271051" type="curve" smooth="yes"/>
+			<point x="74" y="-416.1261271051"/>
+			<point x="32" y="-399.1261271051"/>
+			<point x="32" y="-353.1261271051" type="curve" smooth="yes"/>
+			<point x="32" y="-325.1261271051"/>
+			<point x="44" y="-308.1261271051"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.typemytype.robofont.Image.Sharpness</key>
+			<real>0.400000006</real>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hungarumlautcmb" format="2">
+	<unicode hex="030B"/>
+	<outline>
+		<contour>
+			<point x="82" y="754" type="curve" smooth="yes"/>
+			<point x="64" y="754"/>
+			<point x="50" y="744"/>
+			<point x="39" y="718" type="curve" smooth="yes"/>
+			<point x="24" y="686"/>
+			<point x="15" y="672"/>
+			<point x="-14" y="639" type="curve" smooth="yes"/>
+			<point x="-41" y="608"/>
+			<point x="-49" y="594"/>
+			<point x="-52" y="581" type="curve" smooth="yes"/>
+			<point x="-55.031" y="565.844"/>
+			<point x="-46" y="558"/>
+			<point x="-32" y="558" type="curve" smooth="yes"/>
+			<point x="8.757" y="558"/>
+			<point x="107.554" y="647.882"/>
+			<point x="120.577" y="715" type="curve" smooth="yes"/>
+			<point x="125.614" y="742.202"/>
+			<point x="112.138" y="754"/>
+		</contour>
+		<contour>
+			<point x="260" y="769" type="curve" smooth="yes"/>
+			<point x="241" y="769"/>
+			<point x="228" y="758"/>
+			<point x="215" y="730" type="curve" smooth="yes"/>
+			<point x="197" y="691"/>
+			<point x="185" y="669"/>
+			<point x="158" y="636" type="curve" smooth="yes"/>
+			<point x="139.506" y="613.396"/>
+			<point x="130.011" y="600.061"/>
+			<point x="127" y="584" type="curve" smooth="yes"/>
+			<point x="123.961" y="569.818"/>
+			<point x="130" y="563"/>
+			<point x="146" y="563" type="curve" smooth="yes"/>
+			<point x="193.055" y="563"/>
+			<point x="280.547" y="645.85"/>
+			<point x="296.577" y="727" type="curve" smooth="yes"/>
+			<point x="302.637" y="756.288"/>
+			<point x="289.262" y="769"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="48.578" y="485"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

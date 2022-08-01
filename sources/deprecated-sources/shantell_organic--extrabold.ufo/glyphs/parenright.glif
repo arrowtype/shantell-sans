@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parenright" format="2">
+	<unicode hex="0029"/>
+	<advance width="514"/>
+	<image fileName="parenleft.png" xScale="2.59637" yScale="2.59637" xOffset="-2052.746" yOffset="-485.376"/>
+	<outline>
+		<contour>
+			<point x="68" y="-129" type="curve" smooth="yes"/>
+			<point x="44" y="-151"/>
+			<point x="32" y="-168"/>
+			<point x="32" y="-196" type="curve" smooth="yes"/>
+			<point x="32" y="-242"/>
+			<point x="74" y="-259"/>
+			<point x="109" y="-259" type="curve" smooth="yes"/>
+			<point x="135" y="-259"/>
+			<point x="168" y="-248"/>
+			<point x="203" y="-223" type="curve" smooth="yes"/>
+			<point x="350" y="-119"/>
+			<point x="445" y="58"/>
+			<point x="445" y="267" type="curve" smooth="yes"/>
+			<point x="445" y="507"/>
+			<point x="342" y="693"/>
+			<point x="194" y="787" type="curve" smooth="yes"/>
+			<point x="163" y="807"/>
+			<point x="144" y="812"/>
+			<point x="107" y="812" type="curve" smooth="yes"/>
+			<point x="58" y="812"/>
+			<point x="20" y="782"/>
+			<point x="20" y="739" type="curve" smooth="yes"/>
+			<point x="20" y="704"/>
+			<point x="42" y="673"/>
+			<point x="87" y="643" type="curve" smooth="yes"/>
+			<point x="200" y="568"/>
+			<point x="269" y="450"/>
+			<point x="269" y="267" type="curve" smooth="yes"/>
+			<point x="269" y="102"/>
+			<point x="189" y="-26"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
+			<key>com.typemytype.robofont.Image.Sharpness</key>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gcaron" format="2">
+	<unicode hex="01E7"/>
+	<advance width="700"/>
+	<outline>
+		<component base="g"/>
+		<component base="caroncomb" xOffset="317" yOffset="54"/>
+	</outline>
+	<anchor name="bottom" x="378" y="-250"/>
+	<anchor name="top" x="317" y="569"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

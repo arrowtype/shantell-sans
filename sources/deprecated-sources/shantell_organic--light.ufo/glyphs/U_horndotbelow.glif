@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Uhorndotbelow" format="2">
+	<unicode hex="1EF0"/>
+	<advance width="704"/>
+	<outline>
+		<component base="Uhorn"/>
+		<component base="dotbelowcmb" xOffset="344" yOffset="51"/>
+	</outline>
+	<anchor name="bottom" x="344" y="51"/>
+	<anchor name="ogonek" x="451" y="63"/>
+	<anchor name="top" x="340" y="613"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dagger" format="2">
+	<unicode hex="2020"/>
+	<advance width="538"/>
+	<outline>
+		<contour>
+			<point x="399.706" y="653" type="curve" smooth="yes"/>
+			<point x="406.706" y="691"/>
+			<point x="390.706" y="712"/>
+			<point x="370.706" y="712" type="curve" smooth="yes"/>
+			<point x="352.706" y="712"/>
+			<point x="339.706" y="694"/>
+			<point x="335.706" y="675" type="curve" smooth="yes"/>
+			<point x="314.706" y="570"/>
+			<point x="272.706" y="421"/>
+			<point x="232.706" y="221" type="curve" smooth="yes"/>
+			<point x="203.706" y="77"/>
+			<point x="177.706" y="-41"/>
+			<point x="165.706" y="-224" type="curve" smooth="yes"/>
+			<point x="164.706" y="-246"/>
+			<point x="173.706" y="-260"/>
+			<point x="188.706" y="-260" type="curve" smooth="yes"/>
+			<point x="201.706" y="-260"/>
+			<point x="221.706" y="-250"/>
+			<point x="228.706" y="-215" type="curve" smooth="yes"/>
+			<point x="255.706" y="-82"/>
+			<point x="246.706" y="-49"/>
+			<point x="297.706" y="207" type="curve" smooth="yes"/>
+			<point x="338.706" y="412"/>
+			<point x="377.706" y="543"/>
+		</contour>
+		<contour>
+			<point x="511.706" y="432" type="curve" smooth="yes"/>
+			<point x="537.706" y="434"/>
+			<point x="548.706" y="441"/>
+			<point x="552.706" y="460" type="curve" smooth="yes"/>
+			<point x="556.706" y="479"/>
+			<point x="538.706" y="495"/>
+			<point x="512.706" y="495" type="curve" smooth="yes"/>
+			<point x="404.706" y="495"/>
+			<point x="263.706" y="481"/>
+			<point x="145.706" y="461" type="curve" smooth="yes"/>
+			<point x="92.706" y="453"/>
+			<point x="81.706" y="438"/>
+			<point x="75.706" y="414" type="curve" smooth="yes"/>
+			<point x="71.706" y="395"/>
+			<point x="84.706" y="379"/>
+			<point x="114.706" y="387" type="curve" smooth="yes"/>
+			<point x="230.706" y="412"/>
+			<point x="334.706" y="418"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Adieresiscyr" format="2">
+	<unicode hex="04D2"/>
+	<advance width="780"/>
+	<outline>
+		<component base="A"/>
+		<component base="dieresiscomb" xOffset="434" yOffset="119"/>
+	</outline>
+	<anchor name="bottom" x="367.206" y="54"/>
+	<anchor name="ogonek" x="646.806" y="17"/>
+	<anchor name="ring" x="490.007" y="633"/>
+	<anchor name="top" x="536.207" y="869"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.992,0.706,0.831,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

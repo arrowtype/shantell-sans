@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ccircumflex" format="2">
+	<unicode hex="0109"/>
+	<advance width="542"/>
+	<outline>
+		<component base="c"/>
+		<component base="circumflexcomb" xOffset="280" yOffset="-30"/>
+	</outline>
+	<anchor name="bottom" x="229.958" y="31"/>
+	<anchor name="top" x="378.476" y="723"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

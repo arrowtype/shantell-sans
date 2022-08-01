@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="z" format="2">
+	<unicode hex="007A"/>
+	<advance width="603"/>
+	<outline>
+		<contour>
+			<point x="149.489" y="462" type="curve" smooth="yes"/>
+			<point x="129.489" y="456"/>
+			<point x="122.489" y="449"/>
+			<point x="118.489" y="432" type="curve" smooth="yes"/>
+			<point x="115.489" y="413"/>
+			<point x="125.489" y="396"/>
+			<point x="138.489" y="396" type="curve" smooth="yes"/>
+			<point x="178.489" y="396"/>
+			<point x="254.489" y="430"/>
+			<point x="368.489" y="430" type="curve" smooth="yes"/>
+			<point x="436.489" y="430"/>
+			<point x="473.489" y="415"/>
+			<point x="493.489" y="372" type="curve"/>
+			<point x="486.489" y="419" type="line"/>
+			<point x="478.489" y="332"/>
+			<point x="330.489" y="237"/>
+			<point x="97.489" y="144" type="curve" smooth="yes"/>
+			<point x="63.553" y="130.803"/>
+			<point x="48.223" y="112.271"/>
+			<point x="44" y="92" type="curve" smooth="yes"/>
+			<point x="35.164" y="44.509"/>
+			<point x="57.709" y="-10"/>
+			<point x="162.489" y="-10" type="curve" smooth="yes"/>
+			<point x="253.489" y="-10"/>
+			<point x="372" y="0"/>
+			<point x="449" y="0" type="curve" smooth="yes"/>
+			<point x="473" y="0"/>
+			<point x="488" y="12"/>
+			<point x="491" y="30" type="curve" smooth="yes"/>
+			<point x="495" y="52"/>
+			<point x="474" y="68"/>
+			<point x="421.489" y="68" type="curve" smooth="yes"/>
+			<point x="346.489" y="68"/>
+			<point x="255.489" y="56"/>
+			<point x="185.489" y="56" type="curve" smooth="yes"/>
+			<point x="137.489" y="56"/>
+			<point x="112.489" y="61"/>
+			<point x="103.489" y="94" type="curve"/>
+			<point x="89.489" y="74" type="line"/>
+			<point x="406.81" y="201.326"/>
+			<point x="526.488" y="300.502"/>
+			<point x="542" y="380" type="curve" smooth="yes"/>
+			<point x="553.996" y="437.797"/>
+			<point x="517.069" y="496"/>
+			<point x="365.489" y="496" type="curve" smooth="yes"/>
+			<point x="299.489" y="496"/>
+			<point x="213.489" y="481"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="258.489" y="0"/>
+	<anchor name="top" x="338.49" y="485"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ecircumflexgrave" format="2">
+	<unicode hex="1EC0"/>
+	<advance width="663"/>
+	<outline>
+		<component base="E"/>
+		<component base="circumflexgravecomb" xOffset="368" yOffset="239"/>
+	</outline>
+	<anchor name="bottom" x="352" y="-18"/>
+	<anchor name="ogonek" x="576" y="36"/>
+	<anchor name="top" x="368" y="724"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

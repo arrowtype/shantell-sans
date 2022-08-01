@@ -1,0 +1,27 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem cyrl dflt;
+include(../../features/features/common.fea);
+include(../../features/features/ccmp.fea);
+include(../../features/features/locl.fea);
+include(../../features/features/frac.fea);
+include(../../features/features/case.fea);
+include(../../features/features/numr_dnom_supr_infr.fea);
+include(../../features/features/pnum_tnum.fea);
+# include(../features/cycle-calt.fea); # this is generated in [prep-build.py](http://prep-build.py/)
+
+
+# feature locl {
+#     script cyrl;
+#     language BGR;
+#     sub [vecyr gecyr decyr zhecyr zecyr icyr ishortcyr kacyr elcyr encyr pecyr tecyr tsecyr checyr shacyr shchacyr hardcyr softcyr yucyr igravecyr] by [ve-cy.loclBGR ge-cy.loclBGR de-cy.loclBGR zhe-cy.loclBGR ze-cy.loclBGR ii-cy.loclBGR iishort-cy.loclBGR ka-cy.loclBGR el-cy.loclBGR en-cy.loclBGR pe-cy.loclBGR te-cy.loclBGR tse-cy.loclBGR che-cy.loclBGR sha-cy.loclBGR shcha-cy.loclBGR hardsign-cy.loclBGR softsign-cy.loclBGR iu-cy.loclBGR iigrave-cy.loclBGR];
+#     script cyrl;
+#     language SRB;
+#     sub [becyr gecyr pecyr tecyr] by [be-cy.loclSRB ge-cy.loclSRB pe-cy.loclSRB te-cy.loclSRB];
+#     language MKD;
+#     sub [becyr pecyr tecyr] by [be-cy.loclSRB pe-cy.loclSRB te-cy.loclSRB];
+# } locl;
+
+# feature ss01 {
+#     sub yukrcyr yukrcyr by yukrcyr.ss01;    
+#     }ss01;

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="n" format="2">
+	<unicode hex="006E"/>
+	<advance width="612"/>
+	<outline>
+		<contour>
+			<point x="470" y="-20" type="curve" smooth="yes"/>
+			<point x="496" y="-20"/>
+			<point x="510" y="-2"/>
+			<point x="513.43" y="13" type="curve" smooth="yes"/>
+			<point x="516.43" y="29"/>
+			<point x="513.43" y="36"/>
+			<point x="505.43" y="44" type="curve" smooth="yes"/>
+			<point x="467.43" y="82"/>
+			<point x="484.43" y="193"/>
+			<point x="515.43" y="352" type="curve" smooth="yes"/>
+			<point x="533.43" y="442"/>
+			<point x="508.43" y="506"/>
+			<point x="451.43" y="506" type="curve" smooth="yes"/>
+			<point x="354.43" y="506"/>
+			<point x="219.43" y="348"/>
+			<point x="97.43" y="73" type="curve"/>
+			<point x="110.43" y="81" type="line"/>
+			<point x="131.43" y="233"/>
+			<point x="175.43" y="279"/>
+			<point x="193.43" y="369" type="curve" smooth="yes"/>
+			<point x="203.43" y="418"/>
+			<point x="183.43" y="435"/>
+			<point x="166.43" y="435" type="curve" smooth="yes"/>
+			<point x="149.43" y="435"/>
+			<point x="136.43" y="422"/>
+			<point x="133.43" y="405" type="curve" smooth="yes"/>
+			<point x="108.43" y="280"/>
+			<point x="79.43" y="266"/>
+			<point x="56.43" y="151" type="curve" smooth="yes"/>
+			<point x="38.43" y="58"/>
+			<point x="48.43" y="-9"/>
+			<point x="94.43" y="-9" type="curve" smooth="yes"/>
+			<point x="119" y="-9"/>
+			<point x="136" y="12"/>
+			<point x="161" y="68" type="curve" smooth="yes"/>
+			<point x="247" y="263"/>
+			<point x="383" y="439"/>
+			<point x="431" y="439" type="curve" smooth="yes"/>
+			<point x="455" y="439"/>
+			<point x="464" y="428"/>
+			<point x="475.43" y="406" type="curve"/>
+			<point x="482.43" y="452"/>
+			<point x="463" y="472"/>
+			<point x="418" y="468" type="curve"/>
+			<point x="451" y="437"/>
+			<point x="461" y="425"/>
+			<point x="431" y="275" type="curve" smooth="yes"/>
+			<point x="391" y="74"/>
+			<point x="406" y="-20"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="270.43" y="0"/>
+	<anchor name="top" x="353.43" y="485"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

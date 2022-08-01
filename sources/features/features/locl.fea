@@ -1,8 +1,7 @@
-
 feature locl {
     script latn;
         language AZE;
-	    language CRT;
+        language CRT;
         language KAZ;
         language TAT;
         language TRK;
@@ -24,7 +23,6 @@ feature locl {
         language NLD; # Dutch
             lookup LigatureIJ {
                 # IJacute/ijacute
-                
                 sub I acutecomb J acutecomb by IJacute;
                 sub Iacute J acutecomb by IJacute;
                 
@@ -43,12 +41,21 @@ feature locl {
             
     script cyrl;
         language BGR;
-            @BGRoff = [vecyr         gecyr         decyr         zhecyr         zecyr         kacyr         pecyr         tecyr         tsecyr         shacyr         shchacyr         yucyr         ];
-            @BGRon  = [ve-cy.loclBGR ge-cy.loclBGR de-cy.loclBGR zhe-cy.loclBGR ze-cy.loclBGR ka-cy.loclBGR pe-cy.loclBGR te-cy.loclBGR tse-cy.loclBGR sha-cy.loclBGR shcha-cy.loclBGR iu-cy.loclBGR ];
             lookup Bulgarian {
-                sub @BGRoff by @BGRon;
+                sub Efcyr    by Ef-cy.loclBGR;
+                sub decyr    by de-cy.loclBGR;
+                sub gecyr    by ge-cy.loclBGR;
+                sub iukrcyr  by iu-cy.loclBGR;
+                sub kacyr    by ka-cy.loclBGR;
+                sub pecyr    by pe-cy.loclBGR;
+                sub shacyr   by sha-cy.loclBGR;
+                sub shchacyr by shcha-cy.loclBGR;
+                sub tecyr    by te-cy.loclBGR;
+                sub tsecyr   by tse-cy.loclBGR;
+                sub vecyr    by ve-cy.loclBGR;
+                sub zecyr    by ze-cy.loclBGR;
+                sub zhecyr   by zhe-cy.loclBGR;
             } Bulgarian;
-            
             
         language SRB;
             lookup Serbian {
@@ -57,12 +64,12 @@ feature locl {
         
         language MKD;
             lookup Macedonian {
-                    sub becyr by be-cy.loclSRB;
-                } Macedonian;
+                sub becyr by be-cy.loclSRB;
+            } Macedonian;
                 
         language UKR;
             lookup Ukrainian{
-                sub yukrcyr yukrcyr by yukrcyr_yukrcyr;
-                } Ukrainian;
-
+               sub yukrcyr yukrcyr by yukrcyr_yukrcyr;
+            } Ukrainian;
+        
 } locl;

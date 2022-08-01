@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cacute" format="2">
+	<unicode hex="0107"/>
+	<advance width="542"/>
+	<outline>
+		<component base="c"/>
+		<component base="acutecomb" xOffset="280" yOffset="-30"/>
+	</outline>
+	<anchor name="bottom" x="229.958" y="31"/>
+	<anchor name="top" x="331.759" y="485"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

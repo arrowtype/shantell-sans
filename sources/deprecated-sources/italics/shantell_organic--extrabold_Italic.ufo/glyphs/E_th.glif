@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eth" format="2">
+	<unicode hex="00D0"/>
+	<advance width="747"/>
+	<outline>
+		<contour>
+			<point x="152.633" y="267" type="curve" smooth="yes"/>
+			<point x="183.633" y="267"/>
+			<point x="238.633" y="291"/>
+			<point x="375.633" y="291" type="curve" smooth="yes"/>
+			<point x="407.633" y="291"/>
+			<point x="430.633" y="310"/>
+			<point x="436.633" y="340" type="curve" smooth="yes"/>
+			<point x="443.633" y="374"/>
+			<point x="414.633" y="430"/>
+			<point x="304.633" y="430" type="curve" smooth="yes"/>
+			<point x="240.633" y="430"/>
+			<point x="182.633" y="428"/>
+			<point x="106.633" y="406" type="curve" smooth="yes"/>
+			<point x="77.633" y="398"/>
+			<point x="68.633" y="384"/>
+			<point x="63.633" y="362" type="curve" smooth="yes"/>
+			<point x="54.633" y="316"/>
+			<point x="82.633" y="267"/>
+		</contour>
+		<component base="D" xOffset="36.227"/>
+	</outline>
+	<anchor name="bottom" x="225.897" y="43"/>
+	<anchor name="top" x="482.898" y="643"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

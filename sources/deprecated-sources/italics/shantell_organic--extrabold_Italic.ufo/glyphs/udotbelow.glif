@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="udotbelow" format="2">
+	<unicode hex="1EE5"/>
+	<advance width="629"/>
+	<outline>
+		<component base="u"/>
+		<component base="dotbelowcmb" xOffset="321" yOffset="23"/>
+	</outline>
+	<anchor name="bottom" x="269.353" y="23"/>
+	<anchor name="ogonek" x="342.353" y="28"/>
+	<anchor name="top" x="360.554" y="479"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>u</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>dotbelowcmb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="litre" format="2">
+	<unicode hex="2113"/>
+	<advance width="580"/>
+	<image fileName="litre.png" xScale="1.25425" yScale="1.25425" xOffset="11.623" yOffset="-115.837"/>
+	<outline>
+		<contour>
+			<point x="50" y="191" type="curve" smooth="yes"/>
+			<point x="34" y="181"/>
+			<point x="30" y="174"/>
+			<point x="30" y="162" type="curve" smooth="yes"/>
+			<point x="30" y="143"/>
+			<point x="52" y="126"/>
+			<point x="68" y="126" type="curve" smooth="yes"/>
+			<point x="75" y="126"/>
+			<point x="81" y="128"/>
+			<point x="107" y="144" type="curve" smooth="yes"/>
+			<point x="382" y="312"/>
+			<point x="515" y="516"/>
+			<point x="515" y="684" type="curve" smooth="yes"/>
+			<point x="515" y="774"/>
+			<point x="469" y="808"/>
+			<point x="414" y="808" type="curve" smooth="yes"/>
+			<point x="278" y="808"/>
+			<point x="113" y="525"/>
+			<point x="113" y="225" type="curve" smooth="yes"/>
+			<point x="113" y="67"/>
+			<point x="181" y="-7"/>
+			<point x="293" y="-7" type="curve" smooth="yes"/>
+			<point x="361" y="-7"/>
+			<point x="433" y="16"/>
+			<point x="489" y="72" type="curve" smooth="yes"/>
+			<point x="512" y="95"/>
+			<point x="519" y="116"/>
+			<point x="519" y="132" type="curve" smooth="yes"/>
+			<point x="519" y="148"/>
+			<point x="512" y="160"/>
+			<point x="496" y="160" type="curve" smooth="yes"/>
+			<point x="482" y="160"/>
+			<point x="477" y="154"/>
+			<point x="459" y="138" type="curve" smooth="yes"/>
+			<point x="397" y="83"/>
+			<point x="347" y="63"/>
+			<point x="293" y="63" type="curve" smooth="yes"/>
+			<point x="215" y="63"/>
+			<point x="183" y="129"/>
+			<point x="183" y="225" type="curve" smooth="yes"/>
+			<point x="183" y="458"/>
+			<point x="316" y="738"/>
+			<point x="414" y="738" type="curve" smooth="yes"/>
+			<point x="436" y="738"/>
+			<point x="445" y="724"/>
+			<point x="445" y="684" type="curve" smooth="yes"/>
+			<point x="445" y="530"/>
+			<point x="312" y="355"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.backgroundImage.alpha</key>
+			<integer>50</integer>
+			<key>com.schriftgestaltung.backgroundImage.crop</key>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<key>com.schriftgestaltung.backgroundImage.locked</key>
+			<false/>
+			<key>com.typemytype.robofont.Image.Brightness</key>
+			<integer>0</integer>
+			<key>com.typemytype.robofont.Image.Contrast</key>
+			<integer>1</integer>
+			<key>com.typemytype.robofont.Image.Saturation</key>
+			<integer>1</integer>
+			<key>com.typemytype.robofont.Image.Sharpness</key>
+			<real>0.4</real>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

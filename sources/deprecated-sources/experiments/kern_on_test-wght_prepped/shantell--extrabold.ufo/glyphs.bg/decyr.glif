@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="decyr" format="2">
+	<unicode hex="0434"/>
+	<advance width="574"/>
+	<image fileName="S_creenshot 2021-10-21 at 17.50.23.png" xScale="2.8251385143" yScale="2.8251385143" xOffset="34.7473179304" yOffset="-265.6973121596"/>
+	<outline>
+		<contour>
+			<point x="181" y="83" type="move"/>
+			<point x="181" y="83"/>
+			<point x="224" y="196"/>
+			<point x="275" y="282" type="curve" smooth="yes"/>
+			<point x="322" y="361"/>
+			<point x="368" y="420"/>
+			<point x="398" y="448" type="curve"/>
+			<point x="427" y="408"/>
+			<point x="499" y="234"/>
+			<point x="529" y="94" type="curve"/>
+		</contour>
+		<contour>
+			<point x="630" y="-64" type="move"/>
+			<point x="650" y="-24"/>
+			<point x="657" y="18"/>
+			<point x="653" y="64" type="curve"/>
+			<point x="621" y="64"/>
+			<point x="545" y="69"/>
+			<point x="373" y="63" type="curve" smooth="yes"/>
+			<point x="201" y="57"/>
+			<point x="138" y="52"/>
+			<point x="81" y="39" type="curve"/>
+			<point x="81" y="6"/>
+			<point x="101" y="-85"/>
+			<point x="101" y="-85" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.typemytype.robofont.Image.Brightness</key>
+			<real>0.5106314421</real>
+			<key>com.typemytype.robofont.Image.Contrast</key>
+			<integer>1</integer>
+			<key>com.typemytype.robofont.Image.Saturation</key>
+			<integer>1</integer>
+			<key>com.typemytype.robofont.Image.Sharpness</key>
+			<real>0.400000006</real>
+		</dict>
+	</lib>
+</glyph>
