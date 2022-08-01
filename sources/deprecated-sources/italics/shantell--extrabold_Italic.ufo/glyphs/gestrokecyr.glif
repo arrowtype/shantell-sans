@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gestrokecyr" format="2">
+	<unicode hex="0493"/>
+	<advance width="546"/>
+	<outline>
+		<contour>
+			<point x="82.599" y="162" type="curve" smooth="yes"/>
+			<point x="117.599" y="162"/>
+			<point x="221.599" y="167"/>
+			<point x="281.599" y="167" type="curve" smooth="yes"/>
+			<point x="331.599" y="167"/>
+			<point x="363.599" y="182"/>
+			<point x="371.599" y="220" type="curve" smooth="yes"/>
+			<point x="379.599" y="259"/>
+			<point x="353.599" y="304"/>
+			<point x="276.599" y="304" type="curve" smooth="yes"/>
+			<point x="236.599" y="304"/>
+			<point x="120.599" y="296"/>
+			<point x="75.599" y="293" type="curve" smooth="yes"/>
+			<point x="17.599" y="289"/>
+			<point x="5.599" y="272"/>
+			<point x="-0.401" y="239" type="curve" smooth="yes"/>
+			<point x="-10.401" y="191"/>
+			<point x="27.599" y="162"/>
+		</contour>
+		<component base="gecyr" xOffset="13.799"/>
+	</outline>
+	<anchor name="top" x="359.6" y="515"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

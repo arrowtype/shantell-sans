@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asciitilde" format="2">
+	<unicode hex="007E"/>
+	<advance width="700"/>
+	<outline>
+		<contour>
+			<point x="124" y="121" type="curve" smooth="yes"/>
+			<point x="179" y="121"/>
+			<point x="190" y="201"/>
+			<point x="250" y="201" type="curve" smooth="yes"/>
+			<point x="307" y="201"/>
+			<point x="345" y="115"/>
+			<point x="456" y="115" type="curve"/>
+			<point x="559" y="115"/>
+			<point x="638" y="178"/>
+			<point x="659" y="280" type="curve" smooth="yes"/>
+			<point x="673" y="346"/>
+			<point x="652.889" y="381"/>
+			<point x="604" y="381" type="curve" smooth="yes"/>
+			<point x="540" y="381"/>
+			<point x="517" y="301"/>
+			<point x="459" y="301" type="curve" smooth="yes"/>
+			<point x="397" y="301"/>
+			<point x="355" y="390"/>
+			<point x="235" y="390" type="curve" smooth="yes"/>
+			<point x="126" y="390"/>
+			<point x="65" y="319"/>
+			<point x="49" y="240" type="curve" smooth="yes"/>
+			<point x="38" y="184"/>
+			<point x="58.618" y="121"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

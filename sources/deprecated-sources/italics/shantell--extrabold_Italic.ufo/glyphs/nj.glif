@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nj" format="2">
+	<unicode hex="01CC"/>
+	<advance width="992"/>
+	<outline>
+		<component base="n" xOffset="-2"/>
+		<component base="j" xOffset="690"/>
+	</outline>
+	<anchor name="bottom" x="294.829" y="0"/>
+	<anchor name="top_1" x="397.829" y="515"/>
+	<anchor name="top_2" x="931.201" y="742"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>n</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>j</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

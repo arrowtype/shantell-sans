@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="palochkacyr" format="2">
+	<unicode hex="04CF"/>
+	<advance width="299"/>
+	<outline>
+		<contour>
+			<point x="95.973" y="-12" type="curve" smooth="yes"/>
+			<point x="139.973" y="-12"/>
+			<point x="176.973" y="23"/>
+			<point x="184.973" y="66" type="curve" smooth="yes"/>
+			<point x="200.973" y="144"/>
+			<point x="282.973" y="426"/>
+			<point x="313.973" y="582" type="curve" smooth="yes"/>
+			<point x="338.973" y="706"/>
+			<point x="312.973" y="766"/>
+			<point x="251.973" y="766" type="curve" smooth="yes"/>
+			<point x="196.973" y="766"/>
+			<point x="167.973" y="739"/>
+			<point x="153.973" y="672" type="curve" smooth="yes"/>
+			<point x="148.973" y="647"/>
+			<point x="126.973" y="503"/>
+			<point x="107.973" y="412" type="curve" smooth="yes"/>
+			<point x="86.973" y="306"/>
+			<point x="43.973" y="205"/>
+			<point x="23.973" y="107" type="curve" smooth="yes"/>
+			<point x="7.973" y="27"/>
+			<point x="41.973" y="-12"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

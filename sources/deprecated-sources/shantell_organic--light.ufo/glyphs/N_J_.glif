@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="NJ" format="2">
+	<unicode hex="01CA"/>
+	<advance width="1338"/>
+	<outline>
+		<component base="N"/>
+		<component base="J" xOffset="754"/>
+	</outline>
+	<anchor name="bottom_1" x="384" y="56.55"/>
+	<anchor name="bottom_2" x="1043" y="31"/>
+	<anchor name="top_1" x="384" y="595.35"/>
+	<anchor name="top_2" x="1043" y="647"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

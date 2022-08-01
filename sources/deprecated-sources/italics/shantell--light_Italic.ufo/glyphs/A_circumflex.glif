@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Acircumflex" format="2">
+	<unicode hex="00C2"/>
+	<advance width="713"/>
+	<outline>
+		<component base="A"/>
+		<component base="circumflexcomb" xOffset="438" yOffset="185"/>
+	</outline>
+	<anchor name="bottom" x="305.675" y="0"/>
+	<anchor name="ogonek" x="569.675" y="0"/>
+	<anchor name="ring" x="491.476" y="699"/>
+	<anchor name="top" x="525.722" y="866"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>A</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>circumflexcomb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

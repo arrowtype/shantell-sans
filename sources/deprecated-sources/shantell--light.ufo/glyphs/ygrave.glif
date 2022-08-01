@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ygrave" format="2">
+	<unicode hex="1EF3"/>
+	<advance width="563"/>
+	<outline>
+		<component base="y"/>
+		<component base="gravecomb" xOffset="270"/>
+	</outline>
+	<anchor name="bottom" x="282" y="-250"/>
+	<anchor name="top" x="270" y="485"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

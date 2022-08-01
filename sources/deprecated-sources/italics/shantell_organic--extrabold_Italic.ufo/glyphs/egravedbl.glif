@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="egravedbl" format="2">
+	<unicode hex="0205"/>
+	<advance width="657"/>
+	<outline>
+		<component base="e"/>
+		<component base="gravedoublecmb" xOffset="349" yOffset="35"/>
+	</outline>
+	<anchor name="bottom" x="255.63" y="-37"/>
+	<anchor name="ogonek" x="478.83" y="9"/>
+	<anchor name="top" x="439.344" y="745"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

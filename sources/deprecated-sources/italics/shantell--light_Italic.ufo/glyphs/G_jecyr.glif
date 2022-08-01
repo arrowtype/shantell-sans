@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Gjecyr" format="2">
+	<unicode hex="0403"/>
+	<advance width="516"/>
+	<outline>
+		<component base="Gecyr" xOffset="-0.091"/>
+		<component base="acutecomb" xOffset="324.909" yOffset="215"/>
+	</outline>
+	<anchor name="top" x="373.702" y="700"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.992,0.706,0.831,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

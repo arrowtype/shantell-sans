@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aring" format="2">
+	<unicode hex="00E5"/>
+	<advance width="704"/>
+	<outline>
+		<component base="a" xOffset="-4"/>
+		<component base="ringcomb" xOffset="314" yOffset="-27"/>
+	</outline>
+	<anchor name="bottom" x="274.401" y="35"/>
+	<anchor name="ogonek" x="567.001" y="-22"/>
+	<anchor name="top" x="414.495" y="731"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>a</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>ringcomb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Gestrokecyr" format="2">
+	<unicode hex="0492"/>
+	<advance width="590"/>
+	<outline>
+		<contour>
+			<point x="111" y="267" type="curve" smooth="yes"/>
+			<point x="168.951" y="267"/>
+			<point x="280.216" y="303"/>
+			<point x="439" y="303" type="curve" smooth="yes"/>
+			<point x="471" y="303"/>
+			<point x="490" y="330"/>
+			<point x="490" y="360" type="curve" smooth="yes"/>
+			<point x="490" y="394"/>
+			<point x="450" y="450"/>
+			<point x="340" y="450" type="curve" smooth="yes"/>
+			<point x="264.245" y="450"/>
+			<point x="135" y="443"/>
+			<point x="50" y="406" type="curve" smooth="yes"/>
+			<point x="24" y="395"/>
+			<point x="16" y="384"/>
+			<point x="16" y="362" type="curve" smooth="yes"/>
+			<point x="16" y="316"/>
+			<point x="41" y="267"/>
+		</contour>
+		<component base="Gecyr"/>
+	</outline>
+	<anchor name="top" x="311" y="700"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

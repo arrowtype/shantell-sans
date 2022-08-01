@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="utilde" format="2">
+	<unicode hex="0169"/>
+	<advance width="655"/>
+	<outline>
+		<component base="u" xOffset="-2"/>
+		<component base="tildecomb" xOffset="340"/>
+	</outline>
+	<anchor name="bottom" x="289.166" y="0"/>
+	<anchor name="ogonek" x="362.166" y="5"/>
+	<anchor name="top" x="440.295" y="760"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>u</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>tildecomb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

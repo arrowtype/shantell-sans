@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Abreve" format="2">
+	<unicode hex="0102"/>
+	<advance width="713"/>
+	<outline>
+		<component base="A"/>
+		<component base="brevecomb" xOffset="432" yOffset="156"/>
+	</outline>
+	<anchor name="bottom" x="315.872" y="48"/>
+	<anchor name="ogonek" x="557.472" y="26"/>
+	<anchor name="ring" x="480.673" y="642"/>
+	<anchor name="top" x="524.076" y="859"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

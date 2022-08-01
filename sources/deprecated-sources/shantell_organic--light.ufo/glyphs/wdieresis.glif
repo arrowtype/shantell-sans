@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="wdieresis" format="2">
+	<unicode hex="1E85"/>
+	<advance width="907"/>
+	<outline>
+		<component base="w"/>
+		<component base="dieresiscomb" xOffset="437" yOffset="-41"/>
+	</outline>
+	<anchor name="bottom" x="451" y="30"/>
+	<anchor name="top" x="436" y="619"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

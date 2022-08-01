@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hardcyr" format="2">
+	<unicode hex="044A"/>
+	<advance width="553"/>
+	<outline>
+		<contour>
+			<point x="217" y="301" type="curve" smooth="yes"/>
+			<point x="189" y="301"/>
+			<point x="173" y="287"/>
+			<point x="169" y="267" type="curve" smooth="yes"/>
+			<point x="166" y="252"/>
+			<point x="170" y="242"/>
+			<point x="186" y="242" type="curve" smooth="yes"/>
+			<point x="332" y="242"/>
+			<point x="434" y="230"/>
+			<point x="434" y="207" type="curve" smooth="yes"/>
+			<point x="434" y="143"/>
+			<point x="350" y="51"/>
+			<point x="263" y="51" type="curve" smooth="yes"/>
+			<point x="208" y="51"/>
+			<point x="179" y="78"/>
+			<point x="179" y="129" type="curve" smooth="yes"/>
+			<point x="179" y="214"/>
+			<point x="266.0150315283" y="361.5713997595"/>
+			<point x="280" y="428" type="curve" smooth="yes"/>
+			<point x="287" y="467"/>
+			<point x="273" y="492"/>
+			<point x="209" y="492" type="curve" smooth="yes"/>
+			<point x="112" y="492"/>
+			<point x="51" y="475"/>
+			<point x="45" y="444" type="curve" smooth="yes"/>
+			<point x="42" y="429"/>
+			<point x="48" y="419"/>
+			<point x="71" y="419" type="curve" smooth="yes"/>
+			<point x="97" y="419"/>
+			<point x="187" y="432"/>
+			<point x="239" y="432" type="curve"/>
+			<point x="218" y="450" type="line"/>
+			<point x="194" y="364"/>
+			<point x="109" y="220"/>
+			<point x="109" y="124" type="curve" smooth="yes"/>
+			<point x="109" y="53"/>
+			<point x="158" y="-12"/>
+			<point x="256" y="-12" type="curve" smooth="yes"/>
+			<point x="381" y="-12"/>
+			<point x="502" y="110"/>
+			<point x="502" y="205" type="curve" smooth="yes"/>
+			<point x="502" y="255"/>
+			<point x="479" y="277"/>
+			<point x="425" y="289" type="curve" smooth="yes"/>
+			<point x="367" y="302"/>
+			<point x="292" y="301"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

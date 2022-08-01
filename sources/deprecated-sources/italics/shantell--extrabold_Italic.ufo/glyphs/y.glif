@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="y" format="2">
+	<unicode hex="0079"/>
+	<advance width="623"/>
+	<outline>
+		<contour>
+			<point x="265" y="435" type="curve" smooth="yes"/>
+			<point x="274" y="479"/>
+			<point x="255" y="523"/>
+			<point x="181.987" y="523" type="curve" smooth="yes"/>
+			<point x="124.987" y="523"/>
+			<point x="84.987" y="494"/>
+			<point x="54.987" y="343" type="curve" smooth="yes"/>
+			<point x="17.987" y="158"/>
+			<point x="87.987" y="78"/>
+			<point x="229.987" y="78" type="curve" smooth="yes"/>
+			<point x="284.987" y="78"/>
+			<point x="365.987" y="100"/>
+			<point x="442.987" y="205" type="curve"/>
+			<point x="385" y="240" type="line"/>
+			<point x="367" y="148"/>
+			<point x="375.987" y="99"/>
+			<point x="354.987" y="-5" type="curve" smooth="yes"/>
+			<point x="344.987" y="-57"/>
+			<point x="311" y="-88"/>
+			<point x="249" y="-88" type="curve" smooth="yes"/>
+			<point x="130" y="-88"/>
+			<point x="122.987" y="-44"/>
+			<point x="75.987" y="-44" type="curve" smooth="yes"/>
+			<point x="35.987" y="-44"/>
+			<point x="8.987" y="-67"/>
+			<point x="-0.013" y="-110" type="curve" smooth="yes"/>
+			<point x="-14" y="-183"/>
+			<point x="52" y="-261"/>
+			<point x="245" y="-261" type="curve" smooth="yes"/>
+			<point x="377" y="-261"/>
+			<point x="486" y="-202"/>
+			<point x="520" y="-30" type="curve" smooth="yes"/>
+			<point x="558" y="161"/>
+			<point x="526.987" y="232"/>
+			<point x="579.987" y="400" type="curve" smooth="yes"/>
+			<point x="604.987" y="480"/>
+			<point x="561.987" y="522"/>
+			<point x="501.987" y="522" type="curve" smooth="yes"/>
+			<point x="457.987" y="522"/>
+			<point x="437.987" y="503"/>
+			<point x="423.987" y="460" type="curve" smooth="yes"/>
+			<point x="389" y="351"/>
+			<point x="322" y="253"/>
+			<point x="250" y="253" type="curve" smooth="yes"/>
+			<point x="179" y="253"/>
+			<point x="252" y="371"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="217.987" y="-250"/>
+	<anchor name="top" x="350.988" y="515"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

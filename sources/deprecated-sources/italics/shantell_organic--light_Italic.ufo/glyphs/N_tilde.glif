@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ntilde" format="2">
+	<unicode hex="00D1"/>
+	<advance width="754"/>
+	<outline>
+		<component base="N"/>
+		<component base="tildecomb" xOffset="406" yOffset="110"/>
+	</outline>
+	<anchor name="bottom" x="346.814" y="57"/>
+	<anchor name="top" x="497.545" y="810"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

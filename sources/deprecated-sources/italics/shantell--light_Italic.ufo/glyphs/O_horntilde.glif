@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ohorntilde" format="2">
+	<unicode hex="1EE0"/>
+	<advance width="726"/>
+	<outline>
+		<component base="Ohorn"/>
+		<component base="tildecomb" xOffset="402" yOffset="215"/>
+	</outline>
+	<anchor name="bottom" x="310.792" y="0"/>
+	<anchor name="ogonek" x="442.428" y="29"/>
+	<anchor name="top" x="493.545" y="915"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

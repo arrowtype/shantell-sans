@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Uhorntilde" format="2">
+	<unicode hex="1EEE"/>
+	<advance width="704"/>
+	<outline>
+		<component base="Uhorn"/>
+		<component base="tildecomb" xOffset="366" yOffset="128"/>
+	</outline>
+	<anchor name="bottom" x="300.994" y="51"/>
+	<anchor name="ogonek" x="414.275" y="63"/>
+	<anchor name="top" x="457.545" y="828"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>Uhorn</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>tildecomb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

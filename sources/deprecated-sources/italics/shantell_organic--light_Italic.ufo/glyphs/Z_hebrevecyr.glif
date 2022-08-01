@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zhebrevecyr" format="2">
+	<unicode hex="04C1"/>
+	<advance width="852"/>
+	<outline>
+		<contour>
+			<point x="551.794" y="827" type="curve" smooth="yes"/>
+			<point x="506.794" y="827"/>
+			<point x="483.794" y="863"/>
+			<point x="468.794" y="897" type="curve" smooth="yes"/>
+			<point x="460.794" y="916"/>
+			<point x="453.794" y="941"/>
+			<point x="429.794" y="941" type="curve" smooth="yes"/>
+			<point x="412.794" y="941"/>
+			<point x="401.794" y="928"/>
+			<point x="397.794" y="911" type="curve" smooth="yes"/>
+			<point x="389.794" y="871"/>
+			<point x="429.794" y="767"/>
+			<point x="540.794" y="767" type="curve" smooth="yes"/>
+			<point x="613.794" y="767"/>
+			<point x="699.794" y="816"/>
+			<point x="708.794" y="858" type="curve" smooth="yes"/>
+			<point x="710.794" y="869"/>
+			<point x="705.794" y="880"/>
+			<point x="689.794" y="880" type="curve" smooth="yes"/>
+			<point x="673.794" y="880"/>
+			<point x="652.794" y="864"/>
+			<point x="626.794" y="850" type="curve" smooth="yes"/>
+			<point x="601.794" y="837"/>
+			<point x="579.794" y="827"/>
+		</contour>
+		<component base="Zhecyr"/>
+	</outline>
+	<anchor name="top" x="508.794" y="700"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,1,0,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

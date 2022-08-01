@@ -1,0 +1,1366 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="ital" name="Italic" minimum="0" maximum="1" default="0"/>
+    <axis tag="wght" name="Weight" minimum="300" maximum="800" default="300"/>
+    <axis tag="IRGL" name="Irregularity" minimum="0" maximum="100" default="0"/>
+    <axis tag="BNCE" name="Bounce" minimum="-100" maximum="100" default="0"/>
+    <axis tag="TRAK" name="Tracking" minimum="0" maximum="500" default="0"/>
+  </axes>
+  <sources>
+    <source filename="shantell_tracked--light.ufo" familyname="Shantell Sans" stylename="Light Tracked">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="500"/>
+      </location>
+    </source>
+    <source filename="shantell--light.ufo" familyname="Shantell Sans" stylename="Light">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="shantell--extrabold.ufo" familyname="Shantell Sans" stylename="ExtraBold">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="shantell_organic--light.ufo" familyname="Shantell Sans" stylename="Dynamic Light">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="shantell_organic--extrabold.ufo" familyname="Shantell Sans" stylename="Dynamic ExtraBold">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="shantell_bounce--extrabold.ufo" familyname="Shantell Sans" stylename="ExtraBold Bounce">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="shantell_bounce--light.ufo" familyname="Shantell Sans" stylename="Light Bounce">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="shantell_reverse_bounce--extrabold.ufo" familyname="Shantell Sans" stylename="ExtraBold Bounce Reverse">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="-100"/>
+      </location>
+    </source>
+    <source filename="shantell_reverse_bounce--light.ufo" familyname="Shantell Sans" stylename="Light Bounce Reverse">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="-100"/>
+      </location>
+    </source>
+    <source filename="shantell_bounce--extrabold_italic.ufo" familyname="Shantell Sans" stylename="ExtraBold Bounce">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="shantell_bounce--light_italic.ufo" familyname="Shantell Sans" stylename="Light Bounce">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="shantell_reverse_bounce--extrabold_italic.ufo" familyname="Shantell Sans" stylename="ExtraBold Bounce Reverse">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="-100"/>
+      </location>
+    </source>
+    <source filename="shantell_reverse_bounce--light_italic.ufo" familyname="Shantell Sans" stylename="Light Bounce Reverse">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="-100"/>
+      </location>
+    </source>
+    <source filename="shantell--light_italic.ufo" familyname="Shantell Sans" stylename="Light">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="shantell--extrabold_italic.ufo" familyname="Shantell Sans" stylename="ExtraBold">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="shantell_organic--light_italic.ufo" familyname="Shantell Sans" stylename="Dynamic Light">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="shantell_organic--extrabold_italic.ufo" familyname="Shantell Sans" stylename="Dynamic ExtraBold">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance familyname="Shantell Sans Normal" stylename="Light" name="Normal Light" filename="instances/Shantell_Sans-Normal-Light.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Normal" stylename="Regular" name="Normal Regular" filename="instances/Shantell_Sans-Normal-Regular.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Normal" stylename="Medium" name="Normal Medium" filename="instances/Shantell_Sans-Normal-Medium.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Normal" stylename="SemiBold" name="Normal SemiBold" filename="instances/Shantell_Sans-Normal-SemiBold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Normal" stylename="Bold" name="Normal Bold" filename="instances/Shantell_Sans-Normal-Bold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Normal" stylename="ExtraBold" name="Normal ExtraBold" filename="instances/Shantell_Sans-Normal-ExtraBold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  
+    <!-- SemiBouncy -->
+    <instance familyname="Shantell Sans SemiBouncy" stylename="Light" name="SemiBouncy Light" filename="instances/Shantell_Sans-SemiBouncy_Light.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans SemiBouncy" stylename="Regular" name="SemiBouncy Regular" filename="instances/Shantell_Sans-SemiBouncy_Regular.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans SemiBouncy" stylename="Medium" name="SemiBouncy Medium" filename="instances/Shantell_Sans-SemiBouncy_Medium.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans SemiBouncy" stylename="SemiBold" name="SemiBouncy SemiBold" filename="instances/Shantell_Sans-SemiBouncy_SemiBold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans SemiBouncy" stylename="Bold" name="SemiBouncy Bold" filename="instances/Shantell_Sans-SemiBouncy_Bold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans SemiBouncy" stylename="ExtraBold" name="SemiBouncy ExtraBold" filename="instances/Shantell_Sans-SemiBouncy_ExtraBold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!-- Bouncy -->
+    <instance familyname="Shantell Sans Bouncy" stylename="Light" name="Bouncy Light" filename="instances/Shantell_Sans-Bouncy_Light.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Bouncy" stylename="Regular" name="Bouncy Regular" filename="instances/Shantell_Sans-Bouncy_Regular.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Bouncy" stylename="Medium" name="Bouncy Medium" filename="instances/Shantell_Sans-Bouncy_Medium.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Bouncy" stylename="SemiBold" name="Bouncy SemiBold" filename="instances/Shantell_Sans-Bouncy_SemiBold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Bouncy" stylename="Bold" name="Bouncy Bold" filename="instances/Shantell_Sans-Bouncy_Bold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Bouncy" stylename="ExtraBold" name="Bouncy ExtraBold" filename="instances/Shantell_Sans-Bouncy_ExtraBold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!-- Irregular -->
+    <instance familyname="Shantell Sans Irregular" stylename="Light" name="Irregular Light" filename="instances/Shantell_Sans-Irregular_Light.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular" stylename="Regular" name="Irregular Regular" filename="instances/Shantell_Sans-Irregular_Regular.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular" stylename="Medium" name="Irregular Medium" filename="instances/Shantell_Sans-Irregular_Medium.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular" stylename="SemiBold" name="Irregular SemiBold" filename="instances/Shantell_Sans-Irregular_SemiBold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular" stylename="Bold" name="Irregular Bold" filename="instances/Shantell_Sans-Irregular_Bold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular" stylename="ExtraBold" name="Irregular ExtraBold" filename="instances/Shantell_Sans-Irregular_ExtraBold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!-- SemiBouncy Irregular -->
+    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="Light" name="SemiBouncy Light" filename="instances/Shantell_Sans-Irregular_SemiBouncy_Light.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="Regular" name="SemiBouncy Regular" filename="instances/Shantell_Sans-Irregular_SemiBouncy_Regular.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="Medium" name="SemiBouncy Medium" filename="instances/Shantell_Sans-Irregular_SemiBouncy_Medium.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="SemiBold" name="SemiBouncy SemiBold" filename="instances/Shantell_Sans-Irregular_SemiBouncy_SemiBold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="Bold" name="SemiBouncy Bold" filename="instances/Shantell_Sans-Irregular_SemiBouncy_Bold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="ExtraBold" name="SemiBouncy ExtraBold" filename="instances/Shantell_Sans-Irregular_SemiBouncy_ExtraBold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!-- Bouncy Irregular -->
+    <!-- Bouncy Irregular -->
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Light" name="Irregular Bouncy Light" filename="instances/Shantell_Sans-Irregular_Bouncy_Light.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Regular" name="Irregular Bouncy Regular" filename="instances/Shantell_Sans-Irregular_Bouncy_Regular.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Medium" name="Irregular Bouncy Medium" filename="instances/Shantell_Sans-Irregular_Bouncy_Medium.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="SemiBold" name="Irregular Bouncy SemiBold" filename="instances/Shantell_Sans-Irregular_Bouncy_SemiBold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Bold" name="Irregular Bouncy Bold" filename="instances/Shantell_Sans-Irregular_Bouncy_Bold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="ExtraBold" name="Irregular Bouncy ExtraBold" filename="instances/Shantell_Sans-Irregular_Bouncy_ExtraBold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!-- Irregularish -->
+    <instance familyname="Shantell Sans Irregularish" stylename="Light" name="Irregularish Light" filename="instances/Shantell_Sans-Irregularish_Light.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish" stylename="Regular" name="Irregularish Regular" filename="instances/Shantell_Sans-Irregularish_Regular.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish" stylename="Medium" name="Irregularish Medium" filename="instances/Shantell_Sans-Irregularish_Medium.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish" stylename="SemiBold" name="Irregularish SemiBold" filename="instances/Shantell_Sans-Irregularish_SemiBold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish" stylename="Bold" name="Irregularish Bold" filename="instances/Shantell_Sans-Irregularish_Bold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish" stylename="ExtraBold" name="Irregularish ExtraBold" filename="instances/Shantell_Sans-Irregularish_ExtraBold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!-- SemiBouncy Irregularish -->
+    <instance familyname="Shantell Sans Irregularish SemiBouncy" stylename="Light" name="Irregularish SemiBouncy Light" filename="instances/Shantell_Sans-Irregularish_SemiBouncy_Light.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish SemiBouncy" stylename="Regular" name="Irregularish SemiBouncy Regular" filename="instances/Shantell_Sans-Irregularish_SemiBouncy_Regular.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish SemiBouncy" stylename="Medium" name="Irregularish SemiBouncy Medium" filename="instances/Shantell_Sans-Irregularish_SemiBouncy_Medium.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish SemiBouncy" stylename="SemiBold" name="Irregularish SemiBouncy SemiBold" filename="instances/Shantell_Sans-Irregularish_SemiBouncy_SemiBold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish SemiBouncy" stylename="Bold" name="Irregularish SemiBouncy Bold" filename="instances/Shantell_Sans-Irregularish_SemiBouncy_Bold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish SemiBouncy" stylename="ExtraBold" name="Irregularish SemiBouncy ExtraBold" filename="instances/Shantell_Sans-Irregularish_SemiBouncy_ExtraBold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!-- Bouncy Irregularish -->
+    <!-- Bouncy Irregularish -->
+    <instance familyname="Shantell Sans Irregularish Bouncy" stylename="Light" name="Irregularish Bouncy Light" filename="instances/Shantell_Sans-Irregularish_Bouncy_Light.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish Bouncy" stylename="Regular" name="Irregularish Bouncy Regular" filename="instances/Shantell_Sans-Irregularish_Bouncy_Regular.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish Bouncy" stylename="Medium" name="Irregularish Bouncy Medium" filename="instances/Shantell_Sans-Irregularish_Bouncy_Medium.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish Bouncy" stylename="SemiBold" name="Irregularish Bouncy SemiBold" filename="instances/Shantell_Sans-Irregularish_Bouncy_SemiBold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish Bouncy" stylename="Bold" name="Irregularish Bouncy Bold" filename="instances/Shantell_Sans-Irregularish_Bouncy_Bold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish Bouncy" stylename="ExtraBold" name="Irregularish Bouncy ExtraBold" filename="instances/Shantell_Sans-Irregularish_Bouncy_ExtraBold.ufo">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  
+    <instance familyname="Shantell Sans Normal" stylename="Light Italic" name="Normal Light Italic" filename="instances/Shantell_Sans-Normal-Light_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Normal" stylename="Regular Italic" name="Normal Regular Italic" filename="instances/Shantell_Sans-Normal-Regular_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Normal" stylename="Medium Italic" name="Normal Medium Italic" filename="instances/Shantell_Sans-Normal-Medium_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Normal" stylename="SemiBold Italic" name="Normal SemiBold Italic" filename="instances/Shantell_Sans-Normal-SemiBold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Normal" stylename="Bold Italic" name="Normal Bold Italic" filename="instances/Shantell_Sans-Normal-Bold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Normal" stylename="ExtraBold Italic" name="Normal ExtraBold Italic" filename="instances/Shantell_Sans-Normal-ExtraBold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  
+    <!-- SemiBouncy -->
+    <instance familyname="Shantell Sans SemiBouncy" stylename="Light Italic" name="SemiBouncy Light Italic" filename="instances/Shantell_Sans-SemiBouncy_Light_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans SemiBouncy" stylename="Regular Italic" name="SemiBouncy Regular Italic" filename="instances/Shantell_Sans-SemiBouncy_Regular_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans SemiBouncy" stylename="Medium Italic" name="SemiBouncy Medium Italic" filename="instances/Shantell_Sans-SemiBouncy_Medium_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans SemiBouncy" stylename="SemiBold Italic" name="SemiBouncy SemiBold Italic" filename="instances/Shantell_Sans-SemiBouncy_SemiBold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans SemiBouncy" stylename="Bold Italic" name="SemiBouncy Bold Italic" filename="instances/Shantell_Sans-SemiBouncy_Bold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans SemiBouncy" stylename="ExtraBold Italic" name="SemiBouncy ExtraBold Italic" filename="instances/Shantell_Sans-SemiBouncy_ExtraBold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!-- Bouncy -->
+    <instance familyname="Shantell Sans Bouncy" stylename="Light Italic" name="Bouncy Light Italic" filename="instances/Shantell_Sans-Bouncy_Light_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Bouncy" stylename="Regular Italic" name="Bouncy Regular Italic" filename="instances/Shantell_Sans-Bouncy_Regular_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Bouncy" stylename="Medium Italic" name="Bouncy Medium Italic" filename="instances/Shantell_Sans-Bouncy_Medium_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Bouncy" stylename="SemiBold Italic" name="Bouncy SemiBold Italic" filename="instances/Shantell_Sans-Bouncy_SemiBold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Bouncy" stylename="Bold Italic" name="Bouncy Bold Italic" filename="instances/Shantell_Sans-Bouncy_Bold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Bouncy" stylename="ExtraBold Italic" name="Bouncy ExtraBold Italic" filename="instances/Shantell_Sans-Bouncy_ExtraBold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!-- Irregular -->
+    <instance familyname="Shantell Sans Irregular" stylename="Light Italic" name="Irregular Light Italic" filename="instances/Shantell_Sans-Irregular_Light_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular" stylename="Regular Italic" name="Irregular Regular Italic" filename="instances/Shantell_Sans-Irregular_Regular_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular" stylename="Medium Italic" name="Irregular Medium Italic" filename="instances/Shantell_Sans-Irregular_Medium_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular" stylename="SemiBold Italic" name="Irregular SemiBold Italic" filename="instances/Shantell_Sans-Irregular_SemiBold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular" stylename="Bold Italic" name="Irregular Bold Italic" filename="instances/Shantell_Sans-Irregular_Bold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular" stylename="ExtraBold Italic" name="Irregular ExtraBold Italic" filename="instances/Shantell_Sans-Irregular_ExtraBold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!-- SemiBouncy Irregular -->
+    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="Light Italic" name="Irregular SemiBouncy Light Italic" filename="instances/Shantell_Sans-Irregular_SemiBouncy_Light_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="Regular Italic" name="Irregular SemiBouncy Regular Italic" filename="instances/Shantell_Sans-Irregular_SemiBouncy_Regular_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="Medium Italic" name="Irregular SemiBouncy Medium Italic" filename="instances/Shantell_Sans-Irregular_SemiBouncy_Medium_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="SemiBold Italic" name="Irregular SemiBouncy SemiBold Italic" filename="instances/Shantell_Sans-Irregular_SemiBouncy_SemiBold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="Bold Italic" name="Irregular SemiBouncy Bold Italic" filename="instances/Shantell_Sans-Irregular_SemiBouncy_Bold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular SemiBouncy" stylename="ExtraBold Italic" name="Irregular SemiBouncy ExtraBold Italic" filename="instances/Shantell_Sans-Irregular_SemiBouncy_ExtraBold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!-- Bouncy Irregular -->
+    <!-- Bouncy Irregular -->
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Light Italic" name="Irregular Bouncy Light Italic" filename="instances/Shantell_Sans-Irregular_Bouncy_Light_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Regular Italic" name="Irregular Bouncy Regular Italic" filename="instances/Shantell_Sans-Irregular_Bouncy_Regular_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Medium Italic" name="Irregular Bouncy Medium Italic" filename="instances/Shantell_Sans-Irregular_Bouncy_Medium_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="SemiBold Italic" name="Irregular Bouncy SemiBold Italic" filename="instances/Shantell_Sans-Irregular_Bouncy_SemiBold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Bold Italic" name="Irregular Bouncy Bold Italic" filename="instances/Shantell_Sans-Irregular_Bouncy_Bold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="ExtraBold Italic" name="Irregular Bouncy ExtraBold Italic" filename="instances/Shantell_Sans-Irregular_Bouncy_ExtraBold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="100"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!-- Irregularish -->
+    <instance familyname="Shantell Sans Irregularish" stylename="Light Italic" name="Irregularish Light Italic" filename="instances/Shantell_Sans-Irregularish_Light_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish" stylename="Regular Italic" name="Irregularish Regular Italic" filename="instances/Shantell_Sans-Irregularish_Regular_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish" stylename="Medium Italic" name="Irregularish Medium Italic" filename="instances/Shantell_Sans-Irregularish_Medium_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish" stylename="SemiBold Italic" name="Irregularish SemiBold Italic" filename="instances/Shantell_Sans-Irregularish_SemiBold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish" stylename="Bold Italic" name="Irregularish Bold Italic" filename="instances/Shantell_Sans-Irregularish_Bold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish" stylename="ExtraBold Italic" name="Irregularish ExtraBold Italic" filename="instances/Shantell_Sans-Irregularish_ExtraBold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!-- SemiBouncy Irregularish -->
+    <instance familyname="Shantell Sans Irregularish SemiBouncy" stylename="Light Italic" name="Irregularish SemiBouncy Light Italic" filename="instances/Shantell_Sans-Irregularish_SemiBouncy_Light_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish SemiBouncy" stylename="Regular Italic" name="Irregularish SemiBouncy Regular Italic" filename="instances/Shantell_Sans-Irregularish_SemiBouncy_Regular_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish SemiBouncy" stylename="Medium Italic" name="Irregularish SemiBouncy Medium Italic" filename="instances/Shantell_Sans-Irregularish_SemiBouncy_Medium_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish SemiBouncy" stylename="SemiBold Italic" name="Irregularish SemiBouncy SemiBold Italic" filename="instances/Shantell_Sans-Irregularish_SemiBouncy_SemiBold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish SemiBouncy" stylename="Bold Italic" name="Irregularish SemiBouncy Bold Italic" filename="instances/Shantell_Sans-Irregularish_SemiBouncy_Bold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish SemiBouncy" stylename="ExtraBold Italic" name="Irregularish SemiBouncy ExtraBold Italic" filename="instances/Shantell_Sans-Irregularish_SemiBouncy_ExtraBold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="50"/>
+        <dimension name="Tracking" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!-- Bouncy Irregularish -->
+    <!-- Bouncy Irregularish -->
+    <instance familyname="Shantell Sans Irregularish Bouncy" stylename="Light Italic" name="Irregularish Bouncy Light Italic" filename="instances/Shantell_Sans-Irregularish_Bouncy_Light_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish Bouncy" stylename="Regular Italic" name="Irregularish Bouncy Regular Italic" filename="instances/Shantell_Sans-Irregularish_Bouncy_Regular_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish Bouncy" stylename="Medium Italic" name="Irregularish Bouncy Medium Italic" filename="instances/Shantell_Sans-Irregularish_Bouncy_Medium_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish Bouncy" stylename="SemiBold Italic" name="Irregularish Bouncy SemiBold Italic" filename="instances/Shantell_Sans-Irregularish_Bouncy_SemiBold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish Bouncy" stylename="Bold Italic" name="Irregularish Bouncy Bold Italic" filename="instances/Shantell_Sans-Irregularish_Bouncy_Bold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans Irregularish Bouncy" stylename="ExtraBold Italic" name="Irregularish Bouncy ExtraBold Italic" filename="instances/Shantell_Sans-Irregularish_Bouncy_ExtraBold_Italic.ufo">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Irregularity" xvalue="50"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>com.letterror.mathModelPref</key>
+      <string>previewVarLib</string>
+      <key>com.letterror.skateboard.interactionSources</key>
+      <dict>
+        <key>horizontal</key>
+        <array/>
+        <key>ignore</key>
+        <array/>
+        <key>vertical</key>
+        <array>
+          <string>Weight</string>
+        </array>
+      </dict>
+      <key>com.letterror.skateboard.previewLocation</key>
+      <dict>
+        <key>Weight</key>
+        <real>600.0</real>
+      </dict>
+      <key>com.letterror.skateboard.previewText</key>
+      <string>0123456789</string>
+    </dict>
+  </lib>
+</designspace>

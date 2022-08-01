@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="adieresiscyr" format="2">
+	<unicode hex="04D3"/>
+	<advance width="644"/>
+	<outline>
+		<component base="a"/>
+		<component base="dieresiscomb" xOffset="329"/>
+	</outline>
+	<anchor name="bottom" x="329" y="25"/>
+	<anchor name="ogonek" x="584" y="-35"/>
+	<anchor name="top" x="328" y="660"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.992,0.706,0.831,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

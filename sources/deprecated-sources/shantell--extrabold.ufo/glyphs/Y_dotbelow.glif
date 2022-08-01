@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ydotbelow" format="2">
+	<unicode hex="1EF4"/>
+	<advance width="626"/>
+	<outline>
+		<component base="Y"/>
+		<component base="dotbelowcmb" xOffset="242"/>
+	</outline>
+	<anchor name="bottom" x="242" y="0"/>
+	<anchor name="top" x="300" y="700"/>
+	<lib>
+		<dict>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uhorn" format="2">
+	<unicode hex="01B0"/>
+	<advance width="717"/>
+	<outline>
+		<contour>
+			<point x="513" y="470" type="curve" smooth="yes"/>
+			<point x="466" y="470"/>
+			<point x="430" y="452"/>
+			<point x="430" y="401" type="curve" smooth="yes"/>
+			<point x="430" y="349"/>
+			<point x="455" y="311"/>
+			<point x="512" y="311" type="curve" smooth="yes"/>
+			<point x="646" y="311"/>
+			<point x="716" y="378"/>
+			<point x="716" y="480" type="curve" smooth="yes"/>
+			<point x="716" y="552"/>
+			<point x="675" y="587"/>
+			<point x="606" y="587" type="curve" smooth="yes"/>
+			<point x="564" y="587"/>
+			<point x="541" y="567"/>
+			<point x="541" y="538" type="curve" smooth="yes"/>
+			<point x="541" y="523"/>
+			<point x="544" y="515"/>
+			<point x="544" y="497" type="curve" smooth="yes"/>
+			<point x="544" y="479"/>
+			<point x="531" y="470"/>
+		</contour>
+		<component base="u"/>
+	</outline>
+	<anchor name="bottom" x="316" y="23"/>
+	<anchor name="ogonek" x="388" y="28"/>
+	<anchor name="top" x="316" y="479"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

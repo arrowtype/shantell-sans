@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ellipsis" format="2">
+	<unicode hex="2026"/>
+	<advance width="841"/>
+	<outline>
+		<contour>
+			<point x="125.365" y="-10" type="curve" smooth="yes"/>
+			<point x="159.365" y="-10"/>
+			<point x="177.365" y="16"/>
+			<point x="182.365" y="41" type="curve" smooth="yes"/>
+			<point x="189.365" y="76"/>
+			<point x="169.365" y="119"/>
+			<point x="121.365" y="119" type="curve" smooth="yes"/>
+			<point x="95.365" y="119"/>
+			<point x="69.365" y="99"/>
+			<point x="63.365" y="71" type="curve" smooth="yes"/>
+			<point x="55.365" y="30"/>
+			<point x="83.365" y="-10"/>
+		</contour>
+		<contour>
+			<point x="385.365" y="-10" type="curve" smooth="yes"/>
+			<point x="419.365" y="-10"/>
+			<point x="437.365" y="16"/>
+			<point x="442.365" y="41" type="curve" smooth="yes"/>
+			<point x="449.365" y="76"/>
+			<point x="429.365" y="119"/>
+			<point x="381.365" y="119" type="curve" smooth="yes"/>
+			<point x="355.365" y="119"/>
+			<point x="329.365" y="99"/>
+			<point x="323.365" y="71" type="curve" smooth="yes"/>
+			<point x="315.365" y="30"/>
+			<point x="343.365" y="-10"/>
+		</contour>
+		<contour>
+			<point x="645.365" y="-10" type="curve" smooth="yes"/>
+			<point x="679.365" y="-10"/>
+			<point x="697.365" y="16"/>
+			<point x="702.365" y="41" type="curve" smooth="yes"/>
+			<point x="709.365" y="76"/>
+			<point x="689.365" y="119"/>
+			<point x="641.365" y="119" type="curve" smooth="yes"/>
+			<point x="615.365" y="119"/>
+			<point x="589.365" y="99"/>
+			<point x="583.365" y="71" type="curve" smooth="yes"/>
+			<point x="575.365" y="30"/>
+			<point x="603.365" y="-10"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>

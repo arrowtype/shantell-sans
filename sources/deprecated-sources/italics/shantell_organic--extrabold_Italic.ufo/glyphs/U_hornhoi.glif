@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Uhornhoi" format="2">
+	<unicode hex="1EEC"/>
+	<advance width="750"/>
+	<outline>
+		<component base="Uhorn"/>
+		<component base="hookabovecmb" xOffset="348" yOffset="95"/>
+	</outline>
+	<anchor name="bottom" x="300.406" y="50"/>
+	<anchor name="ogonek" x="427.057" y="73"/>
+	<anchor name="top" x="403.407" y="610"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>Uhorn</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>hookabovecmb</string>
+				</dict>
+			</array>
+			<key>public.verticalOrigin</key>
+			<integer>1020</integer>
+		</dict>
+	</lib>
+</glyph>
