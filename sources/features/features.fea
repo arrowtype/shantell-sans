@@ -1,6 +1,19 @@
 languagesystem DFLT dflt;
 languagesystem latn dflt;
-languagesystem cyrl dflt; # ⚠️ very necessary!
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn CAT;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn NLD;
+languagesystem cyrl dflt; # ⚠️ very necessary! calt breaks without this.
+languagesystem cyrl BGR;
+languagesystem cyrl SRB;
+languagesystem cyrl MKD;
+languagesystem cyrl UKR;
 
 # include paths written relative to UFOs in varfontprep folders
 # `features` dir will be copied to varfontprep folder, and these includes will link to that
