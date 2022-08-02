@@ -17,6 +17,7 @@ languagesystem cyrl UKR;
 
 # include paths written relative to UFOs in varfontprep folders
 # `features` dir will be copied to varfontprep folder, and these includes will link to that
+include(./features/aalt.fea);
 include(./features/common.fea);
 include(./features/ccmp.fea);
 include(./features/locl.fea);
@@ -26,4 +27,5 @@ include(./features/pnum_tnum.fea);
 include(./features/ordn.fea);
 include(./features/case.fea);
 include(./features/liga.fea);
+include(./features/ss0X.fea);
 include(./cycle-calt.fea); # this is generated in prep-build.py

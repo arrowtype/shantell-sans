@@ -1,0 +1,14 @@
+# see second aalt suggestion at https://opentypecookbook.com/common-techniques/
+feature aalt {
+    feature locl;
+    feature sups;
+    feature numr;
+    feature dnom;
+    feature frac;
+    feature ordn;
+    feature case;
+    feature ss01;
+    feature ss02;
+    feature ss03;
+    feature calt;
+} aalt;
