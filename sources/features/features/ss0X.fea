@@ -1,0 +1,41 @@
+feature ss01 {
+    featureNames {
+        # MS, unicode, English
+        name "Ukrainian Cyrillic Forms";
+        # Apple, roman, unspecified
+        name 1 "Ukrainian Cyrillic Forms";
+    };
+    sub yukrcyr yukrcyr by yukrcyr_yukrcyr;
+} ss01;
+
+feature ss02 {
+    featureNames {
+        # MS, unicode, English
+        name "Bulgarian Cyrillic Forms";
+        # Apple, roman, unspecified
+        name 1 "Bulgarian Cyrillic Forms";
+    };
+    sub Efcyr by Ef-cy.loclBGR;
+    sub decyr by de-cy.loclBGR;
+    sub gecyr by ge-cy.loclBGR;
+    sub iukrcyr by iu-cy.loclBGR;
+    sub kacyr by ka-cy.loclBGR;
+    sub pecyr by pe-cy.loclBGR;
+    sub shacyr by sha-cy.loclBGR;
+    sub shchacyr by shcha-cy.loclBGR;
+    sub tecyr by te-cy.loclBGR;
+    sub tsecyr by tse-cy.loclBGR;
+    sub vecyr by ve-cy.loclBGR;
+    sub zecyr by ze-cy.loclBGR;
+    sub zhecyr by zhe-cy.loclBGR;
+} ss02;
+
+feature ss03 {
+    featureNames {
+        # MS, unicode, English
+        name "Serbian and Macedonian Cyrillic Forms";
+        # Apple, roman, unspecified
+        name 1 "Serbian and Macedonian Cyrillic Forms";
+    };
+    sub becyr by be-cy.loclSRB;
+} ss03;
