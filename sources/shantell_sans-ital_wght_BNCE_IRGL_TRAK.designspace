@@ -4,7 +4,7 @@
     <axis tag="ital" name="Italic" minimum="0" maximum="1" default="0"/>
     <axis tag="wght" name="Weight" minimum="300" maximum="800" default="300"/>
     <axis tag="IRGL" name="Irregularity" minimum="0" maximum="100" default="0"/>
-    <axis tag="BNCE" name="Bounce" minimum="-100" maximum="100" default="0"/>
+    <axis tag="BNCE" name="Bounce" minimum="-125" maximum="125" default="0"/>
     <axis tag="TRAK" name="Tracking" minimum="0" maximum="500" default="0"/>
   </axes>
   <sources>
