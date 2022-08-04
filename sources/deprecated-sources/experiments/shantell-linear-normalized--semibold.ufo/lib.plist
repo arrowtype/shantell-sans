@@ -39,14 +39,14 @@
 		<string>/Users/stephennixon/type-repos/shantell/fonts/shantell-linear.otf</string>
 		<key>com.typemytype.robofont.compileSettings.releaseMode</key>
 		<false/>
+		<key>com.typemytype.robofont.generateFeaturesWithFontTools</key>
+		<false/>
 		<key>com.typemytype.robofont.italicSlantOffset</key>
 		<integer>0</integer>
 		<key>com.typemytype.robofont.segmentType</key>
 		<string>curve</string>
 		<key>com.typemytype.robofont.shouldAddPointsInSplineConversion</key>
 		<integer>1</integer>
-		<key>com.typemytype.robofont.smartSets.uniqueKey</key>
-		<string>4669738448</string>
 		<key>public.glyphOrder</key>
 		<array>
 			<string>A</string>
@@ -116,12 +116,6 @@
 			<string>hyphen</string>
 			<string>space</string>
 			<string>G.wide</string>
-		</array>
-		<key>public.postscriptNames</key>
-		<dict>
-		</dict>
-		<key>public.skipExportGlyphs</key>
-		<array>
 		</array>
 	</dict>
 </plist>

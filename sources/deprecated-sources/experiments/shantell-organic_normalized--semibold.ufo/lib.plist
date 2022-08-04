@@ -37,14 +37,14 @@
 		<string>/Users/stephennixon/type-repos/shantell/fonts/shantell_marker-organic.otf</string>
 		<key>com.typemytype.robofont.compileSettings.releaseMode</key>
 		<false/>
+		<key>com.typemytype.robofont.generateFeaturesWithFontTools</key>
+		<false/>
 		<key>com.typemytype.robofont.italicSlantOffset</key>
 		<integer>0</integer>
 		<key>com.typemytype.robofont.segmentType</key>
 		<string>curve</string>
 		<key>com.typemytype.robofont.shouldAddPointsInSplineConversion</key>
 		<integer>1</integer>
-		<key>com.typemytype.robofont.smartSets.uniqueKey</key>
-		<string>4658861072</string>
 		<key>public.glyphOrder</key>
 		<array>
 			<string>A</string>
@@ -115,12 +115,6 @@
 			<string>hyphen</string>
 			<string>space</string>
 			<string>t.001</string>
-		</array>
-		<key>public.postscriptNames</key>
-		<dict>
-		</dict>
-		<key>public.skipExportGlyphs</key>
-		<array>
 		</array>
 	</dict>
 </plist>
