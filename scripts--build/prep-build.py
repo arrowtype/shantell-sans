@@ -519,14 +519,14 @@ def interpolateAlts(normalFont, organicFont, altsMadeForList):
             factor = 0.1
             organicFont[f'{g.name}.alt1'].interpolate(factor, normalFont[g.name], organicFont[g.name])
 
-            # interpolate alt2 33% towards organicFont glyph
-            factor = 0.33
+            # interpolate alt2 40% towards organicFont glyph
+            factor = 0.4
             organicFont[f'{g.name}.alt2'].interpolate(factor, normalFont[g.name], organicFont[g.name])
 
             try:
                 # IF USING 3 alts (4 total versions of each glyph)
-                # interpolate alt2 66% towards organicFont glyph
-                factor = 0.66
+                # interpolate alt2 80% towards organicFont glyph
+                factor = 0.8
                 organicFont[f'{g.name}.alt3'].interpolate(factor, normalFont[g.name], organicFont[g.name])
             except:
                 pass
@@ -870,8 +870,8 @@ def main():
 
     # TODO: add step to write these new bounces to Glyphs source
     # ONLY DO THE FOLLOWING IF YOU WANT TO COMPLETELY SHIFT/CHANGE BOUNCY STYLES
-    print("🤖 Resetting bounce randomization in sources")
-    resetBounces(gsfont)
+    # print("🤖 Resetting bounce randomization in sources")
+    # resetBounces(gsfont)
 
     print(f"🤖 Copying fonts to {prepDir}")
     makePrepDir(ufosDir, sourceUfos)
