@@ -516,17 +516,17 @@ def interpolateAlts(normalFont, organicFont, altsMadeForList):
         # if g.unicodes and g.unicodes[0] in altsToMakeList and 'alt' not in g.name:
         if g.name in altsMadeForList and '.alt' not in g.name:
             # interpolate alt1 10% towards organicFont glyph
-            factor = 0.1
+            factor = 0.5
             organicFont[f'{g.name}.alt1'].interpolate(factor, normalFont[g.name], organicFont[g.name])
 
             # interpolate alt2 40% towards organicFont glyph
-            factor = 0.4
+            factor = 0.75
             organicFont[f'{g.name}.alt2'].interpolate(factor, normalFont[g.name], organicFont[g.name])
 
             try:
                 # IF USING 3 alts (4 total versions of each glyph)
                 # interpolate alt2 80% towards organicFont glyph
-                factor = 0.8
+                factor = 0.25
                 organicFont[f'{g.name}.alt3'].interpolate(factor, normalFont[g.name], organicFont[g.name])
             except:
                 pass
