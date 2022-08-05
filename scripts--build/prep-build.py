@@ -516,17 +516,17 @@ def interpolateAlts(normalFont, organicFont, altsMadeForList):
         # if g.unicodes and g.unicodes[0] in altsToMakeList and 'alt' not in g.name:
         if g.name in altsMadeForList and '.alt' not in g.name:
             # interpolate alt1 10% towards organicFont glyph
-            factor = 0.5
+            factor = 0.1
             organicFont[f'{g.name}.alt1'].interpolate(factor, normalFont[g.name], organicFont[g.name])
 
-            # interpolate alt2 40% towards organicFont glyph
-            factor = 0.75
+            # interpolate alt2 66% towards organicFont glyph
+            factor = 0.66
             organicFont[f'{g.name}.alt2'].interpolate(factor, normalFont[g.name], organicFont[g.name])
 
             try:
                 # IF USING 3 alts (4 total versions of each glyph)
-                # interpolate alt2 80% towards organicFont glyph
-                factor = 0.25
+                # interpolate alt2 33% towards organicFont glyph
+                factor = 0.33
                 organicFont[f'{g.name}.alt3'].interpolate(factor, normalFont[g.name], organicFont[g.name])
             except:
                 pass
@@ -899,13 +899,13 @@ def main():
     print("🤖 Shifting bouncy alts")
     for font in fonts:
         if "bounce" in font.path and "reverse_bounce" not in font.path:
-            shiftGlyphs(font, gsfont, factor=1.25) # factor 1 makes moves of up to 100 units
+            shiftGlyphs(font, gsfont, factor=1) # factor 1 makes moves of up to 100 units
     
     # split into separate loop so reverse sources always go second
     for font in fonts:
         if "reverse_bounce" in font.path:
             print("reverse bounces for ", font.path)
-            shiftGlyphs(font, gsfont, factor=-1.25) # factor -1 makes moves of up to -100 units
+            shiftGlyphs(font, gsfont, factor=-1) # factor -1 makes moves of up to -100 units
 
     # save any bounce values recorded into Glyphs source
     gsfont.save(glyphsFile)

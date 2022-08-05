@@ -9,7 +9,8 @@ def kinetic4(f):
         background,
         StSt("TYPOGRAPHY", fnt, 225
         # StSt("ТИПОГРАФИЯ", fnt, 225
-            , TRAK=0.125
+            # , TRAK=0.125
+            , TRAK=f.e("eeio", 1, rng=(0, .25))
             , wght=f.e("sio", 1, rng=(0, 1))
             , ital=f.e("eeio", 1, rng=(0, 1))
             , IRGL=f.e("sio", 2, rng=(0, 1))
@@ -19,7 +20,7 @@ def kinetic4(f):
             .f(0),
         StSt("IS KINETIC", fnt, 225
         # StSt("КИНЕТИЧЕСКАЯ", fnt, 225
-            , TRAK=0.125
+            , TRAK=f.e("eeio", 1, rng=(.4, 0))
             # , TRAK=0
             , wght=f.e("sio", 1, rng=(1, 0))
             , ital=f.e("eeio", 1, rng=(1, 0))
