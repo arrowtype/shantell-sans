@@ -1,6 +1,6 @@
 from coldtype import *
 
-fnt = Font.Cacheable("/Users/stephennixon/code/coldtype-test/assets/ShantellSans[BNCE,IRGL,TRAK,ital,wght].ttf")
+fnt = Font.Cacheable("fonts/Shantell Sans/Desktop/ShantellSans[BNCE,IRGL,TRAK,ital,wght].ttf")
 
 @animation((1920, 720), timeline=Timeline(50), fmt="png")
 def irregularity(f):
@@ -45,3 +45,12 @@ def irregularity(f):
         #     .align(f.a.r)
         #     .translate(0, -120)
         #     .f(0)),
+
+def gifski(a:animation, passes):
+    from subprocess import run
+    root = a.pass_path(f"%4d.{a.fmt}").parent.parent
+    gif = root / (a.name + ".gif")
+    run(["gifski", "--fps", str(a.timeline.fps), "-o", gif,"-W", "1080", "-Q", "70", *[p.output_path for p in passes if p.render == a]])
+
+def release(passes):
+    gifski(irregularity, passes)

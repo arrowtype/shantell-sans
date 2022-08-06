@@ -16,7 +16,13 @@
         "type": "shell",
         "command": "python3",
         "args": ["${file}"],
-      }
+      },
+      {
+        "label": "Run Current Coldtype File",
+        "type": "shell",
+        "command": "coldtype",
+        "args": ["${file}"],
+      },
     ]
   }
   
