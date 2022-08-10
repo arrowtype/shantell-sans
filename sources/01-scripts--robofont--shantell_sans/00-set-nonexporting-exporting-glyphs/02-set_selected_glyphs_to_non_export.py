@@ -17,4 +17,3 @@ for glyphname in f.selection:
         print(f"{glyphname} now set to non-exporting")
         
 f.update()
-f.save()

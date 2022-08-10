@@ -14,4 +14,3 @@ for glyphname in f.selection:
         print(f"{glyphname} now set to export")
         
 f.update()
-f.save()
