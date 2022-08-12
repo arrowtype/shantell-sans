@@ -1,5 +1,7 @@
 {
 glyphname = f_f_i;
+kernLeft = KO_f;
+kernRight = KO_fi;
 layers = (
 {
 anchors = (
@@ -136,11 +138,11 @@ pos = (462,0);
 ref = f;
 },
 {
-pos = (927,0);
+pos = (884,0);
 ref = i;
 }
 );
-width = 1203;
+width = 1160;
 },
 {
 anchors = (
