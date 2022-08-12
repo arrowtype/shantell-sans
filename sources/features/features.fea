@@ -23,7 +23,7 @@ include(./features/ccmp.fea);
 include(./features/locl.fea);
 include(./features/frac.fea);
 include(./features/numr_dnom_supr_infr.fea);
-include(./features/pnum_tnum.fea);
+include(./features/tnum.fea);
 include(./features/ordn.fea);
 include(./features/case.fea);
 include(./features/liga.fea);
