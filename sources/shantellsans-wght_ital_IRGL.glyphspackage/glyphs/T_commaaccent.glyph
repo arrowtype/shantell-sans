@@ -1,0 +1,194 @@
+{
+color = (255,0,0,128);
+glyphname = Tcommaaccent;
+kernLeft = KO_T;
+kernRight = KO_T;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (317,0);
+},
+{
+name = top;
+pos = (317,700);
+}
+);
+layerId = "DC44E50C-9AA1-421C-802C-D4D023281425";
+shapes = (
+{
+ref = T;
+},
+{
+pos = (317,0);
+ref = commaaccentbelowcmb;
+}
+);
+width = 615;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (330,0);
+},
+{
+name = top;
+pos = (319,700);
+}
+);
+layerId = "FA16BA0A-39E2-4955-BC33-721AB190E0D3";
+shapes = (
+{
+ref = T;
+},
+{
+pos = (330,0);
+ref = commaaccentbelowcmb;
+}
+);
+width = 625;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (345,35);
+},
+{
+name = top;
+pos = (339,612);
+}
+);
+layerId = "365BB766-143C-4A52-A3A9-25E29A0F4411";
+shapes = (
+{
+ref = T;
+},
+{
+pos = (345,35);
+ref = commaaccentbelowcmb;
+}
+);
+width = 647;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (342,43);
+},
+{
+name = top;
+pos = (329,608);
+}
+);
+layerId = "5DCC2EB0-DF11-4824-93BF-E616AA6EE2C6";
+shapes = (
+{
+ref = T;
+},
+{
+pos = (342,43);
+ref = commaaccentbelowcmb;
+}
+);
+width = 645;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (268.743,0);
+},
+{
+name = top;
+pos = (408.743,700);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = T;
+},
+{
+pos = (317,0);
+ref = commaaccentbelowcmb;
+}
+);
+width = 615;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (276.638,0);
+},
+{
+name = top;
+pos = (405.639,700);
+}
+);
+layerId = "FAD04859-55EE-48D6-A0AA-73DE2A79512F";
+shapes = (
+{
+ref = T;
+},
+{
+pos = (330,0);
+ref = commaaccentbelowcmb;
+}
+);
+width = 625;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (308.743,35);
+},
+{
+name = top;
+pos = (418.143,612);
+}
+);
+layerId = "0998268F-450B-429A-9175-FFA5E463F4E3";
+shapes = (
+{
+ref = T;
+},
+{
+pos = (352,35);
+ref = commaaccentbelowcmb;
+}
+);
+width = 647;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (294.811,43);
+},
+{
+name = top;
+pos = (394.812,608);
+}
+);
+layerId = "60E1EE18-36F5-475C-BAEC-6556E4A9959C";
+shapes = (
+{
+ref = T;
+},
+{
+pos = (351,43);
+ref = commaaccentbelowcmb;
+}
+);
+width = 645;
+}
+);
+production = uni021A;
+unicode = 538;
+}

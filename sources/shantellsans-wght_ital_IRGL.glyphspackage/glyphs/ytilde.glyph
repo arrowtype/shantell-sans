@@ -1,0 +1,193 @@
+{
+glyphname = ytilde;
+kernLeft = KO_y;
+kernRight = KO_y;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (282,-250);
+},
+{
+name = top;
+pos = (270,700);
+}
+);
+layerId = "DC44E50C-9AA1-421C-802C-D4D023281425";
+shapes = (
+{
+ref = y;
+},
+{
+pos = (270,0);
+ref = tildecomb;
+}
+);
+width = 563;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (320,-250);
+},
+{
+name = top;
+pos = (300,760);
+}
+);
+layerId = "FA16BA0A-39E2-4955-BC33-721AB190E0D3";
+shapes = (
+{
+ref = y;
+},
+{
+pos = (300,0);
+ref = tildecomb;
+}
+);
+width = 623;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (282,-250);
+},
+{
+name = top;
+pos = (270,751);
+}
+);
+layerId = "365BB766-143C-4A52-A3A9-25E29A0F4411";
+shapes = (
+{
+ref = y;
+},
+{
+pos = (270,51);
+ref = tildecomb;
+}
+);
+width = 563;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (320,-250);
+},
+{
+name = top;
+pos = (300,808);
+}
+);
+layerId = "5DCC2EB0-DF11-4824-93BF-E616AA6EE2C6";
+shapes = (
+{
+ref = y;
+},
+{
+pos = (300,48);
+ref = tildecomb;
+}
+);
+width = 623;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (182.818,-250);
+},
+{
+name = top;
+pos = (360.545,700);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = y;
+},
+{
+pos = (269,0);
+ref = tildecomb;
+}
+);
+width = 563;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (214.987,-250);
+},
+{
+name = top;
+pos = (397.295,760);
+}
+);
+layerId = "FAD04859-55EE-48D6-A0AA-73DE2A79512F";
+shapes = (
+{
+ref = y;
+},
+{
+pos = (300,0);
+ref = tildecomb;
+}
+);
+width = 623;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (186.818,-250);
+},
+{
+name = top;
+pos = (375.545,751);
+}
+);
+layerId = "0998268F-450B-429A-9175-FFA5E463F4E3";
+shapes = (
+{
+ref = y;
+},
+{
+pos = (279,51);
+ref = tildecomb;
+}
+);
+width = 563;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (213.987,-250);
+},
+{
+name = top;
+pos = (406.295,808);
+}
+);
+layerId = "60E1EE18-36F5-475C-BAEC-6556E4A9959C";
+shapes = (
+{
+ref = y;
+},
+{
+pos = (309,48);
+ref = tildecomb;
+}
+);
+width = 623;
+}
+);
+production = uni1EF9;
+unicode = 7929;
+}

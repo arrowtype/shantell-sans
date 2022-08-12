@@ -1,0 +1,375 @@
+{
+color = (187,132,254,255);
+glyphname = "ka-cy.loclBGR";
+kernLeft = KO_k;
+kernRight = KO_k;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (261,0);
+},
+{
+name = top;
+pos = (174,750);
+}
+);
+layerId = "DC44E50C-9AA1-421C-802C-D4D023281425";
+shapes = (
+{
+ref = k;
+}
+);
+width = 548;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (335,0);
+},
+{
+name = top;
+pos = (165,750);
+}
+);
+layerId = "FA16BA0A-39E2-4955-BC33-721AB190E0D3";
+shapes = (
+{
+ref = k;
+}
+);
+width = 678;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (270,0);
+},
+{
+name = top;
+pos = (183,750);
+}
+);
+layerId = "365BB766-143C-4A52-A3A9-25E29A0F4411";
+shapes = (
+{
+ref = k;
+}
+);
+width = 558;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (339,0);
+},
+{
+name = top;
+pos = (169,750);
+}
+);
+layerId = "5DCC2EB0-DF11-4824-93BF-E616AA6EE2C6";
+shapes = (
+{
+ref = k;
+}
+);
+width = 678;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (212.792,0);
+},
+{
+name = top;
+pos = (275.793,750);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (212.792,0);
+},
+{
+name = top;
+pos = (275.793,750);
+}
+);
+shapes = (
+{
+pos = (-2,0);
+ref = k;
+}
+);
+};
+layerId = master01;
+shapes = (
+{
+ref = k;
+}
+);
+width = 548;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (285.8,0);
+},
+{
+name = top;
+pos = (265.801,750);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (285.8,0);
+},
+{
+name = top;
+pos = (265.801,750);
+}
+);
+shapes = (
+{
+pos = (3,0);
+ref = k;
+}
+);
+};
+layerId = "FAD04859-55EE-48D6-A0AA-73DE2A79512F";
+shapes = (
+{
+ref = k;
+}
+);
+width = 678;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (216.794,0);
+},
+{
+name = top;
+pos = (279.794,750);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (216.794,0);
+},
+{
+name = top;
+pos = (279.794,750);
+}
+);
+shapes = (
+{
+pos = (7,0);
+ref = k;
+}
+);
+};
+layerId = "0998268F-450B-429A-9175-FFA5E463F4E3";
+shapes = (
+{
+ref = k;
+}
+);
+width = 558;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (291.406,0);
+},
+{
+name = top;
+pos = (271.407,750);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (291.406,0);
+},
+{
+name = top;
+pos = (271.407,750);
+}
+);
+shapes = (
+{
+pos = (7,0);
+ref = k;
+}
+);
+};
+layerId = "60E1EE18-36F5-475C-BAEC-6556E4A9959C";
+shapes = (
+{
+ref = k;
+}
+);
+width = 678;
+},
+{
+associatedMasterId = "FA16BA0A-39E2-4955-BC33-721AB190E0D3";
+layerId = "87234B38-16F4-4CA1-8928-84317B013084";
+name = bg;
+shapes = (
+{
+closed = 1;
+nodes = (
+(244,606,o),
+(230,284,o),
+(230,225,cs),
+(230,168,o),
+(232,122,o),
+(241,86,cs),
+(252,41,o),
+(222,-7,o),
+(177,-18,cs),
+(132,-29,o),
+(84,1,o),
+(73,46,cs),
+(62,92,o),
+(58,150,o),
+(58,225,cs),
+(58,282,o),
+(72,600,o),
+(68,673,cs),
+(66,720,o),
+(103,761,o),
+(149,764,cs),
+(196,766,o),
+(237,729,o),
+(240,683,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(413,322,o),
+(321,230,o),
+(304,213,c),
+(300,281,l),
+(345,244,o),
+(435,186,o),
+(547,152,cs),
+(591,139,o),
+(618,89,o),
+(604,45,cs),
+(591,1,o),
+(541,-26,o),
+(497,-12,cs),
+(359,30,o),
+(267,102,o),
+(210,149,cs),
+(154,196,o),
+(135,268,o),
+(202,335,cs),
+(225,358,o),
+(329,494,o),
+(501,531,cs),
+(546,541,o),
+(593,510,o),
+(603,465,cs),
+(613,420,o),
+(582,378,o),
+(537,363,cs)
+);
+}
+);
+vertWidth = 0;
+width = 660;
+},
+{
+associatedMasterId = "5DCC2EB0-DF11-4824-93BF-E616AA6EE2C6";
+layerId = "E61385E5-7ADA-4F99-8C00-F0CD171F640D";
+name = bg;
+shapes = (
+{
+closed = 1;
+nodes = (
+(244,606,o),
+(230,284,o),
+(230,225,cs),
+(230,168,o),
+(232,122,o),
+(241,86,cs),
+(252,41,o),
+(222,-7,o),
+(177,-18,cs),
+(132,-29,o),
+(84,1,o),
+(73,46,cs),
+(62,92,o),
+(58,150,o),
+(58,225,cs),
+(58,282,o),
+(72,600,o),
+(68,673,cs),
+(66,720,o),
+(103,761,o),
+(149,764,cs),
+(196,766,o),
+(237,729,o),
+(240,683,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(413,322,o),
+(321,230,o),
+(304,213,c),
+(300,281,l),
+(345,244,o),
+(435,186,o),
+(547,152,cs),
+(591,139,o),
+(618,89,o),
+(604,45,cs),
+(591,1,o),
+(541,-26,o),
+(497,-12,cs),
+(359,30,o),
+(267,102,o),
+(210,149,cs),
+(154,196,o),
+(135,268,o),
+(202,335,cs),
+(225,358,o),
+(329,494,o),
+(501,531,cs),
+(546,541,o),
+(593,510,o),
+(603,465,cs),
+(613,420,o),
+(582,378,o),
+(537,363,cs)
+);
+}
+);
+vertWidth = 0;
+width = 632;
+}
+);
+production = uni043A.loclBGR;
+}

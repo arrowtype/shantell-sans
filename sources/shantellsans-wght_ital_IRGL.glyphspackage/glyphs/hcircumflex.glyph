@@ -1,0 +1,192 @@
+{
+glyphname = hcircumflex;
+kernLeft = KO_h;
+kernRight = KO_h;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (323,0);
+},
+{
+name = top;
+pos = (182,946);
+}
+);
+layerId = "DC44E50C-9AA1-421C-802C-D4D023281425";
+shapes = (
+{
+ref = h;
+},
+{
+pos = (182,265);
+ref = circumflexcomb;
+}
+);
+width = 613;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (350,0);
+},
+{
+name = top;
+pos = (143,988);
+}
+);
+layerId = "FA16BA0A-39E2-4955-BC33-721AB190E0D3";
+shapes = (
+{
+ref = h;
+},
+{
+pos = (143,235);
+ref = circumflexcomb;
+}
+);
+width = 693;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (323,0);
+},
+{
+name = top;
+pos = (162,946);
+}
+);
+layerId = "365BB766-143C-4A52-A3A9-25E29A0F4411";
+shapes = (
+{
+ref = h;
+},
+{
+pos = (162,265);
+ref = circumflexcomb;
+}
+);
+width = 613;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (350,0);
+},
+{
+name = top;
+pos = (143,1008);
+}
+);
+layerId = "5DCC2EB0-DF11-4824-93BF-E616AA6EE2C6";
+shapes = (
+{
+ref = h;
+},
+{
+pos = (143,235);
+ref = circumflexcomb;
+}
+);
+width = 713;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (274.785,0);
+},
+{
+name = top;
+pos = (322.715,946);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = h;
+},
+{
+pos = (234.993,265);
+ref = circumflexcomb;
+}
+);
+width = 613;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (298.388,0);
+},
+{
+name = top;
+pos = (289.476,988);
+}
+);
+layerId = "FAD04859-55EE-48D6-A0AA-73DE2A79512F";
+shapes = (
+{
+ref = h;
+},
+{
+pos = (191,235);
+ref = circumflexcomb;
+}
+);
+width = 693;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (274.785,0);
+},
+{
+name = top;
+pos = (302.713,946);
+}
+);
+layerId = "0998268F-450B-429A-9175-FFA5E463F4E3";
+shapes = (
+{
+ref = h;
+},
+{
+pos = (214.991,265);
+ref = circumflexcomb;
+}
+);
+width = 613;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (298.531,0);
+},
+{
+name = top;
+pos = (288.476,988);
+}
+);
+layerId = "60E1EE18-36F5-475C-BAEC-6556E4A9959C";
+shapes = (
+{
+ref = h;
+},
+{
+pos = (191,235);
+ref = circumflexcomb;
+}
+);
+width = 713;
+}
+);
+unicode = 293;
+}

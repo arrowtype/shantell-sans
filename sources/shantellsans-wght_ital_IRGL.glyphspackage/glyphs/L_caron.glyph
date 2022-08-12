@@ -1,0 +1,198 @@
+{
+color = (0,242,242,64);
+glyphname = Lcaron;
+kernLeft = KO_L;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (289,0);
+},
+{
+name = top;
+pos = (157,700);
+}
+);
+layerId = "DC44E50C-9AA1-421C-802C-D4D023281425";
+shapes = (
+{
+ref = L;
+},
+{
+pos = (317,-6);
+ref = quotesingle;
+}
+);
+width = 556;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (290,0);
+},
+{
+name = top;
+pos = (184,700);
+}
+);
+layerId = "FA16BA0A-39E2-4955-BC33-721AB190E0D3";
+shapes = (
+{
+ref = L;
+},
+{
+pos = (307,-6);
+ref = quotesingle;
+}
+);
+width = 536;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (289,49.4);
+},
+{
+name = top;
+pos = (171.3,612.9);
+}
+);
+layerId = "365BB766-143C-4A52-A3A9-25E29A0F4411";
+shapes = (
+{
+ref = L;
+},
+{
+pos = (317,-6);
+ref = quotesingle;
+}
+);
+width = 556;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (264,52);
+},
+{
+name = top;
+pos = (158,644);
+}
+);
+layerId = "5DCC2EB0-DF11-4824-93BF-E616AA6EE2C6";
+shapes = (
+{
+ref = L;
+},
+{
+pos = (307,-6);
+ref = quotesingle;
+}
+);
+width = 517;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (240.328,0);
+},
+{
+name = top;
+pos = (248.329,700);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = L;
+},
+{
+alignment = -1;
+pos = (316,-6);
+ref = quotesingle;
+}
+);
+vertWidth = 0;
+width = 586;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (238.742,0);
+},
+{
+name = top;
+pos = (272.743,700);
+}
+);
+layerId = "FAD04859-55EE-48D6-A0AA-73DE2A79512F";
+shapes = (
+{
+alignment = -1;
+ref = L;
+},
+{
+alignment = -1;
+pos = (306,-6);
+ref = quotesingle;
+}
+);
+vertWidth = 0;
+width = 562;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (250.117,49);
+},
+{
+name = top;
+pos = (244.918,613);
+}
+);
+layerId = "0998268F-450B-429A-9175-FFA5E463F4E3";
+shapes = (
+{
+ref = L;
+},
+{
+pos = (316,-6);
+ref = quotesingle;
+}
+);
+width = 556;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (223.24,52);
+},
+{
+name = top;
+pos = (235.641,644);
+}
+);
+layerId = "60E1EE18-36F5-475C-BAEC-6556E4A9959C";
+shapes = (
+{
+ref = L;
+},
+{
+pos = (306,-6);
+ref = quotesingle;
+}
+);
+width = 517;
+}
+);
+unicode = 317;
+}
