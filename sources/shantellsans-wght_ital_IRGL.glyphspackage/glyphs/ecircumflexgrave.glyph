@@ -1,0 +1,223 @@
+{
+glyphname = ecircumflexgrave;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (272,0);
+},
+{
+name = ogonek;
+pos = (423,32);
+},
+{
+name = top;
+pos = (299,485);
+}
+);
+layerId = "DC44E50C-9AA1-421C-802C-D4D023281425";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (299,0);
+ref = circumflexgravecomb;
+}
+);
+width = 562;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (309,0);
+},
+{
+name = ogonek;
+pos = (505,41);
+},
+{
+name = top;
+pos = (309,515);
+}
+);
+layerId = "FA16BA0A-39E2-4955-BC33-721AB190E0D3";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (309,0);
+ref = circumflexgravecomb;
+}
+);
+width = 611;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (252,-36);
+},
+{
+name = ogonek;
+pos = (391,-9);
+},
+{
+name = top;
+pos = (299,522);
+}
+);
+layerId = "365BB766-143C-4A52-A3A9-25E29A0F4411";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (339,37);
+ref = circumflexgravecomb;
+}
+);
+width = 580;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (315,-37);
+},
+{
+name = ogonek;
+pos = (529,9);
+},
+{
+name = top;
+pos = (342,550);
+}
+);
+layerId = "5DCC2EB0-DF11-4824-93BF-E616AA6EE2C6";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (342,35);
+ref = circumflexgravecomb;
+}
+);
+width = 657;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (223.073,0);
+},
+{
+name = ogonek;
+pos = (380.473,32);
+},
+{
+name = top;
+pos = (347.073,485);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = e;
+},
+{
+pos = (299,0);
+ref = circumflexgravecomb;
+}
+);
+width = 562;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (255.656,0);
+},
+{
+name = ogonek;
+pos = (459.856,41);
+},
+{
+name = top;
+pos = (358.657,515);
+}
+);
+layerId = "FAD04859-55EE-48D6-A0AA-73DE2A79512F";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (309,0);
+ref = circumflexgravecomb;
+}
+);
+width = 611;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (201.795,-36);
+},
+{
+name = ogonek;
+pos = (346.195,-9);
+},
+{
+name = top;
+pos = (360.396,522);
+}
+);
+layerId = "0998268F-450B-429A-9175-FFA5E463F4E3";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (346,37);
+ref = circumflexgravecomb;
+}
+);
+width = 580;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (251.63,-37);
+},
+{
+name = ogonek;
+pos = (474.83,9);
+},
+{
+name = top;
+pos = (396.03,550);
+}
+);
+layerId = "60E1EE18-36F5-475C-BAEC-6556E4A9959C";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (348,35);
+ref = circumflexgravecomb;
+}
+);
+width = 657;
+}
+);
+production = uni1EC1;
+unicode = 7873;
+}

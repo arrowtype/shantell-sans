@@ -1,0 +1,222 @@
+{
+glyphname = Oacute;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (359,0);
+},
+{
+name = ogonek;
+pos = (485,29);
+},
+{
+name = top;
+pos = (359,700);
+}
+);
+layerId = "DC44E50C-9AA1-421C-802C-D4D023281425";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (359,215);
+ref = acutecomb;
+}
+);
+width = 726;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (367,0);
+},
+{
+name = ogonek;
+pos = (510,29);
+},
+{
+name = top;
+pos = (367,700);
+}
+);
+layerId = "FA16BA0A-39E2-4955-BC33-721AB190E0D3";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (367,185);
+ref = acutecomb;
+}
+);
+width = 756;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (339.5,44.2);
+},
+{
+name = ogonek;
+pos = (465.5,73.2);
+},
+{
+name = top;
+pos = (339.5,616.15);
+}
+);
+layerId = "365BB766-143C-4A52-A3A9-25E29A0F4411";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (340,131);
+ref = acutecomb;
+}
+);
+width = 687;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (314,46.8);
+},
+{
+name = ogonek;
+pos = (457,75.8);
+},
+{
+name = top;
+pos = (314,629.15);
+}
+);
+layerId = "5DCC2EB0-DF11-4824-93BF-E616AA6EE2C6";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (314,111);
+ref = acutecomb;
+}
+);
+width = 657;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (310.628,0);
+},
+{
+name = ogonek;
+pos = (442.428,29);
+},
+{
+name = top;
+pos = (450.628,700);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = O;
+},
+{
+pos = (402,215);
+ref = acutecomb;
+}
+);
+width = 726;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (315.881,0);
+},
+{
+name = ogonek;
+pos = (464.681,29);
+},
+{
+name = top;
+pos = (455.882,700);
+}
+);
+layerId = "FAD04859-55EE-48D6-A0AA-73DE2A79512F";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (404,185);
+ref = acutecomb;
+}
+);
+width = 756;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (299.912,44);
+},
+{
+name = ogonek;
+pos = (431.712,73);
+},
+{
+name = top;
+pos = (414.313,616);
+}
+);
+layerId = "0998268F-450B-429A-9175-FFA5E463F4E3";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (366,131);
+ref = acutecomb;
+}
+);
+width = 687;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (272.705,47);
+},
+{
+name = ogonek;
+pos = (421.505,76);
+},
+{
+name = top;
+pos = (389.106,629);
+}
+);
+layerId = "60E1EE18-36F5-475C-BAEC-6556E4A9959C";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (337,114);
+ref = acutecomb;
+}
+);
+width = 657;
+}
+);
+unicode = 211;
+}

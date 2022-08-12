@@ -1,0 +1,223 @@
+{
+glyphname = Uhorntilde;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (337,0);
+},
+{
+name = ogonek;
+pos = (444,12);
+},
+{
+name = top;
+pos = (337,915);
+}
+);
+layerId = "DC44E50C-9AA1-421C-802C-D4D023281425";
+shapes = (
+{
+ref = Uhorn;
+},
+{
+pos = (337,215);
+ref = tildecomb;
+}
+);
+width = 704;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (355,0);
+},
+{
+name = ogonek;
+pos = (482,11);
+},
+{
+name = top;
+pos = (355,945);
+}
+);
+layerId = "FA16BA0A-39E2-4955-BC33-721AB190E0D3";
+shapes = (
+{
+ref = Uhorn;
+},
+{
+pos = (355,185);
+ref = tildecomb;
+}
+);
+width = 824;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (344,51);
+},
+{
+name = ogonek;
+pos = (451,63);
+},
+{
+name = top;
+pos = (340,828);
+}
+);
+layerId = "365BB766-143C-4A52-A3A9-25E29A0F4411";
+shapes = (
+{
+ref = Uhorn;
+},
+{
+pos = (340,128);
+ref = tildecomb;
+}
+);
+width = 704;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (338,50);
+},
+{
+name = ogonek;
+pos = (464,73);
+},
+{
+name = top;
+pos = (329,855);
+}
+);
+layerId = "5DCC2EB0-DF11-4824-93BF-E616AA6EE2C6";
+shapes = (
+{
+ref = Uhorn;
+},
+{
+pos = (329,95);
+ref = tildecomb;
+}
+);
+width = 750;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (288.792,0);
+},
+{
+name = ogonek;
+pos = (398.176,12);
+},
+{
+name = top;
+pos = (471.545,915);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = Uhorn;
+},
+{
+pos = (380,215);
+ref = tildecomb;
+}
+);
+width = 704;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (305.8,0);
+},
+{
+name = ogonek;
+pos = (433.186,11);
+},
+{
+name = top;
+pos = (492.295,945);
+}
+);
+layerId = "FAD04859-55EE-48D6-A0AA-73DE2A79512F";
+shapes = (
+{
+ref = Uhorn;
+},
+{
+pos = (395,185);
+ref = tildecomb;
+}
+);
+width = 824;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (300.994,51);
+},
+{
+name = ogonek;
+pos = (414.275,63);
+},
+{
+name = top;
+pos = (457.545,828);
+}
+);
+layerId = "0998268F-450B-429A-9175-FFA5E463F4E3";
+shapes = (
+{
+ref = Uhorn;
+},
+{
+pos = (361,128);
+ref = tildecomb;
+}
+);
+width = 704;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (300.406,50);
+},
+{
+name = ogonek;
+pos = (427.057,73);
+},
+{
+name = top;
+pos = (448.295,855);
+}
+);
+layerId = "60E1EE18-36F5-475C-BAEC-6556E4A9959C";
+shapes = (
+{
+ref = Uhorn;
+},
+{
+pos = (352,95);
+ref = tildecomb;
+}
+);
+width = 750;
+}
+);
+production = uni1EEE;
+unicode = 7918;
+}
