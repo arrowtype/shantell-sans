@@ -25,8 +25,8 @@ full: $(VF) $(STATICS)
 vf: $(VF)
 
 # only build the statics, e.g. after you have already built the VF
-.PHONY: static
-static: $(STATICS)
+.PHONY: statics
+statics: $(STATICS)
 
 $(STATICS): $(PREPDIR)
 	scripts--build/build-static.sh
