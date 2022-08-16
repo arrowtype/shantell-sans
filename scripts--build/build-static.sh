@@ -2,7 +2,7 @@
 
 set -e
 
-DS="sources/ital_wght_BNCE_IRGL_TRAK--prepped/shantell_sans-ital_wght_BNCE_IRGL_TRAK--static.designspace"
+DS="sources/build-prep/ital_wght_BNCE_IRGL_TRAK--prepped/shantell_sans-ital_wght_BNCE_IRGL_TRAK--static.designspace"
 outputDir="fonts/Shantell Sans/Desktop"
 staticDir="$outputDir/Static"
 webDir="fonts/Shantell Sans/Web"

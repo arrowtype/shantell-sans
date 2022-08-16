@@ -89,21 +89,20 @@ make clean all
 
 ```bash
 source venv/bin/activate # activate venv if not already active
-python3 scripts--build/prep-build.py
 ```
 
-This will prep a folder like `sources/wght_BNCE_IRGL--prepped`. Copy in the designspace, such as `sources/wght_BNCE_IRGL--prepped/shantell_sans-wght_BNCE_IRGL.designspace`.
-
-Build the variable font:
+Then, run the variable font build.
 
 ```bash
-scripts--build/build-vf.sh
+make vf
 ```
 
-Build the static fonts:
+This will take the `.glyphspackage` source and create the folder `sources/build-prep` with intermediate sources required for the final font build. When the build succeeds, the variable font will open in your default font-opening application (I recommend Font Goggles).
+
+If you want, you can also build the static fonts. Be aware: there are a lot of static fonts, so this takes some time!
 
 ```bash
-scripts--build/build-static.sh
+make statics
 ```
 
 ## Release
