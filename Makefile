@@ -1,14 +1,20 @@
 BASE_R = shantellsans-wght_ital_IRGL
 
-PREPDIR = sources/ital_wght_BNCE_IRGL_TRAK--prepped
-GLYPHS = sources/$(BASE_R).glyphs
-GLYPHSPKG = $(GLYPHS)package
+GLYPHSPKG = sources/shantellsans-wght_ital_IRGL.glyphspackage
+
+PREPDIR = "sources/build-prep"
+GLYPHS = $(PREPDIR)/shantellsans-wght_ital_IRGL.glyphs
+UFOPREPDIR = $(PREPDIR)/ital_wght_BNCE_IRGL_TRAK--prepped
+
 VF = "fonts/Shantell Sans/Desktop/ShantellSans[BNCE,IRGL,TRAK,ital,wght].ttf"
 STATICS = "fonts/Shantell Sans/Desktop/Static"
 
 # most of the time, it’s best to just build the variable font
 .PHONY: all
 all: $(VF)
+
+.PHONY: glyphs
+glyphs: $(GLYPHS)
 
 # if you really want all the fonts (variable and static), run 'make full'
 .PHONY: full
@@ -25,21 +31,20 @@ static: $(STATICS)
 $(STATICS): $(PREPDIR)
 	scripts--build/build-static.sh
 
-$(VF): $(PREPDIR)
+$(VF): $(UFOPREPDIR)
 	scripts--build/build-vf.sh
 
-$(PREPDIR): $(GLYPHS)
+$(UFOPREPDIR): $(GLYPHS)
 	python scripts--build/prep-build.py
 
-$(GLYPHS): $(GLYPHSPKG)
-	echo $(GLYPHSPKG)
+$(GLYPHS): $(PREPDIR)
 	glyphspkg $(GLYPHSPKG)
+	mv sources/shantellsans-wght_ital_IRGL.glyphs $(GLYPHS)
 
-$(GLYPHSPKG):
-	$(GLYPHSPKG)
+$(PREPDIR): $(GLYPHSPKG)
+	mkdir -p $(PREPDIR)
 
 
 .PHONY: clean
 clean:
-	rm -rf $(GLYPHS)
 	rm -rf $(PREPDIR)
