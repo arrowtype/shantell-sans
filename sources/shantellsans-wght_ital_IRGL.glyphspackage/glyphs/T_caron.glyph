@@ -1,7 +1,7 @@
 {
 glyphname = Tcaron;
 kernLeft = KO_T;
-kernRight = KO_T;
+kernRight = KO_Gecyr;
 layers = (
 {
 anchors = (
@@ -135,7 +135,7 @@ shapes = (
 ref = T;
 },
 {
-pos = (393,182);
+pos = (359,185);
 ref = caroncomb;
 }
 );

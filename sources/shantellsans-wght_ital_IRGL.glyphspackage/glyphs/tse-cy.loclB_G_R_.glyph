@@ -1,6 +1,8 @@
 {
 color = (255,255,0,255);
 glyphname = "tse-cy.loclBGR";
+kernLeft = KO_icyr;
+kernRight = KO_entailcyr;
 layers = (
 {
 background = {

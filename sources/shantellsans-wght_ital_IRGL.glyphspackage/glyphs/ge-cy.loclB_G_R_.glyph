@@ -1,6 +1,8 @@
 {
 color = (255,255,0,255);
 glyphname = "ge-cy.loclBGR";
+kernLeft = KO_ae;
+kernRight = KO_zecyr;
 layers = (
 {
 background = {
