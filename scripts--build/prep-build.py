@@ -108,7 +108,9 @@ def convertGlyphs2UFO(glyphs_file, outputDir):
     # also gets the output dict of source filenames, ufoLib2 Font objects
     sourceUfos = build_masters(
         glyphs_file,
-        outputDir
+        outputDir,
+        write_skipexportglyphs=True,
+        minimal=True,
     )[0]
 
     return sourceUfos
