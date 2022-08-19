@@ -1,7 +1,7 @@
 {
 color = 4;
 glyphname = K;
-kernLeft = KO_k;
+kernLeft = KO_K;
 kernRight = KO_K;
 layers = (
 {
@@ -362,7 +362,7 @@ com.typemytype.robofont.Image.Brightness = -0.3986;
 com.typemytype.robofont.Image.Sharpness = 0.4;
 };
 vertWidth = 0;
-width = 654;
+width = 644;
 },
 {
 anchors = (
@@ -560,8 +560,8 @@ nodes = (
 (626.77,713,cs),
 (599.77,713,o),
 (568.77,704,o),
-(535.77,680,cs),
-(403.77,586,o),
+(529,676,cs),
+(370,567,o),
 (242.77,424,o),
 (215.77,292,cs),
 (189.77,162,o),
@@ -678,7 +678,7 @@ nodes = (
 }
 );
 vertWidth = 0;
-width = 654;
+width = 644;
 },
 {
 anchors = (

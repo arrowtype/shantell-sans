@@ -1,8 +1,8 @@
 {
 color = 4;
 glyphname = Escyr;
-kernLeft = KO_O;
-kernRight = KO_C;
+kernLeft = KO_checyr;
+kernRight = KO_Escyr;
 layers = (
 {
 anchors = (
@@ -21,7 +21,7 @@ shapes = (
 ref = C;
 }
 );
-width = 618;
+width = 612;
 },
 {
 anchors = (
@@ -59,7 +59,7 @@ shapes = (
 ref = C;
 }
 );
-width = 604;
+width = 590;
 },
 {
 anchors = (
@@ -78,7 +78,7 @@ shapes = (
 ref = C;
 }
 );
-width = 622;
+width = 631;
 },
 {
 anchors = (
@@ -115,7 +115,7 @@ shapes = (
 ref = C;
 }
 );
-width = 618;
+width = 605;
 },
 {
 anchors = (
@@ -189,7 +189,7 @@ shapes = (
 ref = C;
 }
 );
-width = 604;
+width = 562;
 },
 {
 anchors = (
@@ -226,7 +226,7 @@ shapes = (
 ref = C;
 }
 );
-width = 622;
+width = 630;
 }
 );
 production = uni0421;

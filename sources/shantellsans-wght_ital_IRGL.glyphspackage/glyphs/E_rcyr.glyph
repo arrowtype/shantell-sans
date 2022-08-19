@@ -1,7 +1,7 @@
 {
 color = 4;
 glyphname = Ercyr;
-kernLeft = KO_P;
+kernLeft = KO_Ercyr;
 kernRight = KO_P;
 layers = (
 {
@@ -21,7 +21,7 @@ shapes = (
 ref = P;
 }
 );
-width = 570;
+width = 566;
 },
 {
 anchors = (
@@ -59,7 +59,7 @@ shapes = (
 ref = P;
 }
 );
-width = 570;
+width = 524;
 },
 {
 anchors = (
@@ -78,7 +78,7 @@ shapes = (
 ref = P;
 }
 );
-width = 595;
+width = 597;
 },
 {
 anchors = (
@@ -150,7 +150,7 @@ shapes = (
 ref = P;
 }
 );
-width = 642;
+width = 652;
 },
 {
 anchors = (

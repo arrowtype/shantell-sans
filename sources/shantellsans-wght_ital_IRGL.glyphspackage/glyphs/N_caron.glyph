@@ -1,6 +1,6 @@
 {
 glyphname = Ncaron;
-kernLeft = KO_N;
+kernLeft = KO_icyr;
 kernRight = KO_N;
 layers = (
 {
@@ -66,11 +66,11 @@ shapes = (
 ref = N;
 },
 {
-pos = (384,110);
+pos = (382,110);
 ref = caroncomb;
 }
 );
-width = 754;
+width = 750;
 },
 {
 anchors = (
@@ -158,11 +158,11 @@ shapes = (
 ref = N;
 },
 {
-pos = (401,110);
+pos = (399,110);
 ref = caroncomb;
 }
 );
-width = 754;
+width = 750;
 },
 {
 anchors = (
@@ -185,7 +185,7 @@ pos = (419,92);
 ref = caroncomb;
 }
 );
-width = 822;
+width = 816;
 }
 );
 unicode = 327;

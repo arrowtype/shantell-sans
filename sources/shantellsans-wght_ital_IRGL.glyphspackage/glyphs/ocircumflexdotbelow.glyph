@@ -1,6 +1,6 @@
 {
 glyphname = ocircumflexdotbelow;
-kernLeft = KO_odieresis;
+kernLeft = KO_O;
 kernRight = KO_oacute;
 layers = (
 {
@@ -24,15 +24,15 @@ shapes = (
 ref = o;
 },
 {
-pos = (321,0);
+pos = (317,0);
 ref = circumflexcomb;
 },
 {
-pos = (310,0);
+pos = (306,0);
 ref = dotbelowcmb;
 }
 );
-width = 600;
+width = 592;
 },
 {
 anchors = (
@@ -86,15 +86,15 @@ shapes = (
 ref = o;
 },
 {
-pos = (292,-35);
+pos = (289,-35);
 ref = circumflexcomb;
 },
 {
-pos = (286,36);
+pos = (283,36);
 ref = dotbelowcmb;
 }
 );
-width = 546;
+width = 540;
 },
 {
 anchors = (
@@ -117,15 +117,15 @@ shapes = (
 ref = o;
 },
 {
-pos = (316,-25);
+pos = (310,-25);
 ref = circumflexcomb;
 },
 {
-pos = (321,32);
+pos = (315,32);
 ref = dotbelowcmb;
 }
 );
-width = 628;
+width = 606;
 },
 {
 anchors = (
@@ -148,15 +148,15 @@ shapes = (
 ref = o;
 },
 {
-pos = (321,0);
+pos = (316,0);
 ref = circumflexcomb;
 },
 {
-pos = (311,0);
+pos = (307,0);
 ref = dotbelowcmb;
 }
 );
-width = 600;
+width = 591;
 },
 {
 anchors = (
@@ -210,15 +210,15 @@ shapes = (
 ref = o;
 },
 {
-pos = (284,-35);
+pos = (282,-35);
 ref = circumflexcomb;
 },
 {
-pos = (294,36);
+pos = (292,36);
 ref = dotbelowcmb;
 }
 );
-width = 545;
+width = 539;
 },
 {
 anchors = (
@@ -241,15 +241,15 @@ shapes = (
 ref = o;
 },
 {
-pos = (312,-25);
+pos = (305,-25);
 ref = circumflexcomb;
 },
 {
-pos = (353,32);
+pos = (346,32);
 ref = dotbelowcmb;
 }
 );
-width = 628;
+width = 606;
 }
 );
 production = uni1ED9;
