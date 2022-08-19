@@ -2,6 +2,7 @@
 venv
 venv*
 node_modules
+.vscode
 
 master_ufo
 master_ttf
@@ -17,6 +18,8 @@ instances
 *Skateboard Previews*
 sources/italics--generated
 sources/ital_wght_IRGL--UFOs
+sources/build-prep
+*--ignore*
 
 *.zip
 
