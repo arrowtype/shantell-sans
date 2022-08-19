@@ -1,7 +1,7 @@
 {
 glyphname = aogonek;
 kernLeft = KO_a;
-kernRight = KO_a;
+kernRight = KO_tsecyr;
 layers = (
 {
 anchors = (
@@ -24,11 +24,11 @@ shapes = (
 ref = a;
 },
 {
-pos = (502,-7);
+pos = (499,-7);
 ref = ogonekcmb;
 }
 );
-width = 607;
+width = 601;
 },
 {
 anchors = (
@@ -78,11 +78,11 @@ shapes = (
 ref = a;
 },
 {
-pos = (528,-35);
+pos = (514,-35);
 ref = ogonekcmb;
 }
 );
-width = 644;
+width = 615;
 },
 {
 anchors = (
@@ -132,11 +132,11 @@ shapes = (
 ref = a;
 },
 {
-pos = (503,-7);
+pos = (496,-7);
 ref = ogonekcmb;
 }
 );
-width = 624;
+width = 601;
 },
 {
 anchors = (
@@ -163,7 +163,7 @@ pos = (546,0);
 ref = ogonekcmb;
 }
 );
-width = 704;
+width = 701;
 },
 {
 anchors = (
@@ -186,11 +186,11 @@ shapes = (
 ref = a;
 },
 {
-pos = (520,-35);
+pos = (502,-35);
 ref = ogonekcmb;
 }
 );
-width = 644;
+width = 612;
 },
 {
 anchors = (
@@ -213,11 +213,11 @@ shapes = (
 ref = a;
 },
 {
-pos = (547,-22);
+pos = (546,-22);
 ref = ogonekcmb;
 }
 );
-width = 704;
+width = 702;
 }
 );
 unicode = 261;

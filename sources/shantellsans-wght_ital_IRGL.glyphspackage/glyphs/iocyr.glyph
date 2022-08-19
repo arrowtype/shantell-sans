@@ -2,7 +2,7 @@
 color = 4;
 glyphname = iocyr;
 kernLeft = KO_e;
-kernRight = KO_e;
+kernRight = KO_iocyr;
 layers = (
 {
 anchors = (
@@ -25,7 +25,7 @@ shapes = (
 ref = edieresis;
 }
 );
-width = 562;
+width = 555;
 },
 {
 anchors = (
@@ -71,7 +71,7 @@ shapes = (
 ref = edieresis;
 }
 );
-width = 580;
+width = 576;
 },
 {
 anchors = (
@@ -139,7 +139,7 @@ shapes = (
 ref = edieresis;
 }
 );
-width = 562;
+width = 552;
 },
 {
 anchors = (
@@ -206,7 +206,7 @@ shapes = (
 ref = edieresis;
 }
 );
-width = 580;
+width = 572;
 },
 {
 anchors = (

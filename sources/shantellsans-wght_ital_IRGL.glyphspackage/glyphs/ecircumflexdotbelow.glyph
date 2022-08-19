@@ -1,7 +1,7 @@
 {
 glyphname = ecircumflexdotbelow;
 kernLeft = KO_e;
-kernRight = KO_e;
+kernRight = KO_iocyr;
 layers = (
 {
 anchors = (
@@ -24,15 +24,15 @@ shapes = (
 ref = e;
 },
 {
-pos = (299,0);
+pos = (295,0);
 ref = circumflexcomb;
 },
 {
-pos = (272,0);
+pos = (268,0);
 ref = dotbelowcmb;
 }
 );
-width = 562;
+width = 555;
 },
 {
 anchors = (
@@ -86,15 +86,15 @@ shapes = (
 ref = e;
 },
 {
-pos = (339,37);
+pos = (337,37);
 ref = circumflexcomb;
 },
 {
-pos = (292,-36);
+pos = (290,-36);
 ref = dotbelowcmb;
 }
 );
-width = 580;
+width = 576;
 },
 {
 anchors = (
@@ -117,11 +117,11 @@ shapes = (
 ref = e;
 },
 {
-pos = (342,35);
+pos = (352,35);
 ref = circumflexcomb;
 },
 {
-pos = (315,-37);
+pos = (325,-37);
 ref = dotbelowcmb;
 }
 );
@@ -148,15 +148,15 @@ shapes = (
 ref = e;
 },
 {
-pos = (299,0);
+pos = (295,0);
 ref = circumflexcomb;
 },
 {
-pos = (273,0);
+pos = (270,0);
 ref = dotbelowcmb;
 }
 );
-width = 562;
+width = 552;
 },
 {
 anchors = (
@@ -210,15 +210,15 @@ shapes = (
 ref = e;
 },
 {
-pos = (346,37);
+pos = (343,37);
 ref = circumflexcomb;
 },
 {
-pos = (286,-36);
+pos = (283,-36);
 ref = dotbelowcmb;
 }
 );
-width = 580;
+width = 572;
 },
 {
 anchors = (

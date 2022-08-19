@@ -1,8 +1,8 @@
 {
 color = 4;
 glyphname = Ocyr;
-kernLeft = KO_O;
-kernRight = KO_O;
+kernLeft = KO_checyr;
+kernRight = KO_Ocyr;
 layers = (
 {
 anchors = (
@@ -25,7 +25,7 @@ shapes = (
 ref = O;
 }
 );
-width = 726;
+width = 714;
 },
 {
 anchors = (
@@ -71,7 +71,7 @@ shapes = (
 ref = O;
 }
 );
-width = 687;
+width = 649;
 },
 {
 anchors = (
@@ -139,7 +139,7 @@ shapes = (
 ref = O;
 }
 );
-width = 726;
+width = 716;
 },
 {
 anchors = (
@@ -184,7 +184,7 @@ shapes = (
 ref = O;
 }
 );
-width = 756;
+width = 748;
 },
 {
 anchors = (
@@ -229,7 +229,7 @@ shapes = (
 ref = O;
 }
 );
-width = 687;
+width = 651;
 },
 {
 anchors = (
@@ -274,7 +274,7 @@ shapes = (
 ref = O;
 }
 );
-width = 657;
+width = 674;
 }
 );
 production = uni041E;

@@ -1,6 +1,6 @@
 {
 glyphname = ccircumflex;
-kernLeft = KO_ccircumflex;
+kernRight = KO_ccaron;
 layers = (
 {
 anchors = (
@@ -19,11 +19,11 @@ shapes = (
 ref = c;
 },
 {
-pos = (280,0);
+pos = (275,0);
 ref = circumflexcomb;
 }
 );
-width = 502;
+width = 495;
 },
 {
 anchors = (
@@ -65,11 +65,11 @@ shapes = (
 ref = c;
 },
 {
-pos = (270,-49);
+pos = (244,-49);
 ref = circumflexcomb;
 }
 );
-width = 482;
+width = 431;
 },
 {
 anchors = (
@@ -88,11 +88,11 @@ shapes = (
 ref = c;
 },
 {
-pos = (286,-30);
+pos = (276,-30);
 ref = circumflexcomb;
 }
 );
-width = 542;
+width = 508;
 },
 {
 anchors = (
@@ -111,11 +111,11 @@ shapes = (
 ref = c;
 },
 {
-pos = (280,0);
+pos = (275,0);
 ref = circumflexcomb;
 }
 );
-width = 502;
+width = 498;
 },
 {
 anchors = (
@@ -157,11 +157,11 @@ shapes = (
 ref = c;
 },
 {
-pos = (260,-49);
+pos = (233,-49);
 ref = circumflexcomb;
 }
 );
-width = 482;
+width = 454;
 },
 {
 anchors = (
@@ -180,11 +180,11 @@ shapes = (
 ref = c;
 },
 {
-pos = (281,-30);
+pos = (266,-30);
 ref = circumflexcomb;
 }
 );
-width = 542;
+width = 504;
 }
 );
 unicode = 265;

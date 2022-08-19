@@ -2,7 +2,7 @@
 color = (253,180,212,255);
 glyphname = iebrevecyr;
 kernLeft = KO_e;
-kernRight = KO_e;
+kernRight = KO_iocyr;
 layers = (
 {
 anchors = (
@@ -29,11 +29,11 @@ shapes = (
 ref = e;
 },
 {
-pos = (105,-30);
+pos = (101,-30);
 ref = "brevecomb-cy";
 }
 );
-width = 562;
+width = 555;
 },
 {
 anchors = (
@@ -91,11 +91,11 @@ shapes = (
 ref = e;
 },
 {
-pos = (145,7);
+pos = (143,7);
 ref = "brevecomb-cy";
 }
 );
-width = 580;
+width = 576;
 },
 {
 anchors = (
@@ -122,7 +122,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (148,35);
+pos = (158,35);
 ref = "brevecomb-cy";
 }
 );
@@ -182,11 +182,11 @@ shapes = (
 ref = e;
 },
 {
-pos = (99,-30);
+pos = (96,-30);
 ref = "brevecomb-cy";
 }
 );
-width = 562;
+width = 552;
 },
 {
 anchors = (
@@ -244,11 +244,11 @@ shapes = (
 ref = e;
 },
 {
-pos = (146,7);
+pos = (143,7);
 ref = "brevecomb-cy";
 }
 );
-width = 580;
+width = 572;
 },
 {
 anchors = (

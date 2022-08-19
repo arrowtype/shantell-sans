@@ -2,7 +2,7 @@
 color = 4;
 glyphname = ocyr;
 kernLeft = KO_o;
-kernRight = KO_o;
+kernRight = KO_ocyr;
 layers = (
 {
 anchors = (
@@ -25,7 +25,7 @@ shapes = (
 ref = o;
 }
 );
-width = 600;
+width = 592;
 },
 {
 anchors = (
@@ -71,7 +71,7 @@ shapes = (
 ref = o;
 }
 );
-width = 546;
+width = 540;
 },
 {
 anchors = (
@@ -94,7 +94,7 @@ shapes = (
 ref = o;
 }
 );
-width = 628;
+width = 606;
 },
 {
 anchors = (
@@ -138,7 +138,7 @@ shapes = (
 ref = o;
 }
 );
-width = 600;
+width = 591;
 },
 {
 anchors = (
@@ -205,7 +205,7 @@ shapes = (
 ref = o;
 }
 );
-width = 545;
+width = 539;
 },
 {
 anchors = (
@@ -249,7 +249,7 @@ shapes = (
 ref = o;
 }
 );
-width = 628;
+width = 606;
 }
 );
 production = uni043E;

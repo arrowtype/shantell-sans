@@ -1,6 +1,6 @@
 {
 glyphname = oinvertedbreve;
-kernLeft = KO_odieresis;
+kernLeft = KO_O;
 kernRight = KO_oacute;
 layers = (
 {
@@ -24,11 +24,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (321,-30);
+pos = (317,-30);
 ref = invertedbrevecmb;
 }
 );
-width = 600;
+width = 592;
 },
 {
 anchors = (
@@ -78,11 +78,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (292,-65);
+pos = (289,-65);
 ref = invertedbrevecmb;
 }
 );
-width = 546;
+width = 540;
 },
 {
 anchors = (
@@ -105,11 +105,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (316,-25);
+pos = (310,-25);
 ref = invertedbrevecmb;
 }
 );
-width = 628;
+width = 606;
 },
 {
 anchors = (
@@ -132,11 +132,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (314,-30);
+pos = (309,-30);
 ref = invertedbrevecmb;
 }
 );
-width = 600;
+width = 591;
 },
 {
 anchors = (
@@ -186,11 +186,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (277,-65);
+pos = (275,-65);
 ref = invertedbrevecmb;
 }
 );
-width = 545;
+width = 539;
 },
 {
 anchors = (
@@ -213,11 +213,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (312,-25);
+pos = (304,-25);
 ref = invertedbrevecmb;
 }
 );
-width = 628;
+width = 606;
 }
 );
 production = uni020F;

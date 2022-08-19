@@ -1,6 +1,6 @@
 {
 glyphname = Ntilde;
-kernLeft = KO_N;
+kernLeft = KO_icyr;
 kernRight = KO_N;
 layers = (
 {
@@ -66,11 +66,11 @@ shapes = (
 ref = N;
 },
 {
-pos = (384,110);
+pos = (382,110);
 ref = tildecomb;
 }
 );
-width = 754;
+width = 750;
 },
 {
 anchors = (
@@ -158,11 +158,11 @@ shapes = (
 ref = N;
 },
 {
-pos = (406,110);
+pos = (403,110);
 ref = tildecomb;
 }
 );
-width = 754;
+width = 750;
 },
 {
 anchors = (
@@ -185,7 +185,7 @@ pos = (416,92);
 ref = tildecomb;
 }
 );
-width = 822;
+width = 816;
 }
 );
 unicode = 209;

@@ -1,8 +1,8 @@
 {
 color = 4;
 glyphname = acyr;
-kernLeft = KO_a;
-kernRight = KO_a;
+kernLeft = KO_acyr;
+kernRight = KO_acyr;
 layers = (
 {
 anchors = (
@@ -25,7 +25,7 @@ shapes = (
 ref = a;
 }
 );
-width = 607;
+width = 601;
 },
 {
 anchors = (
@@ -71,7 +71,7 @@ shapes = (
 ref = a;
 }
 );
-width = 644;
+width = 615;
 },
 {
 anchors = (
@@ -139,7 +139,7 @@ shapes = (
 ref = a;
 }
 );
-width = 624;
+width = 601;
 },
 {
 anchors = (
@@ -162,7 +162,7 @@ shapes = (
 ref = a;
 }
 );
-width = 704;
+width = 701;
 },
 {
 anchors = (
@@ -207,7 +207,7 @@ shapes = (
 ref = a;
 }
 );
-width = 644;
+width = 612;
 },
 {
 anchors = (
@@ -252,7 +252,7 @@ shapes = (
 ref = a;
 }
 );
-width = 704;
+width = 702;
 }
 );
 production = uni0430;

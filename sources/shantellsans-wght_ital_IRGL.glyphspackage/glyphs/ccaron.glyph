@@ -1,7 +1,7 @@
 {
 glyphname = ccaron;
-kernLeft = KO_c;
-kernRight = KO_c;
+kernLeft = KO_ccaron;
+kernRight = KO_ccaron;
 layers = (
 {
 anchors = (
@@ -20,11 +20,11 @@ shapes = (
 ref = c;
 },
 {
-pos = (280,0);
+pos = (275,0);
 ref = caroncomb;
 }
 );
-width = 502;
+width = 495;
 },
 {
 anchors = (
@@ -66,11 +66,11 @@ shapes = (
 ref = c;
 },
 {
-pos = (270,-49);
+pos = (244,-49);
 ref = caroncomb;
 }
 );
-width = 482;
+width = 431;
 },
 {
 anchors = (
@@ -89,11 +89,11 @@ shapes = (
 ref = c;
 },
 {
-pos = (286,-30);
+pos = (276,-30);
 ref = caroncomb;
 }
 );
-width = 542;
+width = 508;
 },
 {
 anchors = (
@@ -112,11 +112,11 @@ shapes = (
 ref = c;
 },
 {
-pos = (280,0);
+pos = (276,0);
 ref = caroncomb;
 }
 );
-width = 502;
+width = 498;
 },
 {
 anchors = (
@@ -158,11 +158,11 @@ shapes = (
 ref = c;
 },
 {
-pos = (255,-49);
+pos = (229,-49);
 ref = caroncomb;
 }
 );
-width = 482;
+width = 454;
 },
 {
 anchors = (
@@ -181,11 +181,11 @@ shapes = (
 ref = c;
 },
 {
-pos = (284,-30);
+pos = (269,-30);
 ref = caroncomb;
 }
 );
-width = 542;
+width = 504;
 }
 );
 unicode = 269;

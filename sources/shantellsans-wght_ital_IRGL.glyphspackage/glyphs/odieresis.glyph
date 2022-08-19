@@ -1,6 +1,6 @@
 {
 glyphname = odieresis;
-kernLeft = KO_odieresis;
+kernLeft = KO_O;
 kernRight = KO_oacute;
 layers = (
 {
@@ -24,11 +24,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (321,0);
+pos = (317,0);
 ref = dieresiscomb;
 }
 );
-width = 600;
+width = 592;
 },
 {
 anchors = (
@@ -78,11 +78,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (292,-35);
+pos = (289,-35);
 ref = dieresiscomb;
 }
 );
-width = 546;
+width = 540;
 },
 {
 anchors = (
@@ -105,11 +105,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (316,-25);
+pos = (310,-25);
 ref = dieresiscomb;
 }
 );
-width = 628;
+width = 606;
 },
 {
 anchors = (
@@ -132,11 +132,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (321,0);
+pos = (316,0);
 ref = dieresiscomb;
 }
 );
-width = 600;
+width = 591;
 },
 {
 anchors = (
@@ -186,11 +186,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (284,-35);
+pos = (282,-35);
 ref = dieresiscomb;
 }
 );
-width = 545;
+width = 539;
 },
 {
 anchors = (
@@ -213,11 +213,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (311,-25);
+pos = (304,-25);
 ref = dieresiscomb;
 }
 );
-width = 628;
+width = 606;
 }
 );
 unicode = 246;
