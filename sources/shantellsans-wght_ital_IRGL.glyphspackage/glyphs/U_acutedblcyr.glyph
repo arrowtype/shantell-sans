@@ -1,8 +1,6 @@
 {
 color = (253,180,212,255);
 glyphname = Uacutedblcyr;
-kernLeft = KO_h;
-kernRight = KO_Ucyr;
 layers = (
 {
 anchors = (
@@ -17,11 +15,11 @@ shapes = (
 ref = Ucyr;
 },
 {
-pos = (328,215);
+pos = (306,215);
 ref = hungarumlautcmb;
 }
 );
-width = 641;
+width = 604;
 },
 {
 anchors = (

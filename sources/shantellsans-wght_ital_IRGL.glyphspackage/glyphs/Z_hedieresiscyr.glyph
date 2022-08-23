@@ -1,7 +1,6 @@
 {
 color = (253,180,212,255);
 glyphname = Zhedieresiscyr;
-kernRight = KO_Zhecyr;
 layers = (
 {
 anchors = (
@@ -16,11 +15,11 @@ shapes = (
 ref = Zhecyr;
 },
 {
-pos = (436,215);
+pos = (417,215);
 ref = dieresiscomb;
 }
 );
-width = 898;
+width = 860;
 },
 {
 anchors = (
@@ -110,11 +109,11 @@ shapes = (
 ref = Zhecyr;
 },
 {
-pos = (478,215);
+pos = (466,215);
 ref = dieresiscomb;
 }
 );
-width = 896;
+width = 862;
 },
 {
 anchors = (
