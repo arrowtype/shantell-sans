@@ -37,7 +37,7 @@ Case-sensitive punctuation | `case` | Makes punctuation fit cap-height for upper
 Arbitrary Fractions | `frac` | Makes proper fractions from strings like 1/2
 Tabular Figures | `tnum` | Numbers & currencies are monospaced across styles by default to improve table layout, but this makes certain punctuation become tabular as well
 Proportional Figures | `pnum` | Makes numbers take up a natural amount of space
-Localized Forms | `locl` | Supports special language requirements for Catalan, Moldovian & Romanian, Dutch, Turkish, and more
+Localized Forms | `locl` | Supports special character-design requirements for various languages (TRK, CAT, ROM, MOL, NLD, BGR, SRB, MKD, UKR, and more)
 Standard Ligatures | `liga` | Converts 3+ repeated hyphens into wavy lines, just for fun
 
 ## Build
@@ -99,6 +99,8 @@ If you want, you can also build the static fonts. Be aware: there are a lot of s
 ```bash
 make statics
 ```
+
+
 
 ## Release
 

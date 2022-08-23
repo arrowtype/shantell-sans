@@ -2,12 +2,12 @@ BASE_R = shantellsans-wght_ital_IRGL
 
 GLYPHSPKG = sources/shantellsans-wght_ital_IRGL.glyphspackage
 
-PREPDIR = "sources/build-prep"
+PREPDIR = sources/build-prep
 GLYPHS = $(PREPDIR)/shantellsans-wght_ital_IRGL.glyphs
 UFOPREPDIR = $(PREPDIR)/ital_wght_BNCE_IRGL_TRAK--prepped
 
-VF = "fonts/Shantell Sans/Desktop/ShantellSans[BNCE,IRGL,TRAK,ital,wght].ttf"
-STATICS = "fonts/Shantell Sans/Desktop/Static"
+VF = fonts/Shantell\ Sans/Desktop/ShantellSans\[BNCE,IRGL,TRAK,ital,wght\].ttf
+STATICS = fonts/Shantell\ Sans/Desktop/Static
 
 # most of the time, it’s best to just build the variable font
 .PHONY: all
@@ -28,7 +28,7 @@ vf: $(VF)
 .PHONY: statics
 statics: $(STATICS)
 
-$(STATICS): $(PREPDIR)
+$(STATICS): $(UFOPREPDIR)
 	scripts--build/build-static.sh
 
 $(VF): $(UFOPREPDIR)
@@ -43,7 +43,6 @@ $(GLYPHS): $(PREPDIR)
 
 $(PREPDIR): $(GLYPHSPKG)
 	mkdir -p $(PREPDIR)
-
 
 .PHONY: clean
 clean:
