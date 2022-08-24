@@ -1094,7 +1094,8 @@ feature dnom;
 feature frac;
 feature ordn;
 feature case;
-feature ss01;
+feature ss02;
+feature tnum;
 ";
 tag = aalt;
 },
@@ -1281,17 +1282,6 @@ sub f i by fi;
 sub f l by fl;
 ";
 tag = liga;
-},
-{
-automatic = 1;
-code = "";
-labels = (
-{
-language = dflt;
-value = "Name:";
-}
-);
-tag = ss01;
 },
 {
 code = "sub Efcyr by Ef-cy.loclBGR;
