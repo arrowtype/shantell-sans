@@ -28,6 +28,11 @@ vf: $(VF)
 .PHONY: statics
 statics: $(STATICS)
 
+# only make the prepped dir
+.PHONY: prep
+prep: $(UFOPREPDIR)
+
+
 $(STATICS): $(UFOPREPDIR)
 	scripts--build/build-static.sh
 
@@ -47,3 +52,4 @@ $(PREPDIR): $(GLYPHSPKG)
 .PHONY: clean
 clean:
 	rm -rf $(PREPDIR)
+	rm -rf $(UFOPREPDIR)
