@@ -692,6 +692,21 @@ def extendKerning(fonts,numOfAlts=2):
 
                             font.kerning[newKern2[0]] = newKern2[1]
 
+        # TODO: limit kern extensions to only glyphs that get alternates
+
+        # TODO: check if base glyph has exceptions, then give the alt glyphs the same exceptions. Issue #111.
+        # exceptions can be on one or both sides: https://unifiedfontobject.org/versions/ufo3/kerning.plist/#exceptions
+        # (it seems) the side1 of an exception is just a glyphname, e.g.      <key>T</key>
+        # (it seems) the side2 of an exception is also just a glyphname, e.g. <key>y</key>
+        # so, maybe...?:
+            # start by making a dict of all exceptions
+            # for each key that *doesn't* include kern1 or kern2
+                # duplicate each key within it, for each alt
+                # then, duplicate the top-level key
+            # then add these extended exceptions back into the data
+        # but first, figure out: why
+
+
         font.save()
 
 
@@ -870,7 +885,6 @@ def main():
     if os.path.exists(prepDir):
         shutil.rmtree(prepDir,ignore_errors=True)
 
-    # TODO: add step to write these new bounces to Glyphs source
     # ONLY DO THE FOLLOWING IF YOU WANT TO COMPLETELY SHIFT/CHANGE BOUNCY STYLES
     # print("🤖 Resetting bounce randomization in sources")
     # resetBounces(gsfont)
@@ -934,7 +948,7 @@ def main():
     correctAccents(fonts)
     
     print("🤖 Tying alts to default glyph kerning")
-    extendKerning(fonts)
+    extendKerning(fonts, numOfAlts=3) # temporarily turning off to rework kerning logic
 
     print("🤖 Generating calt feature")
     generateCalt(altsMadeForList)
