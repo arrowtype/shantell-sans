@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = vecyr;
-kernLeft = KO_vecyr;
-kernRight = KO_vecyr;
 layers = (
 {
 background = {
@@ -1461,4 +1459,7 @@ width = 518;
 );
 production = uni0432;
 unicode = 1074;
+userData = {
+KernOnName = vecyr;
+};
 }

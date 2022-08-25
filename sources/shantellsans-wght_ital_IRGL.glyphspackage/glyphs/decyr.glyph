@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = decyr;
-kernLeft = KO_decyr;
-kernRight = KO_decyr;
 layers = (
 {
 background = {
@@ -1956,4 +1954,7 @@ width = 614;
 );
 production = uni0434;
 unicode = 1076;
+userData = {
+KernOnName = decyr;
+};
 }

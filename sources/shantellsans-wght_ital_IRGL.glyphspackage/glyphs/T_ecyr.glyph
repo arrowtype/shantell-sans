@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = Tecyr;
-kernLeft = KO_T;
-kernRight = KO_T;
 layers = (
 {
 anchors = (
@@ -231,4 +229,7 @@ width = 645;
 );
 production = uni0422;
 unicode = 1058;
+userData = {
+KernOnName = Tecyr;
+};
 }

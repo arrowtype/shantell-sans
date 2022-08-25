@@ -1,8 +1,6 @@
 {
 color = (255,255,0,255);
 glyphname = engecyr;
-kernLeft = KO_encyr;
-kernRight = KO_v;
 layers = (
 {
 background = {
@@ -1413,4 +1411,7 @@ metricLeft = encyr;
 metricRight = gecyr;
 production = uni04A5;
 unicode = 1189;
+userData = {
+KernOnName = engecyr;
+};
 }

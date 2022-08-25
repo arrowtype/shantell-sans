@@ -1,7 +1,6 @@
 {
 color = (253,180,212,255);
 glyphname = Zedieresiscyr;
-kernRight = KO_Zecyr;
 layers = (
 {
 anchors = (
@@ -16,11 +15,11 @@ shapes = (
 ref = Zecyr;
 },
 {
-pos = (292,215);
+pos = (282,215);
 ref = dieresiscomb;
 }
 );
-width = 606;
+width = 596;
 },
 {
 anchors = (
@@ -209,4 +208,7 @@ width = 625;
 );
 production = uni04DE;
 unicode = 1246;
+userData = {
+KernOnName = Zedieresiscyr;
+};
 }

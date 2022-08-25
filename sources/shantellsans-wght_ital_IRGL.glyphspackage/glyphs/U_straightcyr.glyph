@@ -1,8 +1,6 @@
 {
 color = (255,255,0,255);
 glyphname = Ustraightcyr;
-kernLeft = KO_V;
-kernRight = KO_V;
 layers = (
 {
 background = {
@@ -1066,4 +1064,7 @@ width = 626;
 );
 production = uni04AE;
 unicode = 1198;
+userData = {
+KernOnName = Ustraightcyr;
+};
 }

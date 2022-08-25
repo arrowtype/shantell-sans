@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = l;
-kernLeft = KO_l;
-kernRight = KO_l;
 layers = (
 {
 anchors = (
@@ -572,4 +570,7 @@ width = 423;
 }
 );
 unicode = 108;
+userData = {
+KernOnName = l;
+};
 }

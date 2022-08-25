@@ -1,8 +1,6 @@
 {
 color = (255,255,0,255);
 glyphname = xatailcyr;
-kernLeft = KO_x;
-kernRight = KO_xatailcyr;
 layers = (
 {
 background = {
@@ -1635,4 +1633,7 @@ width = 722;
 metricLeft = x;
 production = uni04B3;
 unicode = 1203;
+userData = {
+KernOnName = xatailcyr;
+};
 }

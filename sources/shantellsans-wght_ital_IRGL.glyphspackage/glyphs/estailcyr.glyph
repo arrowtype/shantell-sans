@@ -1,8 +1,6 @@
 {
 color = (255,255,0,255);
 glyphname = estailcyr;
-kernLeft = KO_escyr;
-kernRight = KO_k;
 layers = (
 {
 anchors = (
@@ -69,7 +67,7 @@ ref = c;
 }
 );
 vertWidth = 0;
-width = 502;
+width = 495;
 },
 {
 anchors = (
@@ -149,7 +147,7 @@ ref = c;
 }
 );
 vertWidth = 0;
-width = 482;
+width = 431;
 },
 {
 anchors = (
@@ -268,7 +266,7 @@ ref = c;
 }
 );
 vertWidth = 0;
-width = 501;
+width = 497;
 },
 {
 anchors = (

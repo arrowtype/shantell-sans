@@ -1,7 +1,6 @@
 {
 color = (253,180,212,255);
 glyphname = Chedieresiscyr;
-kernRight = KO_Checyr;
 layers = (
 {
 anchors = (
@@ -212,4 +211,7 @@ width = 655;
 );
 production = uni04F4;
 unicode = 1268;
+userData = {
+KernOnName = Chedieresiscyr;
+};
 }

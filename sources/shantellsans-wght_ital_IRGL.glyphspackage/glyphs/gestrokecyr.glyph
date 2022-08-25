@@ -1,7 +1,6 @@
 {
 color = (255,255,0,255);
 glyphname = gestrokecyr;
-kernRight = KO_v;
 layers = (
 {
 anchors = (
@@ -529,4 +528,7 @@ width = 537;
 metricRight = gecyr;
 production = uni0493;
 unicode = 1171;
+userData = {
+KernOnName = gestrokecyr;
+};
 }

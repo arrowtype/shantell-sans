@@ -1,8 +1,6 @@
 {
 color = (255,255,0,255);
 glyphname = getailcyr;
-kernLeft = KO_gecyr;
-kernRight = KO_v;
 layers = (
 {
 background = {
@@ -1199,4 +1197,7 @@ metricLeft = gecyr;
 metricRight = gecyr;
 production = uni04F7;
 unicode = 1271;
+userData = {
+KernOnName = getailcyr;
+};
 }

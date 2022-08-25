@@ -1,8 +1,6 @@
 {
 color = (255,255,0,255);
 glyphname = Iebrevecyr;
-kernLeft = KO_E;
-kernRight = KO_E;
 layers = (
 {
 anchors = (
@@ -88,7 +86,7 @@ ref = E;
 }
 );
 vertWidth = 0;
-width = 633;
+width = 613;
 },
 {
 anchors = (
@@ -141,7 +139,7 @@ ref = E;
 }
 );
 vertWidth = 0;
-width = 704;
+width = 677;
 },
 {
 anchors = (
@@ -194,7 +192,7 @@ ref = E;
 }
 );
 vertWidth = 0;
-width = 663;
+width = 654;
 },
 {
 anchors = (
@@ -333,7 +331,7 @@ ref = E;
 }
 );
 vertWidth = 0;
-width = 633;
+width = 613;
 },
 {
 anchors = (
@@ -419,7 +417,7 @@ ref = E;
 }
 );
 vertWidth = 0;
-width = 704;
+width = 677;
 },
 {
 anchors = (
@@ -632,4 +630,7 @@ metricLeft = E;
 metricRight = E;
 production = uni04D6;
 unicode = 1238;
+userData = {
+KernOnName = Iebrevecyr;
+};
 }

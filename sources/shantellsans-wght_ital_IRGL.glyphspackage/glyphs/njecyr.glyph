@@ -1,8 +1,6 @@
 {
 color = (255,255,0,255);
 glyphname = njecyr;
-kernLeft = KO_encyr;
-kernRight = KO_softcyr;
 layers = (
 {
 guides = (
@@ -1658,4 +1656,7 @@ metricLeft = encyr;
 metricRight = softcyr;
 production = uni045A;
 unicode = 1114;
+userData = {
+KernOnName = njecyr;
+};
 }

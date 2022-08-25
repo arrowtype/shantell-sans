@@ -1,7 +1,6 @@
 {
 color = (255,255,0,255);
 glyphname = Palochkacyr;
-kernLeft = KO_D;
 layers = (
 {
 background = {
@@ -514,4 +513,7 @@ width = 345;
 );
 production = uni04C0;
 unicode = 1216;
+userData = {
+KernOnName = Palochkacyr;
+};
 }

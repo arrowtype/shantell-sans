@@ -1,8 +1,6 @@
 {
 color = (255,255,0,255);
 glyphname = Zhebrevecyr;
-kernLeft = KO_Zhecyr;
-kernRight = KO_Zhecyr;
 layers = (
 {
 anchors = (
@@ -545,7 +543,7 @@ ref = Zhecyr;
 }
 );
 vertWidth = 0;
-width = 968;
+width = 960;
 },
 {
 anchors = (
@@ -632,4 +630,7 @@ metricLeft = Zhecyr;
 metricRight = Zhecyr;
 production = uni04C1;
 unicode = 1217;
+userData = {
+KernOnName = Zhebrevecyr;
+};
 }

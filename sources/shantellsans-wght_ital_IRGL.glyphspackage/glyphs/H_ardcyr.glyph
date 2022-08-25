@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = Hardcyr;
-kernLeft = KO_Y;
-kernRight = KO_b;
 layers = (
 {
 background = {
@@ -1168,4 +1166,7 @@ width = 698;
 );
 production = uni042A;
 unicode = 1066;
+userData = {
+KernOnName = Hardcyr;
+};
 }

@@ -1,8 +1,6 @@
 {
 color = (255,255,0,255);
 glyphname = obarcyr;
-kernLeft = KO_G;
-kernRight = KO_b;
 layers = (
 {
 anchors = (
@@ -1234,4 +1232,7 @@ width = 663;
 );
 production = uni04E9;
 unicode = 1257;
+userData = {
+KernOnName = obarcyr;
+};
 }

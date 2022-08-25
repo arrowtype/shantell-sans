@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = Tsecyr;
-kernLeft = KO_Tsecyr;
-kernRight = KO_Tsecyr;
 layers = (
 {
 background = {
@@ -1427,4 +1425,7 @@ width = 751;
 );
 production = uni0426;
 unicode = 1062;
+userData = {
+KernOnName = Tsecyr;
+};
 }

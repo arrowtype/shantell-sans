@@ -1,8 +1,6 @@
 {
 color = (255,255,0,255);
 glyphname = zetailcyr;
-kernLeft = KO_zecyr;
-kernRight = KO_zecyr;
 layers = (
 {
 anchors = (
@@ -544,4 +542,7 @@ metricLeft = zecyr;
 metricRight = zecyr;
 production = uni0499;
 unicode = 1177;
+userData = {
+KernOnName = zetailcyr;
+};
 }

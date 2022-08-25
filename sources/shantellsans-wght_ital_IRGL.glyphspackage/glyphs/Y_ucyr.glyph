@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = Yucyr;
-kernLeft = KO_Yucyr;
-kernRight = KO_Yucyr;
 layers = (
 {
 background = {
@@ -1631,4 +1629,7 @@ width = 946;
 );
 production = uni042E;
 unicode = 1070;
+userData = {
+KernOnName = Yucyr;
+};
 }

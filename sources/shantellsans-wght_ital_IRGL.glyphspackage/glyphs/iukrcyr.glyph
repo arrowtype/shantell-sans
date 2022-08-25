@@ -1,8 +1,6 @@
 {
 color = (187,132,254,255);
 glyphname = iukrcyr;
-kernLeft = KO_i;
-kernRight = KO_i;
 layers = (
 {
 anchors = (
@@ -279,4 +277,7 @@ width = 314;
 );
 production = uni0456;
 unicode = 1110;
+userData = {
+KernOnName = iukrcyr;
+};
 }

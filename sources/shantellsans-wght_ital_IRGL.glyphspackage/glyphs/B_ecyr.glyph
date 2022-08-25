@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = Becyr;
-kernLeft = KO_Becyr;
-kernRight = KO_Becyr;
 layers = (
 {
 background = {
@@ -1459,4 +1457,7 @@ width = 668;
 );
 production = uni0411;
 unicode = 1041;
+userData = {
+KernOnName = Becyr;
+};
 }

@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = zecyr;
-kernLeft = KO_zecyr;
-kernRight = KO_zecyr;
 layers = (
 {
 anchors = (
@@ -1227,4 +1225,7 @@ width = 567;
 );
 production = uni0437;
 unicode = 1079;
+userData = {
+KernOnName = zecyr;
+};
 }

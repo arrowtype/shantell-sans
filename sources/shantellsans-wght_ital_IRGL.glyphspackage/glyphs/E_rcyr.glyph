@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = Ercyr;
-kernLeft = KO_Ercyr;
-kernRight = KO_P;
 layers = (
 {
 anchors = (
@@ -227,4 +225,7 @@ width = 595;
 );
 production = uni0420;
 unicode = 1056;
+userData = {
+KernOnName = Ercyr;
+};
 }

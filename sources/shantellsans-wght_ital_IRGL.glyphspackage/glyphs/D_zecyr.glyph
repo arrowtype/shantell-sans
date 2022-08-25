@@ -1,8 +1,6 @@
 {
 color = (187,132,254,255);
 glyphname = Dzecyr;
-kernLeft = KO_S;
-kernRight = KO_S;
 layers = (
 {
 anchors = (
@@ -213,4 +211,7 @@ width = 563;
 );
 production = uni0405;
 unicode = 1029;
+userData = {
+KernOnName = Dzecyr;
+};
 }

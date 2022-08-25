@@ -1,7 +1,6 @@
 {
 color = (255,255,0,255);
 glyphname = gehookcyr;
-kernLeft = KO_ylongcyr;
 layers = (
 {
 background = {
@@ -1276,4 +1275,7 @@ width = 588;
 );
 production = uni0495;
 unicode = 1173;
+userData = {
+KernOnName = gehookcyr;
+};
 }

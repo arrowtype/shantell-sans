@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = Elcyr;
-kernLeft = KO_Elcyr;
-kernRight = KO_Elcyr;
 layers = (
 {
 background = {
@@ -1061,4 +1059,7 @@ width = 691;
 );
 production = uni041B;
 unicode = 1051;
+userData = {
+KernOnName = Elcyr;
+};
 }

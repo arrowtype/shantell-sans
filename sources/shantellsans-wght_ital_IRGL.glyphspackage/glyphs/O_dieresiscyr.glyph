@@ -1,8 +1,6 @@
 {
 color = (187,132,254,255);
 glyphname = Odieresiscyr;
-kernLeft = KO_checyr;
-kernRight = KO_Ocyr;
 layers = (
 {
 anchors = (
@@ -257,4 +255,7 @@ width = 674;
 );
 production = uni04E6;
 unicode = 1254;
+userData = {
+KernOnName = Odieresiscyr;
+};
 }

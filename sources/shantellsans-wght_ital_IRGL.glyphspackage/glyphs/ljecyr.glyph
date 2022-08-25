@@ -1,8 +1,6 @@
 {
 color = (255,255,0,255);
 glyphname = ljecyr;
-kernLeft = KO_elcyr;
-kernRight = KO_softcyr;
 layers = (
 {
 background = {
@@ -1218,4 +1216,7 @@ metricLeft = elcyr;
 metricRight = softcyr;
 production = uni0459;
 unicode = 1113;
+userData = {
+KernOnName = ljecyr;
+};
 }

@@ -1,8 +1,6 @@
 {
 color = (255,255,0,255);
 glyphname = Schwacyr;
-kernLeft = KO_Schwacyr;
-kernRight = KO_D;
 layers = (
 {
 background = {
@@ -1006,4 +1004,7 @@ width = 760;
 );
 production = uni04D8;
 unicode = 1240;
+userData = {
+KernOnName = Schwacyr;
+};
 }

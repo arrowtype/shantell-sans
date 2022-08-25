@@ -1,8 +1,6 @@
 {
 color = (255,255,0,255);
 glyphname = Izhitsacyr;
-kernLeft = KO_V;
-kernRight = KO_V;
 layers = (
 {
 background = {
@@ -816,4 +814,7 @@ width = 757;
 metricLeft = V;
 production = uni0474;
 unicode = 1140;
+userData = {
+KernOnName = Izhitsacyr;
+};
 }

@@ -1,8 +1,6 @@
 {
 color = (255,255,0,255);
 glyphname = Abrevecyr;
-kernLeft = KO_c;
-kernRight = KO_A;
 layers = (
 {
 anchors = (
@@ -672,4 +670,7 @@ metricLeft = A;
 metricRight = A;
 production = uni04D0;
 unicode = 1232;
+userData = {
+KernOnName = Abrevecyr;
+};
 }

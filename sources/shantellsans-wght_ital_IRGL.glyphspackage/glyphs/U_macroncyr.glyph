@@ -1,8 +1,6 @@
 {
 color = (253,180,212,255);
 glyphname = Umacroncyr;
-kernLeft = KO_h;
-kernRight = KO_Ucyr;
 layers = (
 {
 anchors = (
@@ -210,4 +208,7 @@ width = 667;
 );
 production = uni04EE;
 unicode = 1262;
+userData = {
+KernOnName = Umacroncyr;
+};
 }

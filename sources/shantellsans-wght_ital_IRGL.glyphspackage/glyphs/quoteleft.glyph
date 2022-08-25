@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = quoteleft;
-kernLeft = KO_seven;
-kernRight = KO_quoteleft;
 layers = (
 {
 background = {
@@ -414,6 +412,7 @@ width = 271;
 );
 unicode = 8216;
 userData = {
+KernOnName = quoteleft;
 KernOnSpecialSpacing = {
 L = quotes;
 R = quotes;

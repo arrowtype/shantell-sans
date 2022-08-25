@@ -1,8 +1,6 @@
 {
 color = (253,180,212,255);
 glyphname = gjecyr;
-kernLeft = KO_gecyr;
-kernRight = KO_v;
 layers = (
 {
 anchors = (
@@ -177,4 +175,7 @@ width = 523;
 );
 production = uni0453;
 unicode = 1107;
+userData = {
+KernOnName = gjecyr;
+};
 }

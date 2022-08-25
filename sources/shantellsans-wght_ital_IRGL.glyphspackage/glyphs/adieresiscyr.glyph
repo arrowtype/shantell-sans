@@ -1,8 +1,6 @@
 {
 color = (253,180,212,255);
 glyphname = adieresiscyr;
-kernLeft = KO_agrave;
-kernRight = KO_a;
 layers = (
 {
 anchors = (
@@ -248,4 +246,7 @@ width = 702;
 );
 production = uni04D3;
 unicode = 1235;
+userData = {
+KernOnName = adieresiscyr;
+};
 }

@@ -1,7 +1,6 @@
 {
 color = (255,255,0,255);
 glyphname = Katailcyr;
-kernLeft = KO_K;
 layers = (
 {
 background = {
@@ -1371,4 +1370,7 @@ width = 782;
 metricLeft = Kacyr;
 production = uni049A;
 unicode = 1178;
+userData = {
+KernOnName = Katailcyr;
+};
 }
