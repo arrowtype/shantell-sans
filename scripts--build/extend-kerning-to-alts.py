@@ -4,6 +4,7 @@
     Will ultimately be worked back into the main build-prep.py script.
 """
 
+from curses.ascii import alt
 import shutil
 from fontParts.fontshell import RFont as Font
 from fontParts.world import *
@@ -96,120 +97,101 @@ def extendKerning(fonts,numOfAlts=2):
 
         # -------------------------------------------------------------------------
         # start duplicating kerns
-        
-        counterBoth = 0
-        counterSide1Only = 0
-        counterSide2Only = 0
 
         # go through kerning in font
         for kern in font.kerning.items():
             
-            # this goes through the glyphs in each item, which each look like (("A", "W"), -10) or (("public.kern1.y", "public.kern2.guillemetright"), 20), etc
-            for side, name in enumerate(kern[0], start=1):
-
-                if side == 1:
-                    if name in altsMadeFor:
-                        # make a new kern for each alt of the side1 glyph
-                        for i in range(1, numOfAlts+1):
-                            newKern1 = ((f'{kern[0][0]}.alt{i}', kern[0][1]), kern[1])
-                            font.kerning[newKern1[0]] = newKern1[1]
+            # each kern looks like (("A", "W"), -10) or (("public.kern1.y", "public.kern2.guillemetright"), 20), etc
+            
+            name = kern[0][0]
+            if name in altsMadeFor:
+                # make a new kern for each alt of the side1 glyph
+                for i in range(1, numOfAlts+1):
+                    newKern1 = ((f'{kern[0][0]}.alt{i}', kern[0][1]), kern[1])
+                    font.kerning[newKern1[0]] = newKern1[1]
 
         # go through kerning in font a second time, once side1 is already duplicated
         for kern in font.kerning.items():
             
-            # this goes through the glyphs in each item, which each look like (("A", "W"), -10) or (("public.kern1.y", "public.kern2.guillemetright"), 20), etc
-            for side, name in enumerate(kern[0], start=1):
-                if side == 2:
-                    if name in altsMadeFor:
-                        # make a new kern for each alt of the side1 glyph
-                        for i in range(1, numOfAlts+1):
-                            newKern2 = ((kern[0][0],f'{kern[0][1]}.alt{i}'), kern[1])
-                            font.kerning[newKern2[0]] = newKern2[1]
+            # now extend the side 2 kerns
+            name = kern[0][1]
+            if name in altsMadeFor:
+                # make a new kern for each alt of the side1 glyph
+                for i in range(1, numOfAlts+1):
+                    newKern2 = ((kern[0][0],f'{kern[0][1]}.alt{i}'), kern[1])
+                    font.kerning[newKern2[0]] = newKern2[1]
+
+        # next, add alt glyphs to parent groups
+
+        # go through side1 kern glyphs that are in groups
+        for glyphName in groupedGlyphs_side1:
+            # if the glyphName has alts...
+            if glyphName in altsMadeFor:
+                # get its side1 group
+                kernGroup = [groupName for groupName in font.groups.findGlyph(glyphName) if "kern1" in groupName][0]
+
+                # then add each of its alts to that
+                for i in range(1, numOfAlts+1):
+                    font.groups[kernGroup] = font.groups[kernGroup] + (f'{glyphName}.alt{i}',)
+
+        # go through side1 kern glyphs that are in groups
+        for glyphName in groupedGlyphs_side2:
+            # if the glyphName has alts...
+            if glyphName in altsMadeFor:
+                # get its side2 group
+                kernGroup = [groupName for groupName in font.groups.findGlyph(glyphName) if "kern2" in groupName][0]
+
+                # then add each of its alts to that
+                for i in range(1, numOfAlts+1):
+                    font.groups[kernGroup] = font.groups[kernGroup] + (f'{glyphName}.alt{i}',)
 
 
-                    # if side == 2:
-                    #     # make a new kern for each alt of the side1 glyph
-                    #     for i in range(1, numOfAlts+1):
-                    #         newKern2 = ((kern[0][0],f'{kern[0][1]}.alt{i}'), kern[1])
-                    #         font.kerning[newKern2[0]] = newKern2[1]
+        # finally, make groups for glyphs that never had them
+        
+        # for side 1
+        for glyphName in ungroupedGlyphs_side1:
+            if glyphName in altsMadeFor:
+                # make list of glyphnames for glyph plus alts
+                glyphVersionNames = [glyphName] + [f"{glyphName}.alt{i}" for i in range(1, numOfAlts+1)]
+                # make new group with glyph and alts in it
+                font.groups[f'public.kern1.{glyphName.replace(".","_")}'] = [name for name in glyphVersionNames]
+        
+                # now, update its kerns
 
-                # # if both sides are an exception and have alts
-                # if name in exceptions_side2 and name in exceptions_side1 and name in altsMadeFor:
-                #     counterBoth += 1 # for debugging
+        
+        # new groups for side 2
+        for glyphName in ungroupedGlyphs_side2:
+            if glyphName in altsMadeFor:
+                # make list of glyphnames for glyph plus alts
+                glyphVersionNames = [glyphName] + [f"{glyphName}.alt{i}" for i in range(1, numOfAlts+1)]
+                # make new group with glyph and alts in it
+                font.groups[f'public.kern2.{glyphName.replace(".","_")}'] = [name for name in glyphVersionNames]
 
-                #     if side == 1:
-                #         # make a new kern for each alt of the side1 glyph
-                #         for i in range(1, numOfAlts+1):
-                #             newKern1 = ((f'{kern[0][0]}.alt{i}', kern[0][1]), kern[1])
-                #             font.kerning[newKern1[0]] = newKern1[1]
+                # then delete the base kerns from the font
+                # then add those kerns to the font
+        
 
-                #     if side == 2:
-                #         # make a new kern for each alt of the side1 glyph
-                #         for i in range(1, numOfAlts+1):
-                #             newKern2 = ((kern[0][0],f'{kern[0][1]}.alt{i}'), kern[1])
-                #             font.kerning[newKern2[0]] = newKern2[1]
+        # go through kerning in font again, this time to update ungrouped glyphs with group names
+        for kern in font.kerning.items():
+            # start with side 1 kerns
+            name = kern[0][0]
+            if name in altsMadeFor and name in ungroupedGlyphs_side1:
+                groupName = f'public.kern1.{name.replace(".","_")}'
+                newKern1 = ((groupName, kern[0][1]), kern[1])
+                del font.kerning[kern[0]]
 
-                # # if right side only is an exception (should this be first, before both side exceptions?)
-                # elif name in exceptions_side2 and name in altsMadeFor:
-                #     counterSide2Only += 1 # for debugging
-                #     if side == 1:
-                #         # make a new kern for each alt of the side1 glyph
-                #         for i in range(1, numOfAlts+1):
-                #             newKern1 = ((f'{kern[0][0]}.alt{i}', kern[0][1]), kern[1])
-                #             font.kerning[newKern1[0]] = newKern1[1]
+                font.kerning[newKern1[0]] = newKern1[1]
 
-                #     if side == 2:
-                #         # make a new kern for each alt of the side1 glyph
-                #         for i in range(1, numOfAlts+1):
-                #             newKern2 = ((kern[0][0],f'{kern[0][1]}.alt{i}'), kern[1])
-                #             font.kerning[newKern2[0]] = newKern2[1]
+        # repeat to make new group kerns for ungrouped side 2 kerns
+        for kern in font.kerning.items():
+            # now do side 2 kerns
+            name = kern[0][1]
+            if name in altsMadeFor and name in ungroupedGlyphs_side2:
+                groupName = f'public.kern2.{name.replace(".","_")}'
+                newKern2 = ((newKern1[0][0], groupName), newKern1[1])
+                del font.kerning[kern[0]]
 
-
-                # # if left side only is an exception
-                # elif name in exceptions_side1 and name in altsMadeFor:
-                #     counterSide1Only += 1 # for debugging
-                #     if side == 1:
-                #         # make a new kern for each alt of the side1 glyph
-                #         for i in range(1, numOfAlts+1):
-                #             newKern1 = ((f'{kern[0][0]}.alt{i}', kern[0][1]), kern[1])
-                #             font.kerning[newKern1[0]] = newKern1[1]
-
-                #     if side == 2:
-                #         # make a new kern for each alt of the side1 glyph
-                #         for i in range(1, numOfAlts+1):
-                #             newKern2 = ((kern[0][0],f'{kern[0][1]}.alt{i}'), kern[1])
-                #             font.kerning[newKern2[0]] = newKern2[1]
-
-        print('counterBoth', counterBoth)
-        print('counterSide1Only', counterSide1Only)
-        print('counterSide2Only', counterSide2Only)
-
-        # TODO: WHAT IF an exception is an exception on both sides? You don't want to dulicate the logic...
-
-        # probably, make a list of both-sided exceptions, then lists of side1 or side2-only exceptions?
-        # or check for unique items in lists?
-
-        # OR... you could assume that exceptions will always be both-sided... but maybe that is a last-resort, as it will break eventually
-
-
-
-
-
-
-        # for glyphName in altsMadeForList:
-        #     glyphBaseName = glyphName.split(".alt")[0]
-
-        #     if glyphBaseName in exceptions_side2:
-                
-                # look up kerning on non-alt
-                # baseKern = 
-
-                # newKern2 = ((THING, glyphName), kern[1])
-
-
-
-
-
+                font.kerning[newKern2[0]] = newKern2[1]
 
         font.save()
 
