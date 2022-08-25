@@ -40,19 +40,19 @@ altsToMakeList = [ord(char) for char in altsToMake]
 
 
 
-def extendKerning(fonts,numOfAlts=2):
+def extendKerning(fonts):
     """
         Add .alt1 and .alt2 glyphs to kerning groups with defaults.
     """
 
-    # first, copy groups from main font
-    # coreGroups = Font(sources["extrabold"]).groups
-
     for font in fonts:
 
-        # ? replace this variable with an arg in the main build prep script
         alts = [g.name for g in font if '.alt' in g.name]
         altsMadeFor = sorted(list(set([name.split(".alt")[0] for name in alts])))
+
+        # determine number of alts in font
+        altSuffixes = set([altName.split('.alt')[1] for altName in alts])
+        numOfAlts = len(altSuffixes)
 
         # -------------------------------------------------------------------------
         # parse out lists of side1 and side2 grouped kerns vs exception kerns
@@ -70,30 +70,21 @@ def extendKerning(fonts,numOfAlts=2):
 
         # make list of glyphs in side1 kerns that are NOT in side1 groups
         ungroupedGlyphs_side1 = [i for i in kerns_side1 if 'public.kern' not in i and i not in groupedGlyphs_side1]
-        # print(ungroupedGlyphs_side1)
         
-        # exceptions on side1 are glyphs that are named without a group in side1 kern, but ARE also in a group
-        exceptions_side1 = [i for i in kerns_side1 if 'public.kern' not in i and i in groupedGlyphs_side1]
-        # print(exceptions_side1)
+        # # exceptions on side1 are glyphs that are named without a group in side1 kern, but ARE also in a group
+        # exceptions_side1 = [i for i in kerns_side1 if 'public.kern' not in i and i in groupedGlyphs_side1]
 
         # make a nested list of all glyphs in all groups used in side 1
         groups_side2 = [list(font.groups[groupName]) for groupName in [i for i in kerns_side2 if '.kern2' in i]]
-        # print(groups_side2)
-        # print()
 
         # flatten the nested list of all grouped side2 glyphs
         groupedGlyphs_side2 = [i for sublist in groups_side2 for i in sublist]
-        # print(groupedGlyphs_side2)
-        # print()
 
         # make list of glyphs in side2 kerns that are NOT in side2 groups
         ungroupedGlyphs_side2 = [i for i in kerns_side2 if 'public.kern' not in i and i not in groupedGlyphs_side2]
-        # print(ungroupedGlyphs_side2)
-        # print()
         
-        # exceptions on side2 are glyphs that are named without a group in side2 kern, but ARE also in a group
-        exceptions_side2 = [i for i in kerns_side2 if 'public.kern' not in i and i in groupedGlyphs_side2]
-        # print(exceptions_side2)
+        # # exceptions on side2 are glyphs that are named without a group in side2 kern, but ARE also in a group
+        # exceptions_side2 = [i for i in kerns_side2 if 'public.kern' not in i and i in groupedGlyphs_side2]
 
         # -------------------------------------------------------------------------
         # start duplicating kerns
@@ -145,7 +136,6 @@ def extendKerning(fonts,numOfAlts=2):
                 for i in range(1, numOfAlts+1):
                     font.groups[kernGroup] = font.groups[kernGroup] + (f'{glyphName}.alt{i}',)
 
-
         # finally, make groups for glyphs that never had them
         
         # for side 1
@@ -155,10 +145,7 @@ def extendKerning(fonts,numOfAlts=2):
                 glyphVersionNames = [glyphName] + [f"{glyphName}.alt{i}" for i in range(1, numOfAlts+1)]
                 # make new group with glyph and alts in it
                 font.groups[f'public.kern1.{glyphName.replace(".","_")}'] = [name for name in glyphVersionNames]
-        
-                # now, update its kerns
 
-        
         # new groups for side 2
         for glyphName in ungroupedGlyphs_side2:
             if glyphName in altsMadeFor:
@@ -166,10 +153,6 @@ def extendKerning(fonts,numOfAlts=2):
                 glyphVersionNames = [glyphName] + [f"{glyphName}.alt{i}" for i in range(1, numOfAlts+1)]
                 # make new group with glyph and alts in it
                 font.groups[f'public.kern2.{glyphName.replace(".","_")}'] = [name for name in glyphVersionNames]
-
-                # then delete the base kerns from the font
-                # then add those kerns to the font
-        
 
         # go through kerning in font again, this time to update ungrouped glyphs with group names
         for kern in font.kerning.items():
@@ -211,7 +194,7 @@ def main():
     fonts = [newFont]
     
     print("🤖 Tying alts to default glyph kerning")
-    extendKerning(fonts, numOfAlts=3) 
+    extendKerning(fonts) 
 
 
 
