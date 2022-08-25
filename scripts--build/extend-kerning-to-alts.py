@@ -48,8 +48,13 @@ def extendKerning(fonts,numOfAlts=2):
     # coreGroups = Font(sources["extrabold"]).groups
 
     for font in fonts:
-        # font.groups = coreGroups
 
+        # ? replace this variable with an arg in the main build prep script
+        alts = [g.name for g in font if '.alt' in g.name]
+        altsMadeFor = sorted(list(set([name.split(".alt")[0] for name in alts])))
+
+        # -------------------------------------------------------------------------
+        # parse out lists of side1 and side2 grouped kerns vs exception kerns
 
         # make list of all glyphs with any kerning
         kerning = font.kerning.keys()
@@ -64,26 +69,143 @@ def extendKerning(fonts,numOfAlts=2):
 
         # make list of glyphs in side1 kerns that are NOT in side1 groups
         ungroupedGlyphs_side1 = [i for i in kerns_side1 if 'public.kern' not in i and i not in groupedGlyphs_side1]
-        print(ungroupedGlyphs_side1)
+        # print(ungroupedGlyphs_side1)
         
         # exceptions on side1 are glyphs that are named without a group in side1 kern, but ARE also in a group
-        exceptions_side1 = [i for i in kerns_side1 if 'public.kern' not in i and i not in ungroupedGlyphs_side1]
-        print(exceptions_side1)
-
+        exceptions_side1 = [i for i in kerns_side1 if 'public.kern' not in i and i in groupedGlyphs_side1]
+        # print(exceptions_side1)
 
         # make a nested list of all glyphs in all groups used in side 1
-        groups_side2 = [list(font.groups[groupName]) for groupName in [i for i in kerns_side2 if '.kern1' in i]]
+        groups_side2 = [list(font.groups[groupName]) for groupName in [i for i in kerns_side2 if '.kern2' in i]]
+        # print(groups_side2)
+        # print()
 
         # flatten the nested list of all grouped side2 glyphs
         groupedGlyphs_side2 = [i for sublist in groups_side2 for i in sublist]
+        # print(groupedGlyphs_side2)
+        # print()
 
         # make list of glyphs in side2 kerns that are NOT in side2 groups
         ungroupedGlyphs_side2 = [i for i in kerns_side2 if 'public.kern' not in i and i not in groupedGlyphs_side2]
-        print(ungroupedGlyphs_side2)
+        # print(ungroupedGlyphs_side2)
+        # print()
         
         # exceptions on side2 are glyphs that are named without a group in side2 kern, but ARE also in a group
-        exceptions_side2 = [i for i in kerns_side2 if 'public.kern' not in i and i not in ungroupedGlyphs_side2]
-        print(exceptions_side2)
+        exceptions_side2 = [i for i in kerns_side2 if 'public.kern' not in i and i in groupedGlyphs_side2]
+        # print(exceptions_side2)
+
+        # -------------------------------------------------------------------------
+        # start duplicating kerns
+        
+        counterBoth = 0
+        counterSide1Only = 0
+        counterSide2Only = 0
+
+        # go through kerning in font
+        for kern in font.kerning.items():
+            
+            # this goes through the glyphs in each item, which each look like (("A", "W"), -10) or (("public.kern1.y", "public.kern2.guillemetright"), 20), etc
+            for side, name in enumerate(kern[0], start=1):
+
+                if side == 1:
+                    if name in altsMadeFor:
+                        # make a new kern for each alt of the side1 glyph
+                        for i in range(1, numOfAlts+1):
+                            newKern1 = ((f'{kern[0][0]}.alt{i}', kern[0][1]), kern[1])
+                            font.kerning[newKern1[0]] = newKern1[1]
+
+        # go through kerning in font a second time, once side1 is already duplicated
+        for kern in font.kerning.items():
+            
+            # this goes through the glyphs in each item, which each look like (("A", "W"), -10) or (("public.kern1.y", "public.kern2.guillemetright"), 20), etc
+            for side, name in enumerate(kern[0], start=1):
+                if side == 2:
+                    if name in altsMadeFor:
+                        # make a new kern for each alt of the side1 glyph
+                        for i in range(1, numOfAlts+1):
+                            newKern2 = ((kern[0][0],f'{kern[0][1]}.alt{i}'), kern[1])
+                            font.kerning[newKern2[0]] = newKern2[1]
+
+
+                    # if side == 2:
+                    #     # make a new kern for each alt of the side1 glyph
+                    #     for i in range(1, numOfAlts+1):
+                    #         newKern2 = ((kern[0][0],f'{kern[0][1]}.alt{i}'), kern[1])
+                    #         font.kerning[newKern2[0]] = newKern2[1]
+
+                # # if both sides are an exception and have alts
+                # if name in exceptions_side2 and name in exceptions_side1 and name in altsMadeFor:
+                #     counterBoth += 1 # for debugging
+
+                #     if side == 1:
+                #         # make a new kern for each alt of the side1 glyph
+                #         for i in range(1, numOfAlts+1):
+                #             newKern1 = ((f'{kern[0][0]}.alt{i}', kern[0][1]), kern[1])
+                #             font.kerning[newKern1[0]] = newKern1[1]
+
+                #     if side == 2:
+                #         # make a new kern for each alt of the side1 glyph
+                #         for i in range(1, numOfAlts+1):
+                #             newKern2 = ((kern[0][0],f'{kern[0][1]}.alt{i}'), kern[1])
+                #             font.kerning[newKern2[0]] = newKern2[1]
+
+                # # if right side only is an exception (should this be first, before both side exceptions?)
+                # elif name in exceptions_side2 and name in altsMadeFor:
+                #     counterSide2Only += 1 # for debugging
+                #     if side == 1:
+                #         # make a new kern for each alt of the side1 glyph
+                #         for i in range(1, numOfAlts+1):
+                #             newKern1 = ((f'{kern[0][0]}.alt{i}', kern[0][1]), kern[1])
+                #             font.kerning[newKern1[0]] = newKern1[1]
+
+                #     if side == 2:
+                #         # make a new kern for each alt of the side1 glyph
+                #         for i in range(1, numOfAlts+1):
+                #             newKern2 = ((kern[0][0],f'{kern[0][1]}.alt{i}'), kern[1])
+                #             font.kerning[newKern2[0]] = newKern2[1]
+
+
+                # # if left side only is an exception
+                # elif name in exceptions_side1 and name in altsMadeFor:
+                #     counterSide1Only += 1 # for debugging
+                #     if side == 1:
+                #         # make a new kern for each alt of the side1 glyph
+                #         for i in range(1, numOfAlts+1):
+                #             newKern1 = ((f'{kern[0][0]}.alt{i}', kern[0][1]), kern[1])
+                #             font.kerning[newKern1[0]] = newKern1[1]
+
+                #     if side == 2:
+                #         # make a new kern for each alt of the side1 glyph
+                #         for i in range(1, numOfAlts+1):
+                #             newKern2 = ((kern[0][0],f'{kern[0][1]}.alt{i}'), kern[1])
+                #             font.kerning[newKern2[0]] = newKern2[1]
+
+        print('counterBoth', counterBoth)
+        print('counterSide1Only', counterSide1Only)
+        print('counterSide2Only', counterSide2Only)
+
+        # TODO: WHAT IF an exception is an exception on both sides? You don't want to dulicate the logic...
+
+        # probably, make a list of both-sided exceptions, then lists of side1 or side2-only exceptions?
+        # or check for unique items in lists?
+
+        # OR... you could assume that exceptions will always be both-sided... but maybe that is a last-resort, as it will break eventually
+
+
+
+
+
+
+        # for glyphName in altsMadeForList:
+        #     glyphBaseName = glyphName.split(".alt")[0]
+
+        #     if glyphBaseName in exceptions_side2:
+                
+                # look up kerning on non-alt
+                # baseKern = 
+
+                # newKern2 = ((THING, glyphName), kern[1])
+
 
 
 
