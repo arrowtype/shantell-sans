@@ -1,6 +1,7 @@
 {
 color = (255,255,0,255);
 glyphname = yusbigcyr;
+kernLeft = KO_yusbigcyr;
 layers = (
 {
 background = {
@@ -1786,4 +1787,7 @@ width = 664;
 );
 production = uni046B;
 unicode = 1131;
+userData = {
+KernOnName = yusbigcyr;
+};
 }

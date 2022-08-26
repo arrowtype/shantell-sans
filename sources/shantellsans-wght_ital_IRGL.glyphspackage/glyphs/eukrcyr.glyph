@@ -1,6 +1,8 @@
 {
 color = (255,255,0,255);
 glyphname = eukrcyr;
+kernLeft = KO_eukrcyr;
+kernRight = KO_eukrcyr;
 layers = (
 {
 background = {
@@ -1371,4 +1373,7 @@ width = 549;
 );
 production = uni0454;
 unicode = 1108;
+userData = {
+KernOnName = eukrcyr;
+};
 }

@@ -1,6 +1,8 @@
 {
 color = 4;
 glyphname = ereversedcyr;
+kernLeft = KO_ae;
+kernRight = KO_ereversedcyr;
 layers = (
 {
 anchors = (
@@ -1543,4 +1545,7 @@ width = 580;
 );
 production = uni044D;
 unicode = 1101;
+userData = {
+KernOnName = ereversedcyr;
+};
 }

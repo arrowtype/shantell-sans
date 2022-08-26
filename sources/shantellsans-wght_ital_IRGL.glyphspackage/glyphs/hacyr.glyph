@@ -1,6 +1,8 @@
 {
 color = 4;
 glyphname = hacyr;
+kernLeft = KO_x;
+kernRight = KO_x;
 layers = (
 {
 anchors = (
@@ -225,4 +227,7 @@ width = 599;
 );
 production = uni0445;
 unicode = 1093;
+userData = {
+KernOnName = hacyr;
+};
 }

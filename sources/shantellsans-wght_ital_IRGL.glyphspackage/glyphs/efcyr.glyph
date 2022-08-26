@@ -1,6 +1,8 @@
 {
 color = 4;
 glyphname = efcyr;
+kernLeft = KO_efcyr;
+kernRight = KO_efcyr;
 layers = (
 {
 background = {
@@ -1381,4 +1383,7 @@ width = 865;
 );
 production = uni0444;
 unicode = 1092;
+userData = {
+KernOnName = efcyr;
+};
 }

@@ -1,6 +1,8 @@
 {
 color = (255,255,0,255);
 glyphname = Ustraightcyr;
+kernLeft = KO_Y;
+kernRight = KO_Ustraightcyr;
 layers = (
 {
 background = {

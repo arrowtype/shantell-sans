@@ -1,6 +1,7 @@
 {
 color = (255,255,0,255);
 glyphname = kaverticalstrokecyr;
+kernLeft = KO_kacyr;
 layers = (
 {
 background = {
@@ -1842,4 +1843,7 @@ width = 650;
 metricLeft = kacyr;
 production = uni049D;
 unicode = 1181;
+userData = {
+KernOnName = kaverticalstrokecyr;
+};
 }

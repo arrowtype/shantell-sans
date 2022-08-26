@@ -1,6 +1,8 @@
 {
 color = (255,255,0,255);
 glyphname = dzhecyr;
+kernLeft = KO_icyr;
+kernRight = KO_yacyr;
 layers = (
 {
 background = {
@@ -1245,4 +1247,7 @@ width = 655;
 );
 production = uni045F;
 unicode = 1119;
+userData = {
+KernOnName = dzhecyr;
+};
 }

@@ -1,6 +1,8 @@
 {
 color = (255,255,0,255);
 glyphname = yatcyr;
+kernLeft = KO_yatcyr;
+kernRight = KO_Elcyr;
 layers = (
 {
 background = {
@@ -1373,4 +1375,7 @@ width = 635;
 );
 production = uni0463;
 unicode = 1123;
+userData = {
+KernOnName = yatcyr;
+};
 }

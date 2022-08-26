@@ -1,6 +1,8 @@
 {
 color = (255,255,0,255);
 glyphname = entailcyr;
+kernLeft = KO_encyr;
+kernRight = KO_entailcyr;
 layers = (
 {
 background = {
@@ -1916,4 +1918,7 @@ width = 780;
 metricLeft = encyr;
 production = uni04A3;
 unicode = 1187;
+userData = {
+KernOnName = entailcyr;
+};
 }

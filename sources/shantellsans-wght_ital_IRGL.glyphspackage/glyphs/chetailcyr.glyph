@@ -1,6 +1,8 @@
 {
 color = (255,255,0,255);
 glyphname = chetailcyr;
+kernLeft = KO_checyr;
+kernRight = KO_entailcyr;
 layers = (
 {
 background = {
@@ -2006,4 +2008,7 @@ width = 573;
 metricLeft = checyr;
 production = uni04B7;
 unicode = 1207;
+userData = {
+KernOnName = chetailcyr;
+};
 }

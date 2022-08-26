@@ -1,6 +1,8 @@
 {
 color = (253,180,212,255);
 glyphname = idieresiscyr;
+kernLeft = KO_icyr;
+kernRight = KO_icyr;
 layers = (
 {
 anchors = (
@@ -177,4 +179,7 @@ metricLeft = icyr;
 metricRight = icyr;
 production = uni04E5;
 unicode = 1253;
+userData = {
+KernOnName = idieresiscyr;
+};
 }

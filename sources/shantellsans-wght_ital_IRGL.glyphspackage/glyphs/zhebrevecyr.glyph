@@ -1,6 +1,7 @@
 {
 color = (253,180,212,255);
 glyphname = zhebrevecyr;
+kernLeft = KO_P;
 layers = (
 {
 anchors = (
@@ -210,4 +211,7 @@ width = 901;
 );
 production = uni04C2;
 unicode = 1218;
+userData = {
+KernOnName = zhebrevecyr;
+};
 }

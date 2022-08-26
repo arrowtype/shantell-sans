@@ -1,6 +1,8 @@
 {
 color = 4;
 glyphname = softcyr;
+kernLeft = KO_softcyr;
+kernRight = KO_ljecyr;
 layers = (
 {
 background = {
@@ -1119,4 +1121,7 @@ width = 575;
 );
 production = uni044C;
 unicode = 1100;
+userData = {
+KernOnName = softcyr;
+};
 }

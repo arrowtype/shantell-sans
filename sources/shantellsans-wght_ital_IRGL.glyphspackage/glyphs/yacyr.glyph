@@ -1,6 +1,8 @@
 {
 color = 4;
 glyphname = yacyr;
+kernLeft = KO_yacyr;
+kernRight = KO_yacyr;
 layers = (
 {
 guides = (
@@ -1615,4 +1617,7 @@ width = 625;
 );
 production = uni044F;
 unicode = 1103;
+userData = {
+KernOnName = yacyr;
+};
 }

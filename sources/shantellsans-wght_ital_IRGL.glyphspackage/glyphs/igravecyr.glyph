@@ -1,6 +1,8 @@
 {
 color = (253,180,212,255);
 glyphname = igravecyr;
+kernLeft = KO_icyr;
+kernRight = KO_icyr;
 layers = (
 {
 anchors = (
@@ -177,4 +179,7 @@ metricLeft = icyr;
 metricRight = icyr;
 production = uni045D;
 unicode = 1117;
+userData = {
+KernOnName = igravecyr;
+};
 }

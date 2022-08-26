@@ -1,6 +1,8 @@
 {
 color = (255,255,0,255);
 glyphname = estailcyr;
+kernLeft = KO_c;
+kernRight = KO_estailcyr;
 layers = (
 {
 anchors = (
@@ -601,4 +603,7 @@ metricLeft = c;
 metricRight = c;
 production = uni04AB;
 unicode = 1195;
+userData = {
+KernOnName = estailcyr;
+};
 }

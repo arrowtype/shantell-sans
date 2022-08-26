@@ -1,6 +1,8 @@
 {
 color = (255,255,0,255);
 glyphname = kabashkcyr;
+kernLeft = KO_hardcyr;
+kernRight = KO_kacyr;
 layers = (
 {
 background = {
@@ -1552,4 +1554,7 @@ metricLeft = hardcyr;
 metricRight = kacyr;
 production = uni04A1;
 unicode = 1185;
+userData = {
+KernOnName = kabashkcyr;
+};
 }
