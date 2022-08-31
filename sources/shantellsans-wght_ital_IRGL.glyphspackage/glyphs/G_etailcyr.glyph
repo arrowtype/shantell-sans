@@ -1,7 +1,8 @@
 {
 color = (255,255,0,255);
 glyphname = Getailcyr;
-kernLeft = KO_F;
+kernLeft = KO_Becyr;
+kernRight = KO_Getailcyr;
 layers = (
 {
 background = {

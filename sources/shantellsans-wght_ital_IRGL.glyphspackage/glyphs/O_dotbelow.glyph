@@ -1,7 +1,7 @@
 {
 glyphname = Odotbelow;
 kernLeft = KO_O;
-kernRight = KO_Ocyr;
+kernRight = KO_O;
 layers = (
 {
 anchors = (
@@ -51,11 +51,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (367,0);
+pos = (362,0);
 ref = dotbelowcmb;
 }
 );
-width = 756;
+width = 746;
 },
 {
 anchors = (
