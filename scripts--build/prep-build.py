@@ -756,8 +756,6 @@ def generateCaltIntoFea(mainFont, glyphNames):
     existingCaltFeaFull = existingCaltFea.group()
     existingCaltFeaInside = existingCaltFea.group(1)
 
-    newline = "\n"
-
     newCalt = "feature calt {"
 
     newCalt += existingCaltFeaInside
@@ -765,6 +763,8 @@ def generateCaltIntoFea(mainFont, glyphNames):
     # avoids setting biggest transformations at the start of words in Irregular/Flux styles
     # paradoxically, it tends to look *more* random to usually rotate through 3 versions per glyph than 4
     # then, the 4th version comes in handy to disrupt potentially repetition in a word like "EXPERIENCE"
+    
+    newline = "\n"
     
     newCalt += f"""\
 
