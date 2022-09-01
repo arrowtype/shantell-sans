@@ -24,6 +24,7 @@ from fontParts.world import *
 from random import random
 import math
 from glyphsLib import GSFont, build_masters
+import re
 
 # --------------------------------------------------------
 # START configuration
@@ -41,9 +42,6 @@ prepDir = 'sources/build-prep/ital_wght_BNCE_IRGL_TRAK--prepped'
 
 # designspaces copied into prepped folder
 designspaces = ["sources/shantell_sans-ital_wght_BNCE_IRGL_TRAK.designspace", "sources/shantell_sans-ital_wght_BNCE_IRGL_TRAK--static.designspace"]
-
-# features folder copied into prepped folder
-featuresDir = "sources/features/features"
 
 # NOTE: if you really want *all* characters to have alts, use this instead. But it makes the font filesize quite a bit bigger. (Would need updating to include Cyrillics)       
 # altsToMake = "AÀÁÂÃÄÅĀĂĄǍBCÇĆČDĎEÈÉÊËĒĔĘĚFGĞHIÌÍÎÏĪĬĮİJKLMNÑŃŇOÒÓÔÕÖŌŎŐPQRŔŘSŚŞŠTŤUÙÚÛÜŪŬŮŰŲǓVWXYÝŸZŹŻŽÆØǾĲŁŒΩaàáâãäåāăąǎbcçćčdďeèéêëēĕęěfgğhiìíîïīĭįjklmnñńňoòóôõöōŏőpqrŕřsśşštťuùúûüūŭůűųǔvwxyýÿzźżžßæÞðþẞ"
@@ -743,21 +741,32 @@ def extendKerning(fonts):
         font.save()
 
 
-def generateCalt(glyphNames):
+def generateCaltIntoFea(mainFont, glyphNames):
     """
         Generate OpenType calt code
     """
 
     glyphNames = sorted(glyphNames)
 
+    # get feature code text from the  main UFO, passed in
+    feaCode = mainFont.features.text
+
+    # use regex to find whatever the existing calt code is, from the GlyphsApp source
+    existingCaltFea = re.search(r"feature calt {(.+)} calt;", feaCode, re.DOTALL)
+    existingCaltFeaFull = existingCaltFea.group()
+    existingCaltFeaInside = existingCaltFea.group(1)
+
     newline = "\n"
+
+    newCalt = "feature calt {"
+
+    newCalt += existingCaltFeaInside
 
     # avoids setting biggest transformations at the start of words in Irregular/Flux styles
     # paradoxically, it tends to look *more* random to usually rotate through 3 versions per glyph than 4
     # then, the 4th version comes in handy to disrupt potentially repetition in a word like "EXPERIENCE"
     
-    calt = f"""\
-feature calt {{
+    newCalt += f"""\
 
     @uppercaseMid = [{" ".join(name + '     ' for name in uppercase)}];
     @uppercaseLow = [{" ".join(name + '.alt1' for name in uppercase)}];
@@ -794,26 +803,22 @@ feature calt {{
     
     # prevent alt1 (low) from appearing three after alt1 lowercase
     {f"{newline}    ".join([f"sub {c}.alt1 @lowercaseHigh @lowercaseMid {c}.alt1' by {c}.alt3;" for c in lowercase])}
-
-}} calt;
     """
 
-    with open(f"{prepDir}/cycle-calt.fea", "w") as file:
-        file.write(calt)
+    newCalt += "} calt;"
+
+    newFeaCode = feaCode.replace(existingCaltFeaFull, newCalt)
+
+    return newFeaCode
 
 
-
-
-def addFeaCode(fonts, feaPath):
+def addFeaCode(fonts, newFeatures):
     """
-        Add feature code to generated UFOs
+        Add updated, extended feature code to generated UFOs
     """
-
-    with open(feaPath) as features:
-        feaCode = features.read()
 
     for font in fonts:
-        font.features.text = feaCode
+        font.features.text = newFeatures
         font.save()
 
 # ------------------------------------------
@@ -984,17 +989,17 @@ def main():
     extendKerning(fonts)
 
     print("🤖 Generating calt feature")
-    generateCalt(altsMadeForList)
+    # the Light source contains features from the GlyphsApp source
+    mainFont = [font for font in fonts if "shantell--light.ufo" in font.path][0]
+    # let’s add newly-generated calt code to it!
+    newFeatures = generateCaltIntoFea(mainFont,altsMadeForList)
 
     print("🤖 Updating feature code")
-    addFeaCode(fonts, "sources/features/features.fea")
+    addFeaCode(fonts, newFeatures)
 
     print("🤖 Copying Designspace file")
     for ds in designspaces:
         shutil.copyfile(ds, prepDir+'/'+os.path.split(ds)[1])
-
-    print("🤖 Copying Features folder")
-    shutil.copytree(featuresDir, prepDir + '/' + os.path.split(featuresDir)[1])
 
     print("🤖 Sorting fonts")
     sortGlyphOrder(fonts)
