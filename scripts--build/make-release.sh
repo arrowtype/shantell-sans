@@ -8,7 +8,7 @@ releaseDir="fonts/Shantell Sans $version"
 cp -r "$fontDir" "$releaseDir"
 
 cp "scripts--build/release-data/ABOUT" "$releaseDir/1 - About"
-cp "LICENSE.txt" "$releaseDir/2 - License"
+cp "OFL.txt" "$releaseDir/2 - License"
 
 function zipit {
   currentDir=$(pwd)                             # get current dir so you can return later
