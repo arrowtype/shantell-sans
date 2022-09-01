@@ -52,4 +52,3 @@ $(PREPDIR): $(GLYPHSPKG)
 .PHONY: clean
 clean:
 	rm -rf $(PREPDIR)
-	rm -rf $(UFOPREPDIR)

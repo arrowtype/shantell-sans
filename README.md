@@ -2,7 +2,7 @@
 
 A custom font based on the handwriting of the artist [Shantell Martin](https://shantellmartin.art/).
 
-Rather than trying to exactly mimim or “replace” Shantell’s writing, Shantell Sans takes inspiration from marker-based fonts like Comic Sans & Inkwell Sans. It aims to create an authetically typographic system with a single core shape per character in order to deliver a simple, inviting, and energetic tone while encouraging freedom and play.
+Rather than trying to exactly mimick or “replace” Shantell’s writing, Shantell Sans takes inspiration from marker-based fonts like Comic Sans & Inkwell Sans. It aims to create an authetically typographic system with a single core shape per character, in order to deliver a simple, inviting, and energetic tone while encouraging freedom and play.
 
 ![Font styles in Shantell Sans](specimens/shantell-sans-styles.png)
 
@@ -17,8 +17,10 @@ Shantell’s writing is dynamic and doesn’t adhere to a rigid baseline or prec
 Axis | Tag | Range | Default | Description
 :-- | :-- | --: | --: | :--
 Weight | `wght` | 300–800 | 300 | Light to ExtraBold. Can be defined with the `font-weight` CSS property.
-Irregularity | `IRGL` | 0–1 | 0 | Emulates the irregular sizing of handwriting.
+Italic | `ital` | 0–1 | 0 | Upright to Italic. Can be defined with the `font-style` CSS property.
 Bounce | `BNCE` | -100–100 | 0 | Emulates the bouncy baseline of handwriting, but extends this for extra fun.
+Irregularity | `IRGL` | 0–1 | 0 | Emulates the irregular shaping and proportions of handwriting.
+Tracking | `TRAK` | 0–500 | 0 | Adds extra spacing to the left and right of each glyph.
 
 ### Character set
 
@@ -32,13 +34,14 @@ A À Á Â Ã Ä Å Ā Ă Ą Ǎ Ǻ Ȁ Ȃ Ạ Ả Ấ Ầ Ẩ Ẫ Ậ Ắ Ằ Ẳ
 
 Feature | Tag | Description
 :-- | :-- | :--
-Contexual Alternates | `calt` | On by default; adds randomization to Irregular & Bouncy styles
+Contexual Alternates | `calt` | On by default; activates a ligature for `її`, used in Ukrainian
 Case-sensitive punctuation | `case` | Makes punctuation fit cap-height for uppercase typesetting
 Arbitrary Fractions | `frac` | Makes proper fractions from strings like 1/2
 Tabular Figures | `tnum` | Numbers & currencies are monospaced across styles by default to improve table layout, but this makes certain punctuation become tabular as well
 Proportional Figures | `pnum` | Makes numbers take up a natural amount of space
 Localized Forms | `locl` | Supports special character-design requirements for various languages (TRK, CAT, ROM, MOL, NLD, BGR, SRB, MKD, UKR, and more)
 Standard Ligatures | `liga` | Converts 3+ repeated hyphens into wavy lines, just for fun
+Required Ligatures | `rlig` | On by default; adds pseudo-random pattern to alternates in Irregular & Bouncy styles
 
 ## Build
 
@@ -100,6 +103,7 @@ If you want, you can also build the static fonts. Be aware: there are a lot of s
 make statics
 ```
 
+If you want to build everything all at once, you can use `make full`. If you just want to run the build prep pipeline, you can use `make prep`.
 
 
 ## Release
