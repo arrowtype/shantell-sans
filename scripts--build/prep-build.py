@@ -741,12 +741,34 @@ def extendKerning(fonts):
         font.save()
 
 
-def generateCaltIntoFea(mainFont, glyphNames):
+def addToGdef(font, feaCode, altsMadeForList):
     """
-        Generate OpenType calt code
+        All generated alts to GDEF "bases" category.
     """
 
-    glyphNames = sorted(glyphNames)
+    # use regex to find whatever the existing calt code is, from the GlyphsApp source
+    existingGdef = re.search(r"table GDEF {(.+)} GDEF;", feaCode, re.DOTALL)
+    existingGdefFull = existingGdef.group()
+    basesListInside = re.search(r"\[(.+)\],", existingGdefFull).group(1)
+
+    # find which generated alts are bases (e.g. they have at least one anchor)
+    # generatedBases = " ".join([gname for gname in altsMadeForList if len(font[gname].anchors) > 0])
+
+    generatedBases = " ".join(sorted([g.name for g in font if ".alt" in g.name and "comb" not in g.name and "cmb" not in g.name and len(g.anchors) > 0]))
+
+    newGdefFull = existingGdefFull.replace(basesListInside, f"{basesListInside} {generatedBases}")
+
+    newFeaCode = feaCode.replace(existingGdefFull, newGdefFull)
+
+    return newFeaCode
+
+
+def generateRligIntoFea(mainFont, altsMadeForList):
+    """
+        Generate OpenType rlig code to alternate through generated alternates.
+    """
+
+    altsMadeForList = sorted(altsMadeForList)
 
     # get feature code text from the  main UFO, passed in
     feaCode = mainFont.features.text
@@ -754,11 +776,12 @@ def generateCaltIntoFea(mainFont, glyphNames):
     # use regex to find whatever the existing calt code is, from the GlyphsApp source
     existingCaltFea = re.search(r"feature calt {(.+)} calt;", feaCode, re.DOTALL)
     existingCaltFeaFull = existingCaltFea.group()
-    existingCaltFeaInside = existingCaltFea.group(1)
+    # existingCaltFeaInside = existingCaltFea.group(1)
 
-    newCalt = "feature calt {"
-
-    newCalt += existingCaltFeaInside
+    # set this up so you can add feature below it
+    caltPlusRlig = existingCaltFeaFull
+    
+    caltPlusRlig += "\n\nfeature rlig {"
 
     # avoids setting biggest transformations at the start of words in Irregular/Flux styles
     # paradoxically, it tends to look *more* random to usually rotate through 3 versions per glyph than 4
@@ -766,7 +789,7 @@ def generateCaltIntoFea(mainFont, glyphNames):
     
     newline = "\n"
     
-    newCalt += f"""\
+    caltPlusRlig += f"""\
 
     @uppercaseMid = [{" ".join(name + '     ' for name in uppercase)}];
     @uppercaseLow = [{" ".join(name + '.alt1' for name in uppercase)}];
@@ -776,9 +799,9 @@ def generateCaltIntoFea(mainFont, glyphNames):
     @lowercaseLow = [{" ".join(name + '.alt1' for name in lowercase)}];
     @lowercaseHigh = [{" ".join(name + '.alt2' for name in lowercase)}];
 
-    @mid = [{" ".join(name + '     ' for name in glyphNames)}];
-    @low = [{" ".join(name + '.alt1' for name in glyphNames)}];
-    @high = [{" ".join(name + '.alt2' for name in glyphNames)}];
+    @mid = [{" ".join(name + '     ' for name in altsMadeForList)}];
+    @low = [{" ".join(name + '.alt1' for name in altsMadeForList)}];
+    @high = [{" ".join(name + '.alt2' for name in altsMadeForList)}];
 
     sub @mid by @high;
     sub @high @high' by @mid;
@@ -805,11 +828,13 @@ def generateCaltIntoFea(mainFont, glyphNames):
     {f"{newline}    ".join([f"sub {c}.alt1 @lowercaseHigh @lowercaseMid {c}.alt1' by {c}.alt3;" for c in lowercase])}
     """
 
-    newCalt += "} calt;"
+    caltPlusRlig += "} rlig;"
 
-    newFeaCode = feaCode.replace(existingCaltFeaFull, newCalt)
+    newFeaCode = feaCode.replace(existingCaltFeaFull, caltPlusRlig)
 
-    return newFeaCode
+    newerFeaCode = addToGdef(mainFont, newFeaCode, altsMadeForList)
+
+    return newerFeaCode
 
 
 def addFeaCode(fonts, newFeatures):
@@ -966,9 +991,6 @@ def main():
 
     # interpolate alts in irregular fonts
     print("🤖 Interpolating organic alts")
-
-    # Dumb setup. Will it work?
-    # TODO: interpolate alts in italics
     interpolateAlts([f for f in fonts if "shantell--light.ufo" in f.path][0], [f for f in fonts if "organic--light.ufo" in f.path][0], altsMadeForList)
     interpolateAlts([f for f in fonts if "shantell--extrabold.ufo" in f.path][0], [f for f in fonts if "organic--extrabold.ufo" in f.path][0], altsMadeForList)
     interpolateAlts([f for f in fonts if "shantell--light_italic.ufo" in f.path][0], [f for f in fonts if "organic--light_italic.ufo" in f.path][0], altsMadeForList)
@@ -992,7 +1014,7 @@ def main():
     # the Light source contains features from the GlyphsApp source
     mainFont = [font for font in fonts if "shantell--light.ufo" in font.path][0]
     # let’s add newly-generated calt code to it!
-    newFeatures = generateCaltIntoFea(mainFont,altsMadeForList)
+    newFeatures = generateRligIntoFea(mainFont,altsMadeForList)
 
     print("🤖 Updating feature code")
     addFeaCode(fonts, newFeatures)
