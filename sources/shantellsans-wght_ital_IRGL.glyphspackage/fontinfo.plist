@@ -1604,6 +1604,22 @@ value = 5;
 {
 name = "Master Icon Glyph Name";
 value = n;
+},
+{
+name = strikeoutPosition;
+value = 260;
+},
+{
+name = strikeoutSize;
+value = 60;
+},
+{
+name = underlineThickness;
+value = 60;
+},
+{
+name = underlinePosition;
+value = -105;
 }
 );
 guides = (
@@ -7556,6 +7572,22 @@ value = n;
 {
 name = "Master Name";
 value = ExtraBold;
+},
+{
+name = strikeoutPosition;
+value = 310;
+},
+{
+name = strikeoutSize;
+value = 100;
+},
+{
+name = underlineThickness;
+value = 125;
+},
+{
+name = underlinePosition;
+value = -125;
 }
 );
 guides = (
@@ -12433,6 +12465,22 @@ value = n;
 {
 name = "Master Name";
 value = "Irregular Light";
+},
+{
+name = strikeoutPosition;
+value = 260;
+},
+{
+name = strikeoutSize;
+value = 60;
+},
+{
+name = underlineThickness;
+value = 60;
+},
+{
+name = underlinePosition;
+value = -105;
 }
 );
 guides = (
@@ -14321,6 +14369,22 @@ value = n;
 {
 name = "Master Name";
 value = "Irregular ExtraBold";
+},
+{
+name = strikeoutPosition;
+value = 310;
+},
+{
+name = strikeoutSize;
+value = 100;
+},
+{
+name = underlineThickness;
+value = 125;
+},
+{
+name = underlinePosition;
+value = -125;
 }
 );
 guides = (
@@ -16177,6 +16241,22 @@ value = 5;
 {
 name = "Master Icon Glyph Name";
 value = i;
+},
+{
+name = strikeoutPosition;
+value = 260;
+},
+{
+name = strikeoutSize;
+value = 60;
+},
+{
+name = underlineThickness;
+value = 60;
+},
+{
+name = underlinePosition;
+value = -105;
 }
 );
 guides = (
@@ -17380,6 +17460,22 @@ value = i;
 {
 name = "Master Name";
 value = "ExtraBold Italic";
+},
+{
+name = strikeoutPosition;
+value = 310;
+},
+{
+name = strikeoutSize;
+value = 100;
+},
+{
+name = underlineThickness;
+value = 125;
+},
+{
+name = underlinePosition;
+value = -125;
 }
 );
 guides = (
@@ -18536,6 +18632,22 @@ value = i;
 {
 name = "Master Name";
 value = "Irregular Light Italic";
+},
+{
+name = strikeoutPosition;
+value = 260;
+},
+{
+name = strikeoutSize;
+value = 60;
+},
+{
+name = underlineThickness;
+value = 60;
+},
+{
+name = underlinePosition;
+value = -105;
 }
 );
 id = "0998268F-450B-429A-9175-FFA5E463F4E3";
@@ -19691,6 +19803,22 @@ value = i;
 {
 name = "Master Name";
 value = "Irregular ExtraBold Italic";
+},
+{
+name = strikeoutPosition;
+value = 310;
+},
+{
+name = strikeoutSize;
+value = 100;
+},
+{
+name = underlineThickness;
+value = 125;
+},
+{
+name = underlinePosition;
+value = -125;
 }
 );
 guides = (
