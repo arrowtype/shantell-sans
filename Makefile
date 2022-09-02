@@ -13,9 +13,6 @@ STATICS = fonts/Shantell\ Sans/Desktop/Static
 .PHONY: all
 all: $(VF)
 
-.PHONY: glyphs
-glyphs: $(GLYPHS)
-
 # if you really want all the fonts (variable and static), run 'make full'
 .PHONY: full
 full: $(VF) $(STATICS)
@@ -32,9 +29,14 @@ statics: $(STATICS)
 .PHONY: prep
 prep: $(UFOPREPDIR)
 
+# just change to a glyphs file
+.PHONY: glyphs
+glyphs: $(GLYPHS)
+
 
 $(STATICS): $(UFOPREPDIR)
 	scripts--build/build-static.sh
+	scripts--build/make-release.sh
 
 $(VF): $(UFOPREPDIR)
 	scripts--build/build-vf.sh
@@ -52,3 +54,4 @@ $(PREPDIR): $(GLYPHSPKG)
 .PHONY: clean
 clean:
 	rm -rf $(PREPDIR)
+	rm -rf fonts/Shantell\ Sans
