@@ -41,7 +41,7 @@ ufosDir = 'sources/build-prep/ital_wght_IRGL--UFOs'
 prepDir = 'sources/build-prep/ital_wght_BNCE_IRGL_TRAK--prepped'
 
 # designspaces copied into prepped folder
-designspaces = ["sources/shantell_sans-ital_wght_BNCE_IRGL_TRAK.designspace", "sources/shantell_sans-ital_wght_BNCE_IRGL_TRAK--static.designspace"]
+designspaces = ["sources/shantell_sans-ital_wght_BNCE_IRGL_TRAK-simplified.designspace", "sources/shantell_sans-ital_wght_BNCE_IRGL_TRAK--static-simplified.designspace"]
 
 # NOTE: if you really want *all* characters to have alts, use this instead. But it makes the font filesize quite a bit bigger. (Would need updating to include Cyrillics)       
 # altsToMake = "AÀÁÂÃÄÅĀĂĄǍBCÇĆČDĎEÈÉÊËĒĔĘĚFGĞHIÌÍÎÏĪĬĮİJKLMNÑŃŇOÒÓÔÕÖŌŎŐPQRŔŘSŚŞŠTŤUÙÚÛÜŪŬŮŰŲǓVWXYÝŸZŹŻŽÆØǾĲŁŒΩaàáâãäåāăąǎbcçćčdďeèéêëēĕęěfgğhiìíîïīĭįjklmnñńňoòóôõöōŏőpqrŕřsśşštťuùúûüūŭůűųǔvwxyýÿzźżžßæÞðþẞ"

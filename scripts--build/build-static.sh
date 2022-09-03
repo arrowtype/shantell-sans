@@ -2,22 +2,14 @@
 
 set -e
 
-DS="sources/build-prep/ital_wght_BNCE_IRGL_TRAK--prepped/shantell_sans-ital_wght_BNCE_IRGL_TRAK--static.designspace"
+DS="sources/build-prep/ital_wght_BNCE_IRGL_TRAK--prepped/shantell_sans-ital_wght_BNCE_IRGL_TRAK--static-simplified.designspace"
 outputDir="fonts/Shantell Sans/Desktop"
 staticDir="$outputDir/Static"
 webDir="fonts/Shantell Sans/Web"
 
 mkdir -p "$outputDir"
-
-
-# # -----------------------------------------------------------------------------------
-# # update feature code to point to correct feature file paths
-
-# parentDir=$(dirname "$DS")
-# for ufo in $parentDir/*.ufo; do
-#     python "./scripts--build/helpers/update-feature-code-for-statics.py" "$ufo"
-# done
-
+mkdir -p $outputDir/static-TTF
+mkdir -p $outputDir/static-OTF
 
 # -----------------------------------------------------------------------------------
 # build static fonts
@@ -42,13 +34,13 @@ done
 
 
 # -----------------------------------------------------------------------------------
-# remove alts & calt code from static "normal" (non-bouncy, non-irregular) fonts
+# remove alts & feature code from static "normal" (non-bouncy, non-irregular) fonts
 
 function subsetNormal {
     normalStatic="$1"
     echo $normalStatic
-    # subset calt table out to avoid unused alts
-    pyftsubset "$normalStatic" --layout-features-="calt" --unicodes="*" --glyph-names --notdef-outline --name-IDs='*' --output-file="$normalStatic.subset"
+    # subset rlig table out to avoid unused alts
+    pyftsubset "$normalStatic" --layout-features-="rlig" --unicodes="*" --glyph-names --notdef-outline --name-IDs='*' --output-file="$normalStatic.subset"
     # move subset file back to previous name
     mv "$normalStatic.subset" "$normalStatic"
 }

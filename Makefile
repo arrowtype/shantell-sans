@@ -7,7 +7,7 @@ GLYPHS = $(PREPDIR)/shantellsans-wght_ital_IRGL.glyphs
 UFOPREPDIR = $(PREPDIR)/ital_wght_BNCE_IRGL_TRAK--prepped
 
 VF = fonts/Shantell\ Sans/Desktop/ShantellSans\[BNCE,IRGL,TRAK,ital,wght\].ttf
-STATICS = fonts/Shantell\ Sans/Desktop/Static
+STATICS = fonts/Shantell\ Sans/Desktop/Static/TTF
 
 # most of the time, it’s best to just build the variable font
 .PHONY: all
