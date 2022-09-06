@@ -163,7 +163,7 @@
     </source>
   </sources>
   <instances>
-    <instance familyname="Shantell Sans Normal" stylename="Light" name="Normal Light" filename="instances/Shantell_Sans-Normal-Light.ufo">
+    <instance familyname="Shantell Sans Normal" stylename="Light" name="Normal Light" filename="instances/Shantell_Sans-Normal-Light.ufo"  stylemapfamilyname="Shantell Sans Normal" stylemapstylename="regular">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="300"/>
@@ -174,7 +174,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Normal" stylename="Regular" name="Normal Regular" filename="instances/Shantell_Sans-Normal-Regular.ufo">
+    <instance familyname="Shantell Sans Normal" stylename="Regular" name="Normal Regular" filename="instances/Shantell_Sans-Normal-Regular.ufo"  stylemapfamilyname="Shantell Sans Normal" stylemapstylename="regular">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="400"/>
@@ -185,7 +185,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Normal" stylename="Medium" name="Normal Medium" filename="instances/Shantell_Sans-Normal-Medium.ufo">
+    <instance familyname="Shantell Sans Normal" stylename="Medium" name="Normal Medium" filename="instances/Shantell_Sans-Normal-Medium.ufo"  stylemapfamilyname="Shantell Sans Normal" stylemapstylename="regular">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="500"/>
@@ -196,7 +196,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Normal" stylename="SemiBold" name="Normal SemiBold" filename="instances/Shantell_Sans-Normal-SemiBold.ufo">
+    <instance familyname="Shantell Sans Normal" stylename="SemiBold" name="Normal SemiBold" filename="instances/Shantell_Sans-Normal-SemiBold.ufo"  stylemapfamilyname="Shantell Sans Normal" stylemapstylename="regular">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="600"/>
@@ -207,7 +207,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Normal" stylename="Bold" name="Normal Bold" filename="instances/Shantell_Sans-Normal-Bold.ufo">
+    <instance familyname="Shantell Sans Normal" stylename="Bold" name="Normal Bold" filename="instances/Shantell_Sans-Normal-Bold.ufo"  stylemapfamilyname="Shantell Sans Normal" stylemapstylename="bold">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="700"/>
@@ -218,7 +218,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Normal" stylename="ExtraBold" name="Normal ExtraBold" filename="instances/Shantell_Sans-Normal-ExtraBold.ufo">
+    <instance familyname="Shantell Sans Normal" stylename="ExtraBold" name="Normal ExtraBold" filename="instances/Shantell_Sans-Normal-ExtraBold.ufo"  stylemapfamilyname="Shantell Sans Normal" stylemapstylename="regular">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="800"/>
@@ -231,7 +231,7 @@
     </instance>
   
     <!-- Bouncy -->
-    <instance familyname="Shantell Sans Bouncy" stylename="Light" name="Bouncy Light" filename="instances/Shantell_Sans-Bouncy_Light.ufo">
+    <instance familyname="Shantell Sans Bouncy" stylename="Light" name="Bouncy Light" filename="instances/Shantell_Sans-Bouncy_Light.ufo" stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="regular">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="300"/>
@@ -241,7 +241,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Bouncy" stylename="Regular" name="Bouncy Regular" filename="instances/Shantell_Sans-Bouncy_Regular.ufo">
+    <instance familyname="Shantell Sans Bouncy" stylename="Regular" name="Bouncy Regular" filename="instances/Shantell_Sans-Bouncy_Regular.ufo" stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="regular">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="400"/>
@@ -251,7 +251,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Bouncy" stylename="Medium" name="Bouncy Medium" filename="instances/Shantell_Sans-Bouncy_Medium.ufo">
+    <instance familyname="Shantell Sans Bouncy" stylename="Medium" name="Bouncy Medium" filename="instances/Shantell_Sans-Bouncy_Medium.ufo" stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="regular">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="500"/>
@@ -261,7 +261,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Bouncy" stylename="SemiBold" name="Bouncy SemiBold" filename="instances/Shantell_Sans-Bouncy_SemiBold.ufo">
+    <instance familyname="Shantell Sans Bouncy" stylename="SemiBold" name="Bouncy SemiBold" filename="instances/Shantell_Sans-Bouncy_SemiBold.ufo" stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="regular">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="600"/>
@@ -271,7 +271,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Bouncy" stylename="Bold" name="Bouncy Bold" filename="instances/Shantell_Sans-Bouncy_Bold.ufo">
+    <instance familyname="Shantell Sans Bouncy" stylename="Bold" name="Bouncy Bold" filename="instances/Shantell_Sans-Bouncy_Bold.ufo" stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="bold">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="700"/>
@@ -281,7 +281,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Bouncy" stylename="ExtraBold" name="Bouncy ExtraBold" filename="instances/Shantell_Sans-Bouncy_ExtraBold.ufo">
+    <instance familyname="Shantell Sans Bouncy" stylename="ExtraBold" name="Bouncy ExtraBold" filename="instances/Shantell_Sans-Bouncy_ExtraBold.ufo" stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="regular">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="800"/>
@@ -292,7 +292,7 @@
       <info/>
     </instance>
     <!-- Irregular -->
-    <instance familyname="Shantell Sans Irregular" stylename="Light" name="Irregular Light" filename="instances/Shantell_Sans-Irregular_Light.ufo">
+    <instance familyname="Shantell Sans Irregular" stylename="Light" name="Irregular Light" filename="instances/Shantell_Sans-Irregular_Light.ufo" stylemapfamilyname="Shantell Sans Irregular" stylemapstylename="regular">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="300"/>
@@ -303,7 +303,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular" stylename="Regular" name="Irregular Regular" filename="instances/Shantell_Sans-Irregular_Regular.ufo">
+    <instance familyname="Shantell Sans Irregular" stylename="Regular" name="Irregular Regular" filename="instances/Shantell_Sans-Irregular_Regular.ufo" stylemapfamilyname="Shantell Sans Irregular" stylemapstylename="regular">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="400"/>
@@ -314,7 +314,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular" stylename="Medium" name="Irregular Medium" filename="instances/Shantell_Sans-Irregular_Medium.ufo">
+    <instance familyname="Shantell Sans Irregular" stylename="Medium" name="Irregular Medium" filename="instances/Shantell_Sans-Irregular_Medium.ufo" stylemapfamilyname="Shantell Sans Irregular" stylemapstylename="regular">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="500"/>
@@ -325,7 +325,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular" stylename="SemiBold" name="Irregular SemiBold" filename="instances/Shantell_Sans-Irregular_SemiBold.ufo">
+    <instance familyname="Shantell Sans Irregular" stylename="SemiBold" name="Irregular SemiBold" filename="instances/Shantell_Sans-Irregular_SemiBold.ufo" stylemapfamilyname="Shantell Sans Irregular" stylemapstylename="regular">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="600"/>
@@ -336,7 +336,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular" stylename="Bold" name="Irregular Bold" filename="instances/Shantell_Sans-Irregular_Bold.ufo">
+    <instance familyname="Shantell Sans Irregular" stylename="Bold" name="Irregular Bold" filename="instances/Shantell_Sans-Irregular_Bold.ufo" stylemapfamilyname="Shantell Sans Irregular" stylemapstylename="bold">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="700"/>
@@ -347,7 +347,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular" stylename="ExtraBold" name="Irregular ExtraBold" filename="instances/Shantell_Sans-Irregular_ExtraBold.ufo">
+    <instance familyname="Shantell Sans Irregular" stylename="ExtraBold" name="Irregular ExtraBold" filename="instances/Shantell_Sans-Irregular_ExtraBold.ufo" stylemapfamilyname="Shantell Sans Irregular" stylemapstylename="regular">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="800"/>
@@ -359,7 +359,7 @@
       <info/>
     </instance>
     <!-- Bouncy Irregular -->
-    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Light" name="Irregular Bouncy Light" filename="instances/Shantell_Sans-Irregular_Bouncy_Light.ufo">
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Light" name="Irregular Bouncy Light" filename="instances/Shantell_Sans-Irregular_Bouncy_Light.ufo" stylemapfamilyname="Shantell Sans Irregular Bouncy" stylemapstylename="regular">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="300"/>
@@ -369,7 +369,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Regular" name="Irregular Bouncy Regular" filename="instances/Shantell_Sans-Irregular_Bouncy_Regular.ufo">
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Regular" name="Irregular Bouncy Regular" filename="instances/Shantell_Sans-Irregular_Bouncy_Regular.ufo" stylemapfamilyname="Shantell Sans Irregular Bouncy" stylemapstylename="regular">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="400"/>
@@ -379,7 +379,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Medium" name="Irregular Bouncy Medium" filename="instances/Shantell_Sans-Irregular_Bouncy_Medium.ufo">
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Medium" name="Irregular Bouncy Medium" filename="instances/Shantell_Sans-Irregular_Bouncy_Medium.ufo" stylemapfamilyname="Shantell Sans Irregular Bouncy" stylemapstylename="regular">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="500"/>
@@ -389,7 +389,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular Bouncy" stylename="SemiBold" name="Irregular Bouncy SemiBold" filename="instances/Shantell_Sans-Irregular_Bouncy_SemiBold.ufo">
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="SemiBold" name="Irregular Bouncy SemiBold" filename="instances/Shantell_Sans-Irregular_Bouncy_SemiBold.ufo" stylemapfamilyname="Shantell Sans Irregular Bouncy" stylemapstylename="regular">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="600"/>
@@ -399,7 +399,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Bold" name="Irregular Bouncy Bold" filename="instances/Shantell_Sans-Irregular_Bouncy_Bold.ufo">
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Bold" name="Irregular Bouncy Bold" filename="instances/Shantell_Sans-Irregular_Bouncy_Bold.ufo" stylemapfamilyname="Shantell Sans Irregular Bouncy" stylemapstylename="bold">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="700"/>
@@ -409,7 +409,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular Bouncy" stylename="ExtraBold" name="Irregular Bouncy ExtraBold" filename="instances/Shantell_Sans-Irregular_Bouncy_ExtraBold.ufo">
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="ExtraBold" name="Irregular Bouncy ExtraBold" filename="instances/Shantell_Sans-Irregular_Bouncy_ExtraBold.ufo" stylemapfamilyname="Shantell Sans Irregular Bouncy" stylemapstylename="regular">
       <location>
         <dimension name="Italic" xvalue="0"/>
         <dimension name="Weight" xvalue="800"/>
@@ -420,7 +420,7 @@
       <info/>
     </instance>
     <!-- Irregularish -->
-    <instance familyname="Shantell Sans Normal" stylename="Light Italic" name="Normal Light Italic" filename="instances/Shantell_Sans-Normal-Light_Italic.ufo">
+    <instance familyname="Shantell Sans Normal" stylename="Light Italic" name="Normal Light Italic" filename="instances/Shantell_Sans-Normal-Light_Italic.ufo"  stylemapfamilyname="Shantell Sans Normal" stylemapstylename="italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="300"/>
@@ -431,7 +431,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Normal" stylename="Italic" name="Normal Italic" filename="instances/Shantell_Sans-Normal-Regular_Italic.ufo">
+    <instance familyname="Shantell Sans Normal" stylename="Italic" name="Normal Italic" filename="instances/Shantell_Sans-Normal-Regular_Italic.ufo"  stylemapfamilyname="Shantell Sans Normal" stylemapstylename="italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="400"/>
@@ -442,7 +442,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Normal" stylename="Medium Italic" name="Normal Medium Italic" filename="instances/Shantell_Sans-Normal-Medium_Italic.ufo">
+    <instance familyname="Shantell Sans Normal" stylename="Medium Italic" name="Normal Medium Italic" filename="instances/Shantell_Sans-Normal-Medium_Italic.ufo"  stylemapfamilyname="Shantell Sans Normal" stylemapstylename="italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="500"/>
@@ -453,7 +453,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Normal" stylename="SemiBold Italic" name="Normal SemiBold Italic" filename="instances/Shantell_Sans-Normal-SemiBold_Italic.ufo">
+    <instance familyname="Shantell Sans Normal" stylename="SemiBold Italic" name="Normal SemiBold Italic" filename="instances/Shantell_Sans-Normal-SemiBold_Italic.ufo"  stylemapfamilyname="Shantell Sans Normal" stylemapstylename="italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="600"/>
@@ -464,7 +464,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Normal" stylename="Bold Italic" name="Normal Bold Italic" filename="instances/Shantell_Sans-Normal-Bold_Italic.ufo">
+    <instance familyname="Shantell Sans Normal" stylename="Bold Italic" name="Normal Bold Italic" filename="instances/Shantell_Sans-Normal-Bold_Italic.ufo"  stylemapfamilyname="Shantell Sans Normal" stylemapstylename="bold italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="700"/>
@@ -475,7 +475,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Normal" stylename="ExtraBold Italic" name="Normal ExtraBold Italic" filename="instances/Shantell_Sans-Normal-ExtraBold_Italic.ufo">
+    <instance familyname="Shantell Sans Normal" stylename="ExtraBold Italic" name="Normal ExtraBold Italic" filename="instances/Shantell_Sans-Normal-ExtraBold_Italic.ufo"  stylemapfamilyname="Shantell Sans Normal" stylemapstylename="italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="800"/>
@@ -488,7 +488,7 @@
     </instance>
   
     <!-- Bouncy -->
-    <instance familyname="Shantell Sans Bouncy" stylename="Light Italic" name="Bouncy Light Italic" filename="instances/Shantell_Sans-Bouncy_Light_Italic.ufo">
+    <instance familyname="Shantell Sans Bouncy" stylename="Light Italic" name="Bouncy Light Italic" filename="instances/Shantell_Sans-Bouncy_Light_Italic.ufo" stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="300"/>
@@ -498,7 +498,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Bouncy" stylename="Italic" name="Bouncy Italic" filename="instances/Shantell_Sans-Bouncy_Regular_Italic.ufo">
+    <instance familyname="Shantell Sans Bouncy" stylename="Italic" name="Bouncy Italic" filename="instances/Shantell_Sans-Bouncy_Regular_Italic.ufo" stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="400"/>
@@ -508,7 +508,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Bouncy" stylename="Medium Italic" name="Bouncy Medium Italic" filename="instances/Shantell_Sans-Bouncy_Medium_Italic.ufo">
+    <instance familyname="Shantell Sans Bouncy" stylename="Medium Italic" name="Bouncy Medium Italic" filename="instances/Shantell_Sans-Bouncy_Medium_Italic.ufo" stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="500"/>
@@ -518,7 +518,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Bouncy" stylename="SemiBold Italic" name="Bouncy SemiBold Italic" filename="instances/Shantell_Sans-Bouncy_SemiBold_Italic.ufo">
+    <instance familyname="Shantell Sans Bouncy" stylename="SemiBold Italic" name="Bouncy SemiBold Italic" filename="instances/Shantell_Sans-Bouncy_SemiBold_Italic.ufo" stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="600"/>
@@ -528,7 +528,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Bouncy" stylename="Bold Italic" name="Bouncy Bold Italic" filename="instances/Shantell_Sans-Bouncy_Bold_Italic.ufo">
+    <instance familyname="Shantell Sans Bouncy" stylename="Bold Italic" name="Bouncy Bold Italic" filename="instances/Shantell_Sans-Bouncy_Bold_Italic.ufo" stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="bold italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="700"/>
@@ -538,7 +538,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Bouncy" stylename="ExtraBold Italic" name="Bouncy ExtraBold Italic" filename="instances/Shantell_Sans-Bouncy_ExtraBold_Italic.ufo">
+    <instance familyname="Shantell Sans Bouncy" stylename="ExtraBold Italic" name="Bouncy ExtraBold Italic" filename="instances/Shantell_Sans-Bouncy_ExtraBold_Italic.ufo" stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="800"/>
@@ -549,7 +549,7 @@
       <info/>
     </instance>
     <!-- Irregular -->
-    <instance familyname="Shantell Sans Irregular" stylename="Light Italic" name="Irregular Light Italic" filename="instances/Shantell_Sans-Irregular_Light_Italic.ufo">
+    <instance familyname="Shantell Sans Irregular" stylename="Light Italic" name="Irregular Light Italic" filename="instances/Shantell_Sans-Irregular_Light_Italic.ufo" stylemapfamilyname="Shantell Sans Irregular" stylemapstylename="italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="300"/>
@@ -560,7 +560,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular" stylename="Italic" name="Irregular Italic" filename="instances/Shantell_Sans-Irregular_Regular_Italic.ufo">
+    <instance familyname="Shantell Sans Irregular" stylename="Italic" name="Irregular Italic" filename="instances/Shantell_Sans-Irregular_Regular_Italic.ufo" stylemapfamilyname="Shantell Sans Irregular" stylemapstylename="italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="400"/>
@@ -571,7 +571,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular" stylename="Medium Italic" name="Irregular Medium Italic" filename="instances/Shantell_Sans-Irregular_Medium_Italic.ufo">
+    <instance familyname="Shantell Sans Irregular" stylename="Medium Italic" name="Irregular Medium Italic" filename="instances/Shantell_Sans-Irregular_Medium_Italic.ufo" stylemapfamilyname="Shantell Sans Irregular" stylemapstylename="italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="500"/>
@@ -582,7 +582,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular" stylename="SemiBold Italic" name="Irregular SemiBold Italic" filename="instances/Shantell_Sans-Irregular_SemiBold_Italic.ufo">
+    <instance familyname="Shantell Sans Irregular" stylename="SemiBold Italic" name="Irregular SemiBold Italic" filename="instances/Shantell_Sans-Irregular_SemiBold_Italic.ufo" stylemapfamilyname="Shantell Sans Irregular" stylemapstylename="italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="600"/>
@@ -593,7 +593,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular" stylename="Bold Italic" name="Irregular Bold Italic" filename="instances/Shantell_Sans-Irregular_Bold_Italic.ufo">
+    <instance familyname="Shantell Sans Irregular" stylename="Bold Italic" name="Irregular Bold Italic" filename="instances/Shantell_Sans-Irregular_Bold_Italic.ufo" stylemapfamilyname="Shantell Sans Irregular" stylemapstylename="bold italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="700"/>
@@ -604,7 +604,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular" stylename="ExtraBold Italic" name="Irregular ExtraBold Italic" filename="instances/Shantell_Sans-Irregular_ExtraBold_Italic.ufo">
+    <instance familyname="Shantell Sans Irregular" stylename="ExtraBold Italic" name="Irregular ExtraBold Italic" filename="instances/Shantell_Sans-Irregular_ExtraBold_Italic.ufo" stylemapfamilyname="Shantell Sans Irregular" stylemapstylename="italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="800"/>
@@ -617,7 +617,7 @@
     </instance>
     <!-- Bouncy Irregular -->
     <!-- Bouncy Irregular -->
-    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Light Italic" name="Irregular Bouncy Light Italic" filename="instances/Shantell_Sans-Irregular_Bouncy_Light_Italic.ufo">
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Light Italic" name="Irregular Bouncy Light Italic" filename="instances/Shantell_Sans-Irregular_Bouncy_Light_Italic.ufo" stylemapfamilyname="Shantell Sans Irregular Bouncy" stylemapstylename="italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="300"/>
@@ -627,7 +627,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Italic" name="Irregular Bouncy Italic" filename="instances/Shantell_Sans-Irregular_Bouncy_Regular_Italic.ufo">
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Italic" name="Irregular Bouncy Italic" filename="instances/Shantell_Sans-Irregular_Bouncy_Regular_Italic.ufo" stylemapfamilyname="Shantell Sans Irregular Bouncy" stylemapstylename="italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="400"/>
@@ -637,7 +637,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Medium Italic" name="Irregular Bouncy Medium Italic" filename="instances/Shantell_Sans-Irregular_Bouncy_Medium_Italic.ufo">
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Medium Italic" name="Irregular Bouncy Medium Italic" filename="instances/Shantell_Sans-Irregular_Bouncy_Medium_Italic.ufo" stylemapfamilyname="Shantell Sans Irregular Bouncy" stylemapstylename="italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="500"/>
@@ -647,7 +647,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular Bouncy" stylename="SemiBold Italic" name="Irregular Bouncy SemiBold Italic" filename="instances/Shantell_Sans-Irregular_Bouncy_SemiBold_Italic.ufo">
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="SemiBold Italic" name="Irregular Bouncy SemiBold Italic" filename="instances/Shantell_Sans-Irregular_Bouncy_SemiBold_Italic.ufo" stylemapfamilyname="Shantell Sans Irregular Bouncy" stylemapstylename="italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="600"/>
@@ -657,7 +657,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Bold Italic" name="Irregular Bouncy Bold Italic" filename="instances/Shantell_Sans-Irregular_Bouncy_Bold_Italic.ufo">
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="Bold Italic" name="Irregular Bouncy Bold Italic" filename="instances/Shantell_Sans-Irregular_Bouncy_Bold_Italic.ufo" stylemapfamilyname="Shantell Sans Irregular Bouncy" stylemapstylename="bold italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="700"/>
@@ -667,7 +667,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance familyname="Shantell Sans Irregular Bouncy" stylename="ExtraBold Italic" name="Irregular Bouncy ExtraBold Italic" filename="instances/Shantell_Sans-Irregular_Bouncy_ExtraBold_Italic.ufo">
+    <instance familyname="Shantell Sans Irregular Bouncy" stylename="ExtraBold Italic" name="Irregular Bouncy ExtraBold Italic" filename="instances/Shantell_Sans-Irregular_Bouncy_ExtraBold_Italic.ufo" stylemapfamilyname="Shantell Sans Irregular Bouncy" stylemapstylename="italic">
       <location>
         <dimension name="Italic" xvalue="1"/>
         <dimension name="Weight" xvalue="800"/>
