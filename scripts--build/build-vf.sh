@@ -12,14 +12,6 @@ mkdir -p "$outputDir"
 
 vfPath="$outputDir/$vfName"
 
-# # update feature code to point to correct feature file paths
-# parentDir=$(dirname "$DS")
-# for ufo in $parentDir/*.ufo; do
-#     pwd
-#     python "./scripts--build/helpers/update-feature-code-for-vf.py" "$ufo"    
-# done
-
-
 fontmake -o variable -m $DS --output-path "$vfPath" 
 
 # add STAT table
@@ -63,3 +55,21 @@ mkdir -p "$webDir"
 woff2_compress "$outputDir/$finalVfName"
 
 mv "$outputDir/$webVfName" "$webDir/$webVfName"
+
+
+# ----------------------------------------------------------------------------------------------
+# make google fonts fonts
+
+outputDirGF="fonts/shantell_sans-for-googlefonts"
+finalVfNameRoman="ShantellSans[BNCE,IRGL,TRAK,wght].ttf"
+finalVfNameItalic="ShantellSans-Italic[BNCE,IRGL,TRAK,wght].ttf"
+
+mkdir -p $outputDirGF
+
+# split roman/italic VFs for googlefonts
+fonttools varLib.instancer "$outputDir/$finalVfName" ital=0 --output "$outputDirGF/$finalVfNameRoman"
+fonttools varLib.instancer "$outputDir/$finalVfName" ital=1 --output "$outputDirGF/$finalVfNameItalic"
+
+# reduce set of instances for GF standards
+gftools fix-font "$outputDirGF/$finalVfNameRoman" -o "$outputDirGF/$finalVfNameRoman" --include-source-fixes
+gftools fix-font "$outputDirGF/$finalVfNameItalic" -o "$outputDirGF/$finalVfNameItalic" --include-source-fixes

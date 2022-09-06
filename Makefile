@@ -9,15 +9,19 @@ UFOPREPDIR = $(PREPDIR)/ital_wght_BNCE_IRGL_TRAK--prepped
 VF = fonts/Shantell\ Sans/Desktop/ShantellSans\[BNCE,IRGL,TRAK,ital,wght\].ttf
 STATICS = fonts/Shantell\ Sans/Desktop/Static/TTF
 
+
+# ------------------------------------
+# phony commands
+
 # most of the time, it’s best to just build the variable font
 .PHONY: all
-all: $(VF)
+all: $(VF) $(GF)
 
 # if you really want all the fonts (variable and static), run 'make full'
 .PHONY: full
-full: $(VF) $(STATICS)
+full: $(VF) $(STATICS) $(GF)
 
-# also just builds variable font
+# just builds variable font (including special version for google fonts)
 .PHONY: vf
 vf: $(VF)
 
@@ -33,6 +37,9 @@ prep: $(UFOPREPDIR)
 .PHONY: glyphs
 glyphs: $(GLYPHS)
 
+
+# ------------------------------------
+# commands
 
 $(STATICS): $(UFOPREPDIR)
 	scripts--build/build-static.sh
