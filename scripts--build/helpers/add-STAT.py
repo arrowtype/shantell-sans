@@ -36,7 +36,7 @@ AXES = [
         ordering=2,
         values=[
             dict(nominalValue=0, rangeMinValue=0, rangeMaxValue=0, name="No Bounce", flags=0x2),
-            dict(nominalValue=50, rangeMinValue=0.00001, rangeMaxValue=62.5,  name="Bouncy"),
+            dict(nominalValue=62.5, rangeMinValue=0.00001, rangeMaxValue=62.5,  name="Bouncy"),
             dict(nominalValue=100, rangeMinValue=62.50001, rangeMaxValue=100,  name="ExtraBouncy"),
         ],
     ),
