@@ -26,7 +26,7 @@ AXES = [
         name="Italic",
         ordering=1,
         values=[
-            dict(nominalValue=0, rangeMinValue=0, rangeMaxValue=0, name="Upright", flags=0x2, linkedValue=1),
+            dict(nominalValue=0, rangeMinValue=0, rangeMaxValue=0, name="Roman", flags=0x2, linkedValue=1),
             dict(nominalValue=1, rangeMinValue=0.00001, rangeMaxValue=1,  name="Italic"),
         ],
     ),
