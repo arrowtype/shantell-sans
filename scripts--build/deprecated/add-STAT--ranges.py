@@ -1,5 +1,9 @@
 """
     Uses FontTools buildStatTable to add a defined STAT table to a variable font
+
+    Deprecated because adding ranges of values makes it impossible to also add linked values.
+
+    https://github.com/fonttools/fonttools/issues/2804
 """
 
 from fontTools.otlLib.builder import buildStatTable, _addName
@@ -13,12 +17,12 @@ AXES = [
         name="Weight",
         ordering=0,
         values=[
-            dict(value=300, name="Light"),
-            dict(value=400, name="Regular", flags=0x2, linkedValue=700),
-            dict(value=500, name="Medium"),
-            dict(value=600, name="SemiBold"),
-            dict(value=700, name="Bold"),
-            dict(value=800, name="ExtraBold"),
+            dict(nominalValue=300, rangeMinValue=300, rangeMaxValue=350, name="Light"),
+            dict(nominalValue=400, rangeMinValue=350.00001, rangeMaxValue=450, name="Regular", flags=0x2, linkedValue=700),
+            dict(nominalValue=500, rangeMinValue=450.00001, rangeMaxValue=550, name="Medium"),
+            dict(nominalValue=600, rangeMinValue=550.00001, rangeMaxValue=650, name="SemiBold"),
+            dict(nominalValue=700, rangeMinValue=650.00001, rangeMaxValue=750, name="Bold"),
+            dict(nominalValue=800, rangeMinValue=750.00001, rangeMaxValue=850, name="ExtraBold"),
         ],
     ),
     dict(
@@ -26,8 +30,8 @@ AXES = [
         name="Italic",
         ordering=1,
         values=[
-            dict(value=0, name="Roman", flags=0x2, linkedValue=1),
-            dict(value=1,  name="Italic"),
+            dict(nominalValue=0, rangeMinValue=0, rangeMaxValue=0, name="Roman", flags=0x2, linkedValue=1),
+            dict(nominalValue=1, rangeMinValue=0.00001, rangeMaxValue=1,  name="Italic"),
         ],
     ),
     dict(
