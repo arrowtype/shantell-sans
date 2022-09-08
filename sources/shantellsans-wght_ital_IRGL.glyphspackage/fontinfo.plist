@@ -17,11 +17,17 @@ tag = IRGL;
 );
 classes = (
 {
-code = "zero              one              two              three              four              five              six              seven              eight              nine              ";
+code = "zero              one              two              three              four              five              six              seven              eight              nine";
 name = numbers_dflt;
 },
 {
-code = "zero.tnum         one.tnum         two.tnum         three.tnum         four.tnum         five.tnum         six.tnum         seven.tnum         eight.tnum         nine.tnum         ";
+code = "zero              one              two              three              four              five              six              seven              eight              nine              
+zero.tnum";
+name = numbers_prop;
+},
+{
+code = "zero.tnum         one.tnum         two.tnum         three.tnum         four.tnum         five.tnum         six.tnum         seven.tnum         eight.tnum         nine.tnum         zero.tnum_zero
+";
 name = numbers_tnum;
 },
 {
@@ -1185,6 +1191,9 @@ code = "script latn;
     language CAT;
         sub l' periodcentered' l by ldot;
         sub L' periodcentered' L by Ldot;
+		sub l periodcentered' l by periodcentered.loclCAT;
+		sub L periodcentered' L by periodcentered.loclCAT_case;
+		sub L periodcentered.case' by periodcentered.loclCAT_case;
 
     language ROM exclude_dflt;
         lookup TSCedilla {
@@ -1347,16 +1356,15 @@ tag = sinf;
 code = "@punc_prop = [ period      comma      slash      colon      ];
 @punc_tnum = [ period.tnum comma.tnum slash.tnum colon.tnum ];
 
-sub @numbers_dflt by @numbers_tnum;
+sub @numbers_prop by @numbers_tnum;
 sub @punc_prop by @punc_tnum;
 ";
 tag = tnum;
 },
 {
-automatic = 1;
-code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
-sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
-sub N o period by numero;
+code = "sub [@numbers_prop @numbers_tnum] [A a]' by ordfeminine;
+sub [@numbers_prop @numbers_tnum] [O o]' by ordmasculine;
+
 ";
 tag = ordn;
 },
@@ -1586,6 +1594,12 @@ code = "sub yukrcyr yukrcyr by yukrcyr_yukrcyr;
 
 # additional calt features added in build pipeline";
 tag = calt;
+},
+{
+code = "sub zero by zero.zero;
+sub zero.tnum by zero.tnum_zero;
+";
+tag = zero;
 }
 );
 fontMaster = (
