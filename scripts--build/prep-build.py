@@ -273,9 +273,13 @@ def makeAlts(fonts, numOfAlts=2):
         E.g. Default numOfAlts=2 would result in a, a.alt1, a.alt2, b, b.alt1, b.alt2, etc
     """
 
+    # make a list of glyph names that need alts
     altsToMakeGlyphNames = [g.name for g in fonts[0] if g.unicodes and g.unicodes[0] in altsToMakeList]
 
+    # make list of characters from basic uppercase and lowercase lists, made above
+    upperLower = uppercase+lowercase
 
+    # make sure that any accented glyphs have their component bases in the generated alts
     for gname in altsToMakeGlyphNames:
         g = fonts[0][gname]
         for c in g.components:
@@ -283,6 +287,18 @@ def makeAlts(fonts, numOfAlts=2):
 
     altsToMakeGlyphNames = list(set(altsToMakeGlyphNames))
 
+    # make a list of glyph names that need an extra alt, for the second stage of the random alternate feature 
+    altsToMakeExtraGlyphNames = [gname for gname in altsToMakeGlyphNames if gname in upperLower]
+    
+    # make sure that any accented glyphs have their component bases in the generated alts
+    for gname in altsToMakeExtraGlyphNames:
+        g = fonts[0][gname]
+        for c in g.components:
+            altsToMakeExtraGlyphNames.append(c.baseGlyph)
+
+    altsToMakeExtraGlyphNames = set(altsToMakeExtraGlyphNames)
+    
+    # now go through and actually make the alts
     for font in fonts:
 
         layer = font.getLayer(font.defaultLayerName)
@@ -294,9 +310,17 @@ def makeAlts(fonts, numOfAlts=2):
                 glyph.clearImage()
                 # make alts
                 for i, alt in enumerate(range(numOfAlts)):
-                    glyphAltName = f"{glyph.name}.alt{i+1}"
-                    glyphAlt = glyph.copy()
-                    newGlyphs[glyphAltName] = layer[glyph.name]
+                    if i < numOfAlts-1:
+                        glyphAltName = f"{glyph.name}.alt{i+1}"
+                        glyphAlt = glyph.copy()
+                        newGlyphs[glyphAltName] = layer[glyph.name]
+                
+                    # make one more alt for glyphs in the basic uppercase and lowercase lists
+                    if glyph.name in altsToMakeExtraGlyphNames:
+                        glyphAltName = f"{glyph.name}.alt{i+1}"
+                        glyphAlt = glyph.copy()
+                        newGlyphs[glyphAltName] = layer[glyph.name]
+
 
         # mark new glyphs with colors
         for name,glyph in newGlyphs.items():
