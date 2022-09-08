@@ -84,8 +84,8 @@ trackedPath = "shantell_tracked--light.ufo"
 # --------------------------------------------------------
 
 # add just the basic upper & lowercase (used later in the calt code generator)
-uppercase = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z".split(" ")
-lowercase = "a b c d e f g h i j k l m n o p q r s t u v w x y z".split(" ")
+uppercase = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Egrave".split(" ")
+lowercase = "a b c d e f g h i j k l m n o p q r s t u v w x y z egrave".split(" ")
 
 # add Cyrillic basic upper & lowercase
 uppercase += "Djecyr Eukrcyr Dzecyr Iukrcyr Yukrcyr Jecyr Ljecyr Njecyr Tshecyr Dzhecyr Acyr Becyr Vecyr Gecyr Gjecyr Decyr Iecyr Iegravecyr Iocyr Zhecyr Zecyr Icyr Igravecyr Ishortcyr Imacroncyr Kacyr Kjecyr Elcyr Emcyr Encyr Ocyr Pecyr Ercyr Escyr Tecyr Ucyr Ushortcyr Umacroncyr Efcyr Hacyr Tsecyr Checyr Shacyr Shchacyr Hardcyr Ylongcyr Softcyr Ereversedcyr Yucyr Yacyr Yatcyr Fitacyr Izhitsacyr Geupcyr Gestrokecyr Zhetailcyr Katailcyr Entailcyr Ustraightcyr Ustraightstrokecyr Xatailcyr Chetailcyr Shhacyr Palochkacyr Schwacyr Obarcyr".split(" ")
