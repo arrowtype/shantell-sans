@@ -8,8 +8,8 @@ staticDir="$outputDir/Static"
 webDir="fonts/Shantell Sans/Web"
 
 mkdir -p "$outputDir"
-mkdir -p $outputDir/static-TTF
-mkdir -p $outputDir/static-OTF
+mkdir -p "$outputDir/static-TTF"
+mkdir -p "$outputDir/static-OTF"
 
 # -----------------------------------------------------------------------------------
 # build static fonts
@@ -39,8 +39,8 @@ done
 function subsetNormal {
     normalStatic="$1"
     echo $normalStatic
-    # subset rlig table out to avoid unused alts
-    pyftsubset "$normalStatic" --layout-features-="rlig" --unicodes="*" --glyph-names --notdef-outline --name-IDs='*' --output-file="$normalStatic.subset"
+    # subset rlig table out to avoid unused alts, but make sure to keep all other features
+    pyftsubset "$normalStatic" --layout-features+=aalt,calt,case,ccmp,dnom,frac,liga,locl,numr,ordn,sinf,ss01,ss02,ss03,ss04,sups,tnum,zero --layout-features-="rlig" --unicodes="*" --glyph-names --notdef-outline --name-IDs='*' --output-file="$normalStatic.subset"
     # move subset file back to previous name
     mv "$normalStatic.subset" "$normalStatic"
 }
