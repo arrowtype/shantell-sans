@@ -109,6 +109,7 @@ def convertGlyphs2UFO(glyphs_file, outputDir):
         outputDir,
         write_skipexportglyphs=True,
         minimal=True,
+        generate_GDEF=True,
     )[0]
 
     return sourceUfos
@@ -765,26 +766,24 @@ def extendKerning(fonts):
         font.save()
 
 
-def addToGdef(font, feaCode, altsMadeForList):
+def addToGdef(fonts, mainFont):
     """
         All generated alts to GDEF "bases" category.
     """
 
-    # use regex to find whatever the existing GDEF code is
-    existingGdef = re.search(r"table GDEF {(.+)} GDEF;", feaCode, re.DOTALL)
-    existingGdefFull = existingGdef.group()
-    basesListInside = re.search(r"\[(.+)\],", existingGdefFull).group(1)
+    # get dict of bases for GDEF
+    baseDict = mainFont.lib["public.openTypeCategories"]
 
-    # find which generated alts are bases (e.g. they have at least one anchor)
-    # generatedBases = " ".join([gname for gname in altsMadeForList if len(font[gname].anchors) > 0])
+    # add to it with new alts
+    newBases = sorted([g.name for g in mainFont if ".alt" in g.name and "comb" not in g.name and "cmb" not in g.name and len(g.anchors) > 0])
+    for newBaseName in newBases:
+        baseDict[newBaseName] = 'base'
 
-    generatedBases = " ".join(sorted([g.name for g in font if ".alt" in g.name and "comb" not in g.name and "cmb" not in g.name and len(g.anchors) > 0]))
+    # now, put that updated dict into each of the fonts
+    for font in fonts:
+        font.lib["public.openTypeCategories"] = baseDict
 
-    newGdefFull = existingGdefFull.replace(basesListInside, f"{basesListInside} {generatedBases}")
 
-    newFeaCode = feaCode.replace(existingGdefFull, newGdefFull)
-
-    return newFeaCode
 
 
 def generateRligIntoFea(mainFont, altsMadeForList):
@@ -794,38 +793,18 @@ def generateRligIntoFea(mainFont, altsMadeForList):
 
     altsMadeForList = sorted(altsMadeForList)
 
-    # DEBUG
-    print("altsMadeForList")
-    print(altsMadeForList)
-    print()
-
     # get feature code text from the  main UFO, passed in
     feaCode = mainFont.features.text
-
-    # DEBUG
-    print("feaCode")
-    print(feaCode)
-    print()
 
     # use regex to find whatever the existing calt code is, from the GlyphsApp source
     existingCaltFea = re.search(r"feature calt {(.+)} calt;", feaCode, re.DOTALL)
     existingCaltFeaFull = existingCaltFea.group()
     # existingCaltFeaInside = existingCaltFea.group(1)
 
-    # DEBUG
-    print("existingCaltFeaFull")
-    print(existingCaltFeaFull)
-    print()
-
     # set this up so you can add feature below it
     caltPlusRlig = existingCaltFeaFull
     
     caltPlusRlig += "\n\nfeature rlig {"
-
-    # DEBUG
-    print("existingCaltFeaFull")
-    print(caltPlusRlig)
-    print()
 
     # avoids setting biggest transformations at the start of words in Irregular/Flux styles
     # paradoxically, it tends to look *more* random to usually rotate through 3 versions per glyph than 4
@@ -875,10 +854,9 @@ def generateRligIntoFea(mainFont, altsMadeForList):
     caltPlusRlig += "} rlig;"
 
     newFeaCode = feaCode.replace(existingCaltFeaFull, caltPlusRlig)
+    
+    return newFeaCode
 
-    newerFeaCode = addToGdef(mainFont, newFeaCode, altsMadeForList)
-
-    return newerFeaCode
 
 
 def addFeaCode(fonts, newFeatures):
@@ -1062,6 +1040,9 @@ def main():
 
     print("🤖 Updating feature code")
     addFeaCode(fonts, newFeatures)
+
+    print("🤖 Updating bases list in UFOs, for GDEF")
+    addToGdef(fonts, mainFont)
 
     print("🤖 Copying Designspace file")
     for ds in designspaces:
