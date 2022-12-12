@@ -2,7 +2,7 @@
 
 set -e
 
-DS="sources/build-prep/ital_wght_BNCE_IRGL_TRAK--prepped/shantell_sans-ital_wght_BNCE_IRGL_TRAK--static-simplified.designspace"
+DS="sources/build-prep/ital_wght_BNCE_INFM_SPAC--prepped/shantell_sans-ital_wght_BNCE_INFM_SPAC--static-simplified.designspace"
 outputDir="fonts/Shantell Sans/Desktop"
 staticDir="$outputDir/Static"
 webDir="fonts/Shantell Sans/Web"
@@ -20,7 +20,7 @@ fontmake -o ttf -i -m $DS --expand-features-to-instances --output-dir "$outputDi
 # fontmake -o ttf -i -m $DS --expand-features-to-instances -i ".*Normal Regular" --output-dir "$outputDir/static-TTF" &                   # use this line for a much faster test build of only Normal Regular
 wait
 
-find "sources/build-prep/ital_wght_BNCE_IRGL_TRAK--prepped/instances" -path '*.ufo' -print0 | while read -d $'\0' file
+find "sources/build-prep/ital_wght_BNCE_INFM_SPAC--prepped/instances" -path '*.ufo' -print0 | while read -d $'\0' file
 do
     fontmake -o otf -u "$file" --optimize-cff=0 --output-dir "$outputDir/static-OTF" &
     wait

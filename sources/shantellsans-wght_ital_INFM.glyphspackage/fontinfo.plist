@@ -11,8 +11,8 @@ name = Italic;
 tag = ital;
 },
 {
-name = Irregularity;
-tag = IRGL;
+name = Informality;
+tag = INFM;
 }
 );
 classes = (
@@ -12452,7 +12452,7 @@ value = "shantell_organic--light.ufo";
 },
 {
 name = "Master Name";
-value = "Irregular Light";
+value = "Informal Light";
 },
 {
 name = hheaAscender;
@@ -12492,7 +12492,7 @@ value = "@";
 },
 {
 name = styleMapFamilyName;
-value = "Shantell Sans Irregular Light";
+value = "Shantell Sans Informal Light";
 },
 {
 name = styleMapStyleName;
@@ -12509,10 +12509,6 @@ value = 5;
 {
 name = "Master Icon Glyph Name";
 value = n;
-},
-{
-name = "Master Name";
-value = "Irregular Light";
 },
 {
 name = strikeoutPosition;
@@ -12569,7 +12565,7 @@ pos = -250;
 {
 }
 );
-name = "Irregular Light";
+name = "Informal Light";
 userData = {
 KernOnIndependentPairs = (
 "f f",
@@ -14360,7 +14356,7 @@ value = "shantell_organic--extrabold.ufo";
 },
 {
 name = "Master Name";
-value = "Irregular ExtraBold";
+value = "Informal ExtraBold";
 },
 {
 name = hheaAscender;
@@ -14380,7 +14376,7 @@ value = "Shantell Sans";
 },
 {
 name = preferredSubfamilyName;
-value = "Irregular ExtraBold";
+value = "Informal ExtraBold";
 },
 {
 name = typoAscender;
@@ -14413,10 +14409,6 @@ value = 5;
 {
 name = "Master Icon Glyph Name";
 value = n;
-},
-{
-name = "Master Name";
-value = "Irregular ExtraBold";
 },
 {
 name = strikeoutPosition;
@@ -14477,7 +14469,7 @@ pos = -250;
 {
 }
 );
-name = "Irregular ExtraBold";
+name = "Informal ExtraBold";
 userData = {
 KernOnIndependentPairs = (
 "d n",
@@ -18616,7 +18608,7 @@ value = "shantell_organic--light_italic.ufo";
 },
 {
 name = "Master Name";
-value = "Irregular Light Italic";
+value = "Informal Light Italic";
 },
 {
 name = hheaAscender;
@@ -18652,7 +18644,7 @@ value = 0;
 },
 {
 name = postscriptFontName;
-value = "ShantellSans-IrregLightItalic";
+value = "ShantellSans-InfmLightItalic";
 },
 {
 name = vendorID;
@@ -18660,7 +18652,7 @@ value = "@";
 },
 {
 name = styleMapFamilyName;
-value = "Shantell Sans Irreg Light Italic";
+value = "Shantell Sans Infm Light Italic";
 },
 {
 name = styleMapStyleName;
@@ -18677,10 +18669,6 @@ value = 5;
 {
 name = "Master Icon Glyph Name";
 value = i;
-},
-{
-name = "Master Name";
-value = "Irregular Light Italic";
 },
 {
 name = strikeoutPosition;
@@ -18724,7 +18712,7 @@ pos = -250;
 pos = 11.31;
 }
 );
-name = "Irregular Light Italic";
+name = "Informal Light Italic";
 userData = {
 KernOnIndependentPairs = (
 "f f",
@@ -19783,7 +19771,7 @@ value = "shantell_organic--extrabold_italic.ufo";
 },
 {
 name = "Master Name";
-value = "Irregular ExtraBold Italic";
+value = "Informal ExtraBold Italic";
 },
 {
 name = hheaAscender;
@@ -19819,7 +19807,7 @@ value = 0;
 },
 {
 name = postscriptFontName;
-value = "ShantellSans-IrregXBoldItalic";
+value = "ShantellSans-InfmXBoldItalic";
 },
 {
 name = vendorID;
@@ -19831,7 +19819,7 @@ value = Normal;
 },
 {
 name = styleMapFamilyName;
-value = "Shantell Sans Ir ExBold Italic";
+value = "Shantell Sans Infm ExBold Italic";
 },
 {
 name = styleMapStyleName;
@@ -19848,10 +19836,6 @@ value = 5;
 {
 name = "Master Icon Glyph Name";
 value = i;
-},
-{
-name = "Master Name";
-value = "Irregular ExtraBold Italic";
 },
 {
 name = strikeoutPosition;
@@ -19917,7 +19901,7 @@ pos = -250;
 pos = 11.31;
 }
 );
-name = "Irregular ExtraBold Italic";
+name = "Informal ExtraBold Italic";
 userData = {
 KernOnIndependentPairs = (
 "O O",

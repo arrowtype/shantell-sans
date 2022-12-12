@@ -7,7 +7,7 @@
 import os
 from fontParts.fontshell import RFont as Font
 
-prepDir = 'sources/ital_wght_BNCE_IRGL_TRAK--prepped'
+prepDir = 'sources/ital_wght_BNCE_INFM_SPAC--prepped'
 
 def setLibKeys(font):
     """
