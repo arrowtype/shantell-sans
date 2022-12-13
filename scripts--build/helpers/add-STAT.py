@@ -55,7 +55,7 @@ AXES = [
         ordering=4,
         values=[
             dict(value=0, name="Default", flags=0x2),
-            dict(value=500, name="Max Spacing"),
+            dict(value=100, name="Max Spacing"),
         ],
     ),
 ]
