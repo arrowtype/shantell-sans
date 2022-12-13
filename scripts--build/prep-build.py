@@ -30,18 +30,18 @@ import re
 # START configuration
 
 # the single source of truth
-glyphsFile = "sources/build-prep/shantellsans-wght_ital_IRGL.glyphs"
+glyphsFile = "sources/build-prep/shantellsans-wght_ital_INFM.glyphs"
 
 releaseGlyphOrder = ".notdef space space.frac uni00A0 A Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek Acaron Aringacute Agravedbl Ainvertedbreve Adotbelow Ahoi Acircumflexacute Acircumflexgrave Acircumflexhoi Acircumflextilde Acircumflexdotbelow Abreveacute Abrevegrave Abrevehoi Abrevetilde Abrevedotbelow B C Ccedilla Cacute Ccircumflex Cdotaccent Ccaron D Dcaron E Egrave Eacute Ecircumflex Edieresis Emacron Ebreve Edotaccent Eogonek Ecaron Egravedbl Einvertedbreve Edotbelow Ehoi Etilde Ecircumflexacute Ecircumflexgrave Ecircumflexhoi Ecircumflextilde Ecircumflexdotbelow F G Gcircumflex Gbreve Gdotaccent uni0122 Gcaron H Hcircumflex I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent Igravedbl Iinvertedbreve Ihoi Idotbelow J Jacute Jcircumflex K uni0136 L Lacute uni013B Lcaron M N Ntilde Nacute uni0145 Ncaron O Ograve Oacute Ocircumflex Otilde Odieresis Omacron Obreve Ohungarumlaut Ohorn Oogonek Ogravedbl Oinvertedbreve Odieresismacron Otildemacron Odotmacron Odotbelow Ohoi Ocircumflexacute Ocircumflexgrave Ocircumflexhoi Ocircumflextilde Ocircumflexdotbelow Ohornacute Ohorngrave Ohornhoi Ohorntilde Ohorndotbelow P Q R Racute uni0156 Rcaron Rgravedbl Rinvertedbreve S Sacute Scircumflex Scedilla Scaron Scommaaccent T Tcedilla Tcaron Tcommaaccent U Ugrave Uacute Ucircumflex Udieresis Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek Uhorn Ucaron Ugravedbl Uinvertedbreve Udotbelow Uhoi Uhornacute Uhorngrave Uhornhoi Uhorntilde Uhorndotbelow V W Wcircumflex Wgrave Wacute Wdieresis X Y Yacute Ycircumflex Ydieresis Ymacron Ygrave Ydotbelow Yhoi Ytilde Z Zacute Zdotaccent Zcaron AE AEacute Eth Oslash Oslashacute Thorn Dcroat Hbar IJ IJacute Ldot Lslash Eng OE Tbar Schwa DZcaron LJ NJ Dzcaron Lj Nj Germandbls Omega a agrave aacute acircumflex atilde adieresis aring amacron abreve aogonek acaron aringacute agravedbl ainvertedbreve adotbelow ahoi acircumflexacute acircumflexgrave acircumflexhoi acircumflextilde acircumflexdotbelow abreveacute abrevegrave abrevehoi abrevetilde abrevedotbelow b c ccedilla cacute ccircumflex cdotaccent ccaron d dcaron e egrave eacute ecircumflex edieresis emacron ebreve edotaccent eogonek ecaron egravedbl einvertedbreve edotbelow ehoi etilde ecircumflexacute ecircumflexgrave ecircumflexhoi ecircumflextilde ecircumflexdotbelow f g gcircumflex gbreve gdotaccent uni0123 gcaron h hcircumflex i igrave iacute icircumflex idieresis itilde imacron ibreve iogonek igravedbl iinvertedbreve ihoi idotbelow j jcircumflex k uni0137 l lacute uni013C lcaron m n ntilde nacute uni0146 ncaron o ograve oacute ocircumflex otilde odieresis omacron obreve ohungarumlaut ohorn oogonek ogravedbl oinvertedbreve odieresismacron otildemacron odotmacron odotbelow ohoi ocircumflexacute ocircumflexgrave ocircumflexhoi ocircumflextilde ocircumflexdotbelow ohornacute ohorngrave ohornhoi ohorntilde ohorndotbelow p q r racute uni0157 rcaron rgravedbl rinvertedbreve s sacute scircumflex scedilla scaron scommaaccent t tcedilla tcaron tcommaaccent u ugrave uacute ucircumflex udieresis utilde umacron ubreve uring uhungarumlaut uogonek uhorn ucaron ugravedbl uinvertedbreve udotbelow uhoi uhornacute uhorngrave uhornhoi uhorntilde uhorndotbelow v w wcircumflex wgrave wacute wdieresis x y yacute ydieresis ycircumflex ymacron ygrave ydotbelow yhoi ytilde z zacute zdotaccent zcaron germandbls ae aeacute eth oslash oslashacute thorn dcroat hbar idotless ij ijacute kra ldot lslash eng oe tbar dzcaron lj nj schwa idotaccent jacute jdotless Djecyr Eukrcyr Dzecyr Iukrcyr Yukrcyr Jecyr Ljecyr Njecyr Tshecyr Dzhecyr Acyr Abrevecyr Adieresiscyr Becyr Vecyr Gecyr Gjecyr Decyr Iecyr Iegravecyr Iocyr Iebrevecyr Zhecyr Zhebrevecyr Zhedieresiscyr Zecyr Zedieresiscyr Icyr Igravecyr Ishortcyr Imacroncyr Idieresiscyr Kacyr Kjecyr Elcyr Emcyr Encyr Ocyr Odieresiscyr Pecyr Ercyr Escyr Tecyr Ucyr Ushortcyr Umacroncyr Udieresiscyr Uacutedblcyr Efcyr Hacyr Tsecyr Checyr Chedieresiscyr Shacyr Shchacyr Hardcyr Ylongcyr Ylongdieresiscyr Softcyr Ereversedcyr Yucyr Yacyr Yatcyr Yusbigcyr Fitacyr Izhitsacyr Geupcyr Gestrokecyr Gehookcyr Zhetailcyr Zetailcyr Katailcyr Kaverticalstrokecyr Kabashkcyr Entailcyr Engecyr Estailcyr Ustraightcyr Ustraightstrokecyr Xatailcyr Chetailcyr Chevertcyr Shhacyr Palochkacyr Chekhakascyr Aiecyr Schwacyr Obarcyr Getailcyr Qacyr Wecyr Ef-cy.loclBGR acyr abrevecyr adieresiscyr becyr vecyr gecyr gjecyr decyr iecyr iegravecyr iocyr iebrevecyr zhecyr zhebrevecyr zhedieresiscyr zecyr zedieresiscyr icyr ishortcyr igravecyr imacroncyr idieresiscyr kacyr kjecyr elcyr emcyr encyr ocyr odieresiscyr pecyr ercyr escyr tecyr ucyr ushortcyr umacroncyr udieresiscyr uacutedblcyr efcyr hacyr tsecyr checyr chedieresiscyr shacyr shchacyr hardcyr ylongcyr ylongdieresiscyr softcyr ereversedcyr yucyr yacyr djecyr eukrcyr dzecyr iukrcyr yukrcyr jecyr ljecyr njecyr tshecyr dzhecyr yatcyr yusbigcyr fitacyr izhitsacyr geupcyr gestrokecyr gehookcyr zhetailcyr zetailcyr katailcyr kaverticalstrokecyr kabashkcyr entailcyr engecyr estailcyr ustraightcyr ustraightstrokecyr xatailcyr chetailcyr chevertcyr shhacyr chekhakascyr palochkacyr aiecyr schwacyr obarcyr getailcyr qacyr wecyr yukrcyr_yukrcyr de-cy.loclBGR ge-cy.loclBGR iu-cy.loclBGR ka-cy.loclBGR pe-cy.loclBGR sha-cy.loclBGR shcha-cy.loclBGR te-cy.loclBGR tse-cy.loclBGR ve-cy.loclBGR ze-cy.loclBGR zhe-cy.loclBGR Esdescender-cy.loclBSH Ghestroke-cy.loclBSH Zedescender-cy.loclBSH esdescender-cy.loclBSH ghestroke-cy.loclBSH zedescender-cy.loclBSH be-cy.loclSRB Esdescender-cy.loclCHU esdescender-cy.loclCHU apostrophemod ordfeminine ordmasculine gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcmb dieresiscomb hookabovecmb ringcomb ringcomb.A hungarumlautcmb caroncomb gravedoublecmb invertedbrevecmb commaturnedabovecmb horncmb dotbelowcmb dieresisbelowcmb commaaccentbelowcmb cedillacomb ogonekcmb belowbrevecmb macronbelowcmb breveacutecomb brevecomb-cy brevegravecomb brevehookabovecomb brevetildecomb circumflexacutecomb circumflexgravecomb circumflexhookabovecomb circumflextildecomb dieresismacroncomb dotmacroncomb ringacutecomb tildemacroncomb overlaystrokeshortcmb zero one two three four five six seven eight nine period.tnum comma.tnum colon.tnum slash.tnum zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr zero.pnum one.pnum two.pnum three.pnum four.pnum five.pnum six.pnum seven.pnum eight.pnum nine.pnum zero.inferior one.inferior two.inferior three.inferior four.inferior five.inferior six.inferior seven.inferior eight.inferior nine.inferior zero.superior four.superior five.superior six.superior seven.superior eight.superior nine.superior onesuperior twosuperior threesuperior onequarter onehalf threequarters onethird twothirds oneeighth threeeighths fiveeighths seveneighths underscore hyphen uni2010 endash emdash parenleft parenright bracketleft bracketright braceleft braceright bracketangleleft bracketangleright numbersign percent perthousand quotesingle quotedbl quoteleft quoteright quotedblleft quotedblright quotesinglbase quotedblbase guilsinglleft guilsinglright guillemetleft guillemetright asterisk dagger daggerdbl period comma colon semicolon ellipsis exclam exclamdown question questiondown slash backslash fraction bar brokenbar verticalbardbl at ampersand section paragraph litre numero periodcentered bullet openbullet minute second primemod primedblmod plus minus plusminus divide multiply equal less greater lessequal greaterequal approxequal notequal logicalnot emptyset estimated mu.math pi ohm commercialminussign arrowleft arrowup arrowright arrowdown arrowleftright arrowupdown partialdiff increment product summation divisionslash bulletoperator radical infinity integral dollar cent sterling currency yen colonmonetary lira naira won dong Euro fhook kip tugrik peso guarani hryvnia cedi tenge indianrupee turkishlira manat ruble thaibaht rupee newsheqel lari bitcoin asciicircum asciitilde acute grave hungarumlaut circumflex caron breve tilde macron dieresis dotaccent ring cedilla ogonek copyright registered trademark degree arrowNW arrowNE arrowSE arrowSW doublebarvertical gmtrdiamondblack gmtrdiamondwhite circlewhite circleblack squareblack squarewhite squaresmallblack squaresmallwhite triangleupblack triangleupwhite trianglerightblack trianglerightwhite triangledownblack triangledownwhite triangleleftblack triangleleftwhite triangleupsmallblack triangleupsmallwhite trianglerightsmallblack trianglerightsmallwhite triangledownsmallblack triangledownsmallwhite triangleleftsmallblack triangleleftsmallwhite heartwhite heartblack lozenge check checkheavy uni00AD hyphen.case endash.case emdash.case parenleft.case parenright.case bracketleft.case bracketright.case braceleft.case braceright.case bracketangleleft.case bracketangleright.case guilsinglleft.case guilsinglright.case guillemetleft.case guillemetright.case slash.case backslash.case at.case exclamdown.case questiondown.case periodcentered.case bullet.case openbullet.case periodcentered.loclCAT periodcentered.loclCAT_case f_f fi fl f_f_i f_f_l hyphen.line hyphen_line.3 hyphen_line.4 hyphen_line.5 hyphen_line.6 hyphen_line.7 hyphen_line.8 hyphen_line.9 hyphen_line.10 hyphen_line.11 hyphen_line.12 hyphen_line.13 hyphen_line.14 hyphen_line.15 hyphen_line.16 hyphen_line.17 hyphen_line.18 hyphen_line.19 hyphen_line.20 hyphen_line.21 hyphen_line.22 hyphen_line.23 hyphen_line.24 hyphen_line.25 hyphen_line.26 hyphen_line.27 hyphen_line.28 hyphen_line.29 hyphen_line.30 hyphen_line.31 hyphen_line.32 hyphen_line.33 hyphen_line.34 hyphen_line.35 hyphen_line.36 hyphen_line.37 hyphen_line.38 hyphen_line.39 hyphen_line.40 hyphen_line.41 hyphen_line.42 hyphen_line.43 hyphen_line.44 hyphen_line.45 hyphen_line.46 hyphen_line.47 hyphen_line.48 hyphen_line.49 hyphen_line.50".split(" ")
 
 # directory to output UFOs converted from GlyphsApp source
-ufosDir = 'sources/build-prep/ital_wght_IRGL--UFOs'
+ufosDir = 'sources/build-prep/ital_wght_INFM--UFOs'
 
 # where prepped UFOs are put
-prepDir = 'sources/build-prep/ital_wght_BNCE_IRGL_TRAK--prepped'
+prepDir = 'sources/build-prep/ital_wght_BNCE_INFM_SPAC--prepped'
 
 # designspaces copied into prepped folder
-designspaces = ["sources/shantell_sans-ital_wght_BNCE_IRGL_TRAK-simplified.designspace", "sources/shantell_sans-ital_wght_BNCE_IRGL_TRAK--static-simplified.designspace"]
+designspaces = ["sources/shantell_sans-ital_wght_BNCE_INFM_SPAC-simplified.designspace", "sources/shantell_sans-ital_wght_BNCE_INFM_SPAC--static-simplified.designspace"]
 
 # NOTE: if you really want *all* characters to have alts, use this instead. But it makes the font filesize quite a bit bigger. (Would need updating to include Cyrillics)       
 # altsToMake = "AÀÁÂÃÄÅĀĂĄǍBCÇĆČDĎEÈÉÊËĒĔĘĚFGĞHIÌÍÎÏĪĬĮİJKLMNÑŃŇOÒÓÔÕÖŌŎŐPQRŔŘSŚŞŠTŤUÙÚÛÜŪŬŮŰŲǓVWXYÝŸZŹŻŽÆØǾĲŁŒΩaàáâãäåāăąǎbcçćčdďeèéêëēĕęěfgğhiìíîïīĭįjklmnñńňoòóôõöōŏőpqrŕřsśşštťuùúûüūŭůűųǔvwxyýÿzźżžßæÞðþẞ"
@@ -76,7 +76,7 @@ glyphsToNotShift ="\
     hyphen.line hyphen_line.3 hyphen_line.4 hyphen_line.5 hyphen_line.6 hyphen_line.7 hyphen_line.8 hyphen_line.9 hyphen_line.10 hyphen_line.11 hyphen_line.12 hyphen_line.13 hyphen_line.14 hyphen_line.15 hyphen_line.16 hyphen_line.17 hyphen_line.18 hyphen_line.19 hyphen_line.20 hyphen_line.21 hyphen_line.22 hyphen_line.23 hyphen_line.24 hyphen_line.25 hyphen_line.26 hyphen_line.27 hyphen_line.28 hyphen_line.29 hyphen_line.30 hyphen_line.31 hyphen_line.32 hyphen_line.33 hyphen_line.34 hyphen_line.35 hyphen_line.36 hyphen_line.37 hyphen_line.38 hyphen_line.39 hyphen_line.40 hyphen_line.41 hyphen_line.42 hyphen_line.43 hyphen_line.44 hyphen_line.45 hyphen_line.46 hyphen_line.47 hyphen_line.48 hyphen_line.49 hyphen_line.50\
 ".split()
 
-# total to add to TRAK axis
+# total to add to SPAC axis
 maxTracking = 500
 trackedPath = "shantell_tracked--light.ufo"
 
@@ -109,6 +109,7 @@ def convertGlyphs2UFO(glyphs_file, outputDir):
         outputDir,
         write_skipexportglyphs=True,
         minimal=True,
+        generate_GDEF=True,
     )[0]
 
     return sourceUfos
@@ -765,26 +766,24 @@ def extendKerning(fonts):
         font.save()
 
 
-def addToGdef(font, feaCode, altsMadeForList):
+def addToGdef(fonts, mainFont):
     """
         All generated alts to GDEF "bases" category.
     """
 
-    # use regex to find whatever the existing calt code is, from the GlyphsApp source
-    existingGdef = re.search(r"table GDEF {(.+)} GDEF;", feaCode, re.DOTALL)
-    existingGdefFull = existingGdef.group()
-    basesListInside = re.search(r"\[(.+)\],", existingGdefFull).group(1)
+    # get dict of bases for GDEF
+    baseDict = mainFont.lib["public.openTypeCategories"]
 
-    # find which generated alts are bases (e.g. they have at least one anchor)
-    # generatedBases = " ".join([gname for gname in altsMadeForList if len(font[gname].anchors) > 0])
+    # add to it with new alts
+    newBases = sorted([g.name for g in mainFont if ".alt" in g.name and "comb" not in g.name and "cmb" not in g.name and len(g.anchors) > 0])
+    for newBaseName in newBases:
+        baseDict[newBaseName] = 'base'
 
-    generatedBases = " ".join(sorted([g.name for g in font if ".alt" in g.name and "comb" not in g.name and "cmb" not in g.name and len(g.anchors) > 0]))
+    # now, put that updated dict into each of the fonts
+    for font in fonts:
+        font.lib["public.openTypeCategories"] = baseDict
 
-    newGdefFull = existingGdefFull.replace(basesListInside, f"{basesListInside} {generatedBases}")
 
-    newFeaCode = feaCode.replace(existingGdefFull, newGdefFull)
-
-    return newFeaCode
 
 
 def generateRligIntoFea(mainFont, altsMadeForList):
@@ -855,10 +854,9 @@ def generateRligIntoFea(mainFont, altsMadeForList):
     caltPlusRlig += "} rlig;"
 
     newFeaCode = feaCode.replace(existingCaltFeaFull, caltPlusRlig)
+    
+    return newFeaCode
 
-    newerFeaCode = addToGdef(mainFont, newFeaCode, altsMadeForList)
-
-    return newerFeaCode
 
 
 def addFeaCode(fonts, newFeatures):
@@ -1042,6 +1040,9 @@ def main():
 
     print("🤖 Updating feature code")
     addFeaCode(fonts, newFeatures)
+
+    print("🤖 Updating bases list in UFOs, for GDEF")
+    addToGdef(fonts, mainFont)
 
     print("🤖 Copying Designspace file")
     for ds in designspaces:

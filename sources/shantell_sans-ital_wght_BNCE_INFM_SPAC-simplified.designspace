@@ -1,0 +1,730 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="ital" name="Italic" minimum="0" maximum="1" default="0"/>
+    <axis tag="wght" name="Weight" minimum="300" maximum="800" default="300"/>
+    <axis tag="INFM" name="Informality" minimum="0" maximum="100" default="0"/>
+    <axis tag="BNCE" name="Bounce" minimum="-100" maximum="100" default="0"/>
+    <axis tag="SPAC" name="Spacing" minimum="0" maximum="100" default="0"/>
+  </axes>
+  <sources>
+    <source filename="shantell_tracked--light.ufo" familyname="Shantell Sans" stylename="Light Tracked">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="shantell--light.ufo" familyname="Shantell Sans" stylename="Light">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="shantell--extrabold.ufo" familyname="Shantell Sans" stylename="ExtraBold">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="shantell_organic--light.ufo" familyname="Shantell Sans" stylename="Dynamic Light">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="shantell_organic--extrabold.ufo" familyname="Shantell Sans" stylename="Dynamic ExtraBold">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="shantell_bounce--extrabold.ufo" familyname="Shantell Sans" stylename="ExtraBold Bounce">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="shantell_bounce--light.ufo" familyname="Shantell Sans" stylename="Light Bounce">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="shantell_reverse_bounce--extrabold.ufo" familyname="Shantell Sans" stylename="ExtraBold Bounce Reverse">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="-100"/>
+      </location>
+    </source>
+    <source filename="shantell_reverse_bounce--light.ufo" familyname="Shantell Sans" stylename="Light Bounce Reverse">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="-100"/>
+      </location>
+    </source>
+    <source filename="shantell_bounce--extrabold_italic.ufo" familyname="Shantell Sans" stylename="ExtraBold Bounce">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="shantell_bounce--light_italic.ufo" familyname="Shantell Sans" stylename="Light Bounce">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="shantell_reverse_bounce--extrabold_italic.ufo" familyname="Shantell Sans" stylename="ExtraBold Bounce Reverse">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="-100"/>
+      </location>
+    </source>
+    <source filename="shantell_reverse_bounce--light_italic.ufo" familyname="Shantell Sans" stylename="Light Bounce Reverse">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="-100"/>
+      </location>
+    </source>
+    <source filename="shantell--light_italic.ufo" familyname="Shantell Sans" stylename="Light">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="shantell--extrabold_italic.ufo" familyname="Shantell Sans" stylename="ExtraBold">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="shantell_organic--light_italic.ufo" familyname="Shantell Sans" stylename="Dynamic Light">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="shantell_organic--extrabold_italic.ufo" familyname="Shantell Sans" stylename="Dynamic ExtraBold">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance familyname="Shantell Sans" stylename="Light" filename="instances/Shantell_Sans-Light.ufo"  stylemapfamilyname="Shantell Sans" stylemapstylename="regular">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Regular" filename="instances/Shantell_Sans-Regular.ufo" stylemapfamilyname="Shantell Sans" stylemapstylename="regular">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Medium" filename="instances/Shantell_Sans-Medium.ufo"  stylemapfamilyname="Shantell Sans" stylemapstylename="regular">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="SemiBold" filename="instances/Shantell_Sans-SemiBold.ufo"  stylemapfamilyname="Shantell Sans" stylemapstylename="regular">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Bold" filename="instances/Shantell_Sans-Bold.ufo" stylemapfamilyname="Shantell Sans" stylemapstylename="bold">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="ExtraBold" filename="instances/Shantell_Sans-ExtraBold.ufo" stylemapfamilyname="Shantell Sans" stylemapstylename="regular">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+
+    <!-- Bouncy -->
+    <instance familyname="Shantell Sans" stylename="Bouncy Light" filename="instances/Shantell_Sans-Bouncy_Light.ufo"  stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="regular">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Bouncy Regular" filename="instances/Shantell_Sans-Bouncy_Regular.ufo"  stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="regular">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Bouncy Medium" filename="instances/Shantell_Sans-Bouncy_Medium.ufo"  stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="regular">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Bouncy SemiBold" filename="instances/Shantell_Sans-Bouncy_SemiBold.ufo"  stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="regular">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Bouncy Bold" filename="instances/Shantell_Sans-Bouncy_Bold.ufo"  stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="bold">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Bouncy ExtraBold" filename="instances/Shantell_Sans-Bouncy_ExtraBold.ufo"  stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="regular">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!-- Informal -->
+    <instance familyname="Shantell Sans" stylename="Informal Light" filename="instances/Shantell_Sans-Informal_Light.ufo" stylemapfamilyname="Shantell Sans" stylemapstylename="regular">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Informal Regular" filename="instances/Shantell_Sans-Informal_Regular.ufo"  stylemapfamilyname="Shantell Sans Informal" stylemapstylename="regular">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Informal Medium" filename="instances/Shantell_Sans-Informal_Medium.ufo"  stylemapfamilyname="Shantell Sans Informal" stylemapstylename="regular">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Informal SemiBold" filename="instances/Shantell_Sans-Informal_SemiBold.ufo"  stylemapfamilyname="Shantell Sans Informal" stylemapstylename="regular">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Informal Bold" filename="instances/Shantell_Sans-Informal_Bold.ufo"  stylemapfamilyname="Shantell Sans Informal" stylemapstylename="bold">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Informal ExtraBold" filename="instances/Shantell_Sans-Informal_ExtraBold.ufo"  stylemapfamilyname="Shantell Sans Informal" stylemapstylename="regular">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!-- Bouncy Informal -->
+    <instance familyname="Shantell Sans" stylename="Informal Bouncy Light" filename="instances/Shantell_Sans-Informal_Bouncy_Light.ufo"  stylemapfamilyname="Shantell Sans Informal Bouncy" stylemapstylename="regular">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Informal Bouncy Regular" filename="instances/Shantell_Sans-Informal_Bouncy_Regular.ufo"  stylemapfamilyname="Shantell Sans Informal Bouncy" stylemapstylename="regular">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Informal Bouncy Medium" filename="instances/Shantell_Sans-Informal_Bouncy_Medium.ufo"  stylemapfamilyname="Shantell Sans Informal Bouncy" stylemapstylename="regular">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Informal Bouncy SemiBold" filename="instances/Shantell_Sans-Informal_Bouncy_SemiBold.ufo"  stylemapfamilyname="Shantell Sans Informal Bouncy" stylemapstylename="regular">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Informal Bouncy Bold" filename="instances/Shantell_Sans-Informal_Bouncy_Bold.ufo"  stylemapfamilyname="Shantell Sans Informal Bouncy" stylemapstylename="regular">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Informal Bouncy ExtraBold" filename="instances/Shantell_Sans-Informal_Bouncy_ExtraBold.ufo"  stylemapfamilyname="Shantell Sans Informal Bouncy" stylemapstylename="regular">
+      <location>
+        <dimension name="Italic" xvalue="0"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    
+    <instance familyname="Shantell Sans" stylename="Light Italic" filename="instances/Shantell_Sans-Light_Italic.ufo" stylemapfamilyname="Shantell Sans" stylemapstylename="italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Italic" filename="instances/Shantell_Sans-Regular_Italic.ufo" stylemapfamilyname="Shantell Sans" stylemapstylename="italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Medium Italic" filename="instances/Shantell_Sans-Medium_Italic.ufo" stylemapfamilyname="Shantell Sans" stylemapstylename="italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="SemiBold Italic" filename="instances/Shantell_Sans-SemiBold_Italic.ufo" stylemapfamilyname="Shantell Sans" stylemapstylename="italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Bold Italic" filename="instances/Shantell_Sans-Bold_Italic.ufo" stylemapfamilyname="Shantell Sans" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="ExtraBold Italic" filename="instances/Shantell_Sans-ExtraBold_Italic.ufo" stylemapfamilyname="Shantell Sans" stylemapstylename="italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  
+    <!-- Bouncy -->
+    <instance familyname="Shantell Sans" stylename="Bouncy Light Italic" filename="instances/Shantell_Sans-Bouncy_Light_Italic.ufo" stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Bouncy Italic" filename="instances/Shantell_Sans-Bouncy_Regular_Italic.ufo" stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Bouncy Medium Italic" filename="instances/Shantell_Sans-Bouncy_Medium_Italic.ufo" stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Bouncy SemiBold Italic" filename="instances/Shantell_Sans-Bouncy_SemiBold_Italic.ufo" stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Bouncy Bold Italic" filename="instances/Shantell_Sans-Bouncy_Bold_Italic.ufo" stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Bouncy ExtraBold Italic" filename="instances/Shantell_Sans-Bouncy_ExtraBold_Italic.ufo" stylemapfamilyname="Shantell Sans Bouncy" stylemapstylename="italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Informality" xvalue="0"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!-- Informal -->
+    <instance familyname="Shantell Sans" stylename="Informal Light Italic" filename="instances/Shantell_Sans-Informal_Light_Italic.ufo" stylemapfamilyname="Shantell Sans Informal" stylemapstylename="italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Informal Italic" filename="instances/Shantell_Sans-Informal_Regular_Italic.ufo" stylemapfamilyname="Shantell Sans Informal" stylemapstylename="italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Informal Medium Italic" filename="instances/Shantell_Sans-Informal_Medium_Italic.ufo" stylemapfamilyname="Shantell Sans Informal" stylemapstylename="italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Informal SemiBold Italic" filename="instances/Shantell_Sans-Informal_SemiBold_Italic.ufo" stylemapfamilyname="Shantell Sans Informal" stylemapstylename="italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Informal Bold Italic" filename="instances/Shantell_Sans-Informal_Bold_Italic.ufo" stylemapfamilyname="Shantell Sans Informal" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Informal ExtraBold Italic" filename="instances/Shantell_Sans-Informal_ExtraBold_Italic.ufo" stylemapfamilyname="Shantell Sans Informal" stylemapstylename="italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="0"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!-- Bouncy Informal -->
+    <instance familyname="Shantell Sans" stylename="Informal Bouncy Light Italic" filename="instances/Shantell_Sans-Informal_Bouncy_Light_Italic.ufo" stylemapfamilyname="Shantell Sans Informal Bouncy" stylemapstylename="italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Informal Bouncy Italic" filename="instances/Shantell_Sans-Informal_Bouncy_Regular_Italic.ufo" stylemapfamilyname="Shantell Sans Informal Bouncy" stylemapstylename="italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Informal Bouncy Medium Italic" filename="instances/Shantell_Sans-Informal_Bouncy_Medium_Italic.ufo" stylemapfamilyname="Shantell Sans Informal Bouncy" stylemapstylename="italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Informal Bouncy SemiBold Italic" filename="instances/Shantell_Sans-Informal_Bouncy_SemiBold_Italic.ufo" stylemapfamilyname="Shantell Sans Informal Bouncy" stylemapstylename="italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Informal Bouncy Bold Italic" filename="instances/Shantell_Sans-Informal_Bouncy_Bold_Italic.ufo" stylemapfamilyname="Shantell Sans Informal Bouncy" stylemapstylename="italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Shantell Sans" stylename="Informal Bouncy ExtraBold Italic" filename="instances/Shantell_Sans-Informal_Bouncy_ExtraBold_Italic.ufo" stylemapfamilyname="Shantell Sans Informal Bouncy" stylemapstylename="italic">
+      <location>
+        <dimension name="Italic" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Informality" xvalue="100"/>
+        <dimension name="Bounce" xvalue="62.5"/>
+        <dimension name="Spacing" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!-- Bouncy Informalish -->
+    
+  </instances>
+  <lib>
+    <dict>
+      <key>com.letterror.mathModelPref</key>
+      <string>previewVarLib</string>
+      <key>com.letterror.skateboard.interactionSources</key>
+      <dict>
+        <key>horizontal</key>
+        <array/>
+        <key>ignore</key>
+        <array/>
+        <key>vertical</key>
+        <array>
+          <string>Weight</string>
+        </array>
+      </dict>
+      <key>com.letterror.skateboard.previewLocation</key>
+      <dict>
+        <key>Weight</key>
+        <real>600.0</real>
+      </dict>
+      <key>com.letterror.skateboard.previewText</key>
+      <string>0123456789</string>
+    </dict>
+  </lib>
+</designspace>

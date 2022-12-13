@@ -1,12 +1,12 @@
-BASE_R = shantellsans-wght_ital_IRGL
+BASE_R = shantellsans-wght_ital_INFM
 
-GLYPHSPKG = sources/shantellsans-wght_ital_IRGL.glyphspackage
+GLYPHSPKG = sources/shantellsans-wght_ital_INFM.glyphspackage
 
 PREPDIR = sources/build-prep
-GLYPHS = $(PREPDIR)/shantellsans-wght_ital_IRGL.glyphs
-UFOPREPDIR = $(PREPDIR)/ital_wght_BNCE_IRGL_TRAK--prepped
+GLYPHS = $(PREPDIR)/shantellsans-wght_ital_INFM.glyphs
+UFOPREPDIR = $(PREPDIR)/ital_wght_BNCE_INFM_SPAC--prepped
 
-VF = fonts/Shantell\ Sans/Desktop/ShantellSans\[BNCE,IRGL,TRAK,ital,wght\].ttf
+VF = fonts/Shantell\ Sans/Desktop/ShantellSans\[BNCE,INFM,SPAC,ital,wght\].ttf
 STATICS = fonts/Shantell\ Sans/Desktop/Static/TTF
 
 
@@ -53,7 +53,7 @@ $(UFOPREPDIR): $(GLYPHS)
 
 $(GLYPHS): $(PREPDIR)
 	glyphspkg $(GLYPHSPKG)
-	mv sources/shantellsans-wght_ital_IRGL.glyphs $(GLYPHS)
+	mv sources/shantellsans-wght_ital_INFM.glyphs $(GLYPHS)
 
 $(PREPDIR): $(GLYPHSPKG)
 	mkdir -p $(PREPDIR)

@@ -35,27 +35,27 @@ AXES = [
         name="Bounce",
         ordering=2,
         values=[
-            dict(nominalValue=0, rangeMinValue=0, rangeMaxValue=0, name="No Bounce", flags=0x2),
-            dict(nominalValue=62.5, rangeMinValue=0.00001, rangeMaxValue=62.5,  name="Bouncy"),
-            dict(nominalValue=100, rangeMinValue=62.50001, rangeMaxValue=100,  name="ExtraBouncy"),
+            dict(value=0, name="No Bounce", flags=0x2),
+            dict(value=62.5, name="Bouncy"),
+            dict(value=100, name="ExtraBouncy"),
         ],
     ),
     dict(
-        tag="IRGL",
-        name="Irregularity",
+        tag="INFM",
+        name="Informality",
         ordering=3,
         values=[
-            dict(nominalValue=0, rangeMinValue=0, rangeMaxValue=25, name="Normalized", flags=0x2),
-            dict(nominalValue=100, rangeMinValue=25.00001, rangeMaxValue=100,  name="Irregular"),
+            dict(value=0, name="Normalized", flags=0x2),
+            dict(value=100, name="Informal"),
         ],
     ),
     dict(
-        tag="TRAK",
-        name="Tracking",
+        tag="SPAC",
+        name="Spacing",
         ordering=4,
         values=[
-            dict(nominalValue=0, rangeMinValue=0, rangeMaxValue=0, name="No Tracking", flags=0x2),
-            dict(nominalValue=500, rangeMinValue=0.00001, rangeMaxValue=500,  name="Tracked"),
+            dict(value=0, name="Default", flags=0x2),
+            dict(value=100, name="Max Spacing"),
         ],
     ),
 ]
