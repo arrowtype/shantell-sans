@@ -60,6 +60,9 @@ glyphsToDecompose = "ij oe".split()
 # adding because they trip up cu2qu in the build, likely because they are decomposed only in some generated sources
 glyphsToDecompose += "arrowNE arrowNW arrowSW arrowSE invertedbrevecmb bracketangleright dotbelowcmb caroncomb".split()
 
+# adding because they should but don’t seem to get decomposed in the build
+glyphsToDecompose += "triangleupblack triangleupwhite trianglerightblack trianglerightwhite triangledownblack triangledownwhite triangleleftblack triangleleftwhite triangleupsmallblack triangleupsmallwhite trianglerightsmallblack trianglerightsmallwhite triangledownsmallblack triangledownsmallwhite triangleleftsmallblack triangleleftsmallwhite".split()
+
 # fontTools.varLib says these are incompatible, if they aren't decomposed first. See issue 
 glyphsToDecompose += "Aring Yukrcyr Iocyr lj nj iocyr iukrcyr jecyr Lj Nj onequarter onehalf threequarters onethird twothirds oneeighth threeeighths fiveeighths seveneighths bulletoperator ijacute fi f_f_i Iigrave Esdescender esdescender periodcentered Iigrave-cy.loclBGR Esdescender-cy.loclBSH esdescender-cy.loclBSH Esdescender-cy.loclCHU esdescender-cy.loclCHU periodcentered.loclCAT_case".split()
 
@@ -161,7 +164,14 @@ def sortGlyphOrder(fonts):
         font.save()
 
 
-def decomposeDigraphs(fonts):
+def decomposeSpecialGlyphs(fonts):
+    """
+        Some glyphs cause issues if not decomposed prior to the build. 
+        
+        They are listed near the top of this prep-build.py script.
+        
+        This decomposes them.
+    """
     for font in fonts:
         for g in font:
             if g.name in glyphsToDecompose:
@@ -987,8 +997,8 @@ def main():
     makePrepFontsGlyphCompatible(fonts) # makes glyph sets the same in prepped fonts
     makeCompatible(fonts)               # basic check for glyphs that aren’t compatible (useful but imperfect for VFs, as it relies on FontParts .isCompatible method)
 
-    print("🤖 Decomposing digraphs")
-    decomposeDigraphs(fonts)
+    print("🤖 Decomposing special glyphs")
+    decomposeSpecialGlyphs(fonts)
 
     print("🤖 Making alts")
     altsMadeForList = makeAlts(fonts, numOfAlts=3)
