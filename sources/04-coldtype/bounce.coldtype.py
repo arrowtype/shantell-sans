@@ -2,6 +2,7 @@ from coldtype import *
 
 fnt = Font.Find(r"ShantellSans\[.*\]\.ttf", regex_dir="fonts")
 
+
 @animation(rect=(1920, 720), timeline=50, bg=hsl(240,0,.94))
 def bounce(f, txt="Fonts are Cool!", fontSize=225):
     def buildText(bounce:bool):
@@ -22,9 +23,11 @@ def bounce(f, txt="Fonts are Cool!", fontSize=225):
         .stack(80)
         .align(f.a.r))
 
+
 @animation(**bounce.choose(["rect", "timeline", "bg"]))
 def bounce_cyrillic(f):
     return bounce.func(f, txt="ТИПОГРАФИЯ", fontSize=180)
+
 
 def release(passes):
    bounce.gifski()(passes)
