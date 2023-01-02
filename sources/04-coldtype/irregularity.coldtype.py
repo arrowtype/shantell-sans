@@ -7,7 +7,7 @@ Irregularity is most visible in longer text,
 where the reader’s eye is sensitive to disruption
 """.upper()
 
-@animation((1920, 720), timeline=50, bg=hsl(240,0,.94))
+@animation((1920, 720), timeline=50, bg=hsl(240,0,.94), release=lambda a: a.gifski())
 def irregularity(f):
     def text(infm):
         return (StSt(txt, fnt, 55

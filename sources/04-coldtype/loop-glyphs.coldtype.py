@@ -6,7 +6,11 @@ os2 = ttf.font.ttFont["OS/2"]
 glyphSet = ttf.font.ttFont.getGlyphSet()
 glyphs = list(glyphSet.keys())
 
-@animation((1920, 1080), tl=Timeline(len(glyphs), 10), bg=0)
+@animation((1920, 1080)
+    , tl=Timeline(len(glyphs), 10)
+    , bg=0
+    , release=lambda a: a.export("h264")
+    )
 def loopGlyphs(f):
     glyphKey = glyphs[f.i]
     glyph = glyphSet[glyphKey]

@@ -2,11 +2,19 @@ from coldtype import *
 
 fnt = Font.Find(r"ShantellSans\[.*\]\.ttf", regex_dir="fonts")
 
+VERSIONS = {
+    "latin": dict(script="latin", txt="Fonts are Cool!", fontSize=225),
+    "cyrillic": dict(script="cyrillic", txt="ТИПОГРАФИЯ", fontSize=180),
+} #/VERSIONS
 
-@animation(rect=(1920, 720), timeline=50, bg=hsl(240,0,.94))
-def bounce(f, txt="Fonts are Cool!", fontSize=225):
+@animation(rect=(1920, 720)
+    , timeline=50
+    , bg=hsl(240,0,.94)
+    , release=lambda a: a.gifski()
+    )
+def bounce_ƒVERSION(f):
     def buildText(bounce:bool):
-        p = (StSt(txt, fnt, fontSize
+        p = (StSt(__VERSION__["txt"], fnt, __VERSION__["fontSize"]
             , wght=f.e("eeio", 1, rng=(1, 0))
             , BNCE=f.e("sio", 2, rng=(1, 0)) if bounce else None)
             .align(f.a.r, tx=0)
@@ -22,13 +30,3 @@ def bounce(f, txt="Fonts are Cool!", fontSize=225):
     return (P(buildText(False), buildText(True))
         .stack(80)
         .align(f.a.r))
-
-
-@animation(**bounce.choose(["rect", "timeline", "bg"]))
-def bounce_cyrillic(f):
-    return bounce.func(f, txt="ТИПОГРАФИЯ", fontSize=180)
-
-
-def release(passes):
-   bounce.gifski()(passes)
-   bounce_cyrillic.gifski(open=True)(passes)
