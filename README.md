@@ -89,7 +89,13 @@ make clean all
 source venv/bin/activate # activate venv if not already active
 ```
 
-Then, run the variable font build.
+Clean the prior run prep:
+
+```bash
+make clean
+```
+
+Then, run the variable font build:
 
 ```bash
 make vf
@@ -108,13 +114,10 @@ If you want to build everything all at once, you can use `make full`. If you jus
 
 ## Release
 
-Update the version number in `version.txt` to the desired next release number, then build fonts.
+Update the version number in `version.txt` to the desired next release number, then build fonts with the `make` workflow described above.
 
-Then, run this script to create a zipped archive of the fonts folder:
+A zipped archive of the fonts folder is created as the final step of the `make statics` command.
 
-```bash
-source venv/bin/activate # activate venv if not already active
-scripts--build/make-release.sh
-```
+Finally, go update the download links in the Shantell Sans web specimen.
 
 </details>
