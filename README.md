@@ -10,7 +10,7 @@ Shantell Sans is a project based on the artwork, handwriting, and creative philo
 
 ### Credits
 
-Project conception and creative direction by [Shantell Martin]((https://shantellmartin.art/)), based on her artwork, handwriting, and creative philosophy.
+Project conception and creative direction by [Shantell Martin](https://shantellmartin.art/info), based on her artwork, handwriting, and creative philosophy.
 
 Type design & development by [Arrow Type](https://arrowtype.com) / Stephen Nixon.
 
