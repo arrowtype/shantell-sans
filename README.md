@@ -39,7 +39,7 @@ The following features control font options you might wish to adjust in software
 Feature                    | Tag    | Description
 :--------------------------|:-------|:-----------------------------------------------------------------------------------------------------------------------------------------------
 Case-sensitive punctuation | `case` | Makes punctuation fit cap-height for uppercase typesetting
-Arbitrary Fractions        | `frac` | Makes proper fractions from strings like 1/2
+Arbitrary Fractions        | `frac` | Makes proper fractions from strings like 1/2 and 12/345
 Tabular Figures            | `tnum` | Numbers & currencies are monospaced across styles by default to improve table layout, but this makes certain punctuation become tabular as well
 Proportional Figures       | `pnum` | Makes numbers take up a natural amount of space
 Ordinals                   | `ordn` | Activates ordinals, primarily for Spanish
