@@ -19,8 +19,8 @@ Axis | Tag | Range | Default | Description
 Weight | `wght` | 300–800 | 300 | Light to ExtraBold. Can be defined with the `font-weight` CSS property.
 Italic | `ital` | 0–1 | 0 | Upright to Italic. Can be defined with the `font-style` CSS property.
 Bounce | `BNCE` | -100–100 | 0 | Emulates the bouncy baseline of handwriting, but extends this for extra fun.
-Irregularity | `IRGL` | 0–1 | 0 | Emulates the irregular shaping and proportions of handwriting.
-Tracking | `TRAK` | 0–500 | 0 | Adds extra spacing to the left and right of each glyph.
+Informality | `INFM` | 0–100 | 0 | Emulates the irregular shaping and proportions of handwriting.
+Spacing | `SPAC` | 0–100 | 0 | Adds extra spacing to the left and right of each glyph.
 
 ### Character set
 
