@@ -61,7 +61,7 @@ Required Ligatures   | `rlig` | On by default; adds pseudo-random pattern to alt
 
 Also included are `aalt`, `kern`, `ccmp`, `dnom`, `numr`, `mark`, and `mkmk`.
 
-### Making the randomization work (Bounce and Informality axes/styles)
+### Making randomization work (Bounce and Informality axes/styles)
 
 In most apps and web browers, the *Bounce* and *Informality* axes and styles automatically apply randomization to text. Specifically, the font will cycle through several alternates of each glyph, to make text more lively and give it a more “handwritten” appearance. Under the hood, this is done via the `rlig` OpenType feature. This should be on by default everywhere, but unfortunately, in some apps you will need to specifically activate this feature.
 
