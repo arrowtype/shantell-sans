@@ -6,9 +6,9 @@ Shantell Sans, from [Shantell Martin](https://shantellmartin.art/), is a marker-
 
 Shantell Sans is a project based on the artwork, handwriting, and creative philosophy of Shantell Martin. Rather than trying to exactly mimick or “replace” Shantell’s writing, Shantell Sans takes inspiration from marker-based fonts like Comic Sans & Inkwell Sans. It aims to create an authetically typographic system with a single core shape per character, in order to deliver a simple, inviting, and energetic tone while encouraging freedom and play.
 
-![Font styles in Shantell Sans](specimens/shantell_sans-styles.png)
+[To download Shantell Sans, please see the latest release](https://github.com/arrowtype/shantell-sans/releases) and download the zip file.
 
-### Credits
+### Project credits
 
 Project conception and creative direction by [Shantell Martin](https://shantellmartin.art/info), based on her artwork, handwriting, and creative philosophy.
 
@@ -19,6 +19,12 @@ Cyrillic type design by [Anya Danilova](http://anyadanilova.com).
 Additional support from [Google Fonts](https://fonts.google.com).
 
 ## Font Features
+
+### Styles / Instances
+
+Shantell Sans includes a wide array of styles, available both in a single variable font and in separate static font files.
+
+![Font styles in Shantell Sans](specimens/shantell_sans-styles.png)
 
 ### Variable Axes
 
