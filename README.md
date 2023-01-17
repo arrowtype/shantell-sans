@@ -16,13 +16,13 @@ Shantell’s writing is dynamic and doesn’t adhere to a rigid baseline or prec
 
 ![Axes in Shantell Sans](specimens/shantell_sans-axes.png)
 
-Axis | Tag | Range | Default | Description
-:-- | :-- | --: | --: | :--
-Weight | `wght` | 300–800 | 300 | Light to ExtraBold. Can be defined with the `font-weight` CSS property.
-Italic | `ital` | 0–1 | 0 | Upright to Italic. Can be defined with the `font-style` CSS property.
-Bounce | `BNCE` | -100–100 | 0 | Emulates the bouncy baseline of handwriting, but extends this for extra fun.
-Informality | `INFM` | 0–100 | 0 | Emulates the irregular shaping and proportions of handwriting.
-Spacing | `SPAC` | 0–100 | 0 | Adds extra spacing to the left and right of each glyph.
+Axis        | Tag    |    Range | Default | Description
+:-----------|:-------|---------:|--------:|:----------------------------------------------------------------------------
+Weight      | `wght` |  300–800 |     300 | Light to ExtraBold. Can be defined with the `font-weight` CSS property.
+Italic      | `ital` |      0–1 |       0 | Upright to Italic. Can be defined with the `font-style` CSS property.
+Bounce      | `BNCE` | -100–100 |       0 | Emulates the bouncy baseline of handwriting, but extends this for extra fun.
+Informality | `INFM` |    0–100 |       0 | Emulates the irregular shaping and proportions of handwriting.
+Spacing     | `SPAC` |    0–100 |       0 | Adds extra spacing to the left and right of each glyph.
 
 ### Character set
 
@@ -32,16 +32,34 @@ Shantell Sans supports a wide range of 380+ languages using Latin & Cyrillic scr
 
 ### OpenType Features
 
-Feature | Tag | Description
-:-- | :-- | :--
-Contexual Alternates | `calt` | On by default; activates a ligature for `її`, used in Ukrainian
+#### User-facing features 
+
+The following features control font options you might wish to adjust in software and via the [CSS property `font-feature-settings`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings).
+
+Feature                    | Tag    | Description
+:--------------------------|:-------|:-----------------------------------------------------------------------------------------------------------------------------------------------
 Case-sensitive punctuation | `case` | Makes punctuation fit cap-height for uppercase typesetting
-Arbitrary Fractions | `frac` | Makes proper fractions from strings like 1/2
-Tabular Figures | `tnum` | Numbers & currencies are monospaced across styles by default to improve table layout, but this makes certain punctuation become tabular as well
-Proportional Figures | `pnum` | Makes numbers take up a natural amount of space
-Localized Forms | `locl` | Supports special character-design requirements for various languages (TRK, CAT, ROM, MOL, NLD, BGR, SRB, MKD, UKR, and more)
-Standard Ligatures | `liga` | Converts 3+ repeated hyphens into wavy lines, just for fun
-Required Ligatures | `rlig` | On by default; adds pseudo-random pattern to alternates in Irregular & Bouncy styles
+Arbitrary Fractions        | `frac` | Makes proper fractions from strings like 1/2
+Tabular Figures            | `tnum` | Numbers & currencies are monospaced across styles by default to improve table layout, but this makes certain punctuation become tabular as well
+Proportional Figures       | `pnum` | Makes numbers take up a natural amount of space
+Ordinals                   | `ordn` | Activates ordinals, primarily for Spanish
+Superscript                | `sups` | Activates superscript numerals, e.g. for footnotes & exponents
+Scientific Inferiors       | `sinf` | Activates subscript/inferior numerals, e.g. for scientific chemical notations
+Slashed Zero               | `zero` | Activates a slashed form of zero for higher legibility numbering
+Standard Ligatures         | `liga` | Converts 3+ repeated hyphens into wavy lines, just for fun
+Stylistic Sets             | `ss0X` | Several stylistic sets exist to help toggle different character forms for Cyrillic languages, as a backup to software-level localization
+
+#### Other features 
+
+Other features are mostly intended to be handled by software and ignored by users.
+
+Feature              | Tag    | Description
+:--------------------|:-------|:----------------------------------------------------------------------------------------------------------------------------
+Contexual Alternates | `calt` | On by default; activates a ligature for `її`, used in Ukrainian
+Localized Forms      | `locl` | Supports special character-design requirements for various languages (TRK, CAT, ROM, MOL, NLD, BGR, SRB, MKD, UKR, and more)
+Required Ligatures   | `rlig` | On by default; adds pseudo-random pattern to alternates in Irregular & Bouncy styles
+
+Also included are `aalt`, `kern`, `ccmp`, `dnom`, `numr`, `mark`, and `mkmk`.
 
 ### Making the randomization work (Bounce and Informality axes/styles)
 
