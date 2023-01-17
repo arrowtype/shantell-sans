@@ -8,11 +8,15 @@ Shantell Sans is a project based on the artwork, handwriting, and creative philo
 
 ![Font styles in Shantell Sans](specimens/shantell_sans-styles.png)
 
-Project conception and creative direction by Shantell Martin, based on her artwork, handwriting, and creative philosophy.
+### Credits
+
+Project conception and creative direction by [Shantell Martin]((https://shantellmartin.art/)), based on her artwork, handwriting, and creative philosophy.
 
 Type design & development by [Arrow Type](https://arrowtype.com) / Stephen Nixon.
 
 Cyrillic type design by [Anya Danilova](http://anyadanilova.com).
+
+Additional support from [Google Fonts](https://fonts.google.com).
 
 ## Font Features
 
