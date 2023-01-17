@@ -6,11 +6,11 @@ Shantell Sans, from [Shantell Martin](https://shantellmartin.art/), is a marker-
 
 Shantell Sans is a project based on the artwork, handwriting, and creative philosophy of Shantell Martin. Rather than trying to exactly mimick or “replace” Shantell’s writing, Shantell Sans takes inspiration from marker-based fonts like Comic Sans & Inkwell Sans. It aims to create an authetically typographic system with a single core shape per character, in order to deliver a simple, inviting, and energetic tone while encouraging freedom and play.
 
-[To download Shantell Sans, please see the latest release](https://github.com/arrowtype/shantell-sans/releases) and download the zip file.
+To download Shantell Sans, [please see the latest release](https://github.com/arrowtype/shantell-sans/releases) and download the zip file.
 
 ### Project credits
 
-Project conception and creative direction by [Shantell Martin](https://shantellmartin.art/info), based on her artwork, handwriting, and creative philosophy.
+Project conception and creative direction by [Shantell Martin](https://shantellmartin.art/info).
 
 Type design & development by [Arrow Type](https://arrowtype.com) / Stephen Nixon.
 
