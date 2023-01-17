@@ -4,7 +4,9 @@ A custom font based on the handwriting of the artist [Shantell Martin](https://s
 
 Rather than trying to exactly mimick or “replace” Shantell’s writing, Shantell Sans takes inspiration from marker-based fonts like Comic Sans & Inkwell Sans. It aims to create an authetically typographic system with a single core shape per character, in order to deliver a simple, inviting, and energetic tone while encouraging freedom and play.
 
-![Font styles in Shantell Sans](specimens/shantell-sans-styles.png)
+![Shantell Sans with Shantell Martin artwork, calling it ”A font for you”](specimens/shantell_sans-hero.png)
+
+![Font styles in Shantell Sans](specimens/shantell_sans-styles.png)
 
 ## Font Features
 
@@ -12,7 +14,7 @@ Rather than trying to exactly mimick or “replace” Shantell’s writing, Shan
 
 Shantell’s writing is dynamic and doesn’t adhere to a rigid baseline or precise metrics, so Shantell Sans employs *variable axes* are to reflect this flexibility in a fluid range of styles.
 
-![Axes in Shantell Sans](specimens/axes.png)
+![Axes in Shantell Sans](specimens/shantell_sans-axes.png)
 
 Axis | Tag | Range | Default | Description
 :-- | :-- | --: | --: | :--
