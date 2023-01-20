@@ -4,7 +4,7 @@ fnt = Font.Find(r"ShantellSans\[.*\]\.ttf", regex_dir="fonts")
 
 VERSIONS = {
     "latin": dict(text="SPACING", fontSize=225),
-    "cyrillic": dict(text="ТИПОГРАФИЯ", fontSize=180)
+    "cyrillic": dict(text="ТИПОГРАФИЯ", fontSize=160)
 } #/VERSIONS
 
 @animation((1920, 720), timeline=Timeline(100), fmt="png", bg=0.94)
