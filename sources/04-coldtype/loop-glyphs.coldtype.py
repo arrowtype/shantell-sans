@@ -7,7 +7,7 @@ glyphSet = ttf.font.ttFont.getGlyphSet()
 glyphs = list(glyphSet.keys())
 
 @animation((1920, 1080)
-    , tl=Timeline(len(glyphs), 10)
+    , tl=Timeline(len(glyphs), fps=12)
     , bg=0
     , release=lambda a: a.export("h264", open=0)
     )

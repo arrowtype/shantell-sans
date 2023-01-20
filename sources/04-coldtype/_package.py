@@ -5,10 +5,14 @@ coldtype_dir = Path(__file__).parent
 
 # Render all coldtype scripts
 
-if True: # (very time-consuming, though should be faster with -mp 1)
-    subprocess.run(["coldtype", coldtype_dir, "-mp", "1", "-rd"])
+for src in coldtype_dir.glob("*.coldtype.py"):
+    if src.name.startswith("loop-glyphs"):
+        subprocess.run(["coldtype", src, "-ps", "0.25", "-rar", "-mp", "1"])
+    else:
+        subprocess.run(["coldtype", src, "-ps", "0.25", "-rar"])
 
 # Find all gifs & mp4s and copy them to a top-level specimens/coldtype directory
+# (could be part of step above but this way that can be debugged separately)
 
 root_dir = coldtype_dir.parent.parent
 specimens_dir = root_dir / "specimens/coldtype"
