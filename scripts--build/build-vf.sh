@@ -68,8 +68,12 @@ mkdir -p $outputDirGF
 
 # split roman/italic VFs for googlefonts
 fonttools varLib.instancer "$outputDir/$finalVfName" ital=0 --output "$outputDirGF/$finalVfNameRoman"
-fonttools varLib.instancer "$outputDir/$finalVfName" ital=1 --output "$outputDirGF/$finalVfNameItalic"
+fonttools varLib.instancer "$outputDir/$finalVfName" ital=1 --output "$outputDirGF/$finalVfNameItalic" --update-name-table
 
 # reduce set of instances for GF standards
 gftools fix-font "$outputDirGF/$finalVfNameRoman" -o "$outputDirGF/$finalVfNameRoman" --include-source-fixes
 gftools fix-font "$outputDirGF/$finalVfNameItalic" -o "$outputDirGF/$finalVfNameItalic" --include-source-fixes
+
+# apply two extra fixes with script from @yanone
+python3 scripts--build/helpers/convert-to-italic.py "$outputDirGF/$finalVfNameItalic" "$outputDirGF/$finalVfNameItalic"
+
