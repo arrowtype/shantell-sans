@@ -10,7 +10,8 @@ VERSIONS = [
 @animation((1920, 720)
     , timeline=Timeline(50)
     , bg=hsl(240,0,.94)
-    , release=lambda x: x.gifski()
+    # , release=lambda x: x.gifski()
+    , release=lambda a: a.export("h264", open=0)
     , name="kinetic4_" + __VERSION__["script"]
     )
 def kinetic4(f):

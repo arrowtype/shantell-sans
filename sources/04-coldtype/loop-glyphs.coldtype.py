@@ -1,12 +1,12 @@
 from coldtype import *
 
-ttf = Font.Find("ShantellSans-Normal-Bold", "sources")
+ttf = Font.Cacheable("fonts/Shantell Sans/Desktop/Static/TTF/Shantell_Sans-Normal-SemiBold.ttf")
 
 os2 = ttf.font.ttFont["OS/2"]
 glyphSet = ttf.font.ttFont.getGlyphSet()
 glyphs = list(glyphSet.keys())
 
-@animation((1920, 1080)
+@animation((1080, 1080)
     , tl=Timeline(len(glyphs), fps=12)
     , bg=0
     , release=lambda a: a.export("h264", open=0)

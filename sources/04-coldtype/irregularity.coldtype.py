@@ -3,8 +3,8 @@ from coldtype import *
 fnt = Font.Find(r"ShantellSans\[.*\]\.ttf", regex_dir="fonts")
 
 txt = """
-Irregularity is most visible in longer text,
-where the reader’s eye is sensitive to disruption
+Informality is most visible in longer text,
+where the reader’s eye is sensitive to irregularity
 """.upper()
 
 @animation((1920, 720), timeline=50, bg=hsl(240,0,.94), release=lambda a: a.gifski())

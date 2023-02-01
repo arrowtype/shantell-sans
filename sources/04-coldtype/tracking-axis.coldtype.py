@@ -7,7 +7,7 @@ VERSIONS = {
     "cyrillic": dict(text="ТИПОГРАФИЯ", fontSize=160)
 } #/VERSIONS
 
-@animation((1920, 720), timeline=Timeline(100), fmt="png", bg=0.94, release=lambda x: x.gifski())
+@animation((1920, 720), timeline=Timeline(100), fmt="png", bg=0.94, release=lambda a: a.export("h264", open=0))
 def spacing_ƒVERSION(f):
     def showMetrics(p:P):
         guide = (P()
