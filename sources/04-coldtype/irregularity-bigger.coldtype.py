@@ -3,7 +3,8 @@ from coldtype import *
 fnt = Font.Find(r"ShantellSans\[.*\]\.ttf", regex_dir="fonts")
 
 VERSIONS = {
-    "latin": dict(script="latin", txt="Fonts are Cool!", fontSize=225),
+    # "latin": dict(script="latin", txt="Fonts are Cool!", fontSize=225),
+    "latin": dict(script="latin", txt="A little less formality", fontSize=150),
     "cyrillic": dict(script="cyrillic", txt="ТИПОГРАФИЯ", fontSize=180),
 } #/VERSIONS
 
@@ -13,11 +14,11 @@ VERSIONS = {
     # , release=lambda a: a.gifski()
     , release=lambda a: a.export("h264", open=0)
     )
-def bounce_ƒVERSION(f):
-    def buildText(bounce:bool):
+def informality_ƒVERSION(f):
+    def buildText(informality:bool):
         p = (StSt(__VERSION__["txt"], fnt, __VERSION__["fontSize"]
             , wght=f.e("eeio", 1, rng=(1, 0))
-            , BNCE=f.e("sio", 2, rng=(1, 0)) if bounce else None)
+            , INFM=f.e("sio", 2, rng=(1, 0)) if informality else None)
             .align(f.a.r, tx=0)
             .f(0))
 

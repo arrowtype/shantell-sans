@@ -1,49 +1,33 @@
 from coldtype import *
 
-fnt = Font.Cacheable("fonts/Shantell Sans/Desktop/ShantellSans[BNCE,IRGL,TRAK,ital,wght].ttf")
+fnt = Font.Find(r"ShantellSans\[.*\]\.ttf", regex_dir="fonts")
 
-@animation((1920, 720), timeline=Timeline(100), fmt="png")
-def spacing(f):
-    background = P(f.a.r.inset(0)).f(hsl(240,0,.94)) #hsl(240,0,.94)
-    baseline = P().rect(f.a.r.inset(0,358)).f(hsl(208,0.01,.74)).translate(0,43)
-    capheight = P().rect(f.a.r.inset(0,358)).f(hsl(208,0.01,.74)).translate(0,195)
-    baseline2 = P().rect(f.a.r.inset(0,358)).f(hsl(208,0.01,.74)).translate(0,-195)
-    capheight2 = P().rect(f.a.r.inset(0,358)).f(hsl(208,0.01,.74)).translate(0,-43)
+VERSIONS = {
+    "latin": dict(text="SPACING", fontSize=225),
+    "cyrillic": dict(text="ТИПОГРАФИЯ", fontSize=160)
+} #/VERSIONS
+
+@animation((1920, 720), timeline=Timeline(100), fmt="png", bg=0.94, release=lambda a: a.export("h264", open=0))
+def spacing_ƒVERSION(f):
+    def showMetrics(p:P):
+        guide = (P()
+            .rect(f.a.r.take(p.ambit().h, "CY").inset(-10, 0))
+            .outline(4)
+            .f(.74))
+        
+        return P(guide, p)
+
     return (
-        background,
-        baseline,
-        capheight,
-        baseline2,
-        capheight2,
-        # StSt("Variable Bounce", fnt, 180
-        StSt("SPACING", fnt, 225
-        # StSt("ТИПОГРАФИЯ", fnt, 180
-            # , TRAK=0.125
+        StSt(__VERSION__["text"], fnt, __VERSION__["fontSize"]
             , wght=f.e("eeio", 1, rng=(1, 0)))
-            # , ital=f.e("eeio", 1, rng=(0, 1))
-            # , IRGL=f.e("sio", 2, rng=(0, 1))
-            # , BNCE=f.e("l", 1, rng=(0, 1)))
             .align(f.a.r)
-            .translate(0, 120)
-            .f(0),
-        # StSt("Variable Bounce", fnt, 180
-        StSt("SPACING", fnt, 225
-        # StSt("КИНЕТИЧЕСКАЯ", fnt, 180
-            # , TRAK=0.125
-            # , TRAK=0
+            .f(0)
+            .ch(showMetrics)
+            .t(0, 120),
+        StSt(__VERSION__["text"], fnt, __VERSION__["fontSize"]
             , wght=f.e("eeio", 1, rng=(1, 0))
-            # , ital=0
-            # , IRGL=f.e("sio", 2, rng=(0, 1))
-            , TRAK=f.e("sio", 2, rng=(1, 0)))
+            , SPAC=f.e("sio", 2, rng=(1, 0)))
             .align(f.a.r)
-            .translate(0, -120)
-            .f(0)),
-
-def gifski(a:animation, passes):
-    from subprocess import run
-    root = a.pass_path(f"%4d.{a.fmt}").parent.parent
-    gif = root / (a.name + ".gif")
-    run(["gifski", "--fps", str(a.timeline.fps), "-o", gif, "-W", "1080", "-Q", "70", *[p.output_path for p in passes if p.render == a]])
-
-def release(passes):
-    gifski(spacing, passes)
+            .f(0)
+            .ch(showMetrics)
+            .t(0, -120))
