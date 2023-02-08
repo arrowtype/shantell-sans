@@ -24,7 +24,7 @@ Additional support from [Google Fonts](https://fonts.google.com).
 
 Shantell Sans includes a wide array of styles, available both in a single variable font and in separate static font files.
 
-![Font styles in Shantell Sans](specimens/shantell_sans-styles.png)
+![Font styles in Shantell Sans](specimens/shantell-sans-styles.gif)
 
 ### Variable Axes
 
