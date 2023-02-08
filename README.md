@@ -40,6 +40,8 @@ Bounce      | `BNCE` | -100–100 |       0 | Emulates the bouncy baseline of ha
 Informality | `INFM` |    0–100 |       0 | Emulates the irregular shaping and proportions of handwriting.
 Spacing     | `SPAC` |    0–100 |       0 | Adds extra spacing to the left and right of each glyph.
 
+Bounce, Informality, and Spacing can be defined in the `font-variation-settings` CSS property. See [this guide to designing with custom axes](https://variablefonts.io/about-variable-fonts/#custom) for more information.
+
 ### Character set
 
 Shantell Sans supports a wide range of 380+ languages using Latin & Cyrillic scripts, throughout Europe, the Americas, central Asia, and Vietnam. 
