@@ -2,7 +2,7 @@
 
 Shantell Sans, from [Shantell Martin](https://shantellmartin.art/), is a marker-style font built for creative expression, typographic play, and animation.
 
-![Shantell Sans with Shantell Martin artwork, calling it ”A font for you”](specimens/shantell_sans-hero.png)
+![Shantell Sans with Shantell Martin artwork, calling it ”A font for you”](shantell_sans-hero_16x9.png)
 
 Shantell Sans is a project based on the artwork, handwriting, and creative philosophy of Shantell Martin. Rather than trying to exactly mimick or “replace” Shantell’s writing, Shantell Sans takes inspiration from marker-based fonts like Comic Sans & Inkwell Sans. It aims to create an authetically typographic system with a single core shape per character, in order to deliver a simple, inviting, and energetic tone while encouraging freedom and play.
 
