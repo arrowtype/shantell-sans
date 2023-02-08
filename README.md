@@ -44,7 +44,7 @@ Spacing     | `SPAC` |    0–100 |       0 | Adds extra spacing to the left and
 
 Shantell Sans supports a wide range of 380+ languages using Latin & Cyrillic scripts, throughout Europe, the Americas, central Asia, and Vietnam. 
 
-![Characters in Shantell Sans](specimens/shantell_sans-characters.png)
+![Characters in Shantell Sans](specimens/shantell_sans-character_set.png)
 
 It includes the following characters:
 
