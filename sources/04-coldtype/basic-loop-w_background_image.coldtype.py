@@ -1,4 +1,15 @@
+"""
+    Attempting to place a background image (i.e. for a border), then have an animation over top of it.
+
+    Not sure what might be the best way to do so... drawbot? An img() function? 
+    If so... where and how? I’ve experimented a bit, but haven’t yet had success.
+"""
+
+
+
 from coldtype import *
+from coldtype.drawbot import *
+from drawBot import *
 
 fnt = Font.Find(r"ShantellSans\[.*\]\.ttf", regex_dir="fonts")
 
@@ -8,16 +19,23 @@ VERSIONS = [
     dict(script="cyrillic", text="ТИПОГРАФИЯ\nКИНЕТИЧЕСКАЯ", fontSize=180),
 ] #/VERSIONS
 
+
 # @animation((1920, 720)
 @animation((1920, 1080)
     , timeline=Timeline(50)
     , bg=hsl(240,0,.94)
-    # , release=lambda x: x.gifski()
-    , release=lambda a: a.export("h264", open=0)
-    , name="kinetic4_" + __VERSION__["script"]
+    , release=lambda x: x.gifski()
+    # , release=lambda a: a.export("h264", open=0)
+    , name="handwriting_" + __VERSION__["script"]
     )
+
 def kinetic4(f):
     def styler(g):
+
+        # Trying to add a test image to the background... not yet working
+        # img(src="/Users/stephennixon/type-repos/shantell-sans/specimens/shantell_sans-hero_16x9.png", rect=Rect(0, 0, 500, 500), pattern=False, opacity=0.5)
+
+
         if g.l == 0:
             return Style(fnt
                 , fontSize=__VERSION__["fontSize"]
