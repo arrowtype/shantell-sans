@@ -18,6 +18,10 @@ Cyrillic type design by [Anya Danilova](http://anyadanilova.com).
 
 Additional support from [Google Fonts](https://fonts.google.com).
 
+### Type Specimen / Minisite
+
+Shantell Sans has a minisite at [shantellsans.com](https://shantellsans.com), with an open repo on GitHub at [arrowtype/shantell-sans-specimen](https://github.com/arrowtype/shantell-sans-specimen).
+
 ## Font Features
 
 ### Styles / Instances
