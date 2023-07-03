@@ -40,7 +40,7 @@ Axis        | Tag    |    Range | Default | Description
 :-----------|:-------|---------:|--------:|:----------------------------------------------------------------------------
 Weight      | `wght` |  300–800 |     300 | Light to ExtraBold. Can be defined with the `font-weight` CSS property.
 Italic      | `ital` |      0–1 |       0 | Upright to Italic. Can be defined with the `font-style` CSS property.
-Bounce      | `BNCE` | -100–100 |       0 | Emulates the bouncy baseline of handwriting. Note: [see below](#making-randomization-work-bounce-and-informality-axesstyles) for how to make this fully work in MS Word and Adobe Illustrator.
+Bounce      | `BNCE` | -100–100 |       0 | Emulates the bouncy baseline of handwriting. Note: see below for how to make this fully work in MS Word and Adobe Illustrator → [(“Making Randomization Work”)](#making-randomization-work-bounce-and-informality-axesstyles).
 Informality | `INFM` |    0–100 |       0 | Emulates the irregular shaping and proportions of handwriting.
 Spacing     | `SPAC` |    0–100 |       0 | Adds extra spacing to the left and right of each glyph.
 
