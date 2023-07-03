@@ -40,11 +40,11 @@ Axis        | Tag    |    Range | Default | Description
 :-----------|:-------|---------:|--------:|:----------------------------------------------------------------------------
 Weight      | `wght` |  300–800 |     300 | Light to ExtraBold. Can be defined with the `font-weight` CSS property.
 Italic      | `ital` |      0–1 |       0 | Upright to Italic. Can be defined with the `font-style` CSS property.
-Bounce      | `BNCE` | -100–100 |       0 | Emulates the bouncy baseline of handwriting, but extends this for extra fun.
+Bounce      | `BNCE` | -100–100 |       0 | Emulates the bouncy baseline of handwriting. Note: [see below](https://illustrator.uservoice.com/forums/333657-illustrator-desktop-feature-requests/suggestions/33434134-opentype-ligature-features-ccmp-and-rlig-do-not-wo) for how to make this fully work in MS Word and Adobe Illustrator.
 Informality | `INFM` |    0–100 |       0 | Emulates the irregular shaping and proportions of handwriting.
 Spacing     | `SPAC` |    0–100 |       0 | Adds extra spacing to the left and right of each glyph.
 
-Bounce, Informality, and Spacing can be defined in the `font-variation-settings` CSS property. See [this guide to designing with custom axes](https://variablefonts.io/about-variable-fonts/#custom) for more information.
+Bounce, Informality, and Spacing can be defined in the `font-variation-settings` CSS property. See [this guide to using custom axes in CSS](https://variablefonts.io/about-variable-fonts/#custom) for more information.
 
 ### Character set
 
