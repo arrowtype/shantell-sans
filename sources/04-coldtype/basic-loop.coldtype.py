@@ -3,14 +3,15 @@ from coldtype import *
 fnt = Font.Find(r"ShantellSans\[.*\]\.ttf", regex_dir="fonts")
 
 VERSIONS = [
-    # dict(script="latin", text="TYPOGRAPHY\nIS KINETIC", fontSize=225),
-    dict(script="latin", text="~HAND~\nWRITING", fontSize=250),
-    dict(script="cyrillic", text="ТИПОГРАФИЯ\nКИНЕТИЧЕСКАЯ", fontSize=180),
+    dict(script="latin", text="TYPOGRAPHY\nIS KINETIC", fontSize=400),
+    # dict(script="latin", text="~HAND~\nWRITING", fontSize=250),
+    # dict(script="cyrillic", text="ТИПОГРАФИЯ\nКИНЕТИЧЕСКАЯ", fontSize=180),
 ] #/VERSIONS
 
 # @animation((1920, 720)
-@animation((1920, 1080)
-    , timeline=Timeline(50)
+# @animation((1920, 1080) # HD
+@animation((3840, 2160) # 4K
+    , timeline=Timeline(100)
     , bg=hsl(240,0,.94)
     # , release=lambda x: x.gifski()
     , release=lambda a: a.export("h264", open=0)
@@ -36,6 +37,7 @@ def kinetic4(f):
 
     return (Glyphwise(__VERSION__["text"], styler)
         .xalign(f.a.r, tx=0)
-        .lead(60)
+        .lead(120)
         .align(f.a.r, tx=0)
-        .f(0))
+        .f(0)
+    )

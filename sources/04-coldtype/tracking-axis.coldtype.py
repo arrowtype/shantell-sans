@@ -3,11 +3,16 @@ from coldtype import *
 fnt = Font.Find(r"ShantellSans\[.*\]\.ttf", regex_dir="fonts")
 
 VERSIONS = {
-    "latin": dict(text="SPACING", fontSize=225),
+    "latin": dict(text="SPACING", fontSize=450),
     "cyrillic": dict(text="ТИПОГРАФИЯ", fontSize=160)
 } #/VERSIONS
 
-@animation((1920, 720), timeline=Timeline(100), fmt="png", bg=0.94, release=lambda a: a.export("h264", open=0))
+# @animation(rect=(1920, 720) # HD
+@animation((3840, 2160) # 4K
+    , timeline=Timeline(100)
+    , fmt="png"
+    , bg=0.94
+    , release=lambda a: a.export("h264", open=0))
 def spacing_ƒVERSION(f):
     def showMetrics(p:P):
         guide = (P()
