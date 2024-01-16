@@ -52,7 +52,7 @@ webVfName=${finalVfName/'.ttf'/'.woff2'}
 
 mkdir -p "$webDir"
 
-woff2_compress "$outputDir/$finalVfName"
+fonttools ttLib.woff2 compress $filepath "$outputDir/$finalVfName"
 
 mv "$outputDir/$webVfName" "$webDir/$webVfName"
 
