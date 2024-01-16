@@ -55,7 +55,7 @@ altsToMake += "ЂЄЅІЇЈЉЊЋЏАБВГЃДЕЀЁЖЗИЍЙӢКЌЛМНОП�
 altsToMake += "0123456789!\"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~“”‘’"
 
 # some glyphs just need to stick together or they look broken
-glyphsToDecompose = "ij oe".split()
+glyphsToDecompose = "ij oe DZcaron Dzcaron dzcaron".split()
 
 # adding because they trip up cu2qu in the build, likely because they are decomposed only in some generated sources
 glyphsToDecompose += "arrowNE arrowNW arrowSW arrowSE invertedbrevecmb bracketangleright dotbelowcmb caroncomb".split()
