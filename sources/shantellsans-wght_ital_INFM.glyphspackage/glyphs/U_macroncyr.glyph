@@ -59,7 +59,7 @@ pos = (313,215);
 ref = macroncomb;
 }
 );
-width = 619;
+width = 621;
 },
 {
 anchors = (
@@ -107,9 +107,11 @@ ref = macroncomb;
 layerId = master01;
 shapes = (
 {
+alignment = -1;
 ref = Ucyr;
 },
 {
+alignment = -1;
 pos = (372,215);
 ref = macroncomb;
 }
