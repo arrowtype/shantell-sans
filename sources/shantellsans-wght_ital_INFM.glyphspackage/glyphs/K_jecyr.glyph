@@ -71,7 +71,7 @@ pos = (309,215);
 ref = acutecomb;
 }
 );
-width = 644;
+width = 634;
 },
 {
 anchors = (
@@ -132,9 +132,11 @@ ref = acutecomb;
 layerId = master01;
 shapes = (
 {
+alignment = -1;
 ref = K;
 },
 {
+alignment = -1;
 pos = (353,215);
 ref = acutecomb;
 }

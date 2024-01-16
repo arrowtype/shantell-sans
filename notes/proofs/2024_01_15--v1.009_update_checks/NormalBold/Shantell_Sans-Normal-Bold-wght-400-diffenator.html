@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Glyphs</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style type="text/css">
+    
+
+        html{
+	  font-family: sans-serif;
+	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
+	.box-title{
+	  width: 100%;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attr-before{
+                color: red;
+                cursor: text;
+            }
+            .attr-after{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+	    @font-face{
+    src: url(old-Shantell_Sans-Normal-Bold.ttf);
+    font-family: "old font";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+
+	  
+	    @font-face{
+    src: url(new-Shantell_Sans-Normal-Bold.ttf);
+    font-family: "new font";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+
+	  
+
+	  
+	    .old-wght-400{
+    font-family: "old font", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+	  
+
+	  
+	    .new-wght-400{
+    font-family: "new font", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+	  
+
+	  
+	
+.cell{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  width: 50pt;
+  line-height: 48.0px;
+}
+.cell-word{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  line-height: 48.0px;
+}
+.cat-strings .cell {
+  clear: both;
+  position: static;
+  float: none;
+  text-align: left;
+}
+.box-title {
+  clear: both;
+}
+
+
+	   #ot-panel {
+		max-height: 400px;
+		overflow-y: scroll;
+		background: white;
+		padding: 10px;
+		display: none;
+	   }
+    </style>
+</head>
+<body>
+    <div id="nav">
+		
+			<div class="nav-item" id="font-toggle">old</div>
+		
+			<div class="nav-item" id="ot-button">OT features</div>
+			<div id="ot-panel">
+			</div>
+		
+	</div>
+    <div id="content">
+	<h2>
+<b>Diffenator</b>
+</h2>
+	
+  
+    <div class="box">
+    <div class="box-title">Tables</div>
+      <div data-path="root" data-open="0" id="difftable"></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+      <div class="box">
+        <div class="box-title">Modified encoded Glyphs</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ǆ<br>
+        <span class="tooltiptext">
+            name: LATIN SMALL LETTER DZ WITH CARON<br>
+            unicode: U+01C6<br>
+            changed pixels: 2.90%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ǅ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER D WITH SMALL LETTER Z WITH CARON<br>
+            unicode: U+01C5<br>
+            changed pixels: 2.76%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        Ǆ<br>
+        <span class="tooltiptext">
+            name: LATIN CAPITAL LETTER DZ WITH CARON<br>
+            unicode: U+01C4<br>
+            changed pixels: 2.65%
+        </span>
+    </div>
+</div>
+            </div>
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ₱<br>
+        <span class="tooltiptext">
+            name: PESO SIGN<br>
+            unicode: U+20B1<br>
+            changed pixels: 2.29%
+        </span>
+    </div>
+</div>
+            </div>
+          
+          </div>
+      </div>
+    
+
+    
+      <div class="box">
+        <div class="box-title">Misshapen Common words</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+        </div>
+      </div>
+    
+      <div class="box">
+        <div class="box-title">Misshapen Latin words</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+        </div>
+      </div>
+    
+      <div class="box">
+        <div class="box-title">Misshapen Cyrillic words</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+        </div>
+      </div>
+    
+    
+    <div class="box">
+      <div class="box-title">Misshapen user strings</div>
+      <div class="box-text old-wght-400" style="font-size: 32pt">
+        
+      </div>
+    </div>
+    
+
+    
+
+    </div>
+  
+<script>var fontdiff = {"vmtx": {"metrics": {"uni01C6": {"1": [-30, 211]}, "uni01C5": {"1": [20, 211]}}}, "glyf": {"glyphs": {"uni043F": {"Contour: 0": {"Node: 31": {"y": [298, 297]}}}, "uni0401": {"Contour: 2": {"Node: 74": {"x": [417, 418]}}}, "uni0428": {"Contour: 0": {"Node: 23": {"y": [173, 172]}}}, "uni0459": {"Contour: 0": {"Node: 1": {"x": [63, 64]}}}, "guillemotleft": {"Contour: 0": {"Node: 12": {"x": [482, 483]}}}, "uni0432": {"Contour: 0": {"Node: 29": {"x": [305, 304]}}}, "uni0407": {"Contour: 2": {"Node: 60": {"x": [459, 460]}}}, "uni20B1": {"Contour: 2": {"Node: 88": {"x": [399, 462], "on": [0, 1], "y": [427, 431]}, "Node: 86": {"x": [461, 458], "on": [0, 1], "y": [408, 389]}, "Node: 78": {"x": [240, 234], "on": [0, 1], "y": [385, 434]}, "Node: 89": {"x": [302, 410], "y": [433, 430]}, "Node: 76": {"x": [234, 266], "y": [443, 428]}, "Node: 81": {"x": [319, 241], "on": [0, 1], "y": [391, 379]}, "Node: 77": {"x": [235, 246], "y": [424, 428]}, "Node: 84": {"x": [424, 291], "y": [391, 383]}, "Node: 74": {"x": [259, null], "y": [436, null], "on": [1, null]}, "Node: 75": {"x": [243, null], "y": [437, null], "on": [0, null]}, "Node: 82": {"x": [347, 248], "on": [1, 0], "y": [391, 383]}, "Node: 85": {"x": [458, 400], "on": [1, 0], "y": [391, 387]}, "Node: 90": {"x": [null, 312], "y": [null, 428], "on": [null, 0]}, "Node: 83": {"x": [365, 259], "on": [0, 1], "y": [391, 383]}, "Node: 79": {"x": [244, 235], "on": [1, 0], "y": [365, 420]}, "Node: 87": {"on": [1, 0], "y": [426, 409]}, "Node: 80": {"x": [264, 239], "y": [374, 393]}}, "Contour: 3": {"Node: 98": {"x": [334, 307], "on": [1, 0]}, "Node: 91": {"x": [261, 288], "on": [0, 1], "y": [322, 308]}, "Node: 95": {"x": [263, 260], "on": [1, 0], "y": [266, 281]}, "Node: 93": {"x": [254, 252], "on": [0, 1], "y": [315, 321]}, "Node: 92": {"x": [250, 266], "on": [1, 0], "y": [331, 313]}, "Node: 101": {"x": [370, 411], "on": [0, 1], "y": [291, 289]}, "Node: 103": {"x": [null, 313], "y": [null, 304], "on": [null, 0]}, "Node: 90": {"x": [280, null], "y": [316, null], "on": [1, null]}, "Node: 97": {"x": [307, 274], "y": [256, 263]}, "Node: 96": {"x": [274, 263], "on": [0, 1], "y": [263, 266]}, "Node: 100": {"x": [405, 378], "on": [1, 0], "y": [284, 256]}, "Node: 102": {"x": [304, 376], "y": [308, 294]}, "Node: 99": {"x": [374, 334], "on": [0, 1]}, "Node: 94": {"x": [260, 255], "y": [283, 308]}}, "Contour: 0": {"Node: 59": {"x": [281, 338], "y": [74, 128]}, "Node: 37": {"x": [609, 640], "on": [1, 0], "y": [537, 545]}, "Node: 41": {"x": [656, 651], "y": [457, 433]}, "Node: 34": {"x": [576, 572], "y": [620, 624]}, "Node: 53": {"x": [545, 641], "y": [217, 284]}, "Node: 45": {"x": [618, 614], "y": [388, 413]}, "Node: 50": {"x": [650, 679], "y": [326, 369]}, "Node: 54": {"x": [420, 600], "on": [0, 1], "y": [128, 282]}, "Node: 39": {"x": [675, 679], "on": [0, 1], "y": [503, 489]}, "Node: 35": {"x": [601, 599], "y": [538, 545]}, "Node: 33": {"x": [441, 439]}, "Node: 64": {"x": [null, 281], "y": [null, 36], "on": [null, 0]}, "Node: 42": {"x": [615, 619], "y": [440, 433]}, "Node: 38": {"x": [645, 679], "y": [535, 513]}, "Node: 60": {"x": [281, 307], "y": [36, 128]}, "Node: 40": {"x": [672, 679], "on": [1, 0], "y": [483, 464]}, "Node: 52": {"x": [579, 679], "on": [1, 0], "y": [286, 324]}, "Node: 51": {"x": [605, 679], "on": [0, 1], "y": [296, 352]}, "Node: 49": {"x": [671, 652], "on": [1, 0], "y": [344, 393]}, "Node: 65": {"x": [null, 254], "y": [null, -10], "on": [null, 0]}, "Node: 46": {"x": [625, 611], "y": [388, 393]}, "Node: 48": {"x": [675, 618], "on": [0, 1], "y": [359, 393]}, "Node: 56": {"x": [307, 576], "on": [0, 1], "y": [128, 281]}, "Node: 58": {"x": [281, 419], "y": [105, 128]}, "Node: 55": {"x": [338, 588], "on": [1, 0], "y": [128, 281]}, "Node: 44": {"x": [611, 614], "y": [389, 433]}, "Node: 57": {"x": [279, 542], "on": [1, 0], "y": [135, 214]}, "Node: 63": {"x": [null, 281], "y": [null, 74], "on": [null, 1]}, "Node: 43": {"x": [614, 616], "y": [414, 433]}, "Node: 62": {"x": [null, 281], "y": [null, 105], "on": [null, 0]}, "Node: 47": {"x": [656, 614], "y": [385, 393]}, "Node: 36": {"x": [606, 599], "on": [0, 1], "y": [538, 545]}, "Node: 61": {"x": [254, 279], "on": [0, 1], "y": [-10, 135]}}, "Contour: 1": {"Node: 70": {"x": [406, 238], "y": [517, 494]}, "Node: 71": {"x": [442, 242], "y": [522, 495]}, "Node: 72": {"x": [426, 271], "y": [546, 499]}, "Node: 66": {"x": [254, 342], "on": [0, 1], "y": [481, 570]}, "Node: 63": {"x": [293, null], "y": [570, null], "on": [0, null]}, "Node: 74": {"x": [null, 439], "y": [null, 527], "on": [null, 1]}, "Node: 69": {"x": [346, 235], "on": [0, 1], "y": [506, 493]}, "Node: 75": {"x": [null, 407], "y": [null, 570], "on": [null, 0]}, "Node: 67": {"x": [311, 299], "y": [501, 570]}, "Node: 64": {"x": [235, null], "y": [520, null], "on": [0, null]}, "Node: 65": {"x": [233, null], "y": [472, null], "on": [1, null]}, "Node: 68": {"x": [330, 243], "on": [1, 0], "y": [503, 530]}, "Node: 73": {"x": [374, 381], "y": [570, 518]}, "Node: 62": {"x": [342, null], "y": [570, null], "on": [1, null]}}}, "uni20BA": {"Contour: 0": {"Node: 41": {"y": [492, 493]}}}, "section": {"Contour: 0": {"Node: 33": {"x": [500, 499]}}}, "uni04D6": {"Contour: 1": {"Node: 73": {"x": [417, 418]}}}, "perthousand": {"Contour: 0": {"Node: 7": {"x": [167, 166]}}, "Contour: 1": {"Node: 33": {"x": [803, 802]}}}, "ordmasculine": {"Contour: 1": {"Node: 28": {"x": [246, 247]}}}, "uni20A8": {"Contour: 0": {"Node: 11": {"x": [69, 70]}}}, "braceright": {"Contour: 0": {"Node: 40": {"y": [464, 463]}}}, "y": {"Contour: 0": {"Node: 25": {"x": [101, 100]}}}, "ae": {"Contour: 0": {"Node: 39": {"x": [654, 653]}}}, "uni01C6": {"Contour: 2": {"Node: 68": {"x": [null, 902], "y": [null, -10], "on": [null, 1]}, "Node: 69": {"x": [null, 835], "y": [null, -10], "on": [null, 0]}, "Node: 70": {"x": [null, 760], "y": [null, 27], "on": [null, 0]}, "Node: 71": {"x": [null, 731], "y": [null, 87], "on": [null, 0]}, "Node: 72": {"x": [null, 731], "y": [null, 120], "on": [null, 1]}, "Node: 73": {"x": [null, 731], "y": [null, 165], "on": [null, 0]}, "Node: 74": {"x": [null, 765], "y": [null, 209], "on": [null, 0]}, "Node: 75": {"x": [null, 790], "y": [null, 217], "on": [null, 1]}, "Node: 76": {"x": [null, 905], "y": [null, 254], "on": [null, 0]}, "Node: 77": {"x": [null, 1023], "y": [null, 327], "on": [null, 0]}, "Node: 78": {"x": [null, 1046], "y": [null, 366], "on": [null, 1]}, "Node: 79": {"x": [null, 1026], "y": [null, 370], "on": [null, 0]}, "Node: 80": {"x": [null, 989], "y": [null, 370], "on": [null, 1]}, "Node: 81": {"x": [null, 938], "y": [null, 370], "on": [null, 0]}, "Node: 82": {"x": [null, 865], "y": [null, 357], "on": [null, 0]}, "Node: 83": {"x": [null, 815], "y": [null, 345], "on": [null, 0]}, "Node: 84": {"x": [null, 798], "y": [null, 345], "on": [null, 1]}, "Node: 85": {"x": [null, 781], "y": [null, 345], "on": [null, 0]}, "Node: 86": {"x": [null, 750], "y": [null, 372], "on": [null, 0]}, "Node: 87": {"x": [null, 730], "y": [null, 415], "on": [null, 0]}, "Node: 88": {"x": [null, 730], "y": [null, 438], "on": [null, 1]}, "Node: 89": {"x": [null, 730], "y": [null, 461], "on": [null, 0]}, "Node: 90": {"x": [null, 749], "y": [null, 489], "on": [null, 0]}, "Node: 91": {"x": [null, 776], "y": [null, 496], "on": [null, 1]}, "Node: 92": {"x": [null, 831], "y": [null, 506], "on": [null, 0]}, "Node: 93": {"x": [null, 949], "y": [null, 518], "on": [null, 0]}, "Node: 94": {"x": [null, 1004], "y": [null, 518], "on": [null, 1]}, "Node: 95": {"x": [null, 1080], "y": [null, 518], "on": [null, 0]}, "Node: 96": {"x": [null, 1167], "y": [null, 477], "on": [null, 0]}, "Node: 97": {"x": [null, 1202], "y": [null, 413], "on": [null, 0]}, "Node: 98": {"x": [null, 1202], "y": [null, 377], "on": [null, 1]}, "Node: 99": {"x": [null, 1202], "y": [null, 347], "on": [null, 0]}, "Node: 100": {"x": [null, 1150], "y": [null, 265], "on": [null, 0]}, "Node: 101": {"x": [null, 1023], "y": [null, 181], "on": [null, 0]}, "Node: 102": {"x": [null, 912], "y": [null, 147], "on": [null, 1]}, "Node: 103": {"x": [null, 915], "y": [null, 136], "on": [null, 0]}, "Node: 104": {"x": [null, 928], "y": [null, 136], "on": [null, 1]}, "Node: 105": {"x": [null, 984], "y": [null, 136], "on": [null, 0]}, "Node: 106": {"x": [null, 1091], "y": [null, 151], "on": [null, 0]}, "Node: 107": {"x": [null, 1159], "y": [null, 151], "on": [null, 1]}, "Node: 108": {"x": [null, 1204], "y": [null, 151], "on": [null, 0]}, "Node: 109": {"x": [null, 1255], "y": [null, 94], "on": [null, 0]}, "Node: 110": {"x": [null, 1255], "y": [null, 54], "on": [null, 1]}, "Node: 111": {"x": [null, 1255], "y": [null, 30], "on": [null, 0]}, "Node: 112": {"x": [null, 1227], "y": [null, 0], "on": [null, 0]}, "Node: 113": {"x": [null, 1197], "y": [null, 0], "on": [null, 1]}, "Node: 114": {"x": [null, 1157], "y": [null, 0], "on": [null, 0]}, "Node: 115": {"x": [null, 1056], "y": [null, -5], "on": [null, 0]}, "Node: 116": {"x": [null, 949], "y": [null, -10], "on": [null, 0]}}, "Contour: 1": {"Node: 29": {"x": [null, 288], "y": [null, -9], "on": [null, 1]}, "Node: 30": {"x": [null, 214], "y": [null, -9], "on": [null, 0]}, "Node: 31": {"x": [null, 101], "y": [null, 70], "on": [null, 0]}, "Node: 32": {"x": [null, 37], "y": [null, 202], "on": [null, 0]}, "Node: 33": {"x": [null, 37], "y": [null, 279], "on": [null, 1]}, "Node: 34": {"x": [null, 37], "y": [null, 352], "on": [null, 0]}, "Node: 35": {"x": [null, 98], "y": [null, 461], "on": [null, 0]}, "Node: 36": {"x": [null, 208], "y": [null, 521], "on": [null, 0]}, "Node: 37": {"x": [null, 281], "y": [null, 521], "on": [null, 1]}, "Node: 38": {"x": [null, 340], "y": [null, 521], "on": [null, 0]}, "Node: 39": {"x": [null, 423], "y": [null, 484], "on": [null, 0]}, "Node: 40": {"x": [null, 442], "y": [null, 450], "on": [null, 1]}, "Node: 41": {"x": [null, 448], "y": [null, 501], "on": [null, 0]}, "Node: 42": {"x": [null, 455], "y": [null, 618], "on": [null, 0]}, "Node: 43": {"x": [null, 455], "y": [null, 684], "on": [null, 1]}, "Node: 44": {"x": [null, 455], "y": [null, 721], "on": [null, 0]}, "Node: 45": {"x": [null, 490], "y": [null, 760], "on": [null, 0]}, "Node: 46": {"x": [null, 519], "y": [null, 760], "on": [null, 1]}, "Node: 47": {"x": [null, 564], "y": [null, 760], "on": [null, 0]}, "Node: 48": {"x": [null, 617], "y": [null, 684], "on": [null, 0]}, "Node: 49": {"x": [null, 613], "y": [null, 612], "on": [null, 1]}, "Node: 50": {"x": [null, 610], "y": [null, 546], "on": [null, 0]}, "Node: 51": {"x": [null, 592], "y": [null, 446], "on": [null, 0]}, "Node: 52": {"x": [null, 578], "y": [null, 353], "on": [null, 0]}, "Node: 53": {"x": [null, 578], "y": [null, 297], "on": [null, 1]}, "Node: 54": {"x": [null, 578], "y": [null, 236], "on": [null, 0]}, "Node: 55": {"x": [null, 593], "y": [null, 163], "on": [null, 0]}, "Node: 56": {"x": [null, 616], "y": [null, 124], "on": [null, 0]}, "Node: 57": {"x": [null, 639], "y": [null, 102], "on": [null, 0]}, "Node: 58": {"x": [null, 654], "y": [null, 80], "on": [null, 0]}, "Node: 59": {"x": [null, 654], "y": [null, 61], "on": [null, 1]}, "Node: 60": {"x": [null, 654], "y": [null, 25], "on": [null, 0]}, "Node: 61": {"x": [null, 609], "y": [null, -18], "on": [null, 0]}, "Node: 62": {"x": [null, 572], "y": [null, -18], "on": [null, 1]}, "Node: 63": {"x": [null, 533], "y": [null, -18], "on": [null, 0]}, "Node: 64": {"x": [null, 472], "y": [null, 39], "on": [null, 0]}, "Node: 65": {"x": [null, 454], "y": [null, 83], "on": [null, 1]}, "Node: 66": {"x": [null, 416], "y": [null, 33], "on": [null, 0]}, "Node: 67": {"x": [null, 327], "y": [null, -9], "on": [null, 0]}}, "Component 0: d": {"glyphName": ["d", null], "x": [0, null], "y": [0, null]}, "Component 2: uni030C": {"glyphName": ["uni030C", null], "x": [519, null], "y": [241, null]}, "Contour: 0": {"Node: 0": {"x": [null, 1100], "y": [null, 809], "on": [null, 1]}, "Node: 1": {"x": [null, 1129], "y": [null, 809], "on": [null, 0]}, "Node: 2": {"x": [null, 1176], "y": [null, 766], "on": [null, 0]}, "Node: 3": {"x": [null, 1176], "y": [null, 744], "on": [null, 1]}, "Node: 4": {"x": [null, 1176], "y": [null, 734], "on": [null, 0]}, "Node: 5": {"x": [null, 1167], "y": [null, 713], "on": [null, 0]}, "Node: 6": {"x": [null, 1130], "y": [null, 676], "on": [null, 0]}, "Node: 7": {"x": [null, 1089], "y": [null, 643], "on": [null, 1]}, "Node: 8": {"x": [null, 1060], "y": [null, 622], "on": [null, 0]}, "Node: 9": {"x": [null, 1022], "y": [null, 596], "on": [null, 0]}, "Node: 10": {"x": [null, 987], "y": [null, 584], "on": [null, 0]}, "Node: 11": {"x": [null, 963], "y": [null, 584], "on": [null, 1]}, "Node: 12": {"x": [null, 938], "y": [null, 584], "on": [null, 0]}, "Node: 13": {"x": [null, 899], "y": [null, 608], "on": [null, 0]}, "Node: 14": {"x": [null, 880], "y": [null, 633], "on": [null, 1]}, "Node: 15": {"x": [null, 858], "y": [null, 662], "on": [null, 0]}, "Node: 16": {"x": [null, 818], "y": [null, 695], "on": [null, 0]}, "Node: 17": {"x": [null, 788], "y": [null, 717], "on": [null, 0]}, "Node: 18": {"x": [null, 770], "y": [null, 740], "on": [null, 0]}, "Node: 19": {"x": [null, 770], "y": [null, 758], "on": [null, 1]}, "Node: 20": {"x": [null, 770], "y": [null, 780], "on": [null, 0]}, "Node: 21": {"x": [null, 809], "y": [null, 805], "on": [null, 0]}, "Node: 22": {"x": [null, 844], "y": [null, 805], "on": [null, 1]}, "Node: 23": {"x": [null, 875], "y": [null, 805], "on": [null, 0]}, "Node: 24": {"x": [null, 938], "y": [null, 772], "on": [null, 0]}, "Node: 25": {"x": [null, 980], "y": [null, 725], "on": [null, 1]}, "Node: 26": {"x": [null, 1020], "y": [null, 765], "on": [null, 0]}, "Node: 27": {"x": [null, 1063], "y": [null, 800], "on": [null, 0]}, "Node: 28": {"x": [null, 1088], "y": [null, 809], "on": [null, 0]}}, "Contour: 3": {"Node: 117": {"x": [null, 197], "y": [null, 279], "on": [null, 1]}, "Node: 118": {"x": [null, 197], "y": [null, 246], "on": [null, 0]}, "Node: 119": {"x": [null, 224], "y": [null, 184], "on": [null, 0]}, "Node: 120": {"x": [null, 263], "y": [null, 144], "on": [null, 0]}, "Node: 121": {"x": [null, 282], "y": [null, 144], "on": [null, 1]}, "Node: 122": {"x": [null, 327], "y": [null, 144], "on": [null, 0]}, "Node: 123": {"x": [null, 399], "y": [null, 245], "on": [null, 0]}, "Node: 124": {"x": [null, 422], "y": [null, 342], "on": [null, 1]}, "Node: 125": {"x": [null, 408], "y": [null, 342], "on": [null, 0]}, "Node: 126": {"x": [null, 386], "y": [null, 355], "on": [null, 0]}, "Node: 127": {"x": [null, 351], "y": [null, 368], "on": [null, 0]}, "Node: 128": {"x": [null, 317], "y": [null, 368], "on": [null, 1]}, "Node: 129": {"x": [null, 262], "y": [null, 368], "on": [null, 0]}, "Node: 130": {"x": [null, 197], "y": [null, 321], "on": [null, 0]}}, "Component 1: z": {"glyphName": ["z", null], "x": [681, null], "y": [0, null]}}, "uni01C4": {"Contour: 2": {"Node: 84": {"x": [null, 224], "y": [null, -10], "on": [null, 1]}, "Node: 85": {"x": [null, 159], "y": [null, -10], "on": [null, 0]}, "Node: 86": {"x": [null, 93], "y": [null, 105], "on": [null, 0]}, "Node: 87": {"x": [null, 93], "y": [null, 195], "on": [null, 1]}, "Node: 88": {"x": [null, 93], "y": [null, 280], "on": [null, 0]}, "Node: 89": {"x": [null, 96], "y": [null, 435], "on": [null, 0]}, "Node: 90": {"x": [null, 100], "y": [null, 516], "on": [null, 1]}, "Node: 91": {"x": [null, 60], "y": [null, 523], "on": [null, 0]}, "Node: 92": {"x": [null, 18], "y": [null, 578], "on": [null, 0]}, "Node: 93": {"x": [null, 18], "y": [null, 609], "on": [null, 1]}, "Node: 94": {"x": [null, 18], "y": [null, 626], "on": [null, 0]}, "Node: 95": {"x": [null, 37], "y": [null, 659], "on": [null, 0]}, "Node: 96": {"x": [null, 59], "y": [null, 665], "on": [null, 1]}, "Node: 97": {"x": [null, 93], "y": [null, 675], "on": [null, 0]}, "Node: 98": {"x": [null, 190], "y": [null, 695], "on": [null, 0]}, "Node: 99": {"x": [null, 298], "y": [null, 709], "on": [null, 0]}, "Node: 100": {"x": [null, 349], "y": [null, 709], "on": [null, 1]}, "Node: 101": {"x": [null, 450], "y": [null, 709], "on": [null, 0]}, "Node: 102": {"x": [null, 592], "y": [null, 634], "on": [null, 0]}, "Node: 103": {"x": [null, 665], "y": [null, 507], "on": [null, 0]}, "Node: 104": {"x": [null, 665], "y": [null, 427], "on": [null, 1]}, "Node: 105": {"x": [null, 665], "y": [null, 351], "on": [null, 0]}, "Node: 106": {"x": [null, 613], "y": [null, 218], "on": [null, 0]}, "Node: 107": {"x": [null, 524], "y": [null, 110], "on": [null, 0]}, "Node: 108": {"x": [null, 410], "y": [null, 32], "on": [null, 0]}, "Node: 109": {"x": [null, 285], "y": [null, -10], "on": [null, 0]}}, "Component 0: D": {"glyphName": ["D", null], "x": [0, null], "y": [0, null]}, "Component 2: uni030C": {"glyphName": ["uni030C", null], "x": [377, null], "y": [191, null]}, "Contour: 0": {"Node: 0": {"x": [null, 1134], "y": [null, 1000], "on": [null, 1]}, "Node: 1": {"x": [null, 1163], "y": [null, 1000], "on": [null, 0]}, "Node: 2": {"x": [null, 1211], "y": [null, 957], "on": [null, 0]}, "Node: 3": {"x": [null, 1211], "y": [null, 935], "on": [null, 1]}, "Node: 4": {"x": [null, 1211], "y": [null, 925], "on": [null, 0]}, "Node: 5": {"x": [null, 1201], "y": [null, 904], "on": [null, 0]}, "Node: 6": {"x": [null, 1164], "y": [null, 867], "on": [null, 0]}, "Node: 7": {"x": [null, 1123], "y": [null, 834], "on": [null, 1]}, "Node: 8": {"x": [null, 1094], "y": [null, 813], "on": [null, 0]}, "Node: 9": {"x": [null, 1056], "y": [null, 787], "on": [null, 0]}, "Node: 10": {"x": [null, 1021], "y": [null, 775], "on": [null, 0]}, "Node: 11": {"x": [null, 997], "y": [null, 775], "on": [null, 1]}, "Node: 12": {"x": [null, 972], "y": [null, 775], "on": [null, 0]}, "Node: 13": {"x": [null, 933], "y": [null, 799], "on": [null, 0]}, "Node: 14": {"x": [null, 915], "y": [null, 824], "on": [null, 1]}, "Node: 15": {"x": [null, 892], "y": [null, 853], "on": [null, 0]}, "Node: 16": {"x": [null, 853], "y": [null, 886], "on": [null, 0]}, "Node: 17": {"x": [null, 822], "y": [null, 908], "on": [null, 0]}, "Node: 18": {"x": [null, 805], "y": [null, 931], "on": [null, 0]}, "Node: 19": {"x": [null, 805], "y": [null, 949], "on": [null, 1]}, "Node: 20": {"x": [null, 805], "y": [null, 971], "on": [null, 0]}, "Node: 21": {"x": [null, 843], "y": [null, 996], "on": [null, 0]}, "Node: 22": {"x": [null, 878], "y": [null, 996], "on": [null, 1]}, "Node: 23": {"x": [null, 910], "y": [null, 996], "on": [null, 0]}, "Node: 24": {"x": [null, 972], "y": [null, 963], "on": [null, 0]}, "Node: 25": {"x": [null, 1014], "y": [null, 916], "on": [null, 1]}, "Node: 26": {"x": [null, 1054], "y": [null, 956], "on": [null, 0]}, "Node: 27": {"x": [null, 1097], "y": [null, 991], "on": [null, 0]}, "Node: 28": {"x": [null, 1122], "y": [null, 1000], "on": [null, 0]}}, "Component 1: Z": {"glyphName": ["Z", null], "x": [682, null], "y": [0, null]}, "Contour: 3": {"Node: 110": {"x": [null, 248], "y": [null, 214], "on": [null, 1]}, "Node: 111": {"x": [null, 248], "y": [null, 194], "on": [null, 0]}, "Node: 112": {"x": [null, 252], "y": [null, 161], "on": [null, 0]}, "Node: 113": {"x": [null, 257], "y": [null, 145], "on": [null, 1]}, "Node: 114": {"x": [null, 339], "y": [null, 169], "on": [null, 0]}, "Node: 115": {"x": [null, 451], "y": [null, 254], "on": [null, 0]}, "Node: 116": {"x": [null, 508], "y": [null, 362], "on": [null, 0]}, "Node: 117": {"x": [null, 508], "y": [null, 420], "on": [null, 1]}, "Node: 118": {"x": [null, 508], "y": [null, 482], "on": [null, 0]}, "Node: 119": {"x": [null, 436], "y": [null, 554], "on": [null, 0]}, "Node: 120": {"x": [null, 353], "y": [null, 554], "on": [null, 1]}, "Node: 121": {"x": [null, 322], "y": [null, 554], "on": [null, 0]}, "Node: 122": {"x": [null, 271], "y": [null, 548], "on": [null, 0]}, "Node: 123": {"x": [null, 251], "y": [null, 544], "on": [null, 1]}, "Node: 124": {"x": [null, 252], "y": [null, 538], "on": [null, 0]}, "Node: 125": {"x": [null, 253], "y": [null, 532], "on": [null, 1]}, "Node: 126": {"x": [null, 256], "y": [null, 462], "on": [null, 0]}, "Node: 127": {"x": [null, 248], "y": [null, 295], "on": [null, 0]}}, "Contour: 1": {"Node: 29": {"x": [null, 857], "y": [null, -10], "on": [null, 1]}, "Node: 30": {"x": [null, 784], "y": [null, -10], "on": [null, 0]}, "Node: 31": {"x": [null, 726], "y": [null, 58], "on": [null, 0]}, "Node: 32": {"x": [null, 726], "y": [null, 107], "on": [null, 1]}, "Node: 33": {"x": [null, 726], "y": [null, 139], "on": [null, 0]}, "Node: 34": {"x": [null, 744], "y": [null, 202], "on": [null, 0]}, "Node: 35": {"x": [null, 795], "y": [null, 271], "on": [null, 0]}, "Node: 36": {"x": [null, 892], "y": [null, 354], "on": [null, 0]}, "Node: 37": {"x": [null, 970], "y": [null, 406], "on": [null, 1]}, "Node: 38": {"x": [null, 1027], "y": [null, 444], "on": [null, 0]}, "Node: 39": {"x": [null, 1088], "y": [null, 496], "on": [null, 0]}, "Node: 40": {"x": [null, 1112], "y": [null, 535], "on": [null, 0]}, "Node: 41": {"x": [null, 1115], "y": [null, 553], "on": [null, 1]}, "Node: 42": {"x": [null, 1097], "y": [null, 558], "on": [null, 0]}, "Node: 43": {"x": [null, 1062], "y": [null, 558], "on": [null, 1]}, "Node: 44": {"x": [null, 1006], "y": [null, 558], "on": [null, 0]}, "Node: 45": {"x": [null, 918], "y": [null, 546], "on": [null, 0]}, "Node: 46": {"x": [null, 847], "y": [null, 533], "on": [null, 0]}, "Node: 47": {"x": [null, 818], "y": [null, 533], "on": [null, 1]}, "Node: 48": {"x": [null, 780], "y": [null, 533], "on": [null, 0]}, "Node: 49": {"x": [null, 725], "y": [null, 576], "on": [null, 0]}, "Node: 50": {"x": [null, 725], "y": [null, 616], "on": [null, 1]}, "Node: 51": {"x": [null, 725], "y": [null, 642], "on": [null, 0]}, "Node: 52": {"x": [null, 755], "y": [null, 677], "on": [null, 0]}, "Node: 53": {"x": [null, 783], "y": [null, 682], "on": [null, 1]}, "Node: 54": {"x": [null, 855], "y": [null, 694], "on": [null, 0]}, "Node: 55": {"x": [null, 995], "y": [null, 710], "on": [null, 0]}, "Node: 56": {"x": [null, 1078], "y": [null, 710], "on": [null, 1]}, "Node: 57": {"x": [null, 1178], "y": [null, 710], "on": [null, 0]}, "Node: 58": {"x": [null, 1272], "y": [null, 635], "on": [null, 0]}, "Node: 59": {"x": [null, 1272], "y": [null, 568], "on": [null, 1]}, "Node: 60": {"x": [null, 1272], "y": [null, 520], "on": [null, 0]}, "Node: 61": {"x": [null, 1236], "y": [null, 439], "on": [null, 0]}, "Node: 62": {"x": [null, 1147], "y": [null, 352], "on": [null, 0]}, "Node: 63": {"x": [null, 1066], "y": [null, 296], "on": [null, 1]}, "Node: 64": {"x": [null, 1008], "y": [null, 257], "on": [null, 0]}, "Node: 65": {"x": [null, 939], "y": [null, 203], "on": [null, 0]}, "Node: 66": {"x": [null, 902], "y": [null, 162], "on": [null, 0]}, "Node: 67": {"x": [null, 895], "y": [null, 143], "on": [null, 1]}, "Node: 68": {"x": [null, 906], "y": [null, 142], "on": [null, 0]}, "Node: 69": {"x": [null, 922], "y": [null, 142], "on": [null, 1]}, "Node: 70": {"x": [null, 964], "y": [null, 142], "on": [null, 0]}, "Node: 71": {"x": [null, 1067], "y": [null, 153], "on": [null, 0]}, "Node: 72": {"x": [null, 1121], "y": [null, 153], "on": [null, 1]}, "Node: 73": {"x": [null, 1295], "y": [null, 153], "on": [null, 0]}, "Node: 74": {"x": [null, 1295], "y": [null, 55], "on": [null, 1]}, "Node: 75": {"x": [null, 1295], "y": [null, 26], "on": [null, 0]}, "Node: 76": {"x": [null, 1260], "y": [null, -7], "on": [null, 0]}, "Node: 77": {"x": [null, 1233], "y": [null, -7], "on": [null, 1]}, "Node: 78": {"x": [null, 1212], "y": [null, -7], "on": [null, 0]}, "Node: 79": {"x": [null, 1177], "y": [null, -3], "on": [null, 0]}, "Node: 80": {"x": [null, 1134], "y": [null, 0], "on": [null, 0]}, "Node: 81": {"x": [null, 1101], "y": [null, 0], "on": [null, 1]}, "Node: 82": {"x": [null, 1033], "y": [null, 0], "on": [null, 0]}, "Node: 83": {"x": [null, 911], "y": [null, -10], "on": [null, 0]}}}, "C": {"Contour: 0": {"Node: 1": {"x": [241, 242]}}}, "uniE132": {"Contour: 1": {"Node: 26": {"x": [438, 439]}}}, "uni042E": {"Contour: 0": {"Node: 34": {"x": [214, 213]}}}, "uni01C5": {"Contour: 2": {"Node: 55": {"x": [null, 248], "y": [null, 214], "on": [null, 1]}, "Node: 56": {"x": [null, 248], "y": [null, 194], "on": [null, 0]}, "Node: 57": {"x": [null, 252], "y": [null, 161], "on": [null, 0]}, "Node: 58": {"x": [null, 257], "y": [null, 145], "on": [null, 1]}, "Node: 59": {"x": [null, 339], "y": [null, 169], "on": [null, 0]}, "Node: 60": {"x": [null, 451], "y": [null, 254], "on": [null, 0]}, "Node: 61": {"x": [null, 508], "y": [null, 362], "on": [null, 0]}, "Node: 62": {"x": [null, 508], "y": [null, 420], "on": [null, 1]}, "Node: 63": {"x": [null, 508], "y": [null, 482], "on": [null, 0]}, "Node: 64": {"x": [null, 436], "y": [null, 554], "on": [null, 0]}, "Node: 65": {"x": [null, 353], "y": [null, 554], "on": [null, 1]}, "Node: 66": {"x": [null, 322], "y": [null, 554], "on": [null, 0]}, "Node: 67": {"x": [null, 271], "y": [null, 548], "on": [null, 0]}, "Node: 68": {"x": [null, 251], "y": [null, 544], "on": [null, 1]}, "Node: 69": {"x": [null, 252], "y": [null, 538], "on": [null, 0]}, "Node: 70": {"x": [null, 253], "y": [null, 532], "on": [null, 1]}, "Node: 71": {"x": [null, 256], "y": [null, 462], "on": [null, 0]}, "Node: 72": {"x": [null, 248], "y": [null, 295], "on": [null, 0]}}, "Contour: 1": {"Node: 29": {"x": [null, 224], "y": [null, -10], "on": [null, 1]}, "Node: 30": {"x": [null, 159], "y": [null, -10], "on": [null, 0]}, "Node: 31": {"x": [null, 93], "y": [null, 105], "on": [null, 0]}, "Node: 32": {"x": [null, 93], "y": [null, 195], "on": [null, 1]}, "Node: 33": {"x": [null, 93], "y": [null, 280], "on": [null, 0]}, "Node: 34": {"x": [null, 96], "y": [null, 435], "on": [null, 0]}, "Node: 35": {"x": [null, 100], "y": [null, 516], "on": [null, 1]}, "Node: 36": {"x": [null, 60], "y": [null, 523], "on": [null, 0]}, "Node: 37": {"x": [null, 18], "y": [null, 578], "on": [null, 0]}, "Node: 38": {"x": [null, 18], "y": [null, 609], "on": [null, 1]}, "Node: 39": {"x": [null, 18], "y": [null, 626], "on": [null, 0]}, "Node: 40": {"x": [null, 37], "y": [null, 659], "on": [null, 0]}, "Node: 41": {"x": [null, 59], "y": [null, 665], "on": [null, 1]}, "Node: 42": {"x": [null, 93], "y": [null, 675], "on": [null, 0]}, "Node: 43": {"x": [null, 190], "y": [null, 695], "on": [null, 0]}, "Node: 44": {"x": [null, 298], "y": [null, 709], "on": [null, 0]}, "Node: 45": {"x": [null, 349], "y": [null, 709], "on": [null, 1]}, "Node: 46": {"x": [null, 450], "y": [null, 709], "on": [null, 0]}, "Node: 47": {"x": [null, 592], "y": [null, 634], "on": [null, 0]}, "Node: 48": {"x": [null, 665], "y": [null, 507], "on": [null, 0]}, "Node: 49": {"x": [null, 665], "y": [null, 427], "on": [null, 1]}, "Node: 50": {"x": [null, 665], "y": [null, 351], "on": [null, 0]}, "Node: 51": {"x": [null, 613], "y": [null, 218], "on": [null, 0]}, "Node: 52": {"x": [null, 524], "y": [null, 110], "on": [null, 0]}, "Node: 53": {"x": [null, 410], "y": [null, 32], "on": [null, 0]}, "Node: 54": {"x": [null, 285], "y": [null, -10], "on": [null, 0]}}, "Component 0: D": {"glyphName": ["D", null], "x": [0, null], "y": [0, null]}, "Component 2: uni030C": {"glyphName": ["uni030C", null], "x": [377, null], "y": [191, null]}, "Contour: 0": {"Node: 0": {"x": [null, 1119], "y": [null, 809], "on": [null, 1]}, "Node: 1": {"x": [null, 1148], "y": [null, 809], "on": [null, 0]}, "Node: 2": {"x": [null, 1196], "y": [null, 766], "on": [null, 0]}, "Node: 3": {"x": [null, 1196], "y": [null, 744], "on": [null, 1]}, "Node: 4": {"x": [null, 1196], "y": [null, 734], "on": [null, 0]}, "Node: 5": {"x": [null, 1186], "y": [null, 713], "on": [null, 0]}, "Node: 6": {"x": [null, 1149], "y": [null, 676], "on": [null, 0]}, "Node: 7": {"x": [null, 1108], "y": [null, 643], "on": [null, 1]}, "Node: 8": {"x": [null, 1079], "y": [null, 622], "on": [null, 0]}, "Node: 9": {"x": [null, 1041], "y": [null, 596], "on": [null, 0]}, "Node: 10": {"x": [null, 1006], "y": [null, 584], "on": [null, 0]}, "Node: 11": {"x": [null, 982], "y": [null, 584], "on": [null, 1]}, "Node: 12": {"x": [null, 957], "y": [null, 584], "on": [null, 0]}, "Node: 13": {"x": [null, 918], "y": [null, 608], "on": [null, 0]}, "Node: 14": {"x": [null, 900], "y": [null, 633], "on": [null, 1]}, "Node: 15": {"x": [null, 877], "y": [null, 662], "on": [null, 0]}, "Node: 16": {"x": [null, 838], "y": [null, 695], "on": [null, 0]}, "Node: 17": {"x": [null, 807], "y": [null, 717], "on": [null, 0]}, "Node: 18": {"x": [null, 790], "y": [null, 740], "on": [null, 0]}, "Node: 19": {"x": [null, 790], "y": [null, 758], "on": [null, 1]}, "Node: 20": {"x": [null, 790], "y": [null, 780], "on": [null, 0]}, "Node: 21": {"x": [null, 828], "y": [null, 805], "on": [null, 0]}, "Node: 22": {"x": [null, 863], "y": [null, 805], "on": [null, 1]}, "Node: 23": {"x": [null, 895], "y": [null, 805], "on": [null, 0]}, "Node: 24": {"x": [null, 957], "y": [null, 772], "on": [null, 0]}, "Node: 25": {"x": [null, 999], "y": [null, 725], "on": [null, 1]}, "Node: 26": {"x": [null, 1039], "y": [null, 765], "on": [null, 0]}, "Node: 27": {"x": [null, 1082], "y": [null, 800], "on": [null, 0]}, "Node: 28": {"x": [null, 1107], "y": [null, 809], "on": [null, 0]}}, "Contour: 3": {"Node: 73": {"x": [null, 922], "y": [null, -10], "on": [null, 1]}, "Node: 74": {"x": [null, 854], "y": [null, -10], "on": [null, 0]}, "Node: 75": {"x": [null, 780], "y": [null, 27], "on": [null, 0]}, "Node: 76": {"x": [null, 751], "y": [null, 87], "on": [null, 0]}, "Node: 77": {"x": [null, 751], "y": [null, 120], "on": [null, 1]}, "Node: 78": {"x": [null, 751], "y": [null, 165], "on": [null, 0]}, "Node: 79": {"x": [null, 784], "y": [null, 209], "on": [null, 0]}, "Node: 80": {"x": [null, 809], "y": [null, 217], "on": [null, 1]}, "Node: 81": {"x": [null, 925], "y": [null, 254], "on": [null, 0]}, "Node: 82": {"x": [null, 1043], "y": [null, 327], "on": [null, 0]}, "Node: 83": {"x": [null, 1066], "y": [null, 366], "on": [null, 1]}, "Node: 84": {"x": [null, 1045], "y": [null, 370], "on": [null, 0]}, "Node: 85": {"x": [null, 1009], "y": [null, 370], "on": [null, 1]}, "Node: 86": {"x": [null, 958], "y": [null, 370], "on": [null, 0]}, "Node: 87": {"x": [null, 884], "y": [null, 357], "on": [null, 0]}, "Node: 88": {"x": [null, 834], "y": [null, 345], "on": [null, 0]}, "Node: 89": {"x": [null, 818], "y": [null, 345], "on": [null, 1]}, "Node: 90": {"x": [null, 801], "y": [null, 345], "on": [null, 0]}, "Node: 91": {"x": [null, 769], "y": [null, 372], "on": [null, 0]}, "Node: 92": {"x": [null, 749], "y": [null, 415], "on": [null, 0]}, "Node: 93": {"x": [null, 749], "y": [null, 438], "on": [null, 1]}, "Node: 94": {"x": [null, 749], "y": [null, 461], "on": [null, 0]}, "Node: 95": {"x": [null, 768], "y": [null, 489], "on": [null, 0]}, "Node: 96": {"x": [null, 796], "y": [null, 496], "on": [null, 1]}, "Node: 97": {"x": [null, 851], "y": [null, 506], "on": [null, 0]}, "Node: 98": {"x": [null, 968], "y": [null, 518], "on": [null, 0]}, "Node: 99": {"x": [null, 1024], "y": [null, 518], "on": [null, 1]}, "Node: 100": {"x": [null, 1100], "y": [null, 518], "on": [null, 0]}, "Node: 101": {"x": [null, 1186], "y": [null, 477], "on": [null, 0]}, "Node: 102": {"x": [null, 1222], "y": [null, 413], "on": [null, 0]}, "Node: 103": {"x": [null, 1222], "y": [null, 377], "on": [null, 1]}, "Node: 104": {"x": [null, 1222], "y": [null, 347], "on": [null, 0]}, "Node: 105": {"x": [null, 1169], "y": [null, 265], "on": [null, 0]}, "Node: 106": {"x": [null, 1043], "y": [null, 181], "on": [null, 0]}, "Node: 107": {"x": [null, 932], "y": [null, 147], "on": [null, 1]}, "Node: 108": {"x": [null, 935], "y": [null, 136], "on": [null, 0]}, "Node: 109": {"x": [null, 948], "y": [null, 136], "on": [null, 1]}, "Node: 110": {"x": [null, 1003], "y": [null, 136], "on": [null, 0]}, "Node: 111": {"x": [null, 1111], "y": [null, 151], "on": [null, 0]}, "Node: 112": {"x": [null, 1178], "y": [null, 151], "on": [null, 1]}, "Node: 113": {"x": [null, 1224], "y": [null, 151], "on": [null, 0]}, "Node: 114": {"x": [null, 1275], "y": [null, 94], "on": [null, 0]}, "Node: 115": {"x": [null, 1275], "y": [null, 54], "on": [null, 1]}, "Node: 116": {"x": [null, 1275], "y": [null, 30], "on": [null, 0]}, "Node: 117": {"x": [null, 1247], "y": [null, 0], "on": [null, 0]}, "Node: 118": {"x": [null, 1216], "y": [null, 0], "on": [null, 1]}, "Node: 119": {"x": [null, 1177], "y": [null, 0], "on": [null, 0]}, "Node: 120": {"x": [null, 1075], "y": [null, -5], "on": [null, 0]}, "Node: 121": {"x": [null, 969], "y": [null, -10], "on": [null, 0]}}, "Component 1: z": {"glyphName": ["z", null], "x": [701, null], "y": [0, null]}}, "braceright.case": {"Contour: 0": {"Node: 50": {"y": [253, 252]}}}, "Uhorn": {"Contour: 0": {"Node: 48": {"y": [747, 746]}}}, "triangledownwhite": {"Contour: 0": {"Node: 8": {"y": [685, 684]}}}, "E": {"Contour: 0": {"Node: 47": {"x": [417, 418]}}}, "uni0418": {"Contour: 0": {"Node: 53": {"y": [172, 171]}}}, "guillemotright": {"Contour: 0": {"Node: 19": {"x": [422, 423]}}}, "zero.tnum": {"Contour: 1": {"Node: 24": {"x": [248, 249]}}}, "triangleleftwhite": {"Contour: 0": {"Node: 8": {"x": [721, 720]}}}, "uni04B2": {"Contour: 0": {"Node: 18": {"y": [678, 677]}}}, "overlaystrokeshortcmb": {"Contour: 0": {"Node: 9": {"x": [400, 401]}}}, "squarewhite": {"Contour: 0": {"Node: 26": {"x": [735, 736]}}}, "triangleupwhite": {"Contour: 0": {"Node: 26": {"x": [391, 392]}}}, "uni0419": {"Contour: 1": {"Node: 79": {"y": [172, 171]}}}, "oslash": {"Contour: 0": {"Node: 30": {"x": [637, 636]}, "Node: 3": {"y": [-17, -18]}}}, "uni20A6": {"Contour: 0": {"Node: 18": {"y": [441, 442]}}}, "eth": {"Contour: 0": {"Node: 30": {"x": [261, 262]}}}, "uni040B": {"Contour: 0": {"Node: 56": {"x": [717, 716]}}}, "quotedblright": {"Contour: 0": {"Node: 16": {"x": [196, 197]}}}, "divide": {"Contour: 2": {"Node: 42": {"y": [121, 122]}}}, "lslash": {"Contour: 0": {"Node: 9": {"x": [-19, -20]}}}, "uni045B": {"Contour: 0": {"Node: 45": {"x": [553, 554]}}}, "percent": {"Contour: 0": {"Node: 7": {"x": [167, 166]}}, "Contour: 1": {"Node: 33": {"x": [803, 802]}}}, "uni27E9": {"Contour: 0": {"Node: 6": {"y": [428, 427]}}}, "bracketangleright.case": {"Contour: 0": {"Node: 13": {"x": [54, 53]}}}, "uni049D": {"Contour: 0": {"Node: 25": {"y": [360, 359]}}}, "uni20B4": {"Contour: 0": {"Node: 40": {"x": [100, 101]}}}, "product": {"Contour: 0": {"Node: 3": {"x": [113, 112]}}}, "uni0474": {"Contour: 0": {"Node: 6": {"y": [486, 487]}}}, "uni04C0": {"Contour: 0": {"Node: 21": {"y": [113, 114]}}}, "greaterequal": {"Contour: 0": {"Node: 20": {"x": [204, 203]}}}, "uni0311": {"Contour: 0": {"Node: 16": {"y": [628, 629]}}}, "q": {"Contour: 0": {"Node: 19": {"x": [392, 393]}}}, "squareblack": {"Contour: 0": {"Node: 27": {"x": [735, 736]}}}, "backslash.case": {"Contour: 0": {"Node: 6": {"x": [9, 10]}}}, "uni2215": {"Contour: 0": {"Node: 5": {"x": [132, 131]}}}, "uni0442.loclBGR": {"Contour: 0": {"Node: 37": {"x": [881, 880]}}}, "uni044A": {"Contour: 0": {"Node: 20": {"y": [440, 439]}}}, "uni041B": {"Contour: 0": {"Node: 16": {"x": [476, 477]}}}, "uni0437.loclBGR": {"Contour: 0": {"Node: 8": {"x": [80, 81]}}}, "I": {"Contour: 0": {"Node: 33": {"x": [459, 460]}}}}}, "hmtx": {"metrics": {"lslash": {"1": [-19, -20]}}}, "name": {"3/3/1/1033": ["1.008;@;ShantellSansNormal-Bold", "1.009;@;ShantellSansNormal-Bold"], "5/3/1/1033": ["Version 1.008;[a672d596b]", "Version 1.009;[a7da0bfa3]"], "3/1/0/0": ["1.008;@;ShantellSansNormal-Bold", "1.009;@;ShantellSansNormal-Bold"], "5/1/0/0": ["Version 1.008;[a672d596b]", "Version 1.009;[a7da0bfa3]"]}, "head": {"checkSumAdjustment": [1203117706, 1418378694], "fontRevision": [1.00799560546875, 1.009002685546875], "modified": [3756071065, 3788217432]}};</script>
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
+	  
+	if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+// apply optional ot feats
+
+function buildFeatureList() {
+	var features = [
+		'aalt', 'c2sc', 'calt', 'case', 'cpsp', 'dlig', 'dnom',
+		'fina', 'frac', 'init', 'kern', 'liga', 'lnum', 'numr', 'onum',
+		'ordn', 'pnum', 'salt', 'sinf', 'smcp', 'sups',
+		'swsh', 'titl', 'tnum', 'zero', 'ss01', 'ss02',
+		'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08',
+		'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14',
+		'ss15', 'ss16', 'ss17', 'ss18', 'ss19', 'ss20'
+	]
+	
+	var otPanel = document.getElementById("ot-panel")
+	for (i=0; i<features.length; i++) {
+		var feat = features[i]
+		
+		var row = document.createElement("div");
+
+		var item = document.createElement("input");
+		item.type = "checkbox"
+		item.value = feat
+		item.classList.add("ot-checkbox")
+		var label = document.createElement("label")
+		label.textContent = feat
+
+		row.appendChild(item)
+		row.appendChild(label)
+
+		otPanel.appendChild(row)
+	}
+}
+
+buildFeatureList()
+
+
+function enableFeatures() {
+	var checkboxes = document.getElementsByClassName("ot-checkbox")
+	var res = []
+	var disableKerning = false
+	for (i=0; i<checkboxes.length; i++) {
+		if (checkboxes[i].checked === true) {
+			var checkbox = checkboxes[i]
+			res.push('"' + checkbox.value + '"')
+
+			if (checkbox.value === "kern") {
+				disableKerning = true
+			}
+		}
+	}	
+
+	var boxText = document.getElementsByClassName("box-text")
+	var otString = res.join(", ")
+	for (j=0; j<boxText.length; j++) {
+		boxText[j].style.fontFeatureSettings = otString
+		if (disableKerning === true) {
+			boxText[j].style.fontKerning = "none"
+		}
+	}
+}
+
+var otButton = document.getElementById("ot-button")
+otButton.addEventListener("click", function() {
+    otPanel = document.getElementById("ot-panel")
+    if (otPanel.style.display !== "block") {
+        otPanel.style.display = "block"
+    } else {
+        otPanel.style.display = "none"
+    }
+})
+var checkboxes = document.getElementsByClassName("ot-checkbox")
+for (i=0; i<checkboxes.length; i++) {
+	cb = checkboxes[i]
+	cb.addEventListener("click", enableFeatures)
+}	
+    
+  class Table {
+      constructor(data) {
+          this.data = {"root": data}
+          this.open("root")
+      }
+
+      createNode(key, label) {
+          let childElem = document.createElement("div")
+          let childKey = key
+          childElem.dataset.path = childKey
+          childElem.dataset.open = "0"
+          childElem.innerHTML = label
+          childElem.classList.add("node")
+          return childElem
+      }
+
+      close(key) {
+          let htmlParent = document.querySelector(`[data-path="${key}"]`)
+          let label = htmlParent.childNodes[0].nodeValue
+          htmlParent.replaceChildren()
+          htmlParent.textContent = label
+          htmlParent.dataset.open = "0"
+      }
+
+      open(key) {
+          let htmlParent = document.querySelector(`[data-path="${key}"]`)
+          htmlParent.dataset.open = "1"
+
+          // traverse to correct data level based on data-path
+          let path = key.split(".")
+          let data = this.data
+          for (var i=0; i<path.length; i++) {
+              data = data[path[i]];
+
+          }
+
+          // arrays containing two values are used as leaf nodes.
+          // The first item is the before value and the second
+          // is for after value.
+          if (Array.isArray(data)) {
+              let childElem = this.createNode("", "")
+              let before = document.createElement("span")
+              before.classList.add("attr-before")
+              before.textContent = String(data[0]) + " "
+              let after = document.createElement("span")
+              after.classList.add("attr-after")
+              after.textContent = String(data[1])
+              childElem.appendChild(before)
+              childElem.appendChild(after)
+              htmlParent.appendChild(childElem)
+              return
+          }
+          // Create next child nodes
+          for (var i in data) {
+              let childKey = key + "." + i
+              let childElem = this.createNode(childKey, i)
+              htmlParent.appendChild(childElem);
+              var that = this
+
+              // Toggle whether to open or close a node
+              childElem.addEventListener("click", function() {
+                  if (this.dataset.open === "0") {
+                      that.open(childKey)
+                      event.stopPropagation()
+                  } else {
+                      that.close(childKey)
+                      event.stopPropagation()
+                  }
+              })
+          }
+      }
+  }
+
+  let t = new Table(fontdiff, document.getElementById("difftable"))
+
+
+function wordBreaks() {
+  words = document.getElementsByClassName("cell-word")
+  res = []
+  prevTop = 0
+  for (i=0; i<words.length; i++) {
+      var word = words[i]
+      currentTop = word.getBoundingClientRect().top
+      if (currentTop > prevTop) {
+          res.push(i)
+      }
+      prevTop = currentTop
+  }
+  return res
+}
+
+async function insertBreaks() {
+  switchFonts()
+  await sleep(1)
+  breaksBefore = wordBreaks()
+  switchFonts()
+  await sleep(1)
+  breaksAfter = wordBreaks()
+
+
+  console.log(breaksBefore.length, breaksAfter.length)
+
+  if (breaksBefore.length >= breaksAfter.length) {
+    breaks = breaksBefore
+  } else {
+    breaks = breaksAfter
+  }
+
+  words = document.getElementsByClassName("cell-word")
+  breaks.forEach(function(i) {
+    if (i != 0) {
+      i = i
+    }
+    word = words[i]
+    spacer = document.createElement("div")
+    spacer.className = "spacer"
+    word.parentNode.insertBefore(spacer, word)
+  })
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+  
+insertBreaks()
+
+
+    </script>
+</html>

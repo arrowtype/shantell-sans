@@ -70,7 +70,7 @@ pos = (309,0);
 ref = commaaccentbelowcmb;
 }
 );
-width = 644;
+width = 634;
 },
 {
 anchors = (
@@ -109,9 +109,11 @@ pos = (401.355,700);
 layerId = master01;
 shapes = (
 {
+alignment = -1;
 ref = K;
 },
 {
+alignment = -1;
 pos = (310,0);
 ref = commaaccentbelowcmb;
 }
@@ -155,9 +157,11 @@ pos = (401.355,700);
 layerId = "0998268F-450B-429A-9175-FFA5E463F4E3";
 shapes = (
 {
+alignment = -1;
 ref = K;
 },
 {
+alignment = -1;
 pos = (310,0);
 ref = commaaccentbelowcmb;
 }

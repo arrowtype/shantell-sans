@@ -121,11 +121,11 @@ shapes = (
 ref = f;
 },
 {
-pos = (532,0);
+pos = (527,0);
 ref = f;
 }
 );
-width = 1064;
+width = 1059;
 },
 {
 anchors = (
@@ -242,9 +242,11 @@ pos = (919.249,750);
 layerId = "60E1EE18-36F5-475C-BAEC-6556E4A9959C";
 shapes = (
 {
+alignment = -1;
 ref = f;
 },
 {
+alignment = -1;
 pos = (532,0);
 ref = f;
 }

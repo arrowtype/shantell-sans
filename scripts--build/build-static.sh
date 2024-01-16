@@ -95,7 +95,7 @@ mkdir -p "$webDir/Static"
 
 find "$outputDir/static-TTF" -path '*.ttf' -print0 | while read -d $'\0' ttf
 do
-    woff2_compress "$ttf"
+    fonttools ttLib.woff2 compress "$ttf"
 
     woff2name=$(basename "${ttf/.ttf/.woff2}")
     mv "${ttf/.ttf/.woff2}" "$webDir/Static/$woff2name"

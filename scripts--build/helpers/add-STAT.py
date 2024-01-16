@@ -27,7 +27,7 @@ AXES = [
         ordering=1,
         values=[
             dict(value=0, name="Roman", flags=0x2, linkedValue=1),
-            dict(value=1,  name="Italic"),
+            dict(value=1, name="Italic"),
         ],
     ),
     dict(
@@ -60,17 +60,20 @@ AXES = [
     ),
 ]
 
-## adds 
+
+## adds
 def update_fvar(ttfont):
-    fvar = ttfont['fvar']
-    nametable = ttfont['name']
+    fvar = ttfont["fvar"]
+    nametable = ttfont["name"]
     family_name = nametable.getName(16, 3, 1, 1033) or nametable.getName(1, 3, 1, 1033)
     family_name = family_name.toUnicode().replace(" ", "")
     nametable.setName(family_name, 25, 3, 1, 1033)
     for instance in fvar.instances:
-        instance_style = nametable.getName(instance.subfamilyNameID, 3, 1, 1033).toUnicode()
+        instance_style = nametable.getName(
+            instance.subfamilyNameID, 3, 1, 1033
+        ).toUnicode()
         ps_name = f"{family_name}-{instance_style.replace(' ', '')}"
-        instance.postscriptNameID = _addName(nametable, ps_name, 256)
+        instance.postscriptNameID = _addName(ttfont, ps_name, 256)
 
 
 def main():
