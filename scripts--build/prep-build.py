@@ -782,16 +782,21 @@ def addToGdef(fonts, mainFont):
     """
 
     # get dict of bases for GDEF
-    baseDict = mainFont.lib["public.openTypeCategories"]
+    gdefCategories = mainFont.lib["public.openTypeCategories"]
 
     # add to it with new alts
     newBases = sorted([g.name for g in mainFont if ".alt" in g.name and "comb" not in g.name and "cmb" not in g.name and len(g.anchors) > 0])
     for newBaseName in newBases:
-        baseDict[newBaseName] = 'base'
+        gdefCategories[newBaseName] = 'base'
+
+    # add to it with new alt marks
+    newMarks = sorted([g.name for g in mainFont if ".alt" in g.name and any(x in g.name for x in ["comb","cmb"]) and len(g.anchors) > 0])
+    for newMarkName in newMarks:
+        gdefCategories[newMarkName] = 'mark'
 
     # now, put that updated dict into each of the fonts
     for font in fonts:
-        font.lib["public.openTypeCategories"] = baseDict
+        font.lib["public.openTypeCategories"] = gdefCategories
 
 
 
