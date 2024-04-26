@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3259";
 .formatVersion = 3;
 axes = (
 {
@@ -1615,10 +1615,6 @@ name = "UFO Filename";
 value = "shantell--light.ufo";
 },
 {
-name = "Master Name";
-value = Light;
-},
-{
 name = hheaAscender;
 value = 1020;
 },
@@ -1683,6 +1679,7 @@ name = underlinePosition;
 value = -105;
 }
 );
+iconName = Light;
 id = "DC44E50C-9AA1-421C-802C-D4D023281425";
 metricValues = (
 {
@@ -7566,10 +7563,6 @@ name = "UFO Filename";
 value = "shantell--extrabold.ufo";
 },
 {
-name = "Master Name";
-value = ExtraBold;
-},
-{
 name = hheaAscender;
 value = 1020;
 },
@@ -12451,10 +12444,6 @@ name = "UFO Filename";
 value = "shantell_organic--light.ufo";
 },
 {
-name = "Master Name";
-value = "Informal Light";
-},
-{
 name = hheaAscender;
 value = 1020;
 },
@@ -14355,10 +14344,6 @@ name = "UFO Filename";
 value = "shantell_organic--extrabold.ufo";
 },
 {
-name = "Master Name";
-value = "Informal ExtraBold";
-},
-{
 name = hheaAscender;
 value = 1020;
 },
@@ -16231,10 +16216,6 @@ name = "UFO Filename";
 value = "shantell--light_italic.ufo";
 },
 {
-name = "Master Name";
-value = "Light Italic";
-},
-{
 name = hheaAscender;
 value = 1020;
 },
@@ -16309,6 +16290,7 @@ pos = (403,785);
 showMeasurement = 1;
 }
 );
+iconName = Light;
 id = master01;
 metricValues = (
 {
@@ -17429,10 +17411,6 @@ customParameters = (
 {
 name = "UFO Filename";
 value = "shantell--extrabold_italic.ufo";
-},
-{
-name = "Master Name";
-value = "ExtraBold Italic";
 },
 {
 name = hheaAscender;
@@ -18607,10 +18585,6 @@ name = "UFO Filename";
 value = "shantell_organic--light_italic.ufo";
 },
 {
-name = "Master Name";
-value = "Informal Light Italic";
-},
-{
 name = hheaAscender;
 value = 1020;
 },
@@ -19768,10 +19742,6 @@ customParameters = (
 {
 name = "UFO Filename";
 value = "shantell_organic--extrabold_italic.ufo";
-},
-{
-name = "Master Name";
-value = "Informal ExtraBold Italic";
 },
 {
 name = hheaAscender;
@@ -142560,6 +142530,19 @@ key = designerURL;
 value = "https://github.com/arrowtype/shantell-sans";
 },
 {
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
 key = manufacturers;
 values = (
 {
@@ -142575,19 +142558,6 @@ value = "https://arrowtype.com";
 {
 key = vendorID;
 value = "@";
-},
-{
-key = licenses;
-values = (
-{
-language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
-}
-);
-},
-{
-key = licenseURL;
-value = "https://scripts.sil.org/OFL";
 }
 );
 unitsPerEm = 1000;

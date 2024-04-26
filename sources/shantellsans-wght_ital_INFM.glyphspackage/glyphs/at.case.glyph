@@ -15,7 +15,6 @@ com.typemytype.robofont.Image.Contrast = 1;
 com.typemytype.robofont.Image.Saturation = 1;
 com.typemytype.robofont.Image.Sharpness = 0.4;
 };
-vertWidth = 0;
 width = 848;
 },
 {
@@ -34,8 +33,7 @@ pos = (0,80);
 ref = at;
 }
 );
-vertWidth = 0;
-width = 920;
+width = 924;
 },
 {
 layerId = "365BB766-143C-4A52-A3A9-25E29A0F4411";
@@ -51,7 +49,6 @@ com.typemytype.robofont.Image.Contrast = 1;
 com.typemytype.robofont.Image.Saturation = 1;
 com.typemytype.robofont.Image.Sharpness = 0.4;
 };
-vertWidth = 0;
 width = 848;
 },
 {
@@ -70,18 +67,16 @@ pos = (0,80);
 ref = at;
 }
 );
-vertWidth = 0;
 width = 924;
 },
 {
 layerId = master01;
 shapes = (
 {
-pos = (19,92);
+pos = (18,92);
 ref = at;
 }
 );
-vertWidth = 0;
 width = 848;
 },
 {
@@ -100,18 +95,16 @@ pos = (16,80);
 ref = at;
 }
 );
-vertWidth = 0;
-width = 920;
+width = 924;
 },
 {
 layerId = "0998268F-450B-429A-9175-FFA5E463F4E3";
 shapes = (
 {
-pos = (19,92);
+pos = (18,92);
 ref = at;
 }
 );
-vertWidth = 0;
 width = 848;
 },
 {
@@ -130,7 +123,6 @@ pos = (16,80);
 ref = at;
 }
 );
-vertWidth = 0;
 width = 924;
 }
 );
