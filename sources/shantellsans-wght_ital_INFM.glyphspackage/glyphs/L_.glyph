@@ -11,8 +11,16 @@ name = bottom;
 pos = (289,0);
 },
 {
+name = center;
+pos = (182,350);
+},
+{
 name = top;
 pos = (157,700);
+},
+{
+name = topright;
+pos = (303,700);
 }
 );
 backgroundImage = {
@@ -72,8 +80,16 @@ name = bottom;
 pos = (290,0);
 },
 {
+name = center;
+pos = (182,350);
+},
+{
 name = top;
 pos = (184,700);
+},
+{
+name = topright;
+pos = (303,700);
 }
 );
 layerId = "FA16BA0A-39E2-4955-BC33-721AB190E0D3";
@@ -128,8 +144,16 @@ name = bottom;
 pos = (289,49.4);
 },
 {
+name = center;
+pos = (182,350);
+},
+{
 name = top;
 pos = (171.3,612.9);
+},
+{
+name = topright;
+pos = (286,627);
 }
 );
 layerId = "365BB766-143C-4A52-A3A9-25E29A0F4411";
@@ -184,8 +208,16 @@ name = bottom;
 pos = (264,52);
 },
 {
+name = center;
+pos = (182,350);
+},
+{
 name = top;
 pos = (158,644);
+},
+{
+name = topright;
+pos = (283,657);
 }
 );
 layerId = "5DCC2EB0-DF11-4824-93BF-E616AA6EE2C6";
@@ -240,8 +272,16 @@ name = bottom;
 pos = (240.328,0);
 },
 {
+name = center;
+pos = (207,350);
+},
+{
 name = top;
 pos = (248.329,700);
+},
+{
+name = topright;
+pos = (398,700);
 }
 );
 layerId = master01;
@@ -292,8 +332,16 @@ name = bottom;
 pos = (238.742,0);
 },
 {
+name = center;
+pos = (207,350);
+},
+{
 name = top;
 pos = (272.743,700);
+},
+{
+name = topright;
+pos = (398,700);
 }
 );
 layerId = "FAD04859-55EE-48D6-A0AA-73DE2A79512F";
@@ -344,8 +392,16 @@ name = bottom;
 pos = (250.117,49);
 },
 {
+name = center;
+pos = (235,335);
+},
+{
 name = top;
 pos = (244.918,613);
+},
+{
+name = topright;
+pos = (385,630);
 }
 );
 layerId = "0998268F-450B-429A-9175-FFA5E463F4E3";
@@ -396,8 +452,16 @@ name = bottom;
 pos = (223.24,52);
 },
 {
+name = center;
+pos = (216,389);
+},
+{
 name = top;
 pos = (235.641,644);
+},
+{
+name = topright;
+pos = (357,648);
 }
 );
 layerId = "60E1EE18-36F5-475C-BAEC-6556E4A9959C";
