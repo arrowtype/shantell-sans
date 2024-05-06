@@ -10,7 +10,6 @@ pos = (0,87);
 ref = openbullet;
 }
 );
-vertWidth = 0;
 width = 500;
 },
 {
@@ -21,7 +20,6 @@ pos = (0,89);
 ref = openbullet;
 }
 );
-vertWidth = 0;
 width = 500;
 },
 {
@@ -32,7 +30,6 @@ pos = (0,87);
 ref = openbullet;
 }
 );
-vertWidth = 0;
 width = 500;
 },
 {
@@ -43,51 +40,50 @@ pos = (0,89);
 ref = openbullet;
 }
 );
-vertWidth = 0;
 width = 500;
 },
 {
 layerId = master01;
 shapes = (
 {
+alignment = -1;
 pos = (0,87);
 ref = openbullet;
 }
 );
-vertWidth = 0;
 width = 500;
 },
 {
 layerId = "FAD04859-55EE-48D6-A0AA-73DE2A79512F";
 shapes = (
 {
+alignment = -1;
 pos = (0,89);
 ref = openbullet;
 }
 );
-vertWidth = 0;
 width = 500;
 },
 {
 layerId = "0998268F-450B-429A-9175-FFA5E463F4E3";
 shapes = (
 {
+alignment = -1;
 pos = (0,87);
 ref = openbullet;
 }
 );
-vertWidth = 0;
 width = 500;
 },
 {
 layerId = "60E1EE18-36F5-475C-BAEC-6556E4A9959C";
 shapes = (
 {
+alignment = -1;
 pos = (0,89);
 ref = openbullet;
 }
 );
-vertWidth = 0;
 width = 500;
 }
 );

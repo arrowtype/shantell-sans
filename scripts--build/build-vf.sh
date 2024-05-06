@@ -70,6 +70,8 @@ mkdir -p $outputDirGF
 fonttools varLib.instancer "$outputDir/$finalVfName" ital=0 --output "$outputDirGF/$finalVfNameRoman"
 fonttools varLib.instancer "$outputDir/$finalVfName" ital=1 --output "$outputDirGF/$finalVfNameItalic" --update-name-table
 
+python scripts--build/helpers/add-name25-suffix.py "$outputDirGF/$finalVfNameItalic" --suffix Italic --inplace
+
 # reduce set of instances for GF standards
 gftools fix-font "$outputDirGF/$finalVfNameRoman" -o "$outputDirGF/$finalVfNameRoman" --include-source-fixes
 gftools fix-font "$outputDirGF/$finalVfNameItalic" -o "$outputDirGF/$finalVfNameItalic" --include-source-fixes

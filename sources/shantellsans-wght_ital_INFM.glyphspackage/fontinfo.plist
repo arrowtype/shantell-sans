@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3259";
 .formatVersion = 3;
 axes = (
 {
@@ -1615,10 +1615,6 @@ name = "UFO Filename";
 value = "shantell--light.ufo";
 },
 {
-name = "Master Name";
-value = Light;
-},
-{
 name = hheaAscender;
 value = 1020;
 },
@@ -1683,6 +1679,7 @@ name = underlinePosition;
 value = -105;
 }
 );
+iconName = Light;
 id = "DC44E50C-9AA1-421C-802C-D4D023281425";
 metricValues = (
 {
@@ -7566,10 +7563,6 @@ name = "UFO Filename";
 value = "shantell--extrabold.ufo";
 },
 {
-name = "Master Name";
-value = ExtraBold;
-},
-{
 name = hheaAscender;
 value = 1020;
 },
@@ -7616,10 +7609,6 @@ value = 5;
 {
 name = "Master Icon Glyph Name";
 value = n;
-},
-{
-name = "Master Name";
-value = ExtraBold;
 },
 {
 name = strikeoutPosition;
@@ -12451,10 +12440,6 @@ name = "UFO Filename";
 value = "shantell_organic--light.ufo";
 },
 {
-name = "Master Name";
-value = "Informal Light";
-},
-{
 name = hheaAscender;
 value = 1020;
 },
@@ -14355,10 +14340,6 @@ name = "UFO Filename";
 value = "shantell_organic--extrabold.ufo";
 },
 {
-name = "Master Name";
-value = "Informal ExtraBold";
-},
-{
 name = hheaAscender;
 value = 1020;
 },
@@ -16231,10 +16212,6 @@ name = "UFO Filename";
 value = "shantell--light_italic.ufo";
 },
 {
-name = "Master Name";
-value = "Light Italic";
-},
-{
 name = hheaAscender;
 value = 1020;
 },
@@ -16309,6 +16286,7 @@ pos = (403,785);
 showMeasurement = 1;
 }
 );
+iconName = Light;
 id = master01;
 metricValues = (
 {
@@ -17431,10 +17409,6 @@ name = "UFO Filename";
 value = "shantell--extrabold_italic.ufo";
 },
 {
-name = "Master Name";
-value = "ExtraBold Italic";
-},
-{
 name = hheaAscender;
 value = 1020;
 },
@@ -17497,10 +17471,6 @@ value = 5;
 {
 name = "Master Icon Glyph Name";
 value = i;
-},
-{
-name = "Master Name";
-value = "ExtraBold Italic";
 },
 {
 name = strikeoutPosition;
@@ -18605,10 +18575,6 @@ customParameters = (
 {
 name = "UFO Filename";
 value = "shantell_organic--light_italic.ufo";
-},
-{
-name = "Master Name";
-value = "Informal Light Italic";
 },
 {
 name = hheaAscender;
@@ -19768,10 +19734,6 @@ customParameters = (
 {
 name = "UFO Filename";
 value = "shantell_organic--extrabold_italic.ufo";
-},
-{
-name = "Master Name";
-value = "Informal ExtraBold Italic";
 },
 {
 name = hheaAscender;
@@ -32373,27 +32335,6 @@ quotedblright = -184;
 quotesingle = -129;
 t = -39;
 };
-Lcaron = {
-A = -24;
-B = 7;
-D = 7;
-H = -4;
-K = 0;
-M = 4;
-N = 0;
-O = -14;
-R = 4;
-S = 0;
-U = 7;
-Uacute = 8;
-V = 0;
-a = -18;
-hyphen = -118;
-period = -11;
-u = -32;
-uacute = -30;
-v = -17;
-};
 Ldot = {
 T = -123;
 a = -12;
@@ -33582,39 +33523,6 @@ quotesingle = -39;
 rcaron = -10;
 thorn = 14;
 };
-dcaron = {
-H = 59;
-a = 0;
-aacute = 0;
-bracketright = 77;
-colon = 0;
-comma = -10;
-e = 0;
-exclam = 77;
-h = 27;
-hyphen = -57;
-i = 36;
-ij = 36;
-j = 56;
-k = 29;
-l = 64;
-ldot = 64;
-m = 9;
-n = 11;
-o = 0;
-parenright = 102;
-period = -12;
-question = 102;
-quotedbl = 83;
-quotedblleft = 73;
-quoteleft = 76;
-s = 0;
-t = 39;
-tcaron = 39;
-u = 0;
-uring = 28;
-zcaron = 0;
-};
 dcroat = {
 abreve = 0;
 abreveacute = 0;
@@ -34760,32 +34668,6 @@ quoteright = -49;
 quotesingle = -55;
 thorn = 18;
 };
-lcaron = {
-a = -43;
-b = -3;
-ccaron = -26;
-comma = -41;
-g = -58;
-h = -29;
-hyphen = -117;
-i = 0;
-ij = 0;
-j = 0;
-k = -28;
-m = -39;
-n = -38;
-ncaron = -28;
-o = -50;
-parenright = 26;
-period = -42;
-quotedblleft = 0;
-s = -37;
-scaron = -18;
-t = -22;
-u = -43;
-uacute = -40;
-v = -32;
-};
 ldot = {
 a = -16;
 e = -10;
@@ -35549,7 +35431,6 @@ k = -17;
 parenright = 0;
 scaron = -28;
 t = -20;
-tcaron = -20;
 uni0137 = -17;
 };
 scedilla = {
@@ -35715,43 +35596,6 @@ trademark = -79;
 };
 tbar = {
 tbar = -19;
-};
-tcaron = {
-a = -47;
-aacute = -47;
-b = -25;
-ccaron = -44;
-colon = -33;
-comma = -39;
-d = -46;
-exclam = -10;
-f = -25;
-f_f = -25;
-f_f_i = -25;
-f_f_l = -25;
-fi = -25;
-fl = -25;
-h = -34;
-hyphen = -145;
-i = -33;
-ij = -32;
-j = -21;
-k = -35;
-l = -28;
-ldot = -28;
-m = -39;
-n = -40;
-o = -57;
-period = -38;
-quotedbl = -14;
-quotedblleft = -24;
-quoteleft = -20;
-r = -41;
-s = -35;
-scaron = -28;
-t = -39;
-u = -45;
-uring = -40;
 };
 tcedilla = {
 ij = -26;
@@ -47520,27 +47364,6 @@ quotedblright = -144;
 quotesingle = -133;
 t = -9;
 };
-Lcaron = {
-A = 5;
-B = 64;
-D = 49;
-H = 30;
-K = 32;
-M = 45;
-N = 39;
-O = 17;
-R = 48;
-S = 43;
-U = 47;
-Uacute = 47;
-V = 44;
-a = 20;
-hyphen = -39;
-period = -4;
-u = 13;
-uacute = 13;
-v = 15;
-};
 Ldot = {
 T = -66;
 a = 13;
@@ -48730,37 +48553,8 @@ rcaron = -16;
 thorn = -5;
 };
 dcaron = {
-H = 181;
-a = 31;
-aacute = 31;
-bracketright = 207;
-colon = 76;
-comma = -22;
-e = 25;
-exclam = 189;
-h = 194;
-hyphen = -55;
-i = 176;
-ij = 176;
-j = 202;
-k = 185;
-l = 198;
-ldot = 198;
-m = 37;
-n = 48;
-o = 20;
-parenright = 208;
-period = -19;
-question = 223;
-quotedbl = 202;
-quotedblleft = 223;
-quoteleft = 233;
-s = 52;
-t = 188;
-tcaron = 188;
-u = 17;
-uring = 139;
-zcaron = 162;
+"@MMK_R_KO_k" = 106;
+"@MMK_R_KO_t" = 104;
 };
 dcroat = {
 abreve = 0;
@@ -49907,32 +49701,6 @@ quoteright = -54;
 quotesingle = -52;
 thorn = -2;
 };
-lcaron = {
-a = -64;
-b = 54;
-ccaron = -8;
-comma = -97;
-g = -50;
-h = 28;
-hyphen = -136;
-i = 19;
-ij = 19;
-j = 41;
-k = 19;
-m = -40;
-n = -39;
-ncaron = -23;
-o = -56;
-parenright = 42;
-period = -90;
-quotedblleft = 57;
-s = -38;
-scaron = 6;
-t = 22;
-u = -48;
-uacute = -48;
-v = -2;
-};
 ldot = {
 a = -4;
 e = 0;
@@ -50696,7 +50464,6 @@ k = 0;
 parenright = -34;
 scaron = 16;
 t = 0;
-tcaron = 0;
 uni0137 = 0;
 };
 scedilla = {
@@ -50862,43 +50629,6 @@ trademark = -59;
 };
 tbar = {
 tbar = 30;
-};
-tcaron = {
-a = 0;
-aacute = 0;
-b = 34;
-ccaron = 10;
-colon = 27;
-comma = -14;
-d = 0;
-exclam = 11;
-f = 6;
-f_f = 6;
-f_f_i = 6;
-f_f_l = 6;
-fi = 6;
-fl = 6;
-h = 12;
-hyphen = -73;
-i = 24;
-ij = 24;
-j = 36;
-k = 8;
-l = 9;
-ldot = 9;
-m = 11;
-n = 2;
-o = -7;
-period = -11;
-quotedbl = 6;
-quotedblleft = 22;
-quoteleft = 32;
-r = 18;
-s = 16;
-scaron = 34;
-t = 9;
-u = -2;
-uring = 0;
 };
 tcedilla = {
 ij = 6;
@@ -62667,27 +62397,6 @@ quotedblright = -206;
 quotesingle = -129;
 t = -35;
 };
-Lcaron = {
-A = -14;
-B = 12;
-D = 20;
-H = -17;
-K = 6;
-M = -3;
-N = 3;
-O = 0;
-R = 25;
-S = 0;
-U = -3;
-Uacute = -3;
-V = 0;
-a = -25;
-hyphen = -58;
-period = -36;
-u = -4;
-uacute = 0;
-v = 0;
-};
 Ldot = {
 T = -114;
 a = -12;
@@ -63876,39 +63585,6 @@ quotesingle = -38;
 rcaron = 0;
 thorn = 22;
 };
-dcaron = {
-H = 80;
-a = 0;
-aacute = 7;
-bracketright = 96;
-colon = 67;
-comma = -14;
-e = 30;
-exclam = 109;
-h = 93;
-hyphen = -58;
-i = 86;
-ij = 86;
-j = 160;
-k = 78;
-l = 102;
-ldot = 102;
-m = 24;
-n = 31;
-o = 7;
-parenright = 103;
-period = -16;
-question = 101;
-quotedbl = 89;
-quotedblleft = 89;
-quoteleft = 99;
-s = 80;
-t = 78;
-tcaron = 78;
-u = 25;
-uring = 73;
-zcaron = 97;
-};
 dcroat = {
 abreve = 21;
 abreveacute = 24;
@@ -65054,32 +64730,6 @@ quoteright = -86;
 quotesingle = -108;
 thorn = 0;
 };
-lcaron = {
-a = -14;
-b = 53;
-ccaron = 57;
-comma = -8;
-g = -3;
-h = 54;
-hyphen = -87;
-i = 50;
-ij = 50;
-j = 96;
-k = 38;
-m = 0;
-n = 0;
-ncaron = 37;
-o = -14;
-parenright = 35;
-period = -9;
-quotedblleft = 0;
-s = 37;
-scaron = 62;
-t = 31;
-u = 3;
-uacute = 3;
-v = 0;
-};
 ldot = {
 a = 0;
 e = 26;
@@ -65843,7 +65493,6 @@ k = 0;
 parenright = -8;
 scaron = 27;
 t = 0;
-tcaron = 0;
 uni0137 = 0;
 };
 scedilla = {
@@ -66009,43 +65658,6 @@ trademark = -56;
 };
 tbar = {
 tbar = 2;
-};
-tcaron = {
-a = -28;
-aacute = -24;
-b = 34;
-ccaron = 15;
-colon = 6;
-comma = -30;
-d = -5;
-exclam = 32;
-f = 26;
-f_f = 26;
-f_f_i = 26;
-f_f_l = 26;
-fi = 26;
-fl = 26;
-h = 27;
-hyphen = -67;
-i = 9;
-ij = 10;
-j = 93;
-k = 11;
-l = 38;
-ldot = 38;
-m = 0;
-n = 0;
-o = -10;
-period = -45;
-quotedbl = 23;
-quotedblleft = 0;
-quoteleft = 5;
-r = 0;
-s = 35;
-scaron = 47;
-t = 8;
-u = 0;
-uring = 10;
 };
 tcedilla = {
 ij = -4;
@@ -77814,27 +77426,6 @@ quotedblright = -148;
 quotesingle = -132;
 t = -18;
 };
-Lcaron = {
-A = 41;
-B = 77;
-D = 51;
-H = 67;
-K = 46;
-M = 7;
-N = 36;
-O = 32;
-R = 79;
-S = 52;
-U = 50;
-Uacute = 50;
-V = 70;
-a = 25;
-hyphen = -32;
-period = -42;
-u = 53;
-uacute = 53;
-v = 58;
-};
 Ldot = {
 T = -49;
 a = 30;
@@ -79024,37 +78615,8 @@ rcaron = 0;
 thorn = -6;
 };
 dcaron = {
-H = 174;
-a = 14;
-aacute = 15;
-bracketright = 158;
-colon = 58;
-comma = -40;
-e = 37;
-exclam = 187;
-h = 109;
-hyphen = -55;
-i = 63;
-ij = 63;
-j = 80;
-k = 103;
-l = 125;
-ldot = 125;
-m = 0;
-n = 10;
-o = 0;
-parenright = 166;
-period = -33;
-question = 205;
-quotedbl = 189;
-quotedblleft = 221;
-quoteleft = 231;
-s = 82;
-t = 119;
-tcaron = 119;
-u = 13;
-uring = 48;
-zcaron = 51;
+"@MMK_R_KO_k" = 100;
+"@MMK_R_KO_t" = 120;
 };
 dcroat = {
 abreve = -4;
@@ -80201,32 +79763,6 @@ quoteright = -99;
 quotesingle = -97;
 thorn = 0;
 };
-lcaron = {
-a = -25;
-b = 18;
-ccaron = 0;
-comma = -37;
-g = -20;
-h = 7;
-hyphen = -83;
-i = 0;
-ij = 0;
-j = 0;
-k = 2;
-m = 0;
-n = 0;
-ncaron = 0;
-o = -34;
-parenright = 16;
-period = -37;
-quotedblleft = 70;
-s = 18;
-scaron = 18;
-t = 7;
-u = 0;
-uacute = 0;
-v = -6;
-};
 ldot = {
 a = 31;
 e = 32;
@@ -80990,7 +80526,6 @@ k = 0;
 parenright = -52;
 scaron = 9;
 t = 0;
-tcaron = 0;
 uni0137 = 0;
 };
 scedilla = {
@@ -81156,43 +80691,6 @@ trademark = -62;
 };
 tbar = {
 tbar = 27;
-};
-tcaron = {
-a = 6;
-aacute = 6;
-b = 30;
-ccaron = 0;
-colon = 31;
-comma = -38;
-d = 0;
-exclam = 40;
-f = 28;
-f_f = 28;
-f_f_i = 28;
-f_f_l = 28;
-fi = 28;
-fl = 28;
-h = 18;
-hyphen = -61;
-i = 0;
-ij = 0;
-j = 18;
-k = 19;
-l = 28;
-ldot = 28;
-m = 6;
-n = 13;
-o = 0;
-period = -39;
-quotedbl = 38;
-quotedblleft = 41;
-quoteleft = 51;
-r = 12;
-s = 54;
-scaron = 54;
-t = 24;
-u = 24;
-uring = 24;
 };
 tcedilla = {
 ij = -42;
@@ -92965,27 +92463,6 @@ quotedblright = -204;
 quotesingle = -129;
 t = -35;
 };
-Lcaron = {
-A = -17;
-B = 0;
-D = 25;
-H = -10;
-K = 0;
-M = 22;
-N = 0;
-O = -14;
-R = 23;
-S = 12;
-U = -6;
-Uacute = -6;
-V = -21;
-a = -31;
-hyphen = -102;
-period = -31;
-u = -29;
-uacute = -29;
-v = -28;
-};
 Ldot = {
 T = -119;
 a = -3;
@@ -94174,39 +93651,6 @@ quotesingle = -35;
 rcaron = -7;
 thorn = 17;
 };
-dcaron = {
-H = 0;
-a = -40;
-aacute = -40;
-bracketright = 0;
-colon = -11;
-comma = -43;
-e = -45;
-exclam = 19;
-h = -2;
-hyphen = -91;
-i = 0;
-ij = 0;
-j = 0;
-k = 0;
-l = 0;
-ldot = 0;
-m = -25;
-n = -24;
-o = -60;
-parenright = 0;
-period = -52;
-question = 6;
-quotedbl = 0;
-quotedblleft = 0;
-quoteleft = 0;
-s = -14;
-t = 0;
-tcaron = 0;
-u = -44;
-uring = 0;
-zcaron = 0;
-};
 dcroat = {
 abreve = 6;
 abreveacute = 7;
@@ -95352,32 +94796,6 @@ quoteright = -44;
 quotesingle = -57;
 thorn = 6;
 };
-lcaron = {
-a = -32;
-b = 26;
-ccaron = 0;
-comma = -24;
-g = -15;
-h = 0;
-hyphen = -97;
-i = 0;
-ij = 0;
-j = 15;
-k = 0;
-m = -5;
-n = 0;
-ncaron = 4;
-o = -21;
-parenright = 25;
-period = -32;
-quotedblleft = 0;
-s = 0;
-scaron = 11;
-t = 11;
-u = -17;
-uacute = -17;
-v = -30;
-};
 ldot = {
 a = -4;
 e = 0;
@@ -96141,7 +95559,6 @@ k = 0;
 parenright = 0;
 scaron = 0;
 t = -3;
-tcaron = -3;
 uni0137 = 0;
 };
 scedilla = {
@@ -96307,43 +95724,6 @@ trademark = -59;
 };
 tbar = {
 tbar = 0;
-};
-tcaron = {
-a = -32;
-aacute = -27;
-b = 6;
-ccaron = -14;
-colon = 0;
-comma = -29;
-d = -27;
-exclam = 29;
-f = 0;
-f_f = 0;
-f_f_i = 0;
-f_f_l = 0;
-fi = 0;
-fl = 0;
-h = -8;
-hyphen = -102;
-i = 0;
-ij = 0;
-j = 0;
-k = -6;
-l = 0;
-ldot = 0;
-m = 0;
-n = -24;
-o = -31;
-period = -37;
-quotedbl = 0;
-quotedblleft = -10;
-quoteleft = -5;
-r = -24;
-s = -13;
-scaron = 3;
-t = -10;
-u = -29;
-uring = -14;
 };
 tcedilla = {
 ij = 0;
@@ -108116,27 +107496,6 @@ quotedblright = -144;
 quotesingle = -140;
 t = -13;
 };
-Lcaron = {
-A = 0;
-B = 36;
-D = 31;
-H = 2;
-K = 5;
-M = 19;
-N = 15;
-O = 0;
-R = 22;
-S = 20;
-U = 15;
-Uacute = 15;
-V = 18;
-a = 0;
-hyphen = -29;
-period = -16;
-u = -3;
-uacute = -3;
-v = 0;
-};
 Ldot = {
 T = -61;
 a = 14;
@@ -109326,37 +108685,8 @@ rcaron = -10;
 thorn = -3;
 };
 dcaron = {
-H = -4;
-a = -66;
-aacute = -58;
-bracketright = 21;
-colon = -12;
-comma = -128;
-e = -59;
-exclam = 0;
-h = 19;
-hyphen = -120;
-i = 3;
-ij = 3;
-j = 39;
-k = 10;
-l = 10;
-ldot = 12;
-m = -27;
-n = -30;
-o = -48;
-parenright = 20;
-period = -127;
-question = 32;
-quotedbl = 0;
-quotedblleft = 34;
-quoteleft = 42;
-s = -34;
-t = 0;
-tcaron = 0;
-u = -25;
-uring = -9;
-zcaron = 0;
+"@MMK_R_KO_k" = 120;
+"@MMK_R_KO_t" = 130;
 };
 dcroat = {
 abreve = -3;
@@ -110503,32 +109833,6 @@ quoteright = -59;
 quotesingle = -59;
 thorn = 0;
 };
-lcaron = {
-a = -43;
-b = 40;
-ccaron = 0;
-comma = -78;
-g = -37;
-h = 26;
-hyphen = -106;
-i = 23;
-ij = 23;
-j = 49;
-k = 18;
-m = -21;
-n = -20;
-ncaron = -9;
-o = -40;
-parenright = 21;
-period = -70;
-quotedblleft = 35;
-s = -13;
-scaron = 20;
-t = 0;
-u = -24;
-uacute = -24;
-v = -4;
-};
 ldot = {
 a = 0;
 e = 0;
@@ -111292,7 +110596,6 @@ k = 0;
 parenright = -18;
 scaron = 14;
 t = -5;
-tcaron = -4;
 uni0137 = 0;
 };
 scedilla = {
@@ -111458,43 +110761,6 @@ trademark = -57;
 };
 tbar = {
 tbar = 27;
-};
-tcaron = {
-a = 0;
-aacute = 0;
-b = 32;
-ccaron = 7;
-colon = 20;
-comma = -17;
-d = 0;
-exclam = 14;
-f = 5;
-f_f = 5;
-f_f_i = 5;
-f_f_l = 5;
-fi = 5;
-fl = 5;
-h = 19;
-hyphen = -42;
-i = 20;
-ij = 20;
-j = 41;
-k = 8;
-l = 5;
-ldot = 7;
-m = 3;
-n = 0;
-o = 0;
-period = -10;
-quotedbl = 0;
-quotedblleft = 17;
-quoteleft = 27;
-r = 15;
-s = 18;
-scaron = 41;
-t = 10;
-u = 0;
-uring = 0;
 };
 tcedilla = {
 ij = 0;
@@ -123265,27 +122531,6 @@ quotedblright = -187;
 quotesingle = -129;
 t = -29;
 };
-Lcaron = {
-A = 0;
-B = 19;
-D = 23;
-H = 0;
-K = 22;
-M = 8;
-N = 24;
-O = 5;
-R = 48;
-S = 14;
-U = 0;
-Uacute = 0;
-V = 0;
-a = -17;
-hyphen = -59;
-period = -18;
-u = 9;
-uacute = 9;
-v = 0;
-};
 Ldot = {
 T = -121;
 a = 0;
@@ -124474,39 +123719,6 @@ quotesingle = -20;
 rcaron = 0;
 thorn = 15;
 };
-dcaron = {
-H = 26;
-a = -40;
-aacute = -29;
-bracketright = 37;
-colon = 11;
-comma = -37;
-e = -7;
-exclam = 51;
-h = 47;
-hyphen = -81;
-i = 36;
-ij = 37;
-j = 141;
-k = 36;
-l = 73;
-ldot = 68;
-m = -6;
-n = 0;
-o = -36;
-parenright = 44;
-period = -43;
-question = 43;
-quotedbl = 49;
-quotedblleft = 48;
-quoteleft = 58;
-s = 30;
-t = 29;
-tcaron = 24;
-u = -24;
-uring = 45;
-zcaron = 74;
-};
 dcroat = {
 abreve = 15;
 abreveacute = 16;
@@ -125652,32 +124864,6 @@ quoteright = -75;
 quotesingle = -87;
 thorn = 5;
 };
-lcaron = {
-a = -9;
-b = 71;
-ccaron = 56;
-comma = -9;
-g = 18;
-h = 59;
-hyphen = -103;
-i = 67;
-ij = 67;
-j = 156;
-k = 46;
-m = 3;
-n = 7;
-ncaron = 58;
-o = 0;
-parenright = 48;
-period = -7;
-quotedblleft = 14;
-s = 72;
-scaron = 85;
-t = 48;
-u = 23;
-uacute = 23;
-v = 0;
-};
 ldot = {
 a = 56;
 e = 63;
@@ -126441,7 +125627,6 @@ k = 5;
 parenright = 0;
 scaron = 54;
 t = 2;
-tcaron = 0;
 uni0137 = 5;
 };
 scedilla = {
@@ -126607,43 +125792,6 @@ trademark = -46;
 };
 tbar = {
 tbar = 13;
-};
-tcaron = {
-a = 10;
-aacute = 10;
-b = 50;
-ccaron = 36;
-colon = 30;
-comma = -24;
-d = 0;
-exclam = 45;
-f = 41;
-f_f = 41;
-f_f_i = 41;
-f_f_l = 41;
-fi = 41;
-fl = 41;
-h = 52;
-hyphen = -72;
-i = 22;
-ij = 22;
-j = 128;
-k = 29;
-l = 60;
-ldot = 54;
-m = 13;
-n = 20;
-o = -8;
-period = -29;
-quotedbl = 49;
-quotedblleft = 19;
-quoteleft = 30;
-r = 0;
-s = 53;
-scaron = 59;
-t = 16;
-u = 0;
-uring = 40;
 };
 tcedilla = {
 ij = 15;
@@ -138468,27 +137616,6 @@ quotedblright = -149;
 quotesingle = -130;
 t = -27;
 };
-Lcaron = {
-A = 31;
-B = 63;
-D = 51;
-H = 52;
-K = 46;
-M = 5;
-N = 47;
-O = 31;
-R = 83;
-S = 70;
-U = 56;
-Uacute = 56;
-V = 54;
-a = 25;
-hyphen = -33;
-period = -32;
-u = 44;
-uacute = 45;
-v = 38;
-};
 Ldot = {
 T = -49;
 a = 32;
@@ -139722,37 +138849,8 @@ rcaron = -2;
 thorn = 2;
 };
 dcaron = {
-H = 22;
-a = -84;
-aacute = -66;
-bracketright = 21;
-colon = -32;
-comma = -131;
-e = -55;
-exclam = 29;
-h = 40;
-hyphen = -143;
-i = 0;
-ij = 0;
-j = 48;
-k = 34;
-l = 38;
-ldot = 41;
-m = -59;
-n = -61;
-o = -72;
-parenright = 23;
-period = -125;
-question = 31;
-quotedbl = 24;
-quotedblleft = 64;
-quoteleft = 74;
-s = 0;
-t = 46;
-tcaron = 50;
-u = -39;
-uring = 0;
-zcaron = 6;
+"@MMK_R_KO_k" = 120;
+"@MMK_R_KO_t" = 136;
 };
 dcroat = {
 abreve = 0;
@@ -140937,32 +140035,6 @@ quoteright = -96;
 quotesingle = -77;
 thorn = 0;
 };
-lcaron = {
-a = -37;
-b = 58;
-ccaron = 13;
-comma = -45;
-g = -31;
-h = 50;
-hyphen = -95;
-i = 24;
-ij = 24;
-j = 78;
-k = 40;
-m = -35;
-n = -21;
-ncaron = 0;
-o = -44;
-parenright = 30;
-period = -31;
-quotedblleft = 68;
-s = 35;
-scaron = 43;
-t = 50;
-u = -21;
-uacute = -21;
-v = 0;
-};
 ldot = {
 a = 17;
 e = 34;
@@ -141731,7 +140803,6 @@ k = 0;
 parenright = -44;
 scaron = 14;
 t = -3;
-tcaron = 0;
 uni0137 = 0;
 };
 scedilla = {
@@ -141897,43 +140968,6 @@ trademark = -69;
 };
 tbar = {
 tbar = 10;
-};
-tcaron = {
-a = 3;
-aacute = 4;
-b = 64;
-ccaron = 30;
-colon = 33;
-comma = -35;
-d = 0;
-exclam = 52;
-f = 42;
-f_f = 42;
-f_f_i = 42;
-f_f_l = 42;
-fi = 42;
-fl = 42;
-h = 52;
-hyphen = -38;
-i = 23;
-ij = 23;
-j = 71;
-k = 44;
-l = 44;
-ldot = 48;
-m = 0;
-n = 18;
-o = 0;
-period = -20;
-quotedbl = 29;
-quotedblleft = 39;
-quoteleft = 49;
-r = 19;
-s = 59;
-scaron = 66;
-t = 44;
-u = 23;
-uring = 36;
 };
 tcedilla = {
 ij = -36;
@@ -142560,6 +141594,19 @@ key = designerURL;
 value = "https://github.com/arrowtype/shantell-sans";
 },
 {
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
 key = manufacturers;
 values = (
 {
@@ -142575,19 +141622,6 @@ value = "https://arrowtype.com";
 {
 key = vendorID;
 value = "@";
-},
-{
-key = licenses;
-values = (
-{
-language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
-}
-);
-},
-{
-key = licenseURL;
-value = "https://scripts.sil.org/OFL";
 }
 );
 unitsPerEm = 1000;
