@@ -40,3 +40,15 @@ function zipit {
 zipit "$releaseDir"
 
 rm -r "$releaseDir"
+
+# also make new zip of "fonts/shantell_sans-for-googlefonts"
+
+googlefontsVarFontDir="fonts/shantell_sans-for-googlefonts"
+
+rm -rf "$googlefontsVarFontDir.zip"
+
+zipit "$googlefontsVarFontDir"
+
+
+
+
