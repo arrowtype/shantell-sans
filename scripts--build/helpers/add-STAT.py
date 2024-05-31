@@ -22,15 +22,6 @@ AXES = [
         ],
     ),
     dict(
-        tag="ital",
-        name="Italic",
-        ordering=1,
-        values=[
-            dict(value=0, name="Roman", flags=0x2, linkedValue=1),
-            dict(value=1, name="Italic"),
-        ],
-    ),
-    dict(
         tag="BNCE",
         name="Bounce",
         ordering=2,
@@ -56,6 +47,15 @@ AXES = [
         values=[
             dict(value=0, name="Default", flags=0x2),
             dict(value=100, name="Max Spacing"),
+        ],
+    ),
+    dict(
+        tag="ital",
+        name="Italic",
+        ordering=1,
+        values=[
+            dict(value=0, name="Roman", flags=0x2, linkedValue=1),
+            dict(value=1, name="Italic"),
         ],
     ),
 ]
