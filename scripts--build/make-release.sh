@@ -1,5 +1,7 @@
 # !/bin/bash
 
+set -e
+
 version=$(cat "version.txt")
 
 fontDir="fonts/Shantell Sans"
@@ -13,8 +15,9 @@ rm -rf ${releaseDir// /_}.zip
 cp -r "$fontDir" "$releaseDir"
 
 # copy in supporting documents
-cp "scripts--build/release-data/ABOUT" "$releaseDir/1 - About"
-cp "OFL.txt" "$releaseDir/2 - License"
+cp "scripts--build/release-data/thanks.pdf" "$releaseDir/0 - Hello.pdf"
+cp "scripts--build/release-data/ABOUT" "$releaseDir/1 - About.txt"
+cp "OFL.txt" "$releaseDir/2 - License.txt"
 
 # remove TTFs for simplicity
 rm -rf "$releaseDir/Desktop/Static/TTF"
